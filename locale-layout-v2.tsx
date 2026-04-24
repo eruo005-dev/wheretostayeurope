@@ -1,0 +1,67 @@
+// apps/web/src/app/(frontend)/[locale]/layout.tsx
+//
+// REPLACES the earlier shipped locale-layout.tsx.
+// Now owns <html> and <body> — enables per-locale `lang` attribute (required for
+// hreflang cross-validation and assistive-tech language detection).
+
+import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
+
+import "@/app/globals.css";
+import { ConsentProvider } from "@/components/legal/ConsentProvider";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { AffiliateDisclosureBanner } from "@/components/legal/AffiliateDisclosure";
+import { SITE_NAME, SITE_URL, SITE_TAGLINE, LEGAL_ENTITY_NAME } from "@/lib/seo/config";
+
+const SUPPORTED_LOCALES = ["en", "de", "fr", "es"] as const;
+type Locale = (typeof SUPPORTED_LOCALES)[number];
+
+type Props = {
+  children: ReactNode;
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateStaticParams() {
+  return SUPPORTED_LOCALES.map((locale) => ({ locale }));
+}
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE_NAME,
+  legalName: LEGAL_ENTITY_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.png`,
+  sameAs: [],
+};
+
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale: rawLocale } = await params;
+  if (!SUPPORTED_LOCALES.includes(rawLocale as Locale)) notFound();
+  const locale = rawLocale as Locale;
+
+  return (
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta name="description" content={SITE_TAGLINE} />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
+      <body>
+        <a href="#main" className="wts-skip-link">Skip to content</a>
+        <ConsentProvider>
+          <AffiliateDisclosureBanner locale={locale} />
+          <Header locale={locale} />
+          <div id="main">{children}</div>
+          <Footer locale={locale} />
+        </ConsentProvider>
+      </body>
+    </html>
+  );
+}

@@ -1,0 +1,261 @@
+{
+  "name": "WTS: Booking.com property sync",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 3 * * *" }
+          ]
+        }
+      },
+      "id": "trigger-cron",
+      "name": "Nightly 03:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [80, 300]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT id, name, slug, \"bookingDestId\", \"countryId\"\nFROM cities\nWHERE \"bookingDestId\" IS NOT NULL\nORDER BY tier NULLS LAST, name;",
+        "additionalFields": {}
+      },
+      "id": "pg-fetch-cities",
+      "name": "Fetch active cities",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [300, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "batchSize": 5,
+        "options": { "reset": false }
+      },
+      "id": "split-in-batches",
+      "name": "Batch of 5 cities",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [520, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://distribution-xml.booking.com/json/bookings.getHotels",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpBasicAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "city_ids", "value": "={{ $json[\"bookingDestId\"] }}" },
+            { "name": "rows", "value": "500" },
+            { "name": "language_code", "value": "en" },
+            { "name": "extras", "value": "hotel_info,hotel_description,hotel_photos,hotel_facilities,room_info" }
+          ]
+        },
+        "options": {
+          "retry": { "enabled": true, "maxTries": 3, "waitBetweenTries": 10000 },
+          "timeout": 30000
+        }
+      },
+      "id": "http-booking-api",
+      "name": "Booking.com API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [740, 300],
+      "credentials": {
+        "httpBasicAuth": { "id": "__BOOKING_CREDENTIAL_ID__", "name": "Booking.com Affiliate API" }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const cityId = $('Batch of 5 cities').item.json.id;\nconst items = $input.item.json.hotels ?? [];\n\nfunction priceBand(estimate) {\n  if (!estimate) return null;\n  if (estimate < 80)  return '$';\n  if (estimate < 180) return '$$';\n  if (estimate < 350) return '$$$';\n  return '$$$$';\n}\n\nfunction typeFromBooking(hotelTypeId) {\n  const map = {\n    204: 'hotel', 203: 'apartment', 208: 'guesthouse',\n    216: 'hostel', 219: 'aparthotel', 220: 'villa', 222: 'bnb'\n  };\n  return map[hotelTypeId] ?? 'hotel';\n}\n\nreturn items.map((h) => ({\n  json: {\n    booking_id: String(h.hotel_id),\n    city_id: cityId,\n    name: h.name,\n    type: typeFromBooking(h.hoteltype_id),\n    star_rating: h.class ?? null,\n    review_score: h.review_score ?? null,\n    review_count: h.number_of_reviews ?? null,\n    price_estimate_eur: h.min_total_price ? Math.round(h.min_total_price) : null,\n    price_band: priceBand(h.min_total_price),\n    lat: h.location?.latitude ?? null,\n    lng: h.location?.longitude ?? null,\n    amenities: (h.hotel_facilities ?? []).map(f => String(f).toLowerCase().replace(/\\s+/g, '_')),\n    affiliate_url_template: h.url ?? null,\n    image_primary_url: h.main_photo_url ?? null,\n    external_ids: JSON.stringify({ booking: h.hotel_id }),\n    last_synced_at: new Date().toISOString(),\n    is_active: true\n  }\n}));"
+      },
+      "id": "fn-transform",
+      "name": "Transform → properties shape",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [960, 300]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO properties (\n  booking_id, city_id, name, type, star_rating, review_score, review_count,\n  price_estimate_eur, price_band, lat, lng, amenities, affiliate_url_template,\n  image_primary_url, external_ids, last_synced_at, is_active\n) VALUES (\n  $1, $2::uuid, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15::jsonb, $16::timestamptz, $17\n)\nON CONFLICT (booking_id) DO UPDATE SET\n  name = EXCLUDED.name,\n  type = EXCLUDED.type,\n  star_rating = EXCLUDED.star_rating,\n  review_score = EXCLUDED.review_score,\n  review_count = EXCLUDED.review_count,\n  price_estimate_eur = EXCLUDED.price_estimate_eur,\n  price_band = EXCLUDED.price_band,\n  lat = EXCLUDED.lat,\n  lng = EXCLUDED.lng,\n  amenities = EXCLUDED.amenities,\n  affiliate_url_template = EXCLUDED.affiliate_url_template,\n  image_primary_url = EXCLUDED.image_primary_url,\n  external_ids = properties.external_ids || EXCLUDED.external_ids,\n  last_synced_at = EXCLUDED.last_synced_at,\n  is_active = true,\n  updated_at = now()\nRETURNING id, city_id, booking_id;",
+        "additionalFields": {
+          "queryReplacement": "={{ $json.booking_id }},{{ $json.city_id }},{{ $json.name }},{{ $json.type }},{{ $json.star_rating }},{{ $json.review_score }},{{ $json.review_count }},{{ $json.price_estimate_eur }},{{ $json.price_band }},{{ $json.lat }},{{ $json.lng }},{{ $json.amenities }},{{ $json.affiliate_url_template }},{{ $json.image_primary_url }},{{ $json.external_ids }},{{ $json.last_synced_at }},{{ $json.is_active }}"
+        }
+      },
+      "id": "pg-upsert",
+      "name": "Upsert properties",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1180, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "UPDATE properties p\nSET neighborhood_id = n.id\nFROM neighborhoods n\nWHERE p.booking_id = $1\n  AND n.city_id = p.city_id\n  AND p.lat IS NOT NULL AND p.lng IS NOT NULL\n  AND n.polygon IS NOT NULL\n  AND ST_Contains(n.polygon::geometry, ST_SetSRID(ST_MakePoint(p.lng, p.lat), 4326));",
+        "additionalFields": {
+          "queryReplacement": "={{ $json.booking_id }}"
+        }
+      },
+      "id": "pg-match-neighborhood",
+      "name": "Match neighborhood (PostGIS)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1400, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "UPDATE properties\nSET is_active = false, updated_at = now()\nWHERE city_id = $1::uuid\n  AND last_synced_at < now() - interval '14 days'\n  AND is_active = true\nRETURNING id;",
+        "additionalFields": {
+          "queryReplacement": "={{ $('Batch of 5 cities').item.json.id }}"
+        }
+      },
+      "id": "pg-soft-delete",
+      "name": "Soft-delete stale properties",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1620, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT c.slug AS city_slug, co.slug AS country_slug\nFROM cities c\nJOIN countries co ON co.id = c.\"countryId\"\nWHERE c.id = $1::uuid;",
+        "additionalFields": {
+          "queryReplacement": "={{ $('Batch of 5 cities').item.json.id }}"
+        }
+      },
+      "id": "pg-get-slugs",
+      "name": "Get city + country slugs",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1840, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.SITE_URL }}/api/revalidate",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "X-Revalidate-Secret", "value": "={{ $env.REVALIDATE_SECRET }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "type", "value": "city" },
+            { "name": "slug", "value": "={{ $json.city_slug }}" },
+            { "name": "countrySlug", "value": "={{ $json.country_slug }}" }
+          ]
+        },
+        "options": {
+          "retry": { "enabled": true, "maxTries": 3, "waitBetweenTries": 5000 },
+          "timeout": 10000
+        }
+      },
+      "id": "http-revalidate",
+      "name": "Revalidate Next.js ISR",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2060, 300]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ingest_runs (source, city_id, started_at, finished_at, properties_seen, properties_upserted, status)\nVALUES ('booking', $1::uuid, $2::timestamptz, now(), $3, $4, 'success');",
+        "additionalFields": {
+          "queryReplacement": "={{ $('Batch of 5 cities').item.json.id }},{{ $('Batch of 5 cities').context[\"noItemsLeft\"] ? new Date().toISOString() : new Date().toISOString() }},{{ ($('Transform → properties shape').all() || []).length }},{{ ($('Upsert properties').all() || []).length }}"
+        }
+      },
+      "id": "pg-log-run",
+      "name": "Log ingest run",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [2280, 300],
+      "credentials": {
+        "postgres": { "id": "__POSTGRES_CREDENTIAL_ID__", "name": "WTS Postgres" }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 30,
+        "unit": "seconds"
+      },
+      "id": "wait",
+      "name": "Throttle 30s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [2500, 300],
+      "webhookId": "wts-booking-sync-wait"
+    }
+  ],
+  "connections": {
+    "Nightly 03:00": {
+      "main": [[{ "node": "Fetch active cities", "type": "main", "index": 0 }]]
+    },
+    "Fetch active cities": {
+      "main": [[{ "node": "Batch of 5 cities", "type": "main", "index": 0 }]]
+    },
+    "Batch of 5 cities": {
+      "main": [[{ "node": "Booking.com API", "type": "main", "index": 0 }]]
+    },
+    "Booking.com API": {
+      "main": [[{ "node": "Transform → properties shape", "type": "main", "index": 0 }]]
+    },
+    "Transform → properties shape": {
+      "main": [[{ "node": "Upsert properties", "type": "main", "index": 0 }]]
+    },
+    "Upsert properties": {
+      "main": [[{ "node": "Match neighborhood (PostGIS)", "type": "main", "index": 0 }]]
+    },
+    "Match neighborhood (PostGIS)": {
+      "main": [[{ "node": "Soft-delete stale properties", "type": "main", "index": 0 }]]
+    },
+    "Soft-delete stale properties": {
+      "main": [[{ "node": "Get city + country slugs", "type": "main", "index": 0 }]]
+    },
+    "Get city + country slugs": {
+      "main": [[{ "node": "Revalidate Next.js ISR", "type": "main", "index": 0 }]]
+    },
+    "Revalidate Next.js ISR": {
+      "main": [[{ "node": "Log ingest run", "type": "main", "index": 0 }]]
+    },
+    "Log ingest run": {
+      "main": [[{ "node": "Throttle 30s", "type": "main", "index": 0 }]]
+    },
+    "Throttle 30s": {
+      "main": [[{ "node": "Batch of 5 cities", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": ""
+  },
+  "staticData": null,
+  "pinData": {},
+  "tags": ["wts", "booking", "ingest", "nightly"],
+  "meta": {
+    "instanceId": "",
+    "description": "Booking.com property sync for WhereToStayEurope. Pulls active cities from Postgres, batches 5-at-a-time, calls Booking affiliate API, transforms to properties schema, upserts, matches neighborhoods via PostGIS ST_Contains, soft-deletes stale rows, calls the Next.js /api/revalidate endpoint to invalidate ISR, logs the run. Throttled 30s between batches to stay under Booking's rate limit. Import: n8n → Workflows → Import from File. Before first run: set n8n credentials __POSTGRES_CREDENTIAL_ID__ and __BOOKING_CREDENTIAL_ID__. Set env vars SITE_URL and REVALIDATE_SECRET on the n8n instance."
+  }
+}

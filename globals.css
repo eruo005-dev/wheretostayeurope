@@ -1,0 +1,101 @@
+/* apps/web/src/app/globals.css */
+
+/* Reset + base */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #0f172a;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body { min-height: 100vh; }
+
+img, video { max-width: 100%; height: auto; display: block; }
+
+a { color: #2563eb; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.2; margin: 0 0 0.5em; color: #0f172a; }
+
+/* Long-form editorial prose — apply to .wts-prose container */
+.wts-prose p { margin: 0 0 1em; font-size: 16px; line-height: 1.65; color: #1e293b; }
+.wts-prose h2 { font-size: 26px; margin: 2em 0 0.5em; }
+.wts-prose h3 { font-size: 20px; margin: 1.5em 0 0.4em; }
+.wts-prose h4 { font-size: 17px; margin: 1.2em 0 0.4em; }
+.wts-prose ul, .wts-prose ol { margin: 0 0 1em; padding-left: 1.5em; }
+.wts-prose ul li, .wts-prose ol li { margin-bottom: 0.4em; }
+.wts-prose blockquote {
+  margin: 1em 0;
+  padding: 0.75em 1em;
+  border-left: 3px solid #2563eb;
+  background: #f8fafc;
+  color: #334155;
+  font-style: italic;
+}
+.wts-prose code {
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.wts-prose hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2em 0; }
+.wts-prose strong { font-weight: 700; color: #0f172a; }
+.wts-prose a { color: #2563eb; }
+
+/* Skip-to-content link for accessibility */
+.wts-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 8px 16px;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 4px;
+  z-index: 9999;
+  text-decoration: none;
+}
+.wts-skip-link:focus {
+  left: 8px;
+  top: 8px;
+}
+
+/* Focus ring — visible for keyboard users */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skeleton shimmer (used by loading.tsx) */
+@keyframes wts-skeleton-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Klaro overrides — matched to site palette */
+@import "klaro/dist/klaro.css";
+
+.klaro .cookie-modal .cm-modal,
+.klaro .context-notice,
+.klaro .cookie-notice {
+  border-radius: 8px;
+  font-family: inherit;
+}
+.klaro .cookie-notice {
+  max-width: 520px;
+  bottom: 16px;
+  right: 16px;
+}
+.klaro .cookie-modal .cm-btn.cm-btn-success { background: #0f172a; }
+.klaro .cookie-modal .cm-btn.cm-btn-accept-all { background: #2563eb; }
+
+/* Print — strip chrome, keep content readable */
+@media print {
+  header, footer, .wts-skip-link, .klaro { display: none !important; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #64748b; }
+}

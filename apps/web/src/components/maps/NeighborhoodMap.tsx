@@ -1,11 +1,10 @@
 // apps/web/src/components/maps/NeighborhoodMap.tsx
-// Mapbox GL interactive neighborhood boundary map.
-// Client component. Requires NEXT_PUBLIC_MAPBOX_TOKEN.
-// Expects neighborhoods with GeoJSON polygons (from neighborhoods.polygonGeojson).
+//
+// Mapbox GL neighborhood boundary map with consent gating.
 
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -13,16 +12,17 @@ export type NeighborhoodFeature = {
   name: string;
   slug: string;
   polygon: GeoJSON.Polygon | GeoJSON.MultiPolygon;
-  centroid?: [number, number]; // [lng, lat]
+  centroid?: [number, number];
 };
 
 type Props = {
-  cityCenter: [number, number]; // [lng, lat]
+  cityCenter: [number, number];
   neighborhoods: NeighborhoodFeature[];
   highlightedSlug?: string;
   onSelect?: (slug: string) => void;
-  height?: number;
-  initialZoom?: number;
+  height?: number | string;
+  staticFallbackUrl?: string;
+  hasConsent?: boolean;
 };
 
 export function NeighborhoodMap({
@@ -31,18 +31,23 @@ export function NeighborhoodMap({
   highlightedSlug,
   onSelect,
   height = 480,
-  initialZoom = 12,
+  staticFallbackUrl,
+  hasConsent,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  if (!hasConsent) {
+    return <StaticFallback height={height} staticFallbackUrl={staticFallbackUrl} />;
+  }
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
-
     const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
     if (!token) {
       // eslint-disable-next-line no-console
-      console.error("[NeighborhoodMap] NEXT_PUBLIC_MAPBOX_TOKEN is missing.");
+      console.error("[NeighborhoodMap] NEXT_PUBLIC_MAPBOX_TOKEN missing");
       return;
     }
     mapboxgl.accessToken = token;
@@ -51,15 +56,12 @@ export function NeighborhoodMap({
       container: containerRef.current,
       style: "mapbox://styles/mapbox/light-v11",
       center: cityCenter,
-      zoom: initialZoom,
+      zoom: 12,
       attributionControl: true,
-      cooperativeGestures: true, // mobile-friendly: two-finger pan on mobile, ctrl+scroll on desktop
     });
 
-    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right");
-
     map.on("load", () => {
-      const featureCollection: GeoJSON.FeatureCollection = {
+      const fc: GeoJSON.FeatureCollection = {
         type: "FeatureCollection",
         features: neighborhoods.map((n) => ({
           type: "Feature",
@@ -67,8 +69,7 @@ export function NeighborhoodMap({
           geometry: n.polygon,
         })),
       };
-
-      map.addSource("neighborhoods", { type: "geojson", data: featureCollection });
+      map.addSource("neighborhoods", { type: "geojson", data: fc });
 
       map.addLayer({
         id: "neighborhoods-fill",
@@ -78,8 +79,8 @@ export function NeighborhoodMap({
           "fill-color": [
             "case",
             ["==", ["get", "slug"], highlightedSlug ?? ""],
-            "#2563eb", // blue-600
-            "#94a3b8", // slate-400
+            "#2563eb",
+            "#94a3b8",
           ],
           "fill-opacity": [
             "case",
@@ -94,10 +95,7 @@ export function NeighborhoodMap({
         id: "neighborhoods-line",
         type: "line",
         source: "neighborhoods",
-        paint: {
-          "line-color": "#1e293b",
-          "line-width": 1.2,
-        },
+        paint: { "line-color": "#1e293b", "line-width": 1.2 },
       });
 
       map.addLayer({
@@ -108,7 +106,6 @@ export function NeighborhoodMap({
           "text-field": ["get", "name"],
           "text-size": 13,
           "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-          "text-allow-overlap": false,
         },
         paint: {
           "text-color": "#0f172a",
@@ -121,7 +118,6 @@ export function NeighborhoodMap({
         const slug = e.features?.[0]?.properties?.slug as string | undefined;
         if (slug && onSelect) onSelect(slug);
       });
-
       map.on("mouseenter", "neighborhoods-fill", () => {
         map.getCanvas().style.cursor = "pointer";
       });
@@ -131,49 +127,101 @@ export function NeighborhoodMap({
     });
 
     mapRef.current = map;
+    setMounted(true);
 
     return () => {
       map.remove();
       mapRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // mount once; data changes handled in effects below
+  }, []);
 
-  // Update highlighted neighborhood without full remount
   useEffect(() => {
     const map = mapRef.current;
-    if (!map) return;
-    const apply = () => {
-      if (!map.getLayer("neighborhoods-fill")) return;
+    if (!map || !mounted) return;
+    try {
       map.setPaintProperty("neighborhoods-fill", "fill-color", [
         "case",
         ["==", ["get", "slug"], highlightedSlug ?? ""],
         "#2563eb",
         "#94a3b8",
-      ]);
+      ] as never);
       map.setPaintProperty("neighborhoods-fill", "fill-opacity", [
         "case",
         ["==", ["get", "slug"], highlightedSlug ?? ""],
         0.5,
         0.22,
-      ]);
-    };
-    if (map.isStyleLoaded()) apply();
-    else map.once("load", apply);
-  }, [highlightedSlug]);
+      ] as never);
+    } catch {
+      // layer not yet ready
+    }
+  }, [highlightedSlug, mounted]);
 
   return (
     <div
       ref={containerRef}
+      style={{ width: "100%", height, borderRadius: 8, overflow: "hidden" }}
+      role="region"
+      aria-label="Interactive neighborhood map"
+    />
+  );
+}
+
+function StaticFallback({
+  height,
+  staticFallbackUrl,
+}: {
+  height: number | string;
+  staticFallbackUrl?: string;
+}) {
+  return (
+    <div
+      role="region"
+      aria-label="Neighborhood map (consent required)"
       style={{
         width: "100%",
         height,
         borderRadius: 8,
         overflow: "hidden",
-        border: "1px solid #e2e8f0",
+        background: staticFallbackUrl
+          ? `url(${staticFallbackUrl}) center/cover no-repeat`
+          : "#f1f5f9",
+        position: "relative",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: 14,
+        color: "#334155",
       }}
-      role="region"
-      aria-label="Interactive neighborhood map"
-    />
+    >
+      <div
+        style={{
+          background: "rgba(255,255,255,0.92)",
+          padding: "12px 16px",
+          borderRadius: 6,
+          maxWidth: 360,
+          textAlign: "center",
+        }}
+      >
+        Interactive map needs map cookies.{" "}
+        <button
+          type="button"
+          onClick={() => {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            (window as any).klaro?.show?.();
+          }}
+          style={{
+            color: "#2563eb",
+            textDecoration: "underline",
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            padding: 0,
+          }}
+        >
+          Enable
+        </button>
+      </div>
+    </div>
   );
 }

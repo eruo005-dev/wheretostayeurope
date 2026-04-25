@@ -1,8 +1,4 @@
 // apps/web/src/components/visualizations/PriceBandHistogram.tsx
-// Two variants:
-//   - Full chart for city pillar pages (bars with labels, tooltip)
-//   - Compact inline strip for neighborhood H3 blocks (4-segment bar)
-// Data source: aggregate COUNT(*) GROUP BY price_band from `properties` table.
 
 "use client";
 
@@ -21,42 +17,37 @@ type PriceBand = "$" | "$$" | "$$$" | "$$$$";
 type Props = {
   counts: Record<PriceBand, number>;
   compact?: boolean;
-  heightPx?: number;
+  locale?: "en" | "de" | "fr" | "es";
 };
 
-const BAND_LABEL: Record<PriceBand, string> = {
-  "$": "Budget",
-  "$$": "Mid",
-  "$$$": "Upper-mid",
-  "$$$$": "Luxury",
+const BAND_LABELS: Record<string, Record<PriceBand, string>> = {
+  en: { "$": "Budget", "$$": "Mid", "$$$": "Upper-mid", "$$$$": "Luxury" },
+  de: { "$": "Günstig", "$$": "Mittel", "$$$": "Gehoben", "$$$$": "Luxus" },
+  fr: { "$": "Économique", "$$": "Moyen", "$$$": "Supérieur", "$$$$": "Luxe" },
+  es: { "$": "Económico", "$$": "Medio", "$$$": "Alto", "$$$$": "Lujo" },
 };
 
-const BAND_COLOR: Record<PriceBand, string> = {
-  "$": "#10b981",    // emerald-500
-  "$$": "#3b82f6",   // blue-500
-  "$$$": "#8b5cf6",  // violet-500
-  "$$$$": "#ec4899", // pink-500
+const COLORS: Record<PriceBand, string> = {
+  "$": "#10b981",
+  "$$": "#3b82f6",
+  "$$$": "#8b5cf6",
+  "$$$$": "#ec4899",
 };
 
-const BANDS: PriceBand[] = ["$", "$$", "$$$", "$$$$"];
-
-export function PriceBandHistogram({ counts, compact = false, heightPx = 200 }: Props) {
-  const total = BANDS.reduce((sum, b) => sum + (counts[b] ?? 0), 0);
+export function PriceBandHistogram({ counts, compact = false, locale = "en" }: Props) {
+  const total = (["$", "$$", "$$$", "$$$$"] as const).reduce((a, b) => a + (counts[b] ?? 0), 0);
   if (total === 0) return null;
 
-  const data = BANDS.map((band) => ({
+  const labels = BAND_LABELS[locale] ?? BAND_LABELS.en;
+
+  const data = (["$", "$$", "$$$", "$$$$"] as const).map((band) => ({
     band,
-    label: BAND_LABEL[band],
+    label: labels[band],
     count: counts[band] ?? 0,
     pct: Math.round(((counts[band] ?? 0) / total) * 100),
   }));
 
   if (compact) {
-    const aria = data
-      .filter((d) => d.count > 0)
-      .map((d) => `${d.label} ${d.pct}%`)
-      .join(", ");
-
     return (
       <div
         style={{
@@ -65,20 +56,17 @@ export function PriceBandHistogram({ counts, compact = false, heightPx = 200 }: 
           borderRadius: 4,
           overflow: "hidden",
           marginTop: 8,
-          border: "1px solid #e2e8f0",
+          background: "#f1f5f9",
         }}
         role="img"
-        aria-label={`Price distribution in this neighborhood: ${aria}`}
+        aria-label={`Price distribution: ${data.map((d) => `${d.label} ${d.pct}%`).join(", ")}`}
       >
         {data.map((d) =>
           d.count > 0 ? (
             <div
               key={d.band}
-              title={`${d.label} (${d.band}): ${d.count} properties (${d.pct}%)`}
-              style={{
-                flex: d.count,
-                background: BAND_COLOR[d.band],
-              }}
+              title={`${d.label}: ${d.count} (${d.pct}%)`}
+              style={{ flex: d.count, background: COLORS[d.band] }}
             />
           ) : null
         )}
@@ -88,27 +76,23 @@ export function PriceBandHistogram({ counts, compact = false, heightPx = 200 }: 
 
   return (
     <div
-      style={{ width: "100%", height: heightPx }}
+      style={{ width: "100%", height: 220 }}
       role="img"
-      aria-label={`Price band distribution: ${data
-        .map((d) => `${d.label}: ${d.count} properties`)
-        .join(", ")}`}
+      aria-label={`Price band distribution: ${data.map((d) => `${d.label}: ${d.count} properties`).join(", ")}`}
     >
       <ResponsiveContainer>
         <BarChart data={data} margin={{ top: 16, right: 16, left: 0, bottom: 8 }}>
-          <XAxis dataKey="label" tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
-          <YAxis tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
+          <XAxis dataKey="label" tick={{ fontSize: 12 }} />
+          <YAxis tick={{ fontSize: 12 }} allowDecimals={false} />
           <Tooltip
-            cursor={{ fill: "rgba(148, 163, 184, 0.12)" }}
-            formatter={(v: number, _n, p: { payload: (typeof data)[number] }) => [
-              `${v} properties (${p.payload.pct}%)`,
+            formatter={(v: number, _n, p: { payload?: { pct: number } }) => [
+              `${v} properties (${p?.payload?.pct ?? 0}%)`,
               "Count",
             ]}
-            labelFormatter={(label: string) => label}
           />
           <Bar dataKey="count" radius={[4, 4, 0, 0]}>
             {data.map((d) => (
-              <Cell key={d.band} fill={BAND_COLOR[d.band]} />
+              <Cell key={d.band} fill={COLORS[d.band]} />
             ))}
           </Bar>
         </BarChart>

@@ -1,0 +1,11 @@
+{
+  "name": "wheretostayeurope",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev":   "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "generate:types": "pnpm --filter web generate:types"
+  }
+}

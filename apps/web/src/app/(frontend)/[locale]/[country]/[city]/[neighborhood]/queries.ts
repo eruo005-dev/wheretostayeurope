@@ -338,14 +338,20 @@ export async function getRelatedNeighborhoods({
 export async function getAllPublishedNeighborhoodPaths(): Promise<
   Array<{ locale: string; country: string; city: string; neighborhood: string }>
 > {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return [];
 
-  const res = await payload.find({
-    collection: "neighborhoods",
-    limit: 10_000,
-    depth: 2,
-    pagination: false,
-  });
+  let res;
+  try {
+    const payload = await getPayload({ config: payloadConfig });
+    res = await payload.find({
+      collection: "neighborhoods",
+      limit: 10_000,
+      depth: 2,
+      pagination: false,
+    });
+  } catch {
+    return [];
+  }
 
   const out: Array<{ locale: string; country: string; city: string; neighborhood: string }> = [];
   const locales: Locale[] = ["en", "de", "fr", "es"];

@@ -140,23 +140,29 @@ export async function getCitiesInCountry({
 export async function getAllPublishedCountryPaths(): Promise<
   Array<{ locale: string; country: string }>
 > {
-  const payload = await getPayload({ config: payloadConfig });
+  // Build-time fallback: if no DB connection, skip pre-generation.
+  // Pages render on-demand at runtime (dynamicParams = true).
+  if (!process.env.DATABASE_URL) return [];
 
-  const res = await payload.find({
-    collection: "countries",
-    limit: 100,
-    depth: 0,
-    pagination: false,
-  });
-
-  const out: Array<{ locale: string; country: string }> = [];
-  const locales: Locale[] = ["en", "de", "fr", "es"];
-  for (const c of res.docs) {
-    for (const locale of locales) {
-      out.push({ locale, country: String(c.slug) });
+  try {
+    const payload = await getPayload({ config: payloadConfig });
+    const res = await payload.find({
+      collection: "countries",
+      limit: 100,
+      depth: 0,
+      pagination: false,
+    });
+    const out: Array<{ locale: string; country: string }> = [];
+    const locales: Locale[] = ["en", "de", "fr", "es"];
+    for (const c of res.docs) {
+      for (const locale of locales) {
+        out.push({ locale, country: String(c.slug) });
+      }
     }
+    return out;
+  } catch {
+    return [];
   }
-  return out;
 }
 
 /** Extract the first paragraph of a Lexical rich-text blob as plain text (for snippets). */

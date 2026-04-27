@@ -244,14 +244,20 @@ export async function getCityPriceDistribution({
 export async function getAllPublishedCityPaths(): Promise<
   Array<{ locale: string; country: string; city: string }>
 > {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return [];
 
-  const res = await payload.find({
-    collection: "cities",
-    limit: 1000,
-    depth: 1,
-    pagination: false,
-  });
+  let res;
+  try {
+    const payload = await getPayload({ config: payloadConfig });
+    res = await payload.find({
+      collection: "cities",
+      limit: 1000,
+      depth: 1,
+      pagination: false,
+    });
+  } catch {
+    return [];
+  }
 
   const out: Array<{ locale: string; country: string; city: string }> = [];
   const locales: Locale[] = ["en", "de", "fr", "es"];

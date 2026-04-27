@@ -158,8 +158,9 @@ const COPY: Record<string, {
   },
 };
 
-async function getHomeHero(locale: string) {
-  if (!process.env.DATABASE_URL) return null;
+async function getHomeHero(_locale: string) {
+  return null; // static blog mode - hero uses gradient fallback
+  // eslint-disable-next-line @typescript-eslint/no-unreachable, no-unreachable
   let payload;
   try {
     payload = await getPayload({ config: payloadConfig });

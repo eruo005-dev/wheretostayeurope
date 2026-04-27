@@ -1,8 +1,9 @@
 // apps/web/src/app/(frontend)/[locale]/queries.ts
+//
+// STATIC version — no Payload, no DB. All data lives in this file.
+// To add countries/cities, edit the arrays below or migrate to MDX content files.
 
 import "server-only";
-import { getPayload } from "payload";
-import payloadConfig from "@/payload.config";
 
 type Locale = "en" | "de" | "fr" | "es";
 
@@ -34,134 +35,62 @@ export type HomeRecentGuide = {
   updatedAt: string;
 };
 
-export async function getHomeFeaturedCountries(locale: Locale): Promise<HomeFeaturedCountry[]> {
-  if (!process.env.DATABASE_URL) return [];
-  let payload;
-  try {
-    payload = await getPayload({ config: payloadConfig });
-  } catch { return []; }
+const COUNTRIES = [
+  { slug: "france",                  name: "France",                 iso: "FR", cities: 5 },
+  { slug: "spain",                   name: "Spain",                  iso: "ES", cities: 5 },
+  { slug: "italy",                   name: "Italy",                  iso: "IT", cities: 5 },
+  { slug: "germany",                 name: "Germany",                iso: "DE", cities: 4 },
+  { slug: "united-kingdom",          name: "United Kingdom",         iso: "GB", cities: 3 },
+  { slug: "netherlands",             name: "Netherlands",            iso: "NL", cities: 3 },
+  { slug: "turkey",                  name: "Turkey",                 iso: "TR", cities: 4 },
+  { slug: "portugal",                name: "Portugal",               iso: "PT", cities: 2 },
+  { slug: "greece",                  name: "Greece",                 iso: "GR", cities: 3 },
+  { slug: "croatia",                 name: "Croatia",                iso: "HR", cities: 3 },
+  { slug: "bosnia-and-herzegovina",  name: "Bosnia and Herzegovina", iso: "BA", cities: 2 },
+  { slug: "czech-republic",          name: "Czech Republic",         iso: "CZ", cities: 2 },
+  { slug: "hungary",                 name: "Hungary",                iso: "HU", cities: 1 },
+  { slug: "poland",                  name: "Poland",                 iso: "PL", cities: 4 },
+  { slug: "austria",                 name: "Austria",                iso: "AT", cities: 3 },
+  { slug: "switzerland",             name: "Switzerland",            iso: "CH", cities: 3 },
+  { slug: "belgium",                 name: "Belgium",                iso: "BE", cities: 4 },
+  { slug: "denmark",                 name: "Denmark",                iso: "DK", cities: 2 },
+  { slug: "sweden",                  name: "Sweden",                 iso: "SE", cities: 3 },
+  { slug: "norway",                  name: "Norway",                 iso: "NO", cities: 2 },
+];
 
-  // Phase 1 countries only
-  const phase1 = ["france", "spain", "italy", "germany", "united-kingdom", "netherlands", "turkey", "bosnia-and-herzegovina", "croatia", "greece", "czech-republic", "hungary", "poland", "portugal", "switzerland", "austria", "belgium", "denmark", "sweden", "norway"];
+const FEATURED_CITIES = [
+  { slug: "paris",     name: "Paris",     countrySlug: "france",  countryName: "France"  },
+  { slug: "rome",      name: "Rome",      countrySlug: "italy",   countryName: "Italy"   },
+  { slug: "barcelona", name: "Barcelona", countrySlug: "spain",   countryName: "Spain"   },
+  { slug: "amsterdam", name: "Amsterdam", countrySlug: "netherlands", countryName: "Netherlands" },
+  { slug: "istanbul",  name: "Istanbul",  countrySlug: "turkey",  countryName: "Turkey"  },
+  { slug: "lisbon",    name: "Lisbon",    countrySlug: "portugal", countryName: "Portugal" },
+  { slug: "porto",     name: "Porto",     countrySlug: "portugal", countryName: "Portugal" },
+  { slug: "berlin",    name: "Berlin",    countrySlug: "germany", countryName: "Germany" },
+];
 
-  const res = await payload.find({
-    collection: "countries",
-    where: { slug: { in: phase1 } },
-    limit: 20,
-    depth: 0,
-    locale,
-    fallbackLocale: "en",
-  });
-
-  // Count cities per country (bulk-count in a single pass — avoids N+1)
-  const countryIds = res.docs.map((c) => c.id);
-  const cityCountsRes =
-    countryIds.length > 0
-      ? await payload.find({
-          collection: "cities",
-          where: { country: { in: countryIds as string[] } },
-          limit: 1000,
-          depth: 0,
-          pagination: false,
-        })
-      : { docs: [] };
-
-  const counts = new Map<string, number>();
-  for (const c of cityCountsRes.docs) {
-    const cid = typeof c.country === "object" ? String((c.country as { id: string }).id) : String(c.country);
-    counts.set(cid, (counts.get(cid) ?? 0) + 1);
-  }
-
-  return res.docs.map((c) => ({
-    id: String(c.id),
-    slug: String(c.slug),
-    name: String(c.name),
-    isoCode: String(c.isoCode ?? ""),
-    cityCount: counts.get(String(c.id)) ?? 0,
+export async function getHomeFeaturedCountries(_locale: Locale): Promise<HomeFeaturedCountry[]> {
+  return COUNTRIES.map((c, i) => ({
+    id: String(i + 1),
+    slug: c.slug,
+    name: c.name,
+    isoCode: c.iso,
+    cityCount: c.cities,
   }));
 }
 
-export async function getHomeFeaturedCities(locale: Locale, limit = 8): Promise<HomeFeaturedCity[]> {
-  if (!process.env.DATABASE_URL) return [];
-  let payload;
-  try {
-    payload = await getPayload({ config: payloadConfig });
-  } catch { return []; }
-
-  const res = await payload.find({
-    collection: "cities",
-    where: { tier: { equals: "1" } },
-    limit,
-    depth: 1,
-    sort: "name",
-    locale,
-    fallbackLocale: "en",
-  });
-
-  // Pull a hero image per city in parallel (approved media matching entity)
-  const results = await Promise.all(
-    res.docs.map(async (c) => {
-      const countryObj = typeof c.country === "object" ? (c.country as { slug?: string; name?: string }) : null;
-      const media = await payload.find({
-        collection: "media",
-        where: {
-          and: [
-            { entityType: { equals: "city" } },
-            { entityId: { equals: String(c.id) } },
-            { reviewStatus: { equals: "approved" } },
-          ],
-        },
-        limit: 1,
-        sort: "-createdAt",
-      });
-      return {
-        id: String(c.id),
-        slug: String(c.slug),
-        name: String(c.name),
-        countrySlug: countryObj?.slug ? String(countryObj.slug) : "",
-        countryName: countryObj?.name ? String(countryObj.name) : "",
-        heroUrl: media.docs[0]?.url ? String(media.docs[0].url) : null,
-      };
-    })
-  );
-
-  return results.filter((r) => r.countrySlug);
+export async function getHomeFeaturedCities(_locale: Locale, limit = 8): Promise<HomeFeaturedCity[]> {
+  return FEATURED_CITIES.slice(0, limit).map((c, i) => ({
+    id: String(i + 1),
+    slug: c.slug,
+    name: c.name,
+    countrySlug: c.countrySlug,
+    countryName: c.countryName,
+    heroUrl: null,
+  }));
 }
 
-export async function getHomeRecentGuides(locale: Locale, limit = 6): Promise<HomeRecentGuide[]> {
-  if (!process.env.DATABASE_URL) return [];
-  let payload;
-  try {
-    payload = await getPayload({ config: payloadConfig });
-  } catch { return []; }
-
-  const res = await payload.find({
-    collection: "neighborhoods",
-    limit,
-    depth: 2,
-    sort: "-updatedAt",
-    locale,
-    fallbackLocale: "en",
-  });
-
-  return res.docs
-    .map((n) => {
-      const city = typeof n.city === "object" ? (n.city as { slug?: string; name?: string; country?: unknown }) : null;
-      const country =
-        city && typeof city.country === "object"
-          ? (city.country as { slug?: string })
-          : null;
-      if (!city?.slug || !country?.slug) return null;
-      return {
-        id: String(n.id),
-        slug: String(n.slug),
-        name: String(n.name),
-        citySlug: String(city.slug),
-        citySlugName: String(city.name ?? ""),
-        countrySlug: String(country.slug),
-        summary: (n.summary as string | null) ?? null,
-        updatedAt: String(n.updatedAt ?? ""),
-      };
-    })
-    .filter((x): x is HomeRecentGuide => x !== null);
+export async function getHomeRecentGuides(_locale: Locale, _limit = 6): Promise<HomeRecentGuide[]> {
+  // Empty until first MDX article is published. Section auto-hides when empty.
+  return [];
 }

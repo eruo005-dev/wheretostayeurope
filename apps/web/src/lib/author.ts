@@ -1,11 +1,9 @@
 // apps/web/src/lib/author.ts
 //
-// Single source of truth for "the author" — the AuthorProfile Global.
-// Every page that renders a byline or Person schema reads through here.
+// STATIC author profile — no Payload, no DB. Edit the constants below to
+// customize. To switch to DB-backed Payload Globals later, restore the
+// previous version of this file.
 
-import "server-only";
-import { getPayload } from "payload";
-import payloadConfig from "@/payload.config";
 import { SITE_URL } from "@/lib/seo/config";
 
 type Locale = "en" | "de" | "fr" | "es";
@@ -25,94 +23,35 @@ export type AuthorData = {
   sameAs: string[];
 };
 
-let cached: { data: AuthorData; at: number; locale: Locale } | null = null;
-const CACHE_TTL_MS = 5 * 60 * 1000;
-
-const FALLBACK_AUTHOR: AuthorData = {
-  fullName: "Site operator",
-  displayName: "Site operator",
-  tagline: null,
-  photoUrl: null,
-  photoAlt: null,
+// EDIT THESE to your real values:
+const AUTHOR: AuthorData = {
+  fullName: process.env.AUTHOR_FULL_NAME ?? "Jay",
+  displayName: process.env.AUTHOR_DISPLAY_NAME ?? "Jay",
+  tagline: "Solo operator. I write about where to stay across Europe — by neighborhood, by trip type.",
+  photoUrl: null, // set to a Cloudflare R2 / Unsplash URL when you have a headshot
+  photoAlt: "Jay - WhereToStayEurope",
   website: null,
   twitter: null,
   linkedin: null,
   instagram: null,
-  email: "contact@wheretostayeurope.com",
-  citiesVisitedCount: 0,
+  email: process.env.CONTACT_EMAIL ?? "contact@wheretostayeurope.com",
+  citiesVisitedCount: 0, // bump as you visit + write about cities
   sameAs: [],
 };
 
-export async function getAuthor(locale: Locale): Promise<AuthorData> {
-  if (cached && cached.locale === locale && Date.now() - cached.at < CACHE_TTL_MS) {
-    return cached.data;
-  }
-  if (!process.env.DATABASE_URL) return FALLBACK_AUTHOR;
-
-  let profile;
-  try {
-    const payload = await getPayload({ config: payloadConfig });
-    profile = await payload.findGlobal({
-      slug: "author-profile",
-      locale,
-      fallbackLocale: "en",
-      depth: 1,
-    });
-  } catch {
-    return FALLBACK_AUTHOR;
-  }
-
-  const photo = typeof profile.photo === "object" && profile.photo ? profile.photo : null;
-  const photoUrl = photo && typeof photo === "object" && "url" in photo ? String(photo.url ?? "") : null;
-  const photoAlt = photo && typeof photo === "object" && "altTextBase" in photo
-    ? String(photo.altTextBase ?? profile.fullName ?? "")
-    : null;
-
-  const sameAs: string[] = [];
-  if (profile.linkedin) sameAs.push(String(profile.linkedin));
-  if (profile.twitter) sameAs.push(`https://twitter.com/${String(profile.twitter).replace(/^@/, "")}`);
-  if (profile.instagram) sameAs.push(`https://instagram.com/${String(profile.instagram).replace(/^@/, "")}`);
-  if (profile.website) sameAs.push(String(profile.website));
-
-  const citiesVisited = Array.isArray(profile.citiesVisited) ? profile.citiesVisited : [];
-
-  const data: AuthorData = {
-    fullName: String(profile.fullName ?? "Site operator"),
-    displayName: String(profile.displayName ?? profile.fullName ?? "Site operator"),
-    tagline: (profile.tagline as string | null) ?? null,
-    photoUrl,
-    photoAlt,
-    website: (profile.website as string | null) ?? null,
-    twitter: (profile.twitter as string | null) ?? null,
-    linkedin: (profile.linkedin as string | null) ?? null,
-    instagram: (profile.instagram as string | null) ?? null,
-    email: String(profile.email ?? "contact@wheretostayeurope.com"),
-    citiesVisitedCount: citiesVisited.length,
-    sameAs,
-  };
-
-  cached = { data, at: Date.now(), locale };
-  return data;
+export async function getAuthor(_locale: Locale): Promise<AuthorData> {
+  return AUTHOR;
 }
 
-export async function getAuthorProfileFull(locale: Locale) {
-  if (!process.env.DATABASE_URL) {
-    return { fullName: "Site operator", citiesVisited: [], credentials: [] } as Record<string, unknown>;
-  }
-  try {
-    const payload = await getPayload({ config: payloadConfig });
-    return payload.findGlobal({
-      slug: "author-profile",
-      locale,
-      fallbackLocale: "en",
-      depth: 1,
-    });
-  } catch {
-    return { fullName: "Site operator", citiesVisited: [], credentials: [] } as Record<string, unknown>;
-  }
+export async function getAuthorProfileFull(_locale: Locale) {
+  return {
+    ...AUTHOR,
+    bio: null,
+    citiesVisited: [],
+    credentials: [],
+  } as Record<string, unknown>;
 }
 
-/** schema.org Person object — for injection into article JSON-LD + About page. */
 export function buildPersonSchema(author: AuthorData, locale: Locale) {
   return {
     "@type": "Person",

@@ -159,7 +159,11 @@ const COPY: Record<string, {
 };
 
 async function getHomeHero(locale: string) {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return null;
+  let payload;
+  try {
+    payload = await getPayload({ config: payloadConfig });
+  } catch { return null; }
   const res = await payload.find({
     collection: "media",
     where: {

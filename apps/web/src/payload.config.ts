@@ -20,7 +20,15 @@ export default buildConfig({
   collections: [Countries, Cities, Neighborhoods, Pages, Keywords, Media],
   globals: [AuthorProfile],
   editor: lexicalEditor(),
-  db: postgresAdapter({ pool: { connectionString: process.env.DATABASE_URL } }),
+  db: postgresAdapter({
+    pool: {
+      // Stub URL during build if DATABASE_URL is missing - prevents adapter
+      // construction errors. Real connections only attempted at request time.
+      connectionString:
+        process.env.DATABASE_URL ??
+        "postgresql://stub:stub@127.0.0.1:5432/stub",
+    },
+  }),
   localization: {
     locales: [
       { label: "English", code: "en" },

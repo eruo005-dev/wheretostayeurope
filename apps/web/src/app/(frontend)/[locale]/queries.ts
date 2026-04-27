@@ -35,10 +35,14 @@ export type HomeRecentGuide = {
 };
 
 export async function getHomeFeaturedCountries(locale: Locale): Promise<HomeFeaturedCountry[]> {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return [];
+  let payload;
+  try {
+    payload = await getPayload({ config: payloadConfig });
+  } catch { return []; }
 
   // Phase 1 countries only
-  const phase1 = ["france", "spain", "italy", "germany", "united-kingdom", "netherlands", "turkey"];
+  const phase1 = ["france", "spain", "italy", "germany", "united-kingdom", "netherlands", "turkey", "bosnia-and-herzegovina", "croatia", "greece", "czech-republic", "hungary", "poland", "portugal", "switzerland", "austria", "belgium", "denmark", "sweden", "norway"];
 
   const res = await payload.find({
     collection: "countries",
@@ -78,7 +82,11 @@ export async function getHomeFeaturedCountries(locale: Locale): Promise<HomeFeat
 }
 
 export async function getHomeFeaturedCities(locale: Locale, limit = 8): Promise<HomeFeaturedCity[]> {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return [];
+  let payload;
+  try {
+    payload = await getPayload({ config: payloadConfig });
+  } catch { return []; }
 
   const res = await payload.find({
     collection: "cities",
@@ -121,7 +129,11 @@ export async function getHomeFeaturedCities(locale: Locale, limit = 8): Promise<
 }
 
 export async function getHomeRecentGuides(locale: Locale, limit = 6): Promise<HomeRecentGuide[]> {
-  const payload = await getPayload({ config: payloadConfig });
+  if (!process.env.DATABASE_URL) return [];
+  let payload;
+  try {
+    payload = await getPayload({ config: payloadConfig });
+  } catch { return []; }
 
   const res = await payload.find({
     collection: "neighborhoods",

@@ -28,18 +28,39 @@ export type AuthorData = {
 let cached: { data: AuthorData; at: number; locale: Locale } | null = null;
 const CACHE_TTL_MS = 5 * 60 * 1000;
 
+const FALLBACK_AUTHOR: AuthorData = {
+  fullName: "Site operator",
+  displayName: "Site operator",
+  tagline: null,
+  photoUrl: null,
+  photoAlt: null,
+  website: null,
+  twitter: null,
+  linkedin: null,
+  instagram: null,
+  email: "contact@wheretostayeurope.com",
+  citiesVisitedCount: 0,
+  sameAs: [],
+};
+
 export async function getAuthor(locale: Locale): Promise<AuthorData> {
   if (cached && cached.locale === locale && Date.now() - cached.at < CACHE_TTL_MS) {
     return cached.data;
   }
+  if (!process.env.DATABASE_URL) return FALLBACK_AUTHOR;
 
-  const payload = await getPayload({ config: payloadConfig });
-  const profile = await payload.findGlobal({
-    slug: "author-profile",
-    locale,
-    fallbackLocale: "en",
-    depth: 1,
-  });
+  let profile;
+  try {
+    const payload = await getPayload({ config: payloadConfig });
+    profile = await payload.findGlobal({
+      slug: "author-profile",
+      locale,
+      fallbackLocale: "en",
+      depth: 1,
+    });
+  } catch {
+    return FALLBACK_AUTHOR;
+  }
 
   const photo = typeof profile.photo === "object" && profile.photo ? profile.photo : null;
   const photoUrl = photo && typeof photo === "object" && "url" in photo ? String(photo.url ?? "") : null;
@@ -75,13 +96,20 @@ export async function getAuthor(locale: Locale): Promise<AuthorData> {
 }
 
 export async function getAuthorProfileFull(locale: Locale) {
-  const payload = await getPayload({ config: payloadConfig });
-  return payload.findGlobal({
-    slug: "author-profile",
-    locale,
-    fallbackLocale: "en",
-    depth: 1,
-  });
+  if (!process.env.DATABASE_URL) {
+    return { fullName: "Site operator", citiesVisited: [], credentials: [] } as Record<string, unknown>;
+  }
+  try {
+    const payload = await getPayload({ config: payloadConfig });
+    return payload.findGlobal({
+      slug: "author-profile",
+      locale,
+      fallbackLocale: "en",
+      depth: 1,
+    });
+  } catch {
+    return { fullName: "Site operator", citiesVisited: [], credentials: [] } as Record<string, unknown>;
+  }
 }
 
 /** schema.org Person object — for injection into article JSON-LD + About page. */

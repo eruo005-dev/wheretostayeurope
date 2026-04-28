@@ -186,6 +186,57 @@ export default async function CountryPage({ params }: Props) {
 
         <LexicalRenderer data={c.introHtml} locale={locale} className="wts-prose" />
 
+        {c.knownFor && (
+          <section style={{ marginTop: 32, padding: "20px 22px", background: "#eff6ff", borderLeft: "4px solid #2563eb", borderRadius: 6 }}>
+            <h2 style={{ fontSize: 22, marginTop: 0, marginBottom: 10, color: "#1e3a8a" }}>
+              What {c.name} is known for
+            </h2>
+            <p style={{ fontSize: 15, lineHeight: 1.65, color: "#1f2937", margin: 0 }}>
+              {c.knownFor}
+            </p>
+          </section>
+        )}
+
+        {c.topAttractions.length > 0 && (
+          <section style={{ marginTop: 40 }}>
+            <h2 style={{ fontSize: 28, marginBottom: 14 }}>Top attractions in {c.name}</h2>
+            <div style={{ display: "grid", gap: 12 }}>
+              {c.topAttractions.map((a) => (
+                <div
+                  key={a.name}
+                  style={{
+                    padding: "14px 16px",
+                    border: "1px solid #e2e8f0",
+                    borderRadius: 8,
+                    background: "#fff",
+                  }}
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
+                    <strong style={{ fontSize: 16, color: "#0f172a" }}>{a.name}</strong>
+                    <div style={{ display: "flex", gap: 8, alignItems: "baseline", fontSize: 12 }}>
+                      <span
+                        style={{
+                          padding: "2px 8px",
+                          borderRadius: 999,
+                          background: "#f1f5f9",
+                          color: "#64748b",
+                          textTransform: "capitalize",
+                        }}
+                      >
+                        {a.type}
+                      </span>
+                      {a.city && <span style={{ color: "#94a3b8" }}>{a.city}</span>}
+                    </div>
+                  </div>
+                  <p style={{ margin: "6px 0 0", fontSize: 14, lineHeight: 1.55, color: "#475569" }}>
+                    {a.why}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {tier1.length > 0 && (
           <section style={{ marginTop: 40 }}>
             <h2 style={{ fontSize: 28, marginBottom: 12 }}>Major cities in {c.name}</h2>

@@ -19,6 +19,7 @@ import {
   getHomeFeaturedCountries,
   getHomeFeaturedCities,
   getHomeRecentGuides,
+  getHomeFeaturedArticles,
 } from "./queries";
 import { getPayload } from "payload";
 import payloadConfig from "@/payload.config";
@@ -221,10 +222,11 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   const copy = COPY[locale] ?? COPY.en;
 
-  const [countries, cities, guides, hero, author] = await Promise.all([
+  const [countries, cities, guides, articles, hero, author] = await Promise.all([
     getHomeFeaturedCountries(locale),
     getHomeFeaturedCities(locale, 8),
     getHomeRecentGuides(locale, 6),
+    getHomeFeaturedArticles(locale, 4),
     getHomeHero(locale),
     getAuthor(locale),
   ]);
@@ -364,6 +366,46 @@ export default async function HomePage({ params }: Props) {
                   </div>
                 </Link>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* ================= FEATURED ARTICLES ================= */}
+        {articles.length > 0 && (
+          <section className="wts-section wts-section--tinted">
+            <h2 className="wts-section__head">Cornerstone reading</h2>
+            <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", marginTop: 18 }}>
+              {articles.map((a) => (
+                <Link
+                  key={a.slug}
+                  href={`/${locale}/articles/${a.slug}`}
+                  style={{
+                    display: "block",
+                    padding: "18px 20px",
+                    borderRadius: 8,
+                    border: "1px solid #e2e8f0",
+                    background: "#fff",
+                    textDecoration: "none",
+                    color: "inherit",
+                  }}
+                >
+                  <h3 style={{ margin: "0 0 8px", fontSize: 17, lineHeight: 1.35, color: "#0f172a" }}>
+                    {a.title}
+                  </h3>
+                  <p style={{ margin: "0 0 10px", fontSize: 14, lineHeight: 1.55, color: "#475569" }}>
+                    {a.excerpt.length > 140 ? `${a.excerpt.slice(0, 140)}…` : a.excerpt}
+                  </p>
+                  <div style={{ fontSize: 12, color: "#64748b", display: "flex", justifyContent: "space-between" }}>
+                    <span>{a.readingTimeMin} min</span>
+                    <span style={{ color: "#2563eb" }}>Read →</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div style={{ marginTop: 14 }}>
+              <Link href={`/${locale}/articles`} style={{ color: "#2563eb", fontSize: 14, textDecoration: "none" }}>
+                All articles →
+              </Link>
             </div>
           </section>
         )}

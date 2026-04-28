@@ -5,7 +5,10 @@
 
 import "server-only";
 import { findCountry, citiesInCountry, COUNTRIES } from "@/lib/data/static-data";
+import { getCountryDetails, type CountryAttraction } from "@/lib/data/static-data-country-details";
 import type { LexicalRoot } from "@/components/content/LexicalRenderer";
+
+export type { CountryAttraction };
 
 type Locale = "en" | "de" | "fr" | "es";
 
@@ -23,6 +26,8 @@ export type CountryPageData = {
   travelTips: Record<string, unknown> | null;
   metaTitle: string | null;
   metaDescription: string | null;
+  knownFor: string | null;
+  topAttractions: CountryAttraction[];
   heroImage: {
     url: string;
     alt: string;
@@ -52,6 +57,8 @@ export async function getCountryBySlug({
   const c = findCountry(countrySlug);
   if (!c) return null;
 
+  const details = getCountryDetails(countrySlug);
+
   // Build a minimal Lexical root so the renderer has something to display.
   const introRoot: LexicalRoot = {
     root: {
@@ -75,10 +82,12 @@ export async function getCountryBySlug({
     euMember: c.euMember,
     schengen: c.schengen,
     introHtml: introRoot,
-    bestTimeToVisit: null,
+    bestTimeToVisit: details?.bestTimeToVisit ?? null,
     travelTips: null,
     metaTitle: c.metaTitle,
     metaDescription: c.metaDescription,
+    knownFor: details?.knownFor ?? null,
+    topAttractions: details?.topAttractions ?? [],
     heroImage: null,
   };
 }

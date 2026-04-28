@@ -206,6 +206,298 @@ export const ARTICLES: Article[] = [
   },
 ];
 
+ARTICLES.push(
+  {
+    slug: "paris-vs-london-for-first-time-europe",
+    title: "Paris vs London for First-Time Europe Travelers",
+    excerpt: "If you have one week and have never been to Europe, both Paris and London are good answers — but they answer different questions. Here is how to choose.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    readingTimeMin: 8,
+    metaTitle: "Paris vs London for First-Time Europe — Honest Comparison",
+    metaDescription: "If it's your first European trip and you're choosing between Paris and London: walkability, cost, language, food, museums, weather, and the trip type each one is best for.",
+    html: `
+<p>If you have one week, no European trips behind you, and you're choosing between Paris and London — both are good answers. They are also dramatically different cities answering dramatically different questions. Here is the actual decision.</p>
+
+<h2>The fast answer</h2>
+
+<p><strong>Pick Paris</strong> if your trip is romance-coded, food is the priority, you want to walk a lot, you're under 40, you're traveling as a couple, or you want the European-postcard experience.</p>
+
+<p><strong>Pick London</strong> if you're traveling with kids, English-language comfort is non-negotiable, you have a long museum priority list, you're a theatre or music person, you're 50+, or you want to combine the city trip with a few days in the British countryside.</p>
+
+<p>Now the why.</p>
+
+<h2>Walkability</h2>
+
+<p>Paris wins decisively. Central Paris (the 1st through 11th arrondissements) is a 25-minute walk across, and the metro is for distance only — most days you'll walk 10-15 km without realizing it. The Seine is a constant orientation aid; the streets are at human scale; the cobblestones are real but not punishing.</p>
+
+<p>London is bigger and walking-hostile in patches. The Tube is genuinely necessary across central London, and £6-8 per ride adds up fast (get an Oyster card or use contactless, which caps at £8.90/day in zones 1-2). The good walking is concentrated: Westminster to Covent Garden, Hyde Park to Notting Hill, Shoreditch east. Outside those, you're underground.</p>
+
+<h2>Cost</h2>
+
+<p>London is now significantly more expensive than Paris. A mid-range hotel in central London runs £200-300/night; the equivalent in Paris is €150-220. A pub lunch in London is £15-20; a bistrot lunch (prix fixe) in Paris is €18-25 and includes wine. Coffee at a café is £4 in London, €2 in Paris. Theatre tickets and museums largely break the trend (London's big museums are free; Paris's aren't), but day-to-day the gap is real.</p>
+
+<p>Currency: Paris is Euros, London is Pounds Sterling. Both take contactless cards everywhere; cash is barely used in either city.</p>
+
+<h2>Language</h2>
+
+<p>London wins, obviously, if English-language comfort is the trip-maker. But Paris is much easier than its reputation suggests if you open with "Bonjour" before any request — see <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">our Paris arrondissement guide</a> on this. Almost everyone in central Paris speaks enough English to handle a restaurant order, a museum ticket, a metro question. The myth of rude Parisians is mostly a myth about tourists who skip the bonjour.</p>
+
+<h2>Food</h2>
+
+<p>Paris wins decisively. The bistrot prix fixe at €25 is the cheapest serious meal in Western Europe. The bakeries are still real bakeries (sourdough, real butter, the croissants are the croissants). Wine by the glass is €5-7 for something genuinely good. London's food scene has caught up impressively in the last 15 years — the new wave (Lyle's, Brat, Lyon's Corner House, the Sri Lankan and Pakistani scenes in East London) is genuinely world-class — but it's expensive and you have to know where to look. The default London pub meal is fine but not memorable.</p>
+
+<h2>Museums</h2>
+
+<p>London wins. The British Museum, the V&A, the Natural History Museum, the Tate Modern, the National Gallery — all free, all world-class. Paris has the Louvre and the Musée d'Orsay (both €17, both worth it) plus dozens of smaller specialized museums. London's free big museums make a 7-day trip with kids dramatically more affordable.</p>
+
+<h2>Weather</h2>
+
+<p>Roughly the same — both cities are at similar latitudes with similar maritime climates. Paris is slightly warmer and slightly drier on average. London's rain is famously light and intermittent; Paris's is more dramatic but less frequent. Both are workable year-round; both are best April-June and September-October. See <a href="/en/articles/europe-in-november-the-honest-off-season-guide">our Europe in November guide</a> for off-season planning.</p>
+
+<h2>What about both?</h2>
+
+<p>The Eurostar between London and Paris takes 2h20m and lands you in central Paris (Gare du Nord) and central London (St. Pancras). Round-trip tickets booked 2-3 months ahead are £100-150. If you have 7+ days, three nights in each city is the right combination for a first-time European trip — it lets you compare, gives you two distinct experiences, and avoids the "must see everything in Paris in five days" rush.</p>
+
+<p>Where to base in each: in London, <a href="/en/united-kingdom/london">our London neighborhood picks</a> point to Bloomsbury or Shoreditch. In Paris, <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">the arrondissement decision tree</a> walks through every option.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-solo-female-travelers",
+    title: "Best European Cities for Solo Female Travelers",
+    excerpt: "Solo female travel in Europe is overwhelmingly safe — but cities still vary in how welcoming, walkable, and easy-to-be-alone-in they feel. Here is the honest ranking.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Solo Female Travelers — Honest Ranking",
+    metaDescription: "An honest ranking of European cities for solo female travelers. Safety stats, walkability, easy-to-be-alone-in cafes and restaurants, neighborhood picks, and where to actually stay.",
+    html: `
+<p>Solo female travel in Europe is overwhelmingly safe and overwhelmingly common — half the people in your hostel dorm or boutique hotel are women traveling on their own. The OECD safety statistics back this up: most European capitals have lower violent-crime rates than equivalent North American cities.</p>
+
+<p>That said, cities vary widely in three things solo female travelers care about: how easy it is to eat dinner alone without feeling stared at, how walkable the city is at night, and how welcoming the local culture is to a woman alone with a book or laptop in a café. Here is an honest ranking.</p>
+
+<h2>Tier 1 — Easiest cities</h2>
+
+<h3>Copenhagen</h3>
+
+<p>The benchmark. Solo female travelers consistently rate Copenhagen as the easiest European city to be alone in. The cafés are full of single women working, eating, reading. Public transit runs late, well-lit, and is genuinely safe. Locals are reserved but never intrusive — you can sit alone at a bar and no one bothers you. <a href="/en/denmark/copenhagen">Stay in Vesterbro or Nørrebro</a>; both are residential, walkable, café-dense.</p>
+
+<h3>Amsterdam</h3>
+
+<p>The bike infrastructure means you don't need taxis. The Dutch directness extends to a pleasant non-intrusiveness — no one tries to talk to you on the train. The areas to actually avoid are smaller than the rest of the city: the Red Light District itself can feel performative, but the surrounding neighborhoods (Jordaan, De Pijp, Oud-West) are excellent solo bases. <a href="/en/netherlands/amsterdam">Where to stay in Amsterdam →</a></p>
+
+<h3>Reykjavík</h3>
+
+<p>Iceland has the lowest violent-crime rate in Europe and the smallest urban population. Solo women walking home at 2am is unremarkable. The downside: Reykjavík is small (140k) and gets dark from October to March; if you need urban energy, this is not it. <a href="/en/iceland/reykjavik">Where to stay in Reykjavík →</a></p>
+
+<h3>Vienna</h3>
+
+<p>Conservative-by-design and that helps here — late-night transit is excellent, cafés explicitly welcome solo readers, the city's Coffeehouse culture is built around people sitting alone for hours. Lederhosen-tourist energy is minimal compared to Munich. <a href="/en/austria/vienna">Stay in Neubau (District 7)</a> for the best mix of central and lived-in.</p>
+
+<h3>Edinburgh</h3>
+
+<p>Compact, walkable, English-speaking, packed with bookstore cafés and university energy. Old Town gets stag-party noise on weekends; pick New Town for sleep. <a href="/en/united-kingdom/edinburgh">Where to stay in Edinburgh →</a></p>
+
+<h2>Tier 2 — Easy with neighborhood discipline</h2>
+
+<h3>Lisbon and Porto</h3>
+
+<p>Both are excellent for solo women, with one specific caveat: avoid Bairro Alto (Lisbon) on weekend nights if loud bachelor-party energy isn't your thing. Príncipe Real (Lisbon) and Cedofeita (Porto) are the right solo bases — design-shop cafés, brunch culture, nothing menacing. <a href="/en/portugal/lisbon">Lisbon picks →</a> · <a href="/en/portugal/porto">Porto picks →</a></p>
+
+<h3>Berlin</h3>
+
+<p>Excellent if you pick the right neighborhood. Prenzlauer Berg and parts of Mitte are calm and café-rich. Friedrichshain at 3am is fine but male-coded. Berliners are direct to the point of bluntness — nobody will hit on you in a café, and that's the feature. <a href="/en/germany/berlin">Where to stay in Berlin →</a></p>
+
+<h3>London</h3>
+
+<p>Big, expensive, English-speaking. Walking alone in central London at night is fine in zones 1-2; outer zones vary. The Tube is safe and ubiquitous. Pubs in London are easier to enter alone than in many European cities — single-woman-at-the-bar is not a thing anyone notices. <a href="/en/united-kingdom/london">Where to stay in London →</a></p>
+
+<h2>Tier 3 — Workable with planning</h2>
+
+<h3>Paris</h3>
+
+<p>Safer than its reputation by a wide margin, but the catcalling phenomenon is real, particularly in the 18th and 19th. Stay in the Marais (4th), Saint-Germain (6th), or the 11th — all easy to walk alone. The metro after 10pm is fine if you pick the well-lit lines (1, 4, 14). Solo women dining at bistrot counters is normal. <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">Paris arrondissement guide →</a></p>
+
+<h3>Barcelona</h3>
+
+<p>Workable but pickpocket-paranoid. The Las Ramblas area in particular is the European pickpocket capital — keep bags zipped and across your body. Eixample, Gràcia and Born are dramatically safer than the Gothic Quarter at night. Late-night trains stop at midnight; budget for taxis or stay central. <a href="/en/spain/barcelona">Where to stay in Barcelona →</a></p>
+
+<h3>Rome</h3>
+
+<p>Safe but loud. Roman men are vocal in their attention; this is more performative than threatening but can wear thin. The dress-up rule helps: looking polished gets you treated more politely than looking touristy. Stay in Monti or Trastevere — both excellent solo bases. <a href="/en/italy/rome">Where to stay in Rome →</a></p>
+
+<h2>Tier 4 — Possible but requires more planning</h2>
+
+<h3>Istanbul</h3>
+
+<p>Genuinely safe in the European sense, but requires respect for local norms. Cover shoulders and knees in mosques. Avoid Beyoğlu's late-night bar streets alone after 1am. The Asian side (Kadıköy) is dramatically more relaxed than the European tourist zones. Stay in Cihangir (Beyoğlu) or Kadıköy. <a href="/en/turkey/istanbul">Where to stay in Istanbul →</a></p>
+
+<h2>The practical kit</h2>
+
+<ul>
+<li>A cross-body bag with zippers (not a tote).</li>
+<li>The local emergency number saved (112 across the EU).</li>
+<li>Offline maps downloaded for Google Maps before you arrive.</li>
+<li>The first café you'll visit picked before you arrive — first-day decision fatigue is the actual obstacle, not safety.</li>
+<li>Hotels with 24-hour reception in cities you don't know yet.</li>
+</ul>
+
+<p>For broader neighborhood-by-neighborhood selection, see the city guides linked above. For the off-season trade-off, see <a href="/en/articles/europe-in-november-the-honest-off-season-guide">our November guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-rome-by-rione",
+    title: "Where to Stay in Rome: Centro Storico vs Trastevere vs Monti vs Prati",
+    excerpt: "Rome's neighborhoods (rioni) feel like different cities. The wrong base costs you an hour a day; the right one transforms the trip.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Rome by Neighborhood — The Decision Tree",
+    metaDescription: "Centro Storico, Trastevere, Monti, Prati, Testaccio — the four-plus-one Rome neighborhood decision tree, with honest takes on who each one is for.",
+    html: `
+<p>Rome is the city where the difference between a great trip and a frustrating one is which side of the river you sleep on. Pick wrong and you spend an extra hour a day on transit; pick right and the city unfolds around you.</p>
+
+<p>Rome divides into rioni (historic neighborhoods). For where-to-stay purposes, four-plus-one matter: Centro Storico, Trastevere, Monti, Prati, plus Testaccio for a longer or repeat stay.</p>
+
+<h2>The fast answer</h2>
+
+<p><strong>Centro Storico</strong> if it's your first Rome trip and you have 3-4 days. Maximum sights per minute walked.</p>
+
+<p><strong>Trastevere</strong> if it's your second Rome trip, or if your trip is built around dinner. The best evenings in Rome happen here.</p>
+
+<p><strong>Monti</strong> if you want central without tourist saturation, and you don't mind hills. The under-recommended right answer for many.</p>
+
+<p><strong>Prati</strong> if you have a Vatican priority, are traveling with family (the apartments are bigger), or want quieter evenings.</p>
+
+<p><strong>Testaccio</strong> if you're staying a week+, want a real Roman neighborhood, or your Rome trip is the food.</p>
+
+<h2>Centro Storico — for the first-time Rome trip</h2>
+
+<p>The historical core: Pantheon, Piazza Navona, Campo de' Fiori, Trevi Fountain. Walking distance to almost everything that brought you to Rome. Restaurants are tourist-managed (and overpriced) but you can walk yourself out of that with 10 minutes' deliberate effort. Hotels at the top end are exceptional; mid-range is solid; budget is rough.</p>
+
+<p>Stay here if: it's your first Rome trip, you have a tight 3-4 day schedule, you want to stumble out of your hotel into the Pantheon at 7am before the queues. Skip if: you want any local life, you're on a budget, you're staying a week (you'll get tired of the tourist density). <a href="/en/italy/rome/centro-storico">Centro Storico guide →</a></p>
+
+<h2>Trastevere — for the second Rome trip</h2>
+
+<p>Across the Tiber from Centro Storico. Cobblestoned, atmospheric, restaurant-dense, the place Romans actually go on weekend nights. The walk to the Vatican is 25 minutes; the walk to the Roman Forum is 20. You'll cross the river at least twice a day.</p>
+
+<p>Stay here if: you've done Rome before and want a more lived-in stay, your trip is built around evenings, you want both atmosphere and decent prices. Skip if: you're a light sleeper (the bars run loud on weekends), you have no patience for cobblestones, you need metro access (Trastevere has none — buses and walking only). <a href="/en/italy/rome/trastevere">Trastevere guide →</a></p>
+
+<h2>Monti — the under-recommended middle</h2>
+
+<p>Between the Colosseum and Termini. Hilly, design-shop heavy, restaurant-dense in a way that's not yet completely tourist-coded. You can walk to the Colosseum in 10 minutes, the Forum in 12, the Trevi in 15. Cavour is the metro stop.</p>
+
+<p>Stay here if: you want central but real, the Colosseum is a priority, you're on a 4-7 day trip and don't want to feel saturated by tourists. Skip if: you have mobility issues (Monti is genuinely hilly), or you want a quiet stay (the bar streets stay loud Thursday-Sunday). <a href="/en/italy/rome/monti">Monti guide →</a></p>
+
+<h2>Prati — the value play</h2>
+
+<p>Just north of the Vatican. Wide grid streets, mid-range restaurants, fewer tourists, more apartments-with-actual-kitchens than the historic center. You can walk to the Vatican in 10 minutes; to Centro Storico in 20.</p>
+
+<p>Stay here if: the Vatican is your priority sight, you're traveling with family and want apartment space, you want quieter evenings, you want value over location-bragging-rights. Skip if: your trip is dinner-built (Prati closes earlier than the historic center), you want maximum walking access to the Pantheon and Trevi areas. <a href="/en/italy/rome/prati">Prati guide →</a></p>
+
+<h2>Testaccio — for the food trip and longer stays</h2>
+
+<p>South of Trastevere, the historic working-class neighborhood. The Mercato Testaccio is the best food market in central Rome. The trattorias here (Felice, Flavio al Velavevodetto, Da Cesare) are where Roman food traditions actually live. Few hotels; many apartments.</p>
+
+<p>Stay here if: you're in Rome for a week or more, your trip is the food, you've done Rome's main sights and want a real neighborhood. Skip if: you're on a 3-day trip (transit time to major sights eats your day), or you want hotel infrastructure (most stays here are apartments).</p>
+
+<h2>Where NOT to stay</h2>
+
+<p><strong>Termini</strong>: Rome's largest cluster of cheap hotels and consistently the worst-reviewed neighborhood for tourists. See <a href="/en/articles/why-train-station-hotels-are-usually-a-mistake">our piece on why train station hotels are a mistake</a>. Stay here only if you have a 5am train.</p>
+
+<p><strong>Anywhere outside the metro/tram network</strong>: Rome's transit is patchy compared to Paris or London. Hotels in suburban districts (Tiburtina, Pigneto further out, EUR) sell themselves on price but cost you 30+ min each way to anywhere worth visiting.</p>
+
+<p><strong>Vatican-adjacent budget hotels with no neighborhood</strong>: There's a cluster of cheap-looking hotels on Via Crescenzio and similar streets right next to Vatican City. Convenient on day one of your trip; you'll never want to eat there.</p>
+
+<h2>The simple version</h2>
+
+<p>If it's your first trip and you have less than a week: Centro Storico. If it's your second trip, or your first is 5+ days: Trastevere or Monti. If you're with kids or want value: Prati. For everything else, see <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">how the same logic applies to Paris</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-in-deep-winter",
+    title: "Europe in Deep Winter (December, January, February): Where to Actually Go",
+    excerpt: "Deep winter in Europe is the most polarized travel season — Christmas-market magic in some cities, depressing 4pm sunsets in others. Here is the honest map.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    readingTimeMin: 8,
+    metaTitle: "Europe in Deep Winter (Dec-Feb) — The Honest City Map",
+    metaDescription: "An honest guide to traveling Europe in December, January, and February. Christmas markets, deep cold, sunset at 3:30pm, ski-base towns, off-season Mediterranean — what works and what doesn't.",
+    html: `
+<p>Deep winter in Europe — December through February — is the most polarized travel season. Some cities turn into fairy tales (Christmas markets, snow on baroque facades, mulled wine at 4pm darkness). Others become 9-hour-day endurance tests where you're indoors by 4 and asleep by 9.</p>
+
+<p>The two variables that shape every trip in this window: <strong>daylight hours</strong> (Stockholm has 6, Lisbon has 9.5) and <strong>indoor culture density</strong> (cities with strong café/coffeehouse/pub traditions handle short days; cities built around outdoor life don't).</p>
+
+<p>Here is the honest map. For November specifically — the shoulder month — see <a href="/en/articles/europe-in-november-the-honest-off-season-guide">our November guide</a>.</p>
+
+<h2>December: Christmas markets and warm cities</h2>
+
+<h3>Christmas markets — peak window late Nov to Dec 23</h3>
+
+<p>The proper Christmas market belt: Vienna, Salzburg, Munich, Nuremberg, Strasbourg, Cologne, Prague, Budapest, Krakow. These cities turn on between mid-November and the first weekend of December and run until December 23 or 24. After Christmas they wind down fast; by December 28 most are gone.</p>
+
+<p><strong>Best for first-timers:</strong> Vienna (multiple markets, classical-music backdrop, manageable winter weather). <a href="/en/austria/vienna">Vienna picks →</a></p>
+
+<p><strong>Best for atmosphere:</strong> Salzburg (small, baroque, snowy, the actual Sound of Music backdrop). <a href="/en/austria/salzburg">Salzburg picks →</a></p>
+
+<p><strong>Best for budget:</strong> Krakow or Budapest (the markets are real, hotel prices are 40-60% of Vienna). <a href="/en/poland/krakow">Krakow picks →</a> · <a href="/en/hungary/budapest">Budapest picks →</a></p>
+
+<p><strong>Best for German-Christmas full immersion:</strong> Nuremberg's Christkindlesmarkt is the most traditional. Munich's Christkindlmarkt on Marienplatz is excellent and combines well with a side-trip to Salzburg.</p>
+
+<h3>Mediterranean winter — the secret bargain</h3>
+
+<p><strong>Lisbon and Porto in December and January:</strong> highs of 14-16°C, sunshine roughly half the days, hotels at 40-50% off summer. You can sit outside for coffee at noon. Lisbon's Christmas decorations are tasteful rather than spectacular. The food (caldo verde, roasted chestnuts on every street corner, port at 3pm) is at its best in winter. <a href="/en/portugal/lisbon">Lisbon picks →</a></p>
+
+<p><strong>Andalusia (Seville, Granada, Málaga):</strong> highs of 16-19°C in January. The Alhambra in Granada has its smallest crowds of the year. Seville's December-January is genuinely pleasant for walking all day. <a href="/en/spain/seville">Seville picks →</a></p>
+
+<p><strong>Sicily and southern Italy:</strong> Palermo, Catania, Naples. December highs of 14-18°C, January 12-15. Heating in older buildings is spotty (this is the catch); pick hotels deliberately. The food peaks in winter — citrus season, wild greens, oranges and almonds in everything.</p>
+
+<h2>January: the Christmas-market hangover, then ski season</h2>
+
+<p>The first half of January is Europe's deadest travel window. The Christmas markets are gone. Many restaurants close for staff vacations. Weather is cold and gray almost everywhere north of the Alps. Hotel prices are at their annual lowest.</p>
+
+<p>If you must travel mid-January:</p>
+
+<ul>
+<li><strong>Vienna's coffeehouse season</strong> peaks now — long indoor afternoons in Café Sperl with a Melange and the newspapers is the Vienna trip you couldn't do in summer. <a href="/en/austria/vienna">Vienna picks →</a></li>
+<li><strong>Reykjavík for Northern Lights</strong> — January is peak season, daylight is around 5 hours, and the ice cave tours from south Iceland start running. <a href="/en/iceland/reykjavik">Reykjavík picks →</a></li>
+<li><strong>Alpine ski bases</strong> — Innsbruck, Salzburg, Geneva, Zurich are all good launch pads for skiing during the late-January through mid-February peak. <a href="/en/austria/innsbruck">Innsbruck picks →</a> · <a href="/en/switzerland/zurich">Zurich picks →</a></li>
+<li><strong>Athens and Istanbul</strong> — both are at their lowest tourist density and lowest prices. Athens highs of 13-15°C, Istanbul 8-10°C. Wear layers, expect rain, plan an indoor-museum heavy itinerary. <a href="/en/greece/athens">Athens picks →</a> · <a href="/en/turkey/istanbul">Istanbul picks →</a></li>
+</ul>
+
+<h2>February: the same calculus, plus Carnival</h2>
+
+<p>February is January with marginally more daylight and the Carnival weekend (variable date, usually mid-Feb to early March) which transforms specific cities:</p>
+
+<ul>
+<li><strong>Venice Carnival</strong> — the famous one, 2 weeks of masked balls and processions. Hotels triple in price; book a year ahead. <a href="/en/italy/venice">Venice picks →</a></li>
+<li><strong>Cologne Karneval</strong> — Germany's biggest party, week culminating in Rosenmontag. The city is genuinely insane for a week; bars close at random hours; hotel prices triple. <a href="/en/germany/cologne">Cologne picks →</a></li>
+<li><strong>Nice Carnaval</strong> — the French Riviera version, two weeks of parades and the famous flower battles. Combines well with a Provence side trip. <a href="/en/france/nice">Nice picks →</a></li>
+</ul>
+
+<h2>What to skip in deep winter</h2>
+
+<p><strong>Stockholm, Oslo, Copenhagen in January-February:</strong> sunset at 3:30pm, daylight is 6 hours of overcast gray. Beautifully designed cities built around long summer days. Wait for May.</p>
+
+<p><strong>Coastal Croatia (Dubrovnik, Split, Hvar):</strong> restaurants close, ferries reduce, half the city shuts. Lovely in May or September.</p>
+
+<p><strong>Greek islands (Santorini, Mykonos):</strong> 70% of accommodations close November to April. The few that stay open charge winter prices but the islands are functionally empty.</p>
+
+<p><strong>Anywhere coastal with no indoor culture:</strong> a mid-sized Italian beach town in January is depressing in a specific way that summer travelers don't anticipate.</p>
+
+<h2>The packing rule</h2>
+
+<p>For Christmas markets in northern Europe: real winter coat (not "warm jacket"), warm hat, gloves, waterproof shoes that handle slush. Layers underneath because every interior is heated to 22°C.</p>
+
+<p>For Mediterranean winter: a sweater, a rain jacket, comfortable walking shoes. Maybe one warm layer for indoor evenings if heating is patchy.</p>
+
+<p>For ski bases: this is its own packing question and your ski-rental shop has the rest.</p>
+
+<p>For broader off-season planning, see <a href="/en/articles/europe-in-november-the-honest-off-season-guide">November</a>. For where to stay once you've picked the city, the country and city guides are linked above.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

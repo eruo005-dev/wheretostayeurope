@@ -345,6 +345,84 @@ export const COUNTRIES: StaticCountry[] = [
     metaDescription: "Helsinki neighborhood picks — the central district that's worth it, and the cheaper one that's still walkable.",
     intro: "Helsinki is compact enough that almost any central stay works, but the price gap between Kruununhaka and Kallio is wider than most travelers expect. The picks below sort which is right for which trip.",
   },
+  {
+    slug: "slovenia",
+    name: "Slovenia",
+    isoCode: "SI",
+    currency: "EUR",
+    timezone: "Europe/Ljubljana",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Slovenia — Ljubljana, Bled, Piran",
+    metaDescription: "Slovenia is small and the three stays that matter are Ljubljana, Bled and Piran. Honest picks for each.",
+    intro: "Slovenia is the European country you can cross in three hours. Most trips are some combination of Ljubljana (the small, walkable capital), Bled (the lake-and-castle cliche that earns it), and Piran (the Adriatic former-Venetian town). The picks below sort which combination fits which trip.",
+  },
+  {
+    slug: "romania",
+    name: "Romania",
+    isoCode: "RO",
+    currency: "RON",
+    timezone: "Europe/Bucharest",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Romania — Bucharest, Brașov, Cluj, Sibiu",
+    metaDescription: "Romanian city stays from Bucharest's Old Town to Transylvania's Saxon-fortified Brașov, Cluj and Sibiu.",
+    intro: "Romania rewards travelers who skip Bucharest-only itineraries and head north into Transylvania. Brașov and Sibiu are the Saxon-walled cities that look medieval-German more than Eastern European. Cluj is the young, university-town energy. Bucharest itself is rough and rewarding in roughly equal measure.",
+  },
+  {
+    slug: "estonia",
+    name: "Estonia",
+    isoCode: "EE",
+    currency: "EUR",
+    timezone: "Europe/Tallinn",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Estonia — Tallinn and Tartu",
+    metaDescription: "Tallinn's UNESCO Old Town and the underrated university city of Tartu — practical neighborhood picks.",
+    intro: "Estonia is one of the cheapest Schengen-zone city stays in Europe. Tallinn's medieval Old Town is the obvious draw and is stunning despite being heavily tourist-managed in summer. Tartu (the university town two hours south) is the under-recommended second stop.",
+  },
+  {
+    slug: "malta",
+    name: "Malta",
+    isoCode: "MT",
+    currency: "EUR",
+    timezone: "Europe/Malta",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Malta — Valletta and Sliema",
+    metaDescription: "Valletta's UNESCO peninsula vs Sliema's resort strip — practical picks for first-time Malta travelers.",
+    intro: "Malta is small enough to base anywhere and bus everywhere, but where you sleep changes the trip. Valletta is atmospheric and historical; Sliema and St. Julian's across the bay are resort-coded with better restaurants. Stay in Valletta if you want history; Sliema if you want hotels with pools.",
+  },
+  {
+    slug: "luxembourg",
+    name: "Luxembourg",
+    isoCode: "LU",
+    currency: "EUR",
+    timezone: "Europe/Luxembourg",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Luxembourg City",
+    metaDescription: "Luxembourg City's Ville Haute (upper town) vs Grund (lower town) — neighborhood picks for the small but stunning capital.",
+    intro: "Luxembourg City is small (115k people) and dramatically beautiful — a UNESCO old town built on cliffs above two river valleys. One night is short; three nights covers it well. The choice is Ville Haute (upper town, polished, central) or Grund (lower town, atmospheric, requires the lift or a steep walk).",
+  },
+  {
+    slug: "slovakia",
+    name: "Slovakia",
+    isoCode: "SK",
+    currency: "EUR",
+    timezone: "Europe/Bratislava",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Slovakia — Bratislava and Košice",
+    metaDescription: "Bratislava's compact old town and the underrated eastern city of Košice — honest picks.",
+    intro: "Slovakia is most often a day trip from Vienna (Bratislava is an hour by train) but the country deserves more than that. Bratislava's old town is small and walkable; Košice in the east is genuinely beautiful and almost free of tourists. Both city stays are among Europe's cheapest.",
+  },
 ];
 
 export const CITIES: StaticCity[] = [
@@ -460,6 +538,32 @@ export const CITIES: StaticCity[] = [
 
   // ========== Finland ==========
   { slug: "helsinki",    name: "Helsinki",    countrySlug: "finland",  lat: 60.1699, lng: 24.9384, population:   660_000, tier: "1", bookingDestId: -1376301, intro: "Helsinki's Kruununhaka and Kluuvi are the central, polished stays. Kallio is the cheaper, hipper, slightly removed alternative — still on the metro, dramatically cheaper for dinner." },
+
+  // ========== Slovenia ==========
+  { slug: "ljubljana",   name: "Ljubljana",   countrySlug: "slovenia", lat: 46.0569, lng: 14.5058, population: 295_000, tier: "1", bookingDestId: -98277,  intro: "Ljubljana is small enough that any old-town stay works. The car-free historic center along the Ljubljanica river is the obvious choice; the city is among Europe's most walkable capital cores." },
+  { slug: "bled",        name: "Bled",        countrySlug: "slovenia", lat: 46.3683, lng: 14.1146, population:   8_000, tier: "1", bookingDestId: -97934,  intro: "Bled is one lake, one castle, one island church. Stay on the lake itself for the postcard view; in the village for the price." },
+  { slug: "piran",       name: "Piran",       countrySlug: "slovenia", lat: 45.5283, lng: 13.5683, population:   4_000, tier: "2", bookingDestId: -98086,  intro: "Piran is a former Venetian fishing town on a peninsula in the Adriatic — small, atmospheric, mostly car-free. Almost any stay inside the old town works." },
+
+  // ========== Romania ==========
+  { slug: "bucharest",   name: "Bucharest",   countrySlug: "romania",  lat: 44.4268, lng: 26.1025, population: 1_830_000, tier: "1", bookingDestId: -1153951, intro: "Bucharest divides between Lipscani (the Old Town, walkable, lively, somewhat seedy) and the wider city which sprawls. Stay in or just adjacent to the Old Town; venturing far makes everything an Uber ride." },
+  { slug: "brasov",      name: "Brașov",      countrySlug: "romania",  lat: 45.6427, lng: 25.5887, population:  290_000, tier: "1", bookingDestId: -1153758, intro: "Brașov's Saxon old town is one of Transylvania's most photogenic — pastel buildings, a black church, mountains looming overhead. Stay inside Piața Sfatului for maximum atmosphere." },
+  { slug: "cluj-napoca", name: "Cluj-Napoca", countrySlug: "romania",  lat: 46.7712, lng: 23.6236, population:  325_000, tier: "2", bookingDestId: -1153776, intro: "Cluj is Transylvania's young university city — restaurant-dense, café-rich, the most modern energy in the country. Stay near Piața Unirii." },
+  { slug: "sibiu",       name: "Sibiu",       countrySlug: "romania",  lat: 45.7983, lng: 24.1256, population:  150_000, tier: "2", bookingDestId: -1153935, intro: "Sibiu's Saxon old town has the famous 'eyes of Sibiu' rooftop windows. Compact, walkable, and genuinely beautiful — almost any old-town stay works." },
+
+  // ========== Estonia ==========
+  { slug: "tallinn",     name: "Tallinn",     countrySlug: "estonia",  lat: 59.4370, lng: 24.7536, population:  450_000, tier: "1", bookingDestId: -2738503, intro: "Tallinn's Old Town (Vanalinn) is UNESCO-listed and overwhelmingly the right central stay. Telliskivi (former industrial, now creative quarter) is the cooler second-time choice." },
+  { slug: "tartu",       name: "Tartu",       countrySlug: "estonia",  lat: 58.3776, lng: 26.7290, population:   95_000, tier: "2", bookingDestId: -2737988, intro: "Tartu is Estonia's university town — small, cheap, café-dense. Stay near Town Hall Square (Raekoja plats); the city is small enough to walk anywhere." },
+
+  // ========== Malta ==========
+  { slug: "valletta",    name: "Valletta",    countrySlug: "malta",    lat: 35.8989, lng: 14.5146, population:    6_000, tier: "1", bookingDestId: -1216898, intro: "Valletta is a UNESCO peninsula city — golden limestone, fortifications, dramatic harbor views. The whole city is walkable in 30 minutes; almost any central stay works." },
+  { slug: "sliema",      name: "Sliema",      countrySlug: "malta",    lat: 35.9122, lng: 14.5022, population:   23_000, tier: "2", bookingDestId: -1216872, intro: "Sliema is the modern resort strip across the harbor from Valletta — bigger hotels with pools, restaurant chains, ferry across to Valletta in 5 minutes." },
+
+  // ========== Luxembourg ==========
+  { slug: "luxembourg-city", name: "Luxembourg City", countrySlug: "luxembourg", lat: 49.6116, lng: 6.1319, population: 130_000, tier: "1", bookingDestId: -1801422, intro: "Luxembourg City is dramatically built on cliffs above two river valleys. Ville Haute (upper town) is the polished central stay; Grund (lower town) is atmospheric but requires the panoramic elevator or a steep walk." },
+
+  // ========== Slovakia ==========
+  { slug: "bratislava",  name: "Bratislava",  countrySlug: "slovakia", lat: 48.1486, lng: 17.1077, population:  475_000, tier: "1", bookingDestId: -2871661, intro: "Bratislava's Old Town (Staré Mesto) is small enough to walk in 20 minutes. Stay inside it; venture beyond and the city becomes communist-era apartment blocks." },
+  { slug: "kosice",      name: "Košice",      countrySlug: "slovakia", lat: 48.7164, lng: 21.2611, population:  240_000, tier: "2", bookingDestId: -2871794, intro: "Košice in eastern Slovakia is the country's most underrated city — a long pedestrian boulevard (Hlavná) lined with cafes, the Cathedral of St. Elisabeth, almost no tourists. Stay on or just off Hlavná." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

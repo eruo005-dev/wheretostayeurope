@@ -8,6 +8,7 @@
 import Link from "next/link";
 import { ConsentPreferencesButton } from "@/components/legal/ConsentProvider";
 import { SITE_NAME, LEGAL_ENTITY_NAME } from "@/lib/seo/config";
+import { COUNTRIES } from "@/lib/data/static-data";
 
 const FOOTER_COPY: Record<string, {
   tagline: string;
@@ -107,27 +108,24 @@ export function Footer({ locale }: { locale: "en" | "de" | "fr" | "es" }) {
 
         <nav aria-label={copy.contentSections}>
           <h3 style={colHeading}>{copy.contentSections}</h3>
-          <ul style={list}>
-            <li><Link href={`/${locale}/france`} style={footerLink}>France</Link></li>
-            <li><Link href={`/${locale}/spain`} style={footerLink}>Spain</Link></li>
-            <li><Link href={`/${locale}/italy`} style={footerLink}>Italy</Link></li>
-            <li><Link href={`/${locale}/germany`} style={footerLink}>Germany</Link></li>
-            <li><Link href={`/${locale}/united-kingdom`} style={footerLink}>United Kingdom</Link></li>
-            <li><Link href={`/${locale}/netherlands`} style={footerLink}>Netherlands</Link></li>
-            <li><Link href={`/${locale}/turkey`} style={footerLink}>Turkey</Link></li>
-            <li><Link href={`/${locale}/portugal`} style={footerLink}>Portugal</Link></li>
-            <li><Link href={`/${locale}/greece`} style={footerLink}>Greece</Link></li>
-            <li><Link href={`/${locale}/croatia`} style={footerLink}>Croatia</Link></li>
-            <li><Link href={`/${locale}/bosnia-and-herzegovina`} style={footerLink}>Bosnia and Herzegovina</Link></li>
-            <li><Link href={`/${locale}/czech-republic`} style={footerLink}>Czech Republic</Link></li>
-            <li><Link href={`/${locale}/hungary`} style={footerLink}>Hungary</Link></li>
-            <li><Link href={`/${locale}/poland`} style={footerLink}>Poland</Link></li>
-            <li><Link href={`/${locale}/austria`} style={footerLink}>Austria</Link></li>
-            <li><Link href={`/${locale}/switzerland`} style={footerLink}>Switzerland</Link></li>
-            <li><Link href={`/${locale}/belgium`} style={footerLink}>Belgium</Link></li>
-            <li><Link href={`/${locale}/denmark`} style={footerLink}>Denmark</Link></li>
-            <li><Link href={`/${locale}/sweden`} style={footerLink}>Sweden</Link></li>
-            <li><Link href={`/${locale}/norway`} style={footerLink}>Norway</Link></li>
+          <ul style={{ ...list, columns: 2, columnGap: 14 }}>
+            {COUNTRIES.map((c) => (
+              <li key={c.slug} style={{ breakInside: "avoid" }}>
+                <Link href={`/${locale}/${c.slug}`} style={footerLink}>
+                  {c.name}
+                </Link>
+              </li>
+            ))}
+            <li style={{ breakInside: "avoid", marginTop: 8 }}>
+              <Link href={`/${locale}/articles`} style={{ ...footerLink, fontWeight: 600 }}>
+                Articles →
+              </Link>
+            </li>
+            <li style={{ breakInside: "avoid" }}>
+              <Link href={`/${locale}/about`} style={{ ...footerLink, fontWeight: 600 }}>
+                About →
+              </Link>
+            </li>
           </ul>
         </nav>
 

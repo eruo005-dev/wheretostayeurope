@@ -102,6 +102,130 @@ Tipping: round up to the next Euro for coffee, 5-10% in restaurants. Tell the wa
 
 The sound: U-Bahn doors chiming closed, Spaeti fridges humming, the Friday night sirens, the spring-and-summer outdoor-bar laughter that runs until 4am. Berlin dresses functionally — black, layered, with a coat that handles rain. Anyone in a suit is either at a wedding or visiting from Munich.
   `.trim(),
+
+  madrid: `
+Madrid eats later than anywhere in Europe — lunch from 2pm, dinner from 9:30 (10pm in summer), bars and tapas counters busiest from 11pm onwards. Restaurants attempting earlier service are tourist-coded. The plan that works: a coffee and tostada con tomate around 10am, vermouth (vermut) and aceitunas at 1pm, the menú del día (3-course set lunch, 12-15 EUR) at 2:30, a long siesta or museum visit, then tapas with friends starting at 9pm.
+
+Tapas in Madrid is not a meal format the way it is in Andalusia. Madrileños eat raciones (full plates) shared, or run a tapas crawl — one drink, one tapa, walk to the next bar. La Latina's Calle Cava Baja and Calle de Almendro are the Sunday tapas-crawl spine. Order a caña (small beer) so you can finish it and keep moving.
+
+The two cultural lenses you cannot avoid: bullfighting (Las Ventas, season runs March to October — opinions are sharp on both sides; just be aware before bringing it up) and football (Real Madrid at the Bernabéu, Atlético at the Metropolitano — match days dominate the city's mood and bar economics).
+
+Greeting is "Buenos días" until lunch, "Buenas tardes" after lunch until dark, "Buenas noches" after. Tipping: small change in cafés, 5-10% in restaurants only if service was attentive. American 18-20% is not expected and will mark you.
+
+Sundays: the Rastro flea market in La Latina (9am-3pm) is the city's defining Sunday morning, followed by vermut at any nearby corner. Most museums are free in the late afternoon (Prado: free 6-8pm Mon-Sat, 5-7pm Sun) — the queues are long but real.
+
+The sound: bottle-stoppers being pulled in tapas bars, the metro's announcement chime, motorbikes on Calle Mayor at 2am, the basilica bells from San Francisco el Grande. Madrid dresses up — significantly more formal than Barcelona. Wear shorts in the city center and you'll feel under-dressed by 8pm.
+  `.trim(),
+
+  vienna: `
+Vienna runs on coffeehouse culture — and "coffeehouse" here means the institution UNESCO recognized, not Starbucks. Order a Melange (espresso with steamed milk, like a flat white) or a Verlängerter (espresso lengthened with hot water, like an Americano). It comes on a small silver tray with a glass of tap water. You can sit for three hours with a single coffee, reading a newspaper from the wooden rack — this is not rude, this is the entire point. Café Central, Café Sperl, Café Hawelka are the famous ones; almost any neighborhood Kaffeehaus does the same thing without the queue.
+
+Lunch is 12 to 2pm, dinner 6:30 to 9 — earlier than Spain, later than Germany. Schnitzel comes only with potato salad or parsleyed potatoes (never fries — Italian/American tourist tells). Tafelspitz (boiled beef with horseradish and apple-chive sauce) is the dish you order when you want to eat like a 1900 Viennese. Sachertorte is theatrical and fine; the Apfelstrudel is the better bet at any coffeehouse.
+
+The Viennese are formally polite — "Grüß Gott" (formal hello, literally "God greet you") in shops, "Servus" between friends and people under 40. Always greet on entering a small shop. Tipping: round up café orders, 10% at restaurants — say the total amount including tip when paying ("Vierzehn Euro, bitte" if the bill is 12.50).
+
+The Naschmarkt (Saturdays) is the city's defining open-air market. Christmas markets (mid-November to December 23) are real, particularly Spittelberg and Karlsplatz. The Opera Ball season (January-February) means the Staatsoper does evening tours that swap normal access for ballroom-floor walks; book ahead.
+
+The sound: tram bells on the Ringstrasse, Stephansdom's Pummerin bell at noon and at New Year, café-newspaper pages turning, Strauss waltzes coming from a thousand horse-drawn fiakers around the Hofburg. Vienna dresses better than Berlin — closer to Milan than to Hamburg. Smart casual at minimum after 6pm.
+  `.trim(),
+
+  prague: `
+Czechs have a beer culture that defines daily life — Pilsner Urquell or Staropramen on draft is 50-70 CZK (€2-3) for a 0.5L glass, served cold and unhurried. Beer is faster than water in many pubs (and often cheaper). Order "jedno pivo" (one beer); the waiter will mark a tally on your beer mat and bring another when you're getting low — to stop, place the mat over the empty glass.
+
+Lunch (oběd) is the warm meal — most pubs serve a daily menu (denní menu) of 3 courses for 150-200 CZK (€6-8) between 11am and 2pm. Dinner is lighter and later. Czech food is honest and heavy: svíčková (beef in cream sauce with bread dumplings), guláš (goulash with bread dumplings), smažený sýr (fried cheese with tartar sauce). Do not skip the dumplings — they are the point.
+
+The greeting is "Dobrý den" (formal hello) until evening, "Dobrý večer" after about 6pm. Czechs are reserved with strangers but warm once introductions happen. Tipping: round up coffee and beer to the next 10 CZK, 10% in restaurants if service was attentive — tell the server the rounded-up total when paying.
+
+The Old Town Square in Prague is overwhelmingly tourist-managed by 10am; locals avoid it. The same square at 7am is empty, the astronomical clock chimes for nobody, and you can have it to yourself. Same trick works at Charles Bridge — cross at sunrise.
+
+Sundays many shops close (this changed less in Czechia than in Germany or Austria, but still applies). Easter (Velikonoce) involves men and boys playfully whipping women with woven willow branches in exchange for painted eggs — culturally insider and not for tourists to participate in unless invited.
+
+The sound: tram bells (the trams in Prague are both transport and tourist attraction), the Old Town clock striking the hour with the apostle parade, beer-glass rims clinking, the Vltava lapping under Charles Bridge at dawn. Prague dresses casually but neatly — jeans and a sweater work everywhere, gym clothes look out of place outside the gym.
+  `.trim(),
+
+  budapest: `
+Hungarians eat lunch (ebéd) as the warm meal — most restaurants do a 3-course "menü" between noon and 3pm for 2,500-3,500 HUF (€7-9). Dinner is later, 7 to 9pm. Goulash here (gulyás) is a soup, not a stew — what English-speakers call goulash is closer to pörkölt. Order both at least once. Lángos (deep-fried dough with sour cream and cheese) is the street-food classic; the best is at the Great Market Hall upstairs.
+
+Coffee comes in tiny cups — "egy presszó" gets you an espresso for 400-600 HUF. The grand café tradition (New York Café, Centrál Kávéház) is theatrical and worth doing once for the room. Everyday coffee is fine in any neighborhood place.
+
+Hungarian thermal baths are functional infrastructure, not a tourist activity. Széchenyi (the big yellow one in the City Park) is the one most tourists visit; Gellért is more Art Nouveau and elegant; Rudas is the most local and has men-only days. Bring flip-flops, a towel, and 10 EUR cash for the locker. The outdoor pools at Széchenyi at 7am in February with snow on the pool deck and chess players in the steam — that's the postcard.
+
+The greeting is "Jó napot kívánok" (formal good day) or "Szia" (informal hi). Tipping: 10-15% in restaurants is the norm here, tell the server the total amount when paying — leaving cash on the table is unusual. The exchange rate is the trap — many tourist-zone places quote in EUR with bad rates; pay in HUF when possible.
+
+The Jewish Quarter (District VII) ruin bars run late. Szimpla Kert is the famous one and the queue tells you so. The smaller ones around Kazinczy and Király streets are better. Sundays mid-morning the neighborhood quiets and the markets (especially Szimpla's farmers' market) come out.
+
+The sound: Hungarian itself (it sounds like nothing in your language family — the rhythm is genuinely different from anything Indo-European), the Yellow Line metro's vintage carriages, tram 4/6 along the Grand Boulevard, the splash of the Chain Bridge's pedestrian deck on summer nights.
+  `.trim(),
+
+  athens: `
+Athenians eat dinner late — 9 to 11pm in summer, 8 to 10 in winter. Lunch is later than Northern Europe (1:30 to 3pm). Don't try to eat dinner at 7; you'll be alone in the restaurant and it'll show. Mezedes (small plates) shared with ouzo or tsipouro is the most Greek dinner format. A proper meal is a long table with 8-10 small plates, bread, lemon wedges, and a bottle of house wine that arrives in a copper pitcher.
+
+Coffee is freddo espresso (espresso shaken with ice) or freddo cappuccino — both invented for the Greek climate. Order from any kafenio (traditional café) for €2.50; from Starbucks for €5 and a worse drink. Frappé (instant coffee shaken with cold water) is the older generation's choice and tastes exactly like its history.
+
+The greeting is "Yia sou" (informal) or "Kalimera" (good morning, until early afternoon), "Kalispera" (good evening, after about 4pm). Hand gestures matter — the upraised flat palm (moutza) is a serious insult; never use it to indicate "stop" or "five."
+
+Greeks are warm to strangers until you cross a tribal line — football (Olympiacos vs Panathinaikos), politics (the Greek civil war's wounds aren't closed), or the recent past (the financial crisis is still raw). Avoid bringing these up unless invited.
+
+Tipping: round up taxi fares, 10% in restaurants. Greek service is unhurried — being asked for the bill before you ask is considered rude. Ask for "to logariasmo" when you're ready.
+
+Athenian Sundays: the Monastiraki flea market is the obvious tourist Sunday; the Varvakios Agora (central food market) on a Saturday morning is the local equivalent. Easter (Greek Orthodox, usually a week or two after Catholic Easter) is the year's biggest holiday and the city empties — most restaurants and museums close from Holy Friday to Easter Monday.
+
+The sound: bouzouki music drifting from any neighborhood taverna, the koulouri seller's call ("KOOOO-loori!"), motorbikes on Adrianou, cicadas in summer that override conversation, the church bells that overlap from a dozen Orthodox churches every Sunday morning.
+  `.trim(),
+
+  london: `
+Londoners eat dinner early by Continental standards — restaurants fill at 6:30pm, last orders typically 9:30 or 10. The British pub lunch (12:30 to 2pm) is a real institution: a roast on Sundays, a pie or fish and chips on weekdays, a pint with it. Pubs stop serving food before they stop serving drinks; if you arrive at 9pm hungry, you're often into chip-shop or kebab territory.
+
+Tea is the universal social transaction. "Cup of tea" almost always means English Breakfast with milk. Refusing tea offered in a London office is mildly weird; refusing the second cup is fine. "Builders' tea" is strong and milky. In a café, "tea" without specification usually gets you a teabag in a mug and you're expected to put the milk in yourself.
+
+The pub round (each person buys a round of drinks for the whole group in turn) is sacred. Skip your turn and you'll be remembered. If you don't drink, get involved in the round anyway — buy a round of soft drinks for the group when it's your turn.
+
+Tipping: 12.5% is often added to restaurant bills as "service charge" — that IS the tip, you don't add more. Pubs don't tip for ordinary drinks at the bar but do tip waiters in gastropubs (5-10%). Black cab drivers expect 10% rounded up; minicab/Uber drivers don't.
+
+Greeting: "Hi" or "Hello" — not the kissing of cheeks you'll get in France or Italy. Personal space is wider than Continental Europe. Queueing is a national religion; jumping a queue is a serious offense.
+
+Sundays many shops have shorter hours (Sunday Trading Act limits big shops to 6 hours). The Sunday roast at 1pm is the pub ritual most worth showing up for. Pre-book — good roasts sell out by Friday.
+
+London weather: the joke is that you can have four seasons in a day. The reality is that the rain is often light and intermittent rather than dramatic — pack a thin waterproof jacket year-round and don't bother with an umbrella unless going to a wedding.
+
+The sound: black cab diesel engines idling, the distinctive Tube door-closing chime ("Mind the gap"), Big Ben's bongs (when it's working), the seagulls along the Thames, "Sorry" said by literally everyone all day for almost everything.
+  `.trim(),
+
+  munich: `
+Bavarians eat lunch as the warm meal — Mittagessen between 11:30 and 2pm — and dinner (Abendessen) often as a colder spread of bread, cheese and cold cuts (Brotzeit). Restaurants do serve full dinners but pubs and beer gardens are often the evening default. The classic order: Schweinshaxe (roasted pork knuckle, served with potato dumpling and sauerkraut), or Weisswurst (white veal sausages, eaten ONLY before noon — never after, this is a Bavarian rule) with sweet mustard, a soft pretzel and a Weissbier (wheat beer).
+
+Beer gardens (Biergärten) are the city's defining institution. The rule: at any beer garden with a Selbstbedienung (self-service) section, you can bring your own food. Order beer at the counter, find a table outside, unpack your bread and cheese. The Englischer Garten's Chinesischer Turm is the largest; Augustiner-Keller is the most local. Order a Maß (1 liter) or a Halbe (0.5 liter); "small beer" doesn't really exist.
+
+Greeting in Bavaria is "Grüß Gott" (literally "greet God"), not the standard German "Guten Tag." Locals warm visibly when tourists use it. "Servus" is informal hi/bye between friends. Bavarians are friendlier than Northern Germans but still formal — Sie (formal you) until you're invited to use Du.
+
+Tipping: round up cafés, 5-10% in restaurants — say the total including tip when paying. "Stimmt so" means "keep the change."
+
+Oktoberfest (mid-September to first weekend in October) doubles every hotel price within 5 km of the Theresienwiese. Book a year ahead or visit at a different time. Christkindlmarkt (the Christmas market on Marienplatz) runs late November to December 24 and is the most Bavarian thing the city does.
+
+Sundays: most shops closed (German national rule), the city quiets, the Englischer Garten fills with families, the beer gardens fill from noon.
+
+The sound: church bells overlapping from the Frauenkirche, the U-Bahn doors chiming, Maß glasses clinking on wooden beer-garden tables, the Glockenspiel on Marienplatz at 11am and 5pm (mostly tourists watching, but charming once). Munich dresses up more than Berlin — particularly during Oktoberfest, when wearing a non-Bavarian costume Lederhosen marks you. Buy real ones from Angermaier or skip the costume entirely.
+  `.trim(),
+
+  dublin: `
+Dubliners eat dinner from 6pm onwards, often early by Continental standards — book ahead for anywhere good after 7. The pub lunch (carvery: roast beef, potatoes, cabbage, gravy) at 12:30 is the most Irish weekday eating. The Sunday roast at any decent gastropub at 1pm is a non-negotiable ritual. Arrive at noon if you want a table.
+
+The pint of Guinness is sacred. It takes 119.5 seconds to pour properly (the "two-part pour"), and a Dubliner will judge any bartender who hurries it. Order "a pint" without specifying brand and you'll get a Guinness; order anything else by name. Don't tip on bar service of pints — leave coins for table service or for a bartender doing exceptional work.
+
+The "round" works like London — each person buys one for the whole group in turn. Skipping your turn is a memorable offense. Irish pubs are social rather than transactional; striking up a conversation with the people next to you is welcomed.
+
+Greeting: "How're ya" or "Hi there" — informal Ireland. "Grand" means everything from "fine" to "enthusiastically agreeing." "Sound" means good or trustworthy. "Yer man" means a third person being talked about. The accent and slang shift dramatically every 50 km.
+
+Tipping: 10-12% in restaurants if service charge isn't already added. Taxis: round up, no need to add more.
+
+The trad music sessions (live traditional Irish music in pubs) happen most nights of the week — Cobblestone in Stoneybatter, Hughes' on Chancery Street, O'Donoghue's on Merrion Row are the real ones. Temple Bar's pubs play trad too but it's louder and tourist-focused.
+
+Dublin weather: light persistent rain for most of the year. Pack a waterproof jacket; an umbrella is a tourist tell. "Soft day" is Irish for "drizzle, but warm enough that you don't really mind."
+
+Sundays: pubs open late morning, shops mostly open, museums free at the National Museum sites. The Dublin Sunday is built around the long roast lunch with two-three pints, then a long walk in Phoenix Park or along the River Liffey.
+
+The sound: Guinness being poured (the pause for the head to settle, then the top-off), seagulls along the quays, fiddle and bodhrán from any open pub door, the Luas (tram) bells, "Cheers, thanks" said by everyone for everything.
+  `.trim(),
 };
 
 export function getCulturalNotes(citySlug: string): string | null {

@@ -9,7 +9,7 @@ import {
   findCity,
   findNeighborhood,
   neighborhoodsInCity,
-  NEIGHBORHOODS,
+  ALL_NEIGHBORHOODS,
 } from "@/lib/data/static-data";
 import type { PropertyCardData } from "@/components/affiliate/PropertyCard";
 
@@ -177,7 +177,7 @@ export async function getAllPublishedNeighborhoodPaths(): Promise<
 > {
   const out: Array<{ locale: string; country: string; city: string; neighborhood: string }> = [];
   const locales: Locale[] = ["en", "de", "fr", "es"];
-  for (const n of NEIGHBORHOODS) {
+  for (const n of ALL_NEIGHBORHOODS) {
     for (const locale of locales) {
       out.push({
         locale,

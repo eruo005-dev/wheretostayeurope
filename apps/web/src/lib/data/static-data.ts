@@ -3,6 +3,9 @@
 // Single source of truth for the static blog. No DB, no Payload.
 // Add countries/cities/neighborhoods here; they appear in routes immediately.
 
+import { TIER2_NEIGHBORHOODS } from "./static-data-tier2-neighborhoods";
+export { CITY_CULTURAL_NOTES, getCulturalNotes } from "./static-data-cultural";
+
 export type StaticCountry = {
   slug: string;
   name: string;
@@ -675,6 +678,12 @@ export const NEIGHBORHOODS: StaticNeighborhood[] = [
     tripTypeFit: ["solo", "digital-nomads"] },
 ];
 
+// ===== Combined neighborhoods (top-8 inline + tier-2 from extras) =====
+export const ALL_NEIGHBORHOODS: StaticNeighborhood[] = [
+  ...NEIGHBORHOODS,
+  ...TIER2_NEIGHBORHOODS,
+];
+
 // ===== Lookup helpers =====
 export function findCountry(slug: string): StaticCountry | undefined {
   return COUNTRIES.find((c) => c.slug === slug);
@@ -683,11 +692,11 @@ export function findCity(countrySlug: string, citySlug: string): StaticCity | un
   return CITIES.find((c) => c.countrySlug === countrySlug && c.slug === citySlug);
 }
 export function findNeighborhood(countrySlug: string, citySlug: string, slug: string): StaticNeighborhood | undefined {
-  return NEIGHBORHOODS.find((n) => n.countrySlug === countrySlug && n.citySlug === citySlug && n.slug === slug);
+  return ALL_NEIGHBORHOODS.find((n) => n.countrySlug === countrySlug && n.citySlug === citySlug && n.slug === slug);
 }
 export function citiesInCountry(countrySlug: string): StaticCity[] {
   return CITIES.filter((c) => c.countrySlug === countrySlug);
 }
 export function neighborhoodsInCity(citySlug: string): StaticNeighborhood[] {
-  return NEIGHBORHOODS.filter((n) => n.citySlug === citySlug);
+  return ALL_NEIGHBORHOODS.filter((n) => n.citySlug === citySlug);
 }

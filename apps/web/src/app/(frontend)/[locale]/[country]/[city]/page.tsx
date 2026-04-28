@@ -190,6 +190,17 @@ export default async function CityPage({ params }: Props) {
           className="wts-prose"
         />
 
+        {c.culturalNotes && (
+          <section style={{ marginTop: 32, padding: "20px 22px", background: "#fff7ed", borderLeft: "4px solid #f97316", borderRadius: 6 }}>
+            <h2 style={{ fontSize: 22, marginTop: 0, marginBottom: 10, color: "#9a3412" }}>
+              Feel the city before you arrive
+            </h2>
+            <div style={{ fontSize: 15, lineHeight: 1.65, color: "#1f2937", whiteSpace: "pre-line" }}>
+              {c.culturalNotes}
+            </div>
+          </section>
+        )}
+
         {neighborhoods.length > 0 && (
           <section style={{ marginTop: 40 }}>
             <h2 style={{ fontSize: 28, marginBottom: 14 }}>

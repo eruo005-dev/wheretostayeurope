@@ -9,6 +9,7 @@ import {
   findCity,
   neighborhoodsInCity,
   CITIES,
+  getCulturalNotes,
 } from "@/lib/data/static-data";
 import type { PropertyCardData } from "@/components/affiliate/PropertyCard";
 import type { LexicalRoot } from "@/components/content/LexicalRenderer";
@@ -34,6 +35,7 @@ export type CityPageData = {
   metaTitle: string | null;
   metaDescription: string | null;
   seasonality: Record<string, { crowd?: number; price?: number }> | null;
+  culturalNotes: string | null;
   heroImage: {
     url: string;
     alt: string;
@@ -104,6 +106,7 @@ export async function getCityBySlug({
     metaTitle: `Where to Stay in ${city.name} — Neighborhood Guide`,
     metaDescription: `Honest, no-fluff picks of where to stay in ${city.name}, ${country.name}. By neighborhood, by trip type.`,
     seasonality: null,
+    culturalNotes: getCulturalNotes(city.slug),
     heroImage: null,
   };
 }

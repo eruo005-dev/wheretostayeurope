@@ -7785,6 +7785,341 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 26 — capital comparisons + practical guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "paris-vs-rome-which-trip",
+    title: "Paris vs Rome: Honest Comparison for First-Time Europe",
+    excerpt: "Both are obvious anchors for first European trips. Here's the honest take on which to pick.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 9,
+    metaTitle: "Paris vs Rome — Honest 2026 Comparison",
+    metaDescription: "Both are obvious anchors for first European trips. Here's the honest take on which to pick.",
+    html: `
+<p>Paris vs Rome is the most-asked first-Europe-trip question. Both deliver. They're not the same trip.</p>
+
+<h2>What Paris does better</h2>
+
+<ul>
+  <li><strong>Walkability:</strong> Compact central arrondissements. The metro is dense.</li>
+  <li><strong>Museums:</strong> Louvre, Orsay, Pompidou, Rodin, Picasso, dozens more.</li>
+  <li><strong>Food sophistication:</strong> Michelin density, brasseries, café culture.</li>
+  <li><strong>Shopping:</strong> Avenue Montaigne, the Marais boutiques.</li>
+  <li><strong>Year-round visit:</strong> Rome in August empties; Paris stays itself.</li>
+</ul>
+
+<h2>What Rome does better</h2>
+
+<ul>
+  <li><strong>Living history:</strong> 2500 years walkable. Forum, Pantheon, Vatican.</li>
+  <li><strong>Outdoor café-and-piazza culture:</strong> Italian aperitivo + late-summer evenings beat French alternatives.</li>
+  <li><strong>Cost:</strong> Rome runs 20-30% cheaper than Paris for equivalent product.</li>
+  <li><strong>Restaurants past 10pm:</strong> Italians eat later than Parisians.</li>
+  <li><strong>Weather September-October:</strong> Rome has warmer shoulder season.</li>
+</ul>
+
+<h2>Logistics</h2>
+
+<ul>
+  <li><strong>Airport transit:</strong> Paris CDG to centre is 35 min by RER B (€11). Rome FCO to centre is 32 min by Leonardo Express (€14).</li>
+  <li><strong>Both 2-3h flights from US East Coast hubs.</strong></li>
+</ul>
+
+<h2>Honest picks by trip type</h2>
+
+<ul>
+  <li><strong>First European trip ever:</strong> Paris.</li>
+  <li><strong>History-focused:</strong> Rome.</li>
+  <li><strong>Romantic honeymoon:</strong> Paris in October-November or Rome in May.</li>
+  <li><strong>Foodie trip:</strong> Both, but Rome wins for casual day-to-day eating.</li>
+  <li><strong>Budget conscious:</strong> Rome.</li>
+  <li><strong>Multi-city trip:</strong> Paris pairs better with London; Rome pairs better with Florence and Venice.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Don't try to do both in 7 days. 7 days = 1 city plus regional day-trips. 14 days = both with depth. For first-time short trips, pick one and commit.</p>
+
+<p>For specific where-to-stay: <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">Paris guide</a>, <a href="/en/articles/where-to-stay-in-rome">Rome guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "london-vs-paris-which-european-trip",
+    title: "London vs Paris: Honest Comparison",
+    excerpt: "Two obvious capitals 2h 30min apart. Here's the honest take on which one fits your trip.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 9,
+    metaTitle: "London vs Paris — Honest 2026 Comparison",
+    metaDescription: "Two obvious capitals 2h 30min apart. Here's the honest take on which one fits your trip.",
+    html: `
+<p>London and Paris are the European travelers' first instinct. They're 2h 30min apart by Eurostar but they answer very different questions.</p>
+
+<h2>What London does better</h2>
+
+<ul>
+  <li><strong>Free museums:</strong> British Museum, National Gallery, V&A, Tate. Most free.</li>
+  <li><strong>Theatre:</strong> West End is unmatched.</li>
+  <li><strong>English-speaking ease:</strong> Obvious.</li>
+  <li><strong>Variety per square km:</strong> Different neighborhoods feel like different cities.</li>
+  <li><strong>Pub culture:</strong> Real and ubiquitous.</li>
+</ul>
+
+<h2>What Paris does better</h2>
+
+<ul>
+  <li><strong>Walkability:</strong> Compact center. Tube vs metro: both dense, but Paris's central arrondissements need less metro use.</li>
+  <li><strong>Food density:</strong> Cafés, brasseries, boulangeries on every block.</li>
+  <li><strong>Iconic photo cliché:</strong> Eiffel Tower beats Big Ben for instant-recognition.</li>
+  <li><strong>Cost (slightly):</strong> Paris is expensive but London is more.</li>
+  <li><strong>Romance:</strong> Bridges, Seine walks, café terraces.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>Both €200-€350/day for comfortable trips. London edges higher; Paris's wine cheaper than London's pub-pints.</p>
+
+<h2>Combine them</h2>
+
+<p>2-week trips often do both: 5-6 nights London + 5-6 nights Paris + Eurostar between. Easy logistics.</p>
+
+<h2>Picks by trip type</h2>
+
+<ul>
+  <li><strong>Theatre, comedy, music:</strong> London.</li>
+  <li><strong>Romance, photography, café culture:</strong> Paris.</li>
+  <li><strong>Family with school-age kids:</strong> London (museums + theatre).</li>
+  <li><strong>Couples honeymoon:</strong> Paris (October-November).</li>
+  <li><strong>Foodie:</strong> Paris (better street-level food); London (better international fine dining).</li>
+  <li><strong>Budget:</strong> Paris, but only marginally.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stopover",
+    title: "Best European Cities for Long Stopover Layovers",
+    excerpt: "If you have 8-24 hours between flights, here are the European hubs worth leaving the airport for.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Long Stopover Layovers — Honest 2026",
+    metaDescription: "If you have 8-24 hours between flights, here are the European hubs worth leaving the airport for.",
+    html: `
+<p>Long airport layovers can be a free European mini-trip. Here's the honest sort.</p>
+
+<h2>Tier 1 — fast airport-to-city, dense in 6-8 hours</h2>
+
+<ul>
+  <li><strong>Reykjavík (KEF):</strong> 45 min to centre. Icelandair offers free stopovers up to 7 days. Excellent.</li>
+  <li><strong>Helsinki (HEL):</strong> 30 min to centre. Senate Square + harbor + lunch. Finnair stopover program.</li>
+  <li><strong>Copenhagen (CPH):</strong> 15 min metro to centre. Easy 6-hour visit covers Strøget + lunch.</li>
+  <li><strong>Amsterdam (AMS):</strong> 15 min train to centre. Rijksmuseum + canal walk + lunch.</li>
+  <li><strong>Lisbon (LIS):</strong> 25 min metro to centre. Easy 6-hour visit.</li>
+</ul>
+
+<h2>Tier 2 — workable for 8+ hour layovers</h2>
+
+<ul>
+  <li><strong>Paris CDG / ORY:</strong> 35 min RER. 8 hours minimum to make it worthwhile.</li>
+  <li><strong>Madrid (MAD):</strong> 30 min metro. Quick Prado visit + lunch.</li>
+  <li><strong>Vienna (VIE):</strong> 16 min CAT train. Stephansdom + coffee.</li>
+  <li><strong>Munich (MUC):</strong> 40 min S-Bahn. Tighter than the others.</li>
+  <li><strong>Zurich (ZRH):</strong> 10 min train. Excellent for short layovers — Bahnhofstrasse walk + lake.</li>
+</ul>
+
+<h2>Tier 3 — usually not worth leaving the airport</h2>
+
+<ul>
+  <li><strong>Frankfurt (FRA):</strong> 12 min train but the city is generic. Stay in airport unless 12+ hours.</li>
+  <li><strong>London Heathrow / Gatwick:</strong> 45-60 min to central London. Need 10+ hours to make sense.</li>
+  <li><strong>Barcelona (BCN):</strong> 30-35 min train. Possible but immigration can eat time.</li>
+  <li><strong>Istanbul (IST):</strong> 60 min to Sultanahmet. Need a long layover or use Turkish Airlines stopover program.</li>
+</ul>
+
+<h2>What you need</h2>
+
+<ul>
+  <li><strong>Schengen entry:</strong> Some airlines/countries require visa for layover even if not flying out same airport.</li>
+  <li><strong>Bag check:</strong> Most major airports have left-luggage at €5-€15 for the day.</li>
+  <li><strong>Time buffer:</strong> Aim to be back at airport 3 hours before next flight.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan ahead: pre-buy metro tickets (or have credit-card NFC for tap-and-go). Pick a single sight + lunch — don't try to "see" the city in one stopover.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-italy-deep-tuscany",
+    title: "Italy 7-Day Deep Tuscany Itinerary (Florence + Hill Towns)",
+    excerpt: "How to do Tuscany properly in 7 days — beyond the standard Florence-and-Siena.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 10,
+    metaTitle: "7-Day Tuscany Itinerary — Deep Florence + Hill Towns",
+    metaDescription: "How to do Tuscany properly in 7 days — beyond the standard Florence-and-Siena.",
+    html: `
+<p>Tuscany is one of Italy's best-known regions and one of the easiest to do badly. Here's the honest 7-day deep-Tuscany plan.</p>
+
+<h2>Best 7-day Tuscany base-and-spoke</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/italy/florence">Florence</a> — Uffizi, Accademia, Duomo, Oltrarno wandering. Stay in <a href="/en/italy/florence/oltrarno">Oltrarno</a> for the food, <a href="/en/italy/florence/santa-croce">Santa Croce</a> for sights.</li>
+  <li>Day 4: Day-trip to Lucca + Pisa (1h 30min train; Lucca is the hidden-gem hill town).</li>
+  <li>Day 5: Day-trip to Siena (1h 30min by bus; full day for the Campo and cathedral).</li>
+  <li>Day 6: Day-trip to San Gimignano + Volterra (rental car or tour).</li>
+  <li>Day 7: Day-trip to Chianti — wineries (driver service essential).</li>
+</ul>
+
+<h2>Alternative: stay in agriturismo</h2>
+
+<ul>
+  <li>Day 1-2: Florence</li>
+  <li>Day 3-7: Agriturismo (rural farmhouse) base in Chianti or Val d'Orcia. Day-trips to Siena, San Gimignano, Pienza, Montalcino.</li>
+</ul>
+
+<p>Best for: Couples, food-focused, anyone with rental car.</p>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Pisa for more than 2-3 hours:</strong> Tower + lunch is enough.</li>
+  <li><strong>Coastal Tuscany on a 7-day inland trip:</strong> Different region.</li>
+  <li><strong>Day-trip to Cinque Terre:</strong> 4h+ each way; needs 2-night dedicated stay.</li>
+  <li><strong>Trying to add Rome:</strong> 1h 30min train but you'll feel rushed.</li>
+</ul>
+
+<h2>Best season</h2>
+
+<p>April-June and September-October. Avoid August (heat, Italians on holiday, restaurants closed). Olive harvest (October-November) is special if you can pre-arrange agriturismo participation.</p>
+
+<h2>Cost reality</h2>
+
+<p>€200-€350/day comfortable. Agriturismo with car can be cheaper than Florence hotels for couples. Wine tastings €30-€80 per winery.</p>
+
+<p>For full Italy trips see <a href="/en/articles/europe-7-day-italy-itinerary">7-day Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-without-a-car",
+    title: "Best European Cities to Visit Without a Car",
+    excerpt: "Most European cities work without a car. Honest sort of which deliver and which don't.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities Without a Car — Honest 2026",
+    metaDescription: "Most European cities work without a car. Honest sort of which deliver and which don't.",
+    html: `
+<p>Most European cities work better without a car than with. Here's the honest sort.</p>
+
+<h2>Tier 1 — actively car-hostile (good thing)</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> No cars at all. Boats and walking only.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> Old Town:</strong> Pedestrian-only inside walls.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a> Altstadt:</strong> Pedestrianized core.</li>
+  <li><strong><a href="/en/croatia/split">Split</a> Diocletian's Palace:</strong> Pedestrian-only.</li>
+  <li><strong><a href="/en/slovenia/ljubljana">Ljubljana</a>:</strong> Pedestrianized centre.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Alfama, <a href="/en/portugal/porto">Porto</a> Ribeira:</strong> Streets too narrow for cars.</li>
+</ul>
+
+<h2>Tier 2 — excellent transit, no car needed</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> U-Bahn covers everywhere.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> U-Bahn + S-Bahn dense.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Metro every 4 min in central areas.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> Tube + buses.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> 12-line metro.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Trams and bikes.</li>
+  <li><strong>Most central European cities (Prague, Budapest, Krakow):</strong> Excellent transit.</li>
+</ul>
+
+<h2>Tier 3 — possible without car but car helpful for day-trips</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> City walkable; car for Tuscany.</li>
+  <li><strong><a href="/en/france/avignon">Avignon</a>:</strong> City walkable; car for Provence villages.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> City walkable; car for Hallstatt and Sound of Music.</li>
+  <li><strong>Tuscan agriturismo:</strong> Car essential.</li>
+  <li><strong>Greek mainland (Delphi, Meteora):</strong> Car or guided tour for non-Athens trips.</li>
+</ul>
+
+<h2>Cities where you genuinely need a car</h2>
+
+<ul>
+  <li><strong>Iceland Ring Road:</strong> Public transit doesn't cover the loop.</li>
+  <li><strong>Highland Scotland:</strong> Same.</li>
+  <li><strong>Norwegian fjords beyond Bergen day-trips:</strong> Same.</li>
+  <li><strong>Provence villages off the train line:</strong> Same.</li>
+  <li><strong>Cinque Terre is exception:</strong> Trains run, parking is brutal — DON'T bring a car.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For European cities, don't bring a car. For European countryside (Tuscany, Provence, Iceland), often you must. Mix: city stays without car + rental car for 2-3 day countryside extension.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-best-cities-with-mountain-views",
+    title: "European Cities With Mountain Views (Honest 2026)",
+    excerpt: "Cities where the mountains are part of the experience — alpine, Mediterranean, Balkan picks.",
+    publishedAt: "2026-05-21",
+    reviewedAt: "2026-05-21",
+    readingTimeMin: 8,
+    metaTitle: "European Cities With Mountain Views — Honest 2026",
+    metaDescription: "Cities where the mountains are part of the experience — alpine, Mediterranean, Balkan picks.",
+    html: `
+<p>Cities with dramatic mountain backdrops are a specific European pleasure. Here's the honest sort.</p>
+
+<h2>Alpine</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/innsbruck">Innsbruck</a>:</strong> Alps directly above the Altstadt — Nordkette cable car at the door.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Untersberg behind the city.</li>
+  <li><strong><a href="/en/switzerland/lucerne">Lucerne</a>:</strong> Pilatus + Rigi visible from the lake.</li>
+  <li><strong>Garmisch-Partenkirchen, Germany:</strong> Zugspitze directly above town.</li>
+  <li><strong>Berchtesgaden, Germany:</strong> Watzmann backdrop.</li>
+  <li><strong>Chamonix, France:</strong> Mont Blanc.</li>
+</ul>
+
+<h2>Mediterranean / coastal</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Marjan hill rising directly behind the city.</li>
+  <li><strong><a href="/en/montenegro/kotor">Kotor</a>:</strong> Mountains plunging into the bay.</li>
+  <li><strong><a href="/en/italy/genoa">Genoa</a>:</strong> Apennines behind the city.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a>:</strong> Sierra Nevada behind, Albaicín opposite.</li>
+  <li><strong><a href="/en/italy/naples">Naples</a>:</strong> Vesuvius across the bay.</li>
+</ul>
+
+<h2>Balkan</h2>
+
+<ul>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a>:</strong> Mountains on all sides; cable car at the centre.</li>
+  <li><strong><a href="/en/slovenia/ljubljana">Ljubljana</a>:</strong> Julian Alps a short drive away.</li>
+  <li><strong><a href="/en/slovenia/bled">Bled</a>:</strong> Karawanken Alps reflected in the lake.</li>
+  <li><strong>Sofia, Bulgaria:</strong> Vitosha Mountain (2300m) visible from city.</li>
+</ul>
+
+<h2>Hill cities (mountain-adjacent)</h2>
+
+<ul>
+  <li><strong>Granada (specifically Albaicín):</strong> Sierra Nevada views from the Mirador.</li>
+  <li><strong>Plovdiv (Bulgaria):</strong> Rhodope mountains across the plain.</li>
+  <li><strong>Cluj-Napoca:</strong> Apuseni Mountains.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Mountain-view cities reward 3+ night stays — afternoon hikes, sunset views, alternate-day cable cars. Day-trippers miss the depth.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

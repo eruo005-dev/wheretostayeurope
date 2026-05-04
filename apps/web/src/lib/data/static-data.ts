@@ -593,6 +593,17 @@ export const CITIES: StaticCity[] = [
 
   // Netherlands
   { slug: "utrecht", name: "Utrecht", countrySlug: "netherlands", lat: 52.0907, lng: 5.1214, population: 360_000, tier: "2", bookingDestId: null, intro: "Utrecht's Binnenstad (city centre, organized around the canal-with-wharves Oudegracht) is the only sensible stay. The whole centre is walkable in 20 min. Skip the area around the train station for sleeping — book it for transport access only if needed." },
+
+  // ========== EXPANSION BATCH 17 (more tier-3 cities) ==========
+  // Spain
+  { slug: "cordoba", name: "Córdoba", countrySlug: "spain", lat: 37.8882, lng: -4.7794, population: 325_000, tier: "2", bookingDestId: null, intro: "Córdoba's Judería (Jewish Quarter) around the Mezquita is the only sensible stay. The whole historic core is walkable in 15 min. Avoid summer (July-August daytime highs over 40°C); spring is the trip." },
+
+  // Italy
+  { slug: "pisa", name: "Pisa", countrySlug: "italy", lat: 43.7228, lng: 10.4017, population: 90_000, tier: "2", bookingDestId: null, intro: "Pisa is small enough that the area around the Leaning Tower (Piazza dei Miracoli) is the only sensible stay for sights focus. Most travelers day-trip from Florence; an overnight is worth it for the dawn at the tower without crowds." },
+  { slug: "turin", name: "Turin", countrySlug: "italy", lat: 45.0703, lng: 7.6869, population: 870_000, tier: "2", bookingDestId: null, intro: "Turin's Centro Storico around Via Roma and Piazza San Carlo is the polished central stay. Quadrilatero Romano just north is where the aperitivo crowds actually go. Skip neighborhoods outside the historic core." },
+
+  // France
+  { slug: "avignon", name: "Avignon", countrySlug: "france", lat: 43.9493, lng: 4.8055, population: 95_000, tier: "2", bookingDestId: null, intro: "Avignon is small enough that any stay inside the city walls works. The Palais des Papes area gives you the Avignon Festival venues; the southern half of the walled city is calmer. Skip anywhere outside the walls for sleeping." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

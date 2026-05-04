@@ -7291,6 +7291,92 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 17 — pairs for new cities
+// =============================================================================
+COMPARISONS.push(
+  // CÓRDOBA
+  {
+    slug: "juderia-vs-san-basilio",
+    citySlug: "cordoba", countrySlug: "spain",
+    aSlug: "juderia-cordoba", bSlug: "san-basilio",
+    aLabel: "Judería", bLabel: "San Basilio",
+    metaTitle: "Judería vs San Basilio: Where to Stay in Córdoba",
+    metaDescription: "Córdoba's Mezquita Judería or quieter San Basilio? Real take on tourist crush, food and price.",
+    intro: "Both are Córdoba's old quarters. Judería is the Jewish Quarter around the Mezquita — narrow whitewashed lanes, tourist density. San Basilio is just south — the patio quarter, dense neighborhood-restaurants, less crush.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Judería has the Mezquita, the Jewish synagogue. San Basilio is 5 min walk." },
+      { question: "Tourist crush", winner: "b", body: "Judería becomes unwalkable mid-day in May/September. San Basilio gets none of this." },
+      { question: "Restaurants past 10pm", winner: "b", body: "San Basilio has neighborhood density. Judería tilts tourist-priced." },
+      { question: "Walkability between", winner: "tied", body: "Both 5-10 min walk to each other. Equivalent." },
+      { question: "Price", winner: "b", body: "San Basilio 15-20% cheaper than Judería for equivalent product." },
+    ],
+    pickA: "Pick Judería for first-time visits, sights focus, single-night stays where Mezquita-at-door matters.",
+    pickB: "Pick San Basilio for any 2+ night stay, food-focused trips, quieter sleep.",
+    bottomLine: "Judería for first-timers. San Basilio for value and quiet.",
+  },
+  // PISA
+  {
+    slug: "piazza-dei-miracoli-vs-centro-storico-pisa",
+    citySlug: "pisa", countrySlug: "italy",
+    aSlug: "piazza-dei-miracoli", bSlug: "tuttoilmondo",
+    aLabel: "Piazza dei Miracoli", bLabel: "Centro Storico",
+    metaTitle: "Piazza dei Miracoli vs Centro Storico: Where to Stay in Pisa",
+    metaDescription: "Pisa's Tower-side or river-side Centro Storico? Real take on dawn access, food and atmosphere.",
+    intro: "Piazza dei Miracoli is the Leaning Tower area — tourist hotels, day-tripper crush 10am-4pm. Centro Storico is south of the Arno — actual Pisa life with shops and restaurants, walkable to the Tower in 10-15 min.",
+    rounds: [
+      { question: "Tower at dawn", winner: "a", body: "Piazza dei Miracoli wins — 5-min walk to the Tower for the empty 7am photo." },
+      { question: "Restaurants past 9pm", winner: "b", body: "Centro Storico has actual Pisa restaurants. Piazza dei Miracoli is mostly tourist-trap." },
+      { question: "Atmosphere", winner: "b", body: "Centro Storico is real Pisa with shops and life. Piazza dei Miracoli is theme-park." },
+      { question: "Day-tripper crush", winner: "b", body: "Piazza dei Miracoli is unwalkable mid-day. Centro Storico gets none." },
+      { question: "Price", winner: "tied", body: "Both €100-€180 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Piazza dei Miracoli only for single-night dawn-at-the-Tower stays.",
+    pickB: "Pick Centro Storico for any 2+ night stay, food-focused trips, real Pisa.",
+    bottomLine: "Tower-side for dawn shot. Centro Storico for everything else.",
+  },
+  // TURIN
+  {
+    slug: "centro-turin-vs-quadrilatero-romano",
+    citySlug: "turin", countrySlug: "italy",
+    aSlug: "centro-turin", bSlug: "quadrilatero-romano",
+    aLabel: "Centro Storico", bLabel: "Quadrilatero Romano",
+    metaTitle: "Centro Storico vs Quadrilatero Romano: Where to Stay in Turin",
+    metaDescription: "Turin's elegant central core or aperitivo Quadrilatero? Real take on shopping, food and price.",
+    intro: "Centro Storico is Turin's polished central core — Via Roma, designer shopping, the Egyptian Museum nearby. Quadrilatero Romano is just north — Roman-era grid, dense aperitivo strip, where Torinesi actually go for evenings.",
+    rounds: [
+      { question: "Shopping", winner: "a", body: "Centro Storico wins — Via Roma is the designer flagship strip." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Quadrilatero Romano wins. Aperitivo density runs late. Centro Storico tilts upscale-formal." },
+      { question: "Walkability to Egyptian Museum", winner: "a", body: "Centro Storico is 5 min walk. Quadrilatero is 10-15 min." },
+      { question: "Atmosphere", winner: "tied", body: "Centro Storico is elegant-shopping-grid. Quadrilatero is Roman-aperitivo-cluster. Different vibes." },
+      { question: "Price", winner: "b", body: "Quadrilatero 15-25% cheaper than Centro Storico for equivalent product." },
+    ],
+    pickA: "Pick Centro Storico for first-time visits, shopping focus, families, anyone over 50.",
+    pickB: "Pick Quadrilatero Romano for evening-aperitivo focus, repeat visits, anyone under 40.",
+    bottomLine: "Centro Storico for shopping. Quadrilatero for aperitivo.",
+  },
+  // AVIGNON
+  {
+    slug: "intramuros-vs-ile-barthelasse",
+    citySlug: "avignon", countrySlug: "france",
+    aSlug: "intramuros-avignon", bSlug: "ile-barthelasse",
+    aLabel: "Intra-muros", bLabel: "Île Barthelasse",
+    metaTitle: "Intra-muros vs Île Barthelasse: Where to Stay in Avignon",
+    metaDescription: "Avignon's walled city or Rhône island? Real take on festival access, view, families and price.",
+    intro: "Intra-muros is the medieval walled city — Palais des Papes, dense restaurants, the festival venues. Île Barthelasse is the Rhône island opposite — leafy, residential, with the famous Pont Saint-Bénézet view back at the walls.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Intra-muros has Palais des Papes, Place de l'Horloge. Île Barthelasse has the iconic walls-view." },
+      { question: "Festival access", winner: "a", body: "Intra-muros has festival venues at the door. Île Barthelasse needs the bridge crossing." },
+      { question: "View of walled city", winner: "b", body: "Île Barthelasse wins — the iconic walls-and-bridge photo from the island." },
+      { question: "Family-friendly", winner: "b", body: "Île Barthelasse wins — leafy, residential, the calm side." },
+      { question: "Price", winner: "b", body: "Île Barthelasse 25-35% cheaper than Intra-muros, especially during festival." },
+    ],
+    pickA: "Pick Intra-muros for first-time visits, festival-week stays, sights priority.",
+    pickB: "Pick Île Barthelasse for festival-overflow accommodation, families, anyone wanting walls-view-from-room.",
+    bottomLine: "Intra-muros for festival and sights. Île Barthelasse for view and value.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

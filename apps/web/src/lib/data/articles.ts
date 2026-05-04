@@ -5711,6 +5711,174 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 17 — guides for new tier-3 cities + niche topics
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-cordoba",
+    title: "Where to Stay in Córdoba: Judería or San Basilio?",
+    excerpt: "Córdoba neighborhoods compared honestly. Real differences in Mezquita access, atmosphere and price.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Córdoba — Honest Neighborhood Guide",
+    metaDescription: "Córdoba neighborhoods compared honestly. Real differences in Mezquita access, atmosphere and price.",
+    html: `
+<p>Córdoba is small. The Mezquita is the trip and almost any old-quarter stay puts you walking distance from it.</p>
+
+<h2>Judería — for first-timers</h2>
+
+<p><a href="/en/spain/cordoba/juderia-cordoba">Judería</a> is the Jewish Quarter immediately around the Mezquita — narrow whitewashed lanes, hidden patios, the synagogue. Best for: 1-2 night first visits, sights focus.</p>
+
+<h2>San Basilio — for value</h2>
+
+<p><a href="/en/spain/cordoba/san-basilio">San Basilio</a> is just south — the patio quarter, dense neighborhood-restaurants, less crush. Best for: 2+ night stays, food-focused trips, repeat visits.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the historic core marketed as "central":</strong> Verify on a map.</li>
+  <li><strong>July-August daytime:</strong> Highs over 40°C; spring (May patio festival) is the right window.</li>
+  <li><strong>Hotels with cars:</strong> The historic core is largely pedestrian.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights focus: Judería. Food, longer stay, value: San Basilio.</p>
+
+<p>Compare: <a href="/en/spain/cordoba/compare/juderia-vs-san-basilio">Judería vs San Basilio</a>.</p>
+
+<p>For broader Andalusia trips see <a href="/en/articles/europe-7-day-spain-itinerary">7-day Spain itinerary</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "is-pisa-worth-staying-overnight",
+    title: "Is Pisa Worth Staying Overnight? Honest Take",
+    excerpt: "Most travelers day-trip Pisa from Florence. Here's when an overnight stay is actually worth it — and when to skip.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 6,
+    metaTitle: "Is Pisa Worth Staying Overnight? — Honest Take",
+    metaDescription: "Most travelers day-trip Pisa from Florence. Here's when an overnight stay is actually worth it — and when to skip.",
+    html: `
+<p>Pisa is one of the most-day-tripped cities in Europe. The standard advice is "see the Tower in 2 hours and leave." Here's when overnight makes sense.</p>
+
+<h2>When overnight Pisa works</h2>
+
+<ul>
+  <li><strong>Photographers:</strong> Dawn at the Tower without crowds is magical. Day-trippers don't arrive until 10am.</li>
+  <li><strong>Pisa-University-area visitors:</strong> Reunions, conferences, academic trips.</li>
+  <li><strong>Traveling with elderly parents who can't day-trip easily:</strong> Single-base from Pisa for 2-3 nights with day-trips to Lucca and Cinque Terre.</li>
+  <li><strong>Anyone wanting Tuscany without Florence's tourist density:</strong> Pisa is half the price of Florence.</li>
+</ul>
+
+<h2>When to just day-trip from Florence</h2>
+
+<ul>
+  <li>First-time Italy with limited time.</li>
+  <li>Tower-and-photo only — 2-3 hours covers it.</li>
+  <li>Single-day add-on with Lucca (1.5 hours together).</li>
+</ul>
+
+<h2>Where to stay if overnighting</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/pisa/piazza-dei-miracoli">Piazza dei Miracoli</a>:</strong> Tower-side hotels for the dawn photo. Day-tripper crush mid-day.</li>
+  <li><strong><a href="/en/italy/pisa/tuttoilmondo">Centro Storico</a>:</strong> Real Pisa life with shops and restaurants, walkable to the Tower.</li>
+</ul>
+
+<h2>Skip if</h2>
+
+<ul>
+  <li>Your Italy trip is under 7 days — Pisa eats time better spent in Rome or Florence.</li>
+  <li>You're not specifically photo-focused.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For 10+ day Italy trips with photo focus, overnight Pisa for the dawn Tower. Otherwise day-trip from Florence, allow 4-5 hours total round trip.</p>
+
+<p>Compare: <a href="/en/italy/pisa/compare/piazza-dei-miracoli-vs-centro-storico-pisa">Piazza dei Miracoli vs Centro Storico</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-turin",
+    title: "Where to Stay in Turin: Centro Storico or Quadrilatero Romano?",
+    excerpt: "Turin neighborhoods compared honestly. Real differences in shopping, aperitivo, atmosphere and price.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Turin — Honest Neighborhood Guide",
+    metaDescription: "Turin neighborhoods compared honestly. Real differences in shopping, aperitivo, atmosphere and price.",
+    html: `
+<p>Turin is the underrated Italian city — Roman grids, royal architecture, aperitivo culture. Here's the honest neighborhood map.</p>
+
+<h2>Centro Storico — for shopping and sights</h2>
+
+<p><a href="/en/italy/turin/centro-turin">Centro Storico</a> is Turin's central core around Piazza San Carlo and Via Roma — designer shopping, the Egyptian Museum, the cathedral. Premium pricing. Best for: first-time visits, shopping focus, anyone over 50.</p>
+
+<h2>Quadrilatero Romano — for aperitivo</h2>
+
+<p><a href="/en/italy/turin/quadrilatero-romano">Quadrilatero Romano</a> is just north — Roman-era grid streets, dense aperitivo strip, where Torinesi actually go for evenings. Best for: 2-3 night stays, food-and-aperitivo focus, anyone under 40.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the historic core marketed as "Turin":</strong> Suburban; you'll commute.</li>
+  <li><strong>Hotels near Porta Susa station:</strong> Modern but soulless.</li>
+  <li><strong>Far Vanchiglia or Aurora:</strong> Edgy in spots; verify before booking.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, shopping focus: Centro Storico. Aperitivo, longer stay: Quadrilatero Romano.</p>
+
+<p>Compare: <a href="/en/italy/turin/compare/centro-turin-vs-quadrilatero-romano">Centro Storico vs Quadrilatero Romano</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-avignon",
+    title: "Where to Stay in Avignon: Intra-muros or Île Barthelasse?",
+    excerpt: "Avignon neighborhoods compared honestly. Real differences in festival access, view, families and price.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Avignon — Honest Neighborhood Guide",
+    metaDescription: "Avignon neighborhoods compared honestly. Real differences in festival access, view, families and price.",
+    html: `
+<p>Avignon is small. The pick is inside-the-walls vs across-the-Rhône.</p>
+
+<h2>Intra-muros — for first-timers and festival</h2>
+
+<p><a href="/en/france/avignon/intramuros-avignon">Intra-muros</a> is inside the medieval walls — Palais des Papes, Place de l'Horloge, dense restaurants, festival venues. Best for: 1-2 night first visits, Avignon Festival stays (July), sights focus.</p>
+
+<h2>Île Barthelasse — for the photo and value</h2>
+
+<p><a href="/en/france/avignon/ile-barthelasse">Île Barthelasse</a> is the Rhône island opposite the walled city — leafy, residential, with the famous Pont Saint-Bénézet view back at the walls. Best for: festival-overflow stays, families, anyone wanting iconic walls-view-from-room.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the walls or island marketed as "Avignon":</strong> Suburban Provence; you'll commute.</li>
+  <li><strong>Hotels in Villeneuve-lès-Avignon:</strong> Across the river but separately-administered; works for some but verify the bridge access.</li>
+</ul>
+
+<h2>Festival timing (July)</h2>
+
+<p>The Festival d'Avignon nearly triples prices on both sides. Book 8+ months ahead. Île Barthelasse is the best festival-overflow option if intra-muros is full.</p>
+
+<h2>Quick pick</h2>
+
+<p>First-time, festival, sights focus: Intra-muros. Family or budget, view-focused: Île Barthelasse.</p>
+
+<p>Compare: <a href="/en/france/avignon/compare/intramuros-vs-ile-barthelasse">Intra-muros vs Île Barthelasse</a>.</p>
+
+<p>For Provence trips see <a href="/en/articles/european-wine-regions-where-to-base">European wine regions</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

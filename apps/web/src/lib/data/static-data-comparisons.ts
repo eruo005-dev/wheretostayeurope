@@ -7509,6 +7509,32 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 20 — pairs for new countries
+// =============================================================================
+COMPARISONS.push(
+  // KOTOR
+  {
+    slug: "stari-grad-kotor-vs-dobrota",
+    citySlug: "kotor", countrySlug: "montenegro",
+    aSlug: "stari-grad-kotor", bSlug: "dobrota",
+    aLabel: "Stari Grad", bLabel: "Dobrota",
+    metaTitle: "Stari Grad vs Dobrota: Where to Stay in Kotor",
+    metaDescription: "Kotor's UNESCO Old Town or quieter Dobrota? Real take on cruise crush, view and price.",
+    intro: "Stari Grad is Kotor's UNESCO walled Old Town — atmospheric, central. Dobrota is just north along the bay — residential, quieter, with bay views. Walkable to each other in 10-15 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Stari Grad wins on atmosphere — sleeping inside the walls, narrow lanes, the cathedral bells." },
+      { question: "Cruise crush", winner: "b", body: "Stari Grad becomes nearly unwalkable mid-day in summer. Dobrota gets none of this." },
+      { question: "Bay view", winner: "b", body: "Dobrota's bayside hotels have bay views. Stari Grad has stone-alley views." },
+      { question: "Walkability between", winner: "tied", body: "10-15 min. Equivalent." },
+      { question: "Price", winner: "b", body: "Dobrota 20-30% cheaper than Stari Grad for equivalent product." },
+    ],
+    pickA: "Pick Stari Grad for first-time visits, photo focus, sleep-inside-the-walls stays.",
+    pickB: "Pick Dobrota for repeat visits, families, light sleepers, anyone wanting bay-view-from-room.",
+    bottomLine: "Stari Grad for the experience. Dobrota for view and quiet.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

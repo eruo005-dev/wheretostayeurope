@@ -463,6 +463,45 @@ export const COUNTRIES: StaticCountry[] = [
     metaDescription: "Sofia's Eastern Orthodox heritage and Plovdiv's Roman ruins — honest picks for Bulgaria stays.",
     intro: "Bulgaria's two main cities are dramatically different. Sofia is the modern capital with Eastern Orthodox cathedrals; Plovdiv is one of Europe's oldest continuously-inhabited cities (Roman amphitheater, Old Town). Stays are among Europe's cheapest.",
   },
+  {
+    slug: "montenegro",
+    name: "Montenegro",
+    isoCode: "ME",
+    currency: "EUR",
+    timezone: "Europe/Podgorica",
+    euMember: false,
+    schengen: false,
+    tier: "2",
+    metaTitle: "Where to Stay in Montenegro — Kotor, Budva, Perast",
+    metaDescription: "Montenegro's UNESCO Bay of Kotor and the dramatic Adriatic coast — honest picks for stays.",
+    intro: "Montenegro is small but dramatic — UNESCO Bay of Kotor, walled medieval towns, beaches, mountains an hour inland. Most travelers combine it with Croatia (Dubrovnik is 2h drive away). Stays are dramatically cheap by Adriatic standards.",
+  },
+  {
+    slug: "cyprus",
+    name: "Cyprus",
+    isoCode: "CY",
+    currency: "EUR",
+    timezone: "Asia/Nicosia",
+    euMember: true,
+    schengen: false,
+    tier: "2",
+    metaTitle: "Where to Stay in Cyprus — Limassol, Paphos, Larnaca",
+    metaDescription: "Cyprus's beach towns and historic Paphos — honest picks for Mediterranean stays.",
+    intro: "Cyprus runs a year-round Mediterranean season. Limassol is the modern beach city; Paphos is the historic UNESCO town with Roman mosaics; Larnaca is the budget arrival point with the airport. Stays are 30-40% cheaper than Greek islands at peak.",
+  },
+  {
+    slug: "albania",
+    name: "Albania",
+    isoCode: "AL",
+    currency: "ALL",
+    timezone: "Europe/Tirane",
+    euMember: false,
+    schengen: false,
+    tier: "2",
+    metaTitle: "Where to Stay in Albania — Tirana, Berat, Saranda",
+    metaDescription: "Albania's emerging tourism scene — Tirana, Berat's Ottoman houses, the Riviera. Honest picks.",
+    intro: "Albania is Europe's last under-touristed country. Tirana is the rapidly-changing capital; Berat and Gjirokastër are UNESCO Ottoman towns; the Albanian Riviera (Sarandë, Dhërmi, Himarë) has Greek-island-quality beaches at half the price. Stays are dramatically cheap.",
+  },
 ];
 
 export const CITIES: StaticCity[] = [
@@ -669,6 +708,18 @@ export const CITIES: StaticCity[] = [
   // Bulgaria
   { slug: "sofia", name: "Sofia", countrySlug: "bulgaria", lat: 42.6977, lng: 23.3219, population: 1_250_000, tier: "2", bookingDestId: null, intro: "Sofia's centre around the Alexander Nevsky Cathedral is the obvious central stay. Vitosha Boulevard is the pedestrian shopping spine. Skip anywhere outside the central core for short trips." },
   { slug: "plovdiv", name: "Plovdiv", countrySlug: "bulgaria", lat: 42.1354, lng: 24.7453, population: 345_000, tier: "2", bookingDestId: null, intro: "Plovdiv's Old Town (Stariya Grad) is one of Europe's oldest continuously-inhabited urban areas — Roman amphitheater, Bulgarian Revival houses. Kapana (the Trap), the artist quarter just below, is the food-and-evening side." },
+
+  // ========== EXPANSION BATCH 20 (Montenegro + Cyprus + Albania) ==========
+  // Montenegro
+  { slug: "kotor", name: "Kotor", countrySlug: "montenegro", lat: 42.4247, lng: 18.7712, population: 23_000, tier: "2", bookingDestId: null, intro: "Kotor's Stari Grad (Old Town) within the medieval walls is the only sensible stay. The bay is the trip — UNESCO setting, mountains rising directly from the water. Avoid late-July through August (cruise-ship overflow)." },
+  { slug: "budva", name: "Budva", countrySlug: "montenegro", lat: 42.2911, lng: 18.8403, population: 18_000, tier: "2", bookingDestId: null, intro: "Budva is Montenegro's beach-resort capital — the Stari Grad is small but real, the beach strips are a 1990s package-resort throwback. Stay in the Old Town for atmosphere, on the beach for pool-and-package." },
+
+  // Cyprus
+  { slug: "limassol", name: "Limassol", countrySlug: "cyprus", lat: 34.6786, lng: 33.0413, population: 240_000, tier: "2", bookingDestId: null, intro: "Limassol is Cyprus's modern beach-and-business city. The Old Town is small; the marina and seafront promenade are the centre. Stay near the Old Town for atmosphere, the marina for polished modern, eastern-coast resort strips for pool-and-package." },
+  { slug: "paphos", name: "Paphos", countrySlug: "cyprus", lat: 34.7720, lng: 32.4297, population: 35_000, tier: "2", bookingDestId: null, intro: "Paphos's Kato Paphos (lower town near the harbor) has the UNESCO Roman mosaics. The Old Town up the hill is more residential. Most travelers stay in Kato Paphos for the mosaics and harbor restaurants." },
+
+  // Albania
+  { slug: "tirana", name: "Tirana", countrySlug: "albania", lat: 41.3275, lng: 19.8187, population: 420_000, tier: "2", bookingDestId: null, intro: "Tirana is rapidly-changing — the Blloku district was the Communist-era closed elite zone, now the city's restaurant-and-bar quarter. Skanderbeg Square and the central area are the obvious base. Skip anywhere outside the central core." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

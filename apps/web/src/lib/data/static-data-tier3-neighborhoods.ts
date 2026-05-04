@@ -1811,4 +1811,51 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Light sleepers near the bar streets. First-time visits focused on Old Town.",
     priceTier: 2, vibeTags: ["art", "food", "lively", "creative"],
     tripTypeFit: ["solo", "couples", "digital-nomads"] },
+
+  // ========== EXPANSION BATCH 20: Montenegro + Cyprus + Albania nbhds ==========
+  // Kotor
+  { slug: "stari-grad-kotor", name: "Stari Grad", citySlug: "kotor", countrySlug: "montenegro",
+    summary: "Kotor's UNESCO walled Old Town — narrow lanes, the cathedral, the climb up the city walls. The only sensible stay.",
+    whoItsFor: "First-time visits. Couples. Sights-focused stays.",
+    whoShouldSkip: "Cruise-port avoiders during peak summer (10am-4pm crush). Mobility-aware travelers.",
+    priceTier: 3, vibeTags: ["unesco", "walled", "central", "photogenic"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "dobrota", name: "Dobrota", citySlug: "kotor", countrySlug: "montenegro",
+    summary: "Just north of Stari Grad along the bay — residential, the calmer alternative with bay views.",
+    whoItsFor: "Repeat visitors. Couples wanting calm with Stari Grad walkability.",
+    whoShouldSkip: "Short stays focused on Old Town atmosphere.",
+    priceTier: 2, vibeTags: ["bay", "residential", "calm", "view"],
+    tripTypeFit: ["couples", "families", "digital-nomads"] },
+
+  // Budva
+  { slug: "stari-grad-budva", name: "Stari Grad", citySlug: "budva", countrySlug: "montenegro",
+    summary: "Budva's small walled Old Town on the peninsula — narrow lanes, the church, dense restaurants.",
+    whoItsFor: "First-time visits. Atmosphere-focused short stays. Couples.",
+    whoShouldSkip: "Beach-resort focused trips. Anyone wanting bigger Old Town than 4 hours can cover.",
+    priceTier: 2, vibeTags: ["walled", "central", "small", "photogenic"],
+    tripTypeFit: ["first-timers", "couples"] },
+
+  // Limassol
+  { slug: "old-town-limassol", name: "Old Town", citySlug: "limassol", countrySlug: "cyprus",
+    summary: "Limassol's Old Town around the medieval castle and the small mosque — narrow lanes, dense Cypriot tavernas, walkable to the marina.",
+    whoItsFor: "First-time visits. Atmosphere-focused stays. Anyone wanting non-resort Cyprus.",
+    whoShouldSkip: "Resort-focused trips. Anyone wanting pool-and-package experience.",
+    priceTier: 2, vibeTags: ["old-town", "central", "walkable", "tavernas"],
+    tripTypeFit: ["first-timers", "couples", "digital-nomads"] },
+
+  // Paphos
+  { slug: "kato-paphos", name: "Kato Paphos", citySlug: "paphos", countrySlug: "cyprus",
+    summary: "The lower town near the harbor — UNESCO Roman mosaics, harbor restaurants, the Tombs of the Kings nearby.",
+    whoItsFor: "First-time visits. Sights-focused stays. Romantic short trips.",
+    whoShouldSkip: "Authentic-Cyprus focused stays (Old Town up the hill is more lived-in).",
+    priceTier: 2, vibeTags: ["roman", "harbor", "tourist", "central"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+
+  // Tirana
+  { slug: "blloku", name: "Blloku", citySlug: "tirana", countrySlug: "albania",
+    summary: "Tirana's central restaurant-and-bar quarter — formerly Communist-era closed, now the densest food and cocktail strip.",
+    whoItsFor: "First-time visits. Food-focused stays. Anyone under 40.",
+    whoShouldSkip: "Light sleepers (the strip runs late). Mobility-aware travelers (some uneven sidewalks).",
+    priceTier: 2, vibeTags: ["central", "food", "lively", "modern"],
+    tripTypeFit: ["solo", "couples", "digital-nomads"] },
 ];

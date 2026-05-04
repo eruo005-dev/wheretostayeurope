@@ -6281,6 +6281,205 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 20 — Montenegro + Cyprus + Albania guides + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-montenegro",
+    title: "Where to Stay in Montenegro: Kotor, Budva or Perast?",
+    excerpt: "Montenegro is small but dramatic. Honest pick of which Bay of Kotor base actually works.",
+    publishedAt: "2026-05-15",
+    reviewedAt: "2026-05-15",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Montenegro — Honest Bay of Kotor Guide",
+    metaDescription: "Montenegro is small but dramatic. Honest pick of which Bay of Kotor base actually works.",
+    html: `
+<p>Montenegro is concentrated. Most travelers stay 3-5 nights. The pick is mostly Bay of Kotor area or beach-coast.</p>
+
+<h2>Kotor — for the UNESCO setting</h2>
+
+<p><a href="/en/montenegro/kotor">Kotor</a>'s walled Old Town inside the UNESCO bay is the obvious central stay. Stay in <a href="/en/montenegro/kotor/stari-grad-kotor">Stari Grad</a> for atmosphere or <a href="/en/montenegro/kotor/dobrota">Dobrota</a> just north for calmer bay-view. Best for: first-time visits, sights focus.</p>
+
+<h2>Budva — for beach</h2>
+
+<p><a href="/en/montenegro/budva">Budva</a> is the beach-resort capital. The walled Old Town is small. Most visitors come for the beach strips. Best for: beach-focused trips, summer stays, anyone wanting pool-and-package.</p>
+
+<h2>Perast — for romance</h2>
+
+<p>Perast is a tiny village on the bay 15 min north of Kotor — Venetian palazzi, two islands offshore (one with the famous church). Stay 1-2 nights for honeymoons.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Inland cities (Podgorica, Cetinje):</strong> Capital and old royal capital, but tourist appeal is limited.</li>
+  <li><strong>Far Adriatic strips (Bar, Ulcinj):</strong> Beachy but underdeveloped tourism.</li>
+  <li><strong>Anywhere advertised as "near Dubrovnik" but actually 1.5h drive:</strong> Verify on a map.</li>
+</ul>
+
+<h2>Combined trip with Croatia</h2>
+
+<p>Best 10-day Adriatic loop: 4 Dubrovnik + 3 Kotor + 2 Budva + 1 buffer. Drive the coast (rental car works). Skip Mostar unless 12+ days.</p>
+
+<h2>Cost reality</h2>
+
+<p>Montenegro is dramatically cheaper than Croatia for equivalent product. €60-€140/night for decent hotels, €15-€25 dinners. The whole country is among Europe's best values.</p>
+
+<p>For broader Adriatic itineraries see <a href="/en/articles/croatia-coast-7-day-itinerary">Croatia 7-day itinerary</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-cyprus",
+    title: "Where to Stay in Cyprus: Limassol, Paphos or Larnaca?",
+    excerpt: "Cyprus runs a year-round Mediterranean season. Honest pick of which base actually works.",
+    publishedAt: "2026-05-15",
+    reviewedAt: "2026-05-15",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Cyprus — Honest Limassol vs Paphos Guide",
+    metaDescription: "Cyprus runs a year-round Mediterranean season. Honest pick of which base actually works.",
+    html: `
+<p>Cyprus has 4 main tourist cities — Limassol, Paphos, Larnaca, Nicosia. Most travelers pick one base for 5-7 nights.</p>
+
+<h2>Limassol — for modern beach city</h2>
+
+<p><a href="/en/cyprus/limassol">Limassol</a> is the modern beach-and-business city. <a href="/en/cyprus/limassol/old-town-limassol">Old Town</a> for atmosphere; the marina for polished modern. Best for: 5-7 night beach + city stays, foodies (Cyprus's best food scene).</p>
+
+<h2>Paphos — for history</h2>
+
+<p><a href="/en/cyprus/paphos">Paphos</a> has the UNESCO Roman mosaics, the Tombs of the Kings, the harbor. <a href="/en/cyprus/paphos/kato-paphos">Kato Paphos</a> is the lower town near the harbor. Best for: 4-5 night history-focused stays.</p>
+
+<h2>Larnaca — for the airport</h2>
+
+<p>Larnaca is the budget arrival point with the main international airport. The Old Town is small; the seafront promenade is fine. Best for: 1-2 night transit stays, budget trips. Most travelers move to Limassol or Paphos for actual stays.</p>
+
+<h2>Nicosia — for the divided capital</h2>
+
+<p>Nicosia is the divided capital — UN-administered Green Line splits the old city. Half-day visit from Limassol or Larnaca beats overnight unless geopolitical history is the trip.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Ayia Napa unless party-focused:</strong> British package-stag-night zone.</li>
+  <li><strong>Northern Cyprus mainland trips without research:</strong> Border crossing complications.</li>
+  <li><strong>Anywhere advertised as "5-min walk to beach":</strong> Verify — Cyprus beaches are often 15+ min walk from "beach" hotels.</li>
+</ul>
+
+<h2>Best season</h2>
+
+<p>Year-round. Summer (July-August) is hot (35°C). Sept-Oct and April-May are perfect. Winter (Dec-Feb) is mild — daytime highs 16-20°C — for off-season Mediterranean trips.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-tirana",
+    title: "Where to Stay in Tirana, Albania",
+    excerpt: "Albania's emerging capital. Honest pick of which Tirana neighborhood actually works.",
+    publishedAt: "2026-05-15",
+    reviewedAt: "2026-05-15",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Tirana — Honest Albania Guide",
+    metaDescription: "Albania's emerging capital. Honest pick of which Tirana neighborhood actually works.",
+    html: `
+<p>Tirana is rapidly-changing. Stays are dramatically cheap. The pick is mostly central or central-Blloku.</p>
+
+<h2>Blloku — for food and bars</h2>
+
+<p><a href="/en/albania/tirana/blloku">Blloku</a> is the central restaurant-and-bar quarter — formerly Communist-era closed, now the densest food and cocktail strip in Albania. Best for: 2-3 night first visits, food-focused trips.</p>
+
+<h2>Skanderbeg Square area — for sights</h2>
+
+<p>The central area around Skanderbeg Square has the National Museum, the mosque, the pyramid (Communist-era structure being renovated). Quieter at night than Blloku. Best for: families, anyone over 40.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the central core:</strong> Suburban Tirana lacks tourism infrastructure.</li>
+  <li><strong>Hotels far from Skanderbeg Square marketed as "central":</strong> Verify on a map.</li>
+</ul>
+
+<h2>Combined Albania trip</h2>
+
+<p>Best 7-day Albania: 2 Tirana + 2 Berat (UNESCO Ottoman houses) + 3 Albanian Riviera (Sarandë or Dhërmi). Drive — Albanian roads are improving.</p>
+
+<h2>Cost reality</h2>
+
+<p>Albania is among Europe's cheapest countries. €40-€80/night for decent Tirana hotels, €5-€15 dinners. The whole country runs at a third of Croatian Adriatic prices.</p>
+
+<h2>What to skip on first Albania trip</h2>
+
+<ul>
+  <li><strong>Albanian mountain north (Theth, Valbona):</strong> Spectacular but adds 4+ nights minimum and rough roads.</li>
+  <li><strong>Durrës resort strip:</strong> Cheap but rough.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-undervisited-2026",
+    title: "Most Under-Visited European Cities Worth Going (2026)",
+    excerpt: "Real list of European cities that punch above their tourism weight — with honest weather and timing notes.",
+    publishedAt: "2026-05-15",
+    reviewedAt: "2026-05-15",
+    readingTimeMin: 11,
+    metaTitle: "Most Under-Visited European Cities Worth Going — 2026",
+    metaDescription: "Real list of European cities that punch above their tourism weight — with honest weather and timing notes.",
+    html: `
+<p>Most "hidden gems" lists recycle the same cities. Here's the honest list of genuinely under-visited European cities that punch above their tourism weight in 2026.</p>
+
+<h2>Tier 1 — Adriatic / Balkan under-visited</h2>
+
+<ul>
+  <li><strong><a href="/en/montenegro/kotor">Kotor, Montenegro</a>:</strong> UNESCO bay setting at half Croatian prices. Off-cruise season is exceptional.</li>
+  <li><strong><a href="/en/albania/tirana">Tirana, Albania</a>:</strong> Rapidly-changing capital. 2-3 nights with day-trip to Berat.</li>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a>:</strong> War history + Ottoman bazaar. Combines well with Mostar.</li>
+  <li><strong><a href="/en/bulgaria/plovdiv">Plovdiv, Bulgaria</a>:</strong> One of Europe's oldest continuously-inhabited cities.</li>
+</ul>
+
+<h2>Tier 2 — Baltic + Eastern</h2>
+
+<ul>
+  <li><strong><a href="/en/lithuania/vilnius">Vilnius</a>:</strong> Europe's largest baroque centre. Almost free of tourists.</li>
+  <li><strong><a href="/en/latvia/riga">Riga</a>:</strong> Densest Art Nouveau in Europe.</li>
+  <li><strong><a href="/en/estonia/tallinn">Tallinn</a>:</strong> Best-preserved medieval old town in Europe.</li>
+  <li><strong><a href="/en/poland/wroclaw">Wrocław, Poland</a>:</strong> Beautiful market square + cathedral island.</li>
+  <li><strong><a href="/en/poland/gdansk">Gdańsk, Poland</a>:</strong> Hanseatic old town + Sopot beach combo.</li>
+</ul>
+
+<h2>Tier 3 — Iberian + Southern Italy</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/bilbao">Bilbao</a>:</strong> Guggenheim + pintxos. Rains a lot but trip-worthy.</li>
+  <li><strong><a href="/en/spain/cordoba">Córdoba</a>:</strong> Mezquita is one of Europe's most-impressive monuments. Skip July-August heat.</li>
+  <li><strong><a href="/en/italy/turin">Turin</a>:</strong> Royal architecture + aperitivo.</li>
+  <li><strong><a href="/en/italy/bologna">Bologna</a>:</strong> Italy's best food city. Inexplicably under-touristed.</li>
+  <li><strong><a href="/en/italy/genoa">Genoa</a>:</strong> Densest medieval port-quarter in Europe.</li>
+</ul>
+
+<h2>Tier 4 — Northern + Atlantic</h2>
+
+<ul>
+  <li><strong><a href="/en/norway/bergen">Bergen, Norway</a>:</strong> UNESCO wharf + fjords gateway. Less visited than expected.</li>
+  <li><strong><a href="/en/portugal/funchal">Funchal, Madeira</a>:</strong> Year-round Atlantic-island city. Excellent in winter.</li>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> Rebuilt baroque + alternative Neustadt.</li>
+  <li><strong><a href="/en/scotland">Glasgow, Scotland</a>:</strong> Better food scene than Edinburgh, much less tourism.</li>
+</ul>
+
+<h2>What "under-visited" doesn't mean</h2>
+
+<ul>
+  <li><strong>Cheap bad food:</strong> Many under-visited cities have excellent food at a fraction of Western European prices.</li>
+  <li><strong>Hard to reach:</strong> Most are direct-flight from major hubs.</li>
+  <li><strong>Sketchy:</strong> Most are safer than common Western European tourist cities.</li>
+  <li><strong>Boring:</strong> Most have more density per square km than over-touristed alternatives.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Combine 2-3 under-visited cities in a 7-10 day trip rather than mixing with mass-tourism cities. The off-tourist atmosphere compounds when you stay multiple nights in similar settings.</p>
+
+<p>For specific itinerary advice see <a href="/en/articles/baltic-loop-itinerary">Baltic loop</a> and <a href="/en/articles/where-to-stay-in-eastern-europe-by-country">Eastern Europe by country</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

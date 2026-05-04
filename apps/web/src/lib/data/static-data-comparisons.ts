@@ -6920,6 +6920,171 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 15 — final cross-pair additions
+// =============================================================================
+COMPARISONS.push(
+  // IZMIR
+  {
+    slug: "alsancak-vs-konak",
+    citySlug: "izmir", countrySlug: "turkey",
+    aSlug: "alsancak", bSlug: "konak",
+    aLabel: "Alsancak", bLabel: "Konak",
+    metaTitle: "Alsancak vs Konak: Where to Stay in İzmir",
+    metaDescription: "İzmir's Alsancak or historical Konak? Real take on food, sights, atmosphere and price.",
+    intro: "Alsancak is the central walkable evening-out neighborhood — dense restaurants, Kordon waterfront. Konak is just south — historical core with the clock tower, the bazaar, ferries to Karşıyaka. Walkable in 15 min.",
+    rounds: [
+      { question: "Sights at door", winner: "b", body: "Konak has the clock tower, agora, Kemeralti bazaar. Alsancak has Kordon waterfront." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Alsancak wins — dense evening-out density. Konak has bazaar food but quieter at night." },
+      { question: "Atmosphere", winner: "tied", body: "Alsancak is modern-residential. Konak is historical-bazaar. Different sides." },
+      { question: "Walkability between", winner: "tied", body: "15 min. Equivalent." },
+      { question: "Price", winner: "tied", body: "Both €60-€120 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Alsancak for evening-out focus, food-density priority, repeat visits.",
+    pickB: "Pick Konak for first-time visits, sights focus, bazaar-and-history priority.",
+    bottomLine: "Alsancak for evenings. Konak for history.",
+  },
+  // LISBON additional
+  {
+    slug: "belem-vs-bairro-alto",
+    citySlug: "lisbon", countrySlug: "portugal",
+    aSlug: "belem", bSlug: "bairro-alto",
+    aLabel: "Belém", bLabel: "Bairro Alto",
+    metaTitle: "Belém vs Bairro Alto: Where to Stay in Lisbon",
+    metaDescription: "Lisbon's museum Belém or bar-quarter Bairro Alto? Real take on transport, families and atmosphere.",
+    intro: "Belém is the maritime quarter 6 km west — Jerónimos Monastery, museums. Bairro Alto is on the central hill — narrow lanes, dozens of bars. Opposite trips entirely.",
+    rounds: [
+      { question: "Museum focus", winner: "a", body: "Belém wins — Jerónimos, Tower of Belém, MAAT all walkable." },
+      { question: "Bars at night", winner: "b", body: "Bairro Alto wins by definition — the whole quarter is the bar." },
+      { question: "Walkability to centre", winner: "b", body: "Bairro Alto is on the central hill. Belém is 25 min by tram." },
+      { question: "Family-friendly", winner: "a", body: "Belém wins — flat residential, family-aware. Bairro Alto is for adults." },
+      { question: "Price", winner: "tied", body: "Both €130-€220 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Belém for museum-focused stays, families, longer trips.",
+    pickB: "Pick Bairro Alto for bar-focused under-30 trips. Bring earplugs.",
+    bottomLine: "Belém for museums and families. Bairro Alto for bars.",
+  },
+  {
+    slug: "belem-vs-principe-real",
+    citySlug: "lisbon", countrySlug: "portugal",
+    aSlug: "belem", bSlug: "principe-real",
+    aLabel: "Belém", bLabel: "Príncipe Real",
+    metaTitle: "Belém vs Príncipe Real: Where to Stay in Lisbon",
+    metaDescription: "Lisbon's museum Belém or design Príncipe Real? Real take on transport, atmosphere and price.",
+    intro: "Belém is the maritime museum quarter 6 km west. Príncipe Real is the central design-shop quarter north of Bairro Alto. Different sides of Lisbon — different trips.",
+    rounds: [
+      { question: "Walkability to central", winner: "b", body: "Príncipe Real is central. Belém is 25 min by tram." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Príncipe Real has dense design-restaurant cluster. Belém is more daytime-museum-restaurants." },
+      { question: "Atmosphere", winner: "tied", body: "Belém is maritime-museum. Príncipe Real is design-shop-residential. Pick on what you want." },
+      { question: "Family-friendly", winner: "a", body: "Belém wins — flat, museums, kid-friendly. Príncipe Real is more couples-focused." },
+      { question: "Price", winner: "a", body: "Belém 15-20% cheaper than Príncipe Real for equivalent product." },
+    ],
+    pickA: "Pick Belém for museum-focused stays, families, longer trips.",
+    pickB: "Pick Príncipe Real for couples, design-focused trips, central-walkability priority.",
+    bottomLine: "Belém for museums. Príncipe Real for design.",
+  },
+  // ATHENS additional
+  {
+    slug: "petralona-vs-exarcheia",
+    citySlug: "athens", countrySlug: "greece",
+    aSlug: "petralona", bSlug: "exarcheia",
+    aLabel: "Petralona", bLabel: "Exarcheia",
+    metaTitle: "Petralona vs Exarcheia: Where to Stay in Athens",
+    metaDescription: "Athens' leafy Petralona or anarchist Exarcheia? Real take on atmosphere, safety and price.",
+    intro: "Both are local-Athens picks beyond Plaka. Petralona is southwest at the foot of Filopappou — leafy residential. Exarcheia is north of Syntagma — anarchist-political quarter, gritty in spots.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Petralona is leafy-residential. Exarcheia is anarchist-bookshop-bar. Different vibes." },
+      { question: "Safety perception", winner: "a", body: "Petralona feels safe. Exarcheia has graffiti, occasional protest activity." },
+      { question: "Walkability to Acropolis", winner: "a", body: "Petralona is 15-20 min via Filopappou. Exarcheia is 25-30 min." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have local density. Different cuisines — Petralona more taverna; Exarcheia more political-bar." },
+      { question: "Price", winner: "tied", body: "Both 30-40% cheaper than Plaka. Equivalent." },
+    ],
+    pickA: "Pick Petralona for couples, families, anyone wanting leafy local Athens.",
+    pickB: "Pick Exarcheia for solo travelers comfortable with grit, repeat visits, raw-political-Athens.",
+    bottomLine: "Petralona for couples. Exarcheia for solo travelers.",
+  },
+  // ROME additional
+  {
+    slug: "monti-vs-aventino",
+    citySlug: "rome", countrySlug: "italy",
+    aSlug: "monti", bSlug: "aventino",
+    aLabel: "Monti", bLabel: "Aventino",
+    metaTitle: "Monti vs Aventino: Where to Stay in Rome",
+    metaDescription: "Rome's bohemian Monti or romantic Aventino? Real take on ancient Rome, families and price.",
+    intro: "Both are non-Centro-Storico Rome alternatives east of the Forum. Monti is bohemian-design quarter, dense bars. Aventino is the leafy hill south — Orange Garden, residential calm. Walkable to each other in 15 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Monti is design-bar-bohemian. Aventino is leafy-elegant-quiet. Different trips." },
+      { question: "Walkability to Forum/Colosseum", winner: "a", body: "Monti is 5 min from the Forum. Aventino is 10-15 min south." },
+      { question: "Family-friendly", winner: "b", body: "Aventino wins — calmer, leafy, residential. Monti has weekend bar overflow." },
+      { question: "Romance", winner: "b", body: "Aventino — Orange Garden at sunset, Knights of Malta keyhole." },
+      { question: "Price", winner: "a", body: "Monti 15-25% cheaper than Aventino for equivalent product." },
+    ],
+    pickA: "Pick Monti for evening-focused trips, design-and-bar focus, anyone under 40.",
+    pickB: "Pick Aventino for romantic stays, families, light sleepers, anyone over 50.",
+    bottomLine: "Monti for evenings. Aventino for romance.",
+  },
+  // PARIS additional
+  {
+    slug: "canal-saint-martin-vs-belleville",
+    citySlug: "paris", countrySlug: "france",
+    aSlug: "canal-saint-martin", bSlug: "belleville",
+    aLabel: "Canal Saint-Martin", bLabel: "Belleville",
+    metaTitle: "Canal Saint-Martin vs Belleville: Where to Stay in Paris",
+    metaDescription: "Paris's design Canal or multicultural Belleville? Real take on food, atmosphere and price.",
+    intro: "Both are east-Paris non-tourist alternatives. Canal Saint-Martin is the 10th — design-and-picnic quarter. Belleville is the 20th — multicultural quarter, working-class real, dense Asian/North-African food.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Canal is leafy-design-picnic. Belleville is multicultural-real. Different east-Parises." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Belleville has multicultural food density (Asian, North-African). Canal has design-restaurants." },
+      { question: "Walkability to central", winner: "a", body: "Canal is 25-30 min walk to Notre-Dame. Belleville is 35 min — further northeast." },
+      { question: "Family-friendly", winner: "a", body: "Canal — picnic on the locks, design-shops. Belleville is rougher around the edges." },
+      { question: "Price", winner: "b", body: "Belleville 25-35% cheaper than Canal Saint-Martin for equivalent product." },
+    ],
+    pickA: "Pick Canal Saint-Martin for design-focused trips, families, central-walkability priority.",
+    pickB: "Pick Belleville for budget-conscious longer stays, food-diversity focus, anyone wanting non-tourist Paris.",
+    bottomLine: "Canal for design. Belleville for value and diversity.",
+  },
+  // BERLIN additional
+  {
+    slug: "neukolln-vs-friedrichshain",
+    citySlug: "berlin", countrySlug: "germany",
+    aSlug: "neukolln", bSlug: "friedrichshain",
+    aLabel: "Neukölln", bLabel: "Friedrichshain",
+    metaTitle: "Neukölln vs Friedrichshain: Where to Stay in Berlin",
+    metaDescription: "Berlin's creative Neukölln or techno Friedrichshain? Real take on nightlife, food and price.",
+    intro: "Both are alternative-Berlin south/east bases. Neukölln is south of Kreuzberg — creative-spillover, multicultural, dramatically cheaper. Friedrichshain is east of Kreuzberg — techno (Berghain, RAW Gelände), late-late nightlife.",
+    rounds: [
+      { question: "Nightlife", winner: "b", body: "Friedrichshain wins by definition — Berghain queue is at the door. Neukölln has bars but less club focus." },
+      { question: "Food density", winner: "a", body: "Neukölln has Sonnenallee Turkish/Lebanese strip. Friedrichshain has good but less variety." },
+      { question: "Atmosphere", winner: "tied", body: "Neukölln is multicultural-creative-spillover. Friedrichshain is punk-techno. Different vibes." },
+      { question: "Walkability to Mitte", winner: "tied", body: "Both 30-35 min by U-Bahn. Equivalent." },
+      { question: "Price", winner: "tied", body: "Both €100-€180. Roughly equivalent." },
+    ],
+    pickA: "Pick Neukölln for food-diversity focus, longer stays, anyone wanting creative-multicultural Berlin.",
+    pickB: "Pick Friedrichshain for techno-focused trips, anyone under 35, club-scene priority.",
+    bottomLine: "Neukölln for food. Friedrichshain for techno.",
+  },
+  // ROME additional
+  {
+    slug: "esquilino-vs-monti",
+    citySlug: "rome", countrySlug: "italy",
+    aSlug: "esquilino", bSlug: "monti",
+    aLabel: "Esquilino", bLabel: "Monti",
+    metaTitle: "Esquilino vs Monti: Where to Stay in Rome",
+    metaDescription: "Rome's multicultural Esquilino or design Monti? Real take on atmosphere, food and price.",
+    intro: "Both are east-of-Centro-Storico Rome alternatives. Esquilino is the multicultural quarter around Termini — Asian food, market, gritty in spots. Monti is just south — design-and-wine-bar bohemian.",
+    rounds: [
+      { question: "Atmosphere", winner: "b", body: "Monti is design-bar-pretty. Esquilino is multicultural-gritty-market. Different cities." },
+      { question: "Restaurants", winner: "tied", body: "Both have density. Esquilino has Asian variety; Monti has Roman cucina. Pick on cuisine." },
+      { question: "Walkability to Forum", winner: "b", body: "Monti is 5 min. Esquilino is 15-20 min south." },
+      { question: "Train logistics", winner: "a", body: "Esquilino is at Termini. Monti is 10 min walk." },
+      { question: "Price", winner: "a", body: "Esquilino 25-35% cheaper than Monti for equivalent product." },
+    ],
+    pickA: "Pick Esquilino for budget-conscious train-heavy trips, food-diversity focus, anyone comfortable with grit.",
+    pickB: "Pick Monti for design-focused trips, atmosphere priority, anyone over 35.",
+    bottomLine: "Esquilino for budget. Monti for atmosphere.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

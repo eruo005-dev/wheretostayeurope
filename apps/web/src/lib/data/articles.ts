@@ -5195,6 +5195,228 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 15 — final tier-2 city overviews + niche topic guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-strasbourg",
+    title: "Where to Stay in Strasbourg: Grande Île, Petite France or Krutenau?",
+    excerpt: "Strasbourg neighborhoods compared honestly. Real differences in tourist crush, food, atmosphere and price.",
+    publishedAt: "2026-05-11",
+    reviewedAt: "2026-05-11",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Strasbourg — Honest Neighborhood Guide",
+    metaDescription: "Strasbourg neighborhoods compared honestly. Real differences in tourist crush, food, atmosphere and price.",
+    html: `
+<p>Strasbourg's UNESCO core is small. The pick is mostly tourist-density vs lived-in.</p>
+
+<h2>Grande Île — for first-timers</h2>
+
+<p><a href="/en/france/strasbourg/grande-ile">Grande Île</a> is the UNESCO island core — cathedral, Place Kléber, half-timbered façades. Premium pricing, especially during Christmas markets. Best for: 1-2 night first visits, sights-focused short trips.</p>
+
+<h2>Petite France — for the postcard</h2>
+
+<p><a href="/en/france/strasbourg/petite-france">Petite France</a> is the southwest corner of Grande Île — canals, half-timbered tanner houses, the most-photographed Strasbourg. Tourist crush mid-day. Best for: romantic stays, photo-focused trips.</p>
+
+<h2>Krutenau — for food</h2>
+
+<p><a href="/en/france/strasbourg/krutenau">Krutenau</a> is east of the Ill — student-and-design quarter, food trucks, dense bar strip. Best for: 3+ night stays, food-focused trips, anyone under 40.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the historic core marketed as "Strasbourg":</strong> Verify the postal code (67000 is the centre).</li>
+  <li><strong>Hotels near the German border in Kehl:</strong> 30 min by tram; only worth it for a specific reason.</li>
+</ul>
+
+<h2>Christmas market timing</h2>
+
+<p>Late November through 23 December prices double. Book 6+ months ahead. Best week: 8-15 December (less crowded than the final week).</p>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights focus: Grande Île. Photo, romance: Petite France. Food, longer stay: Krutenau.</p>
+
+<p>Compare: <a href="/en/france/strasbourg/compare/grande-ile-vs-petite-france">Grande Île vs Petite France</a>, <a href="/en/france/strasbourg/compare/grande-ile-vs-krutenau">Grande Île vs Krutenau</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-toulouse",
+    title: "Where to Stay in Toulouse: Capitole or Saint-Cyprien?",
+    excerpt: "Toulouse neighborhoods compared honestly. Real differences in food, atmosphere and price.",
+    publishedAt: "2026-05-11",
+    reviewedAt: "2026-05-11",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Toulouse — Honest Neighborhood Guide",
+    metaDescription: "Toulouse neighborhoods compared honestly. Real differences in food, atmosphere and price.",
+    html: `
+<p>Toulouse — France's pink city — is small. The pick is central pink-brick or across-Garonne residential.</p>
+
+<h2>Capitole / Carmes — for first-timers</h2>
+
+<p><a href="/en/france/toulouse/capitole-carmes">Capitole / Carmes</a> is the central pink-brick core — Place du Capitole, Saint-Sernin basilica, dense restaurant-and-shopping strip. Best for: 1-2 night first visits, sights-focused short trips.</p>
+
+<h2>Saint-Cyprien — for value and locals</h2>
+
+<p><a href="/en/france/toulouse/saint-cyprien">Saint-Cyprien</a> is across the Garonne from the centre — lively, cheaper, where younger Toulousains actually go for dinner. Best for: 3+ night stays, food-focused trips, repeat visits.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels near Toulouse-Blagnac airport:</strong> 30 min by tram from central; only for very early flights.</li>
+  <li><strong>Anywhere south of the Canal du Midi marketed as "Toulouse":</strong> Suburban; verify on a map.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights focus: Capitole. Food, longer stay, value: Saint-Cyprien.</p>
+
+<p>Compare: <a href="/en/france/toulouse/compare/capitole-vs-saint-cyprien">Capitole vs Saint-Cyprien</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-tallinn",
+    title: "Where to Stay in Tallinn: Vanalinn, Telliskivi or Kalamaja?",
+    excerpt: "Tallinn neighborhoods compared honestly. Real differences in atmosphere, food and price.",
+    publishedAt: "2026-05-11",
+    reviewedAt: "2026-05-11",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Tallinn — Honest Neighborhood Guide",
+    metaDescription: "Tallinn neighborhoods compared honestly. Real differences in atmosphere, food and price.",
+    html: `
+<p>Tallinn has Europe's best-preserved medieval old town. The pick is tourist-walls or design-creative-quarter.</p>
+
+<h2>Vanalinn (Old Town) — for first-timers</h2>
+
+<p>The UNESCO walled medieval core — Town Hall Square, the cobblestone lanes, the towers. Premium pricing during cruise season (May-Sept). Best for: 1-2 night first visits, sights-focused trips.</p>
+
+<h2>Telliskivi — for design</h2>
+
+<p><a href="/en/estonia/tallinn/telliskivi">Telliskivi</a> is the converted-industrial creative quarter just west of Old Town — design hotels, dense restaurants, where Tallinn's design crowd lives. Best for: 2-3 night design-focused trips, repeat visits.</p>
+
+<h2>Kalamaja — for wooden-house calm</h2>
+
+<p><a href="/en/estonia/tallinn/kalamaja">Kalamaja</a> is the wooden-house quarter just east of Telliskivi — quieter, dense cafe-and-restaurant strip, residential. Best for: families, longer stays, anyone wanting wooden-house atmosphere.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Tallinn" 30+ km out:</strong> Verify on a map.</li>
+  <li><strong>Anywhere advertised as "near Pirita Beach":</strong> 20-30 min from the Old Town.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, walls atmosphere: Vanalinn (Old Town). Design and food: Telliskivi. Families or wooden-house calm: Kalamaja.</p>
+
+<p>Compare: <a href="/en/estonia/tallinn/compare/tallinn-vanalinn-vs-kalamaja">Telliskivi vs Kalamaja</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-to-combine-with-paris",
+    title: "Best European Cities to Combine With Paris (2-Week Itinerary)",
+    excerpt: "If you have 14 days and Paris is the anchor, here's the honest sort of cities that combine well.",
+    publishedAt: "2026-05-11",
+    reviewedAt: "2026-05-11",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities to Combine With Paris — Honest Picks",
+    metaDescription: "If you have 14 days and Paris is the anchor, here's the honest sort of cities that combine well.",
+    html: `
+<p>Paris-plus-something is the most common 2-week European itinerary. Here's the honest sort of which cities combine well — and which don't.</p>
+
+<h2>Best Paris combinations</h2>
+
+<ul>
+  <li><strong>Paris + <a href="/en/united-kingdom/london">London</a>:</strong> Eurostar 2h 30min city-to-city. Different histories, different cuisines, both major capitals. 5-6 nights each works for a 12-night trip.</li>
+  <li><strong>Paris + Loire Valley + <a href="/en/france/bordeaux">Bordeaux</a>:</strong> Train south. 7 nights Paris + 3 nights Loire châteaux base + 4 nights Bordeaux.</li>
+  <li><strong>Paris + Provence (Aix or Avignon):</strong> TGV south, 3h. 7 nights Paris + 5-7 nights Provence base.</li>
+  <li><strong>Paris + <a href="/en/spain/barcelona">Barcelona</a>:</strong> Direct TGV to Barcelona is 6h 30min — long but doable. Otherwise fly. 6 nights each.</li>
+  <li><strong>Paris + <a href="/en/italy/rome">Rome</a>:</strong> Fly. 6-7 nights each.</li>
+</ul>
+
+<h2>Trickier Paris combinations</h2>
+
+<ul>
+  <li><strong>Paris + <a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Thalys 3h 20min. Works but Amsterdam needs only 3 nights — leaves 11 nights Paris which is too many for some.</li>
+  <li><strong>Paris + Brussels:</strong> 1h 30min train but Brussels disappoints over 1-2 days. Add Bruges or Ghent for substance.</li>
+  <li><strong>Paris + Berlin:</strong> Possible by overnight train (Nightjet) or fly. Both major cities; lose a half-day on transit.</li>
+</ul>
+
+<h2>What doesn't work in 2 weeks</h2>
+
+<ul>
+  <li><strong>Paris + 4 other cities:</strong> Half the trip is travel.</li>
+  <li><strong>Paris + Greek island:</strong> Logistics eat too much. Better separate trips.</li>
+  <li><strong>Paris + multiple Italian cities + Spain:</strong> Not enough time anywhere.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For 14 days, pick ONE Paris-plus pair. 7+7 nights gives both cities depth. Don't try to fit 4-5 destinations.</p>
+
+<p>For first-time European itinerary advice see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "european-cities-where-english-not-common",
+    title: "European Cities Where English Isn't Common (Plan Accordingly)",
+    excerpt: "Honest list of European cities where English fluency is patchy — and how to plan around it.",
+    publishedAt: "2026-05-11",
+    reviewedAt: "2026-05-11",
+    readingTimeMin: 8,
+    metaTitle: "European Cities Where English Isn't Common — Plan Accordingly",
+    metaDescription: "Honest list of European cities where English fluency is patchy — and how to plan around it.",
+    html: `
+<p>Most travel content assumes English fluency everywhere in Europe. Reality is patchier. Here's the honest map.</p>
+
+<h2>Cities where English is the working language</h2>
+
+<ul>
+  <li><strong>Amsterdam, The Hague, Rotterdam:</strong> Near-universal English fluency.</li>
+  <li><strong>Berlin, Munich, Hamburg:</strong> High fluency in tourism areas.</li>
+  <li><strong>Stockholm, Copenhagen, Oslo, Helsinki:</strong> Universal fluency.</li>
+  <li><strong>Reykjavík:</strong> Universal fluency (and tourism is the main industry).</li>
+  <li><strong>London (obviously), Dublin, Edinburgh:</strong> Native.</li>
+  <li><strong>Vienna, Prague, Budapest tourist areas:</strong> Strong fluency.</li>
+  <li><strong>Lisbon, Porto:</strong> Recently improving rapidly; tourism areas fully fluent.</li>
+</ul>
+
+<h2>Cities where English is patchy outside tourism</h2>
+
+<ul>
+  <li><strong>Paris (yes, really):</strong> Restaurant staff often choose not to use English. Polite "Bonjour, parlez-vous anglais?" beats jumping to English.</li>
+  <li><strong>Madrid, Seville, Barcelona:</strong> Tourism areas fluent; locals patchy.</li>
+  <li><strong>Rome, Florence, Venice:</strong> Tourist areas fluent; off-strip restaurants and shops patchy.</li>
+  <li><strong>Naples, Palermo:</strong> Lower English fluency than northern Italy.</li>
+  <li><strong>Brussels:</strong> French-speaking. English fluency is moderate.</li>
+</ul>
+
+<h2>Cities where English is genuinely limited</h2>
+
+<ul>
+  <li><strong>Athens (off central core):</strong> Greek-only signage off the tourist strips.</li>
+  <li><strong>Smaller Spanish/Italian/French cities:</strong> Outside tourism, expect very little English.</li>
+  <li><strong>Eastern European villages and small towns:</strong> Local language only — translation apps essential.</li>
+  <li><strong>Turkey (Istanbul tourist areas excepted):</strong> Limited English in residential areas.</li>
+  <li><strong>Croatia smaller islands:</strong> Older generations Italian; younger English; patchy in between.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li>Download offline language packs (Google Translate's offline modes) before any non-English trip.</li>
+  <li>Learn 5 phrases in the local language: hello, please, thank you, do you speak English, the bill please.</li>
+  <li>Restaurant menus often have English versions on request — ask.</li>
+  <li>Outside tourism, Google Maps reviews in English are sparse — supplement with local-language reviews via translation apps.</li>
+  <li>Don't open with English. Greeting in local language first dramatically improves the response.</li>
+</ul>
+
+<p>For solo travel context see <a href="/en/articles/best-european-cities-for-solo-female-travelers">solo female travelers</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

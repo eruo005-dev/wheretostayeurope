@@ -5879,6 +5879,221 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 18 — new Mediterranean cities + niche topics
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-mallorca",
+    title: "Where to Stay in Mallorca: Palma, Sóller, Pollença or the South Coast?",
+    excerpt: "Honest take on which Mallorca base actually works — Palma, mountain villages, north coast or south coast.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Mallorca — Honest Guide for 2026",
+    metaDescription: "Honest take on which Mallorca base actually works — Palma, mountain villages, north coast or south coast.",
+    html: `
+<p>Mallorca isn't one island — it's at least four trips. Here's the honest sort of which base works for which trip.</p>
+
+<h2>Palma de Mallorca — for city trips</h2>
+
+<p><a href="/en/spain/palma-de-mallorca">Palma</a> is a real city — cathedral, food, transit. <a href="/en/spain/palma-de-mallorca/centre-antic">Centre Antic</a> for first-time visits, <a href="/en/spain/palma-de-mallorca/santa-catalina">Santa Catalina</a> for food. Best for: 3-4 night city breaks, anyone wanting a real Spanish city.</p>
+
+<h2>Sóller / Deià / Valldemossa — for the mountains</h2>
+
+<p>The Tramuntana mountain villages on the northwest coast — stone houses, terraced olive groves, hiking trails. Stay 3-4 nights for the mountain trip. Connect to Palma by the historic wooden train.</p>
+
+<h2>Pollença / Port de Pollença — for the north</h2>
+
+<p>The north coast around Pollença bay — calmer beaches, family-friendly, traditional Mallorcan villages. 4-5 nights.</p>
+
+<h2>Cala d'Or / Santanyí / Es Trenc — for the south</h2>
+
+<p>The south coast has the best beaches but also the most package tourism. Stay in smaller villages (Santanyí) and day-trip to beaches; avoid the all-inclusive resort strips.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Magaluf and Palmanova:</strong> British package-resort strips. Different trip.</li>
+  <li><strong>Palma's own beach (Platja de Palma):</strong> Worse version of the resort strips.</li>
+  <li><strong>Single-base trips that try to cover the whole island:</strong> Mallorca is bigger than it looks. Pick one region or split nights.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Best 7-day Mallorca: 3 Palma + 3 Sóller + 1 buffer. Or: 3 Pollença + 3 Sóller + 1 Palma. Don't try to cover all four regions in 7 days.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-crete",
+    title: "Where to Stay in Crete: Chania, Heraklion or Rethymno?",
+    excerpt: "Crete is huge. Honest pick of which base works for which trip — Knossos, beaches, hiking, food.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Crete — Honest Guide 2026",
+    metaDescription: "Crete is huge. Honest pick of which base works for which trip — Knossos, beaches, hiking, food.",
+    html: `
+<p>Crete is the largest Greek island. A 7-day trip from one base can't cover the whole island. Here's the honest map.</p>
+
+<h2>Chania — for atmosphere and west-coast beaches</h2>
+
+<p><a href="/en/greece/chania">Chania</a> is the prettiest Cretan city — Venetian harbor, narrow lanes, dense restaurants. Stay in the <a href="/en/greece/chania/venetian-harbor-chania">Venetian Harbor</a> for the photo or <a href="/en/greece/chania/splanzia">Splanzia</a> for value. Best for: first-time Crete visits, romantic stays, west-coast beach access (Elafonisi, Falassarna).</p>
+
+<h2>Heraklion — for Knossos and central Crete</h2>
+
+<p><a href="/en/greece/heraklion">Heraklion</a> has Knossos 20 min away and the Archaeological Museum. Less atmospheric than Chania but central. Best for: Knossos-focused stays, ferry connections, central-Crete day-trips.</p>
+
+<h2>Rethymno — for the middle</h2>
+
+<p>Halfway between Chania and Heraklion. Smaller than both, with a Venetian harbor and a real old town. Best for: travelers who want one base for east-and-west day-trips.</p>
+
+<h2>South coast (Plakias, Loutro, Agia Galini)</h2>
+
+<p>The south coast has Crete's most-dramatic landscapes — Samaria Gorge, Preveli beach, calmer than the north. Best for: hiking-focused trips, anyone wanting non-tourist Crete.</p>
+
+<h2>Strategy</h2>
+
+<p>For 7 days: pick Chania for west-focus or Heraklion for Knossos-focus. Don't try to do both in 7 days. For 10+ days: 4 Chania + 3 Rethymno + 3 Heraklion is a solid loop.</p>
+
+<p>Compare: <a href="/en/greece/heraklion">Heraklion overview</a>. For broader Greek island context see <a href="/en/articles/greek-islands-which-to-pick">Greek islands which to pick</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-shopping",
+    title: "Best European Cities for Shopping (Honest 2026 Ranking)",
+    excerpt: "Honest ranking of European cities for shopping trips — by category and what each city actually delivers.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Shopping — Honest 2026 Ranking",
+    metaDescription: "Honest ranking of European cities for shopping trips — by category and what each city actually delivers.",
+    html: `
+<p>"Shopping cities" is too broad. Each major European capital does something better than others. Here's the honest sort.</p>
+
+<h2>Designer fashion flagships</h2>
+
+<ul>
+  <li><strong>Milan:</strong> The Quadrilatero della Moda. Italian fashion at the source.</li>
+  <li><strong>Paris:</strong> Avenue Montaigne, Saint-Honoré, Place Vendôme. The world standard.</li>
+  <li><strong>London:</strong> Bond Street, Sloane Street, Burlington Arcade.</li>
+  <li><strong>Madrid:</strong> Calle Serrano in <a href="/en/spain/madrid/salamanca">Salamanca</a>.</li>
+</ul>
+
+<h2>Affordable European fashion</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Independent design boutiques in Mitte and Hackescher Markt.</li>
+  <li><strong>Copenhagen:</strong> Strøget plus Nørrebro for Scandi design.</li>
+  <li><strong>Stockholm:</strong> Gamla Stan and SoFo design quarter.</li>
+  <li><strong>Vienna:</strong> Mariahilfer Straße. Less famous than expected and excellent.</li>
+</ul>
+
+<h2>Vintage and second-hand</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Mauerpark Sunday market, Kreuzberg vintage strips.</li>
+  <li><strong>Paris:</strong> Saint-Ouen flea market (Marché aux Puces) is Europe's largest.</li>
+  <li><strong>London:</strong> Portobello Road in Notting Hill, Brick Lane Sunday market.</li>
+  <li><strong>Amsterdam:</strong> IJ-Hallen flea market (twice a month).</li>
+</ul>
+
+<h2>Antiques</h2>
+
+<ul>
+  <li><strong>Brussels Sablon:</strong> Sunday antiques market.</li>
+  <li><strong>Vienna:</strong> Naschmarkt's flea market on Saturdays.</li>
+  <li><strong>Madrid Rastro:</strong> Sunday flea market in <a href="/en/spain/madrid/la-latina">La Latina</a>.</li>
+  <li><strong>Lisbon Feira da Ladra:</strong> Tuesday and Saturday flea market.</li>
+</ul>
+
+<h2>Specific specialty cities</h2>
+
+<ul>
+  <li><strong>Geneva, Zurich:</strong> Watches.</li>
+  <li><strong>Florence, Bologna:</strong> Italian leather.</li>
+  <li><strong>Porto:</strong> Cork products and traditional crafts.</li>
+  <li><strong>Granada:</strong> Andalusian ceramics, leather.</li>
+  <li><strong>Krakow, Vilnius:</strong> Amber.</li>
+  <li><strong>Bruges:</strong> Lace, chocolate.</li>
+</ul>
+
+<h2>Where shopping disappoints</h2>
+
+<ul>
+  <li><strong>Most coastal Mediterranean resort towns:</strong> Generic tourist shops only.</li>
+  <li><strong>Brussels Grand Place area:</strong> Tourist-trap chocolate shops; Sablon is better.</li>
+  <li><strong>Most "shopping outlets" outside cities:</strong> Often outdated stock; rarely the savings advertised.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick the city for the shopping you want. Don't try to do "shopping" generically — Milan's flagships are a different trip from Berlin's vintage. For broader budget context see <a href="/en/articles/best-european-cities-by-trip-budget">cities by budget</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-accessibility",
+    title: "Best European Cities for Wheelchair / Mobility Accessibility",
+    excerpt: "Honest take on which European cities work for travelers with mobility challenges — and which to avoid.",
+    publishedAt: "2026-05-13",
+    reviewedAt: "2026-05-13",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Mobility Accessibility — Honest Picks",
+    metaDescription: "Honest take on which European cities work for travelers with mobility challenges — and which to avoid.",
+    html: `
+<p>Most European travel content ignores mobility. Here's the honest sort by accessibility for wheelchair users, walking-aid users, and travelers with limited stamina.</p>
+
+<h2>Strongly accessible</h2>
+
+<ul>
+  <li><strong>Stockholm, Copenhagen, Helsinki, Oslo:</strong> Excellent accessibility. Modern infrastructure, accessible public transit.</li>
+  <li><strong>Vienna:</strong> U-Bahn 95% accessible, smooth pavements, accessible museums.</li>
+  <li><strong>Munich:</strong> Modern, accessible transit, flat Altstadt.</li>
+  <li><strong>Berlin (mostly):</strong> S-Bahn and U-Bahn improving fast. Some older stations still aren't.</li>
+  <li><strong>Hamburg:</strong> Modern infrastructure.</li>
+  <li><strong>Amsterdam:</strong> Tram-and-bus accessible; canal-bridges have ramps. Cobblestones in older lanes.</li>
+</ul>
+
+<h2>Moderately accessible</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Metro is largely inaccessible (most stations have stairs only). Buses and trams better. Many older buildings without elevators.</li>
+  <li><strong>London:</strong> Tube partially accessible; "step-free" map shows which stations work. Buses are fully accessible.</li>
+  <li><strong>Barcelona:</strong> Accessible metro mostly; old town cobblestones challenging.</li>
+  <li><strong>Madrid:</strong> Modern accessible metro.</li>
+  <li><strong>Florence:</strong> Compact and walkable but cobblestones throughout.</li>
+</ul>
+
+<h2>Challenging cities</h2>
+
+<ul>
+  <li><strong>Lisbon Alfama:</strong> Stair-streets, no elevators in most accommodation. Plan around <a href="/en/portugal/lisbon/baixa-chiado">Baixa-Chiado</a> instead — flat.</li>
+  <li><strong>Porto Ribeira:</strong> Steep climbs everywhere.</li>
+  <li><strong>Granada Albaicín:</strong> Brutally steep cobbles.</li>
+  <li><strong>Naples Centro Storico:</strong> Narrow vicoli, scooter chaos.</li>
+  <li><strong>Italian hill towns (Siena, San Gimignano):</strong> Steep, cobbled, generally inaccessible.</li>
+  <li><strong>Greek islands (most):</strong> Stair-village topography, especially Cycladic islands.</li>
+  <li><strong>Venice:</strong> Bridges everywhere — accessible Venice exists but takes planning.</li>
+</ul>
+
+<h2>What helps</h2>
+
+<ul>
+  <li><strong>Book hotels with verified elevators:</strong> Don't assume — many older European hotels have stairs only.</li>
+  <li><strong>Check transit accessibility maps before booking:</strong> Each city's metro publishes one.</li>
+  <li><strong>Use Booking.com filters for "wheelchair accessible":</strong> Verify with the hotel directly before paying.</li>
+  <li><strong>Avoid old town stays in Lisbon, Porto, Granada, Naples, Italian hill towns:</strong> Stay in flat-central neighborhoods instead.</li>
+</ul>
+
+<h2>Resources</h2>
+
+<p>Each major city has accessible-tourism guides. Check city tourism boards. Sage Traveling and Wheelchair Travel websites have detailed European city accessibility guides.</p>
+
+<p>For mobility-aware city ranking see <a href="/en/articles/europe-cities-by-walkability-ranking">walkability ranking</a> and <a href="/en/articles/best-european-cities-for-older-travelers">older travelers</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

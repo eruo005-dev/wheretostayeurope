@@ -1693,4 +1693,71 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Short stays where walled-city walkability matters most.",
     priceTier: 2, vibeTags: ["river", "leafy", "view", "calm"],
     tripTypeFit: ["couples", "digital-nomads", "families"] },
+
+  // ========== EXPANSION BATCH 18: nbhds for new Mediterranean cities ==========
+  // Palma de Mallorca
+  { slug: "centre-antic", name: "Centre Antic", citySlug: "palma-de-mallorca", countrySlug: "spain",
+    summary: "Palma's old town around the cathedral and Plaça Major — narrow lanes, dense restaurants, walkable to the seafront in 5-10 min.",
+    whoItsFor: "First-time visits. Sights-focused stays. Couples.",
+    whoShouldSkip: "Beach-resort focused trips. Anyone wanting pool-and-package experience.",
+    priceTier: 3, vibeTags: ["old-town", "central", "walkable", "cathedral"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "santa-catalina", name: "Santa Catalina", citySlug: "palma-de-mallorca", countrySlug: "spain",
+    summary: "Just west of the centre — the food-and-bar quarter, dense restaurants on Carrer de Sant Magí, the lived-in Palma.",
+    whoItsFor: "Repeat visitors. Food-focused trips. Anyone under 40.",
+    whoShouldSkip: "Short stays focused on cathedral atmosphere. First-time visits.",
+    priceTier: 3, vibeTags: ["food", "central-ish", "lively", "design"],
+    tripTypeFit: ["solo", "couples", "digital-nomads"] },
+
+  // Salamanca
+  { slug: "casco-historico-salamanca", name: "Casco Histórico", citySlug: "salamanca", countrySlug: "spain",
+    summary: "Salamanca's UNESCO old town — Plaza Mayor, the cathedrals, the university. The only sensible stay.",
+    whoItsFor: "First-time visits. Couples. University-focused stays. Romantic trips.",
+    whoShouldSkip: "Anyone needing parking convenience (the centre is largely pedestrian).",
+    priceTier: 2, vibeTags: ["unesco", "central", "university", "walkable"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+
+  // Catania
+  { slug: "via-etnea", name: "Via Etnea / Centro", citySlug: "catania", countrySlug: "italy",
+    summary: "Catania's central core around Via Etnea and Piazza Duomo — baroque architecture, dense restaurants, walkable to the fish market.",
+    whoItsFor: "First-time visits. Sights-focused stays. Mount Etna day-trips.",
+    whoShouldSkip: "Beach-focused trips (Catania's beaches are 30+ min). Anyone wanting Taormina-style polish.",
+    priceTier: 2, vibeTags: ["baroque", "central", "walkable", "etna"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+
+  // Chania
+  { slug: "venetian-harbor-chania", name: "Venetian Harbor", citySlug: "chania", countrySlug: "greece",
+    summary: "Chania's iconic Venetian harbor — narrow lanes, the lighthouse, dense restaurants. The postcard.",
+    whoItsFor: "First-time visits. Couples. Romantic stays. Sights-focused short trips.",
+    whoShouldSkip: "Light sleepers near the harbor (restaurants run loud). Family stays needing more space.",
+    priceTier: 3, vibeTags: ["venetian", "harbor", "romantic", "iconic"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "splanzia", name: "Splanzia", citySlug: "chania", countrySlug: "greece",
+    summary: "Just east of the harbor — the lived-in Cretan quarter, narrow lanes, neighborhood-tavernas at local prices.",
+    whoItsFor: "Repeat visitors. Long stays. Anyone wanting non-tourist Chania.",
+    whoShouldSkip: "Short stays focused on harbor-view atmosphere.",
+    priceTier: 2, vibeTags: ["lived-in", "tavernas", "local", "calm"],
+    tripTypeFit: ["digital-nomads", "couples", "families"] },
+
+  // Heraklion
+  { slug: "old-town-heraklion", name: "Old Town", citySlug: "heraklion", countrySlug: "greece",
+    summary: "Heraklion's old town within the Venetian walls — Lions Square, the Archaeological Museum, dense restaurants. Knossos 20 min away.",
+    whoItsFor: "Knossos-focused visits. Ferry connections. Sights-focused short stays.",
+    whoShouldSkip: "Atmosphere-focused trips (Chania wins). Couples wanting romantic Cretan charm.",
+    priceTier: 2, vibeTags: ["central", "walls", "museum", "ferry"],
+    tripTypeFit: ["first-timers", "families", "couples"] },
+
+  // Funchal
+  { slug: "zona-velha", name: "Zona Velha", citySlug: "funchal", countrySlug: "portugal",
+    summary: "Funchal's Old Town — narrow lanes, painted doors (the Doors Project), dense restaurants, harbor adjacent.",
+    whoItsFor: "First-time Madeira visits. Romantic stays. Photo-focused trips.",
+    whoShouldSkip: "Hill-walking-focused trips (better to stay closer to Pico Areeiro trailheads).",
+    priceTier: 2, vibeTags: ["old-town", "harbor", "central", "photogenic"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+  { slug: "se-funchal", name: "Sé", citySlug: "funchal", countrySlug: "portugal",
+    summary: "The cathedral quarter — central walkable, Mercado dos Lavradores 5 min, dense local restaurants.",
+    whoItsFor: "Long stays. Repeat visitors. Anyone wanting central proximity with locals' Funchal.",
+    whoShouldSkip: "Short stays focused on Old Town atmosphere or pool-resort experience.",
+    priceTier: 2, vibeTags: ["central", "cathedral", "market", "walkable"],
+    tripTypeFit: ["digital-nomads", "couples", "families"] },
 ];

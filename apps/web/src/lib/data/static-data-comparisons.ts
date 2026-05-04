@@ -7377,6 +7377,72 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 18 — pairs for new Mediterranean cities
+// =============================================================================
+COMPARISONS.push(
+  // PALMA DE MALLORCA
+  {
+    slug: "centre-antic-vs-santa-catalina",
+    citySlug: "palma-de-mallorca", countrySlug: "spain",
+    aSlug: "centre-antic", bSlug: "santa-catalina",
+    aLabel: "Centre Antic", bLabel: "Santa Catalina",
+    metaTitle: "Centre Antic vs Santa Catalina: Where to Stay in Palma",
+    metaDescription: "Palma's old town or food-and-bar Santa Catalina? Real take on atmosphere, food and price.",
+    intro: "Centre Antic is Palma's medieval old town around the cathedral. Santa Catalina is just west — the food-and-bar quarter, dense restaurants on Carrer de Sant Magí.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Centre Antic has cathedral, Plaça Major, La Lonja. Santa Catalina has the market." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Santa Catalina wins. Carrer de Sant Magí is the densest dinner strip in Palma." },
+      { question: "Atmosphere", winner: "tied", body: "Centre Antic is medieval-tourist. Santa Catalina is design-and-dinner. Different vibes." },
+      { question: "Walkability between", winner: "tied", body: "5-10 min walk. Equivalent." },
+      { question: "Price", winner: "tied", body: "Both €130-€280 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Centre Antic for first-time visits, sights focus, anyone over 50.",
+    pickB: "Pick Santa Catalina for food-focused trips, anyone under 40, repeat visits.",
+    bottomLine: "Centre Antic for first-timers. Santa Catalina for food.",
+  },
+  // CHANIA
+  {
+    slug: "venetian-harbor-vs-splanzia",
+    citySlug: "chania", countrySlug: "greece",
+    aSlug: "venetian-harbor-chania", bSlug: "splanzia",
+    aLabel: "Venetian Harbor", bLabel: "Splanzia",
+    metaTitle: "Venetian Harbor vs Splanzia: Where to Stay in Chania",
+    metaDescription: "Chania's iconic harbor or lived-in Splanzia? Real take on tourist crush, food and price.",
+    intro: "Venetian Harbor is the iconic photo — narrow lanes, the lighthouse, dense restaurants. Splanzia is just east — the lived-in Cretan quarter, neighborhood-tavernas at local prices.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Venetian Harbor wins on charm — the lighthouse photo, the harbor walk." },
+      { question: "Tourist crush", winner: "b", body: "Venetian Harbor is unwalkable mid-day in summer. Splanzia gets none of this." },
+      { question: "Restaurants", winner: "b", body: "Splanzia has neighborhood-tavernas. Venetian Harbor tilts tourist-priced." },
+      { question: "Walkability between", winner: "tied", body: "5 min walk. Equivalent." },
+      { question: "Price", winner: "b", body: "Splanzia 25-35% cheaper than Harbor for equivalent product." },
+    ],
+    pickA: "Pick Venetian Harbor for first-time visits, photo focus, romantic short stays.",
+    pickB: "Pick Splanzia for repeat visits, food-focused trips, longer stays.",
+    bottomLine: "Harbor for the photo. Splanzia for value.",
+  },
+  // FUNCHAL
+  {
+    slug: "zona-velha-vs-se-funchal",
+    citySlug: "funchal", countrySlug: "portugal",
+    aSlug: "zona-velha", bSlug: "se-funchal",
+    aLabel: "Zona Velha", bLabel: "Sé",
+    metaTitle: "Zona Velha vs Sé: Where to Stay in Funchal",
+    metaDescription: "Funchal's Old Town or cathedral quarter? Real take on atmosphere, market and price.",
+    intro: "Zona Velha is Funchal's Old Town — narrow lanes, painted doors, harbor adjacent. Sé is the cathedral quarter — central walkable, the Mercado dos Lavradores 5 min away. Walkable to each other in 10 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Zona Velha wins on charm — painted doors (the Doors Project), narrow lanes." },
+      { question: "Market access", winner: "b", body: "Sé wins — Mercado dos Lavradores is at the door." },
+      { question: "Restaurants past 9pm", winner: "tied", body: "Both have density. Zona Velha is touristy-harborside; Sé is more local." },
+      { question: "Walkability between", winner: "tied", body: "10 min. Equivalent." },
+      { question: "Price", winner: "b", body: "Sé 10-15% cheaper than Zona Velha for equivalent product." },
+    ],
+    pickA: "Pick Zona Velha for first-time visits, photo focus, harbor-adjacent short stays.",
+    pickB: "Pick Sé for longer stays, market-focused trips, locals' Funchal.",
+    bottomLine: "Zona Velha for photo. Sé for market and locals.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

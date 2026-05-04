@@ -604,6 +604,21 @@ export const CITIES: StaticCity[] = [
 
   // France
   { slug: "avignon", name: "Avignon", countrySlug: "france", lat: 43.9493, lng: 4.8055, population: 95_000, tier: "2", bookingDestId: null, intro: "Avignon is small enough that any stay inside the city walls works. The Palais des Papes area gives you the Avignon Festival venues; the southern half of the walled city is calmer. Skip anywhere outside the walls for sleeping." },
+
+  // ========== EXPANSION BATCH 18 (Mediterranean islands + Sicily) ==========
+  // Spain
+  { slug: "palma-de-mallorca", name: "Palma de Mallorca", countrySlug: "spain", lat: 39.5696, lng: 2.6502, population: 415_000, tier: "2", bookingDestId: null, intro: "Palma's Centre Antic (old town) around the cathedral is the only sensible stay. Santa Catalina just west is the food-and-bar quarter. Skip the package-resort strips along the southern coast — they're a different trip entirely." },
+  { slug: "salamanca", name: "Salamanca", countrySlug: "spain", lat: 40.9701, lng: -5.6635, population: 145_000, tier: "2", bookingDestId: null, intro: "Salamanca's Casco Histórico — Plaza Mayor, the cathedrals, the university — is the only sensible stay. The whole walkable centre fits in 1.5 km. Skip anywhere outside the historic core." },
+
+  // Italy
+  { slug: "catania", name: "Catania", countrySlug: "italy", lat: 37.5079, lng: 15.0830, population: 310_000, tier: "2", bookingDestId: null, intro: "Catania's central quarter around Via Etnea and Piazza Duomo is the only sensible Sicilian-east-coast stay. Mount Etna day-trips and Taormina are 1h drives. Skip the suburban beach strips for the city trip." },
+
+  // Greece
+  { slug: "chania", name: "Chania", countrySlug: "greece", lat: 35.5138, lng: 24.0180, population: 55_000, tier: "2", bookingDestId: null, intro: "Chania's Venetian harbor is the obvious central stay — narrow lanes, the lighthouse, dense restaurants. Splanzia just east is the lived-in Cretan quarter. Skip the resort strips along the western coast for the city trip." },
+  { slug: "heraklion", name: "Heraklion", countrySlug: "greece", lat: 35.3387, lng: 25.1442, population: 175_000, tier: "2", bookingDestId: null, intro: "Heraklion's old town within the Venetian walls is the central stay — Knossos 20 min away, dense restaurants. Most travelers prefer Chania for atmosphere; Heraklion works for Knossos focus and ferry connections." },
+
+  // Portugal
+  { slug: "funchal", name: "Funchal", countrySlug: "portugal", lat: 32.6669, lng: -16.9241, population: 105_000, tier: "2", bookingDestId: null, intro: "Funchal (Madeira) is a year-round Atlantic-island city. The Old Town (Zona Velha) and Sé area are the central stays. Skip the big resort hotels along the Estrada Monumental unless your trip is pool-and-package." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

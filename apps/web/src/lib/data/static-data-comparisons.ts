@@ -7085,6 +7085,212 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 16 — final cross-pair gaps in tier-1 cities
+// =============================================================================
+COMPARISONS.push(
+  // LISBON — Alfama vs Príncipe Real
+  {
+    slug: "alfama-vs-principe-real",
+    citySlug: "lisbon", countrySlug: "portugal",
+    aSlug: "alfama", bSlug: "principe-real",
+    aLabel: "Alfama", bLabel: "Príncipe Real",
+    metaTitle: "Alfama vs Príncipe Real: Where to Stay in Lisbon",
+    metaDescription: "Lisbon's Moorish hill Alfama or design Príncipe Real? Real take on mobility, atmosphere and price.",
+    intro: "Alfama is the medieval Moorish quarter east of the castle — narrow stair-streets, fado, the cliché photo. Príncipe Real is north of Bairro Alto on the central hill — leafy design quarter, residential calm. Different hills, different trips.",
+    rounds: [
+      { question: "Mobility", winner: "b", body: "Príncipe Real is on a hill but with proper streets. Alfama is steep stair-streets — brutal with luggage." },
+      { question: "Atmosphere", winner: "a", body: "Alfama wins on atmosphere — narrow lanes, hanging laundry, fado at night. Príncipe Real is leafier-design but less iconic." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Príncipe Real has dense design-restaurant cluster. Alfama's fado houses are tourist-priced." },
+      { question: "Quiet sleep", winner: "tied", body: "Both residential past 11pm." },
+      { question: "Price", winner: "tied", body: "Both €130-€220 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Alfama for atmosphere-and-photo focus, anyone able to handle steep stairs.",
+    pickB: "Pick Príncipe Real for design-focused trips, mobility-aware travelers, anyone wanting calmer Lisbon.",
+    bottomLine: "Alfama for the photo. Príncipe Real for design and walkability.",
+  },
+  // LISBON — Belém vs Mouraria
+  {
+    slug: "belem-vs-mouraria",
+    citySlug: "lisbon", countrySlug: "portugal",
+    aSlug: "belem", bSlug: "mouraria",
+    aLabel: "Belém", bLabel: "Mouraria",
+    metaTitle: "Belém vs Mouraria: Where to Stay in Lisbon",
+    metaDescription: "Lisbon's museum Belém or multicultural Mouraria? Real take on transport, atmosphere and price.",
+    intro: "Belém is the maritime quarter 6 km west — Jerónimos, Tower of Belém. Mouraria is the original Moorish quarter east of the castle — narrow stair-streets, multicultural-and-fado. Opposite sides of central Lisbon.",
+    rounds: [
+      { question: "Walkability to centre", winner: "b", body: "Mouraria is 10 min walk down to Baixa. Belém is 25 min by tram." },
+      { question: "Museum focus", winner: "a", body: "Belém wins — Jerónimos, MAAT, Tower of Belém all walkable." },
+      { question: "Atmosphere", winner: "tied", body: "Belém is maritime-museum. Mouraria is multicultural-stair-streets. Different trips." },
+      { question: "Mobility", winner: "a", body: "Belém is flat. Mouraria is steep stair-streets." },
+      { question: "Price", winner: "b", body: "Mouraria 15-25% cheaper than Belém for equivalent product." },
+    ],
+    pickA: "Pick Belém for museum-focused stays, families, mobility-aware travelers.",
+    pickB: "Pick Mouraria for repeat visits, food-and-fado focus, anyone wanting cheaper non-tourist Lisbon.",
+    bottomLine: "Belém for museums. Mouraria for value and fado.",
+  },
+  // MADRID — Chueca vs Lavapiés
+  {
+    slug: "chueca-vs-lavapies",
+    citySlug: "madrid", countrySlug: "spain",
+    aSlug: "chueca", bSlug: "lavapies",
+    aLabel: "Chueca", bLabel: "Lavapiés",
+    metaTitle: "Chueca vs Lavapiés: Where to Stay in Madrid",
+    metaDescription: "Madrid's queer-friendly Chueca or multicultural Lavapiés? Real take on food, atmosphere and price.",
+    intro: "Both are central Madrid alternatives. Chueca is the LGBTQ+-friendly cocktail-and-design quarter just north of Gran Vía. Lavapiés is south of La Latina — multicultural quarter with Indian/Senegalese/Moroccan food density.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Chueca is cocktail-design-LGBTQ+. Lavapiés is multicultural-real-working-class. Pick on what you want." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both dense. Chueca has cocktails-and-bistros. Lavapiés has multicultural variety." },
+      { question: "Walkability to Sol", winner: "a", body: "Chueca is 5-10 min walk. Lavapiés is 10-15 min south." },
+      { question: "Family-friendly", winner: "tied", body: "Both fine during the day. Chueca has weekend cocktail crowds; Lavapiés has plaza-side noise." },
+      { question: "Price", winner: "b", body: "Lavapiés 20-30% cheaper than Chueca for equivalent product." },
+    ],
+    pickA: "Pick Chueca for cocktail-and-design focus, LGBTQ+ trips.",
+    pickB: "Pick Lavapiés for food-diversity focus, budget-conscious longer stays.",
+    bottomLine: "Chueca for cocktails. Lavapiés for value.",
+  },
+  // PARIS — Saint-Germain vs Bastille (already done? let me try a different combo)
+  {
+    slug: "montorgueil-vs-saint-germain",
+    citySlug: "paris", countrySlug: "france",
+    aSlug: "montorgueil", bSlug: "saint-germain-des-pres",
+    aLabel: "Montorgueil", bLabel: "Saint-Germain",
+    metaTitle: "Montorgueil vs Saint-Germain: Where to Stay in Paris",
+    metaDescription: "Paris's Right Bank Montorgueil or Left Bank Saint-Germain? Real take on food, museums and price.",
+    intro: "Both are central Paris food-focused options. Montorgueil is the 2nd-arrondissement pedestrian strip on the Right Bank — pastries, oysters, walkable to Louvre. Saint-Germain is the 6th-arrondissement Left Bank — literary, café-and-museum, walkable to Orsay/Louvre.",
+    rounds: [
+      { question: "Walkability to Louvre", winner: "a", body: "Montorgueil is 8-10 min. Saint-Germain is 12-15 min via Pont du Carrousel." },
+      { question: "Walkability to Orsay", winner: "b", body: "Saint-Germain is 10 min walk. Montorgueil is 20-25 min." },
+      { question: "Atmosphere", winner: "tied", body: "Montorgueil is pedestrian-food. Saint-Germain is literary-café. Different sides." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both dense. Montorgueil has oyster-and-bistro; Saint-Germain has classic French." },
+      { question: "Price", winner: "a", body: "Montorgueil 10-15% cheaper than Saint-Germain for equivalent product." },
+    ],
+    pickA: "Pick Montorgueil for food-focused trips, Louvre-walkability priority.",
+    pickB: "Pick Saint-Germain for literary-Paris focus, Orsay-priority, museum-focused trips.",
+    bottomLine: "Montorgueil for food and Louvre. Saint-Germain for museums and literary.",
+  },
+  // PARIS — Pigalle vs Le Marais
+  {
+    slug: "pigalle-vs-le-marais",
+    citySlug: "paris", countrySlug: "france",
+    aSlug: "pigalle", bSlug: "le-marais",
+    aLabel: "Pigalle / SoPi", bLabel: "Le Marais",
+    metaTitle: "Pigalle vs Le Marais: Where to Stay in Paris",
+    metaDescription: "Paris's converted Pigalle or design Le Marais? Real take on cocktails, food, atmosphere and price.",
+    intro: "Both are evening-focused Right Bank Paris bases. Pigalle (SoPi) is south of Montmartre — cocktail strip. Le Marais is the central design-and-dinner Right Bank — denser sights, Pompidou nearby. Different ends of the Right Bank.",
+    rounds: [
+      { question: "Walkability to central sights", winner: "b", body: "Marais is 12-15 min to Notre-Dame. Pigalle is 30+ min." },
+      { question: "Cocktail bars", winner: "a", body: "Pigalle wins — Lulu White, Dirty Dick, the cocktail strip. Marais has cocktails too but less density." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Marais has wider variety. Pigalle is cocktail-cluster but smaller restaurant strip." },
+      { question: "Atmosphere", winner: "tied", body: "Pigalle is converted-Pigalle-cocktail. Marais is design-and-dinner. Different trips." },
+      { question: "Price", winner: "a", body: "Pigalle 20-30% cheaper than Marais for equivalent product." },
+    ],
+    pickA: "Pick Pigalle for cocktail-focused trips, anyone willing to take the metro to central sights.",
+    pickB: "Pick Le Marais for first-time visits, central walkability, design-shop wandering.",
+    bottomLine: "Pigalle for cocktails and value. Marais for first-timers.",
+  },
+  // BARCELONA — Eixample vs Poblenou
+  {
+    slug: "eixample-vs-poblenou",
+    citySlug: "barcelona", countrySlug: "spain",
+    aSlug: "eixample", bSlug: "poblenou",
+    aLabel: "Eixample", bLabel: "Poblenou",
+    metaTitle: "Eixample vs Poblenou: Where to Stay in Barcelona",
+    metaDescription: "Barcelona's Modernisme grid or beach-design Poblenou? Real take on architecture, beach and price.",
+    intro: "Eixample is the wide-grid Modernisme quarter with Gaudí's masterpieces. Poblenou is northeast along the coast — former industrial, now Barcelona's design district with the city's best beach (Bogatell). Different sides of the city.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Eixample wins — Gaudí's masterpieces walkable. Poblenou has design-shops but no Modernisme density." },
+      { question: "Beach access", winner: "b", body: "Poblenou wins by definition — Bogatell beach is 5 min walk." },
+      { question: "Walkability to old town", winner: "a", body: "Eixample is 10 min walk to Plaça Catalunya. Poblenou is 25 min metro to Las Ramblas." },
+      { question: "Atmosphere", winner: "tied", body: "Eixample is wide-boulevard. Poblenou is design-district-beach. Different cities." },
+      { question: "Price", winner: "b", body: "Poblenou 20-30% cheaper than Eixample for equivalent product." },
+    ],
+    pickA: "Pick Eixample for first-time visits, Gaudí focus, sights priority.",
+    pickB: "Pick Poblenou for beach-focused trips, design-quarter focus, longer stays.",
+    bottomLine: "Eixample for sights. Poblenou for beach.",
+  },
+  // ATHENS — Pangrati vs Exarcheia
+  {
+    slug: "pangrati-vs-exarcheia",
+    citySlug: "athens", countrySlug: "greece",
+    aSlug: "pangrati", bSlug: "exarcheia",
+    aLabel: "Pangrati", bLabel: "Exarcheia",
+    metaTitle: "Pangrati vs Exarcheia: Where to Stay in Athens",
+    metaDescription: "Athens' leafy Pangrati or anarchist Exarcheia? Real take on safety, food and price.",
+    intro: "Both are non-tourist central Athens alternatives. Pangrati is east of Plaka beyond the National Garden — leafy residential, neighborhood-tavernas. Exarcheia is north of Syntagma — anarchist-political quarter, gritty in spots, late-night bars.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Pangrati is leafy-wealthy-residential. Exarcheia is anarchist-bookshop-gritty. Pick on grit tolerance." },
+      { question: "Safety perception", winner: "a", body: "Pangrati feels safe. Exarcheia has graffiti and occasional protest activity." },
+      { question: "Walkability to Acropolis", winner: "tied", body: "Both 20-25 min walk. Equivalent." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Exarcheia wins — late-night bars and bookshops run later. Pangrati tilts neighborhood-taverna and quiets earlier." },
+      { question: "Price", winner: "tied", body: "Both 25-35% cheaper than Plaka. Equivalent to each other." },
+    ],
+    pickA: "Pick Pangrati for couples, families, anyone wanting wealthy-leafy local Athens.",
+    pickB: "Pick Exarcheia for solo travelers comfortable with grit, late-night-bar focus, repeat visits.",
+    bottomLine: "Pangrati for couples. Exarcheia for solo and late.",
+  },
+  // ROME — Trastevere vs Esquilino
+  {
+    slug: "trastevere-vs-esquilino",
+    citySlug: "rome", countrySlug: "italy",
+    aSlug: "trastevere", bSlug: "esquilino",
+    aLabel: "Trastevere", bLabel: "Esquilino",
+    metaTitle: "Trastevere vs Esquilino: Where to Stay in Rome",
+    metaDescription: "Rome's evening Trastevere or train-station Esquilino? Real take on transit, food and price.",
+    intro: "Trastevere is the evening quarter across the Tiber. Esquilino is the multicultural quarter around Termini — Asian food, market, gritty. Different Romes.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Trastevere is medieval-evening. Esquilino is multicultural-market-gritty. Different cities." },
+      { question: "Train logistics", winner: "b", body: "Esquilino is at Termini. Trastevere is 25 min walk or 15 min by tram." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have density. Trastevere has Roman cucina (tourist-priced); Esquilino has Asian variety." },
+      { question: "Family-friendly", winner: "a", body: "Trastevere wins — pretty, walkable. Esquilino is gritty in spots." },
+      { question: "Price", winner: "b", body: "Esquilino 30-40% cheaper than Trastevere for equivalent product." },
+    ],
+    pickA: "Pick Trastevere for first-time evening focus, family-friendly priority.",
+    pickB: "Pick Esquilino for budget-conscious train-heavy trips, food-diversity focus.",
+    bottomLine: "Trastevere for evenings and families. Esquilino for budget and train.",
+  },
+  // VIENNA — Innere Stadt vs Mariahilf D6
+  {
+    slug: "innere-stadt-vs-mariahilf",
+    citySlug: "vienna", countrySlug: "austria",
+    aSlug: "innere-stadt", bSlug: "mariahilf-d6",
+    aLabel: "Innere Stadt", bLabel: "Mariahilf (D6)",
+    metaTitle: "Innere Stadt vs Mariahilf: Where to Stay in Vienna",
+    metaDescription: "Vienna's imperial District 1 or shopping District 6? Real take on sights, shopping and price.",
+    intro: "Innere Stadt is the imperial District 1 — Stephansdom, Hofburg, the opera. Mariahilf (D6) is along Mariahilfer Straße — Vienna's main shopping spine, dense food, walkable to Innere Stadt in 10-15 min.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Innere Stadt has every imperial sight. Mariahilf has the shopping strip and MuseumsQuartier nearby." },
+      { question: "Shopping", winner: "b", body: "Mariahilf wins by definition — Vienna's main shopping spine." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have density. Innere Stadt is more polished; Mariahilf has wider price range." },
+      { question: "Walkability to opera", winner: "a", body: "Innere Stadt is at the opera. Mariahilf is 10 min walk." },
+      { question: "Price", winner: "b", body: "Mariahilf 25-35% cheaper than Innere Stadt for equivalent product." },
+    ],
+    pickA: "Pick Innere Stadt for first-time visits, opera-focused stays, sights priority.",
+    pickB: "Pick Mariahilf for shopping focus, budget-conscious trips, longer stays.",
+    bottomLine: "Innere Stadt for sights. Mariahilf for shopping and value.",
+  },
+  // PRAGUE — Vinohrady vs Holešovice
+  {
+    slug: "vinohrady-vs-holesovice",
+    citySlug: "prague", countrySlug: "czech-republic",
+    aSlug: "vinohrady", bSlug: "holesovice",
+    aLabel: "Vinohrady", bLabel: "Holešovice",
+    metaTitle: "Vinohrady vs Holešovice: Where to Stay in Prague",
+    metaDescription: "Prague's leafy Vinohrady or industrial Holešovice? Real take on atmosphere, design, families and price.",
+    intro: "Both are non-Old-Town Prague alternatives. Vinohrady is east — leafy residential, dense food. Holešovice is across the Vltava northwest — converted-industrial design quarter, where Prague's design crowd actually lives.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Vinohrady is leafy-residential. Holešovice is design-warehouse. Different vibes." },
+      { question: "Walkability to Old Town", winner: "a", body: "Vinohrady is 15 min walk. Holešovice is 20-25 min." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have density. Vinohrady is polished-residential; Holešovice is design-warehouse." },
+      { question: "Family-friendly", winner: "a", body: "Vinohrady wins — Riegrovy Sady, leafy streets, family-aware." },
+      { question: "Price", winner: "tied", body: "Both 25-30% cheaper than Old Town. Equivalent to each other." },
+    ],
+    pickA: "Pick Vinohrady for families, longer stays, anyone wanting leafy-residential calm.",
+    pickB: "Pick Holešovice for design-focused trips, repeat Prague visits, anyone wanting converted-industrial atmosphere.",
+    bottomLine: "Vinohrady for families. Holešovice for design.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

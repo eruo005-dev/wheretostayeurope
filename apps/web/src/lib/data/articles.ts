@@ -5417,6 +5417,300 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 16 — practical-tips guides + city combinations
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-tipping-honest-guide",
+    title: "Tipping in Europe: Honest Country-by-Country Guide",
+    excerpt: "Tipping rules vary by country. Real picks of when to tip, how much, and where the American 20% is wrong.",
+    publishedAt: "2026-05-12",
+    reviewedAt: "2026-05-12",
+    readingTimeMin: 8,
+    metaTitle: "Tipping in Europe — Honest Country-by-Country Guide 2026",
+    metaDescription: "Tipping rules vary by country. Real picks of when to tip, how much, and where the American 20% is wrong.",
+    html: `
+<p>Tipping in Europe is the most-misunderstood travel topic. Service is usually included; American 20% is rarely expected; tipping wrong can be insulting. Here's the honest country-by-country guide.</p>
+
+<h2>No tip / round up only</h2>
+
+<ul>
+  <li><strong>France:</strong> Service compris by law. Round up the bill or leave 1-2€ on a table. Don't add 15-20%.</li>
+  <li><strong>Italy:</strong> Coperto (cover charge) is the bill addition. Round up if service was good, otherwise nothing.</li>
+  <li><strong>Spain:</strong> Round up only. Tipping more is uncomfortable.</li>
+  <li><strong>Switzerland:</strong> Service included. Round up small.</li>
+</ul>
+
+<h2>5-10% is normal</h2>
+
+<ul>
+  <li><strong>Germany, Austria:</strong> Round up to a clean number, 5-10% is generous. Hand the cash and tell them what total to charge ("Stimmt so" if you don't want change).</li>
+  <li><strong>Belgium, Netherlands:</strong> Round up to 5-10% if service was good. Service included.</li>
+  <li><strong>Portugal:</strong> 5-10% in restaurants. Tip taxis by rounding up.</li>
+  <li><strong>Scandinavia:</strong> 5-10% in restaurants if you want, but tipping is genuinely optional and rare.</li>
+</ul>
+
+<h2>10-15% expected</h2>
+
+<ul>
+  <li><strong>UK:</strong> 10-12.5% in restaurants. Often added automatically as "service charge" — verify before tipping again.</li>
+  <li><strong>Ireland:</strong> Same as UK.</li>
+  <li><strong>Greece:</strong> 10% if service was good.</li>
+  <li><strong>Turkey:</strong> 10% in restaurants. Round up taxis.</li>
+  <li><strong>Eastern Europe (Poland, Hungary, Czechia, Bulgaria):</strong> 10% standard.</li>
+  <li><strong>Croatia:</strong> 10% in tourist areas.</li>
+</ul>
+
+<h2>What never to tip</h2>
+
+<ul>
+  <li><strong>Bartenders pouring beer or wine:</strong> No tip culture across most of Europe.</li>
+  <li><strong>Hotel staff carrying bags:</strong> Optional. €1-€2 if you want.</li>
+  <li><strong>Taxi drivers:</strong> Round up only. 20% is uncomfortable.</li>
+  <li><strong>Tour guides:</strong> €2-€5 if good for shorter tours; €10 for full-day. Walking-tour guides are often "free" but expect a tip — €5-€10 is normal.</li>
+</ul>
+
+<h2>Card vs cash</h2>
+
+<p>European POS systems often don't include tip lines. Tip in cash if you want — leaving 5€ on the table is the most-common method. If tipping by card, tell the waiter the total amount before they swipe.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-tap-water-safe-cities",
+    title: "Tap Water in Europe: Where It's Safe (and Where Not)",
+    excerpt: "Tap water in Europe is mostly safe. Honest country-by-country guide with the few exceptions.",
+    publishedAt: "2026-05-12",
+    reviewedAt: "2026-05-12",
+    readingTimeMin: 6,
+    metaTitle: "Tap Water in Europe — Where It's Safe (and Where Not)",
+    metaDescription: "Tap water in Europe is mostly safe. Honest country-by-country guide with the few exceptions.",
+    html: `
+<p>European tap water is among the world's safest. The marketing of bottled water has obscured this. Here's the honest map.</p>
+
+<h2>Genuinely safe and good-tasting tap water</h2>
+
+<ul>
+  <li><strong>Switzerland:</strong> Some of the world's best tap water. Public fountains drinkable everywhere.</li>
+  <li><strong>Austria, Germany:</strong> Excellent. Vienna's tap water comes from Alpine springs.</li>
+  <li><strong>Scandinavia (Norway, Sweden, Denmark, Finland):</strong> Excellent everywhere.</li>
+  <li><strong>Iceland:</strong> The cleanest tap water in Europe.</li>
+  <li><strong>UK, Ireland:</strong> Safe everywhere, taste is fine.</li>
+  <li><strong>Netherlands, Belgium:</strong> Excellent.</li>
+  <li><strong>France:</strong> Safe everywhere. Paris's tap water is fine despite reputation.</li>
+</ul>
+
+<h2>Safe but locals prefer bottled</h2>
+
+<ul>
+  <li><strong>Italy:</strong> Tap water is safe everywhere. Italians drink bottled by tradition. Roman tap water is among the best in the country (Rome's "nasoni" public fountains).</li>
+  <li><strong>Spain:</strong> Safe everywhere. Madrid and Barcelona excellent.</li>
+  <li><strong>Portugal:</strong> Safe.</li>
+  <li><strong>Greece (mainland):</strong> Athens and Thessaloniki tap water is fine.</li>
+</ul>
+
+<h2>Patchy — verify locally</h2>
+
+<ul>
+  <li><strong>Greek islands:</strong> Often desalinated and salty. Mykonos and Santorini specifically — locals drink bottled. Tap is safe to brush teeth.</li>
+  <li><strong>Some Croatian islands:</strong> Tap water can taste mineral-heavy.</li>
+  <li><strong>Eastern European countryside:</strong> Verify with your accommodation. Cities are fine.</li>
+  <li><strong>Turkey:</strong> Istanbul tap is safe to brush teeth, locals drink bottled. Smaller cities — drink bottled.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Bring a refillable bottle. Most European cities have public drinking fountains (Rome's nasoni, Paris's Wallace fountains). Save €100+ over a 2-week trip and reduce plastic. Restaurants will provide tap water free in most countries — ask for "carafe d'eau" in France, "acqua del rubinetto" in Italy, or just "tap water" in English elsewhere.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-pickpocket-aware-cities",
+    title: "European Cities Where Pickpockets Operate (Honest List)",
+    excerpt: "Honest list of European cities with active pickpocket operations — and how to handle each.",
+    publishedAt: "2026-05-12",
+    reviewedAt: "2026-05-12",
+    readingTimeMin: 7,
+    metaTitle: "European Cities With Pickpockets — Honest 2026 Awareness Guide",
+    metaDescription: "Honest list of European cities with active pickpocket operations — and how to handle each.",
+    html: `
+<p>Pickpocket warnings are over-hyped in some cities and under-stated in others. Here's the honest map.</p>
+
+<h2>Highest-risk pickpocket cities</h2>
+
+<ul>
+  <li><strong>Barcelona:</strong> Las Ramblas and metro stations are notorious. Front pocket, zip bags, no phones in back pockets. Reported losses are common.</li>
+  <li><strong>Rome:</strong> Termini station, the metro to the Vatican, the Spanish Steps area. Same precautions.</li>
+  <li><strong>Paris:</strong> RER B (airport line), Trocadéro, Sacré-Cœur, the area around the Louvre. Especially common is the petition scam — refuse to engage.</li>
+  <li><strong>Madrid:</strong> Sol, Gran Vía, the metro near Atocha.</li>
+  <li><strong>Prague:</strong> Charles Bridge area, especially in summer crowds.</li>
+</ul>
+
+<h2>Moderate-risk cities</h2>
+
+<ul>
+  <li><strong>Florence:</strong> Tourist areas around the Duomo and Ponte Vecchio.</li>
+  <li><strong>Lisbon:</strong> Tram 28 and around Rossio square.</li>
+  <li><strong>Athens:</strong> Metro, especially Line 3 to the airport.</li>
+  <li><strong>Naples:</strong> Spaccanapoli area, Quartieri Spagnoli at night.</li>
+  <li><strong>Istanbul:</strong> Sultanahmet tram stops, Grand Bazaar.</li>
+</ul>
+
+<h2>Low-risk cities (mostly)</h2>
+
+<ul>
+  <li><strong>Scandinavian capitals:</strong> Negligible pickpocket activity.</li>
+  <li><strong>Most German cities:</strong> Low risk except major train stations.</li>
+  <li><strong>Vienna, Munich:</strong> Generally safe.</li>
+  <li><strong>Smaller European cities (Bath, Bruges, Salzburg):</strong> Negligible.</li>
+</ul>
+
+<h2>Common pickpocket tactics</h2>
+
+<ul>
+  <li><strong>Fake petition signers:</strong> Usually women approaching with clipboards. Walk away.</li>
+  <li><strong>Rosemary/bracelet sellers:</strong> They tie something on your wrist, then demand payment. Don't extend your arm.</li>
+  <li><strong>Spilled coffee / mustard:</strong> Someone "helps" clean while a partner picks pocket.</li>
+  <li><strong>Fake police asking to see your wallet:</strong> Real police never do this. Ask for ID and walk to a station.</li>
+  <li><strong>Crowded metro / bus pressure:</strong> Hands on bag at all times.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li>Money belt or front-zip bag for valuables.</li>
+  <li>Daily cash budget in front pocket only.</li>
+  <li>Phone with strap or zipped pocket only.</li>
+  <li>Travel insurance is essential — verify it covers theft.</li>
+  <li>Photograph passport and credit cards; store digital copies.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-to-combine-with-rome",
+    title: "Best European Cities to Combine With Rome (10-14 Day Italy)",
+    excerpt: "If Rome is the anchor, here's the honest sort of which cities combine well — including which Italian cities to skip.",
+    publishedAt: "2026-05-12",
+    reviewedAt: "2026-05-12",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities to Combine With Rome — Honest 10-14 Day Italy",
+    metaDescription: "If Rome is the anchor, here's the honest sort of which cities combine well — including which Italian cities to skip.",
+    html: `
+<p>Rome is the most-common Italy anchor. Here's the honest sort of which cities combine well for 10-14 day trips.</p>
+
+<h2>Best Rome combinations</h2>
+
+<ul>
+  <li><strong>Rome + <a href="/en/italy/florence">Florence</a> + <a href="/en/italy/venice">Venice</a>:</strong> The classic. 4+3+2 nights minimum for 9 nights total. Add Tuscany day-trip from Florence to fill 10-12.</li>
+  <li><strong>Rome + <a href="/en/italy/naples">Naples</a> + Amalfi Coast:</strong> 4+2+5 nights. Different region, dramatic landscape.</li>
+  <li><strong>Rome + Sicily:</strong> 4+7 nights. Fly to Catania, base in Taormina or Siracusa.</li>
+  <li><strong>Rome + <a href="/en/italy/bologna">Bologna</a> + Florence:</strong> 4+2+3 nights. Strong food trip.</li>
+  <li><strong>Rome + <a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> 4+3 nights. Fly between (90 min). Different cultures.</li>
+</ul>
+
+<h2>Trickier Rome combinations</h2>
+
+<ul>
+  <li><strong>Rome + <a href="/en/austria/vienna">Vienna</a>:</strong> Possible by overnight train (Nightjet). Both heavy on history. Works for art/imperial-history focus.</li>
+  <li><strong>Rome + <a href="/en/greece/athens">Athens</a>:</strong> Fly. Both ancient-history focus — could be redundant for a single trip.</li>
+  <li><strong>Rome + <a href="/en/spain/barcelona">Barcelona</a>:</strong> Fly. Different vibes. Works but eats half-day on transit.</li>
+</ul>
+
+<h2>What doesn't work in 10-14 days</h2>
+
+<ul>
+  <li><strong>Rome + Venice + Florence + Cinque Terre + Naples:</strong> Half is travel.</li>
+  <li><strong>Rome + Greek islands:</strong> Logistics eat too much. Fly Rome-Athens, then island.</li>
+  <li><strong>Rome + Paris + London:</strong> 3 major capitals = rushed. Pick 2.</li>
+</ul>
+
+<h2>Italy-only cities to skip on a Rome-anchored trip</h2>
+
+<ul>
+  <li><strong>Milan:</strong> Generally needs its own 2-3 night focus. Fly out from Milan if doing a north-Italy combo, otherwise skip.</li>
+  <li><strong>Turin:</strong> Strong city but doesn't combine well with Rome — different region.</li>
+  <li><strong>Pisa:</strong> Day-trip from Florence, not its own stay.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For Rome-focused 10-14 day trips, pick 2-3 destinations max. 4-7 nights Rome + 1-2 other cities. The flying-visit "I've been there" feel is much weaker than 4+ nights actually getting to know each place.</p>
+
+<p>For Italy-specific itineraries see <a href="/en/articles/europe-7-day-italy-itinerary">7-day Italy</a> and <a href="/en/articles/northern-italy-7-day-itinerary">Northern Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-cities-by-walkability-ranking",
+    title: "European Cities Ranked by Walkability (Honest 2026)",
+    excerpt: "Honest ranking of European cities by walkable-city design — flat, compact, pedestrian-friendly versus sprawling and hilly.",
+    publishedAt: "2026-05-12",
+    reviewedAt: "2026-05-12",
+    readingTimeMin: 9,
+    metaTitle: "European Cities Ranked by Walkability — Honest 2026 Ranking",
+    metaDescription: "Honest ranking of European cities by walkable-city design — flat, compact, pedestrian-friendly versus sprawling and hilly.",
+    html: `
+<p>Walkability is the most-overlooked dimension of European city pick. Here's the honest sort.</p>
+
+<h2>Tier 1 — exceptionally walkable</h2>
+
+<ul>
+  <li><strong><a href="/en/slovenia/ljubljana">Ljubljana</a>:</strong> Centre is car-free. Cross from one end to the other in 20 min.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> Old Town:</strong> Car-free, compact, walls walkable in 1.5h.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a>:</strong> Car-free centre. 30 min across the canal ring.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a> Altstadt:</strong> Pedestrianized centre. Marienplatz to Englischer Garten in 15 min.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Compact car-free old town.</li>
+  <li><strong><a href="/en/netherlands/utrecht">Utrecht</a>:</strong> Bike-and-walk friendly, compact.</li>
+  <li><strong><a href="/en/austria/innsbruck">Innsbruck</a>:</strong> Compact alpine centre.</li>
+</ul>
+
+<h2>Tier 2 — strongly walkable</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a> District 1:</strong> Within the Ring is walkable.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Old Town to Castle in 30 min.</li>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Compact historic core.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Historic core mostly walkable.</li>
+  <li><strong><a href="/en/germany/heidelberg">Heidelberg</a>:</strong> One long pedestrian street.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Stare Miasto + Kazimierz easily walkable.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a> (centre):</strong> Walkable except Albaicín hill.</li>
+</ul>
+
+<h2>Tier 3 — walkable in central core</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Walkable within central arrondissements but spread across 20 zones.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Bike-friendly more than walk-friendly.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Wide grid, manageable distances but blocks are large.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Each neighborhood is walkable; between neighborhoods needs U-Bahn.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Centro Storico walkable; Vatican area needs metro.</li>
+</ul>
+
+<h2>Walkable but with brutal hills</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Alfama:</strong> Stair-streets, no elevators.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a> Ribeira:</strong> Steep climb back to Baixa.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a> Albaicín:</strong> Steepest cobbles in Andalusia.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a> Galata-Beyoğlu:</strong> Hills connecting harbor to the high streets.</li>
+  <li><strong><a href="/en/italy/genoa">Genoa</a>:</strong> Steep caruggi, stairs everywhere.</li>
+</ul>
+
+<h2>Sprawling — needs metro/bus daily</h2>
+
+<ul>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> Tube needed daily.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a> overall:</strong> Sultanahmet to Galata to Asian side requires ferry+metro.</li>
+  <li><strong><a href="/en/italy/naples">Naples</a>:</strong> Metro needed for Vomero-to-Centro.</li>
+  <li><strong>Brussels, Geneva, Frankfurt:</strong> Each requires daily metro for any varied itinerary.</li>
+  <li><strong><a href="/en/romania/bucharest">Bucharest</a>:</strong> Sprawling, taxi/metro needed daily.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For mobility-aware travelers (older, with kids, with luggage), Tier 1 cities are the easiest. For maximum walking, picking compact cities saves real time and money. Smartphones underestimate climb difficulty — verify Lisbon, Porto, Granada, Genoa stays before booking if mobility is limited.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

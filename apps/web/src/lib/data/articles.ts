@@ -3341,6 +3341,409 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 8 — remaining tier-1 city guides + topic guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-krakow",
+    title: "Where to Stay in Kraków: Stare Miasto, Kazimierz or Podgórze?",
+    excerpt: "Kraków neighborhoods compared honestly. Real differences in tourist crush, food, atmosphere and price.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Kraków — Honest Neighborhood Guide",
+    metaDescription: "Kraków neighborhoods compared honestly. Real differences in tourist crush, food, atmosphere and price.",
+    html: `
+<p>Kraków is small enough that the wrong neighborhood costs you only 15 min of walking. But the trip changes meaningfully between the postcard Old Town and the lived-in Kazimierz.</p>
+
+<h2>Stare Miasto — for first-timers</h2>
+
+<p><a href="/en/poland/krakow/stare-miasto-krakow">Stare Miasto</a> is the medieval Old Town — Rynek Główny, Wawel Castle 10 min south, the city's most-photographed square. Premium pricing for Poland (€100-€180). Best for: 1-2 night first visits, sights-focused short trips, anyone who wants the postcard at the door.</p>
+
+<h2>Kazimierz — for food and bars</h2>
+
+<p><a href="/en/poland/krakow/kazimierz">Kazimierz</a> is the former Jewish quarter — Plac Nowy, ul. Józefa, ul. Szeroka, the densest restaurants and bar courtyards in Kraków. Best for: 2-3 night stays, food-focused trips, return visitors. The 15-20 min walk to the Old Town is part of the trip.</p>
+
+<h2>Podgórze — for value and museums</h2>
+
+<p><a href="/en/poland/krakow/podgorze">Podgórze</a> is across the river from Kazimierz — formerly working-class, now Schindler's Factory and MOCAK museums, dramatically cheaper. Best for: museum-focused stays, longer trips, budget-conscious travelers. The walk to Kazimierz is 10 min.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anything advertised as "near the train station":</strong> Verify — Kraków's Hauptbahnhof area can be loud and not photogenic.</li>
+  <li><strong>Hotels marketed as "Auschwitz day-trip access":</strong> Most central hotels work; this isn't a real differentiator.</li>
+  <li><strong>Anywhere in suburban Nowa Huta:</strong> Communist-era; not a real Kraków stay.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short: Stare Miasto. Food and bars: Kazimierz. Museum focus or budget: Podgórze.</p>
+
+<p>Compare: <a href="/en/poland/krakow/compare/stare-miasto-vs-kazimierz">Stare Miasto vs Kazimierz</a>, <a href="/en/poland/krakow/compare/kazimierz-vs-podgorze">Kazimierz vs Podgórze</a>, <a href="/en/poland/krakow/compare/stare-miasto-vs-podgorze">Stare Miasto vs Podgórze</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-naples",
+    title: "Where to Stay in Naples: Centro Storico, Chiaia or Vomero?",
+    excerpt: "Naples neighborhoods compared honestly. Real differences in chaos, food, families and price.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Naples — Honest Neighborhood Guide",
+    metaDescription: "Naples neighborhoods compared honestly. Real differences in chaos, food, families and price.",
+    html: `
+<p>Naples is the European city where neighborhood pick changes the trip the most. Centro Storico is the chaos cliché. Chiaia is the calm sea-front Naples nobody warns you about. Vomero is the elegant residential hilltop. Pick deliberately.</p>
+
+<h2>Centro Storico — for first-time chaos</h2>
+
+<p><a href="/en/italy/naples/centro-storico-naples">Centro Storico</a> is the UNESCO old town with Spaccanapoli running through it — Sorbillo, Da Michele, narrow vicoli, scooter-density. Best for: first-time visits, pizza-focused trips, anyone wanting the cliché chaotic Naples.</p>
+
+<h2>Quartieri Spagnoli — for the photo</h2>
+
+<p><a href="/en/italy/naples/quartieri-spagnoli">Quartieri Spagnoli</a> is the grid west of Via Toledo — Maradona murals, hanging laundry, the densest Neapolitan cliché. Best for: repeat visits, photographers, anyone who wants the cliché without tour groups.</p>
+
+<h2>Chiaia — for calm and sea-front</h2>
+
+<p><a href="/en/italy/naples/chiaia">Chiaia</a> is 15-20 min west of Centro Storico — wide streets, design shops, families with prams, Villa Comunale park. Best for: families, anyone over 50, light sleepers, repeat visitors.</p>
+
+<h2>Vomero — for the residential elegant</h2>
+
+<p><a href="/en/italy/naples/vomero">Vomero</a> is the residential hill above Chiaia — Castel Sant'Elmo for views, calm streets, Funicular access to the lower city. Best for: longer stays, families, repeat visits, anyone wanting the un-cliché Naples.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Forcella and Sanità (after dark):</strong> Day-trips fine but not for staying overnight.</li>
+  <li><strong>Hotels by Napoli Centrale:</strong> Sketchy and far from the historic core.</li>
+  <li><strong>Anywhere advertised as "near Capodichino" (airport):</strong> Suburban-industrial.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, chaos cliché: Centro Storico. Photographer or repeat visit: Quartieri Spagnoli. Family or quiet: Chiaia. Longer residential: Vomero.</p>
+
+<p>Compare: <a href="/en/italy/naples/compare/centro-storico-vs-chiaia">Centro Storico vs Chiaia</a>, <a href="/en/italy/naples/compare/centro-storico-vs-quartieri-spagnoli">Centro Storico vs Quartieri Spagnoli</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-venice",
+    title: "Where to Stay in Venice: San Marco, Cannaregio or Dorsoduro?",
+    excerpt: "Venice neighborhoods compared honestly. Real differences in tourist crush, food, art-museum access and price.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Venice — Honest Neighborhood Guide",
+    metaDescription: "Venice neighborhoods compared honestly. Real differences in tourist crush, food, art-museum access and price.",
+    html: `
+<p>Venice is the European city where the wrong neighborhood means you're in the day-tripper crush all day. The locals' Venice exists 5 min away from San Marco. Pick deliberately.</p>
+
+<h2>San Marco — only when actually right</h2>
+
+<p><a href="/en/italy/venice/san-marco-venice">San Marco</a> is the central tourist core — basilica, Doge's Palace, Rialto. Premium pricing (€280-€600+). Day-tripper crush 11am-4pm. Best for: 1-night flying-visit sights-only trips. Otherwise pick elsewhere.</p>
+
+<h2>Cannaregio — for the local Venice</h2>
+
+<p><a href="/en/italy/venice/cannaregio">Cannaregio</a> is north of San Marco — the cicchetti capital (Vino Vero, Al Timon, Fondamenta della Misericordia). Where actual Venetians live. Walk to San Marco in 20-25 min. Best for: any 2+ night stay where dinner matters.</p>
+
+<h2>Dorsoduro — for art</h2>
+
+<p><a href="/en/italy/venice/dorsoduro">Dorsoduro</a> is south across the Accademia bridge — the Accademia, Peggy Guggenheim, Punta della Dogana. Walk to San Marco in 12-15 min. Best for: art-focused trips, families, longer stays.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Mestre on the mainland:</strong> Cheap for a reason — you commute to actual Venice.</li>
+  <li><strong>Hotels marketed as "5-min from San Marco":</strong> Verify on a map — Venice has a thousand bridges.</li>
+  <li><strong>Anything in Castello past Arsenale:</strong> Quiet but you'll walk 30+ min to anything.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>1-night sights flying visit: San Marco. Any 2+ night dinner-focused stay: Cannaregio. Art-focused: Dorsoduro.</p>
+
+<p>Compare: <a href="/en/italy/venice/compare/cannaregio-vs-dorsoduro">Cannaregio vs Dorsoduro</a>, <a href="/en/italy/venice/compare/san-marco-vs-cannaregio">San Marco vs Cannaregio</a>, <a href="/en/italy/venice/compare/dorsoduro-vs-san-marco">Dorsoduro vs San Marco</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-spain-itinerary",
+    title: "7-Day Spain Itinerary: Madrid, Andalusia or Catalonia?",
+    excerpt: "Honest 7-day Spain itineraries — Madrid+Andalusia, Madrid+Barcelona, or Andalusia loop. Which to pick.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "7-Day Spain Itinerary — Honest Picks (2026)",
+    metaDescription: "Honest 7-day Spain itineraries — Madrid+Andalusia, Madrid+Barcelona, or Andalusia loop. Which to pick.",
+    html: `
+<p>Spain is bigger than first-timers think. A 7-day trip that tries to do Madrid + Barcelona + Seville means traveling on 4 of 7 days. Here are the itineraries that work.</p>
+
+<h2>Option 1: Madrid + Andalusia (best 7-day)</h2>
+
+<ul>
+  <li>Madrid 3 nights (with Toledo or Segovia day-trip)</li>
+  <li>AVE high-speed train to <a href="/en/spain/seville">Seville</a> (2h 30min)</li>
+  <li>Seville 3 nights (with day-trip to Cordoba)</li>
+  <li>Fly home from Seville</li>
+</ul>
+
+<p>Best for: first-time Spain, anyone who wants the cliché Spain (tapas, flamenco, mosques).</p>
+
+<h2>Option 2: Madrid + Barcelona</h2>
+
+<ul>
+  <li>Madrid 3 nights</li>
+  <li>AVE to <a href="/en/spain/barcelona">Barcelona</a> (2h 45min)</li>
+  <li>Barcelona 4 nights</li>
+</ul>
+
+<p>Best for: travelers who want one cosmopolitan + one Mediterranean city. Works well but skips Andalusia.</p>
+
+<h2>Option 3: Andalusia loop (specialist)</h2>
+
+<ul>
+  <li>Seville 3 nights</li>
+  <li>Granada 2 nights</li>
+  <li>Cordoba 1 night (or day-trip)</li>
+  <li>Malaga or Cadiz 1 night</li>
+</ul>
+
+<p>Best for: anyone wanting the deep Andalusia trip without northern Spain mixing in.</p>
+
+<h2>Why we don't recommend Madrid + Barcelona + Seville in 7 days</h2>
+
+<p>3 cities in 7 days = 4 of 7 days are travel days. Each city deserves 3 nights minimum to scratch the surface. Pick 2 cities for 7 days; save 3 cities for 10+ days.</p>
+
+<h2>Where to stay specifics</h2>
+
+<ul>
+  <li>Madrid: <a href="/en/articles/where-to-stay-in-madrid">full Madrid guide</a></li>
+  <li>Seville: <a href="/en/spain/seville/santa-cruz">Santa Cruz</a> for first-time; <a href="/en/spain/seville/alameda-de-hercules">Alameda</a> for repeat</li>
+  <li>Barcelona: <a href="/en/articles/where-to-stay-in-barcelona">full Barcelona guide</a></li>
+  <li>Granada: <a href="/en/spain/granada/realejo">Realejo</a> for walkability; <a href="/en/spain/granada/albaicin">Albaicín</a> for the photo</li>
+</ul>
+
+<p>For longer Spain trips and Portugal combinations see <a href="/en/articles/spain-or-portugal-which-and-why">Spain or Portugal</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "greek-islands-which-to-pick",
+    title: "Greek Islands: Which One to Pick (Honest Guide)",
+    excerpt: "Santorini? Crete? Naxos? Honest map of Greek islands by trip type — beach, food, romance, hiking, party.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Greek Islands — Which One to Pick (Honest Guide 2026)",
+    metaDescription: "Santorini? Crete? Naxos? Honest map of Greek islands by trip type — beach, food, romance, hiking, party.",
+    html: `
+<p>Greek islands are not interchangeable. Picking the wrong one for your trip type can ruin a week. Here's the honest sort.</p>
+
+<h2>Santorini — for the photo and honeymoon</h2>
+
+<p><a href="/en/greece/santorini">Santorini</a> is the iconic caldera-and-blue-domes photo. Crowded in July-August, expensive year-round. Stay in <a href="/en/greece/santorini/imerovigli">Imerovigli</a> over Oia for the same view without 1500-stranger sunsets. Best for: 2-3 night honeymoon, photo-focused trips. Don't go for relaxation — it's frenetic.</p>
+
+<h2>Crete — for variety and depth</h2>
+
+<p>Crete is the largest island — Chania (west) is the prettier base, Heraklion (centre) the historical (Knossos), Rethymno splits the difference. Beaches, mountains, gorges, food. Best for: 7-10 night trips, anyone wanting variety beyond beach-only.</p>
+
+<h2>Naxos — for beaches and food</h2>
+
+<p>Naxos is the Cyclades' food island — best Greek food on any island, calm beaches, real local life. Best for: 5-7 night beach-and-food trips, families, anyone tired of Mykonos prices.</p>
+
+<h2>Paros / Antiparos — for the slow trip</h2>
+
+<p>Paros is Naxos's quieter neighbor — design hotels, Naoussa village, beaches. Best for: couples, longer slow trips.</p>
+
+<h2>Hydra — for the day-trip-from-Athens or 1-2 night escape</h2>
+
+<p>Hydra is car-free, 90 min ferry from Athens. Best for: short escapes, day trips, romantic 2-night stays.</p>
+
+<h2>Mykonos — only if you want the party</h2>
+
+<p>Mykonos is the party island. €25 cocktails, beach clubs, late nights. Honeymooners go to Santorini for a reason. Best for: under-30 group trips. Skip otherwise.</p>
+
+<h2>Corfu / Zakynthos / Kefalonia — for the Ionian beaches</h2>
+
+<p>The Ionian islands are different — greener, more Italian-influenced (Venetian rule), softer beaches. Best for: families, longer slower trips, anyone tired of Cycladic blue-and-white.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Mykonos in August at peak:</strong> Doubled prices, packed everywhere.</li>
+  <li><strong>Santorini for "relaxation":</strong> Frenetic. Hire a villa elsewhere.</li>
+  <li><strong>Tiny islands without ferry connections in shoulder season:</strong> Verify October ferry schedules.</li>
+  <li><strong>Anywhere in winter (Nov-March):</strong> Most ferries and restaurants close.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick 1 island for 7 days minus a Cycladic-hop weekend (Naxos + Santorini), or 2 islands for 10 days. Don't try 4 islands in a week — you'll spend 4 days on ferries.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-with-kids-honest-guide",
+    title: "Europe With Kids: Honest Guide to What Actually Works",
+    excerpt: "Real picks for European trips with kids — which cities work, which don't, and how to pick by age.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Europe With Kids — Honest Guide for Family Travel",
+    metaDescription: "Real picks for European trips with kids — which cities work, which don't, and how to pick by age.",
+    html: `
+<p>Europe-with-kids advice is mostly recycled "go to Disneyland Paris" content. Here's the honest map of cities that actually work, sorted by age and trip type.</p>
+
+<h2>Cities that genuinely work with young kids (3-8)</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Englischer Garten (Schwabing base), Deutsches Museum, beer-garden tradition is family-aware.</li>
+  <li><strong><a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> Tivoli Gardens, the Lakes path, family-friendly metro. Stay in <a href="/en/denmark/copenhagen/osterbro">Østerbro</a> or <a href="/en/denmark/copenhagen/frederiksberg">Frederiksberg</a>.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Schönbrunn Palace + Zoo, Prater amusement park, family-aware restaurants.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> Castles, beach access, walkable for short legs.</li>
+</ul>
+
+<h2>Cities that work with school-age kids (8-14)</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Colosseum, Pantheon, Vatican kids-tour. Stay in <a href="/en/italy/rome/prati">Prati</a> for Vatican proximity and quiet.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> Natural History Museum, Tower of London, theatre. Stay in <a href="/en/united-kingdom/london/south-kensington">South Ken</a>.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Wall history is gripping for older kids. Stay in <a href="/en/germany/berlin/prenzlauer-berg">Prenzlauer Berg</a>.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Van Gogh Museum, Anne Frank House (age 10+), canal tours, bike paths. Stay in <a href="/en/netherlands/amsterdam/oost">Oost</a> or <a href="/en/netherlands/amsterdam/oud-west">Oud-West</a>.</li>
+</ul>
+
+<h2>Cities that work with teens (14+)</h2>
+
+<ul>
+  <li>Most major cities work. Tour-and-museum density matters most.</li>
+  <li><a href="/en/spain/barcelona">Barcelona</a> + Sagrada Família + beach.</li>
+  <li><a href="/en/croatia/dubrovnik">Dubrovnik</a> for Game-of-Thrones-fan teens (off-season only).</li>
+  <li><a href="/en/turkey/istanbul">Istanbul</a> for adventurous teens.</li>
+</ul>
+
+<h2>What doesn't work with kids</h2>
+
+<ul>
+  <li><strong>Venice with toddlers:</strong> Bridges, no railings, narrow lanes are stroller hell. Wait until 8+.</li>
+  <li><strong>Hill towns in Tuscany without a car:</strong> Bus connections aren't kid-friendly.</li>
+  <li><strong>Greek islands in peak summer:</strong> Heat plus crowds plus boat travel = misery for under-7s.</li>
+  <li><strong>Most "all-inclusive" European resorts:</strong> Generic, isolating. The European trip is the opposite.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick fewer cities. 4 nights minimum per city. Stay in family-aware neighborhoods (parks, playgrounds, kid-friendly restaurants). Avoid touristy "kid attractions" — they're worse than the real city.</p>
+
+<p>For specific city neighborhoods see <a href="/en/articles/family-friendly-european-city-breaks">family-friendly city breaks</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "european-christmas-markets-where-to-base",
+    title: "European Christmas Markets: Where to Base for the Real Trip",
+    excerpt: "Honest picks for Christmas-market trips — which cities deliver beyond the gluhwein cliché, and how to combine them.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 9,
+    metaTitle: "European Christmas Markets — Where to Base 2026",
+    metaDescription: "Honest picks for Christmas-market trips — which cities deliver beyond the gluhwein cliché, and how to combine them.",
+    html: `
+<p>Most Christmas-market lists recycle the same 5 cities. Here's the honest picks for a 1-week Christmas-market trip and how to combine them.</p>
+
+<h2>Top tier (worth a multi-night stay)</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> The Striezelmarkt is Germany's oldest. The setting (rebuilt baroque) is the most-photogenic German Christmas city.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Multiple markets — Rathaus, Schönbrunn, Karlsplatz. Excellent food, calm winter atmosphere.</li>
+  <li><strong>Nuremberg, Germany:</strong> The classic Christkindlesmarkt, historic Old Town setting.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Cathedral Square market in the Altstadt setting. Combine with Hallstatt day-trip.</li>
+  <li><strong><a href="/en/france/strasbourg">Strasbourg</a>:</strong> France's Christmas capital. Half-timbered Petite France in the snow.</li>
+</ul>
+
+<h2>Mid tier (worth 1-2 nights)</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/cologne">Cologne</a>:</strong> Multiple markets, Cathedral as the centerpiece.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Vörösmarty market, thermal baths combine well.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Old Town Square market is iconic but tourist-priced.</li>
+  <li><strong>Tallinn, Estonia:</strong> Smaller but UNESCO-Old-Town setting.</li>
+</ul>
+
+<h2>The honest 7-day Christmas itinerary</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/germany/dresden">Dresden</a></li>
+  <li>Day 3-4: <a href="/en/czech-republic/prague">Prague</a> (3h train from Dresden)</li>
+  <li>Day 5-7: <a href="/en/austria/vienna">Vienna</a> (4h train from Prague, daily)</li>
+</ul>
+
+<p>Alternative: <a href="/en/france/strasbourg">Strasbourg</a> 3 nights + Colmar day-trip + <a href="/en/germany/munich">Munich</a> 3 nights for the Bavarian-Alsatian Christmas.</p>
+
+<h2>Timing</h2>
+
+<p>Most markets run late November through 23-24 December. Best week: 8-22 December (after the rush, before Christmas Eve closures). Worst: 23-24 December (most close), 26-31 December (most reopen but limited).</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere advertised as "Christmas Markets in Italy":</strong> Italy doesn't have the same tradition. Bolzano works (German-speaking) but it's a stretch.</li>
+  <li><strong>UK Christmas Markets:</strong> Recent imports, often touristy and underwhelming compared to Germanic originals.</li>
+  <li><strong>Multi-city Christmas tours that move every day:</strong> Each market deserves an evening, not 90 minutes.</li>
+</ul>
+
+<p>For winter Europe more broadly see <a href="/en/articles/europe-in-deep-winter">Europe in deep winter</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-new-years-eve-where-to-go",
+    title: "Where to Spend New Year's Eve in Europe: Honest Picks",
+    excerpt: "Fireworks, balls, intimate dinners — honest sorting of European New Year's destinations by trip type.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 8,
+    metaTitle: "Where to Spend New Year's Eve in Europe — Honest Picks 2026",
+    metaDescription: "Fireworks, balls, intimate dinners — honest sorting of European New Year's destinations by trip type.",
+    html: `
+<p>European NYE is a small set of cities done very well and a longer set done poorly. Here's the honest sort.</p>
+
+<h2>Iconic fireworks display</h2>
+
+<ul>
+  <li><strong>London (Thames):</strong> Eye fireworks. Need a ticket for the south-bank views. Crowded.</li>
+  <li><strong>Paris (Champs-Élysées + Eiffel Tower):</strong> Strict crowd control, walk-up only at Trocadéro. The classic.</li>
+  <li><strong>Berlin (Brandenburg Gate):</strong> Free public party at Brandenburg Gate, plus city-wide fireworks (Berliners do their own).</li>
+  <li><strong>Madrid (Puerta del Sol):</strong> 12 grapes at midnight, family-friendly.</li>
+  <li><strong>Vienna (Rathaus or Prater):</strong> Imperial setting, classical concerts complement the fireworks.</li>
+</ul>
+
+<h2>Imperial NYE balls</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> The Hofburg ball, the Imperial ball at Hofburg. Suit up, expensive, unforgettable.</li>
+  <li><strong>Prague:</strong> Multiple historic-venue balls, slightly cheaper than Vienna.</li>
+</ul>
+
+<h2>Intimate dinner cities</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Mild winter, restaurant-on-the-river NYE dinners.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Cold but romantic, walls open for fireworks-viewing.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Mozart concerts, fortress views.</li>
+</ul>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Any "underrated" European city for NYE:</strong> Most smaller cities go to bed by 10pm December 31.</li>
+  <li><strong>Greek islands:</strong> Off-season, most ferries cancelled, restaurants closed.</li>
+  <li><strong>Mediterranean coast in winter:</strong> Cold and shut.</li>
+  <li><strong>Last-minute booking:</strong> Almost everywhere doubles or triples NYE prices. Book 4-6 months out.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick fireworks city OR ball city OR dinner city. Don't try to do all three. Crowd-tolerance matters most — London and Paris are uplifting if you handle crowds, brutal if you don't.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

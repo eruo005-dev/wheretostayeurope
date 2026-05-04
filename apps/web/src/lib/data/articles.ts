@@ -7071,6 +7071,364 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 24 — niche audience guides + itineraries
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-lgbtq-travelers",
+    title: "Best European Cities for LGBTQ+ Travelers (Honest 2026)",
+    excerpt: "Honest ranking of European cities by LGBTQ+ acceptance, scenes, and queer history.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for LGBTQ+ Travelers — Honest 2026",
+    metaDescription: "Honest ranking of European cities by LGBTQ+ acceptance, scenes, and queer history.",
+    html: `
+<p>"LGBTQ+ friendly" varies meaningfully across Europe. Here's the honest sort.</p>
+
+<h2>Tier 1 — strong scenes + acceptance</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> The European queer capital. <a href="/en/germany/berlin/schoneberg">Schöneberg</a> for queer history, <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> for nightlife.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> <a href="/en/spain/madrid/chueca">Chueca</a> is the central queer quarter. Madrid Pride is among Europe's largest.</li>
+  <li><strong>Amsterdam:</strong> Long history of LGBTQ+ acceptance. Reguliersdwarsstraat for the scene.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Pride canal parade, year-round acceptance.</li>
+  <li><strong><a href="/en/germany/cologne">Cologne</a>:</strong> Cologne Pride is huge. Bermuda Triangle for the scene.</li>
+  <li><strong>Brighton, UK:</strong> Most LGBTQ+-friendly UK city.</li>
+</ul>
+
+<h2>Tier 2 — strong with regional context</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + <a href="/en/portugal/porto">Porto</a>:</strong> Increasingly accepting. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> is the design-quarter LGBTQ+ scene.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Eixample (specifically the Gay Eixample around Carrer Diputació) is the scene.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> <a href="/en/france/paris/le-marais">Le Marais</a> is the LGBTQ+ heart.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>:</strong> Sweden is among the world's most-accepting countries.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Traditional but increasingly open.</li>
+</ul>
+
+<h2>Tier 3 — careful with public displays</h2>
+
+<ul>
+  <li><strong>Eastern Europe (Hungary, Poland, Romania, Bulgaria):</strong> Mixed. Capitals (Warsaw, Budapest, Bucharest) have scenes but legal protections vary. Smaller cities can be hostile.</li>
+  <li><strong>Croatia, Greece (smaller islands):</strong> Tourist-area accepting; conservative outside.</li>
+  <li><strong>Turkey (Istanbul):</strong> Officially restrictive. Underground scenes exist but exercise caution.</li>
+</ul>
+
+<h2>Pride season (June-July)</h2>
+
+<p>Major pride events: Madrid (early July), Berlin/CSD (late July), Amsterdam (early August), Cologne (early July), Stockholm (early August).</p>
+
+<h2>Strategy</h2>
+
+<p>For first LGBTQ+-focused European trip: Berlin + Madrid + Amsterdam loop. For couples honeymoon: Lisbon + Madrid for warmth and acceptance.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vegan-vegetarian",
+    title: "Best European Cities for Vegan and Vegetarian Travelers",
+    excerpt: "Honest sort of European cities by plant-based food scene depth — where it works and where it's a struggle.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Vegan/Vegetarian — Honest 2026 Guide",
+    metaDescription: "Honest sort of European cities by plant-based food scene depth — where it works and where it's a struggle.",
+    html: `
+<p>European plant-based food varies dramatically by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — strong vegan/vegetarian scenes</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Europe's vegan capital. Hundreds of fully-vegan restaurants, supermarkets with vegan aisles.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Dense vegan-restaurant scene. Plant-based fast-food chains.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Recently exploded — dozens of vegan restaurants. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> is the design-vegan strip.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Strong scene. Max Pett, Prinz Myshkin among Germany's best.</li>
+  <li><strong>Tel Aviv (technically Asia):</strong> Often called the world's vegan capital. Direct flights from European hubs.</li>
+</ul>
+
+<h2>Tier 2 — strong with planning</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>, <a href="/en/spain/madrid">Madrid</a>:</strong> Growing vegan-restaurant scene. Tapas bars usually have vegan options on request.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Strong Vegan Wonderland and similar spots.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>, <a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> Modern Nordic vegan scene.</li>
+  <li><strong>London:</strong> Excellent vegan scene, especially around Shoreditch.</li>
+</ul>
+
+<h2>Tier 3 — workable but harder</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>, <a href="/en/italy/florence">Florence</a>:</strong> Pizza marinara and pasta al pomodoro work. Dedicated vegan restaurants exist but research needed.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Improving but cheese-and-butter culture. Vegan restaurants cluster in Marais and Canal Saint-Martin.</li>
+  <li><strong>Greece:</strong> Greek Lent dishes (no animal products) work year-round. Lots of mezze are accidentally vegan.</li>
+</ul>
+
+<h2>Tier 4 — genuinely hard</h2>
+
+<ul>
+  <li><strong>Smaller Italian cities:</strong> Even pasta is often made with eggs. Verify.</li>
+  <li><strong>Smaller French cities:</strong> Butter in everything.</li>
+  <li><strong>Mountain villages anywhere:</strong> Cheese-and-meat culture.</li>
+  <li><strong>Eastern European countryside:</strong> Limited choice; verify ingredients.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>HappyCow app for restaurant maps. Self-catering apartments save money in tier-3 cities. For business travel to harder cities, identify 3-4 reliable spots before arrival.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-opera-classical",
+    title: "Best European Cities for Opera and Classical Music",
+    excerpt: "Where to base for opera-and-classical-music trips. Real picks by season, repertoire, and historic venues.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Opera and Classical Music — Honest 2026",
+    metaDescription: "Where to base for opera-and-classical-music trips. Real picks by season, repertoire, and historic venues.",
+    html: `
+<p>Opera trips reward planning. Here's the honest sort by venue quality and seasonal programming.</p>
+
+<h2>Tier 1 — destination opera cities</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Wiener Staatsoper. World's most-prestigious opera house. Standing-room tickets €10-15 (queue 1-2h).</li>
+  <li><strong>Milan:</strong> La Scala. Premieres in December (Saint Ambrose Day).</li>
+  <li><strong>Dresden, Germany:</strong> Semperoper — extraordinary venue.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Festival (late July to August). Mozart-week (January).</li>
+  <li><strong>Bayreuth, Germany:</strong> The Wagner Festival (July-August). Tickets impossible without years of waiting.</li>
+</ul>
+
+<h2>Tier 2 — strong opera-and-orchestra cities</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/verona">Verona</a>:</strong> Arena di Verona summer opera (June-September). Outdoor in the Roman amphitheater.</li>
+  <li><strong>Berlin:</strong> Three opera houses. Deutsche Oper, Staatsoper, Komische Oper.</li>
+  <li><strong>Munich:</strong> Bayerische Staatsoper. World-class.</li>
+  <li><strong>Paris:</strong> Palais Garnier (historic) + Opéra Bastille (modern).</li>
+  <li><strong>London:</strong> Royal Opera House, Coliseum (English National Opera).</li>
+</ul>
+
+<h2>Tier 3 — strong-but-niche</h2>
+
+<ul>
+  <li><strong>Glyndebourne, England:</strong> The summer opera festival. Black-tie picnic in the country.</li>
+  <li><strong>Aix-en-Provence:</strong> Festival d'Aix (July) — major modern opera festival.</li>
+  <li><strong>Pesaro, Italy:</strong> Rossini Opera Festival (August).</li>
+  <li><strong>Buxton, England:</strong> Smaller summer festival.</li>
+</ul>
+
+<h2>Booking strategy</h2>
+
+<ul>
+  <li>Vienna Staatsoper: Book 2 months ahead via tickets.com.</li>
+  <li>La Scala: Subscribers get priority; remainder released 2 months ahead.</li>
+  <li>Bayreuth: 9-year average wait list; book through travel agencies for tour packages.</li>
+  <li>Festivals (Salzburg, Glyndebourne): 6-12 months ahead.</li>
+</ul>
+
+<h2>Best opera-trip combinations</h2>
+
+<ul>
+  <li>Vienna + Salzburg in late July (festival week)</li>
+  <li>Milan + Verona in July (Arena season)</li>
+  <li>Berlin + Dresden across a long weekend</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-france-itinerary",
+    title: "7-Day France Itinerary: Paris + Loire / Provence / Bordeaux?",
+    excerpt: "Honest 7-day France itineraries — Paris-only, Paris+region, or no-Paris alternatives.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 11,
+    metaTitle: "7-Day France Itinerary — Honest 2026 Picks",
+    metaDescription: "Honest 7-day France itineraries — Paris-only, Paris+region, or no-Paris alternatives.",
+    html: `
+<p>France in 7 days has multiple workable itineraries. Here's the honest sort.</p>
+
+<h2>Option 1: Paris-only deep dive</h2>
+
+<ul>
+  <li>7 nights Paris with day-trips to Versailles, Giverny, Reims (champagne).</li>
+  <li>Best for: first-time visits, museum-and-art focus, anyone wanting Paris depth.</li>
+</ul>
+
+<h2>Option 2: Paris + Loire Valley</h2>
+
+<ul>
+  <li>Day 1-4: Paris (4 nights)</li>
+  <li>Day 5-7: Loire Valley base (Tours or Amboise) — Chambord, Chenonceau, Villandry châteaux</li>
+  <li>Best for: château-focused trips, families, history lovers.</li>
+</ul>
+
+<h2>Option 3: Paris + Provence</h2>
+
+<ul>
+  <li>Day 1-3: Paris (3 nights)</li>
+  <li>Day 4-7: Provence base (<a href="/en/france/avignon">Avignon</a> or <a href="/en/france/aix-en-provence">Aix-en-Provence</a>) — lavender (June), villages, Pont du Gard</li>
+  <li>Best for: lavender-season trips (late June), village-and-food focus.</li>
+</ul>
+
+<h2>Option 4: Paris + Normandy</h2>
+
+<ul>
+  <li>Day 1-4: Paris (4 nights)</li>
+  <li>Day 5-7: Normandy base (Bayeux) — D-Day beaches, Mont Saint-Michel</li>
+  <li>Best for: WWII history focus, families.</li>
+</ul>
+
+<h2>Option 5: Skip Paris — French Riviera</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/france/nice">Nice</a></li>
+  <li>Day 4-5: Antibes / Menton</li>
+  <li>Day 6-7: Monaco / Èze</li>
+  <li>Best for: beach-focused summer trips, anyone who's done Paris.</li>
+</ul>
+
+<h2>Option 6: Bordeaux + wine</h2>
+
+<ul>
+  <li>Day 1-4: <a href="/en/france/bordeaux">Bordeaux</a> with day-trips to Saint-Émilion, Médoc</li>
+  <li>Day 5-7: Saint-Malo or San Sebastián cross-border</li>
+  <li>Best for: wine-focused stays.</li>
+</ul>
+
+<h2>What doesn't work in 7 days</h2>
+
+<ul>
+  <li>Paris + Riviera: Distant. Add a 3rd region only with 12+ days.</li>
+  <li>Paris + Loire + Provence: Half is travel.</li>
+  <li>Lyon-deep stays without Paris first: Lyon is excellent but doesn't anchor a France trip.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Paris + 1 region beats Paris + 2 regions. The rural France trip is best as a separate visit. For specific Paris area details see <a href="/en/articles/where-to-stay-in-paris-by-arrondissement">Paris arrondissement guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-germany-itinerary",
+    title: "7-Day Germany Itinerary: Berlin, Munich, Romantic Road, Rhine?",
+    excerpt: "Honest 7-day Germany itineraries — Berlin-and-Munich vs scenic-Bavaria vs Rhine-and-Cologne.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 11,
+    metaTitle: "7-Day Germany Itinerary — Honest 2026 Picks",
+    metaDescription: "Honest 7-day Germany itineraries — Berlin-and-Munich vs scenic-Bavaria vs Rhine-and-Cologne.",
+    html: `
+<p>Germany is bigger than first-timers think. 7 days = 2 main cities + 1 region. Here are the honest options.</p>
+
+<h2>Option 1: Berlin + Munich (most-common)</h2>
+
+<ul>
+  <li>Day 1-4: <a href="/en/germany/berlin">Berlin</a> (4 nights)</li>
+  <li>Day 5-7: <a href="/en/germany/munich">Munich</a> (3 nights, with Neuschwanstein day-trip)</li>
+  <li>Train: 4h ICE between cities</li>
+  <li>Best for: first-time Germany, history-focused.</li>
+</ul>
+
+<h2>Option 2: Berlin + Dresden (East focus)</h2>
+
+<ul>
+  <li>Day 1-4: Berlin</li>
+  <li>Day 5-7: <a href="/en/germany/dresden">Dresden</a> + day-trip to Saxon Switzerland</li>
+  <li>Best for: WWII + Cold War + baroque trips.</li>
+</ul>
+
+<h2>Option 3: Munich + Bavarian + Salzburg</h2>
+
+<ul>
+  <li>Day 1-3: Munich</li>
+  <li>Day 4-5: Neuschwanstein + Bavarian Alps</li>
+  <li>Day 6-7: <a href="/en/austria/salzburg">Salzburg</a> (cross-border, 1h 30min train)</li>
+  <li>Best for: alpine-and-Sound-of-Music focus.</li>
+</ul>
+
+<h2>Option 4: Christmas Markets (December)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/germany/dresden">Dresden</a></li>
+  <li>Day 3-4: <a href="/en/germany/nuremberg">Nuremberg</a></li>
+  <li>Day 5-7: Munich</li>
+  <li>Best for: 2nd or 3rd week of December.</li>
+</ul>
+
+<h2>Option 5: Rhine + Hamburg (river focus)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/germany/cologne">Cologne</a></li>
+  <li>Day 3-4: Rhine cruise (Koblenz to Mainz)</li>
+  <li>Day 5-7: <a href="/en/germany/hamburg">Hamburg</a></li>
+  <li>Best for: river-focus, ports-focus.</li>
+</ul>
+
+<h2>What doesn't work in 7 days</h2>
+
+<ul>
+  <li>Berlin + Munich + Frankfurt + Cologne: Half is travel.</li>
+  <li>Bavaria deep-dive without flying into Munich: Avoid driving from Berlin south.</li>
+  <li>Black Forest in 1-2 days: Worth its own 5-night focus.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick 2 cities + 1 region. Train infrastructure is excellent. Save Bavarian Alps for separate ski-or-summer trip if focused.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-design-architecture",
+    title: "Best European Cities for Design and Modern Architecture",
+    excerpt: "Honest sort of European cities by design depth — where to base for architecture-focused trips.",
+    publishedAt: "2026-05-19",
+    reviewedAt: "2026-05-19",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Design and Architecture — Honest 2026",
+    metaDescription: "Honest sort of European cities by design depth — where to base for architecture-focused trips.",
+    html: `
+<p>Design-trip cities are different from sights-trip cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination design cities</h2>
+
+<ul>
+  <li><strong><a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> Scandinavian-design capital. Designmuseum, Bjarke Ingels buildings, dense furniture flagships.</li>
+  <li><strong>Helsinki:</strong> Alvar Aalto buildings, Marimekko flagship, Finnish-design world capital.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Bauhaus heritage, contemporary-architecture density.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Gaudí + Modernisme. Architecture is the trip.</li>
+  <li><strong><a href="/en/spain/bilbao">Bilbao</a>:</strong> Guggenheim-led architectural transformation.</li>
+</ul>
+
+<h2>Tier 2 — strong design stays</h2>
+
+<ul>
+  <li><strong><a href="/en/netherlands/rotterdam">Rotterdam</a>:</strong> Most modern-architecture-dense city in the Netherlands.</li>
+  <li><strong>Vienna:</strong> Otto Wagner, Adolf Loos, plus modern.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>:</strong> Strong contemporary scene.</li>
+  <li><strong>Glasgow:</strong> Charles Rennie Mackintosh.</li>
+  <li><strong>Riga:</strong> Densest Art Nouveau in Europe.</li>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> Rebuilt-baroque + modern.</li>
+</ul>
+
+<h2>Tier 3 — worth a day-trip for design</h2>
+
+<ul>
+  <li><strong>Weimar, Germany:</strong> Bauhaus heritage.</li>
+  <li><strong>Dessau, Germany:</strong> Original Bauhaus building.</li>
+  <li><strong>Brno, Czechia:</strong> Tugendhat Villa (Mies).</li>
+  <li><strong>Marseille:</strong> Le Corbusier's Cité Radieuse.</li>
+  <li><strong>Eindhoven, Netherlands:</strong> Dutch Design Week (October).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Build itinerary around exhibitions. Design Week (London, Milan, Paris) and architecture-focused tour seasons (May-September) are when most studios open.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

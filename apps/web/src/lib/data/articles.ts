@@ -2556,6 +2556,422 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 4 — more city-by-area guides + niche guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-rome",
+    title: "Where to Stay in Rome: Centro Storico, Trastevere, Monti or Prati?",
+    excerpt: "Rome neighborhoods compared honestly. Real differences in tourist crush, food, walkability and which fits each trip.",
+    publishedAt: "2026-04-29",
+    reviewedAt: "2026-04-29",
+    readingTimeMin: 10,
+    metaTitle: "Where to Stay in Rome — Centro Storico vs Trastevere vs Monti vs Prati",
+    metaDescription: "Rome neighborhoods compared honestly. Real differences in tourist crush, food, walkability and which fits each trip.",
+    html: `
+<p>Rome is the European city where neighborhood pick changes the trip the most. Most first-timers default to Centro Storico, pay too much, and miss the version of Rome they came for. Here's the honest map.</p>
+
+<h2>Centro Storico — for first-timers</h2>
+
+<p><a href="/en/italy/rome/centro-storico">Centro Storico</a> is the maximum-tourist core — Pantheon, Trevi, Piazza Navona, Campo de' Fiori. Premium pricing (€200-€400). Walk to almost every iconic sight. Best for: first-time visits, sights-focused short trips, anyone willing to pay premium for central walkability.</p>
+
+<h2>Trastevere — for evenings</h2>
+
+<p><a href="/en/italy/rome/trastevere">Trastevere</a> is across the river — medieval narrow lanes, the famous evening quarter. Fills with tour groups by 7pm; tourist-priced restaurants but the atmosphere is real. Best for: dinner-focused trips, return visits, anyone wanting the iconic Roman evening.</p>
+
+<h2>Monti — for design and ancient Rome</h2>
+
+<p><a href="/en/italy/rome/monti">Monti</a> sits east of the Forum — the design-and-wine-bar quarter where younger Romans actually go. 5 min from the Forum and Colosseum. Best for: ancient-Rome focus, return visits, anyone wanting bohemian Rome.</p>
+
+<h2>Testaccio — for food</h2>
+
+<p><a href="/en/italy/rome/testaccio">Testaccio</a> is south of the Aventine — Rome's most-respected food market and the trattorias most Romans actually eat at. 25-30 min walk to the Forum but worth the food trade-off. Best for: food-focused trips, return visits.</p>
+
+<h2>Prati — for the Vatican</h2>
+
+<p><a href="/en/italy/rome/prati">Prati</a> is across the Tiber north of the Vatican — wide grid streets, residential, walkable to St. Peter's in 5-10 min. Best for: Vatican-focused stays, families, anyone wanting calm with central proximity.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anything near Termini station:</strong> Cheap for a reason. Sketchy at night, sterile during the day.</li>
+  <li><strong>"5-min from Trevi" listings:</strong> Almost always inflate by 50%.</li>
+  <li><strong>Hotels marketed as "cruise-port adjacent":</strong> That's Civitavecchia, 90 min away.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, short, sights-focused: Centro Storico. Dinner-focused: Trastevere. Ancient Rome: Monti. Vatican: Prati. Food-focused: Testaccio.</p>
+
+<p>Compare: <a href="/en/italy/rome/compare/centro-storico-vs-trastevere">Centro Storico vs Trastevere</a>, <a href="/en/italy/rome/compare/trastevere-vs-monti">Trastevere vs Monti</a>, <a href="/en/italy/rome/compare/centro-storico-vs-monti">Centro Storico vs Monti</a>, <a href="/en/italy/rome/compare/trastevere-vs-testaccio">Trastevere vs Testaccio</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-florence",
+    title: "Where to Stay in Florence: Centro, Santa Croce, Oltrarno or Sant'Ambrogio?",
+    excerpt: "Florence neighborhoods compared honestly. Real differences in walkability, food, tourist crush and price.",
+    publishedAt: "2026-04-29",
+    reviewedAt: "2026-04-29",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Florence — Honest Neighborhood Guide",
+    metaDescription: "Florence neighborhoods compared honestly. Real differences in walkability, food, tourist crush and price.",
+    html: `
+<p>Florence is small enough that almost any central stay works for sights. The neighborhood pick is about food density, evening atmosphere, and how much tourist-trap restaurant you tolerate.</p>
+
+<h2>Around the Duomo / Centro — for first-timers</h2>
+
+<p>Hotels near the cathedral put you in the photo. Premium pricing (€200-€450), tourist-priced restaurants nearby. Best for: 1-2 night first visits, sights-focused trips.</p>
+
+<h2>Santa Croce — for restaurants</h2>
+
+<p><a href="/en/italy/florence/santa-croce">Santa Croce</a> is east of the Duomo — basilica, dinner-cluster, dense bar streets. Slightly cheaper than around the Duomo. Best for: 2-3 night stays, food-focused trips.</p>
+
+<h2>Sant'Ambrogio — for the local Florence</h2>
+
+<p><a href="/en/italy/florence/santambrogio">Sant'Ambrogio</a> is just east of Santa Croce — the food market, neighborhood-trattoria density, where most non-tourist Florentines actually shop. 10 min to the Duomo. Best for: food-focused trips, return visits, longer stays.</p>
+
+<h2>Oltrarno (Santo Spirito) — for evenings</h2>
+
+<p><a href="/en/italy/florence/oltrarno">Oltrarno</a> is across the Arno — Pitti Palace, Boboli Gardens, dense piazza-evening atmosphere on Santo Spirito. Best for: dinner-and-piazza focus, return visits.</p>
+
+<h2>San Frediano — for artisans</h2>
+
+<p><a href="/en/italy/florence/san-frediano">San Frediano</a> is the Oltrarno slice west of Santo Spirito — leather workshops, dense wine bars, the lived-in side. Best for: repeat visitors, food-and-wine focus, anyone wanting Oltrarno without tour groups.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Santa Maria Novella:</strong> Train-station-side, cheaper but inferior product. Only worth it for very early train connections.</li>
+  <li><strong>Anything outside the centro storico advertised as "10 min from Duomo":</strong> Usually 25 min.</li>
+  <li><strong>Fiesole hotels for short trips:</strong> Beautiful but adds 30 min each way.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short trip: Centro/Duomo. Food focus: Sant'Ambrogio or Santa Croce. Evenings: Oltrarno. Repeat visit: San Frediano.</p>
+
+<p>Compare: <a href="/en/italy/florence/compare/santa-croce-vs-oltrarno">Santa Croce vs Oltrarno</a>, <a href="/en/italy/florence/compare/oltrarno-vs-san-frediano">Oltrarno vs San Frediano</a>, <a href="/en/italy/florence/compare/santa-croce-vs-santambrogio">Santa Croce vs Sant'Ambrogio</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-stockholm",
+    title: "Where to Stay in Stockholm: Gamla Stan, Söder, Vasastan or Östermalm?",
+    excerpt: "Stockholm neighborhoods compared honestly. Real differences in atmosphere, food, families and price.",
+    publishedAt: "2026-04-30",
+    reviewedAt: "2026-04-30",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Stockholm — Honest Neighborhood Guide",
+    metaDescription: "Stockholm neighborhoods compared honestly. Real differences in atmosphere, food, families and price.",
+    html: `
+<p>Stockholm is a city of islands. The neighborhood pick is about which island and at what energy level — ranging from medieval-tourist Gamla Stan to creative-bar Söder to leafy-family Vasastan.</p>
+
+<h2>Gamla Stan — for first-timers</h2>
+
+<p><a href="/en/sweden/stockholm/gamla-stan">Gamla Stan</a> is the medieval island — Royal Palace, Stortorget, the postcard. Tourist-priced restaurants, premium hotels. Best for: 1-2 night first visits, sights-focused trips, anyone willing to pay for the postcard setting.</p>
+
+<h2>Södermalm — for evenings</h2>
+
+<p><a href="/en/sweden/stockholm/sodermalm">Söder</a> is the southern island — Stockholm's bar-and-design hill, where most under-40 Stockholmers want to live. Götgatan, SoFo, dense food and bar grid. Best for: dinner-focused trips, anyone under 40, repeat Stockholm visits.</p>
+
+<h2>Vasastan — for longer stays</h2>
+
+<p><a href="/en/sweden/stockholm/vasastan">Vasastan</a> is northwest of central — leafy residential, Odenplan dinner cluster, family-aware. Best for: families, longer stays, anyone over 35 wanting calm.</p>
+
+<h2>Östermalm — for shopping and luxury</h2>
+
+<p><a href="/en/sweden/stockholm/ostermalm">Östermalm</a> is the wealthy quarter — Stureplan, designer shopping, the polished elegant Stockholm. Best for: luxury stays, shopping-focused trips, anyone over 40.</p>
+
+<h2>Norrmalm — only for transport</h2>
+
+<p><a href="/en/sweden/stockholm/norrmalm">Norrmalm</a> is the central business core with the train station and metro hub. Generic-business-grid. Best for: tactical short business trips needing station logistics. Otherwise pick elsewhere.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anything outside the central islands marketed as "central":</strong> Usually means 20+ min by bus.</li>
+  <li><strong>Arlanda Express hotels:</strong> Only for very early flights.</li>
+  <li><strong>Anywhere advertised as "5-min walk to Vasa Museum":</strong> Verify — often 15+ min.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short: Gamla Stan. Food and bars: Söder. Family or longer stay: Vasastan. Luxury or shopping: Östermalm. Tactical transport: Norrmalm.</p>
+
+<p>Compare: <a href="/en/sweden/stockholm/compare/gamla-stan-vs-sodermalm">Gamla Stan vs Söder</a>, <a href="/en/sweden/stockholm/compare/sodermalm-vs-vasastan">Söder vs Vasastan</a>, <a href="/en/sweden/stockholm/compare/ostermalm-vs-sodermalm">Östermalm vs Söder</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-copenhagen",
+    title: "Where to Stay in Copenhagen: Indre By, Vesterbro, Nørrebro or Christianshavn?",
+    excerpt: "Copenhagen neighborhoods compared honestly. Real differences in romance, food, families and price.",
+    publishedAt: "2026-04-30",
+    reviewedAt: "2026-04-30",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Copenhagen — Honest Neighborhood Guide",
+    metaDescription: "Copenhagen neighborhoods compared honestly. Real differences in romance, food, families and price.",
+    html: `
+<p>Copenhagen rewards careful neighborhood selection — the city is small enough that the wrong base only costs 15 min, but the trip character changes a lot.</p>
+
+<h2>Indre By — for first-timers</h2>
+
+<p><a href="/en/denmark/copenhagen/indre-by">Indre By</a> is the central tourist-and-shopping core — Strøget, Nyhavn, Tivoli at the southern edge. Polished, central, premium pricing. Best for: 1-2 night first visits, sights-focused short trips.</p>
+
+<h2>Vesterbro — for design and food</h2>
+
+<p><a href="/en/denmark/copenhagen/vesterbro">Vesterbro</a> is just west of Central Station — Meatpacking District (Kødbyen), dense design hotels, late kitchens. Best for: 2-3 night design-and-food trips, train-heavy itineraries.</p>
+
+<h2>Nørrebro — for the multicultural Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> is northwest — Jægersborggade design strip, the Assistens Cemetery, multicultural food density. Best for: food-focused trips, longer stays, anyone wanting non-tourist Copenhagen.</p>
+
+<h2>Christianshavn — for romance</h2>
+
+<p><a href="/en/denmark/copenhagen/christianshavn">Christianshavn</a> is across the harbor — canal-houseboat quarter, the spiral of Vor Frelsers, design-restaurant cluster. Best for: honeymoons, romantic stays, repeat visits.</p>
+
+<h2>Frederiksberg / Østerbro — for families</h2>
+
+<p><a href="/en/denmark/copenhagen/frederiksberg">Frederiksberg</a> and <a href="/en/denmark/copenhagen/osterbro">Østerbro</a> are leafy residential quarters with parks and family-aware streets. Best for: families with kids, longer stays, anyone wanting calm with central proximity.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anything in the airport hotel zone:</strong> Only for very early flights.</li>
+  <li><strong>"Near Central Station" listings outside Vesterbro:</strong> Often sterile or sketchy.</li>
+  <li><strong>Hotels in Amager outside Christianshavn:</strong> Suburban, you'll commute.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short: Indre By. Design and food: Vesterbro. Multicultural and value: Nørrebro. Honeymoon: Christianshavn. Family: Frederiksberg or Østerbro.</p>
+
+<p>Compare: <a href="/en/denmark/copenhagen/compare/indre-by-vs-vesterbro">Indre By vs Vesterbro</a>, <a href="/en/denmark/copenhagen/compare/indre-by-vs-christianshavn">Indre By vs Christianshavn</a>, <a href="/en/denmark/copenhagen/compare/vesterbro-vs-norrebro">Vesterbro vs Nørrebro</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-athens",
+    title: "Where to Stay in Athens: Plaka, Koukaki, Psyrri or Pangrati?",
+    excerpt: "Athens neighborhoods compared honestly. Real differences in tourist crush, food, walkability and price.",
+    publishedAt: "2026-05-01",
+    reviewedAt: "2026-05-01",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Athens — Honest Neighborhood Guide",
+    metaDescription: "Athens neighborhoods compared honestly. Real differences in tourist crush, food, walkability and price.",
+    html: `
+<p>Athens is the European capital where the wrong neighborhood costs the most in tourist atmosphere. Plaka is the obvious default; the better picks are 10-15 min away.</p>
+
+<h2>Plaka — for first-timers</h2>
+
+<p><a href="/en/greece/athens/plaka">Plaka</a> is the famous old quarter under the Acropolis — whitewashed lanes, taverna-density, the postcard. Tourist-priced restaurants, premium hotels (€150-€300). Best for: 1-2 night first visits.</p>
+
+<h2>Koukaki — for repeat visits</h2>
+
+<p><a href="/en/greece/athens/koukaki">Koukaki</a> is south of the Acropolis — leafy, residential, locals-and-Airbnb. 10 min walk to the Acropolis south entrance. Best for: 3+ night stays, couples, families, return visitors.</p>
+
+<h2>Psyrri — for evenings</h2>
+
+<p><a href="/en/greece/athens/psyrri">Psyrri</a> is just north of Monastiraki — converted-warehouse bar quarter with late kitchens. Loud weekends until 3am. Best for: under-30 trips, food-focused stays.</p>
+
+<h2>Pangrati — for the local Athens</h2>
+
+<p><a href="/en/greece/athens/pangrati">Pangrati</a> is east of Plaka beyond the National Garden — leafy residential, neighborhood-tavernas at local prices. Best for: longer stays, food focus, anyone wanting non-tourist Athens.</p>
+
+<h2>Petralona — for the alternative</h2>
+
+<p><a href="/en/greece/athens/petralona">Petralona</a> is southwest at the foot of Filopappou — leafy residential, where most under-40 Athenians actually live. 15-20 min walk to the Acropolis via the hill. Best for: digital nomads, longer stays, value-conscious travelers.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Omonia after dark:</strong> Sketchy. Skip even if cheap.</li>
+  <li><strong>Anything marketed as "near the airport":</strong> 45 min from the centre.</li>
+  <li><strong>Piraeus for non-ferry trips:</strong> Industrial port, you'll commute.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short: Plaka. Repeat visit or family: Koukaki. Food/bars: Psyrri. Local Athens: Pangrati or Petralona.</p>
+
+<p>Compare: <a href="/en/greece/athens/compare/plaka-vs-koukaki">Plaka vs Koukaki</a>, <a href="/en/greece/athens/compare/plaka-vs-psyrri">Plaka vs Psyrri</a>, <a href="/en/greece/athens/compare/plaka-vs-pangrati">Plaka vs Pangrati</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-dublin",
+    title: "Where to Stay in Dublin: South Side, Liberties or Stoneybatter?",
+    excerpt: "Dublin neighborhoods compared honestly. Real differences in pubs, sights, price and which fits each trip.",
+    publishedAt: "2026-05-01",
+    reviewedAt: "2026-05-01",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Dublin — Honest Neighborhood Guide",
+    metaDescription: "Dublin neighborhoods compared honestly. Real differences in pubs, sights, price and which fits each trip.",
+    html: `
+<p>Dublin is over-priced for a small capital. The neighborhood pick determines whether you're paying €450 a night for a stag-night zone (Temple Bar) or €180 for the same city away from the worst of it.</p>
+
+<h2>South City Centre — for first-timers</h2>
+
+<p><a href="/en/ireland/dublin/south-city-centre">South City Centre</a> is the polished tourist-and-business core — Trinity, Grafton Street, Merrion Square. Premium pricing. Best for: first-time visits, sights-focused trips, anyone over 35.</p>
+
+<h2>The Liberties — for value and Guinness</h2>
+
+<p><a href="/en/ireland/dublin/the-liberties">The Liberties</a> is just west of the centre — Guinness Storehouse, dense historic pubs, recently-gentrifying. 25-35% cheaper than South Side. Best for: beer-focused trips, budget-conscious stays.</p>
+
+<h2>Stoneybatter — for hip residential</h2>
+
+<p><a href="/en/ireland/dublin/stoneybatter">Stoneybatter</a> is north of the Liffey — narrow Georgian rows, dense brunch-and-bar strip on Manor Street. Best for: repeat Dublin visits, food-focused stays, longer trips.</p>
+
+<h2>Smithfield — for design</h2>
+
+<p><a href="/en/ireland/dublin/smithfield">Smithfield</a> is also north of the Liffey — Jameson Distillery, design quarter, converted-warehouse hotels. Best for: design-focused trips, longer stays, anyone wanting non-tourist Dublin.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Temple Bar:</strong> Tourist-stag-night zone. Loud, overpriced, mid-quality everything.</li>
+  <li><strong>Anywhere advertised as "5-min from city centre":</strong> Verify on a map — Dublin is bigger than you think.</li>
+  <li><strong>Outside the M50:</strong> You'll commute. Stay inside the canals.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, short, polished: South City Centre. Beer focus: Liberties. Repeat visit: Stoneybatter or Smithfield.</p>
+
+<p>Compare: <a href="/en/ireland/dublin/compare/south-city-centre-vs-stoneybatter">South Side vs Stoneybatter</a>, <a href="/en/ireland/dublin/compare/south-city-centre-vs-the-liberties">South Side vs Liberties</a>, <a href="/en/ireland/dublin/compare/stoneybatter-vs-smithfield">Stoneybatter vs Smithfield</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-digital-nomads",
+    title: "Best European Cities for Digital Nomads",
+    excerpt: "Honest list of European cities where the WiFi, cost-of-living, visa rules and community actually work for remote workers.",
+    publishedAt: "2026-05-02",
+    reviewedAt: "2026-05-02",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Digital Nomads — 2026 Honest Picks",
+    metaDescription: "Honest list of European cities where the WiFi, cost-of-living, visa rules and community actually work for remote workers.",
+    html: `
+<p>Digital-nomad lists rarely match reality. Here's the honest map of European cities that actually work for 1-3 month stays — with real costs and visa info.</p>
+
+<h2>Lisbon, Portugal</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> is the European nomad capital. D7 visa for non-EU, dense co-working scene, fast WiFi, English everywhere. Stay in <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> for the design-quarter community or <a href="/en/portugal/lisbon/mouraria">Mouraria</a> for cheaper rents. Cost: €1500-€2500/month all-in.</p>
+
+<h2>Porto, Portugal</h2>
+
+<p>Smaller than Lisbon, cheaper. <a href="/en/portugal/porto/cedofeita">Cedofeita</a> is the design quarter where most nomads base. Cost: €1200-€2000/month.</p>
+
+<h2>Valencia, Spain</h2>
+
+<p>Cheaper than Barcelona or Madrid, beach access, dense food scene. <a href="/en/spain/valencia/ruzafa">Ruzafa</a> is the nomad-favorite. Cost: €1200-€1900/month.</p>
+
+<h2>Tbilisi, Georgia (outside EU)</h2>
+
+<p>1-year visa-free for most passports, very low cost, fast internet. The Caucasus's nomad capital. Cost: €700-€1300/month.</p>
+
+<h2>Berlin, Germany</h2>
+
+<p>The classic Berlin scene continues but pricier. <a href="/en/germany/berlin/neukolln">Neukölln</a> is the cheapest creative-Berlin base. Cost: €1800-€2800/month.</p>
+
+<h2>Budapest, Hungary</h2>
+
+<p>Excellent value, good WiFi, ruin-bar scene for after-work. <a href="/en/hungary/budapest/district-vii">District VII</a> is dense; District V is calmer. Cost: €1100-€1700/month.</p>
+
+<h2>Athens, Greece</h2>
+
+<p>Recently popular due to Greek digital-nomad visa. <a href="/en/greece/athens/petralona">Petralona</a> and <a href="/en/greece/athens/pangrati">Pangrati</a> are the local-feel bases. Cost: €1300-€2000/month.</p>
+
+<h2>Tallinn, Estonia</h2>
+
+<p>The e-Residency country. Excellent WiFi, English everywhere, small but real nomad community. <a href="/en/estonia/tallinn/telliskivi">Telliskivi</a> is the design quarter. Cost: €1400-€2200/month.</p>
+
+<h2>Where it doesn't work</h2>
+
+<ul>
+  <li><strong>Greek islands beyond Athens:</strong> WiFi inconsistent, social isolation, only viable summer.</li>
+  <li><strong>Italian cities beyond Milan and Bologna:</strong> Bureaucracy, low English fluency in some.</li>
+  <li><strong>Cyprus and Malta:</strong> Limited co-working, isolated.</li>
+  <li><strong>Anything advertised as "Bali of Europe":</strong> Marketing.</li>
+</ul>
+
+<h2>Visa reality</h2>
+
+<p>EU citizens have unrestricted movement. Non-EU need to look at: Portugal D7/D8, Spain digital nomad visa, Greece DNV, Italy DNV (recent), Estonia DNV. Each has income requirements. Always check current state.</p>
+
+<p>For longer-term planning see <a href="/en/articles/europe-on-a-budget-where-money-still-stretches">where money stretches</a> and <a href="/en/articles/european-cities-where-locals-actually-live">where locals live</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-first-trip-itinerary-suggestions",
+    title: "First-Time Europe Trip: Honest Itinerary Suggestions (10 / 14 / 21 Days)",
+    excerpt: "Real itineraries for first-time European trips — what to skip, what to combine, and how long each city actually needs.",
+    publishedAt: "2026-05-02",
+    reviewedAt: "2026-05-02",
+    readingTimeMin: 12,
+    metaTitle: "First-Time Europe Trip Itinerary — 10/14/21 Days, Honest Picks",
+    metaDescription: "Real itineraries for first-time European trips — what to skip, what to combine, and how long each city actually needs.",
+    html: `
+<p>The most common first-Europe-trip mistake is trying to do too many cities. Here are itineraries that actually work, ranked by total time available.</p>
+
+<h2>10 days — pick 2 countries</h2>
+
+<p><strong>Best 10-day option:</strong> Italy.</p>
+<ul>
+  <li><a href="/en/italy/rome">Rome</a>: 4 nights</li>
+  <li><a href="/en/italy/florence">Florence</a> (with Tuscany day-trip): 3 nights</li>
+  <li><a href="/en/italy/venice">Venice</a>: 2 nights</li>
+</ul>
+
+<p><strong>Alternative:</strong> Spain — <a href="/en/spain/madrid">Madrid</a> 3 nights, <a href="/en/spain/seville">Seville</a> 3 nights, <a href="/en/spain/barcelona">Barcelona</a> 4 nights.</p>
+
+<p><strong>Alternative:</strong> France + Iberia — Paris 4, Bordeaux 1, Lisbon 4. (Train-heavy.)</p>
+
+<p><strong>Don't try:</strong> Paris-London-Amsterdam-Rome in 10 days. Half the trip is travel.</p>
+
+<h2>14 days — pick 3 countries</h2>
+
+<p><strong>Best 14-day option:</strong> Italy + France.</p>
+<ul>
+  <li>Rome: 4 nights</li>
+  <li>Florence + Tuscany: 3 nights</li>
+  <li>Venice: 2 nights</li>
+  <li>Paris: 5 nights (with day-trip to Versailles)</li>
+</ul>
+
+<p><strong>Alternative:</strong> Iberia loop — Barcelona 4, Madrid 3, Seville 3, Lisbon 4.</p>
+
+<p><strong>Alternative:</strong> Central Europe — Vienna 3, Budapest 3, Krakow 3, Prague 4.</p>
+
+<h2>21 days — 4-5 countries</h2>
+
+<p><strong>Best 21-day option:</strong> Western Europe loop.</p>
+<ul>
+  <li>London: 4 nights</li>
+  <li>Paris: 4 nights</li>
+  <li>Rome: 4 nights</li>
+  <li>Florence: 3 nights</li>
+  <li>Venice: 2 nights</li>
+  <li>Vienna: 3 nights (or Munich + Salzburg if December)</li>
+  <li>1 buffer day for travel/jet-lag</li>
+</ul>
+
+<p><strong>Alternative:</strong> Mediterranean — Barcelona 4, Madrid 3, Lisbon 4, Porto 2, Seville 3, Granada 2, Athens 3.</p>
+
+<h2>What to skip on a first trip</h2>
+
+<ul>
+  <li><strong>Brussels:</strong> 1-day stop max, rarely worth a stay.</li>
+  <li><strong>Geneva, Zurich, Frankfurt:</strong> Worth it if specifically focused; otherwise generic.</li>
+  <li><strong>Day trips that need 4+ hours of travel each way:</strong> Eat the day.</li>
+  <li><strong>Three cities in 5 days:</strong> Always too compressed.</li>
+</ul>
+
+<h2>Travel between cities</h2>
+
+<p>Trains for short hops (Rome-Florence, Madrid-Seville, Paris-London via Eurostar). Budget flights for long hops (Lisbon-Athens, Rome-Berlin). Rule of thumb: anything over 5h by train, fly. Anything under 4h, train.</p>
+
+<p>For city-pair-specific train recommendations see <a href="/en/articles/europe-by-train-which-city-pairs-actually-work">Europe by train</a>. For best-month-to-go see <a href="/en/articles/europe-when-to-go-month-by-month">when to go where</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

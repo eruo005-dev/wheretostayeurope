@@ -1760,4 +1760,55 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Short stays focused on Old Town atmosphere or pool-resort experience.",
     priceTier: 2, vibeTags: ["central", "cathedral", "market", "walkable"],
     tripTypeFit: ["digital-nomads", "couples", "families"] },
+
+  // ========== EXPANSION BATCH 19: Baltics + Bulgaria neighborhoods ==========
+  // Vilnius
+  { slug: "senamiestis", name: "Senamiestis", citySlug: "vilnius", countrySlug: "lithuania",
+    summary: "Vilnius's UNESCO Old Town — Europe's largest baroque historic centre, dense churches, narrow lanes.",
+    whoItsFor: "First-time visits. Sights-focused stays. Couples.",
+    whoShouldSkip: "Light sleepers near Pilies gatvė (the main tourist spine). Mobility-aware travelers (cobblestones).",
+    priceTier: 2, vibeTags: ["unesco", "baroque", "central", "walkable"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "uzupis", name: "Užupis", citySlug: "vilnius", countrySlug: "lithuania",
+    summary: "The bohemian republic-within-a-republic across the river — narrow lanes, art galleries, the Vilnius alternative scene.",
+    whoItsFor: "Repeat visitors. Art-focused trips. Anyone under 40 wanting non-tourist Vilnius.",
+    whoShouldSkip: "First-time short stays. Anyone wanting straight UNESCO-Old-Town walkability.",
+    priceTier: 2, vibeTags: ["bohemian", "art", "creative", "calm"],
+    tripTypeFit: ["solo", "couples", "digital-nomads"] },
+
+  // Riga
+  { slug: "vecriga", name: "Vecrīga", citySlug: "riga", countrySlug: "latvia",
+    summary: "Riga's UNESCO medieval old town — House of the Blackheads, the cathedral, dense restaurants. The first-time central stay.",
+    whoItsFor: "First-time visits. Sights-focused stays.",
+    whoShouldSkip: "Light sleepers near the central pub strip (loud weekends with stag groups).",
+    priceTier: 2, vibeTags: ["unesco", "medieval", "central", "walkable"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "centrs-riga", name: "Centrs", citySlug: "riga", countrySlug: "latvia",
+    summary: "Just east of Vecrīga — Europe's densest Art Nouveau quarter (Alberta iela), the Central Market, walkable to Old Town.",
+    whoItsFor: "Repeat visitors. Art Nouveau-focused trips. Long stays.",
+    whoShouldSkip: "Short stays focused on Old Town atmosphere.",
+    priceTier: 2, vibeTags: ["art-nouveau", "market", "central-ish", "elegant"],
+    tripTypeFit: ["couples", "digital-nomads", "first-timers"] },
+
+  // Sofia
+  { slug: "centre-sofia", name: "Centre", citySlug: "sofia", countrySlug: "bulgaria",
+    summary: "Sofia's central core around the Alexander Nevsky Cathedral and Vitosha Boulevard — dense restaurants, walkable.",
+    whoItsFor: "First-time visits. Sights-focused stays. Long stays.",
+    whoShouldSkip: "Anyone wanting beach or mountain focus (Vitosha Mountain is 30 min by car).",
+    priceTier: 2, vibeTags: ["central", "cathedral", "shopping", "walkable"],
+    tripTypeFit: ["first-timers", "couples", "digital-nomads"] },
+
+  // Plovdiv
+  { slug: "stariya-grad-plovdiv", name: "Stariya Grad", citySlug: "plovdiv", countrySlug: "bulgaria",
+    summary: "Plovdiv's UNESCO Old Town on the hill — Roman amphitheater, Bulgarian Revival houses, narrow cobbled lanes.",
+    whoItsFor: "First-time visits. Photo-focused stays. Romantic trips.",
+    whoShouldSkip: "Mobility-aware travelers (steep cobbles). Short stays needing flat walkability.",
+    priceTier: 2, vibeTags: ["unesco", "roman", "old-town", "photogenic"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "kapana", name: "Kapana", citySlug: "plovdiv", countrySlug: "bulgaria",
+    summary: "The Trap — the artist quarter just below the Old Town, dense art galleries, food trucks, the lively Plovdiv evening.",
+    whoItsFor: "Food-focused trips. Anyone under 40. Repeat visits.",
+    whoShouldSkip: "Light sleepers near the bar streets. First-time visits focused on Old Town.",
+    priceTier: 2, vibeTags: ["art", "food", "lively", "creative"],
+    tripTypeFit: ["solo", "couples", "digital-nomads"] },
 ];

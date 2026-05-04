@@ -424,6 +424,45 @@ export const COUNTRIES: StaticCountry[] = [
     metaDescription: "Bratislava's compact old town and the underrated eastern city of Košice — honest picks.",
     intro: "Slovakia is most often a day trip from Vienna (Bratislava is an hour by train) but the country deserves more than that. Bratislava's old town is small and walkable; Košice in the east is genuinely beautiful and almost free of tourists. Both city stays are among Europe's cheapest.",
   },
+  {
+    slug: "lithuania",
+    name: "Lithuania",
+    isoCode: "LT",
+    currency: "EUR",
+    timezone: "Europe/Vilnius",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Lithuania — Vilnius and the Baltic",
+    metaDescription: "Vilnius's UNESCO old town and the underrated Baltic capital scene — honest picks for stays.",
+    intro: "Lithuania's capital Vilnius has Europe's largest baroque old town. Most travelers combine it with Riga and Tallinn for a Baltic loop. Stays are among Europe's cheapest and the city is dramatically photogenic — narrow lanes, churches at every corner.",
+  },
+  {
+    slug: "latvia",
+    name: "Latvia",
+    isoCode: "LV",
+    currency: "EUR",
+    timezone: "Europe/Riga",
+    euMember: true,
+    schengen: true,
+    tier: "2",
+    metaTitle: "Where to Stay in Latvia — Riga and the Baltic",
+    metaDescription: "Riga's Art Nouveau quarter and UNESCO old town — honest picks for the Baltic capital.",
+    intro: "Latvia's capital Riga has Europe's densest concentration of Art Nouveau architecture, plus a UNESCO medieval old town. Stays are dramatically cheap. The country combines well with Lithuania and Estonia for a Baltic loop.",
+  },
+  {
+    slug: "bulgaria",
+    name: "Bulgaria",
+    isoCode: "BG",
+    currency: "BGN",
+    timezone: "Europe/Sofia",
+    euMember: true,
+    schengen: false,
+    tier: "2",
+    metaTitle: "Where to Stay in Bulgaria — Sofia and Plovdiv",
+    metaDescription: "Sofia's Eastern Orthodox heritage and Plovdiv's Roman ruins — honest picks for Bulgaria stays.",
+    intro: "Bulgaria's two main cities are dramatically different. Sofia is the modern capital with Eastern Orthodox cathedrals; Plovdiv is one of Europe's oldest continuously-inhabited cities (Roman amphitheater, Old Town). Stays are among Europe's cheapest.",
+  },
 ];
 
 export const CITIES: StaticCity[] = [
@@ -619,6 +658,17 @@ export const CITIES: StaticCity[] = [
 
   // Portugal
   { slug: "funchal", name: "Funchal", countrySlug: "portugal", lat: 32.6669, lng: -16.9241, population: 105_000, tier: "2", bookingDestId: null, intro: "Funchal (Madeira) is a year-round Atlantic-island city. The Old Town (Zona Velha) and Sé area are the central stays. Skip the big resort hotels along the Estrada Monumental unless your trip is pool-and-package." },
+
+  // ========== EXPANSION BATCH 19 (Baltics + Bulgaria) ==========
+  // Lithuania
+  { slug: "vilnius", name: "Vilnius", countrySlug: "lithuania", lat: 54.6872, lng: 25.2797, population: 590_000, tier: "1", bookingDestId: null, intro: "Vilnius's Senamiestis (Old Town) is Europe's largest baroque historic centre — and surprisingly under-touristed. Užupis, the bohemian republic-within-a-republic, is across the river. Both walkable to each other in 10 min." },
+
+  // Latvia
+  { slug: "riga", name: "Riga", countrySlug: "latvia", lat: 56.9496, lng: 24.1052, population: 605_000, tier: "1", bookingDestId: null, intro: "Riga's Vecrīga (Old Town) is the medieval UNESCO core. The Centrs district just east has Europe's densest Art Nouveau architecture. Most travelers stay in Vecrīga; Centrs is the second-time choice." },
+
+  // Bulgaria
+  { slug: "sofia", name: "Sofia", countrySlug: "bulgaria", lat: 42.6977, lng: 23.3219, population: 1_250_000, tier: "2", bookingDestId: null, intro: "Sofia's centre around the Alexander Nevsky Cathedral is the obvious central stay. Vitosha Boulevard is the pedestrian shopping spine. Skip anywhere outside the central core for short trips." },
+  { slug: "plovdiv", name: "Plovdiv", countrySlug: "bulgaria", lat: 42.1354, lng: 24.7453, population: 345_000, tier: "2", bookingDestId: null, intro: "Plovdiv's Old Town (Stariya Grad) is one of Europe's oldest continuously-inhabited urban areas — Roman amphitheater, Bulgarian Revival houses. Kapana (the Trap), the artist quarter just below, is the food-and-evening side." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

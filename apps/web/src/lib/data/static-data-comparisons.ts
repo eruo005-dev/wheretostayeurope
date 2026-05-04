@@ -7443,6 +7443,72 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 19 — pairs for new Baltic + Bulgarian cities
+// =============================================================================
+COMPARISONS.push(
+  // VILNIUS
+  {
+    slug: "senamiestis-vs-uzupis",
+    citySlug: "vilnius", countrySlug: "lithuania",
+    aSlug: "senamiestis", bSlug: "uzupis",
+    aLabel: "Senamiestis", bLabel: "Užupis",
+    metaTitle: "Senamiestis vs Užupis: Where to Stay in Vilnius",
+    metaDescription: "Vilnius's UNESCO Old Town or bohemian Užupis? Real take on atmosphere, food and price.",
+    intro: "Senamiestis is Vilnius's UNESCO Old Town — Europe's largest baroque historic centre. Užupis is the bohemian republic across the river — narrow lanes, art galleries, the alternative scene. Walkable in 5-10 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Senamiestis is grand-baroque-tourist. Užupis is narrow-bohemian-art. Pick on what you want." },
+      { question: "Walkability to centre", winner: "a", body: "Senamiestis is the centre. Užupis is 5-10 min walk via the river bridge." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have density. Senamiestis is more polished; Užupis is more casual." },
+      { question: "Price", winner: "b", body: "Užupis 15-20% cheaper than Senamiestis for equivalent product." },
+      { question: "Quiet sleep", winner: "b", body: "Užupis residential past 11pm. Senamiestis has weekend bar overflow on Pilies gatvė." },
+    ],
+    pickA: "Pick Senamiestis for first-time visits, sights focus, anyone over 50.",
+    pickB: "Pick Užupis for repeat visits, art-focused trips, anyone under 40.",
+    bottomLine: "Senamiestis for first-timers. Užupis for art.",
+  },
+  // RIGA
+  {
+    slug: "vecriga-vs-centrs-riga",
+    citySlug: "riga", countrySlug: "latvia",
+    aSlug: "vecriga", bSlug: "centrs-riga",
+    aLabel: "Vecrīga", bLabel: "Centrs",
+    metaTitle: "Vecrīga vs Centrs: Where to Stay in Riga",
+    metaDescription: "Riga's medieval Vecrīga or Art Nouveau Centrs? Real take on atmosphere, sights and price.",
+    intro: "Vecrīga is Riga's UNESCO medieval old town. Centrs is just east — Europe's densest Art Nouveau quarter (Alberta iela), the Central Market, walkable to Old Town in 5-10 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Vecrīga is medieval-Hanseatic. Centrs is Art Nouveau-elegant. Different histories." },
+      { question: "Architecture density", winner: "b", body: "Centrs wins for Art Nouveau — Alberta iela has dozens of buildings in one strip." },
+      { question: "Walkability between", winner: "tied", body: "5-10 min. Equivalent." },
+      { question: "Quiet sleep", winner: "b", body: "Vecrīga has weekend stag-night noise. Centrs is residential past 11pm." },
+      { question: "Price", winner: "tied", body: "Both €70-€140. Equivalent." },
+    ],
+    pickA: "Pick Vecrīga for first-time visits, medieval atmosphere focus.",
+    pickB: "Pick Centrs for Art Nouveau focus, light sleepers, longer stays.",
+    bottomLine: "Vecrīga for medieval. Centrs for Art Nouveau.",
+  },
+  // PLOVDIV
+  {
+    slug: "stariya-grad-vs-kapana",
+    citySlug: "plovdiv", countrySlug: "bulgaria",
+    aSlug: "stariya-grad-plovdiv", bSlug: "kapana",
+    aLabel: "Stariya Grad", bLabel: "Kapana",
+    metaTitle: "Stariya Grad vs Kapana: Where to Stay in Plovdiv",
+    metaDescription: "Plovdiv's UNESCO Old Town or art quarter Kapana? Real take on atmosphere, food and price.",
+    intro: "Stariya Grad is Plovdiv's UNESCO Old Town on the hill — Roman amphitheater, Bulgarian Revival houses. Kapana is the artist quarter just below — galleries, food trucks, the lively side.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Stariya Grad has Roman amphitheater, Revival houses. Kapana has galleries and food trucks." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Kapana wins. Dense art-quarter food and bars. Stariya Grad quiets earlier." },
+      { question: "Mobility", winner: "b", body: "Kapana is flatter. Stariya Grad has steep cobbles." },
+      { question: "Atmosphere", winner: "tied", body: "Stariya Grad is medieval-photogenic. Kapana is art-and-food. Different vibes." },
+      { question: "Price", winner: "tied", body: "Both €60-€100. Equivalent." },
+    ],
+    pickA: "Pick Stariya Grad for first-time visits, photo focus, romantic stays.",
+    pickB: "Pick Kapana for food-focused trips, anyone under 40, art-quarter focus.",
+    bottomLine: "Stariya Grad for photo. Kapana for food.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

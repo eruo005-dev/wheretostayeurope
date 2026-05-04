@@ -6094,6 +6094,193 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 19 — Baltic + Bulgaria guides + niche topics
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-vilnius",
+    title: "Where to Stay in Vilnius: Senamiestis or Užupis?",
+    excerpt: "Vilnius neighborhoods compared honestly. Real differences in atmosphere, art and price.",
+    publishedAt: "2026-05-14",
+    reviewedAt: "2026-05-14",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Vilnius — Honest Neighborhood Guide",
+    metaDescription: "Vilnius neighborhoods compared honestly. Real differences in atmosphere, art and price.",
+    html: `
+<p>Vilnius is small. The pick is the UNESCO Old Town or the bohemian republic across the river.</p>
+
+<h2>Senamiestis — for first-timers</h2>
+
+<p><a href="/en/lithuania/vilnius/senamiestis">Senamiestis</a> is Vilnius's UNESCO Old Town — Europe's largest baroque historic centre, dense churches, narrow lanes. Best for: first-time visits, sights focus, anyone over 50.</p>
+
+<h2>Užupis — for art and bohemia</h2>
+
+<p><a href="/en/lithuania/vilnius/uzupis">Užupis</a> is the bohemian republic across the river — narrow lanes, art galleries, the alternative scene. Best for: art-focused trips, anyone under 40, repeat visits.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the central core marketed as "Vilnius":</strong> Verify on a map.</li>
+  <li><strong>Hotels near the airport:</strong> Only for very early flights.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights focus: Senamiestis. Art and repeat visits: Užupis.</p>
+
+<p>Compare: <a href="/en/lithuania/vilnius/compare/senamiestis-vs-uzupis">Senamiestis vs Užupis</a>.</p>
+
+<p>For Baltic loop trips see <a href="/en/articles/baltic-loop-itinerary">Baltic loop guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-riga",
+    title: "Where to Stay in Riga: Vecrīga or Centrs?",
+    excerpt: "Riga neighborhoods compared honestly. Real differences in medieval vs Art Nouveau atmosphere.",
+    publishedAt: "2026-05-14",
+    reviewedAt: "2026-05-14",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Riga — Honest Neighborhood Guide",
+    metaDescription: "Riga neighborhoods compared honestly. Real differences in medieval vs Art Nouveau atmosphere.",
+    html: `
+<p>Riga has two distinct draws — UNESCO medieval Old Town and Europe's densest Art Nouveau quarter. Pick the trip you want.</p>
+
+<h2>Vecrīga — for first-timers</h2>
+
+<p><a href="/en/latvia/riga/vecriga">Vecrīga</a> is the UNESCO medieval old town — House of the Blackheads, the cathedral, dense restaurants. Best for: first-time visits, sights focus.</p>
+
+<h2>Centrs — for Art Nouveau</h2>
+
+<p><a href="/en/latvia/riga/centrs-riga">Centrs</a> is just east — Europe's densest Art Nouveau quarter (Alberta iela), the Central Market. Walkable to Old Town in 5-10 min. Best for: Art Nouveau focus, light sleepers, longer stays.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Stag-do hotels in central Vecrīga:</strong> Cheap for a reason — verify reviews.</li>
+  <li><strong>Anywhere outside the centre marketed as "Riga":</strong> Verify on a map.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, medieval: Vecrīga. Art Nouveau, longer stay: Centrs.</p>
+
+<p>Compare: <a href="/en/latvia/riga/compare/vecriga-vs-centrs-riga">Vecrīga vs Centrs</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "baltic-loop-itinerary",
+    title: "Baltic Loop Itinerary: Tallinn + Riga + Vilnius (7-10 Days)",
+    excerpt: "Honest 7-10 day itinerary for the Baltic capitals — Tallinn, Riga, Vilnius — with real bus times and what to skip.",
+    publishedAt: "2026-05-14",
+    reviewedAt: "2026-05-14",
+    readingTimeMin: 9,
+    metaTitle: "Baltic Loop Itinerary — Tallinn, Riga, Vilnius Honest Guide",
+    metaDescription: "Honest 7-10 day itinerary for the Baltic capitals — Tallinn, Riga, Vilnius — with real bus times and what to skip.",
+    html: `
+<p>The Baltic loop is among Europe's most underrated itineraries — three UNESCO old towns at half Western European prices, dense in 7-10 days.</p>
+
+<h2>Best 7-day Baltic loop</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/estonia/tallinn">Tallinn</a> (UNESCO Old Town + design quarter)</li>
+  <li>Day 3-4: <a href="/en/latvia/riga">Riga</a> (Old Town + Art Nouveau)</li>
+  <li>Day 5-7: <a href="/en/lithuania/vilnius">Vilnius</a> (largest baroque centre + Užupis)</li>
+</ul>
+
+<p>Direction matters: most travelers fly into Tallinn (FinnAir, Ryanair from Helsinki), exit Vilnius. Reverse works equally well.</p>
+
+<h2>10-day Baltic loop (with day-trips)</h2>
+
+<ul>
+  <li>Day 1-3: Tallinn + day-trip to Lahemaa National Park</li>
+  <li>Day 4-6: Riga + day-trip to Jurmala beach + Sigulda castles</li>
+  <li>Day 7-10: Vilnius + day-trip to Trakai (water castle)</li>
+</ul>
+
+<h2>Transport between cities</h2>
+
+<ul>
+  <li><strong>Tallinn → Riga:</strong> 4h 30min by bus (Lux Express). Trains don't run between countries.</li>
+  <li><strong>Riga → Vilnius:</strong> 4h 30min by bus.</li>
+  <li><strong>Tallinn → Vilnius direct:</strong> 9h. Better to break in Riga.</li>
+  <li><strong>Tallinn-Helsinki ferry:</strong> 2h. Excellent connection — Tallinn is a popular Helsinki day-trip.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>Baltic capitals run €70-€140/night for decent product. Restaurants €15-€30 for full dinners. The whole loop costs roughly half of comparable Western European trips.</p>
+
+<h2>Best season</h2>
+
+<ul>
+  <li><strong>May-September:</strong> Long days, festivals, all attractions open. Peak.</li>
+  <li><strong>December (Christmas markets):</strong> Snow, atmospheric, magical. Cold.</li>
+  <li><strong>January-February:</strong> Brutally cold (-15°C common). Skip unless you want winter.</li>
+</ul>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Adding Helsinki or St. Petersburg as part of the loop:</strong> Different tier of trip.</li>
+  <li><strong>Each capital in 1 night:</strong> Each deserves 2-3 nights minimum.</li>
+  <li><strong>Driving the loop yourself:</strong> Buses are faster and cheaper than rental cars.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-bulgaria",
+    title: "Where to Stay in Bulgaria: Sofia and Plovdiv (Combined Trip)",
+    excerpt: "Honest take on Bulgaria's two main cities — Sofia and Plovdiv — and how to combine them.",
+    publishedAt: "2026-05-14",
+    reviewedAt: "2026-05-14",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Bulgaria — Sofia + Plovdiv Honest Guide",
+    metaDescription: "Honest take on Bulgaria's two main cities — Sofia and Plovdiv — and how to combine them.",
+    html: `
+<p>Bulgaria's two main cities are dramatically different. Best done as a 5-7 day combined trip.</p>
+
+<h2>Sofia — capital and base</h2>
+
+<p><a href="/en/bulgaria/sofia">Sofia</a> is the modern capital — Alexander Nevsky Cathedral, Vitosha Boulevard shopping, Vitosha Mountain 30 min away. Stay in <a href="/en/bulgaria/sofia/centre-sofia">Centre</a>. Best for: 2-3 nights, sights focus, mountain day-trips.</p>
+
+<h2>Plovdiv — UNESCO and Roman</h2>
+
+<p><a href="/en/bulgaria/plovdiv">Plovdiv</a> is one of Europe's oldest continuously-inhabited cities — Roman amphitheater (still in use), UNESCO Old Town with Bulgarian Revival houses. Stay in <a href="/en/bulgaria/plovdiv/stariya-grad-plovdiv">Stariya Grad</a> for the photo or <a href="/en/bulgaria/plovdiv/kapana">Kapana</a> for food. Best for: 2-3 nights, photo-and-food focus.</p>
+
+<h2>Combined 5-7 day trip</h2>
+
+<ul>
+  <li>Day 1-3: Sofia (city + Vitosha Mountain or Boyana Church day-trip)</li>
+  <li>Day 4-6: Plovdiv (Old Town + Bachkovo Monastery day-trip)</li>
+  <li>Day 7: Buffer / Rila Monastery day-trip from Sofia or Plovdiv</li>
+</ul>
+
+<h2>Transport</h2>
+
+<p>Sofia ↔ Plovdiv: 2h 30min by train (cheap), 1h 50min by bus. Both run frequently.</p>
+
+<h2>Cost reality</h2>
+
+<p>Bulgaria is among Europe's cheapest. €40-€90/night for decent hotels. €10-€20 dinners. The whole trip costs less than 3 nights in Paris.</p>
+
+<h2>Best season</h2>
+
+<p>April-October. Avoid August (Sofia daytime highs over 35°C). October has warm days and cool nights — best month overall.</p>
+
+<h2>What to skip on a 5-7 day trip</h2>
+
+<ul>
+  <li><strong>Bansko / Borovets ski resorts:</strong> Different trip; only worth it for ski.</li>
+  <li><strong>Black Sea coast (Varna, Burgas):</strong> Different trip; combines poorly with the city focus.</li>
+  <li><strong>Veliko Tarnovo:</strong> Beautiful but adds another 2-3 nights minimum. Save for 10+ day trips.</li>
+</ul>
+
+<p>For Eastern Europe context see <a href="/en/articles/where-to-stay-in-eastern-europe-by-country">Eastern Europe by country</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

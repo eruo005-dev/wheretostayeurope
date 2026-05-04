@@ -47,6 +47,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <meta name="description" content={SITE_TAGLINE} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {process.env.GSC_VERIFICATION_TOKEN && (
+          <meta name="google-site-verification" content={process.env.GSC_VERIFICATION_TOKEN} />
+        )}
         {/* Favicons / apple-touch-icon are auto-injected by Next.js from
             apps/web/src/app/icon.tsx and apple-icon.tsx — don't add raw <link> tags. */}
         <script

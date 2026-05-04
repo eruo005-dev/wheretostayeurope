@@ -38,11 +38,12 @@ export function NeighborhoodMap({
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const [mounted, setMounted] = useState(false);
 
-  if (!hasConsent) {
-    return <StaticFallback height={height} staticFallbackUrl={staticFallbackUrl} />;
-  }
+  // Hooks are unconditionally declared above; consent gates the *effect body*
+  // and the JSX branch below. Returning early before the effects below would
+  // violate the Rules of Hooks when consent flips mid-session.
 
   useEffect(() => {
+    if (!hasConsent) return;
     if (!containerRef.current || mapRef.current) return;
     const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
     if (!token) {
@@ -134,7 +135,7 @@ export function NeighborhoodMap({
       mapRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [hasConsent]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -156,6 +157,10 @@ export function NeighborhoodMap({
       // layer not yet ready
     }
   }, [highlightedSlug, mounted]);
+
+  if (!hasConsent) {
+    return <StaticFallback height={height} staticFallbackUrl={staticFallbackUrl} />;
+  }
 
   return (
     <div

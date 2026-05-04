@@ -13,7 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { buildHreflangTags } from "@/lib/seo/hreflang";
-import { SITE_URL, SITE_NAME, SITE_TAGLINE } from "@/lib/seo/config";
+import { SITE_URL, SITE_NAME, SITE_TAGLINE, OG_IMAGE_DEFAULT } from "@/lib/seo/config";
 import { getAuthor } from "@/lib/author";
 import {
   getHomeFeaturedCountries,
@@ -21,8 +21,6 @@ import {
   getHomeRecentGuides,
   getHomeFeaturedArticles,
 } from "./queries";
-import { getPayload } from "payload";
-import payloadConfig from "@/payload.config";
 
 type Props = { params: Promise<{ locale: "en" | "de" | "fr" | "es" }> };
 const SUPPORTED_LOCALES = ["en", "de", "fr", "es"] as const;
@@ -160,35 +158,9 @@ const COPY: Record<string, {
 };
 
 async function getHomeHero(_locale: string) {
-  return null; // static blog mode - hero uses gradient fallback
-  // eslint-disable-next-line @typescript-eslint/no-unreachable, no-unreachable
-  let payload;
-  try {
-    payload = await getPayload({ config: payloadConfig });
-  } catch { return null; }
-  const res = await payload.find({
-    collection: "media",
-    where: {
-      and: [
-        { entityType: { equals: "generic" } },
-        { entityId: { equals: "home-hero" } },
-        { reviewStatus: { equals: "approved" } },
-      ],
-    },
-    limit: 1,
-    sort: "-createdAt",
-    locale,
-    fallbackLocale: "en",
-  });
-  const m = res.docs[0];
-  if (!m?.url) return null;
-  return {
-    url: String(m.url),
-    alt: String(m.altText ?? m.altTextBase ?? "European rooftops at dusk"),
-    credit: (m.credit as string | null) ?? null,
-    creditUrl: (m.creditUrl as string | null) ?? null,
-    source: (m.source as string | null) ?? null,
-  };
+  // Static blog mode — hero falls back to the CSS gradient. Wire to Payload
+  // when the CMS hero collection is ready; the previous code path is in git.
+  return null;
 }
 
 export const revalidate = 1800;
@@ -214,6 +186,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: SITE_NAME,
       type: "website",
       locale,
+      images: [{ url: OG_IMAGE_DEFAULT, width: 1200, height: 630, alt: SITE_NAME }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: SITE_NAME,
+      description: copy.heroLead,
+      images: [OG_IMAGE_DEFAULT],
     },
   };
 }
@@ -237,11 +216,6 @@ export default async function HomePage({ params }: Props) {
     name: SITE_NAME,
     url: `${SITE_URL}/${locale}`,
     inLanguage: locale,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/${locale}/search?q={search_term_string}` },
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (

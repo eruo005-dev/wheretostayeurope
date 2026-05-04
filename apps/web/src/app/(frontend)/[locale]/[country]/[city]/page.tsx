@@ -16,7 +16,9 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import { AffiliateDisclosureBanner, AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
+// AffiliateDisclosureBanner is rendered globally by [locale]/layout.tsx
+import { AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
+import { KiwitaxiSearchWidget } from "@/components/affiliate/KiwitaxiSearchWidget";
 import { PriceDisclaimerBlock } from "@/components/legal/PriceDisclaimer";
 import { NeighborhoodMap } from "@/components/maps/NeighborhoodMap";
 import { PriceBandHistogram } from "@/components/visualizations/PriceBandHistogram";
@@ -26,6 +28,7 @@ import { LexicalRenderer } from "@/components/content/LexicalRenderer";
 import { getConsent } from "@/lib/consent";
 import { buildHreflangTags } from "@/lib/seo/hreflang";
 import { SITE_URL } from "@/lib/seo/config";
+import { comparisonsInCity } from "@/lib/data/static-data-comparisons";
 import {
   getCityBySlug,
   getCityNeighborhoods,
@@ -98,6 +101,8 @@ export default async function CityPage({ params }: Props) {
     getConsent(),
   ]);
 
+  const cityComparisons = comparisonsInCity(c.slug);
+
   const breadcrumbs = [
     { name: c.countryName, url: `/${locale}/${country}` },
     { name: c.name, url: `/${locale}/${country}/${city}` },
@@ -138,8 +143,6 @@ export default async function CityPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-
-      <AffiliateDisclosureBanner locale={locale} />
 
       <article style={{ maxWidth: 960, margin: "0 auto", padding: "24px 20px" }}>
         <Breadcrumb items={breadcrumbs} />
@@ -238,6 +241,55 @@ export default async function CityPage({ params }: Props) {
           </section>
         )}
 
+        {cityComparisons.length > 0 && (
+          <section style={{ marginTop: 40 }}>
+            <h2 style={{ fontSize: 28, marginBottom: 6 }}>
+              Head-to-head: which {c.name} neighborhood is right for you?
+            </h2>
+            <p style={{ fontSize: 15, color: "#475569", marginTop: 0, marginBottom: 16, lineHeight: 1.5 }}>
+              Round-by-round comparisons of the {c.name} neighborhoods most travelers
+              decide between. Atmosphere, walkability, price, sleep quality — and a
+              named winner per dimension.
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 12 }}>
+              {cityComparisons.map((cmp) => (
+                <Link
+                  key={cmp.slug}
+                  href={`/${locale}/${country}/${city}/compare/${cmp.slug}`}
+                  style={{
+                    display: "block",
+                    padding: "14px 16px",
+                    background: "#fff7ed",
+                    border: "1px solid #fed7aa",
+                    borderRadius: 10,
+                    textDecoration: "none",
+                    color: "#0f172a",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
+                    <strong style={{ fontSize: 16 }}>{cmp.aLabel}</strong>
+                    <span style={{ fontSize: 13, color: "#94867a" }}>vs</span>
+                    <strong style={{ fontSize: 16 }}>{cmp.bLabel}</strong>
+                  </div>
+                  <span style={{ fontSize: 13, color: "#9a3412", marginTop: 4, display: "inline-block" }}>
+                    Read the verdict →
+                  </span>
+                </Link>
+              ))}
+            </div>
+            {cityComparisons.length >= 3 && (
+              <div style={{ marginTop: 12 }}>
+                <Link
+                  href={`/${locale}/${country}/${city}/compare`}
+                  style={{ fontSize: 14, color: "#2563eb", textDecoration: "none" }}
+                >
+                  All {c.name} comparisons →
+                </Link>
+              </div>
+            )}
+          </section>
+        )}
+
         {mapNeighborhoods.length > 0 && c.lat != null && c.lng != null && (
           <section style={{ marginTop: 40 }}>
             <h2 style={{ fontSize: 28, marginBottom: 12 }}>{c.name} on the map</h2>
@@ -310,13 +362,20 @@ export default async function CityPage({ params }: Props) {
               }}
             >
               {topProperties.map((p) => (
-                <PropertyCard key={p.id} property={p} locale={locale} pageId={c.id} pageType="city" />
+                <PropertyCard key={p.id} property={p} locale={locale} pageSlug={c.slug} pageType="city" />
               ))}
             </div>
 
             <PriceDisclaimerBlock locale={locale} />
           </section>
         )}
+
+        <KiwitaxiSearchWidget
+          cityName={c.name}
+          citySlug={c.slug}
+          countryName={c.countryName}
+          locale={locale}
+        />
 
         {(c.whenToVisit || c.gettingAround || c.safetyNotes) && (
           <section style={{ marginTop: 48 }}>

@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 
-import { AffiliateDisclosureBanner, AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
+// AffiliateDisclosureBanner is rendered globally by [locale]/layout.tsx
+import { AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
 import { PriceDisclaimerBlock } from "@/components/legal/PriceDisclaimer";
 import { PriceBandHistogram } from "@/components/visualizations/PriceBandHistogram";
 import { PropertyCard } from "@/components/affiliate/PropertyCard";
@@ -234,8 +235,6 @@ export default async function Tier3Page({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
-      <AffiliateDisclosureBanner locale={locale} />
-
       <article style={{ maxWidth: 960, margin: "0 auto", padding: "24px 20px" }}>
         <Breadcrumb items={breadcrumbs} />
 
@@ -276,7 +275,7 @@ export default async function Tier3Page({ params }: Props) {
                 key={p.id}
                 property={p}
                 locale={locale}
-                pageId={ctx.neighborhoodId}
+                pageSlug={ctx.neighborhoodSlug}
                 pageType="property_shortlist"
               />
             ))}

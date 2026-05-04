@@ -11,7 +11,7 @@
 // Extend as needed; keep the switch exhaustive.
 
 import Link from "next/link";
-import { Fragment, type ReactNode } from "react";
+import { Fragment, type ReactNode, type JSX } from "react";
 
 type LexicalFormat = number; // bitmask: 1=bold, 2=italic, 4=strikethrough, 8=underline, 16=code, 32=subscript, 64=superscript
 
@@ -63,6 +63,14 @@ const AFFILIATE_HOSTS = new Set([
   "safetywing.com", "www.safetywing.com",
   "heymondo.com", "www.heymondo.com",
   "viator.com", "www.viator.com",
+  // Travelpayouts brands wired into the site
+  "kiwitaxi.com", "www.kiwitaxi.com",
+  "tiqets.com", "www.tiqets.com",
+  "localrent.com", "www.localrent.com",
+  // Travelpayouts redirect/shortlink hosts (used if we ever switch from
+  // direct deep-links to TP-generated tp.st shortcodes)
+  "tp.st", "tp.media",
+  "kiwitaxi.tp.st", "tiqets.tp.st", "localrent.tp.st", "airalo.tp.st",
 ]);
 
 function isAffiliateUrl(url: string): boolean {

@@ -26,7 +26,7 @@ export type PropertyCardData = {
 type Props = {
   property: PropertyCardData;
   locale: "en" | "de" | "fr" | "es";
-  pageId: string;
+  pageSlug: string;
   pageType: TrackingLabel["pageType"];
 };
 
@@ -37,7 +37,7 @@ const COPY: Record<string, { book: string; from: string; reviews: string }> = {
   es: { book: "Ver tarifas en Booking", from: "desde", reviews: "opiniones" },
 };
 
-export function PropertyCard({ property, locale, pageId, pageType }: Props) {
+export function PropertyCard({ property, locale, pageSlug, pageType }: Props) {
   const copy = COPY[locale] ?? COPY.en;
 
   const urlMatch = property.affiliateUrlTemplate?.match(/\/hotel\/([a-z]{2})\/([^.]+)\.html/);
@@ -46,7 +46,7 @@ export function PropertyCard({ property, locale, pageId, pageType }: Props) {
 
   const label: TrackingLabel = {
     pageType,
-    pageId,
+    pageSlug,
     locale,
     component: "property_card",
   };

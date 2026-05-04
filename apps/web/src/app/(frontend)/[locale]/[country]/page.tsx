@@ -9,8 +9,9 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import { AffiliateDisclosureBanner } from "@/components/legal/AffiliateDisclosure";
+// AffiliateDisclosureBanner is rendered globally by [locale]/layout.tsx
 import { LexicalRenderer } from "@/components/content/LexicalRenderer";
+import { LocalrentSearchWidget } from "@/components/affiliate/LocalrentSearchWidget";
 
 import { buildHreflangTags } from "@/lib/seo/hreflang";
 import { SITE_URL } from "@/lib/seo/config";
@@ -134,8 +135,6 @@ export default async function CountryPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-
-      <AffiliateDisclosureBanner locale={locale} />
 
       <article style={{ maxWidth: 960, margin: "0 auto", padding: "24px 20px" }}>
         <Breadcrumb items={breadcrumbs} />
@@ -284,6 +283,8 @@ export default async function CountryPage({ params }: Props) {
             </p>
           </section>
         )}
+
+        <LocalrentSearchWidget countryName={c.name} countrySlug={country} locale={locale} />
 
         {c.bestTimeToVisit && (
           <section style={{ marginTop: 48 }}>

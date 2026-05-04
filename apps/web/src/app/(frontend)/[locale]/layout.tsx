@@ -12,6 +12,7 @@ import { ConsentProvider } from "@/components/legal/ConsentProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { AffiliateDisclosureBanner } from "@/components/legal/AffiliateDisclosure";
+import { TravelpayoutsDrive } from "@/components/affiliate/TravelpayoutsDrive";
 import { SITE_NAME, SITE_URL, SITE_TAGLINE, LEGAL_ENTITY_NAME } from "@/lib/seo/config";
 
 const SUPPORTED_LOCALES = ["en", "de", "fr", "es"] as const;
@@ -32,7 +33,7 @@ const organizationSchema = {
   name: SITE_NAME,
   legalName: LEGAL_ENTITY_NAME,
   url: SITE_URL,
-  logo: `${SITE_URL}/logo.png`,
+  logo: `${SITE_URL}/icon`,
   sameAs: [],
 };
 
@@ -45,9 +46,9 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale} suppressHydrationWarning>
       <head>
         <meta name="description" content={SITE_TAGLINE} />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Favicons / apple-touch-icon are auto-injected by Next.js from
+            apps/web/src/app/icon.tsx and apple-icon.tsx — don't add raw <link> tags. */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -61,6 +62,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <div id="main">{children}</div>
           <Footer locale={locale} />
         </ConsentProvider>
+        <TravelpayoutsDrive />
       </body>
     </html>
   );

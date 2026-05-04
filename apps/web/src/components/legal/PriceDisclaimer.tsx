@@ -2,9 +2,12 @@
 //
 // Inline price disclaimer. Use anywhere a static price is mentioned.
 // Example: "from €{price}/night <PriceAsterisk />"
+//
+// Client component because PriceAsterisk uses useId() to wire the tooltip.
+
+"use client";
 
 import { useId } from "react";
-import Link from "next/link";
 
 const COPY: Record<string, string> = {
   en: "Indicative price — live rates via the booking link; may vary by date and availability.",

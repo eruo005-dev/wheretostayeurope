@@ -1730,6 +1730,782 @@ export const COMPARISONS: StaticComparison[] = [
 ];
 
 // =============================================================================
+// EXPANSION BATCH — tier-3 cities (Krakow, Venice, Milan, Naples, Edinburgh,
+// Sarajevo, Lyon, Marseille, Seville, Valencia, Hamburg, Santorini, Cappadocia,
+// Split, Dubrovnik, Warsaw, Oslo, Helsinki, Salzburg, Zurich, Zagreb, Bordeaux,
+// Antwerp, Cologne, Mostar, Nice, Aarhus). Same voice rules as above.
+// =============================================================================
+COMPARISONS.push(
+  // KRAKOW: Stare Miasto vs Kazimierz
+  {
+    slug: "stare-miasto-vs-kazimierz",
+    citySlug: "krakow",
+    countrySlug: "poland",
+    aSlug: "stare-miasto-krakow",
+    bSlug: "kazimierz",
+    aLabel: "Stare Miasto",
+    bLabel: "Kazimierz",
+    metaTitle: "Stare Miasto vs Kazimierz: Where to Stay in Krakow",
+    metaDescription:
+      "Krakow's Old Town or the Jewish Quarter? Honest comparison of vibe, walkability, restaurants, price and noise — pick the right base for your trip.",
+    intro:
+      "These are Krakow's two obvious candidates and they answer different questions. Stare Miasto is the postcard — Rynek Główny, Wawel, all the day-trip logistics. Kazimierz is the after-dinner Krakow — bars in courtyards, Jewish heritage walks, the city's best restaurants. Most first-timers default to Stare Miasto by reflex; that's not always right.",
+    rounds: [
+      { question: "First-timer convenience", winner: "a", body: "Stare Miasto wins. Rynek Główny is at your door, Wawel is 10 min south, the bus to Auschwitz leaves from the western edge. Kazimierz is a 15-20 min walk to the main square — fine, but not central." },
+      { question: "Restaurants and bars", winner: "b", body: "Kazimierz, decisively. Plac Nowy, ul. Józefa, ul. Szeroka — denser per-block than anywhere in the Old Town, less tourist-priced, more local crowd at midnight." },
+      { question: "Price", winner: "b", body: "Kazimierz averages 20-30% cheaper for equivalent product. A central Old Town hotel runs €120-€220/night; the same in Kazimierz is €90-€160." },
+      { question: "Quiet sleep", winner: "tied", body: "Both have noise problems on weekends — stag groups in Stare Miasto's market-side hotels, Plac Nowy bar overflow in Kazimierz. Side streets in either are fine." },
+      { question: "Atmosphere after dark", winner: "b", body: "Kazimierz feels alive past 10pm; Stare Miasto thins to tour groups and chain restaurants. The bar courtyards (Alchemia, Singer) are where Krakow's evenings actually happen." },
+      { question: "Day-trip logistics", winner: "a", body: "Stare Miasto is closer to the Auschwitz/Wieliczka pickup points and the main bus station. Kazimierz adds 15 min to either departure." },
+    ],
+    pickA: "Pick Stare Miasto if it's your first trip, you have 2-3 nights, and you want every major sight at walking distance. The premium is real but you'll use it.",
+    pickB: "Pick Kazimierz if it's a return visit, your trip is food and bars, you value local feel over postcard convenience, or you're staying 4+ nights. The 15-min walk to the Old Town stops mattering after night one.",
+    bottomLine: "Stare Miasto for first-timers on a short trip. Kazimierz for everyone else.",
+  },
+  // KRAKOW: Kazimierz vs Podgórze
+  {
+    slug: "kazimierz-vs-podgorze",
+    citySlug: "krakow",
+    countrySlug: "poland",
+    aSlug: "kazimierz",
+    bSlug: "podgorze",
+    aLabel: "Kazimierz",
+    bLabel: "Podgórze",
+    metaTitle: "Kazimierz vs Podgórze: Krakow's Two Alt Neighborhoods",
+    metaDescription:
+      "Lively Kazimierz or post-industrial Podgórze across the river? Real differences in price, food, walkability, and which trip each one fits.",
+    intro:
+      "Kazimierz is the obvious second choice after Stare Miasto. Podgórze, across the river, is what Kazimierz was 15 years ago — quieter, cheaper, with the Schindler's Factory museum and the Ghetto Heroes Square. Both work. The choice is about energy level, not quality.",
+    rounds: [
+      { question: "Vibe", winner: "tied", body: "Kazimierz is dense, social, bar-courtyard-driven. Podgórze is leafy, residential, with one or two strong restaurants per block — not a single street where everything is happening." },
+      { question: "Price", winner: "b", body: "Podgórze is 15-20% cheaper than Kazimierz for the same product. Apartment rentals especially — full one-bedrooms run €60-€90/night where Kazimierz starts at €100." },
+      { question: "Walkability to Stare Miasto", winner: "a", body: "Kazimierz is 15-20 min walk; Podgórze is 25-30 min via the Bernatka footbridge. Both fine for a daily commute, neither close." },
+      { question: "Best for repeat visitors", winner: "b", body: "Podgórze, if you've done Kazimierz already. Schindler's Factory, MOCAK, and the Krakus Mound are all here. The whole quarter is unhurried in a way Kazimierz no longer is." },
+      { question: "Restaurants", winner: "a", body: "Kazimierz wins — denser, more variety, longer hours. Podgórze has 5-6 strong picks (Zakładka, Pies Czy Suka), but you'll exhaust them in a long weekend." },
+    ],
+    pickA: "Pick Kazimierz if you want bar-courtyard density, lots of restaurant choice, and a trip where 'walking around at night' is the activity. It's the busier sister.",
+    pickB: "Pick Podgórze if you've done Kazimierz, you want a leafier and cheaper base, you're focused on Schindler's Factory and the museum quarter, or you specifically want a calmer Krakow.",
+    bottomLine: "Kazimierz for the lively trip. Podgórze for the slower, cheaper, second-time Krakow.",
+  },
+  // VENICE: Cannaregio vs Dorsoduro
+  {
+    slug: "cannaregio-vs-dorsoduro",
+    citySlug: "venice",
+    countrySlug: "italy",
+    aSlug: "cannaregio",
+    bSlug: "dorsoduro",
+    aLabel: "Cannaregio",
+    bLabel: "Dorsoduro",
+    metaTitle: "Cannaregio vs Dorsoduro: Where to Stay in Venice",
+    metaDescription:
+      "Two of Venice's best sestieri compared honestly. Cannaregio's local feel and bacari vs Dorsoduro's art-museum quarter — which suits your trip.",
+    intro:
+      "These are the two sestieri Venice repeat-visitors recommend over San Marco, and they're genuinely different. Cannaregio is residential, Jewish-heritage, with the city's best cicchetti crawl. Dorsoduro is art-and-students — Accademia, Peggy Guggenheim, the Zattere promenade. Both avoid the worst of San Marco's day-tripper crush.",
+    rounds: [
+      { question: "Local feel", winner: "a", body: "Cannaregio wins — actual Venetians live here, the Strada Nova has neighborhood butchers and bakeries, you'll see kids walking to school. Dorsoduro is mostly students and museum visitors." },
+      { question: "Walkability to San Marco", winner: "b", body: "Dorsoduro is closer — the Accademia bridge gets you to San Marco in 12-15 min. Cannaregio is 20-25 min from most addresses, longer if you're near the train station." },
+      { question: "Restaurants and bacari", winner: "a", body: "Cannaregio is the cicchetti capital — Vino Vero, Al Timon, the Fondamenta della Misericordia chain are all walkable from each other. Dorsoduro has good picks but less density." },
+      { question: "Art museums on foot", winner: "b", body: "Dorsoduro, by a wide margin. The Accademia, Peggy Guggenheim, Punta della Dogana and Ca' Rezzonico are all in the sestiere itself. Cannaregio's main draw (the Ghetto) is heritage, not art." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quieter than San Marco. Cannaregio's Fondamenta della Misericordia gets loud on weekends; Dorsoduro's student bars near Campo Santa Margherita do the same. Side calli in either are silent." },
+      { question: "Price", winner: "a", body: "Cannaregio runs slightly cheaper — €150-€280 for a decent hotel vs Dorsoduro's €180-€350. The gap shrinks for canal-view rooms." },
+    ],
+    pickA: "Pick Cannaregio if your priority is dinner, evening bacari crawls, a feel of actual Venice, or you've done San Marco on a previous trip. The 20-min walk to the basilica is fine — it's also the prettiest walk in the city.",
+    pickB: "Pick Dorsoduro if your trip is art-and-museums focused, you want a 12-min walk to San Marco, or you're traveling with a partner who wants quiet leafy fondamentas. Both choices are upgrades over San Marco itself.",
+    bottomLine: "Cannaregio for the dinner-and-feel Venice. Dorsoduro for the art-and-walk Venice.",
+  },
+  // VENICE: San Marco vs Cannaregio
+  {
+    slug: "san-marco-vs-cannaregio",
+    citySlug: "venice",
+    countrySlug: "italy",
+    aSlug: "san-marco-venice",
+    bSlug: "cannaregio",
+    aLabel: "San Marco",
+    bLabel: "Cannaregio",
+    metaTitle: "San Marco vs Cannaregio: First-Time Venice Stay",
+    metaDescription:
+      "San Marco's central convenience or Cannaregio's local feel? Honest take on day-tripper crowds, prices, food, and which to pick for a 2-3 night Venice trip.",
+    intro:
+      "Almost every first-time Venice traveler picks San Marco by default. It's the sestiere with the basilica, the Doge's Palace and most Instagrammed bridges. Cannaregio sits north of the train station — quieter, residential, the cicchetti capital. The pick depends on whether you can stomach day-tripper crowds for the convenience.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "San Marco wins by definition — basilica, palace, Rialto Bridge, all 5 min walk. Cannaregio is 20-25 min from any of them." },
+      { question: "Day-tripper crush", winner: "b", body: "San Marco's main streets are unwalkable 11am-4pm in season. Cannaregio gets none of this — you'll feel like the only tourist on most calli." },
+      { question: "Evening atmosphere", winner: "b", body: "After the day-trippers leave (~6pm), San Marco is half-empty and feels staged. Cannaregio's Fondamenta della Misericordia is when it starts to fill up — that's where Venetians have aperitivo." },
+      { question: "Price", winner: "b", body: "Cannaregio averages 25-40% cheaper than San Marco. A San Marco hotel near the basilica runs €280-€600+; a similar product in Cannaregio is €150-€280." },
+      { question: "Restaurants past 9pm", winner: "b", body: "San Marco's restaurants tilt early-dinner tourist trade and close by 10pm. Cannaregio bacari serve until midnight — that's where the food trip happens." },
+    ],
+    pickA: "Pick San Marco if it's a single night, your trip is sights-only, mobility is limited, or the basilica-at-dawn experience is the whole point. Pay the premium and use it.",
+    pickB: "Pick Cannaregio for any 2+ night stay where dinner matters. The 20-min walk to San Marco passes the prettiest bridges in the city — you'll do it twice a day and not mind.",
+    bottomLine: "San Marco for the sights-only flying visit. Cannaregio for everyone else.",
+  },
+  // MILAN: Brera vs Navigli
+  {
+    slug: "brera-vs-navigli",
+    citySlug: "milan",
+    countrySlug: "italy",
+    aSlug: "brera",
+    bSlug: "navigli",
+    aLabel: "Brera",
+    bLabel: "Navigli",
+    metaTitle: "Brera vs Navigli: Where to Stay in Milan",
+    metaDescription:
+      "Brera's design-and-cobblestone quarter or Navigli's canal-and-aperitivo strip? Concrete differences in vibe, price, walkability and noise.",
+    intro:
+      "Milan's two most-recommended bases for short trips. Brera is the picturesque one — narrow streets near the Pinacoteca, the Duomo at 10 min walk. Navigli is south by the canals — aperitivo strip, restaurant-dense, livelier and louder. Same city, very different evenings.",
+    rounds: [
+      { question: "Walkability to the Duomo", winner: "a", body: "Brera wins. The Duomo is a 10-12 min walk from any Brera address; Navigli is 25-30 min or one metro ride." },
+      { question: "Aperitivo and dinner density", winner: "b", body: "Navigli, by a wide margin. The canal banks have 80+ bars on a single weekend night; Brera has 10-15 good picks but less choice." },
+      { question: "Quiet sleep", winner: "a", body: "Brera. The streets are residential after midnight. Navigli stays loud until 2-3am on Fri-Sat — the canal-side rooms are unsleepable in summer." },
+      { question: "Atmosphere", winner: "tied", body: "Brera is older, quieter, design-and-museum. Navigli is younger, louder, dinner-and-drinks. Both feel distinctly Milan — pick on energy, not quality." },
+      { question: "Price", winner: "b", body: "Navigli is 15-25% cheaper than Brera for the same product. Brera commands a Quadrilatero-adjacent premium; Navigli is far enough from the centro to discount." },
+      { question: "Best for first-timers", winner: "a", body: "Brera. The Duomo, La Scala, Castello Sforzesco are all under 15 min walk. Navigli is where you go for a meal — Brera is where you stay." },
+    ],
+    pickA: "Pick Brera if it's a 1-2 night trip, you want the Duomo at walking distance, you sleep light, or your trip is design-and-museum focused. It's the calmer, more central pick.",
+    pickB: "Pick Navigli if your evenings are the point of the trip, you want aperitivo at your front door, you're under 35, or you specifically want the canal-side photo. The metro to the Duomo runs every 4 minutes.",
+    bottomLine: "Brera for first-timers and quiet sleepers. Navigli for the food-and-aperitivo trip.",
+  },
+  // NAPLES: Centro Storico vs Chiaia
+  {
+    slug: "centro-storico-vs-chiaia",
+    citySlug: "naples",
+    countrySlug: "italy",
+    aSlug: "centro-storico-naples",
+    bSlug: "chiaia",
+    aLabel: "Centro Storico",
+    bLabel: "Chiaia",
+    metaTitle: "Centro Storico vs Chiaia: Where to Stay in Naples",
+    metaDescription:
+      "Naples' chaotic UNESCO heart or its quiet seafront? Honest comparison: noise, safety, food, walkability and which suits your trip.",
+    intro:
+      "Naples is the European city where the neighborhood pick changes the trip the most. Centro Storico is the loud, scooter-dense, pizza-and-Spaccanapoli Naples that shows up in every photo. Chiaia is the calm sea-front Naples nobody warns you about — wide streets, design shops, families with prams. Both are good. They're not the same trip.",
+    rounds: [
+      { question: "First-timer atmosphere", winner: "a", body: "Centro Storico wins for the cliché Naples — narrow vicoli, hanging laundry, Pizzeria Sorbillo on Via Tribunali. Chiaia is gentle and could be any Mediterranean city." },
+      { question: "Quiet sleep", winner: "b", body: "Chiaia, by a huge margin. Scooters and shouting carry through Centro Storico vicoli all night. Chiaia is residential and silent after 11pm." },
+      { question: "Walkability to sights", winner: "a", body: "Centro Storico has the duomo, the underground, the museum quarter at 10 min walk. Chiaia is 20-25 min east and feels like a different city." },
+      { question: "Best for first-time Naples", winner: "a", body: "Centro Storico, decisively. The point of a first trip is the noise — staying in Chiaia, you're missing the city you came for." },
+      { question: "Best for second-time Naples", winner: "b", body: "Chiaia. After you've done the historic core, the sea-front becomes the appeal — sunset on Via Caracciolo, wine bars on Vico Belledonne, easier morning logistics." },
+      { question: "Family with kids", winner: "b", body: "Chiaia, no contest. Centro Storico is genuinely hard with a stroller — narrow vicoli, motorbikes, no playgrounds. Villa Comunale in Chiaia is one of the best urban family parks in Italy." },
+    ],
+    pickA: "Pick Centro Storico if it's your first time in Naples, you want the chaotic-pizza-vicoli cliché, you're under 40 and traveling without kids. The noise is the point.",
+    pickB: "Pick Chiaia if you've done Centro Storico, you have kids, you sleep light, or you specifically want a quieter Italian sea-front trip. Naples gentles down considerably west of Piazza del Plebiscito.",
+    bottomLine: "Centro Storico for the cliché Naples. Chiaia for the quieter, second-time, family-friendly version.",
+  },
+  // SARAJEVO: Baščaršija vs Marijin Dvor
+  {
+    slug: "bascarsija-vs-marijin-dvor",
+    citySlug: "sarajevo",
+    countrySlug: "bosnia-and-herzegovina",
+    aSlug: "bascarsija",
+    bSlug: "marijin-dvor",
+    aLabel: "Baščaršija",
+    bLabel: "Marijin Dvor",
+    metaTitle: "Baščaršija vs Marijin Dvor: Where to Stay in Sarajevo",
+    metaDescription:
+      "Sarajevo's Ottoman bazaar quarter or its quiet 19th-century west? Honest take on first-time pick, noise, walkability and price.",
+    intro:
+      "Sarajevo's two obvious bases. Baščaršija is the Ottoman heart — the Sebilj fountain, the bazaar, the call to prayer at sunset. Marijin Dvor is 15-20 min west, mostly Austro-Hungarian and post-war architecture, where the parliament and the National Museum sit. Most travelers want Baščaršija. A few specifically don't.",
+    rounds: [
+      { question: "First-timer atmosphere", winner: "a", body: "Baščaršija wins by definition — this is the Sarajevo of every photo, with copper-smiths, ćevapi grills, and the Latin Bridge 5 min east. Marijin Dvor feels like Vienna with worse traffic." },
+      { question: "Walkability", winner: "a", body: "Baščaršija is at the eastern end of Ferhadija, Sarajevo's main pedestrian street. Marijin Dvor is at the western end. From Baščaršija you walk west into the city; from Marijin Dvor you walk east, longer to most things." },
+      { question: "Restaurants", winner: "a", body: "Baščaršija has the highest density of ćevapi houses, traditional pivnica, and the bazaar coffee shops. Marijin Dvor has 4-5 strong picks but no cluster." },
+      { question: "Quiet sleep", winner: "b", body: "Marijin Dvor, by a meaningful margin. Baščaršija has 6am call to prayer, scooter noise, and tour group churn from 8am. Marijin Dvor is residential calm." },
+      { question: "Price", winner: "tied", body: "Both are 30-40% cheaper than Western European equivalents. Baščaršija runs €40-€90 for decent product; Marijin Dvor €40-€80. Effectively a wash." },
+      { question: "Best for second-time visitors", winner: "b", body: "Marijin Dvor. The Tunnel Museum and Holiday Inn (Yugoslav-era) sit nearby, the trams to Ilidža start here, and you're closer to the war-history walking routes." },
+    ],
+    pickA: "Pick Baščaršija if it's your first time, your trip is 1-3 nights, and you want the Ottoman quarter at your door. The noise is the trade-off — light sleepers should go to Marijin Dvor instead.",
+    pickB: "Pick Marijin Dvor if you've been to Sarajevo before, you want a calmer base, your trip leans war-history (museums, tunnel), or you sleep light. The 15 min walk to the bazaar takes you down Ferhadija, which is the prettiest street in the city.",
+    bottomLine: "Baščaršija for the cliché Sarajevo. Marijin Dvor for the calmer, second-time version.",
+  },
+  // LYON: Vieux Lyon vs Presqu'île
+  {
+    slug: "vieux-lyon-vs-presquile",
+    citySlug: "lyon",
+    countrySlug: "france",
+    aSlug: "vieux-lyon",
+    bSlug: "presquile",
+    aLabel: "Vieux Lyon",
+    bLabel: "Presqu'île",
+    metaTitle: "Vieux Lyon vs Presqu'île: Where to Stay in Lyon",
+    metaDescription:
+      "Lyon's Renaissance UNESCO old town or the lively Presqu'île peninsula? Real differences in vibe, food, walkability and price.",
+    intro:
+      "Vieux Lyon is the postcard — Renaissance facades, traboules, the funicular up to Fourvière. Presqu'île is the lively peninsula between the Rhône and Saône, where most restaurants, shopping, and Place Bellecour sit. The pick comes down to whether you want to sleep inside the photo or where Lyonnais actually go for dinner.",
+    rounds: [
+      { question: "Pretty factor", winner: "a", body: "Vieux Lyon is the prettiest concentrated stretch in southeast France — Place du Change, the cathedral, the cobblestone alleys are why people come. Presqu'île is handsome but unremarkable in the same lineup." },
+      { question: "Restaurants", winner: "b", body: "Presqu'île wins. The Quartier des Halles, rue Mercière (yes, touristy, also good), and the bouchon strips have real density. Vieux Lyon has 30-40 bouchons in a tiny radius — most are tourist-priced and lower quality." },
+      { question: "Walkability", winner: "b", body: "Presqu'île is central — you walk to the river either way. Vieux Lyon is across the Saône, fine but adds 10 min to most things." },
+      { question: "Price", winner: "a", body: "Vieux Lyon is slightly cheaper — €110-€180 for a Renaissance-era hotel vs €130-€220 on Presqu'île. The cobblestone romance comes with smaller rooms and slow Wi-Fi." },
+      { question: "Quiet sleep", winner: "tied", body: "Vieux Lyon's restaurants close by 11pm — quiet after. Presqu'île has bar streets that go later but most stays are off the noisy stretches." },
+    ],
+    pickA: "Pick Vieux Lyon if you're staying 1-2 nights, the Renaissance setting is the point, and you can accept lower-quality bouchon dinners. It's the prettiest place to wake up in Lyon.",
+    pickB: "Pick Presqu'île for any 3+ night stay, dinner-focused trips, or first-time travelers who want everything walkable. Vieux Lyon is 10 min by foot — you'll see it at sunset and not need to sleep there.",
+    bottomLine: "Vieux Lyon for the photo. Presqu'île for the food, walkability and longer stays.",
+  },
+  // MARSEILLE: Le Panier vs Vieux Port
+  {
+    slug: "le-panier-vs-vieux-port",
+    citySlug: "marseille",
+    countrySlug: "france",
+    aSlug: "le-panier",
+    bSlug: "vieux-port",
+    aLabel: "Le Panier",
+    bLabel: "Vieux Port",
+    metaTitle: "Le Panier vs Vieux Port: Where to Stay in Marseille",
+    metaDescription:
+      "Le Panier's hilltop artisan quarter or Vieux Port's harbor-side convenience? Real-world take on noise, safety, walkability and food.",
+    intro:
+      "Marseille's two safest, most-recommended bases for a first trip. Le Panier is the hill quarter north of the harbor — narrow streets, ateliers, the Vieille Charité. Vieux Port is the C-shaped harbor with the morning fish market, ferries to Frioul and most of the city's metro intersections. Both work; the choice is hilly-pretty vs flat-and-central.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Le Panier wins on charm — pastel facades, soap shops, neighborhood feel. Vieux Port is broader and grittier; you're staying in a working harbor." },
+      { question: "Walkability", winner: "b", body: "Vieux Port is the metro hub — the M1 and M2 cross at Vieux-Port station, and bus 60 to Notre-Dame de la Garde leaves from the south side. Le Panier is uphill from any of this." },
+      { question: "Safety perception", winner: "a", body: "Le Panier feels gentler at night — pedestrian, residential, lit. The far side of Vieux Port (toward Belsunce) deteriorates fast after dark; pick a hotel south of the harbor if going Vieux Port." },
+      { question: "Restaurants", winner: "tied", body: "Le Panier has small atelier-restaurants and bouillabaisse spots. Vieux Port has the harbor-side seafood (touristy, real fish). Both fine for 2-3 nights." },
+      { question: "Day-trip logistics", winner: "b", body: "Vieux Port. Ferries to Frioul/Château d'If leave from the south side, the bus to Cassis-and-calanques starts here, and the train station is a 12-min walk." },
+    ],
+    pickA: "Pick Le Panier if you want the prettiest Marseille, you're traveling as a couple, the atelier-and-cafe wandering is the point. The hill walk to and from is 10-15 min — fine unless mobility is an issue.",
+    pickB: "Pick Vieux Port (specifically the south side, near Quai de Rive Neuve) if you have only 1-2 nights, you're doing day trips, or mobility matters. The metro saves real time over a hilly base.",
+    bottomLine: "Le Panier for the postcard Marseille. Vieux Port (south side) for logistics-first short trips.",
+  },
+  // SEVILLE: Santa Cruz vs Alameda de Hércules
+  {
+    slug: "santa-cruz-vs-alameda-de-hercules",
+    citySlug: "seville",
+    countrySlug: "spain",
+    aSlug: "santa-cruz",
+    bSlug: "alameda-de-hercules",
+    aLabel: "Santa Cruz",
+    bLabel: "Alameda",
+    metaTitle: "Santa Cruz vs Alameda de Hércules: Where to Stay in Seville",
+    metaDescription:
+      "Seville's whitewashed Jewish quarter or the lively Alameda? Concrete take on tourist crush, food, noise and which neighborhood fits each trip.",
+    intro:
+      "Santa Cruz is what you imagine — orange trees, narrow whitewashed lanes, the cathedral five minutes away. Alameda de Hércules is 15 min north — a long tree-shaded plaza ringed by tapas bars where Sevillanos actually go. The pick separates first-time tourists from repeat visitors.",
+    rounds: [
+      { question: "First-timer atmosphere", winner: "a", body: "Santa Cruz wins. The cathedral, Alcázar, and orange-tree alleys are the Seville cliché — staying inside it is what you came for." },
+      { question: "Restaurants and bars at night", winner: "b", body: "Alameda, by a wide margin. The plaza ring and side streets (Calle Trajano, Feria) stay alive past midnight with mostly local crowds. Santa Cruz tilts tourist-priced and quiets early." },
+      { question: "Walkability", winner: "a", body: "Santa Cruz is 5-10 min to the cathedral. Alameda is 15-20 min from the same. Both walk to the river — Alameda's an extra few minutes." },
+      { question: "Tourist crush", winner: "b", body: "Santa Cruz becomes nearly unwalkable mid-day in season. Alameda gets none of this — you'll feel like a local, not a guest." },
+      { question: "Price", winner: "b", body: "Alameda runs 15-25% cheaper than Santa Cruz for equivalent product, especially apartments. €70-€130 vs €100-€180 for similar quality." },
+      { question: "Best for couples on a romantic trip", winner: "a", body: "Santa Cruz, decisively — the orange-tree-and-balcony cliché works in person. Alameda is fun but unromantic." },
+    ],
+    pickA: "Pick Santa Cruz for first-time visits, romantic trips, or short stays where every minute saved on walks matters. The premium and tourist crush are real but you're paying for the prettiest setting.",
+    pickB: "Pick Alameda for return visits, food-and-bar focused trips, longer stays, or anyone who wants a real Sevillano evening. The 15 min walk to the cathedral becomes a daily ritual you'll enjoy.",
+    bottomLine: "Santa Cruz for the cliché. Alameda for the local feel.",
+  },
+  // VALENCIA: Ciutat Vella vs Ruzafa
+  {
+    slug: "ciutat-vella-vs-ruzafa",
+    citySlug: "valencia",
+    countrySlug: "spain",
+    aSlug: "ciutat-vella",
+    bSlug: "ruzafa",
+    aLabel: "Ciutat Vella",
+    bLabel: "Ruzafa",
+    metaTitle: "Ciutat Vella vs Ruzafa: Where to Stay in Valencia",
+    metaDescription:
+      "Valencia's medieval old town or the trendy Ruzafa quarter? Honest comparison: cathedral access, food, noise, price and trip fit.",
+    intro:
+      "Ciutat Vella covers the medieval core — the cathedral, the silk exchange, the central market. Ruzafa is south of the train station, the converted-warehouse food-and-bar quarter where Valencianos under 40 actually go. Both work; the trip changes a lot between them.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Ciutat Vella. Cathedral, Mercado Central, Lonja, Torres de Serranos all walking. Ruzafa is 15-20 min south of any of these." },
+      { question: "Restaurants and bars", winner: "b", body: "Ruzafa, decisively. Calle Cádiz, Cuba, Sueca form the densest dinner-and-cocktail strip in the city. Ciutat Vella has touristy paella spots and not much past 11pm." },
+      { question: "Best for paella eating", winner: "tied", body: "Both terrible for paella — go to Malvarrosa or Pinedo on the coast. Ciutat Vella's central paella places are tourist traps; Ruzafa's are better but still indoor." },
+      { question: "Quiet sleep", winner: "a", body: "Ciutat Vella, marginally. Ruzafa's nightlife streets stay loud Thursday-Saturday until 3am. Both have side streets that stay quiet." },
+      { question: "Atmosphere", winner: "tied", body: "Ciutat Vella is medieval-historic-tourist. Ruzafa is converted-warehouse-design-young. Both feel real Valencia. Pick on age and energy, not authenticity." },
+    ],
+    pickA: "Pick Ciutat Vella for first-time visits, sights-focused trips, anyone over 50, and stays under 3 nights where you don't want to walk twice as much. It's the obvious first choice.",
+    pickB: "Pick Ruzafa for return visits, food-and-cocktail trips, anyone under 40 who wants the trendy Valencia, or stays of 4+ nights where the nightlife matters. The walk to the cathedral takes 15 min through the old quarter — worth doing.",
+    bottomLine: "Ciutat Vella for the historic Valencia. Ruzafa for the food-and-design Valencia.",
+  },
+  // EDINBURGH: Old Town vs New Town
+  {
+    slug: "old-town-vs-new-town",
+    citySlug: "edinburgh",
+    countrySlug: "united-kingdom",
+    aSlug: "old-town-edinburgh",
+    bSlug: "new-town-edinburgh",
+    aLabel: "Old Town",
+    bLabel: "New Town",
+    metaTitle: "Old Town vs New Town: Where to Stay in Edinburgh",
+    metaDescription:
+      "Edinburgh's medieval Royal Mile or its Georgian New Town? Honest comparison: noise, walkability, restaurants, festival timing and price.",
+    intro:
+      "Old Town runs along the volcanic ridge — the Royal Mile, the castle, Grassmarket. New Town is the Georgian grid north of Princes Street — wider streets, taller hotels, the shopping. They're both UNESCO. The choice is medieval-and-loud vs Georgian-and-calm.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Old Town wins. Castle, Royal Mile, Holyrood, the Vaults, Underground tours — all on a single ridge. New Town has the National Gallery and the shopping; less iconic." },
+      { question: "Quiet sleep", winner: "b", body: "New Town, by a wide margin. Old Town's Cowgate and Grassmarket bars run until 3am, and pub-crawl noise spills over into hotel rooms on Cockburn Street and Niddry. New Town is residential after midnight." },
+      { question: "Restaurants", winner: "tied", body: "Old Town has high-density tourist restaurants with mixed quality. New Town's Stockbridge edge and Thistle Street have better picks but lower density. Both fine for 2-3 nights." },
+      { question: "Festival timing (August)", winner: "a", body: "Old Town wins for the Fringe — venues are at your door, you can do 5-6 shows in a day. New Town adds 10-15 min walking to most venues; doable but a tax." },
+      { question: "Price", winner: "tied", body: "Old Town and New Town are roughly equivalent — €150-€280/night for decent product. Festival pricing (August) doubles both." },
+      { question: "Best for first-timers", winner: "a", body: "Old Town. The atmosphere is the city's main draw — the Royal Mile lit at night, closes leading off, the volcanic-ridge layout. New Town feels like Bath or Bloomsbury — handsome, generic." },
+    ],
+    pickA: "Pick Old Town for first-time visits, festival stays, sights-focused trips, anyone who wants the medieval Edinburgh atmosphere. Bring earplugs for weekend nights.",
+    pickB: "Pick New Town for return visits, longer stays, families with young kids, or anyone who sleeps light. The Royal Mile is 10 min walk uphill — that's part of the daily routine.",
+    bottomLine: "Old Town for the atmosphere. New Town for the calm sleep.",
+  },
+  // HAMBURG: Sternschanze vs St. Pauli
+  {
+    slug: "sternschanze-vs-st-pauli",
+    citySlug: "hamburg",
+    countrySlug: "germany",
+    aSlug: "sternschanze",
+    bSlug: "st-pauli",
+    aLabel: "Sternschanze",
+    bLabel: "St. Pauli",
+    metaTitle: "Sternschanze vs St. Pauli: Where to Stay in Hamburg",
+    metaDescription:
+      "Hamburg's punk-leftist Schanze or the Reeperbahn's St. Pauli? Real-world differences in vibe, noise, food and which trip each fits.",
+    intro:
+      "These are Hamburg's two famous post-industrial quarters and they're not interchangeable. Sternschanze is the punk-leftist quarter — stencil graffiti, vegan döner, the Rote Flora squat. St. Pauli is the Reeperbahn — sex shops, music venues, FC St. Pauli football, more tourist-aware. Both are alive past 3am.",
+    rounds: [
+      { question: "Vibe", winner: "tied", body: "Schanze is grittier, more political, the bar scene is local-and-leftist. St. Pauli is rowdier, more bachelor parties on weekends, more music-and-bar tourism. Pick on what you want from a night out." },
+      { question: "Quiet sleep", winner: "a", body: "Schanze marginally — the bars are quieter than the Reeperbahn, and most are on side streets. St. Pauli's main strip is a wall of noise until 5am Friday and Saturday." },
+      { question: "Walkability to the harbor", winner: "b", body: "St. Pauli wins. The Landungsbrücken (harbor) and the Elbphilharmonie are 15-20 min walk. Schanze is 25-30 min from either." },
+      { question: "Restaurants", winner: "a", body: "Schanze is the better food quarter — Schulterblatt and Susannenstraße have density of small kitchens, vegan-and-Turkish-and-craft-pizza. St. Pauli's restaurants are mostly bar food." },
+      { question: "Family safe", winner: "tied", body: "Both fine during the day. Both inappropriate Friday-Saturday nights, especially around children. Schanze is the safer choice if traveling with teens." },
+    ],
+    pickA: "Pick Schanze if you want the political, food-focused, Berlin-of-Hamburg version. The vibe rewards 3+ nights.",
+    pickB: "Pick St. Pauli if the music venues and Reeperbahn are the point, you're under 35, and you accept that weekend-night sleep is impossible. The Beatles-tour walks start here too.",
+    bottomLine: "Schanze for the food-and-leftist Hamburg. St. Pauli for the music-and-Reeperbahn Hamburg.",
+  },
+  // SANTORINI: Oia vs Fira
+  {
+    slug: "oia-vs-fira",
+    citySlug: "santorini",
+    countrySlug: "greece",
+    aSlug: "oia",
+    bSlug: "fira",
+    aLabel: "Oia",
+    bLabel: "Fira",
+    metaTitle: "Oia vs Fira: Where to Stay in Santorini",
+    metaDescription:
+      "Oia's famous sunset village or Fira's busy capital? Honest, dimension-by-dimension take on price, crowds, transport and which one to actually book.",
+    intro:
+      "These are Santorini's two famous towns and the tourism industry funnels everyone toward Oia by default. The reality is messier — Oia gets unbearable at sunset, Fira is the actual transport hub, and the price gap is large. Both are caldera-edge with white-and-blue. The trip changes a lot between them.",
+    rounds: [
+      { question: "Sunset photo", winner: "a", body: "Oia wins by definition — this is the Santorini-sunset cliché. The catch is you'll share it with 1500 other people on a peak July evening. Plan 90 min ahead for a spot." },
+      { question: "Transport hub", winner: "b", body: "Fira is the bus station for the whole island — every line passes through here. From Oia you take a bus to Fira, then transfer. Adds 30-45 min to most day trips." },
+      { question: "Price", winner: "b", body: "Fira is 30-50% cheaper than Oia for equivalent product. A caldera-view room in Oia runs €350-€800+ in season; the same view in Fira is €200-€450." },
+      { question: "Restaurant choice", winner: "b", body: "Fira has more density — bigger town, more kitchens, more price points. Oia has 30-40 caldera-edge tables, all premium-priced." },
+      { question: "Quiet sleep", winner: "a", body: "Oia, by a meaningful margin. Once the sunset crowd disperses (~9:30pm), it's silent. Fira has bar streets that go to 3am in the area near the cable car." },
+      { question: "Best for honeymoon photo", winner: "a", body: "Oia, decisively. The blue-domed-church-and-windmill stretch is the photo. Fira's caldera edge is impressive but doesn't have the same iconic frame." },
+    ],
+    pickA: "Pick Oia if it's a honeymoon, you only have 1-2 nights, you're paying premium and want the cliché. Book a hotel inside the village so you avoid the bus-and-walk to sunset.",
+    pickB: "Pick Fira for any 3+ night stay, day-tripping focus, budget-conscious trips, or repeat visits to Santorini. The caldera view is just as good — the marketing focus on Oia masks this.",
+    bottomLine: "Oia for the photo and the honeymoon. Fira for everyone else.",
+  },
+  // SANTORINI: Oia vs Imerovigli
+  {
+    slug: "oia-vs-imerovigli",
+    citySlug: "santorini",
+    countrySlug: "greece",
+    aSlug: "oia",
+    bSlug: "imerovigli",
+    aLabel: "Oia",
+    bLabel: "Imerovigli",
+    metaTitle: "Oia vs Imerovigli: Quietest Caldera Stays in Santorini",
+    metaDescription:
+      "Famous Oia or quieter Imerovigli on the caldera ridge? Real differences in crowds, sunset viewing, price and walkability.",
+    intro:
+      "Imerovigli is the Santorini secret most travel-pros recommend over Oia. It sits on the highest point of the caldera, 5 min from Fira, with the same blue-and-white architecture and almost none of the sunset crush. Oia is more famous; Imerovigli is what people who've been twice book.",
+    rounds: [
+      { question: "Caldera view", winner: "tied", body: "Both are exceptional — Imerovigli is actually the highest point, with a wider angle on the volcano. The view itself is a wash; the experience around it isn't." },
+      { question: "Sunset crowd", winner: "b", body: "Imerovigli, by a wide margin. You'll see the same sunset from your terrace with 5-10 other guests, not 1500 strangers. Oia is the most crowded sunset in Greece in July." },
+      { question: "Price", winner: "b", body: "Imerovigli runs 15-25% cheaper than Oia for the same product — €280-€650 vs €350-€800 for caldera-suite product." },
+      { question: "Restaurants and town life", winner: "a", body: "Oia is a real village — main pedestrian street, dozens of restaurants, shops. Imerovigli is mostly hotels and 3-4 restaurants. You'll drive to Fira or Oia for variety." },
+      { question: "Walkability", winner: "tied", body: "Both have the caldera path — you can walk Imerovigli to Fira in 30 min, Imerovigli to Oia in 2-3 hours. Both are heel-killers in summer heat." },
+    ],
+    pickA: "Pick Oia if it's a 1-2 night peak-season trip and you want the village-life-plus-sunset cliché. Accept that it'll be crowded.",
+    pickB: "Pick Imerovigli for honeymoons that prioritize the view-from-your-terrace over the village, longer stays, or anyone who's done Oia and wants the calmer alternative. Best caldera-view-per-dollar on the island.",
+    bottomLine: "Oia for the village-and-photo. Imerovigli for the calmest caldera-side luxury.",
+  },
+  // CAPPADOCIA: Göreme vs Uçhisar
+  {
+    slug: "goreme-vs-uchisar",
+    citySlug: "cappadocia",
+    countrySlug: "turkey",
+    aSlug: "goreme",
+    bSlug: "uchisar",
+    aLabel: "Göreme",
+    bLabel: "Uçhisar",
+    metaTitle: "Göreme vs Uçhisar: Where to Stay in Cappadocia",
+    metaDescription:
+      "Göreme's central balloon-launch town or Uçhisar's quieter castle ridge? Real take on hot-air balloon viewing, restaurants, transport and price.",
+    intro:
+      "Almost everyone defaults to Göreme — it's the launch zone for the morning balloons and the closest town to the open-air museums. Uçhisar is 5 km west on a dramatic castle-rock ridge, calmer, with arguably the best cave-hotel views. Both work for a 2-3 night Cappadocia stay.",
+    rounds: [
+      { question: "Balloon launch zone", winner: "a", body: "Göreme is the launch town — most balloons inflate within 1 km of central hotels. From Uçhisar you see the balloons rising over the valley but you're not inside the launch zone." },
+      { question: "Balloon photo from your terrace", winner: "tied", body: "Both excellent. Göreme cave-hotel terraces have balloons directly overhead; Uçhisar has balloons rising in the middle distance with the castle silhouette in foreground. Both Instagram-defining." },
+      { question: "Restaurants and town life", winner: "a", body: "Göreme has a real main street with 20+ restaurants, bars, and dozens of cave hotels. Uçhisar has 5-6 restaurants and feels village-quiet at night." },
+      { question: "Walkability to museums", winner: "a", body: "Göreme Open-Air Museum is 1.5 km from central Göreme — walkable. From Uçhisar it's 4 km; you'll want a transfer or rental car." },
+      { question: "Quiet sleep", winner: "b", body: "Uçhisar, decisively. Göreme has tour group churn from 5am (balloon pickup), restaurant noise until midnight, and main-road traffic. Uçhisar is silent past 9pm." },
+      { question: "Cave hotel quality", winner: "tied", body: "Both excellent. Göreme has the cluster — Sultan Cave Suites, Mithra, Kelebek. Uçhisar's properties (Argos in Cappadocia, Museum Hotel) are pricier but tend toward higher-end." },
+    ],
+    pickA: "Pick Göreme if it's your first Cappadocia trip, you want walkability and restaurant variety, you're ok with 5am tour-group noise. Most balloon photos are taken from Göreme terraces.",
+    pickB: "Pick Uçhisar for honeymoons, return visits, or anyone willing to drive 5 min into Göreme for dinner in exchange for calmer sleep and more dramatic exterior settings. The castle and the views are unmatched.",
+    bottomLine: "Göreme for first-timers and balloon-launch convenience. Uçhisar for honeymoons and quietest sleep.",
+  },
+  // SPLIT: Diocletian's Palace vs Veli Varoš
+  {
+    slug: "diocletians-palace-vs-veli-varos",
+    citySlug: "split",
+    countrySlug: "croatia",
+    aSlug: "diocletians-palace",
+    bSlug: "veli-varos",
+    aLabel: "Diocletian's Palace",
+    bLabel: "Veli Varoš",
+    metaTitle: "Diocletian's Palace vs Veli Varoš: Where to Stay in Split",
+    metaDescription:
+      "Sleeping inside the Roman palace or the local fishermen's quarter? Honest take on noise, atmosphere, food and which Split trip each fits.",
+    intro:
+      "Diocletian's Palace is exactly what it sounds like — a stay inside the 1700-year-old Roman palace walls, with stone-vaulted apartments and the cathedral 30 seconds from your door. Veli Varoš is the old fishermen's quarter on the slope of Marjan hill, 10 min west — narrow stone lanes, none of the cruise-ship crowds. Both are old Split. They feel different.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Diocletian's Palace, by definition — you sleep inside Roman walls, walk past the Peristyle to coffee, share alleys with cathedral bells. Veli Varoš is pretty but lacks the historical density." },
+      { question: "Cruise-ship crowds", winner: "b", body: "The Palace becomes nearly unwalkable 10am-4pm in season. Veli Varoš gets none of this — you walk down to the Riva for the harbor view and back to silence." },
+      { question: "Restaurants past 9pm", winner: "tied", body: "Palace has the most density — 20+ konobas in tiny radius — but most are tourist-priced. Veli Varoš has 5-6 strong picks (Konoba Matejuška, Bokeria nearby), better quality, less choice." },
+      { question: "Walkability to ferries", winner: "a", body: "Palace wins. The Riva and the ferry port are 5 min south. Veli Varoš adds 10-15 min for any Hvar/Brač day trip." },
+      { question: "Quiet sleep", winner: "b", body: "Veli Varoš, decisively. The Palace gets pre-dawn cruise-pickup noise and bar noise on Pjaca; Veli Varoš is residential after 11pm." },
+      { question: "Walking to Marjan hill", winner: "b", body: "Veli Varoš is the gateway to Marjan hill — the trailhead is 5 min from any address. Palace is 20 min from the trail." },
+    ],
+    pickA: "Pick the Palace if it's your first Split trip, your stay is 1-2 nights, the experience-of-sleeping-in-the-palace is the point. Bring earplugs for weekend nights.",
+    pickB: "Pick Veli Varoš for return visits, families, hiking-focused trips up Marjan, longer stays, or anyone who wants Split without cruise-ship Friday afternoons.",
+    bottomLine: "Diocletian's Palace for the Roman-walls experience. Veli Varoš for the calmer, hike-friendly local Split.",
+  },
+  // DUBROVNIK: Old Town vs Lapad
+  {
+    slug: "old-town-vs-lapad",
+    citySlug: "dubrovnik",
+    countrySlug: "croatia",
+    aSlug: "old-town-dubrovnik",
+    bSlug: "lapad",
+    aLabel: "Old Town",
+    bLabel: "Lapad",
+    metaTitle: "Old Town vs Lapad: Where to Stay in Dubrovnik",
+    metaDescription:
+      "The walled city or the beach-side Lapad peninsula? Real-world take on cruise crush, swimming, price and which Dubrovnik trip each suits.",
+    intro:
+      "Dubrovnik's two real options. Old Town is the walled city — sleeping inside the photo, with the Stradun and the city walls 30 seconds away. Lapad is 4 km west on a leafy peninsula — actual beaches, big resort hotels, none of the cruise-ship daytime crush. Honeymooners often default to Old Town. They're often wrong.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Old Town wins. Stradun at sunrise before the cruise ships, dinner on a stone alley, the city walls lit at midnight — these are the trip. Lapad is pretty but unremarkable." },
+      { question: "Cruise crush", winner: "b", body: "Old Town becomes unwalkable 10am-4pm peak season. Lapad gets none of this — you swim, lunch, and arrive at Old Town at 5pm when crowds thin." },
+      { question: "Beach access", winner: "b", body: "Lapad has Sunset Beach, Lapad Beach, and Cava Beach all within 10 min walk. Old Town has Banje (small, crowded) and Buža (cliff-jump bar). For a swim-focused trip, Lapad wins easily." },
+      { question: "Price", winner: "b", body: "Lapad averages 25-40% cheaper than Old Town. Old Town's tiny stone-vaulted rooms run €250-€500 in season; Lapad's larger sea-view rooms run €150-€300." },
+      { question: "Restaurants", winner: "tied", body: "Old Town has more density but most are tourist-priced and mid-quality. Lapad has fewer options but better price-to-quality ratio. Both fine for 3-4 nights." },
+      { question: "Walkability to Old Town from Lapad", winner: "tied", body: "Lapad is 4 km — bus 6 takes 15 min. Walking is 45 min along the harbor. Most travelers find this fine after night two." },
+    ],
+    pickA: "Pick Old Town if your stay is 1-2 nights, you want the walled-city sunrise, and you can sleep through the cathedral bells. The atmosphere is the trip.",
+    pickB: "Pick Lapad for any swim-focused stay, longer trips of 4+ nights, families, honeymoons that prioritize sea-view-and-pool, or budget-conscious travelers. The bus to Old Town runs every 15 min — that's not a downside.",
+    bottomLine: "Old Town for the walled-city atmosphere. Lapad for the beach-and-pool trip.",
+  },
+  // WARSAW: Śródmieście vs Powiśle
+  {
+    slug: "srodmiescie-vs-powisle",
+    citySlug: "warsaw",
+    countrySlug: "poland",
+    aSlug: "srodmiescie-polnocne",
+    bSlug: "powisle",
+    aLabel: "Śródmieście",
+    bLabel: "Powiśle",
+    metaTitle: "Śródmieście vs Powiśle: Where to Stay in Warsaw",
+    metaDescription:
+      "Warsaw's central business district or the leafy riverside Powiśle? Honest take on walkability, food, noise and which Warsaw trip each fits.",
+    intro:
+      "Śródmieście Północne is the central business core — Palace of Culture, the central station, all the shopping. Powiśle is south of the Old Town along the Vistula — leafy, more residential, the new Warsaw of design hotels and riverside cafes. Old Town gets all the photos but most travel-savvy visitors actually base in one of these two.",
+    rounds: [
+      { question: "Walkability to Old Town", winner: "tied", body: "Śródmieście is 15-20 min north walk; Powiśle is 10-15 min northeast. Both fine. Both run trams that get you there in 8 min." },
+      { question: "Restaurants and bars", winner: "b", body: "Powiśle wins for quality. The riverside strip and the area around Centrum Nauki Kopernik have the best new-Warsaw food. Śródmieście's restaurants tilt corporate-lunch." },
+      { question: "Atmosphere", winner: "b", body: "Powiśle feels alive at evenings and weekends — locals walking dogs, riverbank picnics, design shops. Śródmieście empties after office hours." },
+      { question: "Train station access", winner: "a", body: "Śródmieście has the central station at its heart — Warsaw to Krakow trains, Berlin trains, Modlin Airport bus. Powiśle is 10 min east." },
+      { question: "Price", winner: "tied", body: "Both reasonable for capital-city stays — €70-€140 for decent product. Powiśle's design hotels nudge slightly higher but Śródmieście's chain hotels at the same price are inferior product." },
+    ],
+    pickA: "Pick Śródmieście Północne for short business-style stays, train-heavy itineraries (Krakow day trips), or stays where you specifically want anonymous chain-hotel comfort. The neighborhood lacks soul but it's efficient.",
+    pickB: "Pick Powiśle for any 3+ night stay, food-focused trips, repeat visits, or anyone who wants the leafy riverside Warsaw most travelers don't see. It's where Warsaw's becoming what it'll be.",
+    bottomLine: "Śródmieście for transport convenience. Powiśle for the food, river walks and longer stays.",
+  },
+  // OSLO: Sentrum vs Grünerløkka
+  {
+    slug: "sentrum-vs-grunerlokka",
+    citySlug: "oslo",
+    countrySlug: "norway",
+    aSlug: "sentrum-oslo",
+    bSlug: "grunerlokka",
+    aLabel: "Sentrum",
+    bLabel: "Grünerløkka",
+    metaTitle: "Sentrum vs Grünerløkka: Where to Stay in Oslo",
+    metaDescription:
+      "Oslo's compact central core or the trendy Grünerløkka quarter? Honest take on sights access, food, atmosphere and price.",
+    intro:
+      "Oslo is small enough that this is a 15-min walk between bases, but the trips read very differently. Sentrum is the central core — Karl Johans gate, the Royal Palace, Oslo Central Station. Grünerløkka is the post-industrial east-bank quarter where Oslovians under 40 actually live and eat. The pick is sights-first vs food-first.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Sentrum wins. Royal Palace, Parliament, the National Theatre, train station, ferry to Bygdøy — all 5-10 min walk. Grünerløkka adds 15-20 min to most central sights." },
+      { question: "Restaurants", winner: "b", body: "Grünerløkka, decisively. Mathallen food hall, Søndre Brun, Olaf Ryes plass — denser per-block than anywhere central. Sentrum's restaurants are mostly hotel restaurants and chain outlets." },
+      { question: "Atmosphere after office hours", winner: "b", body: "Grünerløkka stays alive past 11pm; Sentrum thins fast after 9pm. Norwegian capital evenings happen on the east bank, not the west." },
+      { question: "Price", winner: "b", body: "Grünerløkka runs 10-15% cheaper than Sentrum for equivalent product. Both are expensive — Norway is Norway — but the gap is real." },
+      { question: "Family-friendly", winner: "b", body: "Grünerløkka. Olaf Ryes plass and the riverside are kid-friendly, the cafes are stroller-aware, and the streets are calmer than Sentrum's traffic." },
+    ],
+    pickA: "Pick Sentrum if you're staying 1 night between flights, your trip is sights-only, or you specifically need the train-station-at-the-door logistics for fjord trips.",
+    pickB: "Pick Grünerløkka for any 3+ night stay, food-focused trips, families, or repeat visits. The 15-min walk to the harbor is exactly the right length for an Oslo day to start and end.",
+    bottomLine: "Sentrum for sights-only flying visits. Grünerløkka for everyone else.",
+  },
+  // HELSINKI: Kruununhaka vs Kallio
+  {
+    slug: "kruununhaka-vs-kallio",
+    citySlug: "helsinki",
+    countrySlug: "finland",
+    aSlug: "kruununhaka",
+    bSlug: "kallio",
+    aLabel: "Kruununhaka",
+    bLabel: "Kallio",
+    metaTitle: "Kruununhaka vs Kallio: Where to Stay in Helsinki",
+    metaDescription:
+      "Helsinki's quiet historic core or the lively Kallio? Real differences in price, food, atmosphere and who each fits.",
+    intro:
+      "Kruununhaka is the original Helsinki — Senate Square, the cathedral, the old Russian-era stone facades. Kallio is one tram stop north, formerly working-class, now the bar-and-design-shop quarter where most under-30 Helsinki residents actually live. Both walkable to anywhere.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Kruununhaka wins. Senate Square, Helsinki Cathedral, the harbor and the ferry to Suomenlinna are all under 10 min walk. Kallio is 15-20 min from any of these." },
+      { question: "Restaurants and bars", winner: "b", body: "Kallio, decisively. Helsinginkatu and Hämeentie have the most bar density per block in Finland — local wine bars, dive bars, late-night pizza, all walkable." },
+      { question: "Quiet sleep", winner: "a", body: "Kruununhaka. Residential, cathedral-quiet, almost no late-night noise. Kallio's main strips run loud until 2-3am Friday-Saturday." },
+      { question: "Price", winner: "b", body: "Kallio runs 15-25% cheaper than Kruununhaka. Helsinki is expensive across the board — €130-€230 for decent Kruununhaka product, €100-€180 in Kallio." },
+      { question: "Atmosphere", winner: "tied", body: "Kruununhaka feels Stockholm-quiet-elegant; Kallio feels Berlin-Kreuzberg-affordable. Both feel real Helsinki — pick on age and what you want from a night out." },
+    ],
+    pickA: "Pick Kruununhaka if your trip is sights-and-Suomenlinna focused, you're over 40, you sleep light, or you specifically want the Russian-era atmosphere. Most repeat visitors agree it's the prettiest part of Helsinki.",
+    pickB: "Pick Kallio for return visits, dinner-focused trips, anyone under 35 who wants the lively side, or stays of 4+ nights where you want a real local feel. The tram to the cathedral runs every 5 min.",
+    bottomLine: "Kruununhaka for the sights-and-history Helsinki. Kallio for the food-and-bars Helsinki.",
+  },
+  // SALZBURG: Altstadt vs Neustadt
+  {
+    slug: "altstadt-vs-neustadt-salzburg",
+    citySlug: "salzburg",
+    countrySlug: "austria",
+    aSlug: "altstadt-salzburg",
+    bSlug: "neustadt",
+    aLabel: "Altstadt",
+    bLabel: "Neustadt",
+    metaTitle: "Altstadt vs Neustadt: Where to Stay in Salzburg",
+    metaDescription:
+      "Salzburg's UNESCO old town or the right-bank Neustadt? Honest comparison: walkability, price, noise and which side fits your trip.",
+    intro:
+      "Salzburg's choice is left-bank Altstadt (the Mozart-and-fortress side) or right-bank Neustadt (the Mirabell-and-train-station side). They're connected by 4 short bridges and the city is small enough to walk anywhere. The pick is mostly about price and atmosphere — both work.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Altstadt wins by definition — Mozart's birthplace, the cathedral, Hohensalzburg fortress base, all 5-10 min walk. Neustadt has Mirabell Palace and gardens, the Mozarteum, less iconic." },
+      { question: "Walkability", winner: "tied", body: "The Altstadt is car-free pedestrian, charm-dense. Neustadt has wider streets and the train station. Cross the Salzach in 5 min — neither side feels far from anything." },
+      { question: "Price", winner: "b", body: "Neustadt runs 20-30% cheaper than Altstadt for equivalent product — €120-€220 vs €170-€350. Altstadt's premium is for the cobblestone setting, not better rooms." },
+      { question: "Sound of Music tour", winner: "b", body: "Neustadt — Mirabell Gardens (the Do-Re-Mi steps) are at your door, and bus tours leave from this side." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet after 10pm. Altstadt has dinner-tour-group noise around Getreidegasse until 11pm; Neustadt has occasional train-station noise on Rainerstraße. Side streets in either are silent." },
+      { question: "Festival timing", winner: "a", body: "Altstadt — the festival venues (Felsenreitschule, Festspielhaus) are on this side. Festival traffic and pricing nearly double both sides in late July/August." },
+    ],
+    pickA: "Pick Altstadt for first-time visits, festival-week stays, sights-focused trips, or anyone willing to pay 20-30% premium for the cobblestone-and-fortress setting.",
+    pickB: "Pick Neustadt for budget-conscious trips, train-heavy itineraries (Vienna day trips), Sound of Music tours, or longer stays. The 5-min bridge walk to Altstadt is part of the daily routine.",
+    bottomLine: "Altstadt for the cliché Salzburg. Neustadt for budget and Sound of Music focus.",
+  },
+  // ZURICH: Niederdorf vs Kreis 4/5
+  {
+    slug: "niederdorf-vs-kreis-4-5",
+    citySlug: "zurich",
+    countrySlug: "switzerland",
+    aSlug: "niederdorf",
+    bSlug: "kreis-4-5",
+    aLabel: "Niederdorf",
+    bLabel: "Kreis 4 / 5",
+    metaTitle: "Niederdorf vs Kreis 4/5: Where to Stay in Zurich",
+    metaDescription:
+      "Zurich's medieval Niederdorf or the trendy Kreis 4/5? Real take on walkability, food, vibe and price for a Zurich city break.",
+    intro:
+      "Niederdorf is the medieval right-bank quarter — narrow lanes, Grossmünster, Lake Zurich at the south end. Kreis 4 (Langstrasse) and Kreis 5 (Zurich-West) are former industrial quarters now turned bar-and-design — Frau Gerolds Garten, Prime Tower, the Viadukt arches. Both are alive at night. The pick depends on whether you want medieval or post-industrial.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Niederdorf is cobblestone, dinner-tourist, lake-adjacent. Kreis 4/5 is converted-warehouse, design-shop, gritty in spots. Both feel genuinely Zurich — pick on what kind of evening you want." },
+      { question: "Walkability to lake", winner: "a", body: "Niederdorf wins — Bürkliplatz and the lake promenade are 5-10 min south. Kreis 4/5 is 15-20 min from the lake." },
+      { question: "Restaurants and bars", winner: "b", body: "Kreis 4/5, by a wide margin. Im Viadukt and Hardbrücke have the highest density of new-design restaurants in Switzerland. Niederdorf has cluster of touristy fondue-and-rösti places." },
+      { question: "Price", winner: "b", body: "Kreis 4/5 runs 10-20% cheaper than Niederdorf. Both expensive — this is Zurich — but the gap is real. €180-€350 in Kreis 4/5 vs €220-€450 in Niederdorf for similar product." },
+      { question: "Quiet sleep", winner: "tied", body: "Niederdorf has restaurant noise until 11pm. Langstrasse (in Kreis 4) is the loudest stretch in Zurich on weekends. Pick a side street in either and you're fine." },
+      { question: "Best for first-timers", winner: "a", body: "Niederdorf. The medieval-old-town-on-a-lake setting is what people come to Zurich for. Kreis 4/5 reads better on second visits." },
+    ],
+    pickA: "Pick Niederdorf for first-time visits, sights-and-lake-focused trips, anyone who wants the cobblestone setting. The premium is real but you're paying for the most iconic stretch of Zurich.",
+    pickB: "Pick Kreis 4/5 for return visits, food-and-bar trips, design-focused itineraries, or anyone who wants Zurich without paying old-town prices. Hardbrücke station gives you 4-min S-Bahn to the airport.",
+    bottomLine: "Niederdorf for the postcard Zurich. Kreis 4/5 for the food, design and second-visit Zurich.",
+  },
+  // ZAGREB: Donji Grad vs Gornji Grad
+  {
+    slug: "donji-grad-vs-gornji-grad",
+    citySlug: "zagreb",
+    countrySlug: "croatia",
+    aSlug: "donji-grad",
+    bSlug: "gornji-grad",
+    aLabel: "Donji Grad",
+    bLabel: "Gornji Grad",
+    metaTitle: "Donji Grad vs Gornji Grad: Where to Stay in Zagreb",
+    metaDescription:
+      "Zagreb's lively lower town or the medieval Upper Town? Honest take on walkability, food, sights and which fits your trip.",
+    intro:
+      "Zagreb's two halves. Donji Grad (Lower Town) is the 19th-century grid — Ban Jelačić Square, Tkalčićeva, the Mimara museum, most of the city's restaurants. Gornji Grad (Upper Town) is the medieval quarter on the hill — St. Mark's Church, the funicular, the Lotrščak Tower. The Lower Town gets the food; the Upper Town gets the photos.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Donji Grad is wide-boulevard 19th-century-Vienna; Gornji Grad is medieval-quiet-cobblestone. Both feel Zagreb. Pick on what you want from your evening." },
+      { question: "Restaurants and bars", winner: "a", body: "Donji Grad, decisively. Tkalčićeva alone has 50+ kitchens; Cvjetni trg, Bogovićeva, and Ilica add more. Gornji Grad has 5-6 picks max." },
+      { question: "Sights at your door", winner: "tied", body: "Donji Grad has Ban Jelačić Square, Dolac market, Mimara museum, Botanical Garden. Gornji Grad has Cathedral, St. Mark's, the funicular. Both fine for a 2-3 night stay." },
+      { question: "Walkability between", winner: "tied", body: "5-10 min walk between any address in either. The funicular is 1 minute and free if you have a city card. Effectively the same neighborhood logistically." },
+      { question: "Quiet sleep", winner: "b", body: "Gornji Grad, by a meaningful margin. Donji Grad's Tkalčićeva and Bogovićeva run loud until 1am Thursday-Saturday. Gornji Grad is silent past 10pm." },
+      { question: "Price", winner: "tied", body: "Both €70-€130 for decent product. Gornji Grad has fewer hotels (mostly small boutiques); Donji Grad has chains and apartments." },
+    ],
+    pickA: "Pick Donji Grad for first-time visits, food-and-bar trips, longer stays. It's where Zagreb actually happens — Gornji Grad is mostly a daytime destination from below.",
+    pickB: "Pick Gornji Grad for romantic trips, repeat visits, or anyone who wants the medieval-cobblestone setting and quiet sleep. The walk down to dinner takes 5 min — that's the whole tradeoff.",
+    bottomLine: "Donji Grad for food, bars and longer stays. Gornji Grad for the medieval quiet.",
+  },
+  // BORDEAUX: Saint-Pierre vs Chartrons
+  {
+    slug: "saint-pierre-vs-chartrons",
+    citySlug: "bordeaux",
+    countrySlug: "france",
+    aSlug: "saint-pierre",
+    bSlug: "chartrons",
+    aLabel: "Saint-Pierre",
+    bLabel: "Chartrons",
+    metaTitle: "Saint-Pierre vs Chartrons: Where to Stay in Bordeaux",
+    metaDescription:
+      "Bordeaux's medieval Saint-Pierre or the Chartrons wine quarter? Real comparison of restaurants, walkability, atmosphere and price.",
+    intro:
+      "Saint-Pierre is the medieval heart — Place du Parlement, Rue Sainte-Catherine, the cathedral 5 min away. Chartrons is the historic wine-merchant quarter on the river just north — antique shops, cellar-door wine bars, the Cité du Vin 15 min further. Both work for first-timers; they read different.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Saint-Pierre is medieval, dinner-dense, cobblestone. Chartrons is wider streets, more village-feeling, with the river walk at the eastern edge. Both feel Bordeaux." },
+      { question: "Walkability to Place de la Bourse", winner: "a", body: "Saint-Pierre is 5 min from Place de la Bourse and the water mirror. Chartrons is 15 min north along the river — fine, longer." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Saint-Pierre wins. Place du Parlement and Rue Saint-James have density of late kitchens. Chartrons quiets earlier — 10pm last seating common." },
+      { question: "Wine bars", winner: "b", body: "Chartrons. The wine-merchant heritage is real — Aux Quatre Coins du Vin, Le Bar à Vin du CIVB nearby, plus dozens of cellar-doors. Saint-Pierre has wine bars but less variety." },
+      { question: "Quiet sleep", winner: "b", body: "Chartrons, decisively. Saint-Pierre's Rue Sainte-Catherine and Rue des Bahutiers run loud until 1am weekends. Chartrons is residential calm after 11pm." },
+      { question: "Price", winner: "tied", body: "Both €100-€180 for decent product. Chartrons trends slightly cheaper for apartments; Saint-Pierre slightly cheaper for boutique hotels." },
+    ],
+    pickA: "Pick Saint-Pierre for first-time visits, dinner-focused trips, sights-at-the-door logistics. The cobblestone setting is the city's main draw.",
+    pickB: "Pick Chartrons for wine-focused trips, longer stays, families, or anyone who wants quieter sleep with a 15-min walk to the medieval core. The Cité du Vin is 10 min further north — great if it's on your itinerary.",
+    bottomLine: "Saint-Pierre for the medieval heart. Chartrons for the wine-quarter and quieter trips.",
+  },
+  // ANTWERP: Het Eilandje vs Oude Stad
+  {
+    slug: "het-eilandje-vs-oude-stad",
+    citySlug: "antwerp",
+    countrySlug: "belgium",
+    aSlug: "het-eilandje",
+    bSlug: "oude-stad-antwerp",
+    aLabel: "Het Eilandje",
+    bLabel: "Oude Stad",
+    metaTitle: "Het Eilandje vs Oude Stad: Where to Stay in Antwerp",
+    metaDescription:
+      "Antwerp's converted-port Eilandje or the medieval Oude Stad? Real take on food, walkability, atmosphere and price.",
+    intro:
+      "Antwerp's two strongest bases. Oude Stad is the medieval centre — Grote Markt, the cathedral, the Rubenshuis. Het Eilandje is the former port quarter just north, with the MAS museum, the Red Star Line museum, and converted-warehouse design hotels. Antwerp is small enough for either to work.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Oude Stad is medieval-cobblestone-cathedral. Het Eilandje is post-industrial, glass-and-brick, more design-focused. Both feel Antwerp. Pick on style preference." },
+      { question: "Walkability to cathedral and Grote Markt", winner: "a", body: "Oude Stad wins. Cathedral and Grote Markt are at your door. Het Eilandje is 15-20 min north walk." },
+      { question: "Restaurants", winner: "tied", body: "Oude Stad has tourist density; Het Eilandje has fewer but better-quality picks (Le John, Felix Pakhuis cluster). Both fine for 2-3 nights." },
+      { question: "Quiet sleep", winner: "b", body: "Het Eilandje, decisively. Oude Stad has bar overflow on Grote Markt and Vrijdagmarkt until 2am weekends. Het Eilandje is residential past 11pm." },
+      { question: "Diamond District access", winner: "tied", body: "Both 10-15 min walk from Centraal Station and the Diamond District. Equivalent." },
+    ],
+    pickA: "Pick Oude Stad for first-time visits, sights-focused short trips, anyone who wants the cathedral lit at night from your hotel window.",
+    pickB: "Pick Het Eilandje for design-focused trips, longer stays, or repeat visitors who've done the centre. The MAS rooftop view is one of the best free views in Belgium.",
+    bottomLine: "Oude Stad for first-timers. Het Eilandje for design and quieter sleep.",
+  },
+  // COLOGNE: Altstadt vs Belgisches Viertel
+  {
+    slug: "altstadt-vs-belgisches-viertel",
+    citySlug: "cologne",
+    countrySlug: "germany",
+    aSlug: "altstadt-cologne",
+    bSlug: "belgisches-viertel",
+    aLabel: "Altstadt",
+    bLabel: "Belgisches Viertel",
+    metaTitle: "Altstadt vs Belgisches Viertel: Where to Stay in Cologne",
+    metaDescription:
+      "Cologne's cathedral-side Altstadt or the trendy Belgian Quarter? Honest take on food, atmosphere, noise and which Cologne trip each fits.",
+    intro:
+      "Altstadt is the cathedral-and-Hauptbahnhof side — the central tourist strip, Brauhaus density, river-side walks. Belgisches Viertel is 15 min west, the post-war design-shop and Aachener Straße corridor where Cologne's under-40 crowd actually goes for dinner. Both have strengths.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Altstadt wins. Cathedral, Hauptbahnhof, museum quarter, river promenade — 5-10 min walk. Belgisches Viertel is 15-20 min west of any of these." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Belgisches Viertel, by a wide margin. Aachener Straße and Rudolfplatz have dense small kitchens, cocktail bars, late-dinner spots. Altstadt's Brauhauses close at 11pm and tilt tourist." },
+      { question: "Brauhaus density", winner: "a", body: "Altstadt wins for kölsch-and-traditional. Brauhaus Sion, Päffgen, Früh am Dom — all walkable, dense, the cliché Cologne experience." },
+      { question: "Quiet sleep", winner: "b", body: "Belgisches Viertel, decisively. Altstadt's Brauhaus strip and the area around Hauptbahnhof are louder until 1am weekends. Belgisches Viertel is residential calm past midnight." },
+      { question: "Price", winner: "tied", body: "Both €100-€170 for decent product. Altstadt's premium is offset by Belgisches Viertel's design-hotel premium." },
+    ],
+    pickA: "Pick Altstadt for first-time visits, cathedral-focused short trips, train-heavy itineraries, or anyone who wants the cliché Cologne kölsch evening at your front door.",
+    pickB: "Pick Belgisches Viertel for return visits, food-focused trips, longer stays, or anyone under 40 who wants the design-and-cocktail Cologne. The 15-min walk to the cathedral is the right length.",
+    bottomLine: "Altstadt for the cathedral-and-kölsch Cologne. Belgisches Viertel for the food-and-design version.",
+  },
+  // MOSTAR: Stari Grad vs Brankovac
+  {
+    slug: "stari-grad-vs-brankovac",
+    citySlug: "mostar",
+    countrySlug: "bosnia-and-herzegovina",
+    aSlug: "stari-grad-mostar",
+    bSlug: "brankovac",
+    aLabel: "Stari Grad",
+    bLabel: "Brankovac",
+    metaTitle: "Stari Grad vs Brankovac: Where to Stay in Mostar",
+    metaDescription:
+      "Mostar's Old Bridge quarter or the quieter residential Brankovac? Honest comparison of crowds, sleep, walkability and price.",
+    intro:
+      "Mostar is small — these two neighborhoods are a 5-10 min walk apart, but the trip changes meaningfully. Stari Grad is the photo: Old Bridge, the bazaar, the call to prayer over the Neretva. Brankovac is the residential hill on the west bank, calmer, with the bridge-and-bazaar in walking distance but none of the day-tripper crush.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Stari Grad wins by definition — you sleep within 5 min of the Old Bridge, Koski Mehmed Mosque, the bazaar. Brankovac has views of the bridge from above but lacks the close-up density." },
+      { question: "Day-tripper crush", winner: "b", body: "Stari Grad becomes nearly unwalkable 11am-4pm in season — Mostar's a popular Dubrovnik day trip. Brankovac gets none of this." },
+      { question: "Sleep", winner: "b", body: "Brankovac, decisively. Bazaar foot traffic and pre-dawn call to prayer carry through Stari Grad guesthouses; Brankovac is residential silence past 9pm." },
+      { question: "Restaurants", winner: "a", body: "Stari Grad has 20+ ćevapi and traditional houses in tiny radius. Brankovac has 3-4 picks max — you'll walk to the bazaar for dinner." },
+      { question: "Price", winner: "tied", body: "Mostar is cheap across the board. Both €30-€70 for decent product. Brankovac apartments slightly cheaper than Stari Grad guesthouses." },
+    ],
+    pickA: "Pick Stari Grad if it's your only night, you want the Old Bridge at 6am before tour groups, the cliché atmosphere is the trip.",
+    pickB: "Pick Brankovac for any 2+ night stay, light sleepers, anyone who arrived by car (parking is easier), or families. The 5-10 min walk to the bazaar is downhill — you'll do it twice a day.",
+    bottomLine: "Stari Grad for the cliché single-night trip. Brankovac for the calmer, longer, second-time Mostar.",
+  },
+  // NICE: Vieux Nice vs Carré d'Or
+  {
+    slug: "vieux-nice-vs-carre-dor",
+    citySlug: "nice",
+    countrySlug: "france",
+    aSlug: "vieux-nice",
+    bSlug: "carre-dor",
+    aLabel: "Vieux Nice",
+    bLabel: "Carré d'Or",
+    metaTitle: "Vieux Nice vs Carré d'Or: Where to Stay in Nice",
+    metaDescription:
+      "Nice's Old Town or the elegant Carré d'Or shopping district? Real differences in vibe, food, beach access, noise and price.",
+    intro:
+      "Vieux Nice is the medieval-Italianate old town — narrow lanes, ochre facades, the daily Cours Saleya market. Carré d'Or is the elegant rectangle between Avenue Jean Médecin and the sea — Belle Époque hotels, designer shopping, Place Masséna. Both walk to the Promenade des Anglais. The trip's character changes a lot between them.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Vieux Nice wins on charm — the cliché Nice of every photo. Carré d'Or is handsome but unremarkable; could be Bordeaux or Lyon." },
+      { question: "Restaurants", winner: "a", body: "Vieux Nice, by a wide margin. Cours Saleya, rue Pairolière, rue de l'Abbaye — denser per-block than anywhere on the Riviera. Carré d'Or has chain bistros and hotel restaurants." },
+      { question: "Beach access", winner: "tied", body: "Both 5-8 min walk to the Promenade. Vieux Nice's eastern end is closest to Plage Beau Rivage; Carré d'Or is closest to the central beaches." },
+      { question: "Quiet sleep", winner: "b", body: "Carré d'Or, decisively. Vieux Nice's Cours Saleya runs loud until 1am summer weekends; the medieval lanes echo. Carré d'Or is residential past 11pm." },
+      { question: "Shopping", winner: "b", body: "Carré d'Or wins — rue Paradis, rue de France, Galeries Lafayette nearby. Vieux Nice has artisan shops, no luxury retail." },
+      { question: "Price", winner: "a", body: "Vieux Nice runs 10-20% cheaper than Carré d'Or for equivalent product, especially for apartments. Carré d'Or's Belle Époque hotel inventory commands a premium." },
+    ],
+    pickA: "Pick Vieux Nice for first-time visits, food-focused trips, anyone who wants the cliché ochre-facade Nice at your front door. Bring earplugs for summer weekends.",
+    pickB: "Pick Carré d'Or for shopping-focused trips, anyone over 50, light sleepers, or stays that want the elegant Belle-Époque-grand-hotel experience. The 8-min walk to Cours Saleya is exactly enough to feel like a day-trip rather than home.",
+    bottomLine: "Vieux Nice for the cliché. Carré d'Or for the shopping and quiet sleep.",
+  },
+  // AARHUS: Midtbyen vs Aarhus Ø
+  {
+    slug: "midtbyen-vs-aarhus-o",
+    citySlug: "aarhus",
+    countrySlug: "denmark",
+    aSlug: "midtbyen",
+    bSlug: "aarhus-o",
+    aLabel: "Midtbyen",
+    bLabel: "Aarhus Ø",
+    metaTitle: "Midtbyen vs Aarhus Ø: Where to Stay in Aarhus",
+    metaDescription:
+      "Aarhus' medieval centre or the new harbourfront Aarhus Ø? Honest take on walkability, restaurants, design and price.",
+    intro:
+      "Aarhus' two strongest bases. Midtbyen is the medieval centre — the Cathedral, the Latin Quarter, ARoS. Aarhus Ø is the new waterfront district built on reclaimed harbor land, with the Iceberg buildings, Dokk1 library, and harbor swimming. Both walk-friendly. The pick is medieval-old vs Scandi-new.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Midtbyen wins for traditional sights — Cathedral, Latin Quarter, ARoS, Den Gamle By all walkable. Aarhus Ø has Dokk1 and the new architecture but less cluster of conventional sights." },
+      { question: "Restaurants", winner: "a", body: "Midtbyen, by a wide margin. The Latin Quarter, Frederiksgade, and the area around Strøget have density of small kitchens. Aarhus Ø has 5-6 strong picks (Aarhus Street Food at the harbor edge) but spread out." },
+      { question: "Architecture/design fans", winner: "b", body: "Aarhus Ø is the newest waterfront district in Scandinavia — the Iceberg apartments, Pier 2, Z-Huset are the kind of stuff students of architecture come for. Midtbyen has the cathedral and not much else new." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Midtbyen has occasional bar noise on Frederiksgade; Aarhus Ø is silent past 9pm." },
+      { question: "Price", winner: "b", body: "Aarhus Ø runs 10-15% cheaper than Midtbyen for equivalent product — newer hotels, less brand premium. Both €120-€220." },
+      { question: "Walkability between the two", winner: "tied", body: "Aarhus Ø is 15 min walk from Midtbyen — fine for a daily commute. Bus 18 connects them in 6 min." },
+    ],
+    pickA: "Pick Midtbyen for first-time visits, sights-focused trips, anyone who wants the traditional Aarhus restaurants and the cathedral at the door.",
+    pickB: "Pick Aarhus Ø for design-and-architecture-focused trips, longer stays, or anyone who wants the new-Scandinavia waterfront experience. The harbor swimming pool is exceptional in summer.",
+    bottomLine: "Midtbyen for the medieval and food. Aarhus Ø for the new architecture and quieter sleep.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

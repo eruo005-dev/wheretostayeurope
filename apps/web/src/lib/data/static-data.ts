@@ -4,6 +4,7 @@
 // Add countries/cities/neighborhoods here; they appear in routes immediately.
 
 import { TIER2_NEIGHBORHOODS } from "./static-data-tier2-neighborhoods";
+import { TIER3_NEIGHBORHOODS } from "./static-data-tier3-neighborhoods";
 export { CITY_CULTURAL_NOTES, getCulturalNotes } from "./static-data-cultural";
 
 export type StaticCountry = {
@@ -564,6 +565,34 @@ export const CITIES: StaticCity[] = [
   // ========== Slovakia ==========
   { slug: "bratislava",  name: "Bratislava",  countrySlug: "slovakia", lat: 48.1486, lng: 17.1077, population:  475_000, tier: "1", bookingDestId: -2871661, intro: "Bratislava's Old Town (Staré Mesto) is small enough to walk in 20 minutes. Stay inside it; venture beyond and the city becomes communist-era apartment blocks." },
   { slug: "kosice",      name: "Košice",      countrySlug: "slovakia", lat: 48.7164, lng: 21.2611, population:  240_000, tier: "2", bookingDestId: -2871794, intro: "Košice in eastern Slovakia is the country's most underrated city — a long pedestrian boulevard (Hlavná) lined with cafes, the Cathedral of St. Elisabeth, almost no tourists. Stay on or just off Hlavná." },
+
+  // ========== EXPANSION BATCH (tier-3) ==========
+  // France
+  { slug: "strasbourg", name: "Strasbourg", countrySlug: "france", lat: 48.5734, lng: 7.7521, population: 285_000, tier: "2", bookingDestId: null, intro: "Strasbourg's Grande Île is the UNESCO core — the cathedral, half-timbered houses of Petite France, the Ill river loop. A small enough city that any stay inside the island works. The Krutenau quarter just east is the food-and-bar local choice." },
+  { slug: "toulouse", name: "Toulouse", countrySlug: "france", lat: 43.6047, lng: 1.4442, population: 480_000, tier: "2", bookingDestId: null, intro: "Toulouse — the pink city — divides between Capitole/Carmes (central, walkable, restaurant-dense) and Saint-Cyprien across the Garonne (lively, cheaper, where younger Toulousains actually go). Both walk to Place du Capitole in 5-15 min." },
+  { slug: "aix-en-provence", name: "Aix-en-Provence", countrySlug: "france", lat: 43.5297, lng: 5.4474, population: 145_000, tier: "2", bookingDestId: null, intro: "Aix's Vieil Aix (old town) is the only sensible central stay — fountains, café terraces, the Cours Mirabeau. The whole town is walkable in 20 min. Skip the western edge near the TGV station." },
+
+  // Spain
+  { slug: "bilbao", name: "Bilbao", countrySlug: "spain", lat: 43.2627, lng: -2.9253, population: 345_000, tier: "2", bookingDestId: null, intro: "Bilbao's Casco Viejo (old town) is the pintxos-and-cobblestone stay; Ensanche on the river is the polished-Guggenheim-side base. Most travelers want one or the other — pick on whether you want medieval food crawl or modern museum proximity." },
+  { slug: "granada", name: "Granada", countrySlug: "spain", lat: 37.1773, lng: -3.5986, population: 230_000, tier: "2", bookingDestId: null, intro: "Granada's Albaicín (the Moorish hill quarter) and Realejo (the former Jewish quarter just below the Alhambra) are the right stays. Both walk to the Alhambra in 15-25 min. Avoid hotels far from the centre — the city is hilly and taxis are slow." },
+  { slug: "san-sebastian", name: "San Sebastián", countrySlug: "spain", lat: 43.3183, lng: -1.9812, population: 187_000, tier: "2", bookingDestId: null, intro: "San Sebastián's Parte Vieja (old town) is the pintxos-bar capital and the obvious central stay. Gros across the river is the surfer-and-locals quarter with quieter sleep and cheaper rooms." },
+
+  // Italy
+  { slug: "bologna", name: "Bologna", countrySlug: "italy", lat: 44.4949, lng: 11.3426, population: 390_000, tier: "2", bookingDestId: null, intro: "Bologna's Centro Storico — the porticoed historic centre — is the only stay worth considering for a 2-3 night trip. The university quarter just east is where the food and wine bars are. Avoid hotels near the train station unless you have a Florence-or-Venice early connection." },
+  { slug: "verona", name: "Verona", countrySlug: "italy", lat: 45.4384, lng: 10.9916, population: 260_000, tier: "2", bookingDestId: null, intro: "Verona's Città Antica (within the Adige river loop) is the only sensible stay. Compact, walkable, every sight is 5-10 min from any address. The opera season (June-September) doubles prices." },
+  { slug: "genoa", name: "Genoa", countrySlug: "italy", lat: 44.4056, lng: 8.9463, population: 580_000, tier: "2", bookingDestId: null, intro: "Genoa's Centro Storico is the densest medieval port-quarter in Europe — atmospheric, gritty, food-rich. Pick hotels south of Piazza De Ferrari for safety and walkability. The Porto Antico (waterfront) is the polished alternative." },
+
+  // UK
+  { slug: "bath", name: "Bath", countrySlug: "united-kingdom", lat: 51.3811, lng: -2.3590, population: 95_000, tier: "2", bookingDestId: null, intro: "Bath is small enough that any central stay works. Anywhere within 10 min walk of the Roman Baths puts you in the Georgian core — that's the entire point of the trip. Skip outer Bathwick unless you have a car." },
+  { slug: "york", name: "York", countrySlug: "united-kingdom", lat: 53.9590, lng: -1.0815, population: 153_000, tier: "2", bookingDestId: null, intro: "York's Within the Walls — the medieval core encircled by the city walls — is the central stay. Hotels along The Shambles or near York Minster put you 5 min from everything. The wider city outside the walls is suburban and not worth booking." },
+
+  // Germany
+  { slug: "dresden", name: "Dresden", countrySlug: "germany", lat: 51.0504, lng: 13.7373, population: 555_000, tier: "2", bookingDestId: null, intro: "Dresden's Altstadt (left bank) is the rebuilt-baroque postcard — Frauenkirche, Zwinger, the opera. Neustadt across the Elbe is the alternative-and-bar quarter where younger Dresdeners actually drink. Pick on what kind of evening you want." },
+  { slug: "heidelberg", name: "Heidelberg", countrySlug: "germany", lat: 49.3988, lng: 8.6724, population: 159_000, tier: "2", bookingDestId: null, intro: "Heidelberg's Altstadt is essentially one long pedestrian street between the Hauptstraße and the Neckar river. Stay anywhere along it. The neighborhoods west of the train station are sterile new builds — skip those." },
+  { slug: "frankfurt", name: "Frankfurt", countrySlug: "germany", lat: 50.1109, lng: 8.6821, population: 760_000, tier: "2", bookingDestId: null, intro: "Frankfurt's Altstadt/Innenstadt is the central business stay — the rebuilt Römerberg, the museums on the Main. Sachsenhausen across the river is the apple-wine-and-restaurant evening quarter. For airport-only stays, skip both and book at the airport." },
+
+  // Netherlands
+  { slug: "utrecht", name: "Utrecht", countrySlug: "netherlands", lat: 52.0907, lng: 5.1214, population: 360_000, tier: "2", bookingDestId: null, intro: "Utrecht's Binnenstad (city centre, organized around the canal-with-wharves Oudegracht) is the only sensible stay. The whole centre is walkable in 20 min. Skip the area around the train station for sleeping — book it for transport access only if needed." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [
@@ -782,10 +811,11 @@ export const NEIGHBORHOODS: StaticNeighborhood[] = [
     tripTypeFit: ["solo", "digital-nomads"] },
 ];
 
-// ===== Combined neighborhoods (top-8 inline + tier-2 from extras) =====
+// ===== Combined neighborhoods (top-8 inline + tier-2 + tier-3) =====
 export const ALL_NEIGHBORHOODS: StaticNeighborhood[] = [
   ...NEIGHBORHOODS,
   ...TIER2_NEIGHBORHOODS,
+  ...TIER3_NEIGHBORHOODS,
 ];
 
 // ===== Lookup helpers =====

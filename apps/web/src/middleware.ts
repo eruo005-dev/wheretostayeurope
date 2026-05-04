@@ -23,6 +23,7 @@ const SKIP_PREFIXES = [
   "/_next/",
   "/favicon.ico",
   "/robots.txt",
+  "/ads.txt",      // AdSense / IAB ads.txt declaration — must be at root
   "/sitemap",
   "/legal/",       // legal pages get a locale prefix via the matcher redirect below, but when they arrive unprefixed we redirect
   "/admin/",       // Payload admin — not locale-aware
@@ -92,6 +93,6 @@ export function middleware(req: NextRequest) {
 export const config = {
   // Match everything except the paths we explicitly skip above (duplicated here for Next.js)
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap|admin).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|robots.txt|ads.txt|sitemap|admin).*)",
   ],
 };

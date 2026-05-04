@@ -4297,6 +4297,327 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 11 — final round of topic guides + remaining city overviews
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-bordeaux",
+    title: "Where to Stay in Bordeaux: Saint-Pierre, Chartrons or Bastide?",
+    excerpt: "Bordeaux neighborhoods compared honestly. Real differences in wine cellars, food, atmosphere and price.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Bordeaux — Honest Neighborhood Guide",
+    metaDescription: "Bordeaux neighborhoods compared honestly. Real differences in wine cellars, food, atmosphere and price.",
+    html: `
+<p>Bordeaux is small enough that almost any central stay works for sights. The pick is wine quarter vs medieval centre.</p>
+
+<h2>Saint-Pierre — for first-timers</h2>
+
+<p><a href="/en/france/bordeaux/saint-pierre">Saint-Pierre</a> is the medieval heart — Place du Parlement, Rue Sainte-Catherine, the cathedral. Premium pricing (€150-€280). Best for: first-time visits, sights-focused trips, anyone wanting cobblestone atmosphere.</p>
+
+<h2>Chartrons — for wine focus</h2>
+
+<p><a href="/en/france/bordeaux/chartrons">Chartrons</a> is the historic wine-merchant quarter on the river just north — antique shops, cellar-door wine bars, the Cité du Vin nearby. Best for: wine-focused trips, longer stays, light sleepers.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "near gare":</strong> Train station area is sterile.</li>
+  <li><strong>Anywhere outside the centre marketed as "central":</strong> Verify on a map.</li>
+  <li><strong>Tourist hotels on Rue Sainte-Catherine itself:</strong> Loud weekend nights.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, food focus: Saint-Pierre. Wine focus, longer stays: Chartrons.</p>
+
+<p>Compare: <a href="/en/france/bordeaux/compare/saint-pierre-vs-chartrons">Saint-Pierre vs Chartrons</a>.</p>
+
+<p>For broader Bordeaux-region wine trips see <a href="/en/articles/european-wine-regions-where-to-base">European wine regions</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-lyon",
+    title: "Where to Stay in Lyon: Vieux Lyon, Presqu'île or Croix-Rousse?",
+    excerpt: "Lyon neighborhoods compared honestly. Real differences in food, mobility, atmosphere and price.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Lyon — Honest Neighborhood Guide",
+    metaDescription: "Lyon neighborhoods compared honestly. Real differences in food, mobility, atmosphere and price.",
+    html: `
+<p>Lyon is France's food capital but most travelers default to the wrong neighborhood. Here's the honest map.</p>
+
+<h2>Presqu'île — for food and walkability</h2>
+
+<p><a href="/en/france/lyon/presquile">Presqu'île</a> is the central peninsula between the Rhône and Saône — Quartier des Halles, dense restaurants, Place Bellecour. Best for: 2-3 night first visits, food-focused trips, anyone with luggage.</p>
+
+<h2>Vieux Lyon — for the Renaissance setting</h2>
+
+<p><a href="/en/france/lyon/vieux-lyon">Vieux Lyon</a> is the UNESCO old town across the Saône — Renaissance facades, traboules, the funicular. Tourist-priced restaurants. Best for: 1-2 night romantic stays, photo-focused trips.</p>
+
+<h2>Croix-Rousse — for the village-feel</h2>
+
+<p><a href="/en/france/lyon/croix-rousse">Croix-Rousse</a> is the silk-weavers' hill north of Presqu'île — residential, dense local restaurants, real Lyonnais life. Best for: 3+ night stays, repeat visits, anyone wanting village atmosphere.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Confluence:</strong> The new district is architecturally interesting but far from food.</li>
+  <li><strong>Part-Dieu hotels:</strong> Train station area, sterile, dull.</li>
+  <li><strong>Anywhere outside the city centre marketed as "central":</strong> Verify on a map.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time food focus: Presqu'île. Renaissance romance: Vieux Lyon. Longer stay or village-feel: Croix-Rousse.</p>
+
+<p>Compare: <a href="/en/france/lyon/compare/vieux-lyon-vs-presquile">Vieux Lyon vs Presqu'île</a>, <a href="/en/france/lyon/compare/presquile-vs-croix-rousse">Presqu'île vs Croix-Rousse</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-bilbao",
+    title: "Where to Stay in Bilbao: Casco Viejo or Ensanche?",
+    excerpt: "Bilbao neighborhoods compared honestly. Real differences in pintxos, Guggenheim, atmosphere and price.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Bilbao — Honest Neighborhood Guide",
+    metaDescription: "Bilbao neighborhoods compared honestly. Real differences in pintxos, Guggenheim, atmosphere and price.",
+    html: `
+<p>Bilbao is small enough for two real options. The pick is medieval pintxos crawl vs modern Guggenheim-side.</p>
+
+<h2>Casco Viejo — for pintxos</h2>
+
+<p><a href="/en/spain/bilbao/casco-viejo">Casco Viejo</a> is the medieval old town on the right bank — Las Siete Calles, dense pintxos crawl on Calle Sombrerería and Calle Somera. Best for: first-time visits, pintxos focus, anyone under 40.</p>
+
+<h2>Ensanche — for Guggenheim</h2>
+
+<p><a href="/en/spain/bilbao/ensanche">Ensanche</a> is the 19th-century grid on the left bank — Guggenheim 10 min north, design hotels, Gran Vía shopping. Best for: museum-focused trips, business stays, anyone over 50 wanting calmer evenings.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Bilbao Atocha" or far suburbs:</strong> Verify central proximity.</li>
+  <li><strong>Anywhere advertised as "5 min from Guggenheim" outside Ensanche:</strong> Often 20+ min.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, pintxos focus: Casco Viejo. Guggenheim focus, business: Ensanche.</p>
+
+<p>Compare: <a href="/en/spain/bilbao/compare/casco-viejo-vs-ensanche">Casco Viejo vs Ensanche</a>.</p>
+
+<p>For broader Basque trips see <a href="/en/articles/where-to-stay-in-san-sebastian">San Sebastián guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-san-sebastian",
+    title: "Where to Stay in San Sebastián: Parte Vieja or Gros?",
+    excerpt: "San Sebastián neighborhoods compared honestly. Real differences in pintxos, surf, atmosphere and price.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in San Sebastián — Honest Neighborhood Guide",
+    metaDescription: "San Sebastián neighborhoods compared honestly. Real differences in pintxos, surf, atmosphere and price.",
+    html: `
+<p>San Sebastián is small. The pick is pintxos-old-town vs surfer-residential. Both walk to La Concha.</p>
+
+<h2>Parte Vieja — for first-timers</h2>
+
+<p><a href="/en/spain/san-sebastian/parte-vieja">Parte Vieja</a> is the old town between Mount Urgull and the Urumea — densest pintxos crawl in Europe (Calle 31 de Agosto, Calle Fermín Calbetón). Best for: first-time visits, pintxos focus, anyone under 40.</p>
+
+<h2>Gros — for repeat visits and surfing</h2>
+
+<p><a href="/en/spain/san-sebastian/gros">Gros</a> is across the Urumea — Zurriola surf beach, residential, where San Sebastián locals actually live. 10 min walk to Parte Vieja. Best for: surfers, repeat visits, longer stays, light sleepers.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels far from the centre marketed as "Donostia":</strong> Verify on a map — Donostia is bigger than the tourist core.</li>
+  <li><strong>Anywhere outside the city advertised as "5-min from beach":</strong> Often 20+ min by car.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, pintxos: Parte Vieja. Surf, repeat visits, longer stays: Gros.</p>
+
+<p>Compare: <a href="/en/spain/san-sebastian/compare/parte-vieja-vs-gros">Parte Vieja vs Gros</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-bologna",
+    title: "Where to Stay in Bologna: Centro Storico or University Quarter?",
+    excerpt: "Bologna neighborhoods compared honestly. Real differences in food, noise, atmosphere and price.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Bologna — Honest Neighborhood Guide",
+    metaDescription: "Bologna neighborhoods compared honestly. Real differences in food, noise, atmosphere and price.",
+    html: `
+<p>Bologna is Italy's food capital. The neighborhood pick is mostly about how loud you want your nights to be.</p>
+
+<h2>Centro Storico — for first-timers</h2>
+
+<p><a href="/en/italy/bologna/centro-storico-bologna">Centro Storico</a> is the porticoed historic centre — Piazza Maggiore, Two Towers, the Quadrilatero food market. Premium pricing (€130-€220). Best for: first-time visits, sights-focused short trips, anyone over 35.</p>
+
+<h2>University Quarter — for late kitchens and budget</h2>
+
+<p><a href="/en/italy/bologna/university-quarter">University Quarter</a> is the northeast slice around Via Zamboni — student bars, late-night pizza, dramatically cheaper. Loud Thursday-Sunday until 2am. Best for: under-35 trips, budget-conscious stays.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels near Bologna Centrale station:</strong> Cheap for a reason — outside the historic walls.</li>
+  <li><strong>Far Centro Storico advertised as "near Two Towers":</strong> Verify — Bologna's medieval centre is bigger than it looks.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights, anyone over 35: Centro Storico. Budget, late nights, under 35: University Quarter.</p>
+
+<p>Compare: <a href="/en/italy/bologna/compare/centro-storico-bologna-vs-university-quarter">Centro Storico vs University Quarter</a>.</p>
+
+<p>For Italy itinerary planning see <a href="/en/articles/europe-7-day-italy-itinerary">7-day Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-with-old-towns",
+    title: "Best European Cities With Real Old Towns (2026 Honest Picks)",
+    excerpt: "European cities where the old town is the trip — ranked by atmosphere, walkability, and tourist-density manageability.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities With Real Old Towns — Honest 2026 Picks",
+    metaDescription: "European cities where the old town is the trip — ranked by atmosphere, walkability, and tourist-density manageability.",
+    html: `
+<p>Most European old towns deliver a couple of streets and call it a day. These are the ones where the medieval core is genuinely the trip.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> Old Town:</strong> The walled city. Stay 1-2 nights, off-season for the calm.</li>
+  <li><strong><a href="/en/estonia/tallinn">Tallinn</a> Vanalinn:</strong> Best-preserved medieval old town in Europe. 2-3 nights inside the walls.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a> Staré Město:</strong> Maximum-tourist but iconic. Pair with Malá Strana for variety.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a> Stare Miasto:</strong> Largest medieval square in Europe.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a> Altstadt:</strong> Mozart's birthplace, fortress above.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a>:</strong> The canal-and-medieval cliché actually works (off-season).</li>
+</ul>
+
+<h2>Tier 2 — strong old towns within larger cities</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville/santa-cruz">Seville Santa Cruz</a>:</strong> Whitewashed lanes under the cathedral.</li>
+  <li><strong><a href="/en/spain/granada/albaicin">Granada Albaicín</a>:</strong> Moorish hill quarter facing the Alhambra.</li>
+  <li><strong><a href="/en/portugal/lisbon/alfama">Lisbon Alfama</a>:</strong> Hilly Moorish quarter with fado.</li>
+  <li><strong><a href="/en/croatia/split/diocletians-palace">Split Diocletian's Palace</a>:</strong> Sleeping inside Roman walls.</li>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo/bascarsija">Sarajevo Baščaršija</a>:</strong> Ottoman bazaar quarter.</li>
+  <li><strong><a href="/en/austria/innsbruck/altstadt-innsbruck">Innsbruck Altstadt</a>:</strong> Compact alpine medieval centre.</li>
+</ul>
+
+<h2>Tier 3 — surprising picks</h2>
+
+<ul>
+  <li><strong><a href="/en/slovenia/ljubljana/stari-grad-ljubljana">Ljubljana Stari Grad</a>:</strong> Compact, walkable, the surprise of central Europe.</li>
+  <li><strong><a href="/en/italy/verona/citta-antica">Verona Città Antica</a>:</strong> Inside the Adige loop. Roman + medieval.</li>
+  <li><strong><a href="/en/romania/sibiu/piata-mare">Sibiu Piața Mare</a>:</strong> The Saxon "eyes of Sibiu" rooftops.</li>
+  <li><strong><a href="/en/malta/valletta/valletta-peninsula">Valletta</a>:</strong> Golden limestone, fortified peninsula.</li>
+  <li><strong><a href="/en/germany/dresden/altstadt-dresden">Dresden Altstadt</a>:</strong> Rebuilt baroque, the most-photogenic German old town.</li>
+</ul>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Brussels Grand Place:</strong> Magnificent for an hour but the rest of Brussels is wide boulevards.</li>
+  <li><strong>Most "old towns" outside the historic core:</strong> Often 3-block tourist strips marketed as old towns.</li>
+  <li><strong>Tourist-trap "medieval villages" with no real history:</strong> Verify before booking.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Old-town stays reward off-season more than any other type — day-tripper crush is the main cost. October-March in southern Europe and November in central/eastern Europe.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-trip-budget",
+    title: "Best European City Breaks by Budget (Real Cost-Per-Day)",
+    excerpt: "Honest sort of European cities by trip budget — €100/day, €200/day, €300/day, what you actually get.",
+    publishedAt: "2026-05-07",
+    reviewedAt: "2026-05-07",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities by Trip Budget — Honest Cost-Per-Day 2026",
+    metaDescription: "Honest sort of European cities by trip budget — €100/day, €200/day, €300/day, what you actually get.",
+    html: `
+<p>European city breaks divide cleanly by daily-cost tier. Here's the honest sort by budget.</p>
+
+<h2>€80-€120/day (per person, hotel + meals + transit)</h2>
+
+<ul>
+  <li><strong>Sofia, Belgrade, Bucharest:</strong> Genuinely budget. <a href="/en/romania/bucharest/lipscani">Lipscani</a> stays €60-€100.</li>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a>:</strong> €40-€80 hotels, €5-€10 lunches, the whole trip is value.</li>
+  <li><strong><a href="/en/romania/brasov">Brașov</a>, <a href="/en/romania/cluj-napoca">Cluj</a>:</strong> Transylvania still cheap.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Starting to creep up but still doable at €100/day.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> €120/day with restraint.</li>
+</ul>
+
+<h2>€120-€200/day</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>, <a href="/en/portugal/porto">Porto</a>:</strong> Recently more expensive but still under €200.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>, <a href="/en/spain/seville">Seville</a>, <a href="/en/spain/valencia">Valencia</a>:</strong> Spain still good value if you book ahead.</li>
+  <li><strong><a href="/en/greece/athens">Athens</a>:</strong> €130-€180/day comfortable.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Currency volatility helps; €100-€150/day.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>, <a href="/en/austria/vienna">Vienna</a>:</strong> €150-€200/day.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> €160-€220/day.</li>
+</ul>
+
+<h2>€200-€280/day</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>, <a href="/en/italy/florence">Florence</a>:</strong> €200-€280/day comfortable. Premium during high season.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> €220-€300/day with care; easily €400/day if you don't try.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> £180-£250/day comfortable, easily double in central.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> €230-€300/day.</li>
+</ul>
+
+<h2>€280+/day</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/venice">Venice</a> high season:</strong> €350+/day.</li>
+  <li><strong><a href="/en/greece/santorini">Santorini</a>:</strong> €350-€600/day for caldera-side.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> high season:</strong> €280-€450/day.</li>
+  <li><strong>Switzerland anywhere (<a href="/en/switzerland/zurich">Zurich</a>, <a href="/en/switzerland/geneva">Geneva</a>):</strong> €350+/day baseline.</li>
+  <li><strong>Norway (<a href="/en/norway/oslo">Oslo</a>, <a href="/en/norway/bergen">Bergen</a>):</strong> €280-€400/day.</li>
+  <li><strong>Iceland:</strong> €300-€450/day.</li>
+</ul>
+
+<h2>What inflates the budget</h2>
+
+<ul>
+  <li><strong>Walk-up hotel rates (book ahead):</strong> 30-50% premium.</li>
+  <li><strong>Touristy restaurants:</strong> €15-€20 cheaper restaurants exist 2 streets off the main strip everywhere.</li>
+  <li><strong>Taxi instead of metro:</strong> €30-€50/day extra.</li>
+  <li><strong>Day-tour packages:</strong> Almost always cheaper to DIY.</li>
+  <li><strong>Mini-bar and hotel restaurant:</strong> 200-300% premium over street alternatives.</li>
+</ul>
+
+<h2>How to halve any budget</h2>
+
+<ul>
+  <li>Book hotels 3+ months ahead.</li>
+  <li>Stay one neighborhood out from the central tourist core.</li>
+  <li>Lunch as the main meal (set lunches are 30-50% cheaper than dinner).</li>
+  <li>Walk-and-metro instead of taxi.</li>
+  <li>Off-season — late October, November, January-February for Mediterranean cities.</li>
+</ul>
+
+<p>For specific budget guides see <a href="/en/articles/europe-on-a-budget-where-money-still-stretches">where money stretches</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -23,7 +23,9 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import { AffiliateDisclosureBanner, AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
+// AffiliateDisclosureBanner is rendered globally by [locale]/layout.tsx
+import { AffiliateDisclosureBlock } from "@/components/legal/AffiliateDisclosure";
+import { TiqetsToursWidget } from "@/components/affiliate/TiqetsToursWidget";
 import { PriceDisclaimerBlock } from "@/components/legal/PriceDisclaimer";
 import { NeighborhoodMap } from "@/components/maps/NeighborhoodMap";
 import { PriceBandHistogram } from "@/components/visualizations/PriceBandHistogram";
@@ -32,6 +34,7 @@ import { PropertyCard } from "@/components/affiliate/PropertyCard";
 import { getConsent } from "@/lib/consent";
 import { buildHreflangTags } from "@/lib/seo/hreflang";
 import { SITE_URL } from "@/lib/seo/config";
+import { comparisonsInvolvingNeighborhood } from "@/lib/data/static-data-comparisons";
 import {
   getNeighborhoodBySlug,
   getCityWithCountry,
@@ -135,6 +138,8 @@ export default async function NeighborhoodPage({ params }: Props) {
   ]);
   if (!cityData) notFound();
 
+  const neighborhoodComparisons = comparisonsInvolvingNeighborhood(city, n.slug);
+
   // Breadcrumb trail
   const breadcrumbs = [
     { name: cityData.countryName, url: `/${locale}/${country}` },
@@ -189,8 +194,6 @@ export default async function NeighborhoodPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-
-      <AffiliateDisclosureBanner locale={locale} />
 
       <article style={{ maxWidth: 960, margin: "0 auto", padding: "24px 20px" }}>
         <Breadcrumb items={breadcrumbs} />
@@ -313,7 +316,7 @@ export default async function NeighborhoodPage({ params }: Props) {
                   key={p.id}
                   property={p}
                   locale={locale}
-                  pageId={n.id}
+                  pageSlug={n.slug}
                   pageType="neighborhood"
                 />
               ))}
@@ -323,10 +326,57 @@ export default async function NeighborhoodPage({ params }: Props) {
           <PriceDisclaimerBlock locale={locale} />
         </section>
 
+        <TiqetsToursWidget
+          cityName={cityData.name}
+          citySlug={city}
+          neighborhoodSlug={n.slug}
+          locale={locale}
+        />
+
         {n.stayTips && (
           <section style={{ marginTop: 40 }}>
             <h2 style={{ fontSize: 26, marginBottom: 8 }}>Stay tips</h2>
             <p style={{ fontSize: 16, lineHeight: 1.6, color: "#1e293b" }}>{n.stayTips}</p>
+          </section>
+        )}
+
+        {neighborhoodComparisons.length > 0 && (
+          <section style={{ marginTop: 48, paddingTop: 24, borderTop: "1px solid #e2e8f0" }}>
+            <h2 style={{ fontSize: 22, marginBottom: 12 }}>
+              {n.name} compared to other {cityData.name} neighborhoods
+            </h2>
+            <p style={{ fontSize: 14, color: "#64748b", marginTop: 0, marginBottom: 14 }}>
+              Round-by-round head-to-heads — atmosphere, walkability, price, sleep quality.
+            </p>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: 10 }}>
+              {neighborhoodComparisons.map((c) => {
+                // Show the *other* neighborhood as the primary label.
+                const otherLabel = c.aSlug === n.slug ? c.bLabel : c.aLabel;
+                return (
+                  <li key={c.slug}>
+                    <Link
+                      href={`/${locale}/${country}/${city}/compare/${c.slug}`}
+                      style={{
+                        display: "block",
+                        padding: "12px 14px",
+                        borderRadius: 8,
+                        background: "#fff7ed",
+                        border: "1px solid #fed7aa",
+                        textDecoration: "none",
+                        color: "#0f172a",
+                      }}
+                    >
+                      <strong style={{ fontSize: 15 }}>
+                        {n.name} <span style={{ color: "#94867a", fontWeight: 400 }}>vs</span> {otherLabel}
+                      </strong>
+                      <div style={{ fontSize: 13, color: "#9a3412", marginTop: 4 }}>
+                        Read the verdict →
+                      </div>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         )}
 

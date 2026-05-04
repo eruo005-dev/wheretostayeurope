@@ -48,7 +48,9 @@ export function buildArticleSchema(args: Args) {
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
+        url: `${SITE_URL}/icon`,
+        width: 32,
+        height: 32,
       },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": args.url },

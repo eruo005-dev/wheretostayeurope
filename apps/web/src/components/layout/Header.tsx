@@ -7,11 +7,11 @@ import Link from "next/link";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { SITE_NAME } from "@/lib/seo/config";
 
-const NAV_COPY: Record<string, { countries: string; search: string; about: string }> = {
-  en: { countries: "Countries", search: "Search", about: "About" },
-  de: { countries: "Länder", search: "Suche", about: "Über uns" },
-  fr: { countries: "Pays", search: "Rechercher", about: "À propos" },
-  es: { countries: "Países", search: "Buscar", about: "Acerca de" },
+const NAV_COPY: Record<string, { countries: string; compare: string; about: string }> = {
+  en: { countries: "Countries", compare: "Compare", about: "About" },
+  de: { countries: "Länder", compare: "Vergleich", about: "Über uns" },
+  fr: { countries: "Pays", compare: "Comparer", about: "À propos" },
+  es: { countries: "Países", compare: "Comparar", about: "Acerca de" },
 };
 
 export function Header({ locale }: { locale: "en" | "de" | "fr" | "es" }) {
@@ -48,7 +48,7 @@ export function Header({ locale }: { locale: "en" | "de" | "fr" | "es" }) {
 
         <nav aria-label="Primary" style={{ display: "flex", gap: 20, alignItems: "center" }}>
           <Link href={`/${locale}`} style={navLink}>{copy.countries}</Link>
-          <Link href={`/${locale}/search`} style={navLink}>{copy.search}</Link>
+          <Link href={`/${locale}/compare`} style={navLink}>{copy.compare}</Link>
           <Link href={`/${locale}/about`} style={navLink}>{copy.about}</Link>
           <LocaleSwitcher currentLocale={locale} />
         </nav>

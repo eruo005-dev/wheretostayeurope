@@ -11,8 +11,12 @@ export const SITE_NAME = "WhereToStayEurope";
 
 export const SITE_TAGLINE = "The decision layer for European accommodation.";
 
-/** Default OpenGraph image (1200×630 recommended). Replace with your own. */
-export const OG_IMAGE_DEFAULT = `${SITE_URL}/og/default.png`;
+/**
+ * Default OpenGraph image (1200×630). Generated dynamically by
+ * `apps/web/src/app/opengraph-image.tsx`; Next.js serves it at /opengraph-image.
+ * No static asset is checked into git.
+ */
+export const OG_IMAGE_DEFAULT = `${SITE_URL}/opengraph-image`;
 
 /** Legal entity string for Organization schema + Impressum. Fill from env. */
 export const LEGAL_ENTITY_NAME =

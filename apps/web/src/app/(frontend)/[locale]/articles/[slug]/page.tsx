@@ -9,7 +9,7 @@ import Link from "next/link";
 import { ARTICLES, findArticle } from "@/lib/data/articles";
 import { buildHreflangTags } from "@/lib/seo/hreflang";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
-import { AffiliateDisclosureBanner } from "@/components/legal/AffiliateDisclosure";
+// AffiliateDisclosureBanner is rendered globally by [locale]/layout.tsx
 
 type RouteParams = { locale: "en" | "de" | "fr" | "es"; slug: string };
 type Props = { params: Promise<RouteParams> };
@@ -82,8 +82,6 @@ export default async function ArticleDetailPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-
-      <AffiliateDisclosureBanner locale={locale} />
 
       <article style={{ maxWidth: 760, margin: "0 auto", padding: "24px 20px" }}>
         <nav aria-label="Breadcrumb" style={{ fontSize: 14, color: "#64748b", marginBottom: 14 }}>

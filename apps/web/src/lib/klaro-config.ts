@@ -45,7 +45,7 @@ export const klaroConfig = {
         description: "Loads Mapbox tiles for interactive neighborhood maps. Without consent you'll see a static map fallback.",
       },
       affiliate: {
-        description: "Tracks your clicks to Booking.com / Expedia / Agoda so we get credit if you book. You pay the same price.",
+        description: "Tracks your clicks to Booking.com / Expedia / Agoda / Travelpayouts partners (Kiwitaxi, Tiqets, Localrent, Aviasales) so we get credit if you book. You pay the same price.",
       },
       decline: "Decline",
       acceptAll: "Accept all",
@@ -90,9 +90,17 @@ export const klaroConfig = {
       title: "Affiliate attribution",
       purposes: ["affiliate"],
       cookies: [
+        // Booking / Agoda / Expedia
         [/^_aid/, "/", ".booking.com"],
         [/^aid/, "/", ".agoda.com"],
         [/^impact/, "/", ".expedia.com"],
+        // Travelpayouts Drive + brand partners (Kiwitaxi, Tiqets, Localrent, Aviasales, etc.)
+        [/.*/, "/", ".emrldtp.com"],
+        [/.*/, "/", ".tp.media"],
+        [/.*/, "/", ".tpemb.com"],
+        [/.*/, "/", ".kiwitaxi.com"],
+        [/.*/, "/", ".tiqets.com"],
+        [/.*/, "/", ".localrent.com"],
       ],
       required: false,
       optOut: false,

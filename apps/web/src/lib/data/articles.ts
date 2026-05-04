@@ -2972,6 +2972,375 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 7 — more city-by-area + niche guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-lisbon",
+    title: "Where to Stay in Lisbon: Baixa-Chiado, Alfama, Bairro Alto or Príncipe Real?",
+    excerpt: "Lisbon neighborhoods compared honestly. Real differences in mobility, food, atmosphere and price.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-03",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Lisbon — Honest Neighborhood Guide",
+    metaDescription: "Lisbon neighborhoods compared honestly. Real differences in mobility, food, atmosphere and price.",
+    html: `
+<p>Lisbon's biggest accommodation mistake is not understanding the hills. The city is brutally vertical — pick the wrong base and you'll fight the slope every day with luggage. Here's the honest map.</p>
+
+<h2>Baixa-Chiado — for first-timers</h2>
+
+<p><a href="/en/portugal/lisbon/baixa-chiado">Baixa-Chiado</a> is the flat central grid — Rossio, Praça do Comércio, the shopping. Premium pricing (€150-€300). Walking-distance to most of central Lisbon. Best for: first-time visits, anyone with luggage or mobility issues, families with strollers.</p>
+
+<h2>Alfama — for atmosphere</h2>
+
+<p><a href="/en/portugal/lisbon/alfama">Alfama</a> is the medieval Moorish quarter east of the castle — narrow stair-streets, fado houses, the cliché Lisbon photo. Brutally hilly. Best for: romantic stays, photo-focused trips, anyone able to handle steep stairs.</p>
+
+<h2>Bairro Alto — for the bar trip</h2>
+
+<p><a href="/en/portugal/lisbon/bairro-alto">Bairro Alto</a> is west of Chiado on the hill — the famous bar quarter, narrow lanes, dozens of bars. Loud Thursday-Sunday. Best for: under-30 trips, bar-focused stays.</p>
+
+<h2>Príncipe Real — for design and quiet</h2>
+
+<p><a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> sits north of Bairro Alto — leafy, design-shop, where Lisbon's design crowd actually lives. Quieter than Bairro Alto, restaurant-dense. Best for: couples, longer stays, design-conscious travelers.</p>
+
+<h2>Mouraria — for under-the-radar</h2>
+
+<p><a href="/en/portugal/lisbon/mouraria">Mouraria</a> is the original Moorish quarter just north of Alfama — multicultural-and-fado, narrower lanes, dramatically fewer tourists. Best for: repeat visits, food-focused trips, anyone wanting Alfama atmosphere without tour groups.</p>
+
+<h2>Belém — for museums</h2>
+
+<p><a href="/en/portugal/lisbon/belem">Belém</a> is 6 km west — Jerónimos Monastery, Tower of Belém, the original pastel de nata. 25 min by tram from central. Best for: museum-focused stays, longer trips, families with strollers (it's flat).</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anything advertised as "near Cais do Sodré":</strong> Verify — sometimes great, sometimes brutal stag-night street.</li>
+  <li><strong>Hotels north of Marquês de Pombal:</strong> Suburban-business, you'll commute.</li>
+  <li><strong>Far Alfama listings:</strong> Verify on a map — some are 25 min uphill from anywhere.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, families, mobility-aware: Baixa-Chiado. Romance and photo: Alfama. Bars: Bairro Alto. Design and quiet: Príncipe Real. Under-the-radar: Mouraria. Museums: Belém.</p>
+
+<p>Compare: <a href="/en/portugal/lisbon/compare/alfama-vs-bairro-alto">Alfama vs Bairro Alto</a>, <a href="/en/portugal/lisbon/compare/baixa-chiado-vs-principe-real">Baixa-Chiado vs Príncipe Real</a>, <a href="/en/portugal/lisbon/compare/principe-real-vs-bairro-alto">Príncipe Real vs Bairro Alto</a>, <a href="/en/portugal/lisbon/compare/alfama-vs-mouraria">Alfama vs Mouraria</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-porto",
+    title: "Where to Stay in Porto: Baixa, Cedofeita, Ribeira or Vila Nova de Gaia?",
+    excerpt: "Porto neighborhoods compared honestly. Real differences in mobility, photo-quality, wine cellars and price.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-03",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Porto — Honest Neighborhood Guide",
+    metaDescription: "Porto neighborhoods compared honestly. Real differences in mobility, photo-quality, wine cellars and price.",
+    html: `
+<p>Porto is small enough that almost any central stay works for sights. The neighborhood pick is about hill-management and which side of the river makes sense.</p>
+
+<h2>Baixa — the flat central pick</h2>
+
+<p><a href="/en/portugal/porto/baixa">Baixa</a> is the flat central core on top — São Bento station, the cafés, dense restaurants. Best for: first-time visits, families with strollers, anyone with luggage. The default for most.</p>
+
+<h2>Cedofeita — for design and food</h2>
+
+<p><a href="/en/portugal/porto/cedofeita">Cedofeita</a> is just west of Baixa — design-shop concept-store quarter, Porto's most-recommended food strip. Best for: 3+ night stays, food-focused trips, design-conscious travelers.</p>
+
+<h2>Ribeira — only with caveats</h2>
+
+<p><a href="/en/portugal/porto/ribeira">Ribeira</a> is the photogenic riverfront. Looks beautiful in photos and is brutal at street level — steep climbs back up, restaurants tilt tourist-priced, the actual Porto life is up the hill in Baixa. Best for: single-night stays where the river-view-from-your-window is the trip.</p>
+
+<h2>Vila Nova de Gaia — for wine and the photo</h2>
+
+<p><a href="/en/portugal/porto/vila-nova-de-gaia">Vila Nova de Gaia</a> is across the Douro — the port-wine cellars, panoramic views back at Porto's tiled facades. Best for: wine-focused trips, anyone wanting the iconic Porto photo from the room.</p>
+
+<h2>Foz do Douro — for the beach option</h2>
+
+<p><a href="/en/portugal/porto/foz-do-douro">Foz do Douro</a> is 6 km west where the Douro meets the Atlantic — surf beach, residential, sunset over the ocean. Best for: surfers, beach-focused longer stays, anyone willing to take the bus 30 min to dinner.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "5-min from Ribeira":</strong> Verify — often 15+ min uphill.</li>
+  <li><strong>Anything in Boavista except specifically researched:</strong> Mostly business district, dead at night.</li>
+  <li><strong>Far Vila Nova de Gaia (Espinho-direction):</strong> Suburban resort, not the city trip.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, anyone with luggage: Baixa. Food and design: Cedofeita. Wine and photo: Gaia. Beach: Foz. Single-night with view: Ribeira.</p>
+
+<p>Compare: <a href="/en/portugal/porto/compare/baixa-vs-cedofeita">Baixa vs Cedofeita</a>, <a href="/en/portugal/porto/compare/baixa-vs-ribeira">Baixa vs Ribeira</a>, <a href="/en/portugal/porto/compare/ribeira-vs-vila-nova-de-gaia">Ribeira vs Gaia</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-edinburgh",
+    title: "Where to Stay in Edinburgh: Old Town, New Town, Stockbridge or Leith?",
+    excerpt: "Edinburgh neighborhoods compared honestly. Real differences in atmosphere, festival access, families and price.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-03",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Edinburgh — Honest Neighborhood Guide",
+    metaDescription: "Edinburgh neighborhoods compared honestly. Real differences in atmosphere, festival access, families and price.",
+    html: `
+<p>Edinburgh's neighborhood pick changes the trip more than most travelers expect. Hilly Old Town gives you the medieval atmosphere; flat New Town gives you Georgian elegance; the village quarters give you family calm. Here's the honest map.</p>
+
+<h2>Old Town — for atmosphere and festival</h2>
+
+<p><a href="/en/united-kingdom/edinburgh/old-town-edinburgh">Old Town</a> is the medieval ridge — Royal Mile, the castle, Holyrood. Premium pricing (£200-£400, double during festival). Best for: first-time visits, festival stays (Fringe in August), atmosphere-focused short trips. Bring earplugs for weekend nights.</p>
+
+<h2>New Town — for calm Georgian elegance</h2>
+
+<p><a href="/en/united-kingdom/edinburgh/new-town-edinburgh">New Town</a> is the Georgian grid north of Princes Street — wide streets, elegant, walkable to Old Town in 5-10 min. Best for: longer stays, festival stays for light sleepers, anyone over 50.</p>
+
+<h2>Stockbridge — for families and village-feel</h2>
+
+<p><a href="/en/united-kingdom/edinburgh/stockbridge">Stockbridge</a> is north of New Town — village-feeling, Sunday farmers' market, Royal Botanic Garden adjacent. 15-20 min walk to Old Town. Best for: families, longer stays, anyone wanting Edinburgh away from festival crush.</p>
+
+<h2>Leith — for repeat visits</h2>
+
+<p><a href="/en/united-kingdom/edinburgh/leith">Leith</a> is the harbor quarter 3 km north — recently-gentrified, dense restaurants and bars, the Royal Yacht Britannia. Tram and frequent buses to centre. Best for: repeat visits, food-focused trips, budget-conscious travelers.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "5-min walk to castle":</strong> Verify — Royal Mile is 1 km long; some "Old Town" hotels are 25 min from the castle.</li>
+  <li><strong>Tollcross and surrounding:</strong> Cheap for a reason; further from sights and atmosphere.</li>
+  <li><strong>Anywhere advertised as "edge of Old Town":</strong> Often means in Holyrood Park or further.</li>
+</ul>
+
+<h2>Festival timing (August)</h2>
+
+<p>Old Town venues are within 10 min walk; doable from anywhere central. Prices double; book 6 months ahead. New Town for Fringe with light sleepers.</p>
+
+<h2>Quick pick</h2>
+
+<p>First-time, atmosphere, festival: Old Town. Calm Georgian: New Town. Family or village-feel: Stockbridge. Food and budget: Leith.</p>
+
+<p>Compare: <a href="/en/united-kingdom/edinburgh/compare/old-town-vs-new-town">Old Town vs New Town</a>, <a href="/en/united-kingdom/edinburgh/compare/new-town-vs-stockbridge">New Town vs Stockbridge</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-munich",
+    title: "Where to Stay in Munich: Altstadt, Glockenbach, Maxvorstadt or Schwabing?",
+    excerpt: "Munich neighborhoods compared honestly. Real differences in beer-tradition, museums, families, Oktoberfest and price.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-03",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Munich — Honest Neighborhood Guide",
+    metaDescription: "Munich neighborhoods compared honestly. Real differences in beer-tradition, museums, families, Oktoberfest and price.",
+    html: `
+<p>Munich is compact enough that any central neighborhood works for getting around. The pick is about energy level and what kind of evenings you want.</p>
+
+<h2>Altstadt — for first-timers and beer</h2>
+
+<p><a href="/en/germany/munich/altstadt">Altstadt</a> is the central tourist core — Marienplatz, Frauenkirche, Hofbräuhaus, Viktualienmarkt. Premium pricing. Best for: first-time visits, beer-tradition focus, sights-density priority.</p>
+
+<h2>Glockenbachviertel — for evenings</h2>
+
+<p><a href="/en/germany/munich/glockenbachviertel">Glockenbach</a> is south of Altstadt — Munich's queer-friendly cocktail-and-dinner quarter. Walkable to Altstadt in 10-15 min. Best for: evening-focused trips, LGBTQ+ travelers, anyone under 40.</p>
+
+<h2>Schwabing — for park and families</h2>
+
+<p><a href="/en/germany/munich/schwabing">Schwabing</a> is north — Englischer Garten at the door, leafy student-quarter, family-aware. Best for: families with kids, longer stays, park-focused trips.</p>
+
+<h2>Maxvorstadt — for museums</h2>
+
+<p><a href="/en/germany/munich/maxvorstadt">Maxvorstadt</a> is the museum quarter — Pinakotheken, the university. Dense student-and-curator food. Best for: museum-focused trips, repeat Munich visits, longer stays.</p>
+
+<h2>Haidhausen — for the underrated</h2>
+
+<p><a href="/en/germany/munich/haidhausen">Haidhausen</a> is east of the Isar — leafy residential, the underrated quiet alternative with central proximity. Best for: families, longer stays, anyone over 35.</p>
+
+<h2>Oktoberfest reality (Sept-Oct)</h2>
+
+<p>Anything within walking distance of Theresienwiese triples in price during Wiesn. Book 6 months out or stay further out and take public transport — Munich's S-Bahn handles the crowds well.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hauptbahnhof immediate area:</strong> Cheap for a reason. Sketchy after dark.</li>
+  <li><strong>Munich Airport hotels:</strong> Only for very early flights.</li>
+  <li><strong>Anywhere outside the Mittlerer Ring marketed as "central":</strong> Suburban.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, beer focus: Altstadt. Evenings, cocktails: Glockenbach. Family or park: Schwabing. Museums: Maxvorstadt. Quiet calm: Haidhausen.</p>
+
+<p>Compare: <a href="/en/germany/munich/compare/altstadt-vs-glockenbachviertel">Altstadt vs Glockenbach</a>, <a href="/en/germany/munich/compare/altstadt-vs-maxvorstadt">Altstadt vs Maxvorstadt</a>, <a href="/en/germany/munich/compare/glockenbachviertel-vs-haidhausen">Glockenbach vs Haidhausen</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-couples",
+    title: "Best European Cities for Couples (Beyond Paris and Venice)",
+    excerpt: "Honest picks of European cities that actually deliver romance — with the over-rated cliché destinations to skip.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-03",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Couples — Beyond Paris and Venice",
+    metaDescription: "Honest picks of European cities that actually deliver romance — with the over-rated cliché destinations to skip.",
+    html: `
+<p>"Most romantic" lists are mostly recycled Paris-Venice content. Here's the honest list of European cities where romance actually works in person — sorted by trip type.</p>
+
+<h2>For first-time romantic Europe</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a> + Tuscany:</strong> Renaissance dinners, Tuscan day-trips. <a href="/en/italy/florence/oltrarno">Oltrarno</a> for the romantic side.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Off-festival, the fortress and Mirabell Gardens deliver. Avoid late-July through August.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a>:</strong> Albaicín sunset views over the Alhambra are unmatched.</li>
+</ul>
+
+<h2>For repeat-visit romance</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> in October:</strong> Cruise season ends, prices drop 50%, walls glow. Stay in <a href="/en/croatia/dubrovnik/lapad">Lapad</a> for sea-view-from-room.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> Off-season pastel facades, fado dinners. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> for design-romantic.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a> in November:</strong> Day-trippers gone, candlelit canals, the cliché works.</li>
+</ul>
+
+<h2>For dramatic-setting romance</h2>
+
+<ul>
+  <li><strong><a href="/en/turkey/cappadocia/uchisar">Uçhisar in Cappadocia</a>:</strong> Cave-hotel-with-balloon-view — the most dramatic landscape on this list.</li>
+  <li><strong><a href="/en/greece/santorini/imerovigli">Imerovigli on Santorini</a>:</strong> Caldera view without Oia's sunset crush.</li>
+  <li><strong>Lake Como (Varenna specifically):</strong> Smaller than Bellagio, better restaurants.</li>
+</ul>
+
+<h2>For city-break romance</h2>
+
+<ul>
+  <li><strong><a href="/en/denmark/copenhagen/christianshavn">Christianshavn in Copenhagen</a>:</strong> Canal-houseboat quarter, design-restaurant cluster.</li>
+  <li><strong><a href="/en/italy/rome/aventino">Aventino in Rome</a>:</strong> The Orange Garden at sunset, the Knights of Malta keyhole.</li>
+  <li><strong><a href="/en/france/paris/montmartre">Montmartre in Paris</a>:</strong> The cliché works — Sacré-Cœur, narrow lanes.</li>
+</ul>
+
+<h2>What gets recommended but disappoints</h2>
+
+<ul>
+  <li><strong>Venice in summer:</strong> Day-tripper crush kills romance. October-March is when it works.</li>
+  <li><strong>Paris in August:</strong> Most of the city's on holiday. Half the bistros close.</li>
+  <li><strong>Mykonos:</strong> Party island, not honeymoon island.</li>
+  <li><strong>Capri day-trips:</strong> One of Italy's worst-value tourist experiences. Stay overnight or skip.</li>
+  <li><strong>Most "couples-only" resort destinations:</strong> Generic, isolated. The European trip is the opposite.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Honest math: 7 nights split between 2 cities beats 7 nights split between 4. Off-season delivers most of the same trip at 60-70% of peak prices. For specific off-season cities see <a href="/en/articles/off-season-romance-cities-honest-list">off-season romance</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-italy-itinerary",
+    title: "Honest 7-Day Italy Itinerary: Rome + Florence Done Right",
+    excerpt: "Why splitting 7 days evenly across Rome, Florence, Venice is wrong — and the itinerary that actually works.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 8,
+    metaTitle: "7-Day Italy Itinerary — Rome + Florence Done Right",
+    metaDescription: "Why splitting 7 days evenly across Rome, Florence, Venice is wrong — and the itinerary that actually works.",
+    html: `
+<p>The classic Italy mistake is "Rome 2 days, Florence 2 days, Venice 2 days." It feels covered. It actually means you're traveling 30% of your trip. Here's the itinerary that works for 7 days.</p>
+
+<h2>The right 7-day Italy split</h2>
+
+<ul>
+  <li><strong>Day 1-4: Rome (4 nights)</strong> — Stay in <a href="/en/italy/rome/centro-storico">Centro Storico</a> first night, move to <a href="/en/italy/rome/trastevere">Trastevere</a> nights 2-4.</li>
+  <li><strong>Day 5-7: Florence (3 nights)</strong> — One day for the city (Uffizi, Duomo, Accademia), one day for Tuscany (Siena or San Gimignano), one day flexible.</li>
+</ul>
+
+<h2>Why skip Venice on a 7-day trip</h2>
+
+<p>Venice deserves at least 2 nights to see it without day-trippers. A 1-night Venice + 1-day-of-travel turns a great experience into a flying drive-by. Better to do Rome-Florence-Tuscany properly and save Venice for a longer trip or a separate one.</p>
+
+<h2>If you must add Venice (10-day version)</h2>
+
+<ul>
+  <li>Rome: 4 nights</li>
+  <li>Florence: 3 nights (with Tuscany day-trip)</li>
+  <li>Venice: 2 nights — stay in <a href="/en/italy/venice/cannaregio">Cannaregio</a></li>
+  <li>1 buffer day</li>
+</ul>
+
+<h2>Travel logistics</h2>
+
+<ul>
+  <li>Fly into Rome FCO (most options) or Venice VCE if doing 10-day with Venice.</li>
+  <li>Rome → Florence: 90 min by Frecciarossa (book 2-3 months ahead for €30-€50; walk-up €70-€110).</li>
+  <li>Florence → Venice: 2h by Frecciarossa.</li>
+  <li>Venice → Rome direct: 4h. Otherwise fly.</li>
+</ul>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li>The classic "Rome-Florence-Venice in 5 days" — wastes 2 days on travel.</li>
+  <li>Pisa as a day-stop unless you have specific Leaning Tower interest.</li>
+  <li>Naples on a first trip — it's a 4-night trip on its own.</li>
+  <li>Amalfi Coast in a 7-day trip — needs its own 5-night dedicated visit.</li>
+</ul>
+
+<h2>Where to stay specifics</h2>
+
+<p>Rome: <a href="/en/articles/where-to-stay-in-rome">full Rome guide</a>. Florence: <a href="/en/articles/where-to-stay-in-florence">full Florence guide</a>. Venice (if added): Cannaregio over San Marco.</p>
+
+<p>For longer trips see <a href="/en/articles/europe-first-trip-itinerary-suggestions">14/21-day Europe itineraries</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "honest-european-day-trip-guide",
+    title: "European Day Trips Worth It (and Worth Skipping)",
+    excerpt: "Honest list of European day trips that deliver — and the famous ones that eat your day for almost nothing.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "European Day Trips Worth It (and Worth Skipping) — Honest Guide",
+    metaDescription: "Honest list of European day trips that deliver — and the famous ones that eat your day for almost nothing.",
+    html: `
+<p>Day-trip marketing is loud but reality is quieter. Here's the honest map of European day trips ranked by deliverable-experience-per-day-spent.</p>
+
+<h2>Day trips that genuinely work</h2>
+
+<ul>
+  <li><strong>Versailles from Paris (45 min):</strong> Half-day for the chateau, full-day if Marie Antoinette's Hamlet too. Train every 15 min from Saint-Lazare.</li>
+  <li><strong>Sintra from Lisbon (45 min):</strong> Pena Palace, Quinta da Regaleira. Get there by 9am to beat tour buses.</li>
+  <li><strong>Toledo from Madrid (33 min):</strong> AVE high-speed train. Old town in 4-5 hours. Skip in summer (heat).</li>
+  <li><strong>Bath from London (1h 25min):</strong> Easy day. Roman Baths, Royal Crescent, lunch.</li>
+  <li><strong>Auschwitz from Krakow:</strong> Heavy but essential. Book 2-3 months ahead in summer.</li>
+  <li><strong>Hallstatt from Salzburg (2h):</strong> Lake village, day-trippable but better as overnight.</li>
+  <li><strong>Mont Saint-Michel from Paris:</strong> Long day but possible. Better as 1-night side trip.</li>
+  <li><strong>Tivoli (Villa d'Este, Hadrian's Villa) from Rome:</strong> Excellent half-day or day.</li>
+</ul>
+
+<h2>Day trips with caveats</h2>
+
+<ul>
+  <li><strong>Pompeii from Rome:</strong> Full day. Better from Naples or Sorrento (2 nights base).</li>
+  <li><strong>Cinque Terre as a day trip:</strong> Possible from Florence but rushed. Stay overnight in Vernazza.</li>
+  <li><strong>Bruges from Brussels:</strong> Easy 1h train. But Bruges deserves a 2-night stay.</li>
+  <li><strong>Hvar from Split:</strong> 1h ferry. Day-trip works but overnight is better.</li>
+</ul>
+
+<h2>Day trips that disappoint</h2>
+
+<ul>
+  <li><strong>Capri from anywhere:</strong> Famous Worst-Value Day Trip. Boats, queues, €40 lunches, 6 hours of crowds. Stay overnight or skip. Procida is what Capri was 50 years ago.</li>
+  <li><strong>Mont Saint-Michel as a 1-day from Paris:</strong> 4h each way of bus/train. Eat the day. Sleep nearby instead.</li>
+  <li><strong>Brussels day-trip from Amsterdam:</strong> Brussels needs 1 day max anyway, and the train is 2h+ each way.</li>
+  <li><strong>Eiger/Jungfrau from Zurich:</strong> Beautiful but 4h+ travel each way for a glance.</li>
+  <li><strong>Anywhere requiring 4+ hours of travel each way:</strong> Eats the day. Stay overnight.</li>
+</ul>
+
+<h2>The rule</h2>
+
+<p>If a day-trip requires more than 3 hours travel each way, stay overnight or skip. If it's marketed as "easy day-trip" but the same destination has substantial overnight tourism, that's the signal — overnight is the trip.</p>
+
+<p>For combining cities into longer trips see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

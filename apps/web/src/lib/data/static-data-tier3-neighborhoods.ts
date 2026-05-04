@@ -1579,4 +1579,61 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
 
   // Galway third compare leverages
   // (Latin Quarter, Salthill, Claddagh already in data — pairs to be added below)
+
+  // ========== EXPANSION BATCH 14: 3rd nbhds for 2-nbhd cities ==========
+  // Bergen 3rd
+  { slug: "bergenhus-fjellsiden", name: "Fjellsiden", citySlug: "bergen", countrySlug: "norway",
+    summary: "The hillside east of Bryggen — wooden-house residential, Fløibanen funicular base, where Bergeners actually live.",
+    whoItsFor: "Long stays. Repeat visitors. Couples wanting calm with central proximity.",
+    whoShouldSkip: "Short stays focused on Bryggen wharf atmosphere. Mobility-aware travelers (steep streets).",
+    priceTier: 2, vibeTags: ["residential", "wooden", "hillside", "calm"],
+    tripTypeFit: ["couples", "digital-nomads", "families"] },
+
+  // Geneva 3rd
+  { slug: "carouge", name: "Carouge", citySlug: "geneva", countrySlug: "switzerland",
+    summary: "Just south of central Geneva across the Arve — Italianate quarter built by Sardinians, dense restaurants, the calmer alternative.",
+    whoItsFor: "Repeat visitors. Long stays. Couples wanting non-corporate Geneva.",
+    whoShouldSkip: "Short business stays needing UN/lake proximity. First-time visits.",
+    priceTier: 3, vibeTags: ["italianate", "residential", "food", "calm"],
+    tripTypeFit: ["couples", "digital-nomads", "families"] },
+
+  // Gothenburg 3rd
+  { slug: "majorna", name: "Majorna", citySlug: "gothenburg", countrySlug: "sweden",
+    summary: "West of Linné — formerly working-class, now creative-and-design quarter, dense neighborhood-cafés, rough around edges.",
+    whoItsFor: "Long stays. Digital nomads. Anyone under 35 wanting non-tourist Gothenburg.",
+    whoShouldSkip: "Short stays focused on Vasastaden cafés. First-time visits.",
+    priceTier: 2, vibeTags: ["creative", "lived-in", "cafes", "alternative"],
+    tripTypeFit: ["digital-nomads", "solo", "couples"] },
+
+  // Malmo 3rd
+  { slug: "moller", name: "Möllevången", citySlug: "malmo", countrySlug: "sweden",
+    summary: "South of central Malmö — the multicultural quarter, dense market and food, Möllevångstorget at the centre.",
+    whoItsFor: "Long stays. Food-focused trips. Anyone under 40 wanting multicultural Malmö.",
+    whoShouldSkip: "Short stays focused on Gamla Staden atmosphere. First-time visits.",
+    priceTier: 2, vibeTags: ["multicultural", "market", "food", "alternative"],
+    tripTypeFit: ["digital-nomads", "solo", "couples"] },
+
+  // Rotterdam 3rd
+  { slug: "delfshaven", name: "Delfshaven", citySlug: "rotterdam", countrySlug: "netherlands",
+    summary: "West of Rotterdam — historic port quarter that survived WWII bombing, narrow lanes, the Pilgrim Fathers' departure point.",
+    whoItsFor: "History-focused trips. Repeat Rotterdam visitors. Couples wanting calm.",
+    whoShouldSkip: "First-time visits focused on modern architecture. Short stays.",
+    priceTier: 2, vibeTags: ["historic", "harbor", "calm", "residential"],
+    tripTypeFit: ["couples", "digital-nomads", "first-timers"] },
+
+  // The Hague 3rd
+  { slug: "voorhout", name: "Voorhout", citySlug: "the-hague", countrySlug: "netherlands",
+    summary: "The leafy royal quarter east of Centrum — Lange Voorhout palace, embassy quarter, dense diplomatic-restaurant cluster.",
+    whoItsFor: "Business stays. Long stays. Anyone over 40 wanting wealthy-residential.",
+    whoShouldSkip: "Short stays focused on beach (Scheveningen wins). First-time leisure visits.",
+    priceTier: 4, vibeTags: ["wealthy", "embassy", "leafy", "calm"],
+    tripTypeFit: ["business", "luxury", "couples"] },
+
+  // Thessaloniki 3rd
+  { slug: "kalamaria", name: "Kalamaria", citySlug: "thessaloniki", countrySlug: "greece",
+    summary: "East of Thessaloniki along the gulf — residential seaside, fish-tavernas, where wealthy Thessalonians actually live.",
+    whoItsFor: "Long stays. Families. Anyone wanting seaside calm with city access.",
+    whoShouldSkip: "Short first-time visits focused on Ladadika atmosphere.",
+    priceTier: 2, vibeTags: ["seaside", "residential", "calm", "tavernas"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
 ];

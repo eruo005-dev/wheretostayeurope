@@ -5021,6 +5021,180 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 14 — more topic guides + remaining tier-2 city overviews
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-hamburg",
+    title: "Where to Stay in Hamburg: Sternschanze, St. Pauli or HafenCity?",
+    excerpt: "Hamburg neighborhoods compared honestly. Real differences in atmosphere, music, families and price.",
+    publishedAt: "2026-05-10",
+    reviewedAt: "2026-05-10",
+    readingTimeMin: 8,
+    metaTitle: "Where to Stay in Hamburg — Honest Neighborhood Guide",
+    metaDescription: "Hamburg neighborhoods compared honestly. Real differences in atmosphere, music, families and price.",
+    html: `
+<p>Hamburg has three real options that serve very different trips. Pick deliberately.</p>
+
+<h2>Sternschanze — for food and creative</h2>
+
+<p><a href="/en/germany/hamburg/sternschanze">Sternschanze</a> is the punk-leftist creative quarter — graffiti, vegan döner, dense food density on Schulterblatt. Best for: 3+ night stays, food-focused trips, anyone under 40.</p>
+
+<h2>St. Pauli — for music and Reeperbahn</h2>
+
+<p><a href="/en/germany/hamburg/st-pauli">St. Pauli</a> is the Reeperbahn music quarter — Beatles tour, music venues, FC St. Pauli football. Loud Friday-Saturday until 5am. Best for: music-focused trips, anyone under 35, Reeperbahn-experience priority.</p>
+
+<h2>HafenCity — for families and modern</h2>
+
+<p><a href="/en/germany/hamburg/hafencity">HafenCity</a> is the new harbor district — Elbphilharmonie, modern architecture, polished. Best for: families, design-focused trips, anyone wanting modern Hamburg.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere near Hauptbahnhof:</strong> Sketchy after dark, far from anything good.</li>
+  <li><strong>Hotels marketed as "Hamburg" 30+ km out:</strong> Verify on a map.</li>
+  <li><strong>St. Pauli with kids on weekends:</strong> Inappropriate.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>Food and creative: Sternschanze. Music and Reeperbahn: St. Pauli. Families or design: HafenCity.</p>
+
+<p>Compare: <a href="/en/germany/hamburg/compare/sternschanze-vs-st-pauli">Sternschanze vs St. Pauli</a>, <a href="/en/germany/hamburg/compare/sternschanze-vs-hafencity">Sternschanze vs HafenCity</a>, <a href="/en/germany/hamburg/compare/st-pauli-vs-hafencity">St. Pauli vs HafenCity</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-cologne",
+    title: "Where to Stay in Cologne: Altstadt or Belgian Quarter?",
+    excerpt: "Cologne neighborhoods compared honestly. Real differences in cathedral access, food, atmosphere and price.",
+    publishedAt: "2026-05-10",
+    reviewedAt: "2026-05-10",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Cologne — Honest Neighborhood Guide",
+    metaDescription: "Cologne neighborhoods compared honestly. Real differences in cathedral access, food, atmosphere and price.",
+    html: `
+<p>Cologne is small. The pick is touristy-cathedral-side or trendy-Belgian-quarter.</p>
+
+<h2>Altstadt — for first-timers</h2>
+
+<p><a href="/en/germany/cologne/altstadt-cologne">Altstadt</a> is the cathedral-side core — Dom, Hauptbahnhof, Brauhaus density. Premium pricing during fairs (Karneval, Photokina). Best for: 1-2 night first visits, sights-focused trips, train-heavy itineraries.</p>
+
+<h2>Belgian Quarter — for food and design</h2>
+
+<p><a href="/en/germany/cologne/belgisches-viertel">Belgisches Viertel</a> is the post-war design-shop and food quarter west of Altstadt — Aachener Straße strip, Rudolfplatz nearby. Best for: 2-3 night stays, food-focused trips, anyone under 40.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Cologne" 30+ km out:</strong> Verify on a map.</li>
+  <li><strong>Anywhere near the train station:</strong> Sketchy at night.</li>
+  <li><strong>During Karneval (Feb-Mar):</strong> Anywhere central is impossible to sleep through.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, cathedral focus: Altstadt. Food and design: Belgian Quarter.</p>
+
+<p>Compare: <a href="/en/germany/cologne/compare/altstadt-vs-belgisches-viertel">Altstadt vs Belgian Quarter</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-older-travelers",
+    title: "Best European Cities for Older Travelers (Honest Picks)",
+    excerpt: "Honest sort of European cities by mobility, walkability, and quieter atmosphere — what works for 60+ travelers.",
+    publishedAt: "2026-05-10",
+    reviewedAt: "2026-05-10",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Older Travelers — Mobility-Aware Picks",
+    metaDescription: "Honest sort of European cities by mobility, walkability, and quieter atmosphere — what works for 60+ travelers.",
+    html: `
+<p>Most European travel content assumes 25-year-olds. Here's the honest sort by mobility, calmer atmosphere, and accessibility for travelers over 60.</p>
+
+<h2>Tier 1 — easy mobility, quiet atmosphere, good transit</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Excellent flat sidewalks, U-Bahn covers everything, museum density. Stay in <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> for central calm.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Flat, walkable Altstadt, transit excellence. Stay in <a href="/en/germany/munich/altstadt">Altstadt</a> or <a href="/en/germany/munich/maxvorstadt">Maxvorstadt</a>.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Flat central core, world-class museums, Spain's late-dinner culture suits older travelers. Stay in <a href="/en/spain/madrid/salamanca">Salamanca</a>.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>:</strong> Clean, polished, family-aware. Stay in <a href="/en/sweden/stockholm/ostermalm">Östermalm</a> for elegant central.</li>
+</ul>
+
+<h2>Tier 2 — moderate effort, beautiful payoff</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Compact and walkable, art density unmatched. Stay near the Duomo.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Metro covers everything, but choose central arrondissements (1, 4, 6, 7) for less walking.</li>
+  <li><strong>Bath, UK:</strong> Compact, Georgian, accessible (some cobbles). Stay in <a href="/en/united-kingdom/bath/city-centre-bath">City Centre</a>.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Small, compact, cathedral and fortress accessible. Off-festival.</li>
+</ul>
+
+<h2>Tier 3 — strong with caveats</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Mostly flat. Avoid late-July through August heat.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a>:</strong> Flat top (Baixa) is fine; avoid Ribeira-stays unless mobility is excellent.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Bicycles everywhere create unfamiliar hazards. Stay in <a href="/en/netherlands/amsterdam/jordaan">Jordaan</a> for calm.</li>
+</ul>
+
+<h2>Cities to avoid for limited mobility</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Alfama:</strong> Brutally steep stair-streets.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a> Albaicín:</strong> Equally steep.</li>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> Bridges everywhere; flat sections are limited.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> Old Town:</strong> Cobblestone steps, hard with luggage.</li>
+  <li><strong>Hill-towns in Tuscany / Provence:</strong> Steep, often without elevators.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick fewer cities, longer stays. Daily walking 4-5 miles is normal in Europe — set a slower pace. Book hotels with elevators (verify before booking). Day-trip rather than relocate frequently.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-cities-to-base-for-european-day-trips",
+    title: "Best Cities to Base for European Day Trips",
+    excerpt: "Pick a city with day-trip variety, save money on hotels by not relocating. Honest picks for hub-and-spoke European travel.",
+    publishedAt: "2026-05-10",
+    reviewedAt: "2026-05-10",
+    readingTimeMin: 9,
+    metaTitle: "Best Cities to Base for European Day Trips — Hub-and-Spoke Travel",
+    metaDescription: "Pick a city with day-trip variety, save money on hotels by not relocating. Honest picks for hub-and-spoke European travel.",
+    html: `
+<p>Hub-and-spoke European travel saves on transit time and luggage hassle. Here's the honest sort of cities that genuinely work as day-trip bases.</p>
+
+<h2>Best day-trip hubs</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Day-trips to Siena, Pisa, San Gimignano, Lucca. Train connections excellent.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Versailles (45 min), Reims (45 min), Mont Saint-Michel (long but doable), Loire châteaux.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Toledo (33 min AVE), Segovia (30 min), Aranjuez, Alcalá de Henares. World-class day-trip variety.</li>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Hvar, Brač, Krka, Trogir. Ferry-and-bus combinations.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Sintra, Cascais, Évora, Belém. All within 1h of central.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Hallstatt, Bavarian Alps, Berchtesgaden, Werfen ice caves.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Auschwitz, Wieliczka, Zakopane mountains.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Neuschwanstein, Dachau, Salzburg cross-border, Garmisch.</li>
+</ul>
+
+<h2>Cities that look like good hubs but aren't</h2>
+
+<ul>
+  <li><strong>Brussels:</strong> Bruges and Ghent deserve their own overnight stays, not day-trips.</li>
+  <li><strong>Frankfurt:</strong> Day-trip to Heidelberg or Rüdesheim is fine but Frankfurt itself is dull.</li>
+  <li><strong>Copenhagen:</strong> Excellent city but day-trip variety is limited beyond Malmö.</li>
+  <li><strong>Helsinki:</strong> Tallinn ferry is great but most other day-trips need long ferry rides.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For 7-day trips, hub-and-spoke from one city beats relocating every 2 nights. Pack light, leave luggage at the same hotel, return for dinner. Most travelers underestimate the time cost of relocating (4-6 hours per move).</p>
+
+<p>For specific day-trip recommendations see <a href="/en/articles/honest-european-day-trip-guide">honest European day trips</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

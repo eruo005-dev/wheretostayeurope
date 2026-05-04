@@ -8120,6 +8120,354 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 27 — second-trip + slow-travel + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-second-trip",
+    title: "Best European Cities for a Second Trip (Skip Paris/Rome/London)",
+    excerpt: "Done the obvious capitals? Here's the honest pick of European cities for trip number 2.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Second Trip — Skip the Obvious 2026",
+    metaDescription: "Done the obvious capitals? Here's the honest pick of European cities for trip number 2.",
+    html: `
+<p>Most travelers do Paris-Rome-London for trip 1. Trip 2 should look different. Here's the honest sort.</p>
+
+<h2>If you liked Paris</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Fado + pastel facades + light. Different climate, similar density.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Imperial architecture, museums, café culture.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> The Prado-Reina-Sofía-Thyssen triangle.</li>
+</ul>
+
+<h2>If you liked Rome</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a> + Tuscany:</strong> Different Italy. Renaissance vs ancient.</li>
+  <li><strong>Athens + Greek mainland:</strong> Ancient Greek history vs ancient Roman.</li>
+  <li><strong><a href="/en/italy/naples">Naples</a> + Pompeii:</strong> Wilder, more chaotic, food-dense.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Byzantine + Ottoman in same city.</li>
+</ul>
+
+<h2>If you liked London</h2>
+
+<ul>
+  <li><strong><a href="/en/united-kingdom/edinburgh">Edinburgh</a>:</strong> Different UK. Castle, festival.</li>
+  <li><strong>Dublin + Galway:</strong> English-speaking, different feel.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Comparable scale, very different vibe.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> English-friendly, canal-city alternative.</li>
+</ul>
+
+<h2>For a wholly-different second trip</h2>
+
+<ul>
+  <li><strong>Baltic loop:</strong> <a href="/en/estonia/tallinn">Tallinn</a> + <a href="/en/latvia/riga">Riga</a> + <a href="/en/lithuania/vilnius">Vilnius</a>. Cheap, atmospheric, off-tourist.</li>
+  <li><strong>Croatian coast:</strong> Split + Hvar + Dubrovnik.</li>
+  <li><strong>Andalusia loop:</strong> Seville + Granada + Córdoba.</li>
+  <li><strong>Bavaria + Salzburg:</strong> Munich + Neuschwanstein + Salzburg.</li>
+  <li><strong>Sicily:</strong> Catania + Taormina + Palermo. Bigger trip than islands.</li>
+</ul>
+
+<h2>What second-trip travelers tell us</h2>
+
+<p>The most common feedback: "wish I'd skipped one of the obvious capitals on trip 1 to spend time on something deeper." For trip 2, prioritize fewer cities, longer stays.</p>
+
+<p>For specific itineraries see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-slow-travel",
+    title: "Best European Cities for Slow Travel (1-3 Week Stays)",
+    excerpt: "Cities that reward 7+ night stays — by neighborhood depth, food density and walkability.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Slow Travel — 1-3 Week Stays",
+    metaDescription: "Cities that reward 7+ night stays — by neighborhood depth, food density and walkability.",
+    html: `
+<p>Most European travel content optimizes for short trips. Slow travel (1-3 week stays) needs different cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destinations for slow travel</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Multiple neighborhoods to live in (Mouraria, Príncipe Real, Belém). Beach 30 min, mountains 1h. Excellent for 2-3 week stays.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> 6 distinct neighborhoods, world-class museums for repeat visits.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Slow Rome — Centro Storico for 4 days, Trastevere for 4, Testaccio for 4, Aventino for 4.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Each neighborhood is functionally a different city. 3 weeks barely scratches it.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> 20 arrondissements. 3 weeks is the right length for Paris-deep.</li>
+</ul>
+
+<h2>Tier 2 — strong slow-travel cities</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Andalusia + Madrid combo for 2 weeks.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Sultanahmet + Galata + Kadıköy = 14+ days.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Districts 1 + 7 + 2 + day-trips.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a>:</strong> City + Douro Valley deep for 2 weeks.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Bavaria + Salzburg + Garmisch-Partenkirchen all from a Munich base.</li>
+</ul>
+
+<h2>Tier 3 — pleasant for slow travel but smaller</h2>
+
+<ul>
+  <li><strong>Florence:</strong> 5-7 nights ideal; longer feels redundant unless using as Tuscany base.</li>
+  <li><strong>Edinburgh:</strong> Short for slow travel but Highland day-trips extend.</li>
+  <li><strong>Salzburg:</strong> 3-4 nights typical; 2 weeks works only with Bavarian + Austrian Alps day-trips.</li>
+</ul>
+
+<h2>Tier 4 — wrong for slow travel</h2>
+
+<ul>
+  <li>Most coastal/island towns close in winter.</li>
+  <li>Tourist-trap centers like central Bruges or Hallstatt feel claustrophobic over weeks.</li>
+  <li>Geneva, Zurich — too expensive for long stays unless work-related.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Apartment rentals:</strong> Save 40-60% vs hotels for 7+ night stays.</li>
+  <li><strong>Multiple-neighborhood approach:</strong> Move within the city every 4-7 days.</li>
+  <li><strong>Day-trip variety:</strong> Slow travel is mostly weekday-day-trip + weekend-stay.</li>
+  <li><strong>Local groceries:</strong> Restaurants get expensive over 3-week stays.</li>
+</ul>
+
+<p>For digital-nomad cities see <a href="/en/articles/best-european-cities-for-digital-nomads">digital nomad guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stopover-with-kids",
+    title: "Best European Cities for Layovers With Kids",
+    excerpt: "Long airport layovers with kids. Honest take on which European hubs make a 6-12 hour family stopover work.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 8,
+    metaTitle: "Best European Layovers With Kids — Honest 2026",
+    metaDescription: "Long airport layovers with kids. Honest take on which European hubs make a 6-12 hour family stopover work.",
+    html: `
+<p>Long layovers with kids are harder than solo. Here's the honest sort by family-friendly logistics.</p>
+
+<h2>Excellent for family stopovers</h2>
+
+<ul>
+  <li><strong>Reykjavík (KEF):</strong> 45 min to centre. Whales of Iceland aquarium + lunch + back. Icelandair offers free 7-day stopover.</li>
+  <li><strong>Copenhagen (CPH):</strong> 15 min metro. Tivoli Gardens (in season) + lunch + back.</li>
+  <li><strong>Helsinki (HEL):</strong> 30 min train. Oodi central library + park + back.</li>
+  <li><strong>Amsterdam (AMS):</strong> 15 min train. Vondelpark + lunch + Anne Frank House (older kids).</li>
+</ul>
+
+<h2>Workable for family stopovers</h2>
+
+<ul>
+  <li><strong>Lisbon (LIS):</strong> 25 min metro. Tram 28 + harbor + lunch.</li>
+  <li><strong>Madrid (MAD):</strong> 30 min metro. Retiro Park + Atocha turtle pond.</li>
+  <li><strong>Vienna (VIE):</strong> 16 min CAT. Prater amusement park + Stephansdom.</li>
+  <li><strong>Munich (MUC):</strong> 40 min S-Bahn. Englischer Garten + sausage lunch.</li>
+</ul>
+
+<h2>Skip for family stopovers</h2>
+
+<ul>
+  <li><strong>Paris CDG:</strong> 35 min RER plus security going back. Too tight under 8 hours with kids.</li>
+  <li><strong>London Heathrow:</strong> 1h+ to central; immigration adds time.</li>
+  <li><strong>Frankfurt:</strong> City is generic; airport amenities better.</li>
+  <li><strong>Istanbul (IST):</strong> 1h+ each way; security stressful.</li>
+</ul>
+
+<h2>What helps</h2>
+
+<ul>
+  <li><strong>Stroller / luggage:</strong> Most major airports have reliable left-luggage.</li>
+  <li><strong>Buffer time:</strong> Be back 3-4 hours before next flight with kids.</li>
+  <li><strong>Single sight + park:</strong> Don't try to see two things.</li>
+  <li><strong>Pre-buy transit tickets:</strong> Avoid kiosks with tired kids.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cooking-classes",
+    title: "Best European Cities for Cooking Classes (Honest 2026)",
+    excerpt: "Where to take a cooking class as part of a European trip. Honest sort by cuisine depth and class quality.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Cooking Classes — Honest 2026",
+    metaDescription: "Where to take a cooking class as part of a European trip. Honest sort by cuisine depth and class quality.",
+    html: `
+<p>Cooking classes vary in depth across European cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — cuisine-focused destinations</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/bologna">Bologna</a>:</strong> Italy's food capital. Pasta-making classes are exceptional. Ragù, tortellini, tagliatelle from grandmas.</li>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Tuscan classes — pasta, ribollita, bistecca alla fiorentina.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Roman pasta (cacio e pepe, carbonara, amatriciana) at the source.</li>
+  <li><strong>Lyon, France:</strong> Bouchon classes, French food capital.</li>
+  <li><strong>Marrakech (technically not Europe but easy from):</strong> Tagines + market tours.</li>
+</ul>
+
+<h2>Tier 2 — strong cooking-class cities</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Tapas classes + sherry pairings.</li>
+  <li><strong><a href="/en/spain/san-sebastian">San Sebastián</a>:</strong> Pintxos classes, often at txokos (private gastronomic societies).</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + <a href="/en/portugal/porto">Porto</a>:</strong> Portuguese seafood + custard tart classes.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Ottoman + Anatolian classes; Bazaar tours.</li>
+  <li><strong>Provence (Aix or Avignon):</strong> Classes on Provençal cuisine + lavender / herb walks.</li>
+</ul>
+
+<h2>Tier 3 — strong but underrated</h2>
+
+<ul>
+  <li><strong>Bordeaux + Saint-Émilion:</strong> Wine + cooking pairings.</li>
+  <li><strong>Athens (and Crete):</strong> Greek classes — moussaka, mezze, baklava.</li>
+  <li><strong>Krakow:</strong> Polish classes — pierogi, bigos.</li>
+  <li><strong>Copenhagen:</strong> New Nordic classes (former Noma chefs teach).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Half-day vs full-day:</strong> Half-day = focused dish; full-day = market visit + multiple dishes.</li>
+  <li><strong>Group size:</strong> 6-8 maximum is ideal. Larger = less hands-on.</li>
+  <li><strong>Book ahead:</strong> Top classes sell out 2-3 months ahead.</li>
+  <li><strong>Bring cash for tips:</strong> Especially in family-run venues.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-coffee-culture",
+    title: "Best European Cities for Coffee Culture (Honest 2026)",
+    excerpt: "Where to drink European coffee at the source. Honest sort by depth — espresso, third-wave, café tradition.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Coffee Culture — Honest 2026",
+    metaDescription: "Where to drink European coffee at the source. Honest sort by depth — espresso, third-wave, café tradition.",
+    html: `
+<p>European coffee splits into Italian-espresso tradition, Viennese café tradition, and Nordic third-wave. Here's the honest sort.</p>
+
+<h2>Italian espresso tradition</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/naples">Naples</a>:</strong> The espresso original. Caffè Gambrinus, Caffè Mexico.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Sant'Eustachio, Tazza d'Oro near the Pantheon.</li>
+  <li><strong><a href="/en/italy/milan">Milan</a>:</strong> Pasticceria-bars (espresso + pastry standing).</li>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Ditta Artigianale (third-wave + traditional).</li>
+</ul>
+
+<h2>Viennese café tradition</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Café Central, Café Sperl, Café Hawelka. The full UNESCO-protected Kaffeehaus tradition.</li>
+  <li><strong>Budapest:</strong> Gerbeaud, New York Café — same Habsburg lineage.</li>
+  <li><strong>Trieste, Italy:</strong> Hybrid Italian-Austrian café culture; Antico Caffè San Marco.</li>
+</ul>
+
+<h2>Nordic third-wave</h2>
+
+<ul>
+  <li><strong>Helsinki, <a href="/en/finland/helsinki/kallio">Kallio</a>:</strong> Specialty roasters lead Europe.</li>
+  <li><strong>Copenhagen:</strong> The Coffee Collective, Prolog Coffee Bar.</li>
+  <li><strong>Oslo:</strong> Tim Wendelboe (legendary).</li>
+  <li><strong>Stockholm:</strong> Drop Coffee Roasters, Kaffeverket.</li>
+</ul>
+
+<h2>Other strong scenes</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Galão (latte) + pastel de nata. A Brasileira historic café.</li>
+  <li><strong>Berlin:</strong> The Barn, Bonanza — strong third-wave scene.</li>
+  <li><strong>London:</strong> Workshop Coffee, Monmouth Coffee.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Turkish coffee tradition still alive in <a href="/en/turkey/istanbul/kadikoy">Kadıköy</a>.</li>
+</ul>
+
+<h2>Where coffee underwhelms</h2>
+
+<ul>
+  <li><strong>French cafés:</strong> Surprisingly mediocre coffee. Pastry yes, espresso no (unless you find the third-wave spots).</li>
+  <li><strong>Most British pubs/cafés outside London:</strong> Filter coffee dominates.</li>
+  <li><strong>Most Spanish cafés outside Madrid/Barcelona:</strong> Filter or instant common.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Europeans take coffee differently from Americans. Standing at the bar costs 1/3 of sitting at a table in Italy. Order "un caffè" for espresso; cappuccino is breakfast-only.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-spring-flowers",
+    title: "Best European Cities for Spring Flower Trips",
+    excerpt: "Where to chase European spring blooms — tulips, lavender, cherry blossoms, Provençal lavender. Real timing.",
+    publishedAt: "2026-05-22",
+    reviewedAt: "2026-05-22",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Spring Flowers — Honest 2026",
+    metaDescription: "Where to chase European spring blooms — tulips, lavender, cherry blossoms, Provençal lavender. Real timing.",
+    html: `
+<p>Spring in Europe runs March-June with different blooms by region. Here's the honest map.</p>
+
+<h2>Tulips, Netherlands (mid-March to mid-May)</h2>
+
+<ul>
+  <li><strong>Keukenhof Gardens:</strong> Only open 8 weeks/year. Book ahead.</li>
+  <li><strong>Lisse and Hillegom region:</strong> The bulb fields are roadside-visible.</li>
+  <li><strong>Best base:</strong> <a href="/en/netherlands/amsterdam">Amsterdam</a> with day-trips, or smaller towns nearby.</li>
+</ul>
+
+<h2>Cherry blossoms (March-April)</h2>
+
+<ul>
+  <li><strong>Bonn, Germany:</strong> Heerstraße cherry-blossom tunnel. Famous on Instagram.</li>
+  <li><strong>Stockholm Kungsträdgården:</strong> Free, central park.</li>
+  <li><strong>Copenhagen Bispebjerg Kirkegård:</strong> Cemetery cherry blossoms.</li>
+  <li><strong>Hamburg's Japan-themed park.</strong></li>
+</ul>
+
+<h2>Lavender, Provence (mid-June to mid-July)</h2>
+
+<ul>
+  <li><strong>Plateau de Valensole:</strong> The peak field, near <a href="/en/france/aix-en-provence">Aix</a> or <a href="/en/france/avignon">Avignon</a>.</li>
+  <li><strong>Sault region:</strong> Higher altitude — peaks late July.</li>
+  <li><strong>Best base:</strong> Avignon or Aix-en-Provence with rental car.</li>
+</ul>
+
+<h2>Sunflowers (July)</h2>
+
+<ul>
+  <li>Tuscany around Siena.</li>
+  <li>Provence (after lavender ends).</li>
+  <li>Castilla y León in Spain.</li>
+</ul>
+
+<h2>Wildflowers (May-June)</h2>
+
+<ul>
+  <li>Cretan mountains (Greece) — endemic species.</li>
+  <li>Picos de Europa (Spain).</li>
+  <li>Dolomites (Italian Alps).</li>
+  <li>Madeira (year-round but spring peak).</li>
+</ul>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Going for tulips after May 10:</strong> Often past peak.</li>
+  <li><strong>Going for lavender before late June:</strong> Often green.</li>
+  <li><strong>Lavender in Croatia (Hvar):</strong> Less reliable than Provence.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Bloom timing varies by 2-3 weeks year-to-year with weather. Check current-year reports (Keukenhof publishes weekly bloom-status). Don't book non-refundable hotels far ahead for bloom-specific trips.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -1503,4 +1503,80 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Short stays focused on Minster-and-Shambles walkability. First-time visits.",
     priceTier: 2, vibeTags: ["residential", "calm", "trains", "leafy"],
     tripTypeFit: ["families", "couples", "digital-nomads"] },
+
+  // ========== EXPANSION BATCH 13: more single-nbhd cities ==========
+  // Aix-en-Provence additional
+  { slug: "mazarin", name: "Mazarin", citySlug: "aix-en-provence", countrySlug: "france",
+    summary: "South of Cours Mirabeau — quieter 17th-century quarter, designer boutiques, residential calm with central proximity.",
+    whoItsFor: "Couples. Light sleepers. Repeat visits. Anyone wanting a quieter base 5 min from Cours Mirabeau.",
+    whoShouldSkip: "First-time visitors wanting fountains-and-cafés atmosphere at the door. Short stays.",
+    priceTier: 3, vibeTags: ["residential", "calm", "elegant", "central"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+
+  // Cluj additional
+  { slug: "centru", name: "Centru", citySlug: "cluj-napoca", countrySlug: "romania",
+    summary: "The wider central core surrounding Piața Unirii — denser cafés, museum quarter, walkable everywhere.",
+    whoItsFor: "Long stays. Digital nomads. Anyone wanting Cluj walkability with more variety than the main square.",
+    whoShouldSkip: "Short stays focused on Piața Unirii proximity. First-time visitors wanting square-side hotels.",
+    priceTier: 2, vibeTags: ["central", "cafes", "walkable", "museums"],
+    tripTypeFit: ["digital-nomads", "couples", "solo"] },
+
+  // Sibiu additional
+  { slug: "piata-mica", name: "Piața Mică", citySlug: "sibiu", countrySlug: "romania",
+    summary: "Just north of the Piața Mare — the smaller second square, dense cafés-and-restaurants, Sibiu's evening centre.",
+    whoItsFor: "Repeat visitors. Food-focused trips. Anyone wanting evening density with central proximity.",
+    whoShouldSkip: "First-time visitors specifically wanting Piața Mare at the door.",
+    priceTier: 2, vibeTags: ["central", "cafes", "evening", "walkable"],
+    tripTypeFit: ["couples", "first-timers", "digital-nomads"] },
+
+  // Sliema additional
+  { slug: "qui-si-sana", name: "Qui-Si-Sana", citySlug: "sliema", countrySlug: "malta",
+    summary: "The southern Sliema seafront facing Valletta — residential, the Tigné Point luxury area nearby, the calmer Sliema.",
+    whoItsFor: "Couples. Anyone over 40 wanting calmer Sliema with Valletta-view ferry access.",
+    whoShouldSkip: "Travelers wanting Strand bar density. Budget-focused stays.",
+    priceTier: 3, vibeTags: ["seafront", "residential", "calm", "view"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+
+  // Valletta additional
+  { slug: "floriana", name: "Floriana", citySlug: "valletta", countrySlug: "malta",
+    summary: "The fortified suburb just outside Valletta's main gate — residential, dense gardens, walkable to Valletta in 5-10 min.",
+    whoItsFor: "Repeat visitors. Light sleepers. Anyone wanting Valletta proximity at lower prices.",
+    whoShouldSkip: "Short first-time visits where sleeping inside the walls is the point.",
+    priceTier: 2, vibeTags: ["residential", "fortified", "calm", "central-ish"],
+    tripTypeFit: ["couples", "digital-nomads", "first-timers"] },
+
+  // Kosice additional
+  { slug: "stare-mesto-kosice", name: "Staré Mesto", citySlug: "kosice", countrySlug: "slovakia",
+    summary: "The wider old town surrounding Hlavná — Cathedral of St. Elisabeth, dense cafés, the central walkable core.",
+    whoItsFor: "First-time visitors. Long stays. Digital nomads.",
+    whoShouldSkip: "Short stays specifically wanting Hlavná Boulevard at the door.",
+    priceTier: 2, vibeTags: ["central", "old-town", "walkable", "cafes"],
+    tripTypeFit: ["digital-nomads", "couples", "first-timers"] },
+
+  // Brasov additional
+  { slug: "schei", name: "Schei", citySlug: "brasov", countrySlug: "romania",
+    summary: "The historic Romanian quarter west of Piața Sfatului — narrow lanes, Saint Nicholas Church, the lived-in Brașov.",
+    whoItsFor: "Repeat visitors. Long stays. Anyone wanting non-Saxon Brașov atmosphere.",
+    whoShouldSkip: "Short stays focused on Piața Sfatului walkability. First-time visitors.",
+    priceTier: 2, vibeTags: ["historic", "lived-in", "narrow-lanes", "calm"],
+    tripTypeFit: ["couples", "digital-nomads", "solo"] },
+
+  // Utrecht additional
+  { slug: "wittevrouwen", name: "Wittevrouwen", citySlug: "utrecht", countrySlug: "netherlands",
+    summary: "East of Binnenstad — residential leafy quarter, dense neighborhood-restaurants, walkable to centre in 10-15 min.",
+    whoItsFor: "Long stays. Families. Anyone wanting calmer Utrecht with central proximity.",
+    whoShouldSkip: "Short stays focused on Oudegracht-and-Dom-Tower walkability.",
+    priceTier: 2, vibeTags: ["residential", "leafy", "food", "calm"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
+
+  // Tartu additional
+  { slug: "supilinn", name: "Supilinn", citySlug: "tartu", countrySlug: "estonia",
+    summary: "The wooden-house quarter north of Old Town — narrow lanes, residential, where Tartu's design crowd actually lives.",
+    whoItsFor: "Repeat visitors. Long stays. Digital nomads. Anyone wanting wooden-house atmosphere.",
+    whoShouldSkip: "Short stays focused on Town Hall Square. First-time visits.",
+    priceTier: 2, vibeTags: ["wooden", "residential", "design", "calm"],
+    tripTypeFit: ["digital-nomads", "couples", "solo"] },
+
+  // Galway third compare leverages
+  // (Latin Quarter, Salthill, Claddagh already in data — pairs to be added below)
 ];

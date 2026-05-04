@@ -6453,6 +6453,232 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 13 — pairs leveraging more single-nbhd city expansions
+// =============================================================================
+COMPARISONS.push(
+  // AIX-EN-PROVENCE
+  {
+    slug: "vieil-aix-vs-mazarin",
+    citySlug: "aix-en-provence", countrySlug: "france",
+    aSlug: "vieil-aix", bSlug: "mazarin",
+    aLabel: "Vieil Aix", bLabel: "Mazarin",
+    metaTitle: "Vieil Aix vs Mazarin: Where to Stay in Aix-en-Provence",
+    metaDescription: "Aix's medieval Vieil Aix or quieter Mazarin? Real take on cafés, atmosphere and price.",
+    intro: "Vieil Aix is the medieval old town with fountains and Cours Mirabeau. Mazarin is south of Cours Mirabeau — quieter 17th-century quarter, designer boutiques, residential calm. 5 min walk between them.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Vieil Aix wins on charm — fountains, cafés, the cliché Aix." },
+      { question: "Quiet sleep", winner: "b", body: "Mazarin residential past 10pm. Vieil Aix has café-and-bar overflow on Cours Mirabeau weekends." },
+      { question: "Walkability to Cours Mirabeau", winner: "tied", body: "Both 5 min. Equivalent." },
+      { question: "Price", winner: "tied", body: "Both €130-€220 for decent product. Equivalent." },
+      { question: "Designer boutiques", winner: "b", body: "Mazarin wins — the designer-boutique strip is here." },
+    ],
+    pickA: "Pick Vieil Aix for first-time visits, café-focused trips, atmosphere priority.",
+    pickB: "Pick Mazarin for couples wanting quieter sleep with central proximity, designer-boutique focus.",
+    bottomLine: "Vieil Aix for atmosphere. Mazarin for quiet and designer.",
+  },
+  // CLUJ
+  {
+    slug: "piata-unirii-vs-centru",
+    citySlug: "cluj-napoca", countrySlug: "romania",
+    aSlug: "piata-unirii", bSlug: "centru",
+    aLabel: "Piața Unirii", bLabel: "Centru",
+    metaTitle: "Piața Unirii vs Centru: Where to Stay in Cluj-Napoca",
+    metaDescription: "Cluj's main square Piața Unirii or wider Centru? Real take on cafés, walkability and price.",
+    intro: "Piața Unirii is Cluj's central square. Centru is the wider central core — denser cafés, the museum quarter, slightly more residential. Walkable to each other in 5-10 min.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Piața Unirii is at the iconic square. Centru has the museum cluster and dense cafés." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Centru has more variety. Piața Unirii has square-side density." },
+      { question: "Atmosphere", winner: "tied", body: "Piața Unirii is square-and-tourist. Centru is wider-walkable. Both feel central." },
+      { question: "Price", winner: "b", body: "Centru 10-15% cheaper than Piața Unirii for equivalent product." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Equivalent." },
+    ],
+    pickA: "Pick Piața Unirii for first-time short visits, square-at-door priority.",
+    pickB: "Pick Centru for longer stays, café-focused trips, slightly cheaper.",
+    bottomLine: "Piața Unirii for first-timers. Centru for value.",
+  },
+  // SIBIU
+  {
+    slug: "piata-mare-vs-piata-mica",
+    citySlug: "sibiu", countrySlug: "romania",
+    aSlug: "piata-mare", bSlug: "piata-mica",
+    aLabel: "Piața Mare", bLabel: "Piața Mică",
+    metaTitle: "Piața Mare vs Piața Mică: Where to Stay in Sibiu",
+    metaDescription: "Sibiu's main square or smaller second square? Real take on atmosphere, food and price.",
+    intro: "Piața Mare is Sibiu's iconic main square — Brukenthal Palace, the famous 'eyes of Sibiu' rooftops. Piața Mică is just north — the smaller second square, dense cafés-and-restaurants, the evening centre.",
+    rounds: [
+      { question: "Iconic photo", winner: "a", body: "Piața Mare wins — the eyes-of-Sibiu rooftop view comes from here." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Piața Mică has denser café-and-restaurant cluster. Piața Mare quiets earlier." },
+      { question: "Walkability between", winner: "tied", body: "Both 2-3 min walk. Effectively the same neighborhood." },
+      { question: "Atmosphere", winner: "tied", body: "Mare is grand-tourist. Mică is intimate-evening. Different scales." },
+      { question: "Price", winner: "tied", body: "Both €70-€130 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Piața Mare for first-time visits, photo focus, square-at-door priority.",
+    pickB: "Pick Piața Mică for evening-density focus, food-and-café trips.",
+    bottomLine: "Piața Mare for the photo. Piața Mică for the evenings.",
+  },
+  // SLIEMA
+  {
+    slug: "sliema-strand-vs-qui-si-sana",
+    citySlug: "sliema", countrySlug: "malta",
+    aSlug: "sliema-strand", bSlug: "qui-si-sana",
+    aLabel: "Strand", bLabel: "Qui-Si-Sana",
+    metaTitle: "Strand vs Qui-Si-Sana: Where to Stay in Sliema",
+    metaDescription: "Sliema's busy Strand or quieter Qui-Si-Sana? Real take on atmosphere, families and price.",
+    intro: "Both face Valletta across the harbor. The Strand is the busy seafront promenade — bars, restaurants, dense. Qui-Si-Sana is the southern Sliema seafront — residential, Tigné Point luxury area nearby, calmer.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Strand is busy-promenade-resort. Qui-Si-Sana is residential-luxury-calm. Different vibes." },
+      { question: "Restaurants", winner: "a", body: "Strand has dense restaurant cluster. Qui-Si-Sana has 5-6 strong picks but quieter." },
+      { question: "Family-friendly", winner: "tied", body: "Both work. Strand has more variety; Qui-Si-Sana has calmer streets." },
+      { question: "Walkability to ferry to Valletta", winner: "a", body: "Strand is walking distance to the ferry terminal. Qui-Si-Sana is 10-15 min walk." },
+      { question: "Price", winner: "tied", body: "Both €130-€220 for decent product." },
+    ],
+    pickA: "Pick Strand for first-time visits, busy-resort atmosphere, ferry-access priority.",
+    pickB: "Pick Qui-Si-Sana for couples, light sleepers, anyone over 40.",
+    bottomLine: "Strand for first-timers. Qui-Si-Sana for couples and quiet.",
+  },
+  // VALLETTA
+  {
+    slug: "valletta-peninsula-vs-floriana",
+    citySlug: "valletta", countrySlug: "malta",
+    aSlug: "valletta-peninsula", bSlug: "floriana",
+    aLabel: "Peninsula", bLabel: "Floriana",
+    metaTitle: "Valletta Peninsula vs Floriana: Where to Stay",
+    metaDescription: "Valletta's walled peninsula or fortified Floriana? Real take on atmosphere, price and walkability.",
+    intro: "Valletta Peninsula is the UNESCO walled city — golden limestone, fortifications, dense restaurants. Floriana is the fortified suburb just outside the main gate — residential, dense gardens, walkable to Valletta in 5-10 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Peninsula wins — sleeping inside Valletta's walls. Floriana is calm but lacks the iconic setting." },
+      { question: "Walkability", winner: "a", body: "Peninsula is at all the sights. Floriana is 5-10 min walk to City Gate." },
+      { question: "Quiet sleep", winner: "b", body: "Floriana residential past 10pm. Peninsula has restaurant noise on the main streets." },
+      { question: "Price", winner: "b", body: "Floriana 20-30% cheaper than Peninsula for equivalent product." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Peninsula has dense restaurant cluster. Floriana has 3-4 picks." },
+    ],
+    pickA: "Pick Peninsula for first-time short visits, sleep-inside-the-walls focus.",
+    pickB: "Pick Floriana for repeat visits, longer stays, light sleepers, budget travelers.",
+    bottomLine: "Peninsula for the experience. Floriana for value.",
+  },
+  // KOSICE
+  {
+    slug: "hlavna-vs-stare-mesto-kosice",
+    citySlug: "kosice", countrySlug: "slovakia",
+    aSlug: "hlavna-kosice", bSlug: "stare-mesto-kosice",
+    aLabel: "Hlavná", bLabel: "Staré Mesto",
+    metaTitle: "Hlavná vs Staré Mesto: Where to Stay in Košice",
+    metaDescription: "Košice's central boulevard Hlavná or wider Staré Mesto? Real take on atmosphere, food and price.",
+    intro: "Hlavná is Košice's long pedestrian boulevard — cathedral, fountain, dense cafés. Staré Mesto is the wider old town surrounding it — same medieval setting, slightly cheaper, equally walkable.",
+    rounds: [
+      { question: "Walkability to cathedral and main sights", winner: "tied", body: "Both walk to Cathedral of St. Elisabeth in 5 min. Equivalent." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both dense. Hlavná has boulevard density; Staré Mesto has side-street variety." },
+      { question: "Atmosphere", winner: "tied", body: "Hlavná is boulevard-pedestrian. Staré Mesto is wider-medieval. Pick on preference." },
+      { question: "Price", winner: "b", body: "Staré Mesto slightly cheaper than Hlavná-side hotels for equivalent product." },
+      { question: "Quiet sleep", winner: "b", body: "Staré Mesto side streets quieter. Hlavná has café-and-bar foot traffic until midnight." },
+    ],
+    pickA: "Pick Hlavná for first-time visits, boulevard-strolling focus.",
+    pickB: "Pick Staré Mesto for longer stays, light sleepers, budget travelers.",
+    bottomLine: "Hlavná for boulevard. Staré Mesto for quiet and value.",
+  },
+  // BRASOV
+  {
+    slug: "piata-sfatului-vs-schei",
+    citySlug: "brasov", countrySlug: "romania",
+    aSlug: "piata-sfatului", bSlug: "schei",
+    aLabel: "Piața Sfatului", bLabel: "Schei",
+    metaTitle: "Piața Sfatului vs Schei: Where to Stay in Brașov",
+    metaDescription: "Brașov's central square or historic Schei quarter? Real take on atmosphere, food and price.",
+    intro: "Piața Sfatului is Brașov's iconic main square — pastel buildings, the Black Church. Schei is the historic Romanian quarter west of the square — narrow lanes, Saint Nicholas Church, the lived-in side.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Piața Sfatului has Black Church, Council Tower, the iconic square. Schei has Saint Nicholas." },
+      { question: "Atmosphere", winner: "tied", body: "Piața Sfatului is Saxon-tourist. Schei is Romanian-lived-in. Different sides of the city." },
+      { question: "Walkability to mountain trail", winner: "a", body: "Piața Sfatului is closer to the Tâmpa cable car (5-10 min). Schei is 15-20 min." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Piața Sfatului has dense restaurants. Schei has 3-4 picks." },
+      { question: "Price", winner: "b", body: "Schei 15-25% cheaper than Piața Sfatului for equivalent product." },
+    ],
+    pickA: "Pick Piața Sfatului for first-time visits, mountain-trail focus, sights at door.",
+    pickB: "Pick Schei for repeat visits, longer stays, anyone wanting non-tourist Brașov.",
+    bottomLine: "Piața Sfatului for first-timers. Schei for repeat visits.",
+  },
+  // UTRECHT
+  {
+    slug: "binnenstad-utrecht-vs-wittevrouwen",
+    citySlug: "utrecht", countrySlug: "netherlands",
+    aSlug: "binnenstad-utrecht", bSlug: "wittevrouwen",
+    aLabel: "Binnenstad", bLabel: "Wittevrouwen",
+    metaTitle: "Binnenstad vs Wittevrouwen: Where to Stay in Utrecht",
+    metaDescription: "Utrecht's central Binnenstad or leafy Wittevrouwen? Real take on canal access, families and price.",
+    intro: "Binnenstad is Utrecht's medieval centre — Dom Tower, Oudegracht canal-with-wharves. Wittevrouwen is east — leafy residential, dense neighborhood-restaurants, walkable to centre in 10-15 min.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Binnenstad has Dom Tower, the Oudegracht. Wittevrouwen is residential." },
+      { question: "Family-friendly", winner: "b", body: "Wittevrouwen wins — leafy, calmer streets, family-aware." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Both have density. Binnenstad has central; Wittevrouwen has neighborhood." },
+      { question: "Walkability to Oudegracht", winner: "a", body: "Binnenstad is on the canals. Wittevrouwen is 10-15 min walk." },
+      { question: "Price", winner: "b", body: "Wittevrouwen 15-20% cheaper than Binnenstad for equivalent product." },
+    ],
+    pickA: "Pick Binnenstad for first-time visits, canal-at-door priority.",
+    pickB: "Pick Wittevrouwen for families, longer stays, anyone wanting calmer Utrecht.",
+    bottomLine: "Binnenstad for first-timers. Wittevrouwen for families.",
+  },
+  // TARTU
+  {
+    slug: "tartu-old-town-vs-supilinn",
+    citySlug: "tartu", countrySlug: "estonia",
+    aSlug: "tartu-old-town", bSlug: "supilinn",
+    aLabel: "Old Town", bLabel: "Supilinn",
+    metaTitle: "Old Town vs Supilinn: Where to Stay in Tartu",
+    metaDescription: "Tartu's central Old Town or wooden-house Supilinn? Real take on atmosphere, food and price.",
+    intro: "Old Town is Tartu's central core — Town Hall Square, the university. Supilinn is the wooden-house quarter north — narrow lanes, residential, where Tartu's design crowd actually lives.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Old Town has Town Hall Square, the cathedral, the university. Supilinn has wooden houses." },
+      { question: "Walkability to centre", winner: "a", body: "Old Town is the centre. Supilinn is 10 min walk." },
+      { question: "Atmosphere", winner: "tied", body: "Old Town is medieval-university. Supilinn is wooden-house-residential. Different settings." },
+      { question: "Price", winner: "b", body: "Supilinn 15-20% cheaper than Old Town for equivalent product." },
+      { question: "Quiet sleep", winner: "b", body: "Supilinn residential past 11pm. Old Town has student-quarter noise." },
+    ],
+    pickA: "Pick Old Town for first-time visits, university-quarter focus.",
+    pickB: "Pick Supilinn for repeat visits, longer stays, anyone wanting wooden-house atmosphere.",
+    bottomLine: "Old Town for first-timers. Supilinn for repeat visits.",
+  },
+  // GALWAY: Latin Quarter vs Claddagh (3rd nbhd added earlier)
+  {
+    slug: "latin-quarter-vs-claddagh",
+    citySlug: "galway", countrySlug: "ireland",
+    aSlug: "latin-quarter-galway", bSlug: "the-claddagh",
+    aLabel: "Latin Quarter", bLabel: "The Claddagh",
+    metaTitle: "Latin Quarter vs Claddagh: Where to Stay in Galway",
+    metaDescription: "Galway's central pub strip or village Claddagh? Real take on pubs, atmosphere and price.",
+    intro: "Latin Quarter is Galway's central pub-walk quarter. The Claddagh is across the Corrib at the harbor mouth — Galway's old fishing village, home of the Claddagh ring.",
+    rounds: [
+      { question: "Pub crawl", winner: "a", body: "Latin Quarter wins by definition — densest pub strip in the west of Ireland." },
+      { question: "Atmosphere", winner: "b", body: "Claddagh wins on charm — old fishing village, harbor view, calmer setting." },
+      { question: "Walkability to centre", winner: "a", body: "Latin Quarter is the centre. Claddagh is 10 min walk over the bridge." },
+      { question: "Quiet sleep", winner: "b", body: "Claddagh residential past 11pm. Latin Quarter has weekend pub overflow until 1am." },
+      { question: "Price", winner: "b", body: "Claddagh 15-20% cheaper than Latin Quarter for equivalent product." },
+    ],
+    pickA: "Pick Latin Quarter for pub-focused trips, anyone under 40.",
+    pickB: "Pick Claddagh for couples, longer stays, anyone wanting village atmosphere with city-walking proximity.",
+    bottomLine: "Latin Quarter for pubs. Claddagh for the village feel.",
+  },
+  // GALWAY: Salthill vs Claddagh
+  {
+    slug: "salthill-vs-claddagh",
+    citySlug: "galway", countrySlug: "ireland",
+    aSlug: "salthill", bSlug: "the-claddagh",
+    aLabel: "Salthill", bLabel: "The Claddagh",
+    metaTitle: "Salthill vs Claddagh: Where to Stay in Galway",
+    metaDescription: "Galway's seaside Salthill or village Claddagh? Real take on beach, families and walkability.",
+    intro: "Both are non-Latin-Quarter Galway alternatives. Salthill sits 2 km west along the bay — promenade walks, residential, family-friendly. Claddagh is at the harbor mouth — old fishing village, harbor view.",
+    rounds: [
+      { question: "Beach access", winner: "a", body: "Salthill wins by definition — Salthill Beach is at the door." },
+      { question: "Walkability to centre", winner: "b", body: "Claddagh is 10 min walk to centre. Salthill is 25-30 min or 8 min bus." },
+      { question: "Family-friendly", winner: "a", body: "Salthill — beach, promenade, family-aware. Claddagh is more couples-village." },
+      { question: "Atmosphere", winner: "b", body: "Claddagh wins on charm — old fishing village. Salthill is residential resort strip." },
+      { question: "Price", winner: "tied", body: "Both 15-20% cheaper than Latin Quarter. Equivalent to each other." },
+    ],
+    pickA: "Pick Salthill for beach-focused trips, families wanting seaside.",
+    pickB: "Pick Claddagh for couples, harbor-view focus, anyone wanting village atmosphere.",
+    bottomLine: "Salthill for beach. Claddagh for village.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

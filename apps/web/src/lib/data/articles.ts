@@ -4836,6 +4836,191 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 13 — niche topic guides + decision pieces
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-verona",
+    title: "Where to Stay in Verona: Città Antica or Borgo Trento?",
+    excerpt: "Verona neighborhoods compared honestly. Real differences in Arena access, opera-festival, families and price.",
+    publishedAt: "2026-05-09",
+    reviewedAt: "2026-05-09",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Verona — Honest Neighborhood Guide",
+    metaDescription: "Verona neighborhoods compared honestly. Real differences in Arena access, opera-festival, families and price.",
+    html: `
+<p>Verona is small. The pick is Roman/medieval core vs leafy residential across the river.</p>
+
+<h2>Città Antica — for first-timers</h2>
+
+<p><a href="/en/italy/verona/citta-antica">Città Antica</a> is the historic core inside the Adige river loop — Arena, Piazza delle Erbe, Juliet's House. Premium pricing during opera season (June-September). Best for: 1-2 night first visits, opera-festival stays, sights focus.</p>
+
+<h2>Borgo Trento — for longer stays</h2>
+
+<p><a href="/en/italy/verona/borgo-trento">Borgo Trento</a> is north across the river — leafy residential, neighborhood-trattorias, walkable to Arena in 15 min. Best for: families, longer stays, anyone over 35 wanting calmer Verona.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels far from the centre marketed as "near Verona":</strong> Verify on a map.</li>
+  <li><strong>Anywhere advertised as "near Lake Garda":</strong> 30+ min drive. Different trip.</li>
+  <li><strong>Outside the city walls during opera season:</strong> You'll wait ages for taxis.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, opera, sights: Città Antica. Family or longer stay: Borgo Trento.</p>
+
+<p>Compare: <a href="/en/italy/verona/compare/citta-antica-vs-borgo-trento">Città Antica vs Borgo Trento</a>.</p>
+
+<p>For Northern Italy itineraries see <a href="/en/articles/northern-italy-7-day-itinerary">7-day Northern Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-bath",
+    title: "Where to Stay in Bath: City Centre or Widcombe?",
+    excerpt: "Bath neighborhoods compared honestly. Real differences in Roman Baths access, families and price.",
+    publishedAt: "2026-05-09",
+    reviewedAt: "2026-05-09",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Bath — Honest Neighborhood Guide",
+    metaDescription: "Bath neighborhoods compared honestly. Real differences in Roman Baths access, families and price.",
+    html: `
+<p>Bath is small. The pick is central-Georgian vs quieter-residential.</p>
+
+<h2>City Centre — for first-timers</h2>
+
+<p><a href="/en/united-kingdom/bath/city-centre-bath">City Centre</a> is the Georgian core — Roman Baths, Royal Crescent, Pulteney Bridge. Premium pricing (£150-£280). Best for: first-time visits, sights-focused short trips, anyone wanting Baths-at-the-door.</p>
+
+<h2>Widcombe — for families</h2>
+
+<p><a href="/en/united-kingdom/bath/widcombe">Widcombe</a> is south across Pulteney Bridge — Sydney Gardens, residential calm, walkable to Baths in 10-15 min. Best for: families, light sleepers, longer stays.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Bath" outside the city centre:</strong> Verify — sometimes 25 min by car.</li>
+  <li><strong>Anywhere with car parking essential:</strong> Bath's centre has limited parking. Verify before booking.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, single-night, sights focus: City Centre. Family or longer stay: Widcombe.</p>
+
+<p>Compare: <a href="/en/united-kingdom/bath/compare/city-centre-bath-vs-widcombe">City Centre vs Widcombe</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "easter-in-europe-where-to-go",
+    title: "Easter in Europe: Where to Go (Honest 2026 Picks)",
+    excerpt: "Easter brings specific weather windows and traditions across Europe. Honest picks for Easter trips.",
+    publishedAt: "2026-05-09",
+    reviewedAt: "2026-05-09",
+    readingTimeMin: 8,
+    metaTitle: "Easter in Europe — Where to Go Honest Picks 2026",
+    metaDescription: "Easter brings specific weather windows and traditions across Europe. Honest picks for Easter trips.",
+    html: `
+<p>Easter in Europe is the start of warm-Mediterranean season. Specific cities deliver Easter traditions; others go quiet. Here's the honest sort.</p>
+
+<h2>Strong Easter traditions</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville">Seville</a> Semana Santa:</strong> The most-famous Holy Week processions in Europe. Brotherhoods carrying floats nightly. Crowded but unforgettable.</li>
+  <li><strong>Trapani / Syracuse, Sicily:</strong> Equally intense Holy Week processions, less touristed than Seville.</li>
+  <li><strong><a href="/en/greece/athens">Athens</a> Greek Easter:</strong> Falls on a different date. Dramatic midnight Easter Saturday with candles in every neighborhood.</li>
+  <li><strong>Polish cities (<a href="/en/poland/krakow">Kraków</a>, <a href="/en/poland/warsaw">Warsaw</a>):</strong> Easter food blessings, traditional breakfasts, family processions.</li>
+  <li><strong>Małopolska villages (Poland):</strong> Especially the painted-egg traditions.</li>
+</ul>
+
+<h2>Warm-weather Easter trips</h2>
+
+<ul>
+  <li><strong>Andalusia (<a href="/en/spain/seville">Seville</a>, <a href="/en/spain/granada">Granada</a>, <a href="/en/spain/malaga">Málaga</a>):</strong> Daytime highs of 22-26°C. Combine with Holy Week.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> 18-22°C, less crowded than later spring.</li>
+  <li><strong>Mallorca / Ibiza off-season:</strong> Beach starts, prices half of summer.</li>
+  <li><strong>Sicily and Malta:</strong> 19-23°C, perfect coastal weather.</li>
+</ul>
+
+<h2>Where Easter goes quiet</h2>
+
+<ul>
+  <li><strong>Most Northern Europe:</strong> Easter Monday is a public holiday — many shops and museums close.</li>
+  <li><strong>German/Dutch Easter:</strong> Mostly family-at-home; cities are quieter than usual.</li>
+  <li><strong>Greek islands:</strong> Most ferries don't run in shoulder season; many tavernas closed.</li>
+  <li><strong>Italian beach destinations:</strong> Italians flock here for Pasquetta (Easter Monday picnic) — crowded, but it's a domestic crowd.</li>
+</ul>
+
+<h2>Booking strategy</h2>
+
+<p>Easter weekend is a peak travel window. Book 4-6 months ahead for popular destinations. Seville Semana Santa requires 6+ months. Rome around Easter is 2-3x normal hotel prices.</p>
+
+<p>For wider month-by-month planning see <a href="/en/articles/europe-when-to-go-month-by-month">when to go where</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-first-time-traveler",
+    title: "Best European Cities for First-Time Travelers (Honest Picks)",
+    excerpt: "If it's your first European trip and you can only pick one city, these are the honest picks by trip type.",
+    publishedAt: "2026-05-09",
+    reviewedAt: "2026-05-09",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for First-Time Travelers — Honest Picks",
+    metaDescription: "If it's your first European trip and you can only pick one city, these are the honest picks by trip type.",
+    html: `
+<p>First-time European trip advice is mostly recycled "Paris-Rome-London" content. Here's the honest map by trip preference.</p>
+
+<h2>For the maximum-Europe cliché</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Yes, the cliché. 5+ nights minimum. Stay in <a href="/en/france/paris/le-marais">Le Marais</a> or <a href="/en/france/paris/saint-germain-des-pres">Saint-Germain</a>.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> 4+ nights. Stay in <a href="/en/italy/rome/centro-storico">Centro Storico</a>.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> 5+ nights. Stay in <a href="/en/united-kingdom/london/bloomsbury">Bloomsbury</a>.</li>
+</ul>
+
+<h2>For an easier first trip (smaller, walkable)</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Imperial history + transit excellence. 4 nights.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Pastel-and-fado, manageable size. 4 nights.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Compact medieval centre. 3-4 nights.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Densest art trip in Europe. 4 nights.</li>
+</ul>
+
+<h2>For a romantic first trip</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a> + Tuscany:</strong> Unmatched. 4-5 nights.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Off-festival, fortress + Mirabell.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a> + Douro Valley:</strong> Wine and river.</li>
+</ul>
+
+<h2>For a budget first trip</h2>
+
+<ul>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Excellent first trip and dramatically cheaper than Western Europe.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Same — capital experience at half the price.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a>:</strong> Cheap and atmospheric.</li>
+</ul>
+
+<h2>What to avoid for a first trip</h2>
+
+<ul>
+  <li><strong>Multi-country in 7 days:</strong> Half is travel. Pick 1-2 countries.</li>
+  <li><strong>Anything advertised as "see all of Europe in 14 days":</strong> Marketing.</li>
+  <li><strong>August Mediterranean:</strong> Crowds and heat.</li>
+  <li><strong>Anywhere requiring 4+ hours of train each way for day-trips:</strong> Stay overnight.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For a first trip, fewer cities and more nights. 7 days = 2 cities. 14 days = 3-4 cities maximum. The flying-visit "I've been there" feeling is much weaker than 4 nights actually getting to know one place.</p>
+
+<p>For specific itineraries see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

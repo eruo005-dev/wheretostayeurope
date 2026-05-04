@@ -7627,6 +7627,52 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 23 — pairs for new cities
+// =============================================================================
+COMPARISONS.push(
+  // BARI
+  {
+    slug: "bari-vecchia-vs-murat",
+    citySlug: "bari", countrySlug: "italy",
+    aSlug: "bari-vecchia", bSlug: "murat",
+    aLabel: "Bari Vecchia", bLabel: "Murat",
+    metaTitle: "Bari Vecchia vs Murat: Where to Stay in Bari",
+    metaDescription: "Bari's Old Town or 19th-century Murat? Real take on atmosphere, food and price.",
+    intro: "Bari's two distinct quarters. Bari Vecchia is the medieval old town with narrow lanes. Murat is the 19th-century grid west — designer shopping, modern restaurants. Walkable to each other in 10 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Bari Vecchia wins on charm — narrow lanes, the basilica, the cliché Apulian setting." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Bari Vecchia has dense seafood density. Murat has chains and modern restaurants." },
+      { question: "Shopping", winner: "b", body: "Murat wins — Via Sparano, designer flagships." },
+      { question: "Quiet sleep", winner: "b", body: "Murat residential past 11pm. Bari Vecchia has bar overflow weekends." },
+      { question: "Price", winner: "tied", body: "Both €100-€180 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Bari Vecchia for first-time visits, food focus, atmosphere priority.",
+    pickB: "Pick Murat for shopping focus, repeat visits, anyone over 50 wanting calmer modern Bari.",
+    bottomLine: "Bari Vecchia for atmosphere. Murat for shopping.",
+  },
+  // LILLE
+  {
+    slug: "vieux-lille-vs-centre-lille",
+    citySlug: "lille", countrySlug: "france",
+    aSlug: "vieux-lille", bSlug: "centre-lille",
+    aLabel: "Vieux Lille", bLabel: "Centre",
+    metaTitle: "Vieux Lille vs Centre: Where to Stay in Lille",
+    metaDescription: "Lille's old town or modern Centre? Real take on atmosphere, transit and price.",
+    intro: "Vieux Lille is the Flemish-gabled-house old town. Centre is the 19th-century quarter with the train station and modern shopping. Walkable to each other in 10-15 min.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Vieux Lille wins — Flemish gabled houses, the picture-postcard side." },
+      { question: "Train station access", winner: "b", body: "Centre is at Lille-Flandres. Vieux Lille is 10-15 min walk." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Vieux Lille has dense food density. Centre is more chains-and-bistros." },
+      { question: "Quiet sleep", winner: "b", body: "Centre quieter. Vieux Lille has weekend bar overflow on Place Louise de Bettignies." },
+      { question: "Price", winner: "b", body: "Centre 10-15% cheaper than Vieux Lille for equivalent product." },
+    ],
+    pickA: "Pick Vieux Lille for first-time visits, food focus, atmosphere priority.",
+    pickB: "Pick Centre for train-heavy itineraries, light sleepers, budget-conscious stays.",
+    bottomLine: "Vieux Lille for atmosphere. Centre for transit.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

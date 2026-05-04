@@ -6838,6 +6838,239 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 23 — Italian South + niche topics
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-puglia",
+    title: "Where to Stay in Puglia: Bari, Lecce, Alberobello, Polignano?",
+    excerpt: "Puglia is huge. Honest pick of which town actually anchors a Puglia trip.",
+    publishedAt: "2026-05-18",
+    reviewedAt: "2026-05-18",
+    readingTimeMin: 10,
+    metaTitle: "Where to Stay in Puglia — Honest 2026 Guide",
+    metaDescription: "Puglia is huge. Honest pick of which town actually anchors a Puglia trip.",
+    html: `
+<p>Puglia is the heel of Italy — bigger than first-timers think. Most travelers split nights between 2-3 towns. Here's the honest map.</p>
+
+<h2>Bari — for transit and city base</h2>
+
+<p><a href="/en/italy/bari">Bari</a> has the airport, the train hub, ferries to Croatia/Greece. <a href="/en/italy/bari/bari-vecchia">Bari Vecchia</a> is the atmospheric old town. Best for: 1-2 nights at start/end of trip, city focus.</p>
+
+<h2>Lecce — for the baroque</h2>
+
+<p><a href="/en/italy/lecce">Lecce</a> — the "Florence of the South" — has Italy's densest baroque architecture. Best for: 2-3 night stays, photo focus, day-trips to Otranto, Gallipoli, and Salento beaches.</p>
+
+<h2>Alberobello — for the trulli</h2>
+
+<p>Alberobello is the trulli (cone-roof) UNESCO town. Day-trip from Bari or Lecce works. Stay 1 night for the dawn experience without crowds.</p>
+
+<h2>Polignano a Mare / Monopoli — for the coast</h2>
+
+<p>Polignano is the famous cliff-top town. Monopoli is just south — quieter, more residential. Both worth 1-2 nights as side trips.</p>
+
+<h2>Best 7-day Puglia</h2>
+
+<ul>
+  <li>Day 1: Bari arrival</li>
+  <li>Day 2: Bari + Polignano day-trip</li>
+  <li>Day 3-4: Alberobello + trulli</li>
+  <li>Day 5-7: Lecce + Otranto + Gallipoli day-trips</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>Puglia is 30-40% cheaper than Tuscany for equivalent product. €80-€180/night for boutique hotels, €15-€30 dinners.</p>
+
+<h2>What to skip on a 7-day trip</h2>
+
+<ul>
+  <li><strong>Matera (technically in Basilicata):</strong> 1h drive west of Bari but adds 2 nights minimum.</li>
+  <li><strong>Tremiti Islands:</strong> Beautiful but ferry-eats-day.</li>
+  <li><strong>Salento far south:</strong> Lecce-base day-trips work better than relocating.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-northern-france",
+    title: "Where to Stay in Northern France: Lille, Reims, Bayeux",
+    excerpt: "Northern France beyond Paris. Honest take on which Picardy/Champagne/Normandy base actually works.",
+    publishedAt: "2026-05-18",
+    reviewedAt: "2026-05-18",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Northern France — Honest Guide 2026",
+    metaDescription: "Northern France beyond Paris. Honest take on which Picardy/Champagne/Normandy base actually works.",
+    html: `
+<p>Northern France isn't a single trip. Champagne, Normandy, Picardy each have their own bases. Here's the honest map.</p>
+
+<h2>Champagne — Reims or Épernay</h2>
+
+<p>Reims has the cathedral and the big champagne houses (Veuve Clicquot, Taittinger). Épernay has Avenue de Champagne and the grower-houses. Pick one for 2-3 nights.</p>
+
+<h2>Normandy — Bayeux or Caen</h2>
+
+<p>Bayeux is the small medieval base for D-Day beaches and the famous tapestry. Caen is the larger city with WWII museum. Bayeux is the better 2-3 night base.</p>
+
+<h2>Lille — for Flemish France</h2>
+
+<p><a href="/en/france/lille">Lille</a>'s <a href="/en/france/lille/vieux-lille">Vieux Lille</a> is the Flemish-influenced old town. Best for: 2-night weekend stays, food-focused trips, train-from-London (Eurostar 1h 30min).</p>
+
+<h2>Calais and Boulogne — only for Eurotunnel transit</h2>
+
+<p>Skip both as destinations. Worth a stop only for ferries to UK or Eurotunnel arrival.</p>
+
+<h2>Strasbourg — Alsace, technically east not north</h2>
+
+<p>Strasbourg deserves its own 2-3 night focus. See <a href="/en/articles/where-to-stay-in-strasbourg">Strasbourg guide</a>.</p>
+
+<h2>Combined 7-day Northern France</h2>
+
+<ul>
+  <li>Day 1-2: Lille (with day-trip to Brugge if Eurostar-easy)</li>
+  <li>Day 3-4: Reims + Épernay champagne</li>
+  <li>Day 5-7: Bayeux + D-Day beaches</li>
+</ul>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Mont Saint-Michel as same-day from Bayeux:</strong> Possible but eats time. Stay overnight nearby.</li>
+  <li><strong>Saint-Malo for short trips:</strong> Beautiful but adds Brittany detour.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-nuremberg",
+    title: "Where to Stay in Nuremberg: Altstadt for Christmas Markets",
+    excerpt: "Nuremberg is best in December but rewards year-round. Honest take on where to stay.",
+    publishedAt: "2026-05-18",
+    reviewedAt: "2026-05-18",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Nuremberg — Honest Christmas Market Guide",
+    metaDescription: "Nuremberg is best in December but rewards year-round. Honest take on where to stay.",
+    html: `
+<p>Nuremberg is small. The medieval Altstadt is the only sensible stay.</p>
+
+<h2>Altstadt — for everything</h2>
+
+<p><a href="/en/germany/nuremberg/altstadt-nuremberg">Altstadt</a> inside the medieval walls — the Imperial Castle, the cathedrals, the Christmas Market site. Best for: any Nuremberg stay.</p>
+
+<h2>Christmas Market timing (late Nov to 23 Dec)</h2>
+
+<p>Nuremberg's Christkindlesmarkt is among Germany's most-famous. Prices triple, hotels book out 6+ months in advance. Best week: 8-15 December (after rush, before peak). Avoid 18-23 December (peak).</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Nuremberg" 30+ km out:</strong> Verify on a map.</li>
+  <li><strong>Hauptbahnhof-area hotels for non-train trips:</strong> Sterile, far from Altstadt.</li>
+</ul>
+
+<h2>Combined trip</h2>
+
+<p>Best Bavarian-Christmas 7-day: 3 Nuremberg + 2 Bamberg + 2 Munich. Or Nuremberg as Munich day-trip via direct ICE (1h).</p>
+
+<p>For broader Christmas market context see <a href="/en/articles/european-christmas-markets-where-to-base">European Christmas markets</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-with-thermal-springs",
+    title: "Best European Cities With Thermal Springs / Spa Cultures",
+    excerpt: "Where to combine European cities with hot springs and traditional spa culture. Honest 2026 picks.",
+    publishedAt: "2026-05-18",
+    reviewedAt: "2026-05-18",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities With Thermal Springs — Honest Guide",
+    metaDescription: "Where to combine European cities with hot springs and traditional spa culture. Honest 2026 picks.",
+    html: `
+<p>Thermal-spa culture is a European specialty. Here's the honest sort by depth.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Széchenyi, Gellért, Rudas. The world capital of urban thermal baths.</li>
+  <li><strong><a href="/en/iceland/reykjavik">Reykjavík</a> + Blue Lagoon:</strong> Geothermal pools at every neighborhood (Laugardalslaug, Sundhöllin) plus the famous Blue Lagoon 45 min away.</li>
+  <li><strong>Karlovy Vary, Czechia:</strong> Centuries-old spa town. Drink the springs, walk the colonnade.</li>
+  <li><strong>Baden-Baden, Germany:</strong> Caracalla Therme + Friedrichsbad — the classic German Kur-stadt.</li>
+</ul>
+
+<h2>Tier 2 — strong spa-plus-city</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Therme Wien for thermal, Sacher cake afterward.</li>
+  <li><strong><a href="/en/finland/helsinki">Helsinki</a>:</strong> Sauna culture is the bath culture. Kotiharjun and Löyly.</li>
+  <li><strong><a href="/en/united-kingdom/bath">Bath, UK</a>:</strong> Roman Baths (museum) + Thermae Bath Spa (modern).</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Turkish hammams (Çemberlitaş, Kılıç Ali Paşa).</li>
+</ul>
+
+<h2>Tier 3 — surprising</h2>
+
+<ul>
+  <li><strong>Ourense, Spain:</strong> Outdoor thermal pools, mostly free.</li>
+  <li><strong>Tabiano / Salsomaggiore, Italy:</strong> Lesser-known Italian spa towns.</li>
+  <li><strong>Bath, Hungary (Hévíz):</strong> Thermal lake — Europe's largest naturally-warm lake.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick a thermal city for 3-4 nights to develop the routine — bath in morning, walk and eat in afternoon, bath again before dinner. The day-trip approach to thermal cities undersells the experience.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cyclists",
+    title: "Best European Cities for Cyclists (Honest 2026)",
+    excerpt: "European cities ranked by bike infrastructure, rentals, and cycle-friendly streets. Real picks.",
+    publishedAt: "2026-05-18",
+    reviewedAt: "2026-05-18",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Cyclists — Honest 2026 Ranking",
+    metaDescription: "European cities ranked by bike infrastructure, rentals, and cycle-friendly streets. Real picks.",
+    html: `
+<p>Cycling is the right way to see some European cities and the wrong way for others. Here's the honest sort.</p>
+
+<h2>Tier 1 — built for cycling</h2>
+
+<ul>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> The world capital of urban cycling. Rent for 2-3 days, navigate by bike paths.</li>
+  <li><strong><a href="/en/netherlands/utrecht">Utrecht</a>:</strong> More bike-friendly than Amsterdam, slightly less congested.</li>
+  <li><strong><a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> Bike paths everywhere, 50%+ of locals commute by bike.</li>
+  <li><strong>Münster, Germany:</strong> University-cycling-city.</li>
+</ul>
+
+<h2>Tier 2 — strong cycling cities</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Wide streets, growing bike-lane network. Treats cyclists as legitimate.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>:</strong> Increasing investment in bike paths.</li>
+  <li><strong>Strasbourg:</strong> Densest bike-path network in France.</li>
+  <li><strong>Bruges, Brussels:</strong> Bike-paths developing.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Englischer Garten + Isar bike trails.</li>
+</ul>
+
+<h2>Tier 3 — possible but cars-first</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Bike-share (Vélib') exists; lanes have improved but main roads are still cars-first.</li>
+  <li><strong>London:</strong> Boris/Lime bikes, bike lanes, but main roads still car-dominated.</li>
+  <li><strong>Vienna:</strong> Some good paths, others sketchy.</li>
+</ul>
+
+<h2>Cities to avoid for cycling</h2>
+
+<ul>
+  <li><strong>Rome, Naples, Athens:</strong> Cars rule, scooters everywhere.</li>
+  <li><strong>Hill cities (Lisbon, Porto, San Francisco-of-Europe):</strong> Brutally steep.</li>
+  <li><strong>Cobblestone-heavy old towns:</strong> Bumpy, hard on bikes.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For cycling cities, build a 2-3 night minimum — bike rental is most cost-effective for that range. For non-cycling cities, walk + metro.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

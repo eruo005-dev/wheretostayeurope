@@ -741,6 +741,17 @@ export const CITIES: StaticCity[] = [
 
   // France
   { slug: "annecy", name: "Annecy", countrySlug: "france", lat: 45.8992, lng: 6.1294, population: 130_000, tier: "2", bookingDestId: null, intro: "Annecy's Vieille Ville (old town) along the canals is the obvious central stay. The lake-front promenade is the trip. Skip suburban hotels — the canals are the atmosphere." },
+
+  // ========== EXPANSION BATCH 23 (Italian South + French North) ==========
+  // Italy
+  { slug: "bari", name: "Bari", countrySlug: "italy", lat: 41.1171, lng: 16.8719, population: 320_000, tier: "2", bookingDestId: null, intro: "Bari's Bari Vecchia (Old Town) is the only sensible stay — UNESCO-tentative tangle of narrow lanes, the Basilica di San Nicola, dense seafood restaurants. Murat (the 19th-century grid west) is the modern alternative for shopping and chains." },
+  { slug: "lecce", name: "Lecce", countrySlug: "italy", lat: 40.3515, lng: 18.1750, population: 95_000, tier: "2", bookingDestId: null, intro: "Lecce — the 'Florence of the South' — has Italy's densest baroque architecture. The Centro Storico inside the city walls is the only sensible stay. Day-trips to Otranto, Gallipoli, and Alberobello (trulli) are essential." },
+
+  // France
+  { slug: "lille", name: "Lille", countrySlug: "france", lat: 50.6292, lng: 3.0573, population: 235_000, tier: "2", bookingDestId: null, intro: "Lille's Vieux Lille (old town) is the central Flemish-influenced quarter — gabled houses, dense restaurants. The new Centre is the train-station-and-shopping side. Stay in Vieux Lille for atmosphere, Centre for transit." },
+
+  // Germany
+  { slug: "nuremberg", name: "Nuremberg", countrySlug: "germany", lat: 49.4521, lng: 11.0767, population: 520_000, tier: "2", bookingDestId: null, intro: "Nuremberg's Altstadt inside the medieval walls is the obvious central stay — the imperial castle, the cathedrals, dense restaurants. Christmas market season (late November to 23 December) is the trip; off-season Nuremberg is calmer but still rewards." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

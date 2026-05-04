@@ -1956,4 +1956,49 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Ski-resort focused trips. Anyone needing parking convenience.",
     priceTier: 3, vibeTags: ["canals", "central", "photogenic", "romantic"],
     tripTypeFit: ["couples", "first-timers", "families"] },
+
+  // ========== EXPANSION BATCH 23: Italian South + French North + Nuremberg ==========
+  // Bari
+  { slug: "bari-vecchia", name: "Bari Vecchia", citySlug: "bari", countrySlug: "italy",
+    summary: "Bari's Old Town — narrow lanes, the Basilica di San Nicola, dense seafood restaurants. The cliché Apulian setting.",
+    whoItsFor: "First-time visits. Food-focused stays. Couples.",
+    whoShouldSkip: "Light sleepers near the bar streets weekends. Mobility-aware travelers (cobbles).",
+    priceTier: 2, vibeTags: ["old-town", "central", "seafood", "narrow-lanes"],
+    tripTypeFit: ["first-timers", "couples", "solo"] },
+  { slug: "murat", name: "Murat", citySlug: "bari", countrySlug: "italy",
+    summary: "The 19th-century grid west of Bari Vecchia — wide streets, designer shopping, the modern Bari.",
+    whoItsFor: "Repeat visitors. Shopping focus. Anyone over 50 wanting calmer modern Bari.",
+    whoShouldSkip: "Atmosphere-focused trips (Bari Vecchia wins).",
+    priceTier: 2, vibeTags: ["modern", "shopping", "central-ish", "grid"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+
+  // Lecce
+  { slug: "centro-storico-lecce", name: "Centro Storico", citySlug: "lecce", countrySlug: "italy",
+    summary: "Lecce's baroque centro — Piazza del Duomo, Santa Croce, dense restaurants. The 'Florence of the South'.",
+    whoItsFor: "First-time visits. Photo-focused stays. Couples.",
+    whoShouldSkip: "Beach-focused trips (Otranto/Gallipoli are 30-45 min day-trips).",
+    priceTier: 2, vibeTags: ["baroque", "central", "walkable", "photogenic"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+
+  // Lille
+  { slug: "vieux-lille", name: "Vieux Lille", citySlug: "lille", countrySlug: "france",
+    summary: "Lille's old town — Flemish-influenced gabled houses, dense restaurants, the picture-postcard side.",
+    whoItsFor: "First-time visits. Food-focused stays. Couples.",
+    whoShouldSkip: "Train-heavy itineraries (Centre is closer to the station).",
+    priceTier: 2, vibeTags: ["flemish", "central", "food", "atmospheric"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+  { slug: "centre-lille", name: "Centre", citySlug: "lille", countrySlug: "france",
+    summary: "The 19th-century centre — train station, shopping, modern restaurants. Calmer than Vieux Lille.",
+    whoItsFor: "Train-heavy itineraries. Light sleepers. Repeat visitors.",
+    whoShouldSkip: "Atmosphere-focused short stays (Vieux Lille wins).",
+    priceTier: 2, vibeTags: ["modern", "transit", "shopping", "calm"],
+    tripTypeFit: ["solo", "couples", "digital-nomads"] },
+
+  // Nuremberg
+  { slug: "altstadt-nuremberg", name: "Altstadt", citySlug: "nuremberg", countrySlug: "germany",
+    summary: "Nuremberg's medieval old town inside the walls — Imperial Castle, cathedrals, the Christmas Market site.",
+    whoItsFor: "First-time visits. Christmas market season. History-focused stays.",
+    whoShouldSkip: "Anywhere outside the walls makes no sense for short Nuremberg visits.",
+    priceTier: 2, vibeTags: ["medieval", "central", "walled", "christmas"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
 ];

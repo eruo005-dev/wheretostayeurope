@@ -2506,6 +2506,1173 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 2 — additional pairs in tier-1 cities (Paris, Rome, London,
+// Berlin, Amsterdam, Madrid, Vienna, Prague, Budapest, Athens, Stockholm,
+// Lisbon, Porto, Florence, Brussels, Munich, Istanbul, Dublin, Barcelona,
+// Copenhagen). Same voice rules.
+// =============================================================================
+COMPARISONS.push(
+  // PARIS: Le Marais vs Latin Quarter
+  {
+    slug: "le-marais-vs-latin-quarter",
+    citySlug: "paris",
+    countrySlug: "france",
+    aSlug: "le-marais",
+    bSlug: "latin-quarter",
+    aLabel: "Le Marais",
+    bLabel: "Latin Quarter",
+    metaTitle: "Le Marais vs Latin Quarter: Where to Stay in Paris",
+    metaDescription:
+      "Right Bank's Marais or Left Bank's Latin Quarter? Honest take on tourist crush, restaurants, walkability and which Paris trip each fits.",
+    intro:
+      "These two are first-timers' obvious second-choice pairing after Saint-Germain. Le Marais is design-and-dinner Right Bank; Latin Quarter is the medieval Left Bank with the Sorbonne, the Panthéon, and the worst-quality tourist restaurants in Paris. The right pick rules out one cliché.",
+    rounds: [
+      { question: "Vibe", winner: "a", body: "Marais is younger, livelier, design-shop dense. Latin Quarter is older, university-town adjacent, mostly tour-group churn between Notre-Dame and the Panthéon." },
+      { question: "Restaurants", winner: "a", body: "Marais wins decisively. Rue de Bretagne, rue Vieille du Temple have real kitchens. The Latin Quarter's restaurant strip (rue de la Huchette) is famously the worst-quality dinner block in Paris." },
+      { question: "Walkability to Notre-Dame", winner: "b", body: "Latin Quarter is closer — 5-10 min south of the cathedral. Marais is 15 min northeast." },
+      { question: "Quiet sleep", winner: "tied", body: "Marais bar streets run late on weekends. Latin Quarter has tour-group buses and Notre-Dame foot traffic until 10pm but quiets after. Side streets in either work." },
+      { question: "Price", winner: "tied", body: "Both €180-€350 for decent product. Latin Quarter's near-Notre-Dame premium nearly matches Marais's design-quarter premium." },
+    ],
+    pickA: "Pick Le Marais for dinner-focused trips, second-time travelers, anyone who wants the design-shop wandering. The 15-min walk to Notre-Dame is fine.",
+    pickB: "Pick Latin Quarter only for first-timers laser-focused on Notre-Dame and the Panthéon, or families with teens doing classroom-Europe itineraries. Skip the rue de la Huchette dinners.",
+    bottomLine: "Marais wins on dinner, Latin Quarter wins on Notre-Dame proximity. Marais is the better trip overall.",
+  },
+  // PARIS: Montmartre vs Le Marais
+  {
+    slug: "montmartre-vs-le-marais",
+    citySlug: "paris",
+    countrySlug: "france",
+    aSlug: "montmartre",
+    bSlug: "le-marais",
+    aLabel: "Montmartre",
+    bLabel: "Le Marais",
+    metaTitle: "Montmartre vs Le Marais: Where to Stay in Paris",
+    metaDescription:
+      "Hilltop Montmartre or central Le Marais? Honest take on walkability, atmosphere, tourist crush and which Paris stay fits each trip.",
+    intro:
+      "Montmartre is the hill village with Sacré-Cœur, the artists' cliché and most touristy parts of Paris. Le Marais is dense central Right Bank — design-shop, dinner-and-cocktail. They answer different questions: postcard-on-a-hill vs central-walkable.",
+    rounds: [
+      { question: "Walkability to central sights", winner: "b", body: "Marais wins by a wide margin. Louvre 15 min, Notre-Dame 12 min, Pompidou 5 min. Montmartre is 30+ min metro to anywhere central." },
+      { question: "Atmosphere", winner: "a", body: "Montmartre wins for the romantic photo — Sacré-Cœur, Place du Tertre, the steep cobbled lanes. Marais is denser but less iconic." },
+      { question: "Tourist crush", winner: "b", body: "Montmartre's main streets become unwalkable by 11am in season. Marais gets crowded but the network of side streets disperses people." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Marais, decisively. Montmartre's restaurants close by 10pm and lean tourist-trap on Place du Tertre. Marais runs to midnight." },
+      { question: "Quiet sleep", winner: "a", body: "Montmartre is residential after 10pm — most tourists leave the hill. Marais's bar streets run loud weekends until 2am." },
+      { question: "Price", winner: "a", body: "Montmartre is 15-25% cheaper than Marais. The hill premium is real but lower than the central-arrondissement premium." },
+    ],
+    pickA: "Pick Montmartre for romantic stays, photo-focused trips, light sleepers, or budget-conscious travelers willing to ride the metro to dinner.",
+    pickB: "Pick Le Marais for first-time visits, dinner-focused trips, anyone who wants every sight at walking distance. The metro-to-anywhere logistics from Montmartre are a daily tax.",
+    bottomLine: "Montmartre for the romantic photo. Marais for everything else.",
+  },
+  // PARIS: Saint-Germain vs Latin Quarter
+  {
+    slug: "saint-germain-vs-latin-quarter",
+    citySlug: "paris",
+    countrySlug: "france",
+    aSlug: "saint-germain-des-pres",
+    bSlug: "latin-quarter",
+    aLabel: "Saint-Germain",
+    bLabel: "Latin Quarter",
+    metaTitle: "Saint-Germain vs Latin Quarter: Where to Stay in Paris",
+    metaDescription:
+      "Both Left Bank — but very different trips. Honest comparison of tourist crush, restaurants, walkability and which Paris stay fits each.",
+    intro:
+      "These are the two Left Bank options most first-timers consider. Saint-Germain (6th) is the literary-and-museum Paris — Café de Flore, the Bon Marché, walkable to the Louvre and Orsay. Latin Quarter (5th) is the Sorbonne-and-Notre-Dame quarter just east, denser tourist-trap restaurants, with the Panthéon and the Jardin du Luxembourg shared between them.",
+    rounds: [
+      { question: "Walkability to Louvre/Orsay", winner: "a", body: "Saint-Germain is 10-15 min walk to Orsay and 12-15 min to the Louvre. Latin Quarter adds 5-10 min." },
+      { question: "Walkability to Notre-Dame", winner: "b", body: "Latin Quarter is 5-10 min from the cathedral. Saint-Germain is 12-15 min." },
+      { question: "Restaurants", winner: "a", body: "Saint-Germain has actual neighborhood kitchens — rue de Buci, rue de Seine, rue Mabillon have density of real restaurants. Latin Quarter's main strip (rue de la Huchette) is the worst-quality dinner block in Paris." },
+      { question: "Tourist crush", winner: "a", body: "Saint-Germain is busier but spreads across the 6th. Latin Quarter funnels everyone onto rue Saint-Séverin and Petit Pont — much denser crush." },
+      { question: "Price", winner: "b", body: "Latin Quarter runs 15-25% cheaper than Saint-Germain. The 6th's prestige premium is real." },
+    ],
+    pickA: "Pick Saint-Germain for romantic trips, first-timers willing to pay the premium, dinner-focused stays. It's the prettier and better-fed Left Bank.",
+    pickB: "Pick Latin Quarter only if budget is tight, the Notre-Dame setting is the point, or you specifically want the Sorbonne quarter. Eat outside the rue de la Huchette strip.",
+    bottomLine: "Saint-Germain for the literary-Paris cliché. Latin Quarter for budget proximity to Notre-Dame.",
+  },
+  // PARIS: Latin Quarter vs Montmartre
+  {
+    slug: "latin-quarter-vs-montmartre",
+    citySlug: "paris",
+    countrySlug: "france",
+    aSlug: "latin-quarter",
+    bSlug: "montmartre",
+    aLabel: "Latin Quarter",
+    bLabel: "Montmartre",
+    metaTitle: "Latin Quarter vs Montmartre: Where to Stay in Paris",
+    metaDescription:
+      "Two of Paris's most touristy quarters compared honestly — sight-access, atmosphere, restaurants, price and noise.",
+    intro:
+      "Both quarters lean tourist-heavy by reputation. Latin Quarter is Left Bank around the Sorbonne and Notre-Dame; Montmartre is the hill quarter with Sacré-Cœur. They both photograph well and both have restaurant-quality problems if you stay on the wrong street.",
+    rounds: [
+      { question: "Walkability to central sights", winner: "a", body: "Latin Quarter is 10-15 min from Notre-Dame, the Panthéon, the Louvre. Montmartre is metro-only to anywhere central — 25-35 min door-to-door." },
+      { question: "Iconic photo", winner: "b", body: "Montmartre wins. Sacré-Cœur is the iconic dome. Latin Quarter's photo is the Panthéon — handsome but unremarkable." },
+      { question: "Restaurants quality", winner: "tied", body: "Both have famous tourist-trap strips (rue de la Huchette, Place du Tertre) and both have real kitchens off them. Either works if you research." },
+      { question: "Quiet sleep", winner: "b", body: "Montmartre, by a wide margin. Hill clears of tourists by 8pm; residential after. Latin Quarter has Notre-Dame foot traffic and pub crowds until midnight." },
+      { question: "Price", winner: "tied", body: "Both €130-€250 for decent product. Latin Quarter slightly cheaper for chain hotels; Montmartre slightly cheaper for boutiques." },
+    ],
+    pickA: "Pick Latin Quarter for short trips focused on Notre-Dame, Sorbonne and central walkability. Eat off the main strip.",
+    pickB: "Pick Montmartre for romantic stays, light sleepers, anyone who wants the iconic-Paris-on-a-hill photo. Accept the metro to dinner.",
+    bottomLine: "Latin Quarter for central walkability. Montmartre for the photo and quiet sleep.",
+  },
+  // ROME: Centro Storico vs Monti
+  {
+    slug: "centro-storico-vs-monti",
+    citySlug: "rome",
+    countrySlug: "italy",
+    aSlug: "centro-storico",
+    bSlug: "monti",
+    aLabel: "Centro Storico",
+    bLabel: "Monti",
+    metaTitle: "Centro Storico vs Monti: Where to Stay in Rome",
+    metaDescription:
+      "Rome's tourist-heart Centro Storico or the boho Monti? Honest comparison of walkability, restaurants, noise and price.",
+    intro:
+      "Centro Storico is the Pantheon-Piazza-Navona-Campo-de'-Fiori cluster — the maximum-tourist core. Monti sits east of the Forum, traditionally working-class, now Rome's design-and-wine-bar quarter. Both walkable to everything central; the trip changes meaningfully between them.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Centro Storico wins. Pantheon, Trevi, Piazza Navona, Spanish Steps all 5-10 min walk. Monti is closer to the Forum/Colosseum but 15-20 min to the Pantheon." },
+      { question: "Restaurants", winner: "b", body: "Monti, decisively. Via dei Serpenti, Via del Boschetto have real kitchens — wine bars, design pizza, Roman cucina. Centro Storico's restaurants are mostly tourist-priced." },
+      { question: "Quiet sleep", winner: "tied", body: "Monti has bar overflow on Via del Boschetto until 1am weekends. Centro Storico has restaurant-and-tour-group noise until 11pm. Side streets in either are fine." },
+      { question: "Price", winner: "b", body: "Monti runs 15-25% cheaper than Centro Storico — €150-€280 vs €200-€400 for similar product." },
+      { question: "Atmosphere", winner: "tied", body: "Centro Storico is touristy-pretty; Monti is design-and-wine-bar bohemian. Both feel real Rome. Pick on what kind of evening you want." },
+    ],
+    pickA: "Pick Centro Storico for first-time visits, sights-focused short trips, anyone who wants every Roman cliché at the door. Pay the premium and use it.",
+    pickB: "Pick Monti for return visits, dinner-focused trips, budget-conscious travelers, or anyone who wants quieter mornings. The 15-min walk to the Pantheon is part of the routine.",
+    bottomLine: "Centro Storico for first-timers. Monti for second visits and dinner focus.",
+  },
+  // ROME: Monti vs Prati
+  {
+    slug: "monti-vs-prati",
+    citySlug: "rome",
+    countrySlug: "italy",
+    aSlug: "monti",
+    bSlug: "prati",
+    aLabel: "Monti",
+    bLabel: "Prati",
+    metaTitle: "Monti vs Prati: Where to Stay in Rome",
+    metaDescription:
+      "Rome's bohemian Monti or the upmarket Prati near Vatican? Real take on walkability, food, atmosphere and Vatican access.",
+    intro:
+      "Monti is east of the Forum — design-and-wine-bar bohemian. Prati is across the Tiber north of Vatican City — wide grid streets, upscale shopping, residential-feeling. Both are good. They answer different questions.",
+    rounds: [
+      { question: "Walkability to Vatican", winner: "b", body: "Prati wins by definition — St. Peter's is 5-10 min walk. Monti is 30+ min west of the Vatican." },
+      { question: "Walkability to ancient Rome", winner: "a", body: "Monti is 5 min from the Forum and Colosseum. Prati is 30 min east." },
+      { question: "Restaurants", winner: "tied", body: "Both have real kitchens. Monti has cluster around Via dei Serpenti; Prati has via Cola di Rienzo and the wine bars near Castel Sant'Angelo. Slightly different price points." },
+      { question: "Atmosphere", winner: "a", body: "Monti is denser, livelier, design-quarter feel. Prati is grid-pattern residential — feels more Milan than Rome." },
+      { question: "Quiet sleep", winner: "b", body: "Prati is residential — silent past 11pm. Monti's bar streets run loud weekends." },
+      { question: "Price", winner: "b", body: "Prati slightly cheaper — €130-€220 vs Monti's €150-€280. Both reasonable for central Rome." },
+    ],
+    pickA: "Pick Monti for atmosphere-and-dinner trips, Forum-and-Colosseum focus, anyone who wants the bohemian Rome.",
+    pickB: "Pick Prati for Vatican-focused stays, families, light sleepers, or anyone wanting quiet residential evenings within walking distance of central sights.",
+    bottomLine: "Monti for ancient-Rome focus and atmosphere. Prati for Vatican focus and quiet.",
+  },
+  // LONDON: Shoreditch vs Covent Garden
+  {
+    slug: "shoreditch-vs-covent-garden",
+    citySlug: "london",
+    countrySlug: "united-kingdom",
+    aSlug: "shoreditch",
+    bSlug: "covent-garden",
+    aLabel: "Shoreditch",
+    bLabel: "Covent Garden",
+    metaTitle: "Shoreditch vs Covent Garden: Where to Stay in London",
+    metaDescription:
+      "London's east-end creative quarter or the central Covent Garden? Real take on walkability, food, atmosphere and which trip each fits.",
+    intro:
+      "Shoreditch is the east-end former-industrial creative quarter — bars, design hotels, street art. Covent Garden is the West End theatre-and-shopping core. The trip changes a lot between them — one is design-and-evenings, the other is musicals-and-museums.",
+    rounds: [
+      { question: "Walkability to West End theatres", winner: "b", body: "Covent Garden wins by definition — most theatres are 5-10 min walk. Shoreditch is 25-35 min by tube to the West End." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Shoreditch wins. The whole quarter is open past midnight — Pizza East, Lyle's, dozens of cocktail bars. Covent Garden's restaurants tilt pre-theatre and close by 10:30pm." },
+      { question: "Atmosphere", winner: "a", body: "Shoreditch feels alive — markets, bars, late-night kitchens, design hotels. Covent Garden is tourist-and-theatre-goer dense, quieter at night." },
+      { question: "Family-friendly", winner: "b", body: "Covent Garden, decisively. Buskers, the piazza, Theatre Royal nearby. Shoreditch's streets are inappropriate for kids on weekends." },
+      { question: "Price", winner: "tied", body: "Both £200-£400 for decent product. Shoreditch's design hotels run premium; Covent Garden's central premium matches." },
+    ],
+    pickA: "Pick Shoreditch for evening-focused trips, design-conscious travelers, anyone over 25 who wants the creative London. Late-night kitchens at the door.",
+    pickB: "Pick Covent Garden for theatre-focused trips, families with kids, first-time visitors who want the central tourist London. The West End logistics from anywhere else cost real time.",
+    bottomLine: "Shoreditch for evenings. Covent Garden for theatre and families.",
+  },
+  // LONDON: South Kensington vs Bloomsbury
+  {
+    slug: "south-kensington-vs-bloomsbury",
+    citySlug: "london",
+    countrySlug: "united-kingdom",
+    aSlug: "south-kensington",
+    bSlug: "bloomsbury",
+    aLabel: "South Kensington",
+    bLabel: "Bloomsbury",
+    metaTitle: "South Kensington vs Bloomsbury: Where to Stay in London",
+    metaDescription:
+      "London's museum quarter or the literary Bloomsbury? Honest take on walkability, food, families and which fits each trip.",
+    intro:
+      "South Ken is the museum quarter — V&A, Natural History Museum, Hyde Park edge. Bloomsbury is the literary district north of the Strand — British Museum, garden squares, university-adjacent. Both are first-timer favorites and quieter alternatives to the West End.",
+    rounds: [
+      { question: "Walkability to museums", winner: "tied", body: "South Ken has 3 major museums at the door (V&A, Natural History, Science). Bloomsbury has the British Museum and Soane's. Equivalent in volume; different in subject." },
+      { question: "Walkability to West End", winner: "b", body: "Bloomsbury is 10-15 min walk to Covent Garden and theatres. South Ken is 25-30 min by tube." },
+      { question: "Restaurants", winner: "tied", body: "Both fine, neither outstanding. South Ken has French bistros and gastropubs near Old Brompton Road. Bloomsbury has Lamb's Conduit Street and Marchmont Street with real density." },
+      { question: "Best for families", winner: "a", body: "South Ken wins. Three kid-friendly museums, Hyde Park, residential calm, Princess Diana playground 10 min walk." },
+      { question: "Atmosphere", winner: "tied", body: "South Ken is wealthy-residential, garden-square calm. Bloomsbury is literary-academic, calmer than tourist London but with more independent shops." },
+      { question: "Price", winner: "b", body: "Bloomsbury slightly cheaper — £180-£320 vs South Ken's £220-£400. Both expensive, gap is real." },
+    ],
+    pickA: "Pick South Ken for families with young kids, museum-focused trips, anyone who wants Hyde Park access and quiet residential evenings.",
+    pickB: "Pick Bloomsbury for theatre-and-museum trips combined, longer stays, or anyone who wants closer access to Covent Garden and the British Museum.",
+    bottomLine: "South Ken for families and museums. Bloomsbury for theatre access and literary atmosphere.",
+  },
+  // LONDON: Covent Garden vs Bloomsbury
+  {
+    slug: "covent-garden-vs-bloomsbury",
+    citySlug: "london",
+    countrySlug: "united-kingdom",
+    aSlug: "covent-garden",
+    bSlug: "bloomsbury",
+    aLabel: "Covent Garden",
+    bLabel: "Bloomsbury",
+    metaTitle: "Covent Garden vs Bloomsbury: Where to Stay in London",
+    metaDescription:
+      "London's theatre core or quieter Bloomsbury? Real take on noise, walkability, families, and which suits each trip.",
+    intro:
+      "Both are zone-1 central. Covent Garden is the theatre-and-shopping core. Bloomsbury sits 10 min north — quieter, garden-squares, the British Museum. The pick is busy-central vs quiet-central.",
+    rounds: [
+      { question: "Walkability to theatres", winner: "a", body: "Covent Garden wins. Most West End theatres are 2-5 min walk. Bloomsbury is 10-15 min — fine but adds time." },
+      { question: "Quiet sleep", winner: "b", body: "Bloomsbury, by a wide margin. Garden-square residential calm past 10pm. Covent Garden has theatre crowd, restaurant noise, busker noise until midnight." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Covent Garden has wider late-dinner choice. Bloomsbury's kitchens lean academic-pub and close by 10:30pm." },
+      { question: "Tourist crush", winner: "b", body: "Bloomsbury escapes the worst of West End density. Covent Garden's Piazza is unwalkable mid-day in season." },
+      { question: "Price", winner: "b", body: "Bloomsbury runs 15-25% cheaper than Covent Garden for equivalent product." },
+    ],
+    pickA: "Pick Covent Garden for theatre-focused stays, short trips where every walking-minute matters, anyone who wants the West End atmosphere as your evening.",
+    pickB: "Pick Bloomsbury for longer stays, families, light sleepers, anyone whose trip is museum-and-theatre and willing to walk 10 min south for theatre. The savings are real.",
+    bottomLine: "Covent Garden for theatre access. Bloomsbury for quiet sleep and longer stays.",
+  },
+  // BERLIN: Mitte vs Prenzlauer Berg
+  {
+    slug: "mitte-vs-prenzlauer-berg",
+    citySlug: "berlin",
+    countrySlug: "germany",
+    aSlug: "mitte",
+    bSlug: "prenzlauer-berg",
+    aLabel: "Mitte",
+    bLabel: "Prenzlauer Berg",
+    metaTitle: "Mitte vs Prenzlauer Berg: Where to Stay in Berlin",
+    metaDescription:
+      "Berlin's central Mitte or the leafy Prenzlauer Berg? Honest take on sights, food, families, and which trip each suits.",
+    intro:
+      "Mitte is the central tourist quarter — Brandenburg Gate, Museum Island, Hackescher Markt. Prenzlauer Berg is the leafy quarter just north — restored Altbau, family-friendly, Mauerpark. The pick is sights-first vs slow-life.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Mitte wins. Brandenburg Gate, Museum Island, Reichstag, Holocaust Memorial — all 5-15 min walk. Prenzlauer Berg is 20-30 min by tram or U-Bahn." },
+      { question: "Quiet sleep", winner: "b", body: "Prenzlauer Berg, decisively. Residential, leafy, tree-lined streets. Mitte has hotel-tour-group churn from 7am and bar noise on Hackescher Markt until 1am." },
+      { question: "Restaurants", winner: "b", body: "Prenzlauer Berg has better neighborhood density — Schönhauser Allee, Kollwitzplatz markets. Mitte's restaurants tilt corporate-lunch and tourist-priced." },
+      { question: "Best for families", winner: "b", body: "Prenzlauer Berg by a wide margin. Mauerpark, playgrounds in every plaza, family-aware restaurants. Mitte is doable but unfocused for families." },
+      { question: "Price", winner: "b", body: "Prenzlauer Berg runs 15-20% cheaper than Mitte for equivalent product." },
+    ],
+    pickA: "Pick Mitte for short first-time trips, sights-focused itineraries, anyone willing to pay premium for central walkability.",
+    pickB: "Pick Prenzlauer Berg for families, longer stays, anyone over 35 who wants leafy calm. The 20-min tram to Mitte runs every 4 min and you'll use it twice a day.",
+    bottomLine: "Mitte for sights-first short trips. Prenzlauer Berg for families and longer Berlin.",
+  },
+  // BERLIN: Friedrichshain vs Kreuzberg
+  {
+    slug: "friedrichshain-vs-kreuzberg",
+    citySlug: "berlin",
+    countrySlug: "germany",
+    aSlug: "friedrichshain",
+    bSlug: "kreuzberg",
+    aLabel: "Friedrichshain",
+    bLabel: "Kreuzberg",
+    metaTitle: "Friedrichshain vs Kreuzberg: Where to Stay in Berlin",
+    metaDescription:
+      "Berlin's two famous post-industrial bar quarters compared — real differences in nightlife, food, walkability and atmosphere.",
+    intro:
+      "Both are former East/West-divide quarters that turned into Berlin's nightlife capitals. Kreuzberg is south of the river — Turkish-and-techno, Görli, Kotti. Friedrichshain is east of Kreuzberg — even later-bar, Berghain, RAW Gelände. They're often grouped but read different in person.",
+    rounds: [
+      { question: "Nightlife depth", winner: "tied", body: "Friedrichshain has Berghain, RAW Gelände, Boxhagener Platz. Kreuzberg has Kotti, Görli, the bar streets near U-Bahn Schlesisches Tor. Both serious." },
+      { question: "Restaurants", winner: "b", body: "Kreuzberg, by a margin. Markthalle Neun, the Turkish food on Kottbusser Damm, the dense Vietnamese-Turkish-craft strip. Friedrichshain has good kitchens but less variety." },
+      { question: "Walkability to central sights", winner: "b", body: "Kreuzberg is 25-30 min walk or 15 min U-Bahn to Brandenburg Gate. Friedrichshain is 35-40 min — further east." },
+      { question: "Atmosphere", winner: "tied", body: "Kreuzberg leans Turkish-and-creative. Friedrichshain leans punk-and-techno. Both feel alive, both grittier than central Berlin." },
+      { question: "Price", winner: "a", body: "Friedrichshain runs slightly cheaper than Kreuzberg — €100-€180 vs €120-€220 for equivalent product." },
+    ],
+    pickA: "Pick Friedrichshain for techno-focused trips (Berghain queue is 20 min walk), longer stays, or anyone wanting the deepest late-night Berlin.",
+    pickB: "Pick Kreuzberg for food-focused trips, anyone who wants markets and Turkish-Berlin density, slightly closer to Mitte. The defaults overlap heavily.",
+    bottomLine: "Kreuzberg for food. Friedrichshain for techno and budget. Both serve the same trip.",
+  },
+  // AMSTERDAM: Jordaan vs Centrum
+  {
+    slug: "jordaan-vs-centrum",
+    citySlug: "amsterdam",
+    countrySlug: "netherlands",
+    aSlug: "jordaan",
+    bSlug: "centrum",
+    aLabel: "Jordaan",
+    bLabel: "Centrum",
+    metaTitle: "Jordaan vs Centrum: Where to Stay in Amsterdam",
+    metaDescription:
+      "Amsterdam's leafy Jordaan or the touristy Centrum? Honest take on canals, restaurants, noise, stag groups and which fits each trip.",
+    intro:
+      "Centrum is the medieval heart with Dam Square, the Royal Palace, and the Red Light District. Jordaan is the canal-and-galleries quarter just west — leafy, less touristy, locals' choice. The price gap is small. The atmosphere gap is large.",
+    rounds: [
+      { question: "Tourist/stag crush", winner: "a", body: "Jordaan wins, decisively. Centrum is the loudest stag-do destination in Europe — most central streets are unwalkable Friday-Saturday nights. Jordaan gets none of this." },
+      { question: "Restaurants", winner: "a", body: "Jordaan has actual neighborhood kitchens. Centrum's central blocks are mostly tourist-trap waffle stands and pub food. Real Centrum restaurants exist but require research." },
+      { question: "Sights at your door", winner: "b", body: "Centrum has Royal Palace, Dam Square, Anne Frank House (10 min). Jordaan is 5 min from Anne Frank but 15 min from Dam." },
+      { question: "Quiet sleep", winner: "a", body: "Jordaan is residential calm past 11pm. Centrum's central blocks have Red Light District foot traffic and stag noise until 4am." },
+      { question: "Price", winner: "tied", body: "Both €180-€350 for decent product. Jordaan slightly cheaper for canal-house apartments; Centrum cheaper for chain hotels." },
+    ],
+    pickA: "Pick Jordaan for any 2+ night stay, anyone who wants the cliché Amsterdam canals and quiet sleep. The 15-min walk to Dam is part of the routine.",
+    pickB: "Pick Centrum only for short business trips, single-night stays, or anyone who needs central station logistics and accepts stag-night noise.",
+    bottomLine: "Jordaan, almost always. Centrum is the wrong default.",
+  },
+  // AMSTERDAM: De Pijp vs Centrum
+  {
+    slug: "de-pijp-vs-centrum",
+    citySlug: "amsterdam",
+    countrySlug: "netherlands",
+    aSlug: "de-pijp",
+    bSlug: "centrum",
+    aLabel: "De Pijp",
+    bLabel: "Centrum",
+    metaTitle: "De Pijp vs Centrum: Where to Stay in Amsterdam",
+    metaDescription:
+      "Amsterdam's hipster De Pijp or the touristy Centrum? Real take on food, walkability, stag-noise and which to pick.",
+    intro:
+      "Centrum is the medieval tourist core. De Pijp is south of the Singelgracht — Albert Cuyp market, restaurant-dense, where younger Amsterdammers actually eat. The trip reads completely different between them.",
+    rounds: [
+      { question: "Restaurants", winner: "a", body: "De Pijp, decisively. Albert Cuypstraat, Eerste van der Helststraat have density of real kitchens. Centrum's restaurants are mostly tourist-priced." },
+      { question: "Walkability to central sights", winner: "b", body: "Centrum has Dam Square at your door. De Pijp is 20-25 min walk or 10 min tram to Centrum." },
+      { question: "Quiet sleep", winner: "a", body: "De Pijp residential, silent past 11pm. Centrum has Red Light District and stag-night noise until 4am." },
+      { question: "Atmosphere", winner: "a", body: "De Pijp feels lived-in — locals shop the market, families walk dogs, real cafes. Centrum is tourist-and-stag party-with-museums." },
+      { question: "Price", winner: "a", body: "De Pijp 15-20% cheaper than Centrum for equivalent product. Both expensive — Amsterdam is Amsterdam." },
+    ],
+    pickA: "Pick De Pijp for 3+ night stays, food-focused trips, anyone who wants the lived-in Amsterdam. The tram to Centrum runs every 4 min.",
+    pickB: "Pick Centrum only for sights-first single nights or business trips needing station logistics. Otherwise the stag noise is a real cost.",
+    bottomLine: "De Pijp, almost always. Centrum should be a tactical pick, not a default.",
+  },
+  // AMSTERDAM: De Pijp vs Oud-West
+  {
+    slug: "de-pijp-vs-oud-west",
+    citySlug: "amsterdam",
+    countrySlug: "netherlands",
+    aSlug: "de-pijp",
+    bSlug: "oud-west",
+    aLabel: "De Pijp",
+    bLabel: "Oud-West",
+    metaTitle: "De Pijp vs Oud-West: Where to Stay in Amsterdam",
+    metaDescription:
+      "Two of Amsterdam's best non-Centrum quarters compared. Real differences in food, price, walkability and trip fit.",
+    intro:
+      "These are Amsterdam's two strongest under-the-radar bases. De Pijp is south of the Singelgracht — market-and-restaurants. Oud-West is west of the Vondelpark — leafier, slightly cheaper, walkable to Vondelpark and the museums. Both serve the same kind of traveler. The pick is granular.",
+    rounds: [
+      { question: "Restaurants", winner: "a", body: "De Pijp slightly wins — Albert Cuyp area is denser. Oud-West's Bilderdijkstraat is good but less variety." },
+      { question: "Walkability to museums", winner: "b", body: "Oud-West wins. Rijksmuseum is 10 min walk, Van Gogh Museum 12 min. De Pijp is 15-20 min from same." },
+      { question: "Walkability to Vondelpark", winner: "b", body: "Oud-West is at the park's edge. De Pijp is 10 min walk." },
+      { question: "Atmosphere", winner: "tied", body: "De Pijp is denser, livelier, market-and-bar. Oud-West is leafier, more residential. Both feel real Amsterdam." },
+      { question: "Price", winner: "b", body: "Oud-West 5-10% cheaper than De Pijp. Both €130-€220 for decent product." },
+    ],
+    pickA: "Pick De Pijp for food-and-bar focus, market-loving travelers, anyone who wants the densest non-Centrum Amsterdam.",
+    pickB: "Pick Oud-West for museum-focused trips, families with young kids, light sleepers, or anyone who wants Vondelpark at the door.",
+    bottomLine: "De Pijp for food density. Oud-West for park access and museums. Both excellent.",
+  },
+  // MADRID: Salamanca vs La Latina
+  {
+    slug: "salamanca-vs-la-latina",
+    citySlug: "madrid",
+    countrySlug: "spain",
+    aSlug: "salamanca",
+    bSlug: "la-latina",
+    aLabel: "Salamanca",
+    bLabel: "La Latina",
+    metaTitle: "Salamanca vs La Latina: Where to Stay in Madrid",
+    metaDescription:
+      "Madrid's upscale Salamanca or the Sunday-tapas-crawl La Latina? Honest take on shopping, food, atmosphere and price.",
+    intro:
+      "Salamanca is the upmarket grid east of Retiro — designer shopping, Calle Serrano, residential prestige. La Latina is the medieval-tapas-and-flea-market quarter south of Plaza Mayor — Cava Baja, Sunday Rastro market. They're at opposite ends of the city's character spectrum.",
+    rounds: [
+      { question: "Shopping", winner: "a", body: "Salamanca by definition — Calle Serrano is Madrid's luxury strip. La Latina has antiques and the Rastro market on Sundays only." },
+      { question: "Tapas crawl", winner: "b", body: "La Latina, decisively. Cava Baja and Cava Alta are the Sunday-tapas tradition. Salamanca's restaurants are upscale dining, not bar crawl." },
+      { question: "Quiet sleep", winner: "a", body: "Salamanca is residential, calm past 11pm. La Latina runs loud Thursday-Sunday until 2am — tapas crawl is the whole point." },
+      { question: "Walkability to Prado", winner: "tied", body: "Salamanca is 10-15 min walk; La Latina is 12-15 min. Equivalent." },
+      { question: "Price", winner: "b", body: "La Latina 15-20% cheaper than Salamanca for equivalent product." },
+    ],
+    pickA: "Pick Salamanca for shopping-focused trips, families, anyone over 50 wanting calmer evenings, or business-style stays.",
+    pickB: "Pick La Latina for food-focused trips, weekend stays focused on the Rastro, anyone under 40 who wants the Sunday-tapas-crawl Madrid.",
+    bottomLine: "Salamanca for shopping and quiet. La Latina for the tapas trip.",
+  },
+  // MADRID: Chueca vs Malasaña
+  {
+    slug: "chueca-vs-malasana",
+    citySlug: "madrid",
+    countrySlug: "spain",
+    aSlug: "chueca",
+    bSlug: "malasana",
+    aLabel: "Chueca",
+    bLabel: "Malasaña",
+    metaTitle: "Chueca vs Malasaña: Where to Stay in Madrid",
+    metaDescription:
+      "Madrid's two famous central nightlife quarters compared honestly. Real differences in vibe, food, noise and price.",
+    intro:
+      "Chueca and Malasaña are next-door — both central, both restaurant-and-bar dense, both north of Gran Vía. Chueca is Madrid's LGBTQ+ heart and design quarter. Malasaña is the indie-rock-and-vintage-shops quarter. They share the same trip but feel different.",
+    rounds: [
+      { question: "Restaurants", winner: "tied", body: "Both excellent, both dense. Chueca leans design-and-cocktail. Malasaña leans casual-and-tapas. Pick on energy, not quality." },
+      { question: "Atmosphere", winner: "tied", body: "Chueca is queer-friendly, design-shop, slightly older crowd. Malasaña is younger, indie-rock, vintage-shop. Both fundamentally Madrid." },
+      { question: "Quiet sleep", winner: "tied", body: "Both run loud weekends until 3am. Chueca's main strip (Calle Hortaleza) and Malasaña's Plaza Dos de Mayo are equally bar-overflow-loud. Side streets in either work." },
+      { question: "Price", winner: "tied", body: "Both €130-€220 for decent product. Equivalent." },
+      { question: "Walkability", winner: "tied", body: "Both 10 min walk to Sol/Plaza Mayor and 5 min to each other. Effectively the same neighborhood logistically." },
+    ],
+    pickA: "Pick Chueca for LGBTQ+-friendly stays, design-focused travelers, slightly older crowd wanting cocktail-and-dinner.",
+    pickB: "Pick Malasaña for younger trips, indie-rock-and-vintage focus, anyone whose ideal trip is bar-crawl-with-vermouth.",
+    bottomLine: "Chueca for cocktails-and-design. Malasaña for casual-and-vintage. Tour the other on foot.",
+  },
+  // VIENNA: Innere Stadt vs Leopoldstadt
+  {
+    slug: "innere-stadt-vs-leopoldstadt",
+    citySlug: "vienna",
+    countrySlug: "austria",
+    aSlug: "innere-stadt",
+    bSlug: "leopoldstadt",
+    aLabel: "Innere Stadt",
+    bLabel: "Leopoldstadt",
+    metaTitle: "Innere Stadt vs Leopoldstadt: Where to Stay in Vienna",
+    metaDescription:
+      "Vienna's UNESCO inner city or the under-rated Leopoldstadt across the Danube canal? Honest take on price, food, and trip fit.",
+    intro:
+      "Innere Stadt (District 1) is the imperial core — Stephansdom, Hofburg, the opera. Leopoldstadt (District 2) is across the Danube canal — formerly Jewish, now lively-and-affordable, with the Prater and the Karmelitermarkt. Most travelers default to District 1. Many shouldn't.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Innere Stadt wins by definition — every imperial sight is 5-10 min walk. Leopoldstadt is 10-15 min across the canal." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Leopoldstadt, decisively. Karmelitermarkt area and the streets around Praterstern have real density. Innere Stadt's restaurants close by 10pm and lean tourist-priced." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Innere Stadt has Stephansplatz tour-group churn; Leopoldstadt is residential past midnight." },
+      { question: "Price", winner: "b", body: "Leopoldstadt runs 25-35% cheaper than Innere Stadt for equivalent product. €120-€220 vs €180-€350." },
+      { question: "Atmosphere", winner: "tied", body: "Innere Stadt is imperial-formal-tourist. Leopoldstadt is lively-affordable-real. Pick on what kind of evening you want." },
+    ],
+    pickA: "Pick Innere Stadt for first-time visits, sights-focused short trips, anyone willing to pay 30%+ premium for central walkability.",
+    pickB: "Pick Leopoldstadt for return visits, food-focused trips, families, longer stays, budget-conscious travelers. The 10-min walk into Innere Stadt is downhill across the canal.",
+    bottomLine: "Innere Stadt for first-timers. Leopoldstadt for everyone else.",
+  },
+  // PRAGUE: Old Town vs Mala Strana
+  {
+    slug: "stare-mesto-vs-mala-strana",
+    citySlug: "prague",
+    countrySlug: "czech-republic",
+    aSlug: "stare-mesto",
+    bSlug: "mala-strana",
+    aLabel: "Staré Město",
+    bLabel: "Malá Strana",
+    metaTitle: "Staré Město vs Malá Strana: Where to Stay in Prague",
+    metaDescription:
+      "Prague's Old Town or the castle-side Malá Strana? Honest take on tourist crush, walkability, charm and price.",
+    intro:
+      "Staré Město is the medieval Old Town with the Astronomical Clock and Old Town Square. Malá Strana is the Lesser Town across the Charles Bridge — castle-side, leafier, more village-feeling. Both UNESCO. Both touristy. The trip changes meaningfully.",
+    rounds: [
+      { question: "Atmosphere", winner: "b", body: "Malá Strana wins on charm — narrower lanes, the Lennon Wall, the gardens below the castle. Staré Město is bigger and more obvious." },
+      { question: "Tourist crush", winner: "b", body: "Malá Strana is busy near the bridge but disperses fast. Staré Město's Old Town Square is unwalkable mid-day in season." },
+      { question: "Walkability to castle", winner: "b", body: "Malá Strana is at the castle's foot — 10-min uphill walk. Staré Město adds 20-25 min via the bridge." },
+      { question: "Restaurants", winner: "tied", body: "Both have tourist-priced central restaurants and quality places off-strip. Staré Město has more variety; Malá Strana has prettier settings." },
+      { question: "Price", winner: "tied", body: "Both €130-€280 for decent product. Equivalent." },
+      { question: "Quiet sleep", winner: "b", body: "Malá Strana wins. Staré Město has bar-overflow-and-stag noise on weekends. Malá Strana is residential past midnight." },
+    ],
+    pickA: "Pick Staré Město for first-time visits, sights-density focus, anyone wanting the densest restaurant-and-bar walkability.",
+    pickB: "Pick Malá Strana for romantic trips, light sleepers, castle-focused itineraries, or anyone wanting the prettier and quieter Prague.",
+    bottomLine: "Staré Město for first-timers. Malá Strana for romance and quiet.",
+  },
+  // PRAGUE: Žižkov vs Vinohrady (different from existing)
+  {
+    slug: "stare-mesto-vs-zizkov",
+    citySlug: "prague",
+    countrySlug: "czech-republic",
+    aSlug: "stare-mesto",
+    bSlug: "zizkov",
+    aLabel: "Staré Město",
+    bLabel: "Žižkov",
+    metaTitle: "Staré Město vs Žižkov: Where to Stay in Prague",
+    metaDescription:
+      "Prague's UNESCO Old Town or the indie-bar Žižkov? Real take on price, food, atmosphere and which trip each fits.",
+    intro:
+      "Staré Město is the postcard. Žižkov is the indie-bar quarter east of the Old Town — the most pubs per capita in the Czech Republic, the TV tower, real local life. The pick is tourist-and-pretty vs local-and-cheap.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Staré Město is iconic. Žižkov has the local-bar density most travelers don't see. Both interesting; pick on what you want from a night out." },
+      { question: "Tourist crush", winner: "b", body: "Staré Město becomes unwalkable mid-day. Žižkov gets none of this." },
+      { question: "Restaurants and bars", winner: "b", body: "Žižkov has the highest pub density in Czech Republic. Staré Město has volume but mostly tourist-priced." },
+      { question: "Price", winner: "b", body: "Žižkov 30-40% cheaper than Staré Město. €60-€120 vs €130-€280 for similar product." },
+      { question: "Walkability to Old Town Square", winner: "a", body: "Staré Město is 5 min. Žižkov is 25-30 min walk or 10 min tram." },
+    ],
+    pickA: "Pick Staré Město for first-time visits, short trips, sights-density focus.",
+    pickB: "Pick Žižkov for return visits, food-and-pub-focused trips, longer stays, budget travelers. The tram into the Old Town runs every 5 min.",
+    bottomLine: "Staré Město for tourists. Žižkov for local pub-Prague at half the price.",
+  },
+  // BUDAPEST: District V vs District VI
+  {
+    slug: "district-v-vs-district-vi",
+    citySlug: "budapest",
+    countrySlug: "hungary",
+    aSlug: "district-v",
+    bSlug: "district-vi",
+    aLabel: "District V",
+    bLabel: "District VI",
+    metaTitle: "District V vs District VI: Where to Stay in Budapest",
+    metaDescription:
+      "Budapest's polished Belváros or the Andrássy-Avenue District VI? Real take on walkability, food, atmosphere and price.",
+    intro:
+      "District V (Belváros) is the central polished quarter along the Danube. District VI (Terézváros) is northeast — Andrássy Avenue, the State Opera, the Jewish Quarter overlap. Both walkable to the Parliament. The pick is calm-classic vs lively-liberal.",
+    rounds: [
+      { question: "Walkability to Parliament", winner: "a", body: "District V is at Parliament's door. District VI is 10-15 min walk." },
+      { question: "Restaurants past 10pm", winner: "b", body: "District VI wins. The streets around Liszt Ferenc tér and the area near the State Opera have density of late kitchens. District V is more lunch-and-business." },
+      { question: "Atmosphere", winner: "b", body: "District V is polished-and-quiet — central business stays. District VI feels alive — restaurants, bars, the avenue." },
+      { question: "Quiet sleep", winner: "a", body: "District V quieter. District VI has bar streets that run loud Thursday-Sunday." },
+      { question: "Price", winner: "b", body: "District VI 10-15% cheaper than District V for similar product." },
+    ],
+    pickA: "Pick District V for business stays, families, anyone over 50 wanting central-and-calm.",
+    pickB: "Pick District VI for food-focused trips, opera-going stays, anyone under 40. The Andrássy walk is the city's prettiest.",
+    bottomLine: "District V for business and quiet. District VI for food and opera.",
+  },
+  // BUDAPEST: District VI vs District VII
+  {
+    slug: "district-vi-vs-district-vii",
+    citySlug: "budapest",
+    countrySlug: "hungary",
+    aSlug: "district-vi",
+    bSlug: "district-vii",
+    aLabel: "District VI",
+    bLabel: "District VII",
+    metaTitle: "District VI vs District VII: Where to Stay in Budapest",
+    metaDescription:
+      "Budapest's Andrássy Avenue District or the Jewish Quarter ruin-bar District VII? Real take on noise, food and which fits each trip.",
+    intro:
+      "District VI is Andrássy Avenue — opera house, polished restaurants, slightly upmarket. District VII is the Jewish Quarter — the ruin bars (Szimpla Kert, Instant), party-and-food. They blur together near the synagogue but are different at night.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "District VI is opera-and-restaurant; District VII is ruin-bars-and-party. Both feel central Budapest. Pick on age and what you want from a night out." },
+      { question: "Quiet sleep", winner: "a", body: "District VI quieter. District VII is the loudest stretch in central Budapest — Szimpla Kert overflow until 4am every weekend." },
+      { question: "Restaurants", winner: "tied", body: "Both dense, different price points. District VI tilts polished; District VII tilts casual-and-Jewish-Hungarian." },
+      { question: "Best for night out", winner: "b", body: "District VII, decisively. The ruin bars are the trip if that's what you came for." },
+      { question: "Price", winner: "tied", body: "Both €80-€150 for decent product." },
+    ],
+    pickA: "Pick District VI for couples on romantic trips, families, anyone over 35 wanting calmer evenings with food access.",
+    pickB: "Pick District VII for under-30 trips, ruin-bar-focused stays, anyone whose Budapest is the bar trip. Bring earplugs.",
+    bottomLine: "District VI for calmer trips. District VII for the ruin bars.",
+  },
+  // ATHENS: Plaka vs Psyrri
+  {
+    slug: "plaka-vs-psyrri",
+    citySlug: "athens",
+    countrySlug: "greece",
+    aSlug: "plaka",
+    bSlug: "psyrri",
+    aLabel: "Plaka",
+    bLabel: "Psyrri",
+    metaTitle: "Plaka vs Psyrri: Where to Stay in Athens",
+    metaDescription:
+      "Athens' Acropolis-side Plaka or the lively Psyrri? Honest take on tourist crush, food, atmosphere and noise.",
+    intro:
+      "Plaka is the old quarter under the Acropolis — whitewashed lanes, taverna-dense, the quintessential Athens postcard. Psyrri is the formerly-industrial-now-bar quarter just north — converted warehouses, mezedopoleia, late kitchens. The pick is sights-first vs food-first.",
+    rounds: [
+      { question: "Walkability to Acropolis", winner: "a", body: "Plaka is at the foot of the Acropolis. Psyrri is 10-15 min walk north." },
+      { question: "Restaurants past 11pm", winner: "b", body: "Psyrri, decisively. The bar-and-mezedopolio strip runs to 2am. Plaka's tavernas close by 11:30pm and lean tourist-priced." },
+      { question: "Atmosphere", winner: "tied", body: "Plaka is whitewashed-tourist-postcard. Psyrri is converted-warehouse-bar. Both feel real Athens. Pick on energy." },
+      { question: "Quiet sleep", winner: "a", body: "Plaka quieter — most tourists leave by 11pm. Psyrri has bar overflow on weekends until 3am." },
+      { question: "Price", winner: "b", body: "Psyrri 10-15% cheaper than Plaka. Both reasonable for European capital — €80-€150." },
+    ],
+    pickA: "Pick Plaka for first-time visits, sights-focused trips, anyone over 40 wanting quieter evenings with the Acropolis at the door.",
+    pickB: "Pick Psyrri for food-and-bar focus, return visitors, anyone under 35 who wants the lively Athens evening.",
+    bottomLine: "Plaka for sights. Psyrri for food.",
+  },
+  // STOCKHOLM: Gamla Stan vs Norrmalm
+  {
+    slug: "gamla-stan-vs-norrmalm",
+    citySlug: "stockholm",
+    countrySlug: "sweden",
+    aSlug: "gamla-stan",
+    bSlug: "norrmalm",
+    aLabel: "Gamla Stan",
+    bLabel: "Norrmalm",
+    metaTitle: "Gamla Stan vs Norrmalm: Where to Stay in Stockholm",
+    metaDescription:
+      "Stockholm's medieval old town or the central Norrmalm? Honest take on transport, food, atmosphere and tourist crush.",
+    intro:
+      "Gamla Stan is the medieval island — Royal Palace, Stortorget, the postcard. Norrmalm is the central business core north of the bridge — Central Station, T-Centralen metro hub, the shopping. The trip changes meaningfully.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Gamla Stan is medieval-cobblestone-iconic. Norrmalm is generic-business-grid. Pick on whether you want the photo." },
+      { question: "Transport hub", winner: "b", body: "Norrmalm wins by definition. T-Centralen is the metro intersection, Central Station is here, Arlanda Express terminates here." },
+      { question: "Tourist crush", winner: "b", body: "Gamla Stan's main streets are unwalkable mid-day in season. Norrmalm gets central foot traffic but spreads across wider streets." },
+      { question: "Restaurants", winner: "tied", body: "Gamla Stan tilts touristy-priced. Norrmalm has chains and a few real picks. Neither is the best Stockholm food — that's Södermalm." },
+      { question: "Price", winner: "b", body: "Norrmalm 10-15% cheaper than Gamla Stan for equivalent product." },
+    ],
+    pickA: "Pick Gamla Stan for short stays, romantic trips, sights-focused first-timers willing to pay the premium for the postcard setting.",
+    pickB: "Pick Norrmalm only if you need station logistics or it's a single-night business trip. Most travelers should pick Gamla Stan or Södermalm instead.",
+    bottomLine: "Gamla Stan for the photo. Norrmalm only for transport-first stays.",
+  },
+  // LISBON: Baixa-Chiado vs Alfama
+  {
+    slug: "baixa-chiado-vs-alfama",
+    citySlug: "lisbon",
+    countrySlug: "portugal",
+    aSlug: "baixa-chiado",
+    bSlug: "alfama",
+    aLabel: "Baixa-Chiado",
+    bLabel: "Alfama",
+    metaTitle: "Baixa-Chiado vs Alfama: Where to Stay in Lisbon",
+    metaDescription:
+      "Lisbon's flat central Baixa-Chiado or the steep medieval Alfama? Real take on walkability, atmosphere, mobility and price.",
+    intro:
+      "Baixa-Chiado is the flat central grid — Rossio, Praça do Comércio, the shopping. Alfama is the medieval Moorish quarter east — narrow stair-streets, fado houses, the cliché Lisbon photo. The pick depends a lot on mobility and what kind of evening you want.",
+    rounds: [
+      { question: "Mobility", winner: "a", body: "Baixa-Chiado is flat. Alfama is one of Europe's hilliest neighborhoods — stair-streets, no elevators, brutal with luggage." },
+      { question: "Atmosphere", winner: "b", body: "Alfama is the postcard — narrow lanes, hanging laundry, fado at night. Baixa is grid-pattern handsome but unremarkable." },
+      { question: "Restaurants", winner: "a", body: "Baixa-Chiado has the densest cluster — real kitchens, rooftop bars, daily-price meals. Alfama's fado houses are tourist-priced; the real food is harder to find." },
+      { question: "Quiet sleep", winner: "b", body: "Alfama is residential-quiet past 11pm (fado houses close by 12). Baixa-Chiado has bar overflow on weekends." },
+      { question: "Tourist crush", winner: "tied", body: "Both crowded mid-day. Alfama's tour-groups dissipate by 5pm. Baixa-Chiado sustains foot traffic until late." },
+    ],
+    pickA: "Pick Baixa-Chiado for first-time visits, anyone with luggage or mobility issues, dinner-focused trips, families with strollers.",
+    pickB: "Pick Alfama for romantic stays, return visitors, anyone able to handle steep stairs, fado-focused trips. The cliché photo is at your door.",
+    bottomLine: "Baixa-Chiado for walkability and food. Alfama for the photo and quiet, if you can handle the stairs.",
+  },
+  // LISBON: Príncipe Real vs Bairro Alto
+  {
+    slug: "principe-real-vs-bairro-alto",
+    citySlug: "lisbon",
+    countrySlug: "portugal",
+    aSlug: "principe-real",
+    bSlug: "bairro-alto",
+    aLabel: "Príncipe Real",
+    bLabel: "Bairro Alto",
+    metaTitle: "Príncipe Real vs Bairro Alto: Where to Stay in Lisbon",
+    metaDescription:
+      "Lisbon's design-shop Príncipe Real or the bar-crawl Bairro Alto? Honest take on atmosphere, sleep, food and price.",
+    intro:
+      "Bairro Alto is the famous bar quarter west of Chiado — narrow lanes, dozens of bars, a wall of noise on weekends. Príncipe Real sits just north — calmer, design-shop and concept-store quarter, where Lisbon's design crowd actually lives. They share the same hill but read very different.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Príncipe Real is leafy, design-quarter, calm. Bairro Alto is narrow-lane bar overflow. Pick on what kind of evening you want." },
+      { question: "Quiet sleep", winner: "a", body: "Príncipe Real, by a wide margin. Bairro Alto runs loud Thursday-Sunday until 3am — sleep on the main lanes is impossible weekends." },
+      { question: "Restaurants", winner: "a", body: "Príncipe Real wins — design restaurants, the Embaixada market, real kitchens. Bairro Alto's restaurants are mostly bar food and tourist-priced." },
+      { question: "Bars at night", winner: "b", body: "Bairro Alto, decisively. The whole quarter is the bar — that's the trip." },
+      { question: "Price", winner: "b", body: "Bairro Alto 10-15% cheaper than Príncipe Real for equivalent product." },
+    ],
+    pickA: "Pick Príncipe Real for couples, families, anyone over 35 wanting calm with food access. The 5-min walk to Bairro Alto for one bar night is the right routine.",
+    pickB: "Pick Bairro Alto for under-30 trips, bar-focused stays, anyone who wants the cliché loud-bar Lisbon evening at the door. Bring earplugs.",
+    bottomLine: "Príncipe Real for couples and food. Bairro Alto for the bar trip.",
+  },
+  // PORTO: Baixa vs Ribeira
+  {
+    slug: "baixa-vs-ribeira",
+    citySlug: "porto",
+    countrySlug: "portugal",
+    aSlug: "baixa",
+    bSlug: "ribeira",
+    aLabel: "Baixa",
+    bLabel: "Ribeira",
+    metaTitle: "Baixa vs Ribeira: Where to Stay in Porto",
+    metaDescription:
+      "Porto's central Baixa or the photogenic Ribeira on the river? Real take on walkability, mobility, tourist crush and price.",
+    intro:
+      "Ribeira is the famous river-front photo with the colorful tile facades. Baixa sits above it — flatter, walkable, with the train station and the major shopping. Most first-timers want Ribeira. Most should not.",
+    rounds: [
+      { question: "Pretty factor", winner: "b", body: "Ribeira is the postcard. Baixa is handsome but unremarkable in photos." },
+      { question: "Mobility", winner: "a", body: "Baixa is flat. Ribeira is at the bottom of one of Porto's steepest slopes — every walk back is uphill." },
+      { question: "Tourist crush", winner: "a", body: "Ribeira's main strip is unwalkable mid-day. Baixa is busy but spreads across wider streets." },
+      { question: "Restaurants past 9pm", winner: "a", body: "Baixa wins. The restaurants on Rua Cândido dos Reis and Rua Galeria de Paris run later. Ribeira's restaurants are mostly tourist-priced and close by 10pm." },
+      { question: "Price", winner: "tied", body: "Both €100-€180 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Baixa for first-time visits, longer stays, families with strollers, mobility-limited travelers. The 10-min downhill walk to Ribeira is part of the daily ritual.",
+    pickB: "Pick Ribeira only for short stays where the river-view-from-your-window is the trip. Accept the steep walks back uphill every night.",
+    bottomLine: "Baixa, almost always. Ribeira looks better in photos than it lives in person.",
+  },
+  // FLORENCE: Santa Maria Novella vs Santa Croce
+  {
+    slug: "santa-maria-novella-vs-santa-croce",
+    citySlug: "florence",
+    countrySlug: "italy",
+    aSlug: "santa-maria-novella",
+    bSlug: "santa-croce",
+    aLabel: "Santa Maria Novella",
+    bLabel: "Santa Croce",
+    metaTitle: "Santa Maria Novella vs Santa Croce: Where to Stay in Florence",
+    metaDescription:
+      "Florence's train-station-side or the Santa Croce quarter east of the Duomo? Real take on noise, food, walkability.",
+    intro:
+      "Both are central. Santa Maria Novella is around the train station — the cheapest sector for hotels, with the basilica of the same name. Santa Croce is east of the Duomo — the historic artisan quarter, food-dense, with the Basilica di Santa Croce. They serve different trips.",
+    rounds: [
+      { question: "Walkability to Duomo and Uffizi", winner: "b", body: "Santa Croce is 5-10 min from Duomo and Uffizi. Santa Maria Novella is 10-15 min." },
+      { question: "Restaurants", winner: "b", body: "Santa Croce wins — Sant'Ambrogio Market, traditional trattorias, the densest non-tourist food in Florence." },
+      { question: "Train logistics", winner: "a", body: "Santa Maria Novella is at the train station's door — fine for early Bologna/Rome connections." },
+      { question: "Price", winner: "a", body: "Santa Maria Novella 15-25% cheaper than Santa Croce. The cheapest central sector — for a reason." },
+      { question: "Quiet sleep", winner: "b", body: "Santa Croce residential past 11pm. Santa Maria Novella has station-area noise and inconsistent quality." },
+    ],
+    pickA: "Pick Santa Maria Novella only for budget-sensitive single nights or trips with very early train connections. The price is a tax for a reason.",
+    pickB: "Pick Santa Croce for any 2+ night stay, food-focused trips, anyone who wants the lived-in artisan Florence. The default if budget allows.",
+    bottomLine: "Santa Croce, almost always. Santa Maria Novella for budget-only trips.",
+  },
+  // BRUSSELS: Saint-Gilles vs Ixelles
+  {
+    slug: "saint-gilles-vs-ixelles",
+    citySlug: "brussels",
+    countrySlug: "belgium",
+    aSlug: "saint-gilles",
+    bSlug: "ixelles",
+    aLabel: "Saint-Gilles",
+    bLabel: "Ixelles",
+    metaTitle: "Saint-Gilles vs Ixelles: Where to Stay in Brussels",
+    metaDescription:
+      "Brussels' Saint-Gilles or the Châtelain Ixelles? Real take on food, atmosphere, price and which trip each fits.",
+    intro:
+      "These are the two southern Brussels quarters most travel-savvy visitors choose over Grand Place. Saint-Gilles has the Hôtel de Ville, the Parvis market, immigrant-influenced food. Ixelles around Place du Châtelain is the design-shop-and-cocktail quarter where younger Brusseleers actually go.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Saint-Gilles is multicultural-grit-pretty Art Nouveau. Ixelles is design-and-cocktail-bourgeois. Both feel real Brussels. Pick on what you want." },
+      { question: "Restaurants", winner: "b", body: "Ixelles has Châtelain's denser cocktail-and-bistro cluster. Saint-Gilles has cheaper and more diverse picks but spread out." },
+      { question: "Walkability to Grand Place", winner: "tied", body: "Both 25-30 min walk or 10-15 min metro. Equivalent." },
+      { question: "Price", winner: "a", body: "Saint-Gilles 10-15% cheaper than Ixelles for equivalent product." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Châtelain has weekend bar overflow; Saint-Gilles has occasional Parvis market noise." },
+    ],
+    pickA: "Pick Saint-Gilles for budget-conscious trips, food-diversity focus, anyone who wants the multicultural Brussels.",
+    pickB: "Pick Ixelles for design-focused trips, cocktail-and-bistro evenings, slightly upmarket stays. Châtelain Sundays are excellent.",
+    bottomLine: "Both excellent over Grand Place. Saint-Gilles for budget. Ixelles for design.",
+  },
+  // MUNICH: Glockenbachviertel vs Schwabing
+  {
+    slug: "glockenbachviertel-vs-schwabing",
+    citySlug: "munich",
+    countrySlug: "germany",
+    aSlug: "glockenbachviertel",
+    bSlug: "schwabing",
+    aLabel: "Glockenbachviertel",
+    bLabel: "Schwabing",
+    metaTitle: "Glockenbachviertel vs Schwabing: Where to Stay in Munich",
+    metaDescription:
+      "Munich's queer-friendly Glockenbach or the leafy Schwabing? Real take on food, atmosphere, families and which fits each trip.",
+    intro:
+      "Glockenbachviertel is south of Marienplatz — Munich's queer-friendly evening quarter, cocktail-and-restaurant dense. Schwabing is north — leafy student-quarter near the Englischer Garten, calmer, family-aware. Both walkable to Altstadt.",
+    rounds: [
+      { question: "Restaurants past 10pm", winner: "a", body: "Glockenbach wins. Müllerstraße and Hans-Sachs-Straße run loud and dense until midnight. Schwabing's restaurants close by 10:30pm." },
+      { question: "Atmosphere", winner: "tied", body: "Glockenbach is queer-friendly-cocktail. Schwabing is leafy-student-park. Both real Munich. Pick on energy." },
+      { question: "Walkability to Englischer Garten", winner: "b", body: "Schwabing wins by definition — the park is at your door. Glockenbach is 25-30 min walk or 10 min U-Bahn." },
+      { question: "Best for families", winner: "b", body: "Schwabing — playgrounds, park access, family-aware restaurants. Glockenbach is doable but appropriate for adults." },
+      { question: "Price", winner: "b", body: "Schwabing 10-15% cheaper than Glockenbach during non-Oktoberfest weeks." },
+    ],
+    pickA: "Pick Glockenbach for evening-focused trips, cocktail-and-dinner stays, LGBTQ+-friendly trips, anyone under 40.",
+    pickB: "Pick Schwabing for families, park-focused trips, longer stays, light sleepers. The U-Bahn into Marienplatz takes 6 min.",
+    bottomLine: "Glockenbach for evenings. Schwabing for families and park.",
+  },
+  // ISTANBUL: Beyoğlu vs Kadıköy
+  {
+    slug: "beyoglu-vs-kadikoy",
+    citySlug: "istanbul",
+    countrySlug: "turkey",
+    aSlug: "beyoglu-galata",
+    bSlug: "kadikoy",
+    aLabel: "Beyoğlu",
+    bLabel: "Kadıköy",
+    metaTitle: "Beyoğlu vs Kadıköy: Where to Stay in Istanbul",
+    metaDescription:
+      "Istanbul's European-side Beyoğlu or the Asian-side Kadıköy? Real take on food, atmosphere, ferry logistics and price.",
+    intro:
+      "Both are the locals' Istanbul over Sultanahmet. Beyoğlu (European side, includes Galata and Karaköy) has the Galata Tower, İstiklal Avenue, food-and-cocktail density. Kadıköy is across the Bosphorus on the Asian side — Moda neighborhood, market, where most under-40 İstanbullus actually live.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Beyoğlu wins. Galata Tower, İstiklal, the museums of the Beyoğlu side, ferry to Sultanahmet — all walkable. Kadıköy needs the ferry to reach the historical sights." },
+      { question: "Restaurants and atmosphere", winner: "tied", body: "Beyoğlu is dense-and-touristy. Kadıköy is dense-and-local. Both excellent food. Pick on whether you want to be in or away from the tourist current." },
+      { question: "Quiet sleep", winner: "b", body: "Kadıköy quieter — Moda is residential past midnight. Beyoğlu's bar streets near İstiklal run loud weekends until 3am." },
+      { question: "Price", winner: "b", body: "Kadıköy 20-30% cheaper than Beyoğlu for equivalent product." },
+      { question: "Ferry/transport logistics", winner: "a", body: "Beyoğlu is on the European side — most sights are within 5-15 min. Kadıköy means a ferry ride for everything central — pleasant but adds time." },
+    ],
+    pickA: "Pick Beyoğlu for first-time visits, longer trips combining sights and evenings, anyone who wants the densest İstanbul without Sultanahmet's tourist focus.",
+    pickB: "Pick Kadıköy for return visits, food-focused trips, anyone who wants real local life, longer stays where the ferry is part of the trip.",
+    bottomLine: "Beyoğlu for first-timers. Kadıköy for the local Istanbul.",
+  },
+  // ISTANBUL: Sultanahmet vs Beşiktaş
+  {
+    slug: "sultanahmet-vs-besiktas",
+    citySlug: "istanbul",
+    countrySlug: "turkey",
+    aSlug: "sultanahmet",
+    bSlug: "besiktas",
+    aLabel: "Sultanahmet",
+    bLabel: "Beşiktaş",
+    metaTitle: "Sultanahmet vs Beşiktaş: Where to Stay in Istanbul",
+    metaDescription:
+      "Istanbul's tourist-heavy Sultanahmet or the locals' Beşiktaş? Real take on sights, food, atmosphere and price.",
+    intro:
+      "Sultanahmet is the historical core — Hagia Sophia, Blue Mosque, Topkapi. Beşiktaş is north along the Bosphorus — football-stadium quarter, locals' shopping, less tourist-aware. Pick on whether sights or local life is the priority.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Sultanahmet wins by definition — every imperial sight is 5-10 min walk. Beşiktaş has Dolmabahçe Palace nearby and not much else iconic." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Beşiktaş wins. Iskele Caddesi has real food and bars. Sultanahmet's restaurants are tourist-priced and close by 10:30pm." },
+      { question: "Atmosphere", winner: "tied", body: "Sultanahmet feels Disney-tourist by 4pm. Beşiktaş feels local-Turkish — football fans, market shopping, real evenings." },
+      { question: "Bosphorus access", winner: "b", body: "Beşiktaş is on the Bosphorus — ferries up the strait leave from here. Sultanahmet is inland from the Sea of Marmara." },
+      { question: "Price", winner: "b", body: "Beşiktaş 25-35% cheaper than Sultanahmet for equivalent product." },
+    ],
+    pickA: "Pick Sultanahmet for first-time visits, sights-focused short trips, anyone who wants every imperial cliché at the door. Pay the premium and use it.",
+    pickB: "Pick Beşiktaş for return visits, food-focused trips, anyone wanting the Bosphorus-side neighborhood Istanbul. Combines well with Galata stays.",
+    bottomLine: "Sultanahmet for first-timers. Beşiktaş for return visits and food.",
+  },
+  // BARCELONA: Eixample vs El Born
+  {
+    slug: "eixample-vs-el-born",
+    citySlug: "barcelona",
+    countrySlug: "spain",
+    aSlug: "eixample",
+    bSlug: "el-born",
+    aLabel: "Eixample",
+    bLabel: "El Born",
+    metaTitle: "Eixample vs El Born: Where to Stay in Barcelona",
+    metaDescription:
+      "Barcelona's Modernisme grid Eixample or the medieval El Born? Real take on architecture, food, atmosphere and which fits each trip.",
+    intro:
+      "Eixample is the wide-grid 19th-century quarter with most of Gaudí's work — Casa Batlló, La Pedrera, Sagrada Família. El Born is the medieval lane-quarter east of the Gothic Quarter — Picasso Museum, design shops, dinner-and-cocktail dense. Both are first-timer favorites.",
+    rounds: [
+      { question: "Architecture/sights", winner: "a", body: "Eixample wins — Gaudí's masterpieces are on its blocks. El Born has the Picasso Museum and Santa Maria del Mar but lacks the Modernisme density." },
+      { question: "Restaurants past 10pm", winner: "b", body: "El Born wins. The medieval lanes (Carrer del Rec, Carrer de l'Argenteria) have the densest restaurant strip in Barcelona. Eixample's restaurants tilt slightly more business-and-tourist." },
+      { question: "Atmosphere", winner: "b", body: "El Born is medieval-cobblestone-romantic. Eixample is wide-boulevard-handsome. Pick on what kind of evening you want." },
+      { question: "Quiet sleep", winner: "a", body: "Eixample is wider and quieter past 11pm. El Born's bar streets run loud Thursday-Sunday until 2am." },
+      { question: "Price", winner: "tied", body: "Both €150-€280 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Eixample for first-time visits, Gaudí-focused trips, light sleepers, families. The Modernisme architecture is the trip.",
+    pickB: "Pick El Born for food-and-cocktail trips, return visitors, romantic stays, anyone who wants the medieval Barcelona evening.",
+    bottomLine: "Eixample for sights and quiet. El Born for food and atmosphere.",
+  },
+  // BARCELONA: Barceloneta vs Barri Gòtic
+  {
+    slug: "barceloneta-vs-barri-gotic",
+    citySlug: "barcelona",
+    countrySlug: "spain",
+    aSlug: "barceloneta",
+    bSlug: "barri-gotic",
+    aLabel: "Barceloneta",
+    bLabel: "Barri Gòtic",
+    metaTitle: "Barceloneta vs Barri Gòtic: Where to Stay in Barcelona",
+    metaDescription:
+      "Barcelona's beach-side Barceloneta or the medieval Barri Gòtic? Real take on beach access, walkability, tourist crush and which fits each.",
+    intro:
+      "Barceloneta is the 18th-century fisherman's quarter on the beach — narrow grid, seafood restaurants, the city's only walkable beach. Barri Gòtic is the medieval Gothic Quarter behind Las Ramblas — cathedral, narrow lanes, the ground-zero tourist core. Different trips.",
+    rounds: [
+      { question: "Beach access", winner: "a", body: "Barceloneta is on the beach. Barri Gòtic is 15-20 min walk." },
+      { question: "Atmosphere", winner: "b", body: "Barri Gòtic is medieval-iconic. Barceloneta is grid-of-3-story-blocks and not photogenic." },
+      { question: "Tourist/stag crush", winner: "tied", body: "Both heavily touristy. Barri Gòtic has Las Ramblas overflow; Barceloneta has cruise-passenger and beach-day churn. Both inappropriate Friday-Saturday nights." },
+      { question: "Restaurants", winner: "a", body: "Barceloneta wins for seafood — paella spots, the beach-front restaurants. Barri Gòtic has variety but mostly tourist-priced." },
+      { question: "Price", winner: "a", body: "Barceloneta 10-15% cheaper than Barri Gòtic for equivalent product." },
+    ],
+    pickA: "Pick Barceloneta for beach-focused trips, paella-and-seafood focus, summer trips where swimming is the point.",
+    pickB: "Pick Barri Gòtic for sights-focused first-timers, anyone wanting the medieval-cathedral cliché. The 15-min walk to the beach is fine.",
+    bottomLine: "Barceloneta for beach. Barri Gòtic for sights. Most travelers pick neither — Eixample or El Born are better defaults.",
+  },
+  // COPENHAGEN: Indre By vs Nørrebro
+  {
+    slug: "indre-by-vs-norrebro",
+    citySlug: "copenhagen",
+    countrySlug: "denmark",
+    aSlug: "indre-by",
+    bSlug: "norrebro",
+    aLabel: "Indre By",
+    bLabel: "Nørrebro",
+    metaTitle: "Indre By vs Nørrebro: Where to Stay in Copenhagen",
+    metaDescription:
+      "Copenhagen's central Indre By or the multicultural Nørrebro? Real take on food, atmosphere, families and price.",
+    intro:
+      "Indre By is the central tourist-and-shopping core — Strøget, Nyhavn, Tivoli at the southern edge. Nørrebro is the multicultural quarter northwest — Jægersborggade design strip, the Assistens Cemetery, immigrant-influenced food. They answer different questions.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Indre By wins by definition — Nyhavn, Tivoli, Strøget, Round Tower all walkable. Nørrebro is 15-20 min walk to Indre By." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Nørrebro wins. Jægersborggade and the streets around Sankt Hans Torv have density of late kitchens. Indre By's restaurants close earlier and lean tourist-priced." },
+      { question: "Atmosphere", winner: "b", body: "Nørrebro is multicultural-design-real. Indre By is generic-Scandinavian-tourist." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Nørrebro's main strips have weekend bar overflow; Indre By's tourist core has occasional noise." },
+      { question: "Price", winner: "b", body: "Nørrebro 15-25% cheaper than Indre By for equivalent product." },
+    ],
+    pickA: "Pick Indre By for first-time visits, sights-focused trips, anyone over 50 wanting central walkability.",
+    pickB: "Pick Nørrebro for food-focused trips, return visitors, longer stays, budget-conscious travelers. The 15-min walk to Strøget is part of the routine.",
+    bottomLine: "Indre By for first-timers. Nørrebro for food and longer stays.",
+  },
+  // COPENHAGEN: Vesterbro vs Nørrebro
+  {
+    slug: "vesterbro-vs-norrebro",
+    citySlug: "copenhagen",
+    countrySlug: "denmark",
+    aSlug: "vesterbro",
+    bSlug: "norrebro",
+    aLabel: "Vesterbro",
+    bLabel: "Nørrebro",
+    metaTitle: "Vesterbro vs Nørrebro: Where to Stay in Copenhagen",
+    metaDescription:
+      "Copenhagen's two famous post-industrial quarters compared. Real differences in food, atmosphere, walkability and price.",
+    intro:
+      "Both are ex-industrial converted creative quarters and travel-magazine favorites. Vesterbro is just west of the central station — Meatpacking District (Kødbyen) is here, with Noma 1.0's old neighborhood. Nørrebro is northwest — Jægersborggade, the cemetery, multicultural-and-design. They overlap in voice but serve different trips.",
+    rounds: [
+      { question: "Walkability to Tivoli/centre", winner: "a", body: "Vesterbro is 5-10 min walk from Tivoli and Central Station. Nørrebro is 15-20 min." },
+      { question: "Restaurants", winner: "tied", body: "Vesterbro has Kødbyen's design-quarter restaurants. Nørrebro has Jægersborggade's small kitchens. Both excellent — no clear winner." },
+      { question: "Atmosphere", winner: "tied", body: "Vesterbro leans converted-warehouse-design. Nørrebro leans multicultural-and-cemetery-park. Both feel real Copenhagen." },
+      { question: "Quiet sleep", winner: "tied", body: "Both have weekend bar overflow. Vesterbro near Kødbyen runs loud; Nørrebro near Sankt Hans Torv runs loud. Side streets in either work." },
+      { question: "Price", winner: "tied", body: "Both €150-€260 for equivalent product." },
+    ],
+    pickA: "Pick Vesterbro for design-focused trips, train-heavy itineraries (station at your door), Meatpacking District restaurant focus.",
+    pickB: "Pick Nørrebro for food-focused trips, longer stays, anyone wanting the multicultural Copenhagen.",
+    bottomLine: "Both excellent. Vesterbro for design and station logistics. Nørrebro for food and culture.",
+  },
+  // SEVILLE: Santa Cruz vs Alfalfa
+  {
+    slug: "santa-cruz-vs-alfalfa",
+    citySlug: "seville",
+    countrySlug: "spain",
+    aSlug: "santa-cruz",
+    bSlug: "alfalfa",
+    aLabel: "Santa Cruz",
+    bLabel: "Alfalfa",
+    metaTitle: "Santa Cruz vs Alfalfa: Where to Stay in Seville",
+    metaDescription:
+      "Seville's Santa Cruz or the Alfalfa quarter just north? Real take on tourist crush, food, walkability and price.",
+    intro:
+      "Santa Cruz is the postcard Jewish quarter under the cathedral. Alfalfa sits just north — same medieval lanes, less tourist density, where Sevillanos actually drink in the evening. The 5-min walk between them changes the whole trip.",
+    rounds: [
+      { question: "Walkability to cathedral", winner: "a", body: "Santa Cruz is at the cathedral's wall. Alfalfa is 5-10 min north." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Alfalfa wins. The plaza and surrounding streets stay alive past 1am with mostly local crowds. Santa Cruz tilts tourist-priced and quiets earlier." },
+      { question: "Tourist crush", winner: "b", body: "Santa Cruz becomes nearly unwalkable mid-day. Alfalfa gets none of this — the line is invisible but real, just a few blocks north." },
+      { question: "Quiet sleep", winner: "b", body: "Alfalfa quieter — bar overflow stays on the plaza, side streets are residential. Santa Cruz has tour group churn from 8am." },
+      { question: "Price", winner: "b", body: "Alfalfa 10-15% cheaper than Santa Cruz for equivalent product." },
+    ],
+    pickA: "Pick Santa Cruz only for romantic 1-2 night stays where the orange-tree-cliché-at-your-door is the trip.",
+    pickB: "Pick Alfalfa for any 2+ night stay, food-focused trips, return visits, or anyone wanting Sevillano evenings without paying the tourist premium.",
+    bottomLine: "Santa Cruz for the cliché single night. Alfalfa for everything else.",
+  },
+  // VALENCIA: Ruzafa vs El Cabanyal
+  {
+    slug: "ruzafa-vs-el-cabanyal",
+    citySlug: "valencia",
+    countrySlug: "spain",
+    aSlug: "ruzafa",
+    bSlug: "el-cabanyal",
+    aLabel: "Ruzafa",
+    bLabel: "El Cabanyal",
+    metaTitle: "Ruzafa vs El Cabanyal: Where to Stay in Valencia",
+    metaDescription:
+      "Valencia's hipster Ruzafa or the beach-side El Cabanyal? Real take on food, beach access, walkability and price.",
+    intro:
+      "Ruzafa is the central converted-warehouse food-and-bar quarter south of the train station. El Cabanyal is the beach-side former fisherman's quarter east — tile facades, paella restaurants, walkable to Malvarrosa beach. They serve very different Valencias.",
+    rounds: [
+      { question: "Walkability to old town", winner: "a", body: "Ruzafa is 15-20 min walk from Ciutat Vella. El Cabanyal is 30+ min — needs the metro or tram." },
+      { question: "Beach access", winner: "b", body: "El Cabanyal is at the beach. Ruzafa is 25-30 min by bus or metro." },
+      { question: "Restaurants", winner: "tied", body: "Ruzafa has the densest cocktail-and-design restaurant cluster. El Cabanyal has the best paella restaurants in Valencia (the actual ones, on the sand)." },
+      { question: "Atmosphere", winner: "tied", body: "Ruzafa is design-converted-warehouse. El Cabanyal is fisherman-village-tile-facade. Both feel real Valencia. Pick on what kind of trip." },
+      { question: "Price", winner: "b", body: "El Cabanyal 15-20% cheaper than Ruzafa for equivalent product." },
+    ],
+    pickA: "Pick Ruzafa for food-and-cocktail focus, central walkability to the old town, anyone who wants the design Valencia.",
+    pickB: "Pick El Cabanyal for beach-focused trips, paella-on-the-sand stays, summer trips where swimming is the point.",
+    bottomLine: "Ruzafa for food and central. El Cabanyal for beach and paella.",
+  },
+  // ZAGREB nothing more, but do POLAND tier-3 more
+  // KRAKOW: Stare Miasto vs Podgórze
+  {
+    slug: "stare-miasto-vs-podgorze",
+    citySlug: "krakow",
+    countrySlug: "poland",
+    aSlug: "stare-miasto-krakow",
+    bSlug: "podgorze",
+    aLabel: "Stare Miasto",
+    bLabel: "Podgórze",
+    metaTitle: "Stare Miasto vs Podgórze: Where to Stay in Krakow",
+    metaDescription:
+      "Krakow's Old Town or post-industrial Podgórze across the river? Honest take on price, sights, food and atmosphere.",
+    intro:
+      "Stare Miasto is the postcard. Podgórze is across the river — Schindler's Factory museum, MOCAK, formerly working-class, now quiet-affordable. The pick is tourist-central vs local-cheap.",
+    rounds: [
+      { question: "Walkability to Rynek Główny", winner: "a", body: "Stare Miasto is at the square. Podgórze is 25-30 min walk via the Bernatka footbridge." },
+      { question: "Tourist crush", winner: "b", body: "Stare Miasto's main square is unwalkable mid-day. Podgórze gets none of this." },
+      { question: "Schindler's Factory access", winner: "b", body: "Podgórze is 5-10 min walk from Schindler's Factory and MOCAK. Stare Miasto is 25 min." },
+      { question: "Price", winner: "b", body: "Podgórze 30-40% cheaper than Stare Miasto. €60-€100 vs €100-€180 for similar product." },
+      { question: "Restaurants", winner: "a", body: "Stare Miasto has volume but tourist-priced. Kazimierz next door is the food quarter for both — Podgórze has 5-6 picks." },
+    ],
+    pickA: "Pick Stare Miasto for first-time visits, single-night trips, sights-density focus.",
+    pickB: "Pick Podgórze for return visits, museum-focused stays (Schindler's Factory), longer Krakow visits, budget travelers. The walk over the bridge is a daily routine.",
+    bottomLine: "Stare Miasto for tourists. Podgórze for return visits and museum focus.",
+  },
+  // WARSAW: Powiśle vs Praga
+  {
+    slug: "powisle-vs-praga",
+    citySlug: "warsaw",
+    countrySlug: "poland",
+    aSlug: "powisle",
+    bSlug: "praga-warsaw",
+    aLabel: "Powiśle",
+    bLabel: "Praga",
+    metaTitle: "Powiśle vs Praga: Where to Stay in Warsaw",
+    metaDescription:
+      "Warsaw's leafy riverside Powiśle or the gritty post-industrial Praga? Real take on atmosphere, food, walkability and price.",
+    intro:
+      "Powiśle sits along the Vistula on the central side — design hotels, riverside walks, Centrum Nauki Kopernik. Praga is across the river — formerly working-class, now Warsaw's converted-warehouse art-and-bar quarter. Both serve travelers tired of Stare Miasto.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Powiśle is leafy-design-riverside. Praga is gritty-post-industrial-creative. Both feel real Warsaw. Pick on what you want." },
+      { question: "Walkability to Old Town", winner: "a", body: "Powiśle is 10-15 min walk. Praga is 20-25 min via the bridge or 8 min by tram." },
+      { question: "Restaurants", winner: "tied", body: "Powiśle has riverside design restaurants. Praga has converted-warehouse food halls (Koneser). Both excellent." },
+      { question: "Price", winner: "b", body: "Praga 20-30% cheaper than Powiśle for equivalent product." },
+      { question: "Quiet sleep", winner: "tied", body: "Both quiet past 11pm. Praga's bar streets near Konesera run loud weekends; Powiśle is residential past midnight." },
+    ],
+    pickA: "Pick Powiśle for romantic stays, longer trips, families, slightly more polished hotel inventory, riverside-walk focus.",
+    pickB: "Pick Praga for art-and-converted-warehouse trips, return visitors, budget-conscious travelers wanting the gritty Warsaw.",
+    bottomLine: "Powiśle for romance and walks. Praga for art and budget.",
+  },
+  // GDANSK: Główne Miasto vs Wrzeszcz
+  {
+    slug: "glowne-miasto-vs-wrzeszcz",
+    citySlug: "gdansk",
+    countrySlug: "poland",
+    aSlug: "glowne-miasto",
+    bSlug: "wrzeszcz",
+    aLabel: "Główne Miasto",
+    bLabel: "Wrzeszcz",
+    metaTitle: "Główne Miasto vs Wrzeszcz: Where to Stay in Gdańsk",
+    metaDescription:
+      "Gdańsk's reconstructed Main Town or the residential Wrzeszcz? Real take on sights, food, transport and price.",
+    intro:
+      "Główne Miasto is the rebuilt main town — Długi Targ, the Crane, Mariacka Street. Wrzeszcz is north along the tram line — residential, where Gdańszczanie actually live, with the railway station for trips to Gdynia and Sopot. Most travelers default to Główne Miasto. A few specifically don't.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Główne Miasto wins by definition — the reconstructed gothic core is the trip. Wrzeszcz has the museum to Lech Wałęsa nearby and not much else iconic." },
+      { question: "Tri-City logistics", winner: "b", body: "Wrzeszcz wins for tram/train access — Sopot is 8 min by SKM train, Gdynia is 20 min. Główne Miasto needs a tram or 25 min walk to the station." },
+      { question: "Price", winner: "b", body: "Wrzeszcz 25-35% cheaper than Główne Miasto for equivalent product." },
+      { question: "Restaurants", winner: "a", body: "Główne Miasto has the dense central cluster. Wrzeszcz has 5-6 strong picks but spread out." },
+      { question: "Quiet sleep", winner: "b", body: "Wrzeszcz residential past 11pm. Główne Miasto has tour-group and bar noise on Długi Targ until midnight." },
+    ],
+    pickA: "Pick Główne Miasto for first-time visits, sights-focused short trips, anyone who wants the rebuilt-gothic atmosphere at the door.",
+    pickB: "Pick Wrzeszcz for Tri-City focused trips (Sopot/Gdynia day trips), longer stays, budget-conscious travelers, anyone with a flight from Gdańsk airport.",
+    bottomLine: "Główne Miasto for first-timers. Wrzeszcz for Tri-City focus and budget.",
+  },
+  // SARAJEVO: Baščaršija vs Centar
+  {
+    slug: "bascarsija-vs-centar",
+    citySlug: "sarajevo",
+    countrySlug: "bosnia-and-herzegovina",
+    aSlug: "bascarsija",
+    bSlug: "centar-sarajevo",
+    aLabel: "Baščaršija",
+    bLabel: "Centar",
+    metaTitle: "Baščaršija vs Centar: Where to Stay in Sarajevo",
+    metaDescription:
+      "Sarajevo's Ottoman bazaar or the central Centar quarter? Real take on atmosphere, sleep, walkability and price.",
+    intro:
+      "Baščaršija is the Ottoman bazaar — Sebilj, copper-smiths, ćevapi houses. Centar sits just west along Ferhadija, the main pedestrian street, where Austro-Hungarian buildings start replacing Ottoman ones. The pick is bazaar-immersion vs main-street-walkable.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Baščaršija wins for the Ottoman cliché — bazaar, mosques, the call to prayer. Centar is handsome Austro-Hungarian but lacks the iconic density." },
+      { question: "Walkability", winner: "b", body: "Centar is at the middle of Ferhadija — 5 min east to Baščaršija, 10 min west to Marijin Dvor. The most central position." },
+      { question: "Quiet sleep", winner: "b", body: "Centar quieter — Baščaršija has 6am call to prayer and bazaar churn from 8am. Centar is residential calm past midnight." },
+      { question: "Restaurants", winner: "a", body: "Baščaršija has the densest ćevapi-and-traditional cluster. Centar has 5-6 picks but spread across Ferhadija." },
+      { question: "Price", winner: "tied", body: "Both €40-€80 for decent product. Sarajevo cheap across the board." },
+    ],
+    pickA: "Pick Baščaršija for first-time visits, atmosphere-focused short trips, anyone who wants the Ottoman quarter at your door.",
+    pickB: "Pick Centar for stays of 3+ nights, light sleepers, anyone who wants central walkability between Baščaršija and Marijin Dvor.",
+    bottomLine: "Baščaršija for the photo. Centar for walkability and sleep.",
+  },
+  // SPLIT: Diocletian's Palace vs Manuš
+  {
+    slug: "diocletians-palace-vs-manus",
+    citySlug: "split",
+    countrySlug: "croatia",
+    aSlug: "diocletians-palace",
+    bSlug: "manus",
+    aLabel: "Diocletian's Palace",
+    bLabel: "Manuš",
+    metaTitle: "Diocletian's Palace vs Manuš: Where to Stay in Split",
+    metaDescription:
+      "Sleeping inside the Roman palace or the residential Manuš quarter? Real take on tourist crush, food, walkability and price.",
+    intro:
+      "Diocletian's Palace is the photographed core — sleeping inside Roman walls. Manuš is the residential quarter east of the Palace — narrow stone lanes, none of the cruise-ship crush, slightly cheaper. Both are old Split.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Diocletian's Palace wins — the Roman walls, the Peristyle, the 1700-year-old setting. Manuš is pretty stone but lacks the historic density." },
+      { question: "Cruise-ship crush", winner: "b", body: "The Palace becomes nearly unwalkable 10am-4pm. Manuš gets none of this." },
+      { question: "Walkability", winner: "a", body: "Palace is at the Riva. Manuš is 5-10 min east. Both walkable to ferries." },
+      { question: "Restaurants", winner: "tied", body: "Palace has volume but tourist-priced; Manuš has 4-5 strong picks (Konoba Korta) at better prices." },
+      { question: "Price", winner: "b", body: "Manuš 15-25% cheaper than Palace for equivalent apartments." },
+    ],
+    pickA: "Pick Diocletian's Palace for the sleep-inside-Roman-walls experience, single-night stays, sights-density focus. Pay the premium and use it.",
+    pickB: "Pick Manuš for any 2+ night stay, families, light sleepers, budget-conscious travelers. The 5-min walk to the Riva is part of the daily routine.",
+    bottomLine: "Palace for the experience. Manuš for everything else.",
+  },
+  // DUBROVNIK: Old Town vs Ploče
+  {
+    slug: "old-town-vs-ploce",
+    citySlug: "dubrovnik",
+    countrySlug: "croatia",
+    aSlug: "old-town-dubrovnik",
+    bSlug: "ploce",
+    aLabel: "Old Town",
+    bLabel: "Ploče",
+    metaTitle: "Old Town vs Ploče: Where to Stay in Dubrovnik",
+    metaDescription:
+      "Dubrovnik's walled city or the elegant Ploče just east? Real take on cruise crush, swimming, walkability and price.",
+    intro:
+      "Old Town is the walled city. Ploče is the elegant peninsula just east of the Pile Gate — boutique hotels with Old Town walls views, Banje Beach, calmer evenings. The pick is sleep-inside-the-walls vs view-the-walls-from-outside.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Old Town wins — the walled-city sunrise, the Stradun, the cathedral bells. Ploče has the views but lacks the in-the-walls experience." },
+      { question: "Cruise crush", winner: "b", body: "Old Town becomes unwalkable 10am-4pm in season. Ploče gets none of this." },
+      { question: "Beach access", winner: "b", body: "Ploče has Banje Beach 5 min walk — small but the closest swim to Old Town." },
+      { question: "Walkability to Old Town", winner: "a", body: "Old Town is at the door. Ploče is 5-10 min walk via the Pile Gate." },
+      { question: "Price", winner: "b", body: "Ploče 15-25% cheaper than Old Town for equivalent product. Old Town's tiny stone-vaulted rooms run €250-€500 in season." },
+      { question: "Walls view", winner: "b", body: "Ploče's hillside hotels have the famous Old Town walls view from the room. Old Town hotels look at stone alleys." },
+    ],
+    pickA: "Pick Old Town for single-night stays, anyone who wants the walled-city sunrise, sights-focused short trips. Bring earplugs for the cathedral bells.",
+    pickB: "Pick Ploče for stays of 3+ nights, honeymoons, families, anyone who wants the iconic walls-view-from-the-room. The 5-min walk to the gate is the daily ritual.",
+    bottomLine: "Old Town for the sunrise. Ploče for the view and longer stays.",
+  },
+  // CAPPADOCIA: Göreme vs Ürgüp
+  {
+    slug: "goreme-vs-urgup",
+    citySlug: "cappadocia",
+    countrySlug: "turkey",
+    aSlug: "goreme",
+    bSlug: "urgup",
+    aLabel: "Göreme",
+    bLabel: "Ürgüp",
+    metaTitle: "Göreme vs Ürgüp: Where to Stay in Cappadocia",
+    metaDescription:
+      "Cappadocia's busy Göreme or the elegant Ürgüp? Real take on balloon viewing, restaurants, transport and price.",
+    intro:
+      "Göreme is the central balloon-launch town. Ürgüp is 8 km east — older, more elegant, with cluster of high-end cave hotels and a real main street. Pick on whether you want the balloon launch zone or a quieter base.",
+    rounds: [
+      { question: "Balloon launch zone", winner: "a", body: "Göreme is the launch town. Ürgüp watches balloons from a distance — beautiful but not inside the launch zone." },
+      { question: "Cave hotel quality at top end", winner: "b", body: "Ürgüp has the highest-end cave hotels — Yunak Evleri, Sacred House, Kayakapi. Göreme's top hotels are excellent but smaller." },
+      { question: "Restaurants and town life", winner: "tied", body: "Göreme has more variety. Ürgüp has fewer picks but better quality (Ziggy Cafe, Han Çırağan)." },
+      { question: "Walkability to museums", winner: "a", body: "Göreme is 1.5 km from the open-air museum. Ürgüp is 8 km — needs a transfer or rental car." },
+      { question: "Quiet sleep", winner: "b", body: "Ürgüp quieter — older town, less tour churn. Göreme has 5am balloon-pickup and tour-group noise from 8am." },
+      { question: "Price at mid range", winner: "a", body: "Göreme is cheaper for mid-range cave hotels — €100-€180 vs Ürgüp's €130-€250." },
+    ],
+    pickA: "Pick Göreme for balloon-focused first trips, sights-walking-distance focus, mid-range budgets. The 5am noise is the price.",
+    pickB: "Pick Ürgüp for honeymoons, high-end cave hotel focus, return visits, anyone with a rental car. The town feels real Turkey rather than tourist-Cappadocia.",
+    bottomLine: "Göreme for first-timers and balloons. Ürgüp for honeymoons and quieter elegance.",
+  },
+  // CAPPADOCIA: Uçhisar vs Ürgüp
+  {
+    slug: "uchisar-vs-urgup",
+    citySlug: "cappadocia",
+    countrySlug: "turkey",
+    aSlug: "uchisar",
+    bSlug: "urgup",
+    aLabel: "Uçhisar",
+    bLabel: "Ürgüp",
+    metaTitle: "Uçhisar vs Ürgüp: Quietest Cappadocia Stays",
+    metaDescription:
+      "Uçhisar's castle ridge or Ürgüp's old town? Real take on views, balloon viewing, hotels and which fits each trip.",
+    intro:
+      "Uçhisar is on the dramatic castle ridge — best balloon-rising views, dramatic exterior settings. Ürgüp is the old town 5 km east — elegant cave hotels, real main street, less drama but more village life. Both are quieter than Göreme.",
+    rounds: [
+      { question: "View dramatic", winner: "a", body: "Uçhisar wins by definition — castle ridge with the highest point in the region. Ürgüp has views but no castle silhouette." },
+      { question: "Balloon photo", winner: "tied", body: "Both excellent — Uçhisar has the castle in foreground; Ürgüp has the town with balloons rising over Üzengi valley." },
+      { question: "Town life", winner: "b", body: "Ürgüp has a real main street with restaurants, shops, daily life. Uçhisar is quieter — mostly hotels and 4-5 restaurants." },
+      { question: "High-end hotels", winner: "tied", body: "Both have outstanding picks. Uçhisar has Argos in Cappadocia, Museum Hotel. Ürgüp has Yunak Evleri, Sacred House. Pick on style." },
+      { question: "Walkability to balloons launch", winner: "tied", body: "Both 5-10 min by transfer to Göreme launch zones. Equivalent." },
+      { question: "Price", winner: "b", body: "Ürgüp slightly cheaper at mid-range — €130-€250 vs Uçhisar's €180-€350. High-end is equivalent." },
+    ],
+    pickA: "Pick Uçhisar for honeymoons, view-focused stays, anyone who wants the most dramatic exterior setting. The view from your terrace is the trip.",
+    pickB: "Pick Ürgüp for repeat visits, anyone who wants real town life with hotel options, slightly cheaper mid-range stays.",
+    bottomLine: "Uçhisar for the dramatic castle setting. Ürgüp for town life and real Turkey.",
+  },
+  // ATHENS: Koukaki vs Psyrri
+  {
+    slug: "koukaki-vs-psyrri",
+    citySlug: "athens",
+    countrySlug: "greece",
+    aSlug: "koukaki",
+    bSlug: "psyrri",
+    aLabel: "Koukaki",
+    bLabel: "Psyrri",
+    metaTitle: "Koukaki vs Psyrri: Where to Stay in Athens",
+    metaDescription:
+      "Athens' quiet Koukaki south of the Acropolis or the lively Psyrri? Real take on atmosphere, sleep, food and walkability.",
+    intro:
+      "These are Athens' two most-recommended bases for repeat visitors. Koukaki sits south of the Acropolis — residential, leafy, locals-and-Airbnb. Psyrri is just north of Monastiraki — converted-warehouse bar quarter with the late kitchens. Different trips.",
+    rounds: [
+      { question: "Walkability to Acropolis", winner: "a", body: "Koukaki is 10 min south. Psyrri is 10 min north. Both equivalent." },
+      { question: "Quiet sleep", winner: "a", body: "Koukaki residential past 10pm. Psyrri has bar overflow weekends until 3am." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Psyrri wins — converted-warehouse mezedopoleia run to 2am. Koukaki has 5-6 strong picks (Sushimou nearby) but quiet." },
+      { question: "Atmosphere", winner: "tied", body: "Koukaki is leafy-residential-quiet. Psyrri is converted-warehouse-bar-loud. Pick on what you want from a night out." },
+      { question: "Price", winner: "tied", body: "Both €70-€140 for decent product." },
+    ],
+    pickA: "Pick Koukaki for couples, families, light sleepers, return visitors. The leafy quiet is the trip.",
+    pickB: "Pick Psyrri for under-35 trips, food-focused stays, anyone who wants the lively converted-warehouse Athens evening.",
+    bottomLine: "Koukaki for couples and quiet. Psyrri for food and bars.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

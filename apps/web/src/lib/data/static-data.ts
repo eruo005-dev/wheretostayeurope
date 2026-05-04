@@ -720,6 +720,15 @@ export const CITIES: StaticCity[] = [
 
   // Albania
   { slug: "tirana", name: "Tirana", countrySlug: "albania", lat: 41.3275, lng: 19.8187, population: 420_000, tier: "2", bookingDestId: null, intro: "Tirana is rapidly-changing — the Blloku district was the Communist-era closed elite zone, now the city's restaurant-and-bar quarter. Skanderbeg Square and the central area are the obvious base. Skip anywhere outside the central core." },
+
+  // ========== EXPANSION BATCH 21 (Adriatic + Greek islands) ==========
+  // Croatia
+  { slug: "hvar", name: "Hvar", countrySlug: "croatia", lat: 43.1729, lng: 16.4413, population: 11_000, tier: "2", bookingDestId: null, intro: "Hvar Town's Old Town is the centre — Venetian-era square, harbor, dense restaurants. Stari Grad on the north coast is the calmer alternative. Pakleni Islands a short boat ride away are the real swim trip." },
+  { slug: "korcula", name: "Korčula", countrySlug: "croatia", lat: 42.9613, lng: 17.1349, population: 5_500, tier: "2", bookingDestId: null, intro: "Korčula's Old Town on the peninsula is the only sensible stay — narrow medieval lanes, Marco Polo birthplace claim, walkable to swimming. Less touristed than Hvar, more atmospheric than Brač." },
+
+  // Greece
+  { slug: "rhodes", name: "Rhodes", countrySlug: "greece", lat: 36.4341, lng: 28.2176, population: 50_000, tier: "2", bookingDestId: null, intro: "Rhodes Old Town is one of Europe's largest medieval inhabited cities — UNESCO walls, knight-era architecture. Lindos on the south coast is the calmer beach village. Stay in the Old Town for atmosphere, Lindos for the postcard." },
+  { slug: "corfu", name: "Corfu", countrySlug: "greece", lat: 39.6243, lng: 19.9217, population: 32_000, tier: "2", bookingDestId: null, intro: "Corfu Town's Old Fortress and Liston arcade are the central stay — Venetian-influenced, more Italian-feeling than other Greek islands. The west coast (Paleokastritsa) is the beach trip; the north (Sidari) the resort version." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

@@ -6480,6 +6480,188 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 21 — island guides + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-hvar",
+    title: "Where to Stay in Hvar: Hvar Town or Stari Grad?",
+    excerpt: "Hvar's two main towns compared honestly. Real differences in party scene, families and price.",
+    publishedAt: "2026-05-16",
+    reviewedAt: "2026-05-16",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Hvar — Honest Croatian Island Guide",
+    metaDescription: "Hvar's two main towns compared honestly. Real differences in party scene, families and price.",
+    html: `
+<p>Hvar Island is bigger than first-timers think. The pick is mostly Hvar Town's party scene or Stari Grad's calm.</p>
+
+<h2>Hvar Town — for the party</h2>
+
+<p><a href="/en/croatia/hvar/hvar-town">Hvar Town</a> is the central Old Town with the harbor — Venetian-era square, dense restaurants, party-island reputation. Best for: under-30 trips, food-and-bar focus, anyone wanting the cliché Hvar.</p>
+
+<h2>Stari Grad — for calm</h2>
+
+<p><a href="/en/croatia/hvar/stari-grad-hvar">Stari Grad</a> is the older town on the north coast — UNESCO Stari Grad Plain, calmer, fewer tourists. Best for: families, repeat visits, anyone over 35 wanting non-party Hvar.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hvar Town near the harbor in summer:</strong> Loud bars until 3am.</li>
+  <li><strong>Anywhere advertised as "5-min walk to Hvar Town" but actually 30+ min:</strong> Hvar Island is bigger than the maps suggest.</li>
+  <li><strong>July-August at any Hvar Town hotel without verified A/C:</strong> Brutal.</li>
+</ul>
+
+<h2>Pakleni Islands</h2>
+
+<p>The real swim trip is the Pakleni Islands — short boat ride from Hvar Town. Plan a half-day for them.</p>
+
+<h2>Quick pick</h2>
+
+<p>Party, food, under 35: Hvar Town. Family, calm, over 35: Stari Grad.</p>
+
+<p>Compare: <a href="/en/croatia/hvar/compare/hvar-town-vs-stari-grad-hvar">Hvar Town vs Stari Grad</a>.</p>
+
+<p>For Croatia coast trips see <a href="/en/articles/croatia-coast-7-day-itinerary">7-day Croatia</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-rhodes",
+    title: "Where to Stay in Rhodes: Old Town or Lindos?",
+    excerpt: "Rhodes is huge. Honest pick of which base actually works — UNESCO Old Town or beach Lindos.",
+    publishedAt: "2026-05-16",
+    reviewedAt: "2026-05-16",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Rhodes — Honest Greek Island Guide",
+    metaDescription: "Rhodes is huge. Honest pick of which base actually works — UNESCO Old Town or beach Lindos.",
+    html: `
+<p>Rhodes is one of Greece's largest islands. Most travelers stay 5-7 nights. The pick is mostly Old Town vs Lindos.</p>
+
+<h2>Old Town — for history</h2>
+
+<p><a href="/en/greece/rhodes/old-town-rhodes">Rhodes Old Town</a> is one of Europe's largest medieval inhabited cities — UNESCO walls, knight-era architecture. Best for: history-focused stays, first-time visits, anyone over 50.</p>
+
+<h2>Lindos — for beach and photo</h2>
+
+<p><a href="/en/greece/rhodes/lindos">Lindos</a> is the whitewashed village 50 km south — beach below, the acropolis above, the postcard. Best for: beach-focused trips, romantic stays, photo focus.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Faliraki resort strip:</strong> British package-stag-night zone.</li>
+  <li><strong>Anywhere advertised as "Rhodes" 30+ km from town:</strong> Verify on a map.</li>
+  <li><strong>Cruise day-trip to Rhodes:</strong> 4-6 hours is too short. Stay overnight.</li>
+</ul>
+
+<h2>Combined Rhodes trip</h2>
+
+<p>Best 5-7 day Rhodes: 3 Old Town + 2 Lindos with rental car. Day-trip to Symi (1h ferry) for an extra day if available.</p>
+
+<h2>Cost reality</h2>
+
+<p>Rhodes is cheaper than Cycladic islands. €100-€200/night for decent Old Town hotels, €150-€300 in Lindos.</p>
+
+<p>Compare: <a href="/en/greece/rhodes/compare/old-town-rhodes-vs-lindos">Old Town vs Lindos</a>.</p>
+
+<p>For broader Greek islands context see <a href="/en/articles/greek-islands-which-to-pick">Greek islands which to pick</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-corfu",
+    title: "Where to Stay in Corfu: Old Town or Paleokastritsa?",
+    excerpt: "Corfu's two main bases compared honestly. Real differences in Italian-feeling vs dramatic coast.",
+    publishedAt: "2026-05-16",
+    reviewedAt: "2026-05-16",
+    readingTimeMin: 6,
+    metaTitle: "Where to Stay in Corfu — Honest Greek Island Guide",
+    metaDescription: "Corfu's two main bases compared honestly. Real differences in Italian-feeling vs dramatic coast.",
+    html: `
+<p>Corfu is the most-Italian-feeling Greek island (Venetian rule for centuries). Pick is mostly Old Town vs west-coast beaches.</p>
+
+<h2>Old Town — for first-timers</h2>
+
+<p><a href="/en/greece/corfu/corfu-old-town">Old Town</a> is the UNESCO Italian-influenced centre — Old Fortress, Liston arcade (looks like a Venetian café strip), narrow lanes. Best for: first-time visits, history focus, couples.</p>
+
+<h2>Paleokastritsa — for beach</h2>
+
+<p><a href="/en/greece/corfu/paleokastritsa">Paleokastritsa</a> is the west coast — dramatic coves, swimming, cliff-side hotels. Best for: beach-focused trips, photo focus, anyone with a rental car.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Sidari resort strip on the north coast:</strong> British package zone.</li>
+  <li><strong>Kavos in the south:</strong> Same.</li>
+  <li><strong>Anywhere requiring 1h+ drive from Corfu Town:</strong> Verify before booking.</li>
+</ul>
+
+<h2>Combined Corfu trip</h2>
+
+<p>Best 5-7 day Corfu: 3 Old Town + 2-3 Paleokastritsa or another west-coast base. Rental car essential for non-Old-Town stays.</p>
+
+<p>Compare: <a href="/en/greece/corfu/compare/corfu-old-town-vs-paleokastritsa">Old Town vs Paleokastritsa</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-rainy-day-trips",
+    title: "Best European Cities for Rainy-Day Trips (Honest 2026)",
+    excerpt: "Rain happens. Honest list of European cities where rain doesn't ruin the trip — and where it does.",
+    publishedAt: "2026-05-16",
+    reviewedAt: "2026-05-16",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Rainy-Day Trips — Honest 2026",
+    metaDescription: "Rain happens. Honest list of European cities where rain doesn't ruin the trip — and where it does.",
+    html: `
+<p>Rain ruins some European trips and barely affects others. Here's the honest sort.</p>
+
+<h2>Cities where rain barely affects the trip</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Three world-class museums (Prado, Reina Sofía, Thyssen) within 5 min walk. A rainy day is a museum day.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Louvre, Orsay, Pompidou, Rodin. Indefinite rainy days possible.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> National Gallery, British Museum, V&A. Free entry to most.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Belvedere, Albertina, Kunsthistorisches. Plus coffee-house culture for in-between.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Rijksmuseum, Van Gogh, Stedelijk in 200m of each other.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Museum Island, multiple history museums.</li>
+</ul>
+
+<h2>Cities that handle rain reasonably</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Uffizi, Accademia, Bargello indoor. Galleria-walking when not raining.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Pinakotheken cluster, Deutsches Museum.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Picasso Museum, MNAC, but Barcelona's appeal is the architecture which suffers in rain.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Castle interior, museums, beer halls.</li>
+</ul>
+
+<h2>Cities where rain hurts</h2>
+
+<ul>
+  <li><strong>Most coastal/island destinations:</strong> Beach trips don't work in rain. Plan accordingly.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Walls + Old Town are the trip. Rain washes the experience.</li>
+  <li><strong><a href="/en/greece/santorini">Santorini</a>:</strong> Caldera-walk-and-sunset is the trip. Rain ruins it.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Alfama:</strong> Stair-streets become slippery and hard.</li>
+  <li><strong>Hill towns generally:</strong> Cobbles + rain = slippery + walking-cancelled.</li>
+</ul>
+
+<h2>Most rain-prone European cities (by month)</h2>
+
+<ul>
+  <li><strong>Bergen, Norway:</strong> Often "Europe's rainiest city" — 240 rain days/year. Plan around it.</li>
+  <li><strong>Glasgow, Edinburgh:</strong> Frequent rain year-round.</li>
+  <li><strong>Dublin, Galway:</strong> Atlantic weather; carry waterproofs.</li>
+  <li><strong>Bilbao, San Sebastián:</strong> Wet but mild.</li>
+  <li><strong>Amsterdam, London:</strong> Famous wet reputation, but actual rainfall is moderate.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For trips planned in shoulder/winter season (October-March), pick museum-dense cities so rain doesn't ruin the trip. Save beach/island trips for May-September.</p>
+
+<p>For specific weather-by-month see <a href="/en/articles/europe-when-to-go-month-by-month">when to go where</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -7535,6 +7535,72 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 21 — pairs for islands
+// =============================================================================
+COMPARISONS.push(
+  // HVAR
+  {
+    slug: "hvar-town-vs-stari-grad-hvar",
+    citySlug: "hvar", countrySlug: "croatia",
+    aSlug: "hvar-town", bSlug: "stari-grad-hvar",
+    aLabel: "Hvar Town", bLabel: "Stari Grad",
+    metaTitle: "Hvar Town vs Stari Grad: Where to Stay on Hvar Island",
+    metaDescription: "Hvar's party town or quieter Stari Grad? Real take on bars, families, swimming and price.",
+    intro: "Hvar Town is the central Old Town with the harbor — Venetian square, dense restaurants, the party-island atmosphere. Stari Grad is the older town on the north coast — UNESCO Stari Grad Plain, calmer, fewer tourists.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Hvar Town is party-tourist. Stari Grad is calm-residential. Different trips entirely." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Hvar Town wins for dense late kitchens. Stari Grad quiets earlier." },
+      { question: "Family-friendly", winner: "b", body: "Stari Grad wins. Calmer streets, family-aware. Hvar Town is for adults." },
+      { question: "Quiet sleep", winner: "b", body: "Stari Grad residential past 11pm. Hvar Town has bar overflow until 3am summer weekends." },
+      { question: "Price", winner: "b", body: "Stari Grad 20-30% cheaper than Hvar Town for equivalent product." },
+    ],
+    pickA: "Pick Hvar Town for under-30 trips, party focus, food-density priority.",
+    pickB: "Pick Stari Grad for families, repeat visits, anyone over 35 wanting calmer Hvar.",
+    bottomLine: "Hvar Town for party. Stari Grad for families.",
+  },
+  // RHODES
+  {
+    slug: "old-town-rhodes-vs-lindos",
+    citySlug: "rhodes", countrySlug: "greece",
+    aSlug: "old-town-rhodes", bSlug: "lindos",
+    aLabel: "Old Town", bLabel: "Lindos",
+    metaTitle: "Rhodes Old Town vs Lindos: Where to Stay on Rhodes",
+    metaDescription: "Rhodes' UNESCO Old Town or beach Lindos? Real take on history, beach, families and price.",
+    intro: "Rhodes Old Town is the UNESCO walled medieval city. Lindos is south on the coast — whitewashed village under the acropolis, beach below. The pick is history-focused or beach-focused.",
+    rounds: [
+      { question: "History focus", winner: "a", body: "Old Town wins by definition — UNESCO walls, knight-era architecture." },
+      { question: "Beach access", winner: "b", body: "Lindos has the beach below. Old Town has Elli Beach 15 min walk (urban beach)." },
+      { question: "Atmosphere", winner: "tied", body: "Old Town is medieval-tourist. Lindos is whitewashed-romantic. Different trips." },
+      { question: "Mobility", winner: "a", body: "Old Town is cobbles but flat. Lindos is steep cobbles to the acropolis." },
+      { question: "Price", winner: "b", body: "Lindos cheaper for villa rentals during shoulder season." },
+    ],
+    pickA: "Pick Old Town for first-time visits, history focus, families with strollers needing flat walking.",
+    pickB: "Pick Lindos for beach-focused trips, romantic stays, photo focus.",
+    bottomLine: "Old Town for history. Lindos for beach.",
+  },
+  // CORFU
+  {
+    slug: "corfu-old-town-vs-paleokastritsa",
+    citySlug: "corfu", countrySlug: "greece",
+    aSlug: "corfu-old-town", bSlug: "paleokastritsa",
+    aLabel: "Old Town", bLabel: "Paleokastritsa",
+    metaTitle: "Corfu Old Town vs Paleokastritsa: Where to Stay on Corfu",
+    metaDescription: "Corfu's UNESCO Old Town or west-coast Paleokastritsa? Real take on Italian-feeling, beach and price.",
+    intro: "Corfu Old Town is the UNESCO Italian-influenced centre — Old Fortress, Liston arcade. Paleokastritsa is the west coast — dramatic coves, swimming, cliff-side hotels. Opposite trips.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Old Town has Old Fortress, the Liston, museums. Paleokastritsa has the Monastery on the headland." },
+      { question: "Beach", winner: "b", body: "Paleokastritsa wins by definition — dramatic coves, swimming, the iconic Corfu beach photo." },
+      { question: "Atmosphere", winner: "tied", body: "Old Town is Italian-feeling-Venetian. Paleokastritsa is dramatic-coast. Different trips." },
+      { question: "Walkability", winner: "a", body: "Old Town is car-free walkable. Paleokastritsa has steep cliff paths." },
+      { question: "Price", winner: "tied", body: "Both €130-€280 for decent product. Equivalent." },
+    ],
+    pickA: "Pick Old Town for first-time visits, history focus, anyone wanting Italian-feeling Greek island.",
+    pickB: "Pick Paleokastritsa for beach-focused trips, dramatic-coast photographers, anyone with a rental car.",
+    bottomLine: "Old Town for history. Paleokastritsa for beach.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

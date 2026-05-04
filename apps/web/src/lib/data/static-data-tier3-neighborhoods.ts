@@ -1858,4 +1858,55 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Light sleepers (the strip runs late). Mobility-aware travelers (some uneven sidewalks).",
     priceTier: 2, vibeTags: ["central", "food", "lively", "modern"],
     tripTypeFit: ["solo", "couples", "digital-nomads"] },
+
+  // ========== EXPANSION BATCH 21: Adriatic + Greek islands nbhds ==========
+  // Hvar
+  { slug: "hvar-town", name: "Hvar Town", citySlug: "hvar", countrySlug: "croatia",
+    summary: "Hvar's central Old Town — Venetian-era square, harbor, dense restaurants. The party-island base.",
+    whoItsFor: "First-time visits. Food-and-bar focus. Anyone under 40.",
+    whoShouldSkip: "Light sleepers in summer (loud bars near the harbor until 3am). Family stays.",
+    priceTier: 3, vibeTags: ["venetian", "harbor", "party", "central"],
+    tripTypeFit: ["first-timers", "couples", "solo"] },
+  { slug: "stari-grad-hvar", name: "Stari Grad", citySlug: "hvar", countrySlug: "croatia",
+    summary: "Hvar Island's older town on the north coast — UNESCO Stari Grad Plain, calmer, fewer tourists.",
+    whoItsFor: "Repeat visitors. Families. Anyone wanting calmer Hvar away from the party scene.",
+    whoShouldSkip: "Short stays where Hvar Town atmosphere is the point.",
+    priceTier: 2, vibeTags: ["old-town", "calm", "unesco", "residential"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
+
+  // Korčula
+  { slug: "old-town-korcula", name: "Old Town", citySlug: "korcula", countrySlug: "croatia",
+    summary: "Korčula's medieval peninsula — narrow lanes, Marco Polo's claimed birthplace, walkable to swimming spots.",
+    whoItsFor: "Couples. Repeat-Croatia visitors. Anyone wanting Hvar quality without Hvar party scene.",
+    whoShouldSkip: "Beach-resort focused trips. Anyone over 50 with mobility concerns (cobbles).",
+    priceTier: 2, vibeTags: ["medieval", "peninsula", "calm", "swimming"],
+    tripTypeFit: ["couples", "first-timers", "digital-nomads"] },
+
+  // Rhodes
+  { slug: "old-town-rhodes", name: "Old Town", citySlug: "rhodes", countrySlug: "greece",
+    summary: "Rhodes Old Town — UNESCO walls, knight-era architecture, narrow lanes. One of Europe's largest medieval inhabited cities.",
+    whoItsFor: "First-time visits. History-focused stays. Couples.",
+    whoShouldSkip: "Beach-focused trips (Lindos wins). Cruise-day-tripper avoiders during peak summer.",
+    priceTier: 2, vibeTags: ["unesco", "medieval", "walled", "central"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "lindos", name: "Lindos", citySlug: "rhodes", countrySlug: "greece",
+    summary: "South of Rhodes Town — whitewashed village under the acropolis, beach below, the postcard.",
+    whoItsFor: "Beach-focused trips. Romantic stays. Photo-focused visits.",
+    whoShouldSkip: "History-focused stays (Old Town wins). Anyone wanting flat walking (Lindos is steep cobbles).",
+    priceTier: 3, vibeTags: ["beach", "whitewashed", "romantic", "iconic"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+
+  // Corfu
+  { slug: "corfu-old-town", name: "Old Town", citySlug: "corfu", countrySlug: "greece",
+    summary: "Corfu Town's UNESCO Old Town — Old Fortress, Liston arcade (Italian-feeling), narrow lanes, dense restaurants.",
+    whoItsFor: "First-time visits. History-focused stays. Couples.",
+    whoShouldSkip: "Beach-focused trips. Resort-resort focused stays.",
+    priceTier: 2, vibeTags: ["unesco", "venetian", "italian-feeling", "central"],
+    tripTypeFit: ["first-timers", "couples", "luxury"] },
+  { slug: "paleokastritsa", name: "Paleokastritsa", citySlug: "corfu", countrySlug: "greece",
+    summary: "Corfu's west coast — dramatic coves, swimming, cliff-side hotels. The classic Corfu beach base.",
+    whoItsFor: "Beach-focused trips. Couples. Photo-focused stays.",
+    whoShouldSkip: "Town-focused trips (Old Town wins). Anyone without rental car.",
+    priceTier: 3, vibeTags: ["beach", "coves", "dramatic", "swimming"],
+    tripTypeFit: ["couples", "families", "luxury"] },
 ];

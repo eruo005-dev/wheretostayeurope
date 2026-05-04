@@ -729,6 +729,18 @@ export const CITIES: StaticCity[] = [
   // Greece
   { slug: "rhodes", name: "Rhodes", countrySlug: "greece", lat: 36.4341, lng: 28.2176, population: 50_000, tier: "2", bookingDestId: null, intro: "Rhodes Old Town is one of Europe's largest medieval inhabited cities — UNESCO walls, knight-era architecture. Lindos on the south coast is the calmer beach village. Stay in the Old Town for atmosphere, Lindos for the postcard." },
   { slug: "corfu", name: "Corfu", countrySlug: "greece", lat: 39.6243, lng: 19.9217, population: 32_000, tier: "2", bookingDestId: null, intro: "Corfu Town's Old Fortress and Liston arcade are the central stay — Venetian-influenced, more Italian-feeling than other Greek islands. The west coast (Paleokastritsa) is the beach trip; the north (Sidari) the resort version." },
+
+  // ========== EXPANSION BATCH 22 (more Greek + day-trip cities) ==========
+  // Greece
+  { slug: "naxos", name: "Naxos", countrySlug: "greece", lat: 37.1036, lng: 25.3766, population: 18_000, tier: "2", bookingDestId: null, intro: "Naxos is the Cyclades' food island. Naxos Town (Chora) is the central stay — Venetian castle, Portara temple gate, dense restaurants. The mountain villages (Apeiranthos, Filoti) are the calmer alternative for repeat visitors." },
+  { slug: "paros", name: "Paros", countrySlug: "greece", lat: 37.0853, lng: 25.1485, population: 14_000, tier: "2", bookingDestId: null, intro: "Paros has two main towns — Parikia is the central port (busy), Naoussa is the boutique fishing-harbor village. Most travelers prefer Naoussa for the photo and atmosphere; Parikia for ferry connections." },
+  { slug: "mykonos", name: "Mykonos", countrySlug: "greece", lat: 37.4467, lng: 25.3289, population: 10_000, tier: "2", bookingDestId: null, intro: "Mykonos Town (Chora) is the famous whitewashed-and-bougainvillea quarter. Platis Gialos and Ornos are the calmer south-coast beaches. Skip Mykonos in summer if budget matters — €25 cocktails are normal." },
+
+  // Spain
+  { slug: "toledo", name: "Toledo", countrySlug: "spain", lat: 39.8628, lng: -4.0273, population: 85_000, tier: "2", bookingDestId: null, intro: "Toledo's Casco Histórico inside the medieval walls is the only sensible stay. Most travelers day-trip from Madrid (33 min by AVE); an overnight is worth it for sunset and dawn without crowds." },
+
+  // France
+  { slug: "annecy", name: "Annecy", countrySlug: "france", lat: 45.8992, lng: 6.1294, population: 130_000, tier: "2", bookingDestId: null, intro: "Annecy's Vieille Ville (old town) along the canals is the obvious central stay. The lake-front promenade is the trip. Skip suburban hotels — the canals are the atmosphere." },
 ];
 
 export const NEIGHBORHOODS: StaticNeighborhood[] = [

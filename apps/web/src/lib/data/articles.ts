@@ -6662,6 +6662,182 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 22 — Cyclades + day-trip cities + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-naxos-vs-paros",
+    title: "Naxos vs Paros: Which Cycladic Island to Pick?",
+    excerpt: "Honest take on which neighbor Cycladic island actually delivers — Naxos or Paros.",
+    publishedAt: "2026-05-17",
+    reviewedAt: "2026-05-17",
+    readingTimeMin: 9,
+    metaTitle: "Naxos vs Paros — Honest Cyclades Guide",
+    metaDescription: "Honest take on which neighbor Cycladic island actually delivers — Naxos or Paros.",
+    html: `
+<p>Naxos and Paros are neighbors and easy to mistake for each other. They're not interchangeable.</p>
+
+<h2>Naxos — for food, beaches, and depth</h2>
+
+<p><a href="/en/greece/naxos">Naxos</a> is the largest Cycladic island and the food island. <a href="/en/greece/naxos/naxos-chora">Naxos Town</a> has the Venetian castle and Portara temple gate; mountain villages (Apeiranthos, Filoti) for repeat-visit calm; long sand beaches on the south coast. Best for: 5-7 night stays, food-focused trips, families.</p>
+
+<h2>Paros — for the photo and boutique</h2>
+
+<p><a href="/en/greece/paros">Paros</a> is the boutique island. <a href="/en/greece/paros/naoussa">Naoussa</a> is the iconic fishing-harbor village; <a href="/en/greece/paros/parikia">Parikia</a> is the busy ferry port. Smaller than Naxos, more couples-and-luxury focused. Best for: 4-5 night couples trips, photo focus.</p>
+
+<h2>Cost comparison</h2>
+
+<p>Both 30-50% cheaper than Mykonos at peak. Paros's Naoussa runs slightly higher than Naxos for equivalent boutique product.</p>
+
+<h2>Combined Naxos + Paros trip</h2>
+
+<p>Best 7-day Cycladic combo: 4 Naxos + 3 Paros. Or split a 10-day with Santorini: 4 Santorini + 3 Naxos + 3 Paros. Ferry between Naxos and Paros is 30-45 min.</p>
+
+<h2>Which one to skip if forced to choose</h2>
+
+<p>For first-time Cyclades visits with the budget for one island: Naxos. More to do, more food variety, beaches, mountain villages. Paros is the second-time pick.</p>
+
+<p>For broader Greek island context see <a href="/en/articles/greek-islands-which-to-pick">Greek islands which to pick</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "is-toledo-worth-staying-overnight",
+    title: "Is Toledo Worth Staying Overnight? Honest Take",
+    excerpt: "Toledo is the most-day-tripped Spanish city. Here's when an overnight stay is actually worth it.",
+    publishedAt: "2026-05-17",
+    reviewedAt: "2026-05-17",
+    readingTimeMin: 6,
+    metaTitle: "Is Toledo Worth Staying Overnight? — Honest Take",
+    metaDescription: "Toledo is the most-day-tripped Spanish city. Here's when an overnight stay is actually worth it.",
+    html: `
+<p>Toledo is 33 minutes by AVE from Madrid. Most travelers day-trip. Here's when overnight is actually worth it.</p>
+
+<h2>When overnight Toledo works</h2>
+
+<ul>
+  <li><strong>Photographers:</strong> Sunset and dawn from across the river (the Bisagra Gate viewpoint) without crowds. Day-trippers leave by 6pm.</li>
+  <li><strong>Romantic stays:</strong> Toledo without crowds is genuinely magical. Worth 1-2 nights for honeymoons.</li>
+  <li><strong>Madrid-overnight escape:</strong> When Madrid is hot in summer, Toledo's altitude (200m higher) is cooler.</li>
+</ul>
+
+<h2>When to just day-trip from Madrid</h2>
+
+<ul>
+  <li>First-time Spain with limited time.</li>
+  <li>Sights only — 4-5 hours covers the cathedral, Alcázar, and El Greco's house.</li>
+  <li>Mid-summer (July-August) — Toledo is brutally hot during the day.</li>
+</ul>
+
+<h2>Where to stay if overnighting</h2>
+
+<p><a href="/en/spain/toledo/casco-historico-toledo">Casco Histórico</a> — the medieval walled city. Anywhere outside the walls is suburban.</p>
+
+<h2>What to skip</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Toledo" 30+ km out:</strong> Verify on a map.</li>
+  <li><strong>Anywhere advertised as "near AVE":</strong> Verify it's also near the historic core.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For 10+ day Spain trips with photo focus, overnight Toledo. Otherwise day-trip from Madrid — the AVE makes this easy. For 7-day Spain itineraries see <a href="/en/articles/europe-7-day-spain-itinerary">7-day Spain</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-annecy",
+    title: "Where to Stay in Annecy: Vieille Ville on the Canals",
+    excerpt: "Annecy's old town along the canals is the only sensible stay. Honest details on which side.",
+    publishedAt: "2026-05-17",
+    reviewedAt: "2026-05-17",
+    readingTimeMin: 5,
+    metaTitle: "Where to Stay in Annecy — Honest Guide",
+    metaDescription: "Annecy's old town along the canals is the only sensible stay. Honest details on which side.",
+    html: `
+<p>Annecy is small. The old town along the canals is the only stay that captures the trip.</p>
+
+<h2>Vieille Ville — the only sensible base</h2>
+
+<p><a href="/en/france/annecy/vieille-ville-annecy">Vieille Ville</a> is the medieval old town along the canals — the Palais de l'Île, dense restaurants, the iconic photo. Best for: any Annecy stay.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Suburban hotels around the lake:</strong> The canals are the trip; lake-front is fine for swimming day-trips but not the atmosphere.</li>
+  <li><strong>Anywhere outside the walking core marketed as "Annecy":</strong> Verify on a map.</li>
+</ul>
+
+<h2>When to go</h2>
+
+<p>May-September for the lake. December-January for the Christmas markets. Avoid mid-July to mid-August (French summer holidays — packed).</p>
+
+<h2>Combined with Lyon</h2>
+
+<p>Best 5-7 day French Alps + food: 3 Lyon + 2-3 Annecy. Train Lyon to Annecy is 2h.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-photography",
+    title: "Best European Cities for Photography (Honest 2026)",
+    excerpt: "Real ranking of European cities for photographers — by light, density of subjects, and tourist-density manageability.",
+    publishedAt: "2026-05-17",
+    reviewedAt: "2026-05-17",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Photography — Honest 2026 Ranking",
+    metaDescription: "Real ranking of European cities for photographers — by light, density of subjects, and tourist-density manageability.",
+    html: `
+<p>Most "best for photography" lists rank by Instagram density. Here's the honest sort by photographic depth.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> Off-season, dawn light. Best photographic city in Europe.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Off-cruise season, sunrise on the walls.</li>
+  <li><strong><a href="/en/greece/santorini">Santorini</a>:</strong> Imerovigli over Oia for the calmer caldera shot.</li>
+  <li><strong><a href="/en/turkey/cappadocia">Cappadocia</a>:</strong> Balloon dawn — unmatched for landscape photography.</li>
+  <li><strong>Cinque Terre (Vernazza):</strong> Coastal village density.</li>
+</ul>
+
+<h2>Tier 2 — strong photographic stays</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> Hills, light, pastel facades.</li>
+  <li><strong><a href="/en/france/paris">Paris</a> off-season:</strong> Bridges, cafés, autumn light.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Charles Bridge at dawn, castle from any angle.</li>
+  <li><strong><a href="/en/estonia/tallinn">Tallinn</a>:</strong> Medieval lanes, towers, almost no tourist crush.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Wawel, Stare Miasto, Kazimierz.</li>
+  <li><strong><a href="/en/montenegro/kotor">Kotor</a>:</strong> Bay of Kotor with fortress climb.</li>
+  <li><strong><a href="/en/iceland/reykjavik">Reykjavík</a> + south coast:</strong> Northern Lights season.</li>
+</ul>
+
+<h2>Tier 3 — strong settings</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/granada">Granada</a> Albaicín:</strong> Sunset Mirador de San Nicolás.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Plaza de España, golden-hour cathedral.</li>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> Rebuilt baroque skyline.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a> Galata:</strong> Bosphorus light, dawn from Galata Tower area.</li>
+</ul>
+
+<h2>Practical tips</h2>
+
+<ul>
+  <li><strong>Off-season + dawn:</strong> Venice in November, Dubrovnik in October, Cinque Terre in May.</li>
+  <li><strong>Tripod restrictions:</strong> Many European churches and museums ban tripods. Verify.</li>
+  <li><strong>Drone restrictions:</strong> Most European old towns are drone-prohibited. Don't.</li>
+  <li><strong>Light direction:</strong> Plan walks for golden hour (1h before sunset, 1h after sunrise).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan around light, not sights. A photographer's day in Venice = wake at 5am, dawn shoot, breakfast, midday rest, sunset shoot, dinner. Tourists' days are inverted.</p>
+
+<p>For specific city overviews see <a href="/en/articles/where-to-stay-in-venice">Venice guide</a>, <a href="/en/articles/where-to-stay-in-lisbon">Lisbon guide</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

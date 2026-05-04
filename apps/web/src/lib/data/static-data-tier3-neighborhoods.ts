@@ -1909,4 +1909,51 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Town-focused trips (Old Town wins). Anyone without rental car.",
     priceTier: 3, vibeTags: ["beach", "coves", "dramatic", "swimming"],
     tripTypeFit: ["couples", "families", "luxury"] },
+
+  // ========== EXPANSION BATCH 22: Cyclades + day-trip cities ==========
+  // Naxos
+  { slug: "naxos-chora", name: "Naxos Chora", citySlug: "naxos", countrySlug: "greece",
+    summary: "Naxos Town's central old quarter — Venetian castle, Portara temple gate, dense restaurants and waterfront cafés.",
+    whoItsFor: "First-time visits. Food-focused stays. Couples.",
+    whoShouldSkip: "Beach-only stays (south-coast villages win). Mobility-aware travelers (steep castle climb).",
+    priceTier: 2, vibeTags: ["venetian", "central", "food", "harbor"],
+    tripTypeFit: ["first-timers", "couples", "families"] },
+
+  // Paros
+  { slug: "naoussa", name: "Naoussa", citySlug: "paros", countrySlug: "greece",
+    summary: "The boutique fishing-harbor village on Paros's north coast — narrow lanes, dense restaurants, the postcard.",
+    whoItsFor: "Couples. Romantic stays. Photo-focused trips.",
+    whoShouldSkip: "Ferry-heavy itineraries (Parikia is the port). Budget travelers.",
+    priceTier: 3, vibeTags: ["harbor", "boutique", "romantic", "photogenic"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+  { slug: "parikia", name: "Parikia", citySlug: "paros", countrySlug: "greece",
+    summary: "Paros's central port town — busy ferry hub, dense restaurants, the older option.",
+    whoItsFor: "Ferry-heavy itineraries. Anyone wanting central Cycladic-port atmosphere.",
+    whoShouldSkip: "Quiet-romance focused trips (Naoussa wins).",
+    priceTier: 2, vibeTags: ["port", "central", "ferries", "busy"],
+    tripTypeFit: ["first-timers", "solo", "digital-nomads"] },
+
+  // Mykonos
+  { slug: "mykonos-chora", name: "Mykonos Chora", citySlug: "mykonos", countrySlug: "greece",
+    summary: "Mykonos Town — narrow whitewashed lanes with bougainvillea, Little Venice, the windmills. The famous photo.",
+    whoItsFor: "Party-focused trips. Photo-focused stays. Anyone willing to pay €25+ cocktails.",
+    whoShouldSkip: "Budget travelers. Anyone over 40 wanting calmer Greek islands.",
+    priceTier: 5, vibeTags: ["whitewashed", "party", "iconic", "luxury"],
+    tripTypeFit: ["luxury", "couples", "solo"] },
+
+  // Toledo
+  { slug: "casco-historico-toledo", name: "Casco Histórico", citySlug: "toledo", countrySlug: "spain",
+    summary: "Toledo's medieval walled city — cathedral, Alcázar, dense narrow lanes. The only sensible stay.",
+    whoItsFor: "Overnight stays where dawn-Toledo without crowds is the point. Romantic trips.",
+    whoShouldSkip: "Day-trippers (Madrid AVE day-trip works fine). Mobility-limited travelers (steep cobbles).",
+    priceTier: 3, vibeTags: ["medieval", "central", "walled", "photogenic"],
+    tripTypeFit: ["couples", "first-timers", "luxury"] },
+
+  // Annecy
+  { slug: "vieille-ville-annecy", name: "Vieille Ville", citySlug: "annecy", countrySlug: "france",
+    summary: "Annecy's old town along the canals — the Palais de l'Île, dense restaurants, the iconic photo.",
+    whoItsFor: "First-time visits. Couples. Romantic stays.",
+    whoShouldSkip: "Ski-resort focused trips. Anyone needing parking convenience.",
+    priceTier: 3, vibeTags: ["canals", "central", "photogenic", "romantic"],
+    tripTypeFit: ["couples", "first-timers", "families"] },
 ];

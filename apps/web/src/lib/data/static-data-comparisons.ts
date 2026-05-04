@@ -7601,6 +7601,32 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 22 — pairs for new cities
+// =============================================================================
+COMPARISONS.push(
+  // PAROS
+  {
+    slug: "naoussa-vs-parikia",
+    citySlug: "paros", countrySlug: "greece",
+    aSlug: "naoussa", bSlug: "parikia",
+    aLabel: "Naoussa", bLabel: "Parikia",
+    metaTitle: "Naoussa vs Parikia: Where to Stay on Paros",
+    metaDescription: "Paros's boutique Naoussa or busy Parikia? Real take on atmosphere, ferries and price.",
+    intro: "Paros has two main bases. Naoussa is the boutique fishing-harbor village on the north coast — the postcard. Parikia is the central port town — busy ferry hub.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Naoussa wins on charm — narrow lanes, harbor restaurants, the iconic photo." },
+      { question: "Ferry access", winner: "b", body: "Parikia is the main port. Naoussa needs a 30-min bus or taxi to ferries." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Naoussa has dense boutique-restaurant cluster. Parikia has volume but less polished." },
+      { question: "Price", winner: "b", body: "Parikia 25-35% cheaper than Naoussa for equivalent product." },
+      { question: "Quiet sleep", winner: "a", body: "Naoussa quieter. Parikia has ferry-port noise from 6am." },
+    ],
+    pickA: "Pick Naoussa for couples, photo focus, romantic stays.",
+    pickB: "Pick Parikia for ferry-heavy itineraries, budget-conscious trips, solo travelers.",
+    bottomLine: "Naoussa for photo. Parikia for ferries.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

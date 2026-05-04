@@ -3744,6 +3744,338 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 9 — topic guides + remaining city overviews
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-foodies",
+    title: "Best European Cities for Foodies (2026 Honest List)",
+    excerpt: "Ranked European cities for food-focused trips — where the markets, the late kitchens, and the Michelin density actually live up to the hype.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Foodies — 2026 Honest Ranking",
+    metaDescription: "Ranked European cities for food-focused trips — where the markets, the late kitchens, and the Michelin density actually live up to the hype.",
+    html: `
+<p>Most "best food cities" lists rank by Michelin stars, which says more about media spend than about reality. Here's the honest ranking by traveler-experience-quality for food-focused trips.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/san-sebastian">San Sebastián, Spain</a>:</strong> The world's densest pintxos crawl. Stay in <a href="/en/spain/san-sebastian/parte-vieja">Parte Vieja</a> for the bar density, <a href="/en/spain/san-sebastian/gros">Gros</a> for repeat visits.</li>
+  <li><strong><a href="/en/italy/bologna">Bologna, Italy</a>:</strong> The Quadrilatero food market, ragù alla bolognese, mortadella, the porticoes. <a href="/en/italy/bologna/centro-storico-bologna">Centro Storico</a> is the obvious base.</li>
+  <li><strong><a href="/en/italy/naples">Naples, Italy</a>:</strong> Pizza on the home turf. Sorbillo, Da Michele, hundreds more in <a href="/en/italy/naples/centro-storico-naples">Centro Storico</a>.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon, Portugal</a>:</strong> Mercados, fado-house dinners, fresh seafood. Stay in <a href="/en/portugal/lisbon/mouraria">Mouraria</a> for under-the-radar food.</li>
+  <li><strong>Paris (off-cliché areas):</strong> <a href="/en/france/paris/montorgueil">Montorgueil</a>, <a href="/en/france/paris/canal-saint-martin">Canal Saint-Martin</a>, <a href="/en/france/paris/belleville">Belleville</a> — where Parisians actually eat.</li>
+</ul>
+
+<h2>Tier 2 — strong food-trip secondary cities</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Tapas crawl in <a href="/en/spain/madrid/la-latina">La Latina</a>, restaurant strip in <a href="/en/spain/madrid/chamberi">Chamberí</a>.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Andalusian tapas. <a href="/en/spain/seville/alameda-de-hercules">Alameda</a> for under-tourist spots.</li>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> <a href="/en/italy/florence/santambrogio">Sant'Ambrogio</a> market, traditional trattorias.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Markthalle Neun, Vietnamese, Turkish, late-night density.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> <a href="/en/netherlands/amsterdam/de-pijp">De Pijp</a> Albert Cuyp market, modern Dutch, rijsttafel.</li>
+</ul>
+
+<h2>Tier 3 — surprisingly strong</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/valencia">Valencia</a>:</strong> Real paella (not the city-centre versions), <a href="/en/spain/valencia/ruzafa">Ruzafa</a>'s converted-warehouse food strip.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a> (Asian side):</strong> <a href="/en/turkey/istanbul/kadikoy">Kadıköy</a>'s fish market and meyhanes.</li>
+  <li><strong><a href="/en/spain/bilbao">Bilbao</a>:</strong> The other Basque pintxos city. Fewer tourists than San Sebastián.</li>
+  <li><strong><a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> The high end (Noma, Geranium) but also <a href="/en/denmark/copenhagen/vesterbro">Vesterbro</a>'s casual scene.</li>
+</ul>
+
+<h2>Overrated</h2>
+
+<ul>
+  <li><strong>Lyon:</strong> Famous for bouchons but most are tourist-priced and mediocre. Locals eat elsewhere.</li>
+  <li><strong>Brussels:</strong> Mid-quality at every level. Better food in Ghent and Antwerp.</li>
+  <li><strong>Tuscany hill-towns for food:</strong> Tourist-priced. Eat in Florence, day-trip the towns.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick fewer cities, eat more. 4 nights in San Sebastián beats 7 nights split over 3 food cities. Markets in the morning, lunch as the main meal, light dinners. Most Europeans eat dinner late — adjust your meal timing.</p>
+    `.trim(),
+  },
+  {
+    slug: "european-wine-regions-where-to-base",
+    title: "European Wine Regions: Where to Actually Base for the Trip",
+    excerpt: "Honest picks for wine-region trips — Burgundy, Tuscany, Rioja, Douro, Mosel, and which town to actually sleep in.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 10,
+    metaTitle: "European Wine Regions — Where to Base 2026 Honest Picks",
+    metaDescription: "Honest picks for wine-region trips — Burgundy, Tuscany, Rioja, Douro, Mosel, and which town to actually sleep in.",
+    html: `
+<p>European wine-region trips reward planning. Picking the right base saves hours of driving and gets you into more cellars. Here's the honest map.</p>
+
+<h2>Tuscany (Chianti)</h2>
+
+<p>Best base: <strong>Greve in Chianti</strong> for the central wine focus, or <strong><a href="/en/italy/florence">Florence</a></strong> with day-trips. Avoid Siena unless you'll spend extra nights for the Palio. Plan 3-4 nights minimum.</p>
+
+<h2>Burgundy (France)</h2>
+
+<p>Best base: <strong>Beaune</strong>. Walking distance to the Côte de Beaune, train to Dijon. Beaune itself is small enough to walk; the wine is at your door.</p>
+
+<h2>Bordeaux (France)</h2>
+
+<p>Best base: <strong><a href="/en/france/bordeaux">Bordeaux</a> city itself</strong> using <a href="/en/france/bordeaux/chartrons">Chartrons</a> for the wine quarter. Day-trip Médoc, Saint-Émilion, Pessac-Léognan. Don't try to base in the vineyards — restaurants and choice are in the city.</p>
+
+<h2>Champagne (France)</h2>
+
+<p>Best base: <strong>Reims</strong> for big-house tastings (Veuve Clicquot, Taittinger). <strong>Épernay</strong> for the Avenue de Champagne and grower-houses. Pick one for 2 nights.</p>
+
+<h2>Rioja (Spain)</h2>
+
+<p>Best base: <strong>Logroño</strong> for the food-and-pintxos crawl (Calle Laurel) plus winery day-trips. Haro is closer to vineyards but smaller and quieter.</p>
+
+<h2>Douro Valley (Portugal)</h2>
+
+<p>Best base: <strong>Pinhão</strong> for the central river-valley setting. Combine with <a href="/en/portugal/porto">Porto</a> as 2-3 nights Porto + 2 nights Pinhão. Take the train along the Douro for one leg.</p>
+
+<h2>Mosel Valley (Germany)</h2>
+
+<p>Best base: <strong>Bernkastel-Kues</strong> for the central position, half-timbered atmosphere, walkable wine cellars. Cochem is touristy but works for shorter trips.</p>
+
+<h2>Rhône (France)</h2>
+
+<p>Best base: <strong><a href="/en/france/lyon">Lyon</a></strong> for the food-and-wine combination, with day-trips south to Côte-Rôtie and Hermitage. Châteauneuf-du-Pape needs its own base if it's the focus.</p>
+
+<h2>Piedmont (Italy)</h2>
+
+<p>Best base: <strong>Alba</strong> for Barolo and Barbaresco day-trips. Truffle season (October-November) is the iconic time.</p>
+
+<h2>What doesn't work</h2>
+
+<ul>
+  <li><strong>Trying to base in tiny villages without restaurants:</strong> Half the trip becomes driving for dinner.</li>
+  <li><strong>Day-tripping Bordeaux from Paris:</strong> 2.5h each way; eats both days.</li>
+  <li><strong>Multiple wine regions in 7 days:</strong> Pick one. Each region is its own trip.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Most regions reward 3-4 nights. Hire a driver for tasting days (no driving cellar-to-cellar). Book cellar visits 2-3 weeks ahead — many require reservations.</p>
+    `.trim(),
+  },
+  {
+    slug: "croatia-coast-7-day-itinerary",
+    title: "Croatia Coast 7-Day Itinerary: Honest Picks",
+    excerpt: "How to actually plan a 7-day Croatia coast trip without spending 4 days on ferries.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 9,
+    metaTitle: "Croatia Coast 7-Day Itinerary — Honest 2026 Picks",
+    metaDescription: "How to actually plan a 7-day Croatia coast trip without spending 4 days on ferries.",
+    html: `
+<p>Croatia coast trips ruin themselves trying to do every famous spot. Here's the honest 7-day plan that delivers.</p>
+
+<h2>Best 7-day Croatia coast (south)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/croatia/dubrovnik">Dubrovnik</a> Old Town (one full day for walls + city, half for coastline). Stay in <a href="/en/croatia/dubrovnik/lapad">Lapad</a> for the swim option.</li>
+  <li>Day 3-4: Hvar (ferry from Dubrovnik) — relaxation, swim, evening on the harbor.</li>
+  <li>Day 5-7: <a href="/en/croatia/split">Split</a> + Diocletian's Palace + day-trip to Trogir. Stay in <a href="/en/croatia/split/diocletians-palace">Diocletian's Palace</a> for the experience.</li>
+  <li>Fly home from Split.</li>
+</ul>
+
+<h2>Best 7-day Croatia coast (north)</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/croatia/zagreb">Zagreb</a> + Plitvice Lakes day-trip.</li>
+  <li>Day 4-5: Drive south to Zadar.</li>
+  <li>Day 6-7: <a href="/en/croatia/split">Split</a>.</li>
+</ul>
+
+<h2>Why we don't recommend Dubrovnik + Plitvice + Split + Hvar in 7 days</h2>
+
+<p>That's 4 destinations across 600 km. Half the trip becomes travel. Pick south OR north for 7 days. Add nights or skip a stop.</p>
+
+<h2>Ferry logistics</h2>
+
+<ul>
+  <li>Dubrovnik to Hvar: 4-5h ferry seasonally. Off-season requires Split as a hub.</li>
+  <li>Split to Hvar: 1h fast ferry, multiple daily.</li>
+  <li>Hvar to Korčula: 1.5h.</li>
+  <li>October onwards: many island ferries reduce frequency.</li>
+</ul>
+
+<h2>Where to stay specifics</h2>
+
+<ul>
+  <li>Dubrovnik: <a href="/en/croatia/dubrovnik/lapad">Lapad</a> for the beach option, Old Town for atmosphere with cathedral-bell trade-off.</li>
+  <li>Split: <a href="/en/croatia/split/diocletians-palace">Diocletian's Palace</a> for the experience or <a href="/en/croatia/split/veli-varos">Veli Varoš</a> for calm.</li>
+  <li>Hvar: stay in Hvar town first night, Stari Grad for second night if you want quieter.</li>
+</ul>
+
+<h2>What to skip on 7 days</h2>
+
+<ul>
+  <li><strong>Pula:</strong> Worth a stop only if you're starting from Slovenia or northern Italy. Eats time on a Dubrovnik-focused trip.</li>
+  <li><strong>Krka National Park:</strong> Worth a day-trip from Split, not its own overnight.</li>
+  <li><strong>Korčula:</strong> Beautiful but adds another ferry leg. Save for longer trips.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "northern-italy-7-day-itinerary",
+    title: "Northern Italy 7-Day Itinerary: Milan, Lakes, Venice",
+    excerpt: "How to plan a Northern Italy 7-day trip combining Milan, lakes, Verona, Venice — and which to skip.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 10,
+    metaTitle: "Northern Italy 7-Day Itinerary — Milan, Lakes, Venice",
+    metaDescription: "How to plan a Northern Italy 7-day trip combining Milan, lakes, Verona, Venice — and which to skip.",
+    html: `
+<p>Northern Italy in 7 days is a real trip if planned tight. Trying to add Bologna or the Cinque Terre breaks it. Here's the honest plan.</p>
+
+<h2>Best 7-day Northern Italy</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/italy/milan">Milan</a> (Duomo, La Scala, Brera, Navigli aperitivo). Stay in <a href="/en/italy/milan/brera">Brera</a>.</li>
+  <li>Day 3: Train to Lake Como — overnight in Varenna. (1h train from Milano Centrale to Varenna-Esino.)</li>
+  <li>Day 4: Varenna ferry-hop — Bellagio, Menaggio, Villa del Balbianello.</li>
+  <li>Day 5: Train to <a href="/en/italy/verona">Verona</a> via Milan (3h total). Verona afternoon and evening.</li>
+  <li>Day 6-7: Train to <a href="/en/italy/venice">Venice</a> (1h). Stay in <a href="/en/italy/venice/cannaregio">Cannaregio</a>. Two nights for the city.</li>
+</ul>
+
+<h2>Alternative: lake-heavy</h2>
+
+<p>Skip Verona, add a third lake night (Como to Lugano + Lake Maggiore). Better if you specifically want the lake trip.</p>
+
+<h2>Alternative: art-heavy</h2>
+
+<p>Skip the lakes. Milan 2 + Verona 1 + Venice 2 + Bologna 2 (food capital). 7 perfect nights.</p>
+
+<h2>What to skip on 7 days</h2>
+
+<ul>
+  <li><strong>Cinque Terre:</strong> Add 2 nights or skip. Day-tripping Cinque Terre from Milan is brutal.</li>
+  <li><strong>Bologna and Venice combined:</strong> Possible but eats day on travel — pick one.</li>
+  <li><strong>Tuscany day-trip from Northern Italy:</strong> 4h+ each way. Save Tuscany for a separate trip.</li>
+</ul>
+
+<h2>Train logistics</h2>
+
+<ul>
+  <li>Milan-Como: regional train 40 min to Como San Giovanni; or 1h Milano Centrale-Varenna.</li>
+  <li>Como-Verona: through Milan, 3h total.</li>
+  <li>Verona-Venice: 1h direct.</li>
+</ul>
+
+<h2>Where to stay specifics</h2>
+
+<ul>
+  <li>Milan: <a href="/en/italy/milan/brera">Brera</a> for first-time, <a href="/en/italy/milan/navigli">Navigli</a> for evenings.</li>
+  <li>Lake Como: Varenna over Bellagio (smaller, less touristy).</li>
+  <li>Verona: <a href="/en/italy/verona/citta-antica">Città Antica</a> inside the river loop.</li>
+  <li>Venice: <a href="/en/italy/venice/cannaregio">Cannaregio</a> over San Marco for any 2+ night stay.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "norway-7-day-itinerary-fjords",
+    title: "Norway 7-Day Itinerary: Oslo + Fjords",
+    excerpt: "How to plan a 7-day Norway trip combining Oslo, Bergen, and the fjords — without spending 3 days on trains.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 9,
+    metaTitle: "Norway 7-Day Itinerary — Oslo + Fjords Real Picks",
+    metaDescription: "How to plan a 7-day Norway trip combining Oslo, Bergen, and the fjords — without spending 3 days on trains.",
+    html: `
+<p>Norway is bigger than first-timers think. Oslo to Bergen is a 7-hour train; the fjords add another day. Here's the honest 7-day plan.</p>
+
+<h2>Best 7-day Norway (south + fjords)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/norway/oslo">Oslo</a> (Vigeland Park, Aker Brygge, Munch museum). Stay in <a href="/en/norway/oslo/grunerlokka">Grünerløkka</a> for food, <a href="/en/norway/oslo/sentrum-oslo">Sentrum</a> for sights.</li>
+  <li>Day 3-4: Norway in a Nutshell route — Oslo to Bergen via Flåm/Aurlandsfjord. Train + boat + train. Spectacular.</li>
+  <li>Day 5-6: <a href="/en/norway/bergen">Bergen</a> (Bryggen, fish market, Fløibanen). Stay near Bryggen.</li>
+  <li>Day 7: Day-trip to a smaller fjord (Nærøyfjord by ferry from Bergen) or fly back.</li>
+</ul>
+
+<h2>Alternative: Lofoten (north)</h2>
+
+<p>For dramatic landscape: fly Oslo-Bodø, ferry to Lofoten, 5 nights road-tripping. But it's a different trip — pick this OR Bergen+fjords, not both in 7 days.</p>
+
+<h2>Norway in a Nutshell timing</h2>
+
+<p>Daylight matters. Late September to mid-March daylight is short — book early-morning departures. Summer (May-August) has 18+ hours of light, perfect for the route.</p>
+
+<h2>What to skip on 7 days</h2>
+
+<ul>
+  <li><strong>Tromsø + Northern Lights:</strong> Different trip. Fly there for 3 nights minimum if it's the focus.</li>
+  <li><strong>Stavanger and Pulpit Rock:</strong> Worth it but adds 2 nights minimum. Pick this over Bergen for shorter trip.</li>
+  <li><strong>Going past Bergen:</strong> The Nordfjord and Geirangerfjord need rental cars and 3+ extra nights.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>Norway is the most-expensive Nordic country. Budget €200-€350/day for a comfortable trip including hotels, transport, meals. Self-catering apartments and supermarket lunches save real money.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-flight-time-from-uk",
+    title: "Best European City Breaks From the UK by Flight Time",
+    excerpt: "Honest sort of European city breaks from London by flight time — under 2h, 2-3h, 3+h — and which deliver per hour.",
+    publishedAt: "2026-05-05",
+    reviewedAt: "2026-05-05",
+    readingTimeMin: 9,
+    metaTitle: "Best European City Breaks From UK by Flight Time",
+    metaDescription: "Honest sort of European city breaks from London by flight time — under 2h, 2-3h, 3+h — and which deliver per hour.",
+    html: `
+<p>UK long-weekend trips are mostly about flight-time-to-experience math. Here's the honest sort by direct-flight time from London.</p>
+
+<h2>Under 2 hours</h2>
+
+<ul>
+  <li><strong>Paris (1h 15min):</strong> The classic. Eurostar takes 2h 30min city-centre to city-centre — often beats the flight.</li>
+  <li><strong>Amsterdam (1h 15min):</strong> Or 4h Eurostar. Both work for 2-3 night trips.</li>
+  <li><strong>Brussels (1h):</strong> 2h by Eurostar. 1-2 nights max.</li>
+  <li><strong>Dublin (1h 15min):</strong> Premium pricing for a small city. Galway is the better Ireland trip.</li>
+  <li><strong>Edinburgh (1h 15min):</strong> Eurail Inverness (4h) is more romantic but flight is faster.</li>
+  <li><strong>Cologne / Düsseldorf (1h 30min):</strong> Underrated for 2-night trips.</li>
+</ul>
+
+<h2>2-3 hours</h2>
+
+<ul>
+  <li><strong>Berlin (1h 50min):</strong> Best 4-night-Europe option. <a href="/en/articles/where-to-stay-in-berlin-by-neighborhood">Where to stay</a>.</li>
+  <li><strong>Munich (1h 55min):</strong> Excellent. Especially during Oktoberfest or Christmas markets.</li>
+  <li><strong>Barcelona (2h 15min):</strong> Beach + city. <a href="/en/articles/where-to-stay-in-barcelona">Where to stay</a>.</li>
+  <li><strong>Madrid (2h 25min):</strong> 4 nights minimum.</li>
+  <li><strong>Rome (2h 35min):</strong> 4 nights minimum. <a href="/en/articles/where-to-stay-in-rome">Where to stay</a>.</li>
+  <li><strong>Lisbon (2h 40min):</strong> Underrated for long weekends. <a href="/en/articles/where-to-stay-in-lisbon">Where to stay</a>.</li>
+  <li><strong>Vienna (2h 30min):</strong> Excellent off-festival. <a href="/en/articles/where-to-stay-in-vienna">Where to stay</a>.</li>
+  <li><strong>Prague (2h):</strong> 3 nights perfect. <a href="/en/articles/where-to-stay-in-prague">Where to stay</a>.</li>
+  <li><strong>Budapest (2h 30min):</strong> Excellent value. <a href="/en/articles/where-to-stay-in-budapest">Where to stay</a>.</li>
+</ul>
+
+<h2>3-4 hours</h2>
+
+<ul>
+  <li><strong>Athens (3h 45min):</strong> Worth it for 4+ night trips with island add-on.</li>
+  <li><strong>Istanbul (3h 50min):</strong> 5 nights minimum.</li>
+  <li><strong>Stockholm (2h 40min):</strong> Easy 3-night winter break.</li>
+  <li><strong>Copenhagen (1h 55min):</strong> Genuinely 2h. Excellent.</li>
+  <li><strong>Helsinki (3h):</strong> Underrated, especially in summer.</li>
+</ul>
+
+<h2>Cost-of-flight reality</h2>
+
+<p>Cheap flights are 6+ months ahead booking. Last-minute London-to-anywhere is typically £200-£400 return. Budget airlines (Ryanair, Wizz) often beat by 50% but check secondary airports (Beauvais, Bergamo, Hahn) — sometimes the bus eats the savings.</p>
+
+<p>For broader budget context see <a href="/en/articles/europe-budget-airline-hubs-where-to-fly-into">budget airline hubs</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

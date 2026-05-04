@@ -7429,6 +7429,362 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 25 — more niche audience + topic guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-students",
+    title: "Best European Cities for Student Travelers (Honest Budget Picks)",
+    excerpt: "Honest sort of European cities for student-budget trips — by hostel quality, cheap food and student infrastructure.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Students — Honest Budget Picks 2026",
+    metaDescription: "Honest sort of European cities for student-budget trips — by hostel quality, cheap food and student infrastructure.",
+    html: `
+<p>Student travel in Europe is a different optimization than family or couples travel. Here's the honest sort by hostel quality, transit accessibility, and cheap food density.</p>
+
+<h2>Tier 1 — student-budget destinations</h2>
+
+<ul>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Hostels €15-€25/night. Pierogi for €5. Auschwitz day-trip is essential.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Ruin bars (cheap drinks), thermal baths, hostels €18-€30/night.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + <a href="/en/portugal/porto">Porto</a>:</strong> Affordable Atlantic cities. Hostels €25-€40/night.</li>
+  <li><strong><a href="/en/lithuania/vilnius">Vilnius</a>, <a href="/en/latvia/riga">Riga</a>, <a href="/en/estonia/tallinn">Tallinn</a>:</strong> Baltic loop. Hostels €20-€35/night.</li>
+  <li><strong><a href="/en/bulgaria/sofia">Sofia</a> + <a href="/en/bulgaria/plovdiv">Plovdiv</a>:</strong> Cheapest option in EU. Hostels €15-€25/night.</li>
+</ul>
+
+<h2>Tier 2 — workable on student budgets</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Mid-range now but still student-friendly. Hostels €25-€45/night.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>, <a href="/en/spain/seville">Seville</a>:</strong> Tapas-and-wine for €15. Hostels €30-€45/night.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Pricey but Eurail-line, hostel scene strong.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Doable except during Oktoberfest.</li>
+</ul>
+
+<h2>Tier 3 — possible with strict budgeting</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Hostels in 18th/19th arrondissements. €40-€60/night.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> €40-€60/night hostels. Trastevere area.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> £45-£70/night hostels. Brutal but possible.</li>
+</ul>
+
+<h2>Cities to skip on student budget</h2>
+
+<ul>
+  <li>Switzerland (any city): Costs make it unrealistic.</li>
+  <li>Norway, Iceland: Same.</li>
+  <li>Mykonos, Santorini: €25 cocktails are the floor.</li>
+  <li>Most resort destinations.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Eurail Student Pass:</strong> Discounted for under-28. Run the math vs point-to-point.</li>
+  <li><strong>Hostel chains:</strong> Wombat's, Generator, Meininger, Hostelworld for booking.</li>
+  <li><strong>Self-cater:</strong> Supermarket + hostel kitchen saves €15-€25/day vs restaurants.</li>
+  <li><strong>Student card:</strong> ISIC card discounts museums and transit in many countries.</li>
+  <li><strong>Free walking tours:</strong> Tip-based. Standard in every major European city.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-friend-groups",
+    title: "Best European Cities for Friend-Group Trips (Honest 2026)",
+    excerpt: "Where to take a group of friends — by group size, vibe, and trip length. Honest picks.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Friend Groups — Honest 2026 Picks",
+    metaDescription: "Where to take a group of friends — by group size, vibe, and trip length. Honest picks.",
+    html: `
+<p>Group trips are different from couples trips. Here's the honest sort.</p>
+
+<h2>Best for under-30 friend groups</h2>
+
+<ul>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Ruin bars, cheap drinks, thermal baths. The classic 4-night group destination.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Same vibe — cheap, lively, hostels-or-Airbnbs.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Club scene + cheap food + group-friendly Airbnbs.</li>
+  <li><strong>Belgrade, Serbia:</strong> Splavovi (river clubs) for late-night groups.</li>
+</ul>
+
+<h2>Best for 30-40 friend groups</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Mix of food, fado, day-trips. Apartment rentals work.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Tapas culture is group-friendly.</li>
+  <li><strong><a href="/en/croatia/split">Split</a> + <a href="/en/croatia/hvar">Hvar</a>:</strong> Sailing/swimming + party island combo.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Beach + tapas + nightlife.</li>
+</ul>
+
+<h2>Best for 40+ friend groups (Wine/golf/relaxation)</h2>
+
+<ul>
+  <li><strong>Tuscany agriturismo:</strong> Rent a villa, day-trip to Florence and Siena.</li>
+  <li><strong>Provence villa:</strong> Wine + lavender (June).</li>
+  <li><strong>Douro Valley villa:</strong> Wine-focused.</li>
+  <li><strong><a href="/en/italy/lecce">Lecce</a> villa:</strong> Apulian baroque + sea.</li>
+</ul>
+
+<h2>What to avoid for groups</h2>
+
+<ul>
+  <li><strong>Multi-city groups in 5 days:</strong> Logistics nightmare.</li>
+  <li><strong>Mykonos for big groups:</strong> Hotel coordination + cost is brutal.</li>
+  <li><strong>Tiny medieval old towns:</strong> Hard to find 5+ rooms close together.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Apartments over hotels:</strong> Save 30-50% for groups of 4+.</li>
+  <li><strong>Villa rentals:</strong> Best for 6+ groups in wine regions or coast.</li>
+  <li><strong>Single base + day-trips:</strong> Reduces relocation logistics.</li>
+  <li><strong>Pre-booked group dinners:</strong> Many European restaurants don't take walk-in tables for 6+.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "european-cities-with-castle-stays",
+    title: "European Cities and Towns With Castle Hotels",
+    excerpt: "Where to actually sleep in a castle — honest picks by region, cost and quality.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 9,
+    metaTitle: "European Cities With Castle Stays — Honest 2026 Guide",
+    metaDescription: "Where to actually sleep in a castle — honest picks by region, cost and quality.",
+    html: `
+<p>Castle stays are the kind of European trip that lives up to the marketing if you pick right. Here's the honest map.</p>
+
+<h2>Loire Valley, France (densest castle-stay region)</h2>
+
+<ul>
+  <li><strong>Château de Pray (Amboise):</strong> Renaissance with views.</li>
+  <li><strong>Domaine des Hauts de Loire:</strong> 19th-century Relais &amp; Châteaux.</li>
+  <li><strong>Château de Bagnols:</strong> Medieval near Beaujolais.</li>
+</ul>
+
+<h2>Scotland</h2>
+
+<ul>
+  <li><strong>Inverlochy Castle, Fort William:</strong> 19th-century Scottish baronial.</li>
+  <li><strong>Glenapp Castle, Ayrshire:</strong> Sea-view, Victorian.</li>
+  <li><strong>Stobo Castle, Borders:</strong> Spa-castle.</li>
+</ul>
+
+<h2>Ireland</h2>
+
+<ul>
+  <li><strong>Ashford Castle, Cong:</strong> Medieval-into-modern luxury.</li>
+  <li><strong>Dromoland Castle, Clare:</strong> Same lineage.</li>
+  <li><strong>Adare Manor:</strong> Mock-Tudor; recent renovation.</li>
+</ul>
+
+<h2>Tuscany / Italy</h2>
+
+<ul>
+  <li><strong>Castello di Reschio (Umbria):</strong> 11th-century, recent reopening.</li>
+  <li><strong>Castello di Spaltenna (Chianti):</strong> Walled medieval village.</li>
+  <li><strong>Castello del Nero (Chianti):</strong> Renaissance.</li>
+</ul>
+
+<h2>Spain (Paradores)</h2>
+
+<p>Paradores is the government-run chain of historic-building hotels. Many are converted castles, monasteries, or palaces. Best Paradores: Granada (Alhambra grounds), Santiago de Compostela, León, Toledo. Affordable luxury — €150-€300/night.</p>
+
+<h2>Portugal (Pousadas)</h2>
+
+<p>Similar to Spain's Paradores. Pousada de Évora and Pousada de Óbidos are highlights.</p>
+
+<h2>Germany / Austria</h2>
+
+<ul>
+  <li><strong>Schloss Elmau, Bavaria:</strong> Mountain castle-resort.</li>
+  <li><strong>Schloss Fuschl, Salzburg:</strong> Lake-side imperial.</li>
+</ul>
+
+<h2>What "castle stays" don't mean</h2>
+
+<ul>
+  <li><strong>Themed-castle resorts:</strong> Mock-castles built recently. Verify the building's age.</li>
+  <li><strong>Bed-and-breakfasts in old houses:</strong> Often marketed as "castle" loosely.</li>
+  <li><strong>Hotel chains in renovated castles:</strong> Some lose all character. Read recent reviews.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Castle stays reward longer (3+ night) bookings — driving from one to another wastes the experience. Pair with wine-region day-trips for the full effect.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-autumn-foliage",
+    title: "Best European Cities for Autumn Foliage Trips",
+    excerpt: "Where to go for European autumn colors — beyond Vermont. Honest picks for September-November leaf-peeping.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Autumn Foliage — Honest Picks",
+    metaDescription: "Where to go for European autumn colors — beyond Vermont. Honest picks for September-November leaf-peeping.",
+    html: `
+<p>Autumn in Europe is among the best travel windows. Foliage peaks vary by region. Here's the honest map.</p>
+
+<h2>Late September — early peak</h2>
+
+<ul>
+  <li><strong>Bavarian Alps (Garmisch, Berchtesgaden):</strong> Yellow larch trees, alpine cool.</li>
+  <li><strong>Swiss Alps (Engadin):</strong> Same window.</li>
+  <li><strong>Czech Bohemian Switzerland (Hřensko):</strong> Sandstone formations + autumn forest.</li>
+  <li><strong>Polish Tatras (Zakopane):</strong> Mountain-town foliage.</li>
+</ul>
+
+<h2>October — peak everywhere</h2>
+
+<ul>
+  <li><strong>Tuscany (around Siena, Chianti):</strong> Cypresses + golden vineyards.</li>
+  <li><strong>Provence (Vaucluse, Luberon):</strong> Plane trees turning gold.</li>
+  <li><strong>Mosel and Rhine valleys:</strong> Vineyards in red and gold.</li>
+  <li><strong>Loire Valley:</strong> Châteaux in autumn light.</li>
+  <li><strong>Black Forest:</strong> Iconic.</li>
+  <li><strong>Cotswolds, England:</strong> Honey-stone villages with red leaves.</li>
+  <li><strong>Smoky-mountain Romania (Bran/Brasov region):</strong> Less visited, dramatic.</li>
+</ul>
+
+<h2>Late October — early November</h2>
+
+<ul>
+  <li><strong>Andalusia (Spanish southern range):</strong> Olive harvest season.</li>
+  <li><strong>Portuguese Douro Valley:</strong> Vinha = vineyards in autumn red.</li>
+  <li><strong>Slovenia (Lake Bled, Ljubljana):</strong> Forest-around-the-lake foliage.</li>
+</ul>
+
+<h2>Cities to skip in autumn</h2>
+
+<ul>
+  <li><strong>Mediterranean coast resort towns:</strong> Closed for season; sad.</li>
+  <li><strong>Greek islands beyond Athens:</strong> Most ferries off.</li>
+  <li><strong>Iceland lowlands:</strong> Beautiful but Highland roads close mid-October.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan around peak by latitude. North = mid-September. Central = late September to mid-October. South = mid-October to early November. Self-driving works best for foliage trips since you can chase color.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-day-trips-from-london",
+    title: "Best European Day Trips From London (and Where to Skip)",
+    excerpt: "Eurostar makes European day-trips from London real. Honest picks for which actually work.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 8,
+    metaTitle: "Best European Day Trips From London — Honest 2026",
+    metaDescription: "Eurostar makes European day-trips from London real. Honest picks for which actually work.",
+    html: `
+<p>Eurostar makes London-to-continent day-trips genuinely possible. Here's the honest sort.</p>
+
+<h2>Day-trips that work</h2>
+
+<ul>
+  <li><strong>Paris (2h 30min Eurostar):</strong> Out at 7am, back at 11pm. Hard but possible.</li>
+  <li><strong>Brussels (2h Eurostar):</strong> Easier — 6 hours in Brussels covers Grand Place, lunch, museums.</li>
+  <li><strong>Lille (1h 22min Eurostar):</strong> The easiest day-trip. <a href="/en/france/lille/vieux-lille">Vieux Lille</a> + lunch + back.</li>
+  <li><strong>Antwerp / Bruges (3h via Brussels):</strong> Tight but possible.</li>
+</ul>
+
+<h2>Day-trips that don't quite work</h2>
+
+<ul>
+  <li><strong>Amsterdam:</strong> 4h Eurostar. Too much travel for a day. Stay overnight.</li>
+  <li><strong>Cologne:</strong> 5h via Brussels. Stay overnight.</li>
+  <li><strong>Rotterdam:</strong> 3h 15min direct. Marginally possible but rushed.</li>
+</ul>
+
+<h2>The Calais / Eurotunnel option</h2>
+
+<p>Driving via Eurotunnel from Folkestone is 35 min. Day-trips to Calais, Boulogne, or even Lille become easy. But: not the same as Eurostar luxury.</p>
+
+<h2>Within-UK day-trips</h2>
+
+<ul>
+  <li><strong>Bath (1h 25min):</strong> Easy day. Roman Baths + Royal Crescent + lunch.</li>
+  <li><strong>York (2h):</strong> Doable as long day.</li>
+  <li><strong>Edinburgh (4h 20min):</strong> Eurail-style train day too long; overnight better.</li>
+  <li><strong>Cambridge / Oxford (1-1h 30min):</strong> Excellent half-day.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For European day-trips, book Eurostar 3-6 months ahead — fares double or triple last-minute. Day-trips work best when you have 2+ days of London surrounding them (jet lag + transit fatigue).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-to-visit-with-parents",
+    title: "Best European Cities to Visit With Parents (Honest 2026)",
+    excerpt: "Multi-generational European trips with parents — honest picks by mobility, comfort and shared interest.",
+    publishedAt: "2026-05-20",
+    reviewedAt: "2026-05-20",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities With Parents — Honest 2026 Picks",
+    metaDescription: "Multi-generational European trips with parents — honest picks by mobility, comfort and shared interest.",
+    html: `
+<p>Trips with parents (especially older parents) require different optimization. Here's the honest sort.</p>
+
+<h2>Tier 1 — easy mobility, comfortable, deep interest</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Imperial history, museums, classical music. Excellent transit, calm pacing.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Walkable Altstadt, Englischer Garten, beer-garden tradition. Mid-range pacing.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> World-class museums in walking distance. Late dinner culture suits older travelers.</li>
+  <li><strong><a href="/en/sweden/stockholm">Stockholm</a>:</strong> Polished, calm, accessible.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Compact, scenic, off-festival peaceful.</li>
+</ul>
+
+<h2>Tier 2 — strong with planning</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Renaissance art density. Pace yourself — stairs in many museums.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Pick central arrondissement; metro is partially-accessible only.</li>
+  <li><strong>Bath, UK:</strong> Compact, Georgian, accessible.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Baixa-Chiado:</strong> Flat central, day-trips.</li>
+</ul>
+
+<h2>Tier 3 — possible but research</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Excellent if you stay central. Skip if mobility is severely limited.</li>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> Bridges everywhere. Accessible Venice exists but takes planning.</li>
+  <li><strong>Cruises along the Rhine, Danube:</strong> Excellent mobility option that limits walking.</li>
+</ul>
+
+<h2>Cities to avoid with mobility-limited parents</h2>
+
+<ul>
+  <li>Lisbon Alfama, Porto Ribeira, Granada Albaicín, Naples Centro Storico.</li>
+  <li>Cinque Terre, most Italian hill towns.</li>
+  <li>Santorini, most Cycladic islands.</li>
+  <li>Edinburgh Old Town's steep cobbles.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Single-base trips:</strong> Daily relocation is exhausting.</li>
+  <li><strong>Hotels with elevators:</strong> Verify before booking.</li>
+  <li><strong>Lunch as main meal:</strong> Easier than late dinners for older travelers.</li>
+  <li><strong>Day-trips by guided coach:</strong> Avoids driving stress.</li>
+  <li><strong>Travel insurance:</strong> Essential for older travelers.</li>
+</ul>
+
+<p>For mobility specifics see <a href="/en/articles/best-european-cities-for-accessibility">accessibility guide</a> and <a href="/en/articles/best-european-cities-for-older-travelers">older travelers</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

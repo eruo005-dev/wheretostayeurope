@@ -6247,6 +6247,212 @@ COMPARISONS.push(
 );
 
 // =============================================================================
+// EXPANSION BATCH 12 — pairs leveraging new second-neighborhoods
+// =============================================================================
+COMPARISONS.push(
+  // ANTALYA
+  {
+    slug: "kaleici-vs-lara-beach",
+    citySlug: "antalya", countrySlug: "turkey",
+    aSlug: "kaleici", bSlug: "lara-beach",
+    aLabel: "Kaleiçi", bLabel: "Lara Beach",
+    metaTitle: "Kaleiçi vs Lara Beach: Where to Stay in Antalya",
+    metaDescription: "Antalya's old town Kaleiçi or beach-resort Lara? Real take on atmosphere, beach, families and price.",
+    intro: "Kaleiçi is Antalya's medieval old town inside the city walls — Roman harbor, narrow lanes, atmospheric. Lara Beach is east of the city — long sand beach, big resort hotels, mostly all-inclusive. Different trips entirely.",
+    rounds: [
+      { question: "Atmosphere", winner: "a", body: "Kaleiçi wins — Roman harbor, medieval lanes, the cliché Mediterranean photo. Lara is generic resort strip." },
+      { question: "Beach", winner: "b", body: "Lara wins by definition — long sand beach. Kaleiçi has a small pebble beach below the cliff." },
+      { question: "Family resort experience", winner: "b", body: "Lara wins — pool resorts, kid clubs, all-inclusive. Kaleiçi is for atmospheric stays." },
+      { question: "Restaurants", winner: "a", body: "Kaleiçi has actual Turkish restaurants. Lara is mostly hotel restaurants." },
+      { question: "Walkability", winner: "a", body: "Kaleiçi is car-free walkable. Lara needs a car or hotel shuttle for everything." },
+    ],
+    pickA: "Pick Kaleiçi for first-time visits, atmosphere-focused trips, foodies, anyone wanting cliché old-Antalya.",
+    pickB: "Pick Lara Beach for resort-focused trips, families wanting hotel pools, all-inclusive bookings.",
+    bottomLine: "Kaleiçi for old town. Lara for beach resort.",
+  },
+  // BRUGES
+  {
+    slug: "binnenstad-vs-sint-anna",
+    citySlug: "bruges", countrySlug: "belgium",
+    aSlug: "binnenstad-bruges", bSlug: "sint-anna",
+    aLabel: "Binnenstad", bLabel: "Sint-Anna",
+    metaTitle: "Binnenstad vs Sint-Anna: Where to Stay in Bruges",
+    metaDescription: "Bruges' central canal-city or quieter Sint-Anna? Real take on tourist crush, walkability and price.",
+    intro: "Binnenstad is the canal-and-belfry centre — postcard, central, but day-tripper crush mid-day. Sint-Anna is east — quieter residential, Lace Centre, walkable to Markt in 10 min.",
+    rounds: [
+      { question: "Atmosphere at the door", winner: "a", body: "Binnenstad wins — sleeping on canals, cathedral bells, the cliché Bruges." },
+      { question: "Day-tripper crush", winner: "b", body: "Sint-Anna gets none of the central tourist density. Binnenstad is unwalkable mid-day in season." },
+      { question: "Walkability to Markt", winner: "a", body: "Binnenstad is at the square. Sint-Anna is 10 min walk." },
+      { question: "Price", winner: "b", body: "Sint-Anna 15-25% cheaper than Binnenstad for equivalent product." },
+      { question: "Quiet sleep", winner: "b", body: "Sint-Anna residential past 11pm. Binnenstad has restaurant noise but quiets earlier than expected." },
+    ],
+    pickA: "Pick Binnenstad for first-time short trips where canal-at-the-door is the point.",
+    pickB: "Pick Sint-Anna for repeat visits, longer stays, families, anyone wanting calm with central proximity.",
+    bottomLine: "Binnenstad for the photo. Sint-Anna for value and quiet.",
+  },
+  // HEIDELBERG
+  {
+    slug: "altstadt-heidelberg-vs-neuenheim",
+    citySlug: "heidelberg", countrySlug: "germany",
+    aSlug: "altstadt-heidelberg", bSlug: "neuenheim",
+    aLabel: "Altstadt", bLabel: "Neuenheim",
+    metaTitle: "Altstadt vs Neuenheim: Where to Stay in Heidelberg",
+    metaDescription: "Heidelberg's Altstadt or Neckar-side Neuenheim? Real take on castle, families and price.",
+    intro: "Altstadt is the long Hauptstraße pedestrian core — castle above, Old Bridge below. Neuenheim is across the Neckar — leafy residential, walkable to Hauptstraße via Old Bridge.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Altstadt has castle access, Hauptstraße shopping, cathedral. Neuenheim has Philosophenweg view path." },
+      { question: "Family-friendly", winner: "b", body: "Neuenheim wins — leafy, calmer, family-aware streets." },
+      { question: "Walkability to Hauptstraße", winner: "a", body: "Altstadt is on the strip. Neuenheim is 5-10 min via Old Bridge." },
+      { question: "Quiet sleep", winner: "b", body: "Neuenheim residential past 10pm. Altstadt has student-bar overflow weekends." },
+      { question: "Price", winner: "b", body: "Neuenheim 15-20% cheaper than Altstadt for equivalent product." },
+    ],
+    pickA: "Pick Altstadt for first-time visits, sights-at-the-door priority.",
+    pickB: "Pick Neuenheim for families, light sleepers, longer stays.",
+    bottomLine: "Altstadt for first-timers. Neuenheim for families.",
+  },
+  // INNSBRUCK
+  {
+    slug: "altstadt-innsbruck-vs-wilten",
+    citySlug: "innsbruck", countrySlug: "austria",
+    aSlug: "altstadt-innsbruck", bSlug: "wilten",
+    aLabel: "Altstadt", bLabel: "Wilten",
+    metaTitle: "Altstadt vs Wilten: Where to Stay in Innsbruck",
+    metaDescription: "Innsbruck's medieval Altstadt or student-quarter Wilten? Real take on atmosphere, food, ski-access and price.",
+    intro: "Altstadt is the Golden Roof and arcaded medieval centre. Wilten is south — student-and-residential, dense affordable food, walkable to Altstadt in 15 min.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Altstadt has Golden Roof, Imperial Palace, cathedral. Wilten has the basilica but less iconic." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Wilten wins. Student-quarter density runs late. Altstadt closes earlier and tilts tourist-priced." },
+      { question: "Walkability to ski lifts", winner: "tied", body: "Both walk to the Hungerburgbahn funicular within 15 min. Equivalent." },
+      { question: "Quiet sleep", winner: "b", body: "Wilten residential past 11pm. Altstadt has weekend bar overflow." },
+      { question: "Price", winner: "b", body: "Wilten 20-30% cheaper than Altstadt for equivalent product." },
+    ],
+    pickA: "Pick Altstadt for first-time visits, sights focus, ski-trip stays.",
+    pickB: "Pick Wilten for budget-conscious longer stays, food-focused trips, anyone under 40.",
+    bottomLine: "Altstadt for first-timers. Wilten for value.",
+  },
+  // VERONA
+  {
+    slug: "citta-antica-vs-borgo-trento",
+    citySlug: "verona", countrySlug: "italy",
+    aSlug: "citta-antica", bSlug: "borgo-trento",
+    aLabel: "Città Antica", bLabel: "Borgo Trento",
+    metaTitle: "Città Antica vs Borgo Trento: Where to Stay in Verona",
+    metaDescription: "Verona's medieval core or leafy Borgo Trento? Real take on Arena access, families and price.",
+    intro: "Città Antica is the historic core inside the Adige loop — Arena, Piazza delle Erbe, Juliet's House. Borgo Trento is north across the river — leafy residential, neighborhood-trattorias, walkable to Arena in 15 min.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Città Antica has Arena, Piazza delle Erbe, Juliet's House. Borgo Trento has none of these iconic." },
+      { question: "Family-friendly", winner: "b", body: "Borgo Trento wins — calmer, leafy, family-aware. Città Antica's tourist crush is hard with kids." },
+      { question: "Restaurants past 10pm", winner: "b", body: "Borgo Trento has neighborhood-trattorias. Città Antica has tourist-priced central restaurants." },
+      { question: "Opera-festival access", winner: "a", body: "Città Antica is at the Arena. Borgo Trento is 15 min walk." },
+      { question: "Price", winner: "b", body: "Borgo Trento 20-30% cheaper than Città Antica, especially during opera season." },
+    ],
+    pickA: "Pick Città Antica for first-time visits, opera-festival stays, sights focus.",
+    pickB: "Pick Borgo Trento for families, longer stays, anyone wanting calmer Verona at lower prices.",
+    bottomLine: "Città Antica for opera and first-timers. Borgo Trento for families.",
+  },
+  // BATH
+  {
+    slug: "city-centre-bath-vs-widcombe",
+    citySlug: "bath", countrySlug: "united-kingdom",
+    aSlug: "city-centre-bath", bSlug: "widcombe",
+    aLabel: "City Centre", bLabel: "Widcombe",
+    metaTitle: "City Centre vs Widcombe: Where to Stay in Bath",
+    metaDescription: "Bath's central core or quieter Widcombe? Real take on Roman Baths, families and price.",
+    intro: "Bath's centre is around the Roman Baths and Royal Crescent. Widcombe is south across Pulteney Bridge — Sydney Gardens, residential calm, walkable to the Baths in 10-15 min.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "City Centre has Roman Baths, Royal Crescent, Pulteney Bridge. Widcombe has Sydney Gardens." },
+      { question: "Family-friendly", winner: "b", body: "Widcombe wins — Sydney Gardens, calmer streets, family-aware." },
+      { question: "Walkability to Roman Baths", winner: "a", body: "City Centre is at the Baths. Widcombe is 10-15 min walk." },
+      { question: "Quiet sleep", winner: "b", body: "Widcombe residential past 10pm. City Centre has weekend pub-crawl noise." },
+      { question: "Price", winner: "b", body: "Widcombe 15-25% cheaper than City Centre for equivalent product." },
+    ],
+    pickA: "Pick City Centre for first-time visits, single-night stays, anyone wanting Baths-at-the-door.",
+    pickB: "Pick Widcombe for families, light sleepers, longer stays.",
+    bottomLine: "City Centre for first-timers. Widcombe for families.",
+  },
+  // LJUBLJANA
+  {
+    slug: "stari-grad-ljubljana-vs-trnovo",
+    citySlug: "ljubljana", countrySlug: "slovenia",
+    aSlug: "stari-grad-ljubljana", bSlug: "trnovo",
+    aLabel: "Stari Grad", bLabel: "Trnovo",
+    metaTitle: "Stari Grad vs Trnovo: Where to Stay in Ljubljana",
+    metaDescription: "Ljubljana's central old town or leafy Trnovo? Real take on castle access, food, families and price.",
+    intro: "Stari Grad is Ljubljana's central old town along the Ljubljanica — castle above, dense restaurants. Trnovo is south — leafy residential along the river, neighborhood-restaurants, walkable to Old Town in 15 min.",
+    rounds: [
+      { question: "Sights at door", winner: "a", body: "Stari Grad has castle access, Triple Bridge, the central pedestrian zone. Trnovo has Trnovo Bridge." },
+      { question: "Restaurants past 10pm", winner: "tied", body: "Stari Grad has tourist-priced central density. Trnovo has neighborhood-restaurant quality at slightly lower prices." },
+      { question: "Walkability to Old Town", winner: "a", body: "Stari Grad is the Old Town. Trnovo is 15 min walk." },
+      { question: "Family-friendly", winner: "b", body: "Trnovo wins — leafy residential, calmer streets. Stari Grad's cobbles are hard with strollers." },
+      { question: "Price", winner: "b", body: "Trnovo 15-20% cheaper than Stari Grad for equivalent product." },
+    ],
+    pickA: "Pick Stari Grad for first-time visits, sights focus, anyone wanting castle access.",
+    pickB: "Pick Trnovo for families, longer stays, locals' Ljubljana focus.",
+    bottomLine: "Stari Grad for sights. Trnovo for families.",
+  },
+  // TALLINN
+  {
+    slug: "tallinn-vanalinn-vs-kalamaja",
+    citySlug: "tallinn", countrySlug: "estonia",
+    aSlug: "telliskivi", bSlug: "kalamaja",
+    aLabel: "Telliskivi", bLabel: "Kalamaja",
+    metaTitle: "Telliskivi vs Kalamaja: Where to Stay in Tallinn",
+    metaDescription: "Tallinn's design Telliskivi or wooden-house Kalamaja? Real take on atmosphere, food and price.",
+    intro: "Both are non-Old-Town Tallinn alternatives. Telliskivi is the converted-industrial creative quarter — design hotels, restaurants, the creative-class spillover. Kalamaja is the wooden-house residential quarter just east — quieter, dense cafe-and-restaurant strip.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Telliskivi is converted-industrial-design. Kalamaja is wooden-house-residential. Pick on what you want." },
+      { question: "Restaurants past 10pm", winner: "a", body: "Telliskivi has dense converted-warehouse cluster. Kalamaja has more cafés and quieter restaurants." },
+      { question: "Walkability to Old Town", winner: "tied", body: "Both 10-15 min walk. Equivalent." },
+      { question: "Family-friendly", winner: "b", body: "Kalamaja wins — calmer wooden-house streets, family-aware." },
+      { question: "Price", winner: "tied", body: "Both 20-25% cheaper than Old Town. Equivalent to each other." },
+    ],
+    pickA: "Pick Telliskivi for design-focused trips, food-density priority.",
+    pickB: "Pick Kalamaja for families, longer stays, anyone wanting residential calm.",
+    bottomLine: "Telliskivi for design. Kalamaja for families.",
+  },
+  // WROCLAW
+  {
+    slug: "stare-miasto-wroclaw-vs-ostrow-tumski",
+    citySlug: "wroclaw", countrySlug: "poland",
+    aSlug: "stare-miasto-wroclaw", bSlug: "ostrow-tumski",
+    aLabel: "Stare Miasto", bLabel: "Ostrów Tumski",
+    metaTitle: "Stare Miasto vs Ostrów Tumski: Where to Stay in Wrocław",
+    metaDescription: "Wrocław's market-square Stare Miasto or cathedral-island Ostrów Tumski? Real take on atmosphere, romance and price.",
+    intro: "Stare Miasto is the market-square core — Rynek, dense restaurants. Ostrów Tumski is the cathedral island east — gas-lamps lit by hand at dusk, leafy religious quarter, calm.",
+    rounds: [
+      { question: "Atmosphere", winner: "tied", body: "Stare Miasto is market-square-tourist. Ostrów Tumski is cathedral-island-romantic. Different trips." },
+      { question: "Romance", winner: "b", body: "Ostrów Tumski wins — gas-lamps at dusk, the cathedral, leafy quiet." },
+      { question: "Restaurants", winner: "a", body: "Stare Miasto has Rynek-side density. Ostrów Tumski has 3-4 picks max." },
+      { question: "Walkability between", winner: "tied", body: "Both 10 min walk to each other. Equivalent." },
+      { question: "Price", winner: "b", body: "Ostrów Tumski runs slightly cheaper for equivalent product." },
+    ],
+    pickA: "Pick Stare Miasto for first-time visits, restaurant-focused short trips.",
+    pickB: "Pick Ostrów Tumski for romantic stays, photographers, repeat visits.",
+    bottomLine: "Stare Miasto for first-timers. Ostrów Tumski for romance.",
+  },
+  // YORK
+  {
+    slug: "within-walls-vs-bishophill",
+    citySlug: "york", countrySlug: "united-kingdom",
+    aSlug: "within-walls", bSlug: "bishophill",
+    aLabel: "Within the Walls", bLabel: "Bishophill",
+    metaTitle: "Within the Walls vs Bishophill: Where to Stay in York",
+    metaDescription: "York's medieval core or quieter Bishophill? Real take on Minster access, families and price.",
+    intro: "Within the Walls is the medieval core — Minster, Shambles, dozens of pubs. Bishophill is just south of the south-west walls — residential, the National Railway Museum nearby, calmer.",
+    rounds: [
+      { question: "Sights at your door", winner: "a", body: "Within the Walls has Minster, Shambles, Clifford's Tower. Bishophill has the Railway Museum." },
+      { question: "Family-friendly", winner: "b", body: "Bishophill wins — calmer, family-aware, Railway Museum at the door." },
+      { question: "Walkability to Minster", winner: "a", body: "Within the Walls is at the Minster. Bishophill is 10-15 min walk." },
+      { question: "Quiet sleep", winner: "b", body: "Bishophill residential past 10pm. Within the Walls has pub crawls and tourist noise." },
+      { question: "Price", winner: "b", body: "Bishophill 15-25% cheaper than Within the Walls for equivalent product." },
+    ],
+    pickA: "Pick Within the Walls for first-time visits, atmosphere-focused short trips, sights priority.",
+    pickB: "Pick Bishophill for families, light sleepers, train-museum focus, longer stays.",
+    bottomLine: "Within the Walls for first-timers. Bishophill for families.",
+  },
+);
+
+// =============================================================================
 // Lookup helpers — same shape as the rest of static-data.ts
 // =============================================================================
 

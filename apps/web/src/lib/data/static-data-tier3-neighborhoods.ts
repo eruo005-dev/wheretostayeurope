@@ -1422,4 +1422,85 @@ export const TIER3_NEIGHBORHOODS: StaticNeighborhood[] = [
     whoShouldSkip: "Short stays focused on Náměstí Svobody. First-time visitors.",
     priceTier: 2, vibeTags: ["students", "cafes", "lived-in", "central-ish"],
     tripTypeFit: ["solo", "digital-nomads", "couples"] },
+
+  // ========== EXPANSION BATCH 12: second nbhds for single-nbhd cities ==========
+  // Antalya additional
+  { slug: "lara-beach", name: "Lara Beach", citySlug: "antalya", countrySlug: "turkey",
+    summary: "East of central Antalya — long sand beach, big resort hotels, where most package tourists actually stay.",
+    whoItsFor: "Beach-resort focused trips. Families wanting hotel-pool combinations. All-inclusive bookings.",
+    whoShouldSkip: "Travelers wanting Old Town atmosphere (Kaleiçi wins). Anyone without a rental car.",
+    priceTier: 3, vibeTags: ["beach", "resort", "modern", "family"],
+    tripTypeFit: ["families", "luxury", "first-timers"] },
+
+  // Bruges additional
+  { slug: "sint-anna", name: "Sint-Anna", citySlug: "bruges", countrySlug: "belgium",
+    summary: "East of central Bruges — quieter residential, the Lace Centre, walkable to Markt in 10 min, dramatically cheaper.",
+    whoItsFor: "Repeat Bruges visitors. Light sleepers. Anyone wanting calm with central proximity.",
+    whoShouldSkip: "First-time visits where you want canal-and-belfry atmosphere at the door. Short stays.",
+    priceTier: 2, vibeTags: ["residential", "calm", "local", "leafy"],
+    tripTypeFit: ["couples", "families", "digital-nomads"] },
+
+  // Heidelberg additional
+  { slug: "neuenheim", name: "Neuenheim", citySlug: "heidelberg", countrySlug: "germany",
+    summary: "Across the Neckar from the Altstadt — leafy residential, walkable to Hauptstraße via Old Bridge in 5-10 min.",
+    whoItsFor: "Repeat visitors. Families. Light sleepers. Longer stays.",
+    whoShouldSkip: "Short stays focused on cobblestone-Altstadt atmosphere. Mobility-aware travelers (river crossings).",
+    priceTier: 2, vibeTags: ["leafy", "residential", "calm", "river"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
+
+  // Innsbruck additional
+  { slug: "wilten", name: "Wilten", citySlug: "innsbruck", countrySlug: "austria",
+    summary: "South of central Innsbruck — student-and-residential, dense affordable food, walkable to Altstadt in 15 min.",
+    whoItsFor: "Long stays. Solo travelers. Digital nomads. Budget-conscious trips.",
+    whoShouldSkip: "Short stays focused on Altstadt atmosphere. First-time visits.",
+    priceTier: 2, vibeTags: ["students", "residential", "cheap", "central-ish"],
+    tripTypeFit: ["solo", "digital-nomads", "budget"] },
+
+  // Verona additional
+  { slug: "borgo-trento", name: "Borgo Trento", citySlug: "verona", countrySlug: "italy",
+    summary: "Across the Adige north of Città Antica — leafy residential, dense neighborhood-trattorias, walkable to Arena in 15 min.",
+    whoItsFor: "Long stays. Families. Anyone over 35 wanting calm with central proximity.",
+    whoShouldSkip: "Short stays focused on Arena-and-Juliet atmosphere. Opera-festival visitors.",
+    priceTier: 2, vibeTags: ["residential", "leafy", "local", "calm"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
+
+  // Bath additional
+  { slug: "widcombe", name: "Widcombe", citySlug: "bath", countrySlug: "united-kingdom",
+    summary: "South of Bath's centre across the river — Sydney Gardens, residential calm, walkable to Roman Baths in 10-15 min.",
+    whoItsFor: "Couples. Light sleepers. Families. Longer stays.",
+    whoShouldSkip: "Short stays focused on Roman Baths walkability. Anyone wanting Pulteney-Bridge-at-the-door.",
+    priceTier: 2, vibeTags: ["residential", "calm", "garden", "leafy"],
+    tripTypeFit: ["couples", "families", "digital-nomads"] },
+
+  // Ljubljana additional
+  { slug: "trnovo", name: "Trnovo", citySlug: "ljubljana", countrySlug: "slovenia",
+    summary: "South of central Ljubljana — leafy residential along the Ljubljanica, dense neighborhood-restaurants, walkable to Old Town in 15 min.",
+    whoItsFor: "Long stays. Couples. Light sleepers. Anyone wanting locals' Ljubljana.",
+    whoShouldSkip: "Short stays focused on castle-and-old-town walkability. First-time visitors.",
+    priceTier: 2, vibeTags: ["residential", "river", "leafy", "calm"],
+    tripTypeFit: ["couples", "digital-nomads", "families"] },
+
+  // Tallinn additional
+  { slug: "kalamaja", name: "Kalamaja", citySlug: "tallinn", countrySlug: "estonia",
+    summary: "Northwest of Old Town — wooden-house quarter, design hotels, dense cafe-and-restaurant strip, where Tallinn's design crowd actually lives.",
+    whoItsFor: "Repeat Tallinn visitors. Design-focused trips. Long stays.",
+    whoShouldSkip: "First-time visits wanting medieval-walls-at-door. Short stays.",
+    priceTier: 2, vibeTags: ["design", "wooden", "creative", "calm"],
+    tripTypeFit: ["digital-nomads", "couples", "solo"] },
+
+  // Wroclaw additional
+  { slug: "ostrow-tumski", name: "Ostrów Tumski", citySlug: "wroclaw", countrySlug: "poland",
+    summary: "The cathedral island east of Stare Miasto — leafy religious quarter, gas-lamps still lit by hand at dusk, calm.",
+    whoItsFor: "Romantic stays. Couples. Anyone wanting the most-photogenic Wrocław setting.",
+    whoShouldSkip: "Short stays focused on market-square atmosphere. Mobility-limited (cobbled bridges).",
+    priceTier: 3, vibeTags: ["religious", "calm", "photogenic", "romantic"],
+    tripTypeFit: ["couples", "luxury", "first-timers"] },
+
+  // York additional
+  { slug: "bishophill", name: "Bishophill", citySlug: "york", countrySlug: "united-kingdom",
+    summary: "Just outside the south-west walls — residential, the National Railway Museum nearby, calmer than within-the-walls.",
+    whoItsFor: "Light sleepers. Families with cars. Train enthusiasts.",
+    whoShouldSkip: "Short stays focused on Minster-and-Shambles walkability. First-time visits.",
+    priceTier: 2, vibeTags: ["residential", "calm", "trains", "leafy"],
+    tripTypeFit: ["families", "couples", "digital-nomads"] },
 ];

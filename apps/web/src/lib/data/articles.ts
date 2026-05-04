@@ -4618,6 +4618,224 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 12 — niche topic guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-granada",
+    title: "Where to Stay in Granada: Albaicín or Realejo?",
+    excerpt: "Granada neighborhoods compared honestly. Real differences in Alhambra access, mobility, food and price.",
+    publishedAt: "2026-05-08",
+    reviewedAt: "2026-05-08",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Granada — Honest Neighborhood Guide",
+    metaDescription: "Granada neighborhoods compared honestly. Real differences in Alhambra access, mobility, food and price.",
+    html: `
+<p>Granada is hilly. The neighborhood pick is mostly about how steep you can handle and whether the Alhambra-view-photo or food-and-walkability matters more.</p>
+
+<h2>Albaicín — for the photo</h2>
+
+<p><a href="/en/spain/granada/albaicin">Albaicín</a> is the Moorish hill quarter facing the Alhambra — the Mirador de San Nicolás sunset is the iconic Granada photo. Steep cobbles, brutal with luggage. Best for: romantic stays, photo-focused trips, anyone able to handle steep walks.</p>
+
+<h2>Realejo — for walkability</h2>
+
+<p><a href="/en/spain/granada/realejo">Realejo</a> is the former Jewish quarter on the slope below the Alhambra — quieter than Albaicín, real restaurants, walkable to the Alhambra entrance in 10-15 min. Best for: repeat visits, food-focused trips, mobility-aware travelers.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels in the Cartuja or Zaidín districts:</strong> Suburban, you'll commute.</li>
+  <li><strong>Anywhere advertised as "5-min walk to Alhambra":</strong> Verify on a map — most claims are 20+ min uphill.</li>
+  <li><strong>Hotels with cars:</strong> Granada's centre is largely pedestrian; parking is limited and expensive.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>Photo, romance, light luggage: Albaicín. Food, repeat visits, mobility-aware: Realejo.</p>
+
+<p>Compare: <a href="/en/spain/granada/compare/albaicin-vs-realejo">Albaicín vs Realejo</a>.</p>
+
+<p>For broader Andalusia trips see <a href="/en/articles/europe-7-day-spain-itinerary">7-day Spain itinerary</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-art-lovers",
+    title: "Best European Cities for Art Lovers (Honest 2026 Picks)",
+    excerpt: "Honest ranking of European cities for art-focused trips — by museum density and quality, not by Instagram.",
+    publishedAt: "2026-05-08",
+    reviewedAt: "2026-05-08",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Art Lovers — Honest 2026 Ranking",
+    metaDescription: "Honest ranking of European cities for art-focused trips — by museum density and quality, not by Instagram.",
+    html: `
+<p>Art-trip lists are usually "Paris-Florence-Madrid" recycled. Here's the honest ranking by museum density and trip quality.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> Uffizi, Accademia, Bargello, Pitti Palace. Renaissance density unmatched. 3-4 nights minimum.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Prado, Reina Sofía, Thyssen — the "Golden Triangle" 5 min apart. The best art-trip city in Europe per kilometer.</li>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Louvre, Orsay, Pompidou, Rodin Museum, plus dozens of smaller. 5+ nights to scratch the surface.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Vatican Museums, Capitoline, Borghese (book ahead), Palazzo Massimo. Often overlooked vs Florence — Roman art is exceptional.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Rijksmuseum + Van Gogh + Stedelijk in 200m of each other in Museumplein.</li>
+</ul>
+
+<h2>Tier 2 — strong art-trip secondaries</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Belvedere (Klimt), Albertina, Kunsthistorisches, MAK. Excellent.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Picasso Museum, MNAC, Fundació Joan Miró + the Modernisme architecture itself.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Museum Island (Pergamon, Neues, Alte Nationalgalerie), Hamburger Bahnhof.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> The three Pinakotheken cluster — best art on a per-museum basis in Germany.</li>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> Accademia, Peggy Guggenheim, Punta della Dogana, Doge's Palace.</li>
+</ul>
+
+<h2>Tier 3 — surprising picks</h2>
+
+<ul>
+  <li><strong>Bilbao:</strong> Guggenheim Bilbao plus the Bellas Artes is a genuinely strong combination.</li>
+  <li><strong>Saint Petersburg (note: politics):</strong> Hermitage if accessible.</li>
+  <li><strong>The Hague:</strong> Mauritshuis (Vermeer's Girl with a Pearl Earring) plus modern art.</li>
+  <li><strong>Basel:</strong> Kunstmuseum, Beyeler Foundation, Vitra Design Museum nearby.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Buy timed tickets 2-3 months ahead for major museums (Uffizi, Vatican, Borghese, Van Gogh). Pace yourself — 2 museums per day is a maximum for retention.</p>
+
+<p>For Florence specifics see <a href="/en/articles/where-to-stay-in-florence">where to stay</a>. For Madrid see <a href="/en/articles/where-to-stay-in-madrid">Madrid guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-history-buffs",
+    title: "Best European Cities for History Buffs",
+    excerpt: "Honest picks for history-focused European trips — Roman, medieval, WWII, Soviet — where each era is best lived.",
+    publishedAt: "2026-05-08",
+    reviewedAt: "2026-05-08",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for History Buffs — Honest 2026 Picks",
+    metaDescription: "Honest picks for history-focused European trips — Roman, medieval, WWII, Soviet — where each era is best lived.",
+    html: `
+<p>"History" is too broad. Pick a era and the city pick changes completely. Here's the honest sort.</p>
+
+<h2>Roman</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> By definition. Forum, Colosseum, Pantheon, Ostia Antica.</li>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Sleep inside Diocletian's Palace.</li>
+  <li><strong>Pompeii (from Naples):</strong> The most-complete Roman city.</li>
+  <li><strong><a href="/en/italy/verona">Verona</a>:</strong> Roman arena still in use.</li>
+  <li><strong>Mérida, Spain:</strong> Underrated Roman amphitheater, theatre, museum.</li>
+</ul>
+
+<h2>Medieval</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Walled city.</li>
+  <li><strong><a href="/en/estonia/tallinn">Tallinn</a>:</strong> Best-preserved Hanseatic League old town.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Charles Bridge, castle, astronomical clock.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a>:</strong> Medieval canals, belfry, basilica.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Largest medieval square in Europe.</li>
+</ul>
+
+<h2>Renaissance</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> The cradle.</li>
+  <li><strong>Urbino, Italy:</strong> Underrated, walkable Renaissance court.</li>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> Doge's Palace, Frari, Scuola di San Rocco.</li>
+</ul>
+
+<h2>Habsburg / Imperial</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Hofburg, Schönbrunn, Belvedere.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Parliament, royal palace, ruin baths.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Imperial residences inside the castle.</li>
+</ul>
+
+<h2>WWII / Holocaust</h2>
+
+<ul>
+  <li><strong>Auschwitz from <a href="/en/poland/krakow">Kraków</a>:</strong> Heavy but essential.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Holocaust Memorial, Topography of Terror, Jewish Museum.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Anne Frank House, Jewish Cultural Quarter.</li>
+  <li><strong>Normandy from Bayeux:</strong> Beaches, museums, cemeteries.</li>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a>:</strong> War history continues into the 1990s siege.</li>
+</ul>
+
+<h2>Soviet / Cold War</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Wall remains, Checkpoint Charlie, DDR Museum.</li>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> Stasi Museum (Stasi Hohenschönhausen for the prison).</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Museum of Communism.</li>
+  <li><strong><a href="/en/estonia/tallinn">Tallinn</a>:</strong> KGB Museum, Soviet-era Maarjamäe Memorial.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> House of Terror, Memento Park (Soviet statues).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick an era and base in one city for that era. Stacking eras (Roman + medieval + WWII) means rushed museums and less depth. 4-5 nights per era-focused city beats hopping.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-nightlife",
+    title: "Best European Cities for Nightlife (Honest 2026 Ranking)",
+    excerpt: "Real ranking of European cities by nightlife depth — Berlin? Madrid? Belgrade? — and which cities to skip if that's the trip.",
+    publishedAt: "2026-05-08",
+    reviewedAt: "2026-05-08",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Nightlife — Honest Ranking",
+    metaDescription: "Real ranking of European cities by nightlife depth — Berlin? Madrid? Belgrade? — and which cities to skip if that's the trip.",
+    html: `
+<p>"Best nightlife" lists conflate club music, bar density, and "lively atmosphere" — these are different things. Here's the honest sort.</p>
+
+<h2>Tier 1 — destinations for the trip</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Club music capital. Berghain, Tresor, Watergate. <a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> for techno; <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> for late-bar density.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Latest dinner culture in Europe — Madrileños eat at 10pm, drink until 4am. Late kitchens are the rule, not the exception.</li>
+  <li><strong>Belgrade:</strong> The Danube splavovi (river clubs) plus the Savamala scene. Prices are a fraction of Western Europe.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> (specifically Bairro Alto):</strong> Narrow lanes turn into bar overflow Thursday-Sunday until 3am.</li>
+</ul>
+
+<h2>Tier 2 — strong nightlife cities</h2>
+
+<ul>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Ruin bars (<a href="/en/hungary/budapest/district-vii">District VII</a>) are unique. Loud Thursday-Sunday until 4am.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Beach clubs in summer plus inland bar scenes (<a href="/en/spain/barcelona/el-born">El Born</a>, <a href="/en/spain/barcelona/gracia">Gràcia</a>).</li>
+  <li><strong><a href="/en/germany/hamburg">Hamburg</a> (Reeperbahn):</strong> Music venues plus St. Pauli intensity.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a> (Kazimierz):</strong> Bar courtyards, dense, cheap.</li>
+  <li><strong>Amsterdam (specific quarters):</strong> <a href="/en/netherlands/amsterdam/de-pijp">De Pijp</a> for bars, less for clubs.</li>
+</ul>
+
+<h2>Tier 3 — surprising picks</h2>
+
+<ul>
+  <li><strong>Tbilisi (outside EU):</strong> Bassiani is one of Europe's serious techno clubs.</li>
+  <li><strong>Warsaw:</strong> Praga district has converted-warehouse bars and clubs.</li>
+  <li><strong>Bucharest:</strong> Lipscani has a real bar density that surprises.</li>
+</ul>
+
+<h2>Where it doesn't work</h2>
+
+<ul>
+  <li><strong>London:</strong> Last orders culture (11pm-1am most pubs). Clubs exist but the all-night feel is missing.</li>
+  <li><strong>Amsterdam Centrum:</strong> Stag-do tourism, not nightlife.</li>
+  <li><strong>Paris:</strong> Bars close earlier than expected (1-2am most nights).</li>
+  <li><strong>Most Italian cities:</strong> Italians eat late but drink less; nightlife is dinner-and-passeggiata.</li>
+  <li><strong>Most Greek islands beyond Mykonos:</strong> Quiet after dinner.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick the city for the music or scene you want. Berlin for techno is different from Madrid for late dinners is different from Belgrade for splavovi. They're not interchangeable.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

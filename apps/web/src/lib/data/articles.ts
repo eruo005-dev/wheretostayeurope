@@ -1631,6 +1631,931 @@ ARTICLES.push(
   }
 );
 
+// =============================================================================
+// EXPANSION BATCH 3 — destination-specific guides, comparison articles,
+// itinerary pieces, niche guides. Same voice rules.
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "lisbon-vs-porto-which-portuguese-city",
+    title: "Lisbon vs Porto: Which Portuguese City Should You Pick?",
+    excerpt: "Lisbon's hills, fado and weight or Porto's port-wine valley intimacy? Real differences and how to decide.",
+    publishedAt: "2026-04-20",
+    reviewedAt: "2026-04-20",
+    metaTitle: "Lisbon vs Porto: Which Portuguese City Should You Pick?",
+    metaDescription: "Lisbon's hills, fado and weight or Porto's port-wine valley intimacy? Real differences and how to decide.",
+    readingTimeMin: 9,
+    html: `
+<p>For most travelers it's binary — Portugal means Lisbon or Porto, with the rest of the country added as day trips. The pick is more interesting than tourism marketing makes it.</p>
+
+<h2>Lisbon: the capital trip</h2>
+
+<p>Lisbon is bigger, hillier, more international. The Alfama and Chiado neighborhoods deliver the cliché — pastel buildings, trams climbing through narrow lanes, viewpoints over the Tejo. The city sprawls — you'll use Uber more than you expect.</p>
+
+<p>Trip type: 3-4 nights minimum. Worth combining with Sintra (45 min by train) and the beach at Cascais. <a href="/en/portugal/lisbon">Where to stay in Lisbon</a>.</p>
+
+<h2>Porto: the smaller, denser, river-and-port version</h2>
+
+<p>Porto is the Douro-valley capital — Ribeira on the river is the postcard, but the city is best lived from <a href="/en/portugal/porto/baixa">Baixa</a> on the flat top. The whole walkable centre fits in 2 km. Port lodges across the river in Vila Nova de Gaia are the food trip. The Douro Valley wine country starts 90 min east.</p>
+
+<p>Trip type: 2-3 nights, often combined with a Douro-Valley overnight. Atmospheric, dense, easy to feel done in 3 days.</p>
+
+<h2>How to choose</h2>
+
+<ul>
+  <li><strong>First time in Portugal, single city:</strong> Lisbon — bigger, more variety, more day-trip options.</li>
+  <li><strong>Wine focus:</strong> Porto — port lodges and Douro wine country at the door.</li>
+  <li><strong>Surf or beach focus:</strong> Lisbon — Cascais, Carcavelos, Ericeira nearby.</li>
+  <li><strong>Smaller, slower trip:</strong> Porto — easier to feel like you've covered the city in 3 days.</li>
+  <li><strong>Both:</strong> 5-7 nights total, train between them in 3 hours, Lisbon first.</li>
+</ul>
+
+<h2>Cost difference</h2>
+
+<p>Porto runs 15-20% cheaper than Lisbon for equivalent product. Both are still cheaper than France or Italy.</p>
+
+<p>For deeper Portugal context see <a href="/en/articles/spain-or-portugal-which-and-why">Spain or Portugal</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "rome-vs-florence-where-to-spend-more-nights",
+    title: "Rome vs Florence: Where to Spend More Nights",
+    excerpt: "On a 7-day Italy trip, where do you spend more time? Honest take on density, food, sights and walkability.",
+    publishedAt: "2026-04-20",
+    reviewedAt: "2026-04-20",
+    metaTitle: "Rome vs Florence: Where to Spend More Nights",
+    metaDescription: "On a 7-day Italy trip, where do you spend more time? Honest take on density, food, sights and walkability.",
+    readingTimeMin: 8,
+    html: `
+<p>The most common Italy mistake is splitting time evenly between Rome, Florence and Venice. Done right, it's 4 nights Rome, 2 Florence, 2 Venice. Here's why Rome wins the time tax.</p>
+
+<h2>Rome rewards more nights</h2>
+
+<p>Rome has 3-4 distinct trip types stacked together — ancient Rome (Forum-Colosseum-Pantheon), Vatican Rome (St. Peter's, museums), neighborhood Rome (<a href="/en/italy/rome/trastevere">Trastevere</a>, <a href="/en/italy/rome/monti">Monti</a>), and food Rome (Testaccio market, the Jewish Ghetto). Each needs a day.</p>
+
+<p>3 nights is the minimum to scratch the surface. 5 nights is when neighborhoods open up.</p>
+
+<h2>Florence is denser and finishes faster</h2>
+
+<p>Florence is small. The whole walkable historic core fits in 1.5 km. Two days hits the Uffizi, Accademia (David), Duomo, Ponte Vecchio, Boboli Gardens, Oltrarno. Three days is comfortable. Four+ feels redundant unless you're using it as a Tuscany base.</p>
+
+<h2>Tuscany day-trips change the math</h2>
+
+<p>If your Florence stay includes Siena, San Gimignano, Pisa or Chianti day-trips, add nights. Direct trains from Florence cover all of these in 30-90 min.</p>
+
+<h2>Where Florence wins</h2>
+
+<ul>
+  <li><strong>Renaissance art density:</strong> the Uffizi-Accademia-Bargello cluster is unmatched in Italy.</li>
+  <li><strong>Walkability:</strong> Florence has no Roman traffic, no metro needed.</li>
+  <li><strong>Smaller and more intimate:</strong> easier to feel a sense of completion.</li>
+</ul>
+
+<h2>The honest 7-day Italy split</h2>
+
+<p>Rome 4 nights → train to Florence (90 min) → Florence 2 nights → train to Venice (2h) → Venice 1 night. <a href="/en/articles/europe-by-train-which-city-pairs-actually-work">More Italian train pairs</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-london-by-area",
+    title: "Where to Stay in London by Area: Honest Neighborhood Guide",
+    excerpt: "Bloomsbury, South Ken, Shoreditch or Covent Garden? Real differences in price, transport, sights and which area fits each trip.",
+    publishedAt: "2026-04-22",
+    reviewedAt: "2026-04-22",
+    metaTitle: "Where to Stay in London by Area: Honest Neighborhood Guide",
+    metaDescription: "Bloomsbury, South Ken, Shoreditch or Covent Garden? Real differences in price, transport, sights and which area fits each trip.",
+    readingTimeMin: 11,
+    html: `
+<p>London is the European city where the wrong neighborhood costs you most — Tube transfers add up to an hour of your day. Here's how to think about the major candidate areas.</p>
+
+<h2>Bloomsbury — the underrated central pick</h2>
+
+<p><a href="/en/united-kingdom/london/bloomsbury">Bloomsbury</a> is the literary district north of the Strand — British Museum, garden squares, university quarter. Walkable to Covent Garden in 10 min. Calmer than the West End, cheaper than Mayfair, well-connected to St. Pancras (Eurostar). Best for: longer stays, museum-focused trips, theatre-and-museum combinations.</p>
+
+<h2>South Kensington — for families and museums</h2>
+
+<p><a href="/en/united-kingdom/london/south-kensington">South Ken</a> has 3 major museums (V&A, Natural History, Science Museum) and Hyde Park at the door. Wealthy residential, garden squares. Best for: families with young kids, museum-heavy itineraries, anyone wanting calm.</p>
+
+<h2>Covent Garden — for theatre</h2>
+
+<p><a href="/en/united-kingdom/london/covent-garden">Covent Garden</a> is theatre-and-shopping central. West End theatres are 2-5 min walk. Tourist-dense and pricey, but the most central position for people whose trip is shows-and-Strand.</p>
+
+<h2>Shoreditch — for evenings and design</h2>
+
+<p><a href="/en/united-kingdom/london/shoreditch">Shoreditch</a> is the east-end creative quarter — design hotels, late-night kitchens, street art. Best for: evening-focused stays, design-conscious travelers, anyone over 25 who wants the lived-in London. Tube to West End is 15-20 min.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>"Near Paddington":</strong> only worth it for a 5am Heathrow Express. Otherwise dull.</li>
+  <li><strong>Earl's Court / Bayswater:</strong> tourist hotel ghetto, soulless, mediocre food.</li>
+  <li><strong>King's Cross hotels marketed as "central":</strong> fine for transit but unromantic.</li>
+  <li><strong>Anything advertised as "cheap London":</strong> usually 45+ min Tube to anything you want to do.</li>
+</ul>
+
+<h2>Picking the right side of central</h2>
+
+<p>For first-timers without a strong preference, default to Bloomsbury. It's the under-marketed pick that nearly always works.</p>
+
+<p>Compare specific pairs: <a href="/en/united-kingdom/london/compare/bloomsbury-vs-shoreditch">Bloomsbury vs Shoreditch</a>, <a href="/en/united-kingdom/london/compare/south-kensington-vs-bloomsbury">South Ken vs Bloomsbury</a>, <a href="/en/united-kingdom/london/compare/shoreditch-vs-covent-garden">Shoreditch vs Covent Garden</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-berlin-by-neighborhood",
+    title: "Where to Stay in Berlin by Neighborhood",
+    excerpt: "Mitte, Kreuzberg, Prenzlauer Berg or Friedrichshain? Honest take on noise, food, families and which Berlin trip each suits.",
+    publishedAt: "2026-04-22",
+    reviewedAt: "2026-04-22",
+    metaTitle: "Where to Stay in Berlin by Neighborhood",
+    metaDescription: "Mitte, Kreuzberg, Prenzlauer Berg or Friedrichshain? Honest take on noise, food, families and which Berlin trip each suits.",
+    readingTimeMin: 10,
+    html: `
+<p>Berlin's neighborhoods read as functionally separate cities. The wrong choice can ruin a 3-night trip. Here's the honest breakdown.</p>
+
+<h2>Mitte — for first-timers</h2>
+
+<p><a href="/en/germany/berlin/mitte">Mitte</a> is the central tourist-and-business core. Brandenburg Gate, Museum Island, Reichstag are all 5-15 min walk. Polished, slightly expensive, well-served by tube. Best for: first-time visits, sights-focused short trips, anyone over 50.</p>
+
+<h2>Kreuzberg — for food and evenings</h2>
+
+<p><a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> is the Turkish-and-creative quarter south of the river. Markthalle Neun, dense Turkish-Vietnamese-craft food, late-night bars, Görli park. The most evening-rich part of the city. Best for: food-focused trips, anyone under 40, second visits.</p>
+
+<h2>Prenzlauer Berg — for families and longer stays</h2>
+
+<p><a href="/en/germany/berlin/prenzlauer-berg">Prenzlauer Berg</a> is leafy, restored Altbau, family-aware. Mauerpark on weekends. Calmer evenings, brunchier mornings. Best for: families with kids, longer stays, anyone over 35 wanting calm.</p>
+
+<h2>Friedrichshain — for techno and budget</h2>
+
+<p><a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> is east of Kreuzberg — Berghain, RAW Gelände, the late-late nightlife. Slightly cheaper than Kreuzberg, less central, the deep techno Berlin. Best for: under-30 trips focused on the club scene.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Charlottenburg:</strong> wealthy West Berlin, but most travelers don't want the West-Berlin trip.</li>
+  <li><strong>Anything near Hauptbahnhof:</strong> sterile, far from anything good to eat.</li>
+  <li><strong>Tegel-area hotels:</strong> the airport closed; this is now distant suburbia.</li>
+  <li><strong>"Berlin Mitte" listings actually in Wedding or Moabit:</strong> read the postal code (Mitte is 10117/10119/10115).</li>
+</ul>
+
+<h2>Picking quickly</h2>
+
+<p>First-time, sights-focused: Mitte. Food-and-evening focus, second visit: Kreuzberg. Family or longer stay: Prenzlauer Berg. Techno trip: Friedrichshain.</p>
+
+<p>Compare: <a href="/en/germany/berlin/compare/mitte-vs-kreuzberg">Mitte vs Kreuzberg</a>, <a href="/en/germany/berlin/compare/kreuzberg-vs-prenzlauer-berg">Kreuzberg vs Prenzlauer Berg</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-amsterdam",
+    title: "Where to Stay in Amsterdam: Stop Defaulting to Centrum",
+    excerpt: "Why Centrum is the wrong default for most travelers, and which canal-quarters actually deliver the Amsterdam trip you came for.",
+    publishedAt: "2026-04-22",
+    reviewedAt: "2026-04-22",
+    metaTitle: "Where to Stay in Amsterdam: Stop Defaulting to Centrum",
+    metaDescription: "Why Centrum is the wrong default for most travelers, and which canal-quarters actually deliver the Amsterdam trip you came for.",
+    readingTimeMin: 9,
+    html: `
+<p>Amsterdam has the most-misallocated tourist nights in Europe. Centrum looks central on a map but is partly run as a stag-do destination, and most travelers wake up regretting it. Here's the honest pick map.</p>
+
+<h2>Jordaan — the default that nobody uses</h2>
+
+<p><a href="/en/netherlands/amsterdam/jordaan">Jordaan</a> is the canal-and-galleries quarter immediately west of Centrum. Leafy, locals-and-design, the cliché Amsterdam canals at the door. 15 min walk to Dam Square. The neighborhood that should be the first-timer default but mostly isn't because of how Booking.com markets things.</p>
+
+<h2>De Pijp — the food default</h2>
+
+<p><a href="/en/netherlands/amsterdam/de-pijp">De Pijp</a> is south of Singelgracht — Albert Cuyp market, the densest restaurant strip in the city, where Amsterdammers under 40 actually eat. Best for: food-focused trips, return visits.</p>
+
+<h2>Oud-West — for families and museums</h2>
+
+<p><a href="/en/netherlands/amsterdam/oud-west">Oud-West</a> is west of Vondelpark — leafy, slightly cheaper, walkable to Rijksmuseum and Van Gogh. Best for: families with young kids, longer stays, museum-focused trips.</p>
+
+<h2>Centrum — when actually right</h2>
+
+<p><a href="/en/netherlands/amsterdam/centrum">Centrum</a> works for: 1-night business trips, anyone needing Centraal Station logistics, single-night-then-train itineraries. Otherwise the stag-night noise and tourist-trap food are real costs.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Red Light District side of Centrum:</strong> deliberately marketed and almost always wrong.</li>
+  <li><strong>"Near Schiphol" hotels:</strong> only useful for very early or very late flights.</li>
+  <li><strong>Zuidas:</strong> business-park, dead at night, far from anything good.</li>
+  <li><strong>Any hotel advertising "5-min walk to Anne Frank":</strong> usually inflates by half.</li>
+</ul>
+
+<h2>Quick decision</h2>
+
+<p>First-time, 2-3 nights: Jordaan. Food-focused: De Pijp. Family with kids: Oud-West. Single night: Centrum.</p>
+
+<p>Compare: <a href="/en/netherlands/amsterdam/compare/jordaan-vs-de-pijp">Jordaan vs De Pijp</a>, <a href="/en/netherlands/amsterdam/compare/jordaan-vs-centrum">Jordaan vs Centrum</a>, <a href="/en/netherlands/amsterdam/compare/de-pijp-vs-oud-west">De Pijp vs Oud-West</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-istanbul",
+    title: "Where to Stay in Istanbul: Sultanahmet, Galata, Kadıköy or Beşiktaş?",
+    excerpt: "Each Istanbul neighborhood is a different trip. Real take on sights, food, transport and which area fits each visitor.",
+    publishedAt: "2026-04-23",
+    reviewedAt: "2026-04-23",
+    metaTitle: "Where to Stay in Istanbul: Sultanahmet, Galata, Kadıköy or Beşiktaş?",
+    metaDescription: "Each Istanbul neighborhood is a different trip. Real take on sights, food, transport and which area fits each visitor.",
+    readingTimeMin: 11,
+    html: `
+<p>Istanbul is the European city where the neighborhood pick changes the most. Sultanahmet is what shows up in searches; it's rarely the right answer beyond night one.</p>
+
+<h2>Sultanahmet — first night, sights only</h2>
+
+<p><a href="/en/turkey/istanbul/sultanahmet">Sultanahmet</a> has every imperial sight at the door — Hagia Sophia, Blue Mosque, Topkapi, Basilica Cistern. By 4pm the day-trippers leave and it goes quiet. The restaurants are tourist-priced; the streets feel themed. Best for: 1-2 nights, sights-focused first-timers.</p>
+
+<h2>Beyoğlu / Galata — the locals' Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul/beyoglu-galata">Beyoğlu (Galata + Karaköy)</a> is across the Golden Horn — the Galata Tower, İstiklal Avenue, the design hotels, the cocktail bars. Where most travel-savvy visitors actually base. Walkable to Sultanahmet via the Galata Bridge in 20 min. Best for: stays of 3+ nights, food-focused trips, return visitors.</p>
+
+<h2>Kadıköy — across the Bosphorus</h2>
+
+<p><a href="/en/turkey/istanbul/kadikoy">Kadıköy</a> is the Asian-side residential-and-market quarter. Moda is leafy, fish markets, the densest local food in the city. Daily ferry to the European side. Best for: longer stays, food-focused trips, anyone wanting real local life.</p>
+
+<h2>Beşiktaş — Bosphorus residential</h2>
+
+<p><a href="/en/turkey/istanbul/besiktas">Beşiktaş</a> is north along the Bosphorus — football quarter, Dolmabahçe Palace nearby, ferries up the strait leave from here. Cheaper than Beyoğlu, less iconic. Best for: budget-conscious trips, return visits, anyone whose trip is up-the-Bosphorus focused.</p>
+
+<h2>The honest itinerary</h2>
+
+<p>For a 5-night first trip: 1 night Sultanahmet (so you wake up to Hagia Sophia at 6am), then move to Galata for 4 nights. The two-base approach beats any single neighborhood.</p>
+
+<p>Compare: <a href="/en/turkey/istanbul/compare/sultanahmet-vs-beyoglu-galata">Sultanahmet vs Galata</a>, <a href="/en/turkey/istanbul/compare/beyoglu-vs-kadikoy">Galata vs Kadıköy</a>, <a href="/en/turkey/istanbul/compare/sultanahmet-vs-besiktas">Sultanahmet vs Beşiktaş</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-honeymoon",
+    title: "Best European Cities for a Honeymoon",
+    excerpt: "Honest list of European cities where the romantic-honeymoon-trip works in person — and which famous ones disappoint.",
+    publishedAt: "2026-04-24",
+    reviewedAt: "2026-04-24",
+    metaTitle: "Best European Cities for a Honeymoon",
+    metaDescription: "Honest list of European cities where the romantic-honeymoon-trip works in person — and which famous ones disappoint.",
+    readingTimeMin: 11,
+    html: `
+<p>Most "best honeymoon cities" lists are recycled tourism marketing. Here's what actually delivers in person, ranked by traveler-satisfaction reality not Instagram density.</p>
+
+<h2>1. Santorini (specifically Imerovigli, not Oia)</h2>
+
+<p><a href="/en/greece/santorini/imerovigli">Imerovigli</a> on the caldera ridge is the Santorini honeymoon experience without Oia's 1500-strangers-at-sunset crush. Same view, calmer setting. <a href="/en/greece/santorini">More on Santorini</a>.</p>
+
+<h2>2. Bruges (in October-November)</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> off-season is quiet, candlelit, and cold enough that the canals frost. The summer day-tripper crowds vanish after 6pm even in season. 2-3 nights max — it's small.</p>
+
+<h2>3. Lake Como (specifically Varenna)</h2>
+
+<p>The cliché works. Varenna is the smaller, less-touristy alternative to Bellagio with the same lake views and dramatically better restaurants.</p>
+
+<h2>4. Florence (4+ nights)</h2>
+
+<p><a href="/en/italy/florence">Florence</a> rewards romance — Renaissance art, Tuscan dinners, river-walks at sunset. Pick <a href="/en/italy/florence/oltrarno">Oltrarno</a> over Santa Croce for the quieter side.</p>
+
+<h2>5. Cinque Terre (Vernazza)</h2>
+
+<p>Vernazza is the calmest of the five villages and the prettiest at sunset. 2-3 nights is enough — overnight to see it without day-trippers.</p>
+
+<h2>6. Cappadocia (Uçhisar specifically)</h2>
+
+<p><a href="/en/turkey/cappadocia/uchisar">Uçhisar</a> for the cave-hotel-with-balloon-view honeymoon. The most dramatic landscape on this list, and the highest-end hotels are exceptional. <a href="/en/turkey/cappadocia/compare/goreme-vs-uchisar">Why Uçhisar over Göreme</a>.</p>
+
+<h2>7. Salzburg (off Mozart-festival weeks)</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> in autumn or pre-Christmas is small, romantic, with the fortress and the Mirabell gardens. Skip late-July through August.</p>
+
+<h2>What gets recommended but disappoints</h2>
+
+<ul>
+  <li><strong>Paris in summer:</strong> hot, crowded, pickpocket-heavy. Off-season Paris is the romantic version.</li>
+  <li><strong>Venice in July:</strong> day-tripper crush is brutal. Venice off-season is magic.</li>
+  <li><strong>Mykonos:</strong> party island. Honeymooners go to Santorini for a reason.</li>
+  <li><strong>Amalfi Coast in August:</strong> traffic, prices, crowds — November is when it works.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>The honest honeymoon math: pick fewer cities for longer. 7 nights split between 2 destinations beats 7 nights split between 4. Save the "cover Europe" trip for a different vacation.</p>
+
+<p>For off-season specifics see <a href="/en/articles/off-season-romance-cities-honest-list">off-season romance cities</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-3-day-trip",
+    title: "Best European Cities for a 3-Day Trip",
+    excerpt: "Cities that deliver a complete trip in 72 hours — and which famous ones need 5+ nights to make sense.",
+    publishedAt: "2026-04-24",
+    reviewedAt: "2026-04-24",
+    metaTitle: "Best European Cities for a 3-Day Trip",
+    metaDescription: "Cities that deliver a complete trip in 72 hours — and which famous ones need 5+ nights to make sense.",
+    readingTimeMin: 9,
+    html: `
+<p>3 days is the sweet spot for a long weekend. Some cities are perfect for it; others are insulted by it. Here's the honest map.</p>
+
+<h2>Cities that work in 3 days</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/porto">Porto</a>:</strong> Compact, walkable, the centre is 2 km wide. Two days for the city, one for the Douro Valley.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> Old town, Alcázar, cathedral, evening tapas crawl in <a href="/en/spain/seville/alameda-de-hercules">Alameda</a>. Three days exactly.</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Old town in one day, walls in half a day, swim or boat trip in the third.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Old town, fortress, Mozart sites, Sound of Music tour fill 3 days perfectly.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Old town, Kazimierz, Auschwitz day trip, Wieliczka half-day. Tight but possible.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a>:</strong> Honestly only needs 2 — canal tour, beer hall crawl, day-trip to Ghent. 3 if combining with surrounding Flanders.</li>
+  <li><strong><a href="/en/slovenia/ljubljana">Ljubljana</a>:</strong> Compact capital, plus a Bled day-trip.</li>
+</ul>
+
+<h2>Cities that need 5+ nights to make sense</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> 4 nights minimum. Trying to do Rome in 3 days is the most common Italy mistake.</li>
+  <li><strong><a href="/en/united-kingdom/london">London</a>:</strong> 4-5 nights. Tube transfers eat real time and the city sprawls.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> 4 nights — neighborhoods are functionally separate cities.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> 5 nights to do both sides of the Bosphorus.</li>
+  <li><strong><a href="/en/greece/athens">Athens</a> + islands:</strong> 7-10 nights minimum for the proper version.</li>
+</ul>
+
+<h2>The 3-day rule</h2>
+
+<p>If a city's main draw fits in two days, 3 nights is the trip. If it has 4+ distinct day-types stacked, you're under-staying. Save Rome and Istanbul for proper 5-night trips and use the 3-day weekend on cities that finish.</p>
+
+<p>For exact day allocations see <a href="/en/articles/how-many-days-each-european-city">how many days each city</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-rail-pass-vs-point-to-point",
+    title: "Eurail Pass vs Point-to-Point Tickets: Which Wins?",
+    excerpt: "When the rail pass actually saves money, when it doesn't, and how to think about your specific itinerary.",
+    publishedAt: "2026-04-25",
+    reviewedAt: "2026-04-25",
+    metaTitle: "Eurail Pass vs Point-to-Point Tickets: Which Wins?",
+    metaDescription: "When the rail pass actually saves money, when it doesn't, and how to think about your specific itinerary.",
+    readingTimeMin: 8,
+    html: `
+<p>The Eurail Pass is one of travel's most-marketed and least-understood products. For half the trips that buy one, point-to-point tickets are cheaper. Here's the honest math.</p>
+
+<h2>When Eurail wins</h2>
+
+<ul>
+  <li><strong>4+ countries in 2-3 weeks:</strong> The classic backpacker itinerary. The pass beats individual tickets by 20-40%.</li>
+  <li><strong>Mostly Germany or Italy:</strong> Both have sane internal pricing where the pass complements the long-distance ICE/Frecciarossa trains.</li>
+  <li><strong>Flexible itinerary:</strong> If you're booking 1-2 weeks ahead, pass tickets are often cheaper than walk-up fares.</li>
+  <li><strong>Heavy use of overnight trains:</strong> Sleeper supplements with a pass are usually €30-€40; the cabin alone bought separately runs €120+.</li>
+</ul>
+
+<h2>When point-to-point wins</h2>
+
+<ul>
+  <li><strong>2 cities in 1 country:</strong> Single-country tickets in Germany, France, Italy, Spain bought 3+ months out are 50-70% off.</li>
+  <li><strong>France-heavy itinerary:</strong> SNCF requires reservation fees on top of the pass — you pay twice.</li>
+  <li><strong>Spain-heavy itinerary:</strong> Renfe's advance fares are aggressive; passes are wasted.</li>
+  <li><strong>Anywhere with budget airlines undercutting:</strong> Some pairs (Berlin-Rome, London-Athens) are dramatically cheaper to fly.</li>
+</ul>
+
+<h2>The bigger question</h2>
+
+<p>The smartest play is often to buy single-country passes (Eurail Germany Pass, Italy Pass, etc.) for the country where you're moving most, then point-to-point for cross-border legs. This beats the multi-country pass for many real trips.</p>
+
+<h2>Run the numbers</h2>
+
+<p>Sketch your route, get walk-up fares for each leg from each operator's site (DB, SNCF, Trenitalia, Renfe, ÖBB), sum them, then compare to a 4-day or 7-day Eurail Pass with reservation fees added back in. Half the time the pass loses.</p>
+
+<p>For specific train pairs see <a href="/en/articles/europe-by-train-which-city-pairs-actually-work">Europe by train</a>. For broader train-vs-flight thinking see <a href="/en/articles/european-train-vs-flight-how-to-decide">train vs flight</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-vienna",
+    title: "Where to Stay in Vienna: District 1, 7 or 2?",
+    excerpt: "Vienna's neighborhoods compared honestly. Real differences in price, food, sights and which district fits each trip.",
+    publishedAt: "2026-04-25",
+    reviewedAt: "2026-04-25",
+    metaTitle: "Where to Stay in Vienna: District 1, 7 or 2?",
+    metaDescription: "Vienna's neighborhoods compared honestly. Real differences in price, food, sights and which district fits each trip.",
+    readingTimeMin: 8,
+    html: `
+<p>Vienna is the European capital where pricing varies most by district. Here's how to think about the major candidates.</p>
+
+<h2>District 1 (Innere Stadt) — for first-timers</h2>
+
+<p><a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> is the imperial core — Stephansdom, Hofburg, the opera. Walking-distance to everything iconic. Premium pricing (€180-€350 for decent hotels). Best for: 1-2 night first visits, sights-focused short trips.</p>
+
+<h2>District 7 (Neubau) — for design and food</h2>
+
+<p><a href="/en/austria/vienna/neubau">Neubau</a> is southwest of the Innere Stadt — design quarter, MuseumsQuartier nearby, Spittelberg's narrow lanes. Walkable to District 1 in 10-15 min. Cheaper than central. Best for: 3+ night stays, food-focused trips, design-conscious travelers.</p>
+
+<h2>District 2 (Leopoldstadt) — the underused alternative</h2>
+
+<p><a href="/en/austria/vienna/leopoldstadt">Leopoldstadt</a> is across the Danube canal — formerly Jewish, now affordable-and-real, with the Prater amusement park. 25-35% cheaper than District 1 for equivalent product. Best for: budget-conscious trips, longer stays, anyone over the District-1 premium.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside the Gürtel:</strong> Districts 14-23 are suburban; you'll commute to anything good.</li>
+  <li><strong>Hotels marketed as "near Schwechat":</strong> Airport area, dead at night.</li>
+  <li><strong>Chain hotels in District 4 not near Karlsplatz:</strong> Often dull and unwalkable.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, 1-2 nights, sights focus: District 1. Longer stay, food focus: District 7. Budget or longer stay: District 2.</p>
+
+<p>Compare: <a href="/en/austria/vienna/compare/innere-stadt-vs-neubau">Innere Stadt vs Neubau</a>, <a href="/en/austria/vienna/compare/innere-stadt-vs-leopoldstadt">Innere Stadt vs Leopoldstadt</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-prague",
+    title: "Where to Stay in Prague: Old Town vs Mala Strana vs Vinohrady",
+    excerpt: "Prague neighborhoods compared honestly. Real differences in tourist crush, restaurants, sleep and price.",
+    publishedAt: "2026-04-25",
+    reviewedAt: "2026-04-25",
+    metaTitle: "Where to Stay in Prague: Old Town vs Mala Strana vs Vinohrady",
+    metaDescription: "Prague neighborhoods compared honestly. Real differences in tourist crush, restaurants, sleep and price.",
+    readingTimeMin: 8,
+    html: `
+<p>Prague is the European capital where the wrong neighborhood costs the most in tourist crush. Here's the honest map.</p>
+
+<h2>Staré Město — the Old Town</h2>
+
+<p><a href="/en/czech-republic/prague/stare-mesto">Staré Město</a> is the medieval centre — Astronomical Clock, Charles Bridge, Old Town Square. Tourist-dense, restaurant volume but mostly tourist-priced, bar overflow on weekends. Best for: 1-2 nights first visit, sights-focused short trips.</p>
+
+<h2>Malá Strana — the castle-side</h2>
+
+<p><a href="/en/czech-republic/prague/mala-strana">Malá Strana</a> is across the Charles Bridge — castle-foot, Lennon Wall, the gardens. Quieter than Staré Město, prettier, romantic. Best for: romantic stays, light sleepers, castle-focused itineraries.</p>
+
+<h2>Vinohrady — for longer stays</h2>
+
+<p><a href="/en/czech-republic/prague/vinohrady">Vinohrady</a> is east of the centre — leafy, residential, walkable to Old Town in 15 min. Real restaurants, real price points, no tourist crush. Best for: 3+ night stays, second visits, families.</p>
+
+<h2>Žižkov — for indie-bar Prague</h2>
+
+<p><a href="/en/czech-republic/prague/zizkov">Žižkov</a> is east of Vinohrady — the most pubs per capita in the Czech Republic, the TV tower, indie-and-cheap. Best for: budget-conscious trips, beer-focused stays, anyone wanting the local Prague.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>"Near Hlavní nádraží" (main station):</strong> Cheap for a reason — sketchy at night.</li>
+  <li><strong>Karlín:</strong> The 2002-flood-rebuilt area. New, sterile, far from anything pretty.</li>
+  <li><strong>Anything Prague 4-15 marketed as "central":</strong> Suburban, you'll commute.</li>
+</ul>
+
+<h2>Pick quickly</h2>
+
+<p>First-time short: Staré Město. Romantic: Malá Strana. Longer or family: Vinohrady. Beer focus: Žižkov.</p>
+
+<p>Compare: <a href="/en/czech-republic/prague/compare/stare-mesto-vs-vinohrady">Staré Město vs Vinohrady</a>, <a href="/en/czech-republic/prague/compare/stare-mesto-vs-mala-strana">Staré Město vs Malá Strana</a>, <a href="/en/czech-republic/prague/compare/vinohrady-vs-zizkov">Vinohrady vs Žižkov</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-budapest",
+    title: "Where to Stay in Budapest: Pest, Buda or the Jewish Quarter?",
+    excerpt: "District V vs VI vs VII vs Buda compared honestly. Real differences in noise, food, romance and which fits each trip.",
+    publishedAt: "2026-04-25",
+    reviewedAt: "2026-04-25",
+    metaTitle: "Where to Stay in Budapest: Pest, Buda or the Jewish Quarter?",
+    metaDescription: "District V vs VI vs VII vs Buda compared honestly. Real differences in noise, food, romance and which fits each trip.",
+    readingTimeMin: 8,
+    html: `
+<p>Budapest is the European capital where a wrong neighborhood pick can yield either a brilliant trip or a sleep-deprivation case study. Here's the honest map.</p>
+
+<h2>District V (Belváros) — for first-timers</h2>
+
+<p><a href="/en/hungary/budapest/district-v">District V</a> is central Pest along the Danube — Parliament, Chain Bridge, Vörösmarty Square. Polished, calmer evenings, business-class restaurants. Best for: families, anyone over 50, first-timers.</p>
+
+<h2>District VII (Jewish Quarter) — for ruin bars</h2>
+
+<p><a href="/en/hungary/budapest/district-vii">District VII</a> is the famous ruin-bar quarter — Szimpla Kert, Instant, dense food and bars, the Great Synagogue. Loud Thursday-Sunday until 4am. Best for: under-30 trips focused on the bars.</p>
+
+<h2>District VI (Andrássy) — for opera and food</h2>
+
+<p><a href="/en/hungary/budapest/district-vi">District VI</a> is northeast along Andrássy Avenue — the State Opera, polished restaurants, the avenue itself. Calmer than District VII, livelier than V. Best for: opera trips, longer stays, food-focused 3+ nights.</p>
+
+<h2>Buda — for romance and quiet</h2>
+
+<p>Buda (the western, hilly side) is across the Danube — castle district, Fisherman's Bastion, residential calm. Best for: honeymoons, anyone wanting calm with the iconic-Budapest-photo from your hotel window.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>"Near Keleti station":</strong> Ground zero for sleazy tourist hotels and stag-do groups.</li>
+  <li><strong>Districts VIII or IX along the main roads:</strong> Avoid unless specifically researched.</li>
+  <li><strong>Margaret Island:</strong> Beautiful park but no nightlife — wrong for most trips.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>Family or first-time: District V. Ruin bars: District VII. Opera or longer stay: District VI. Honeymoon: Buda castle district.</p>
+
+<p>Compare: <a href="/en/hungary/budapest/compare/district-v-vs-district-vii">District V vs VII</a>, <a href="/en/hungary/budapest/compare/district-vi-vs-district-vii">District VI vs VII</a>, <a href="/en/hungary/budapest/compare/district-v-vs-district-vi">District V vs VI</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "european-cities-with-best-public-transport",
+    title: "European Cities With the Best Public Transport (and Worst)",
+    excerpt: "Where the metro genuinely replaces a car, where the trams are world-class, and which famous capitals are surprisingly hard to get around.",
+    publishedAt: "2026-04-26",
+    reviewedAt: "2026-04-26",
+    metaTitle: "European Cities With the Best Public Transport (and Worst)",
+    metaDescription: "Where the metro genuinely replaces a car, where the trams are world-class, and which famous capitals are surprisingly hard to get around.",
+    readingTimeMin: 9,
+    html: `
+<p>For any 4+ night trip, public transport quality affects how much you actually see. Here's the honest ranking from a traveler's perspective.</p>
+
+<h2>Best transport (you barely need taxis)</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> The U-Bahn covers every neighborhood. Trams fill the gaps. €17.10/week unlimited. Hard to beat.</li>
+  <li><strong>Berlin:</strong> Combined U-Bahn, S-Bahn, tram, bus network is dense. Single ticket transfers across all of them.</li>
+  <li><strong>Munich:</strong> Smaller than Berlin but the U-Bahn frequency is exceptional.</li>
+  <li><strong>Madrid:</strong> Cheapest big-city metro in Europe (€1.50-€2 per ride) and 12 lines.</li>
+  <li><strong>Stockholm:</strong> The metro art alone is worth riding. Reliable, clean, extensive.</li>
+  <li><strong>Helsinki:</strong> Trams are extensive in central; new metro extension covers Espoo.</li>
+  <li><strong>Prague:</strong> 3 metro lines plus the densest tram network in Europe.</li>
+</ul>
+
+<h2>Good transport with caveats</h2>
+
+<ul>
+  <li><strong>London:</strong> Tube is dense but slow with transfers. Plan stays around 1-2 lines max.</li>
+  <li><strong>Paris:</strong> Excellent metro but stations are far apart in some arrondissements.</li>
+  <li><strong>Amsterdam:</strong> Trams are great. Metro is limited. Bike is the actual answer.</li>
+  <li><strong>Lisbon:</strong> Metro covers central neighborhoods; trams 28 and 12 are picturesque but tourist-clogged.</li>
+</ul>
+
+<h2>Surprisingly hard to get around</h2>
+
+<ul>
+  <li><strong>Rome:</strong> Only 3 metro lines, two of which serve few sights. Walking and bus is the reality.</li>
+  <li><strong>Athens:</strong> Metro covers the centre but lots of sights are bus-only.</li>
+  <li><strong>Naples:</strong> Old metro is unreliable; new metro is beautiful but limited.</li>
+  <li><strong>Dublin:</strong> No metro. Just buses and the Luas tram, neither covering the airport well.</li>
+  <li><strong>Edinburgh:</strong> No metro. Buses are fine but tourists still walk most things.</li>
+</ul>
+
+<h2>Why it matters for booking</h2>
+
+<p>In Vienna or Berlin, almost any neighborhood works because transport saves you. In Rome or Athens, the wrong neighborhood adds 30 min of walking per day. The right base matters more in low-transport cities.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-madrid",
+    title: "Where to Stay in Madrid: Sol, Malasaña, Salamanca or La Latina?",
+    excerpt: "Madrid neighborhoods compared honestly. Real differences in food, noise, shopping, and which area fits each trip.",
+    publishedAt: "2026-04-26",
+    reviewedAt: "2026-04-26",
+    metaTitle: "Where to Stay in Madrid: Sol, Malasaña, Salamanca or La Latina?",
+    metaDescription: "Madrid neighborhoods compared honestly. Real differences in food, noise, shopping, and which area fits each trip.",
+    readingTimeMin: 9,
+    html: `
+<p>Madrid is denser and more walkable than most travelers expect. The neighborhood pick is about energy and price level, not distance — anywhere central reaches Prado in 20 min walk.</p>
+
+<h2>Malasaña — for food and design</h2>
+
+<p><a href="/en/spain/madrid/malasana">Malasaña</a> is north of Gran Vía — indie-rock vintage quarter, dense food and bar scene, Plaza Dos de Mayo as the social center. Best for: 3+ night stays, food-focused trips, anyone under 40.</p>
+
+<h2>La Latina — for the Sunday tapas tradition</h2>
+
+<p><a href="/en/spain/madrid/la-latina">La Latina</a> is south of Plaza Mayor — Cava Baja's tapas-bar density, the Rastro Sunday market, medieval lanes. Best for: weekend trips, food-tourists, anyone wanting the cliché Sunday-vermouth Madrid.</p>
+
+<h2>Salamanca — for shopping and quiet</h2>
+
+<p><a href="/en/spain/madrid/salamanca">Salamanca</a> is east of Retiro — designer shopping along Calle Serrano, residential prestige, calm evenings. Best for: shopping focus, families, anyone over 50.</p>
+
+<h2>Chueca — for design and LGBTQ+-friendly</h2>
+
+<p><a href="/en/spain/madrid/chueca">Chueca</a> is between Malasaña and Salamanca — Madrid's queer-friendly heart, design shops, cocktail-and-dinner dense. Best for: LGBTQ+ trips, design-focused stays, slightly older crowd than Malasaña.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Sol/Centro:</strong> Touristy, loud, tapas-bar churn but mostly tourist-priced quality.</li>
+  <li><strong>Anything near Atocha station marketed as "central":</strong> Often dingy.</li>
+  <li><strong>Tetuán or far Chamartín:</strong> Suburban, you'll commute.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>Food and bars: Malasaña. Sunday tapas: La Latina. Shopping or quiet: Salamanca. LGBTQ+ or cocktails: Chueca.</p>
+
+<p>Compare: <a href="/en/spain/madrid/compare/malasana-vs-salamanca">Malasaña vs Salamanca</a>, <a href="/en/spain/madrid/compare/malasana-vs-la-latina">Malasaña vs La Latina</a>, <a href="/en/spain/madrid/compare/chueca-vs-malasana">Chueca vs Malasaña</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-barcelona",
+    title: "Where to Stay in Barcelona: Eixample, Born, Gòtic or Gràcia?",
+    excerpt: "Honest Barcelona neighborhood guide. Why Las Ramblas hotels are a tourist trap and which quarters actually deliver the trip.",
+    publishedAt: "2026-04-26",
+    reviewedAt: "2026-04-26",
+    metaTitle: "Where to Stay in Barcelona: Eixample, Born, Gòtic or Gràcia?",
+    metaDescription: "Honest Barcelona neighborhood guide. Why Las Ramblas hotels are a tourist trap and which quarters actually deliver the trip.",
+    readingTimeMin: 10,
+    html: `
+<p>Barcelona has the most-misallocated tourist nights in Spain — Las Ramblas hotels are functionally a tourist trap. Here's the honest map of what actually works.</p>
+
+<h2>Eixample — the right central pick</h2>
+
+<p><a href="/en/spain/barcelona/eixample">Eixample</a> is the wide-grid 19th-century quarter with most of Gaudí's masterpieces (Casa Batlló, La Pedrera, Sagrada Família). Wide streets, real restaurants, walkable to anywhere central. Best for: first-time visits, sights-focused trips, anyone wanting the Modernisme architecture at the door.</p>
+
+<h2>El Born — for food and atmosphere</h2>
+
+<p><a href="/en/spain/barcelona/el-born">El Born</a> is the medieval lane-quarter east of the Gothic — Picasso Museum, Santa Maria del Mar, dense restaurants. Best for: food-focused trips, romantic stays, return visitors.</p>
+
+<h2>Gràcia — for the slow local Barcelona</h2>
+
+<p><a href="/en/spain/barcelona/gracia">Gràcia</a> is north of Eixample — village-feeling, plaza-life, locals-and-students. Walkable to Casa Vicens (a Gaudí). 25 min walk to old town. Best for: longer stays, anyone wanting calmer evenings, cheaper than central.</p>
+
+<h2>El Born vs Barri Gòtic</h2>
+
+<p>El Born wins for food. The Gothic Quarter (<a href="/en/spain/barcelona/barri-gotic">Barri Gòtic</a>) is more medieval but funnels everyone onto a few tourist streets. If you want medieval atmosphere, Born has it without the choke points.</p>
+
+<h2>Barceloneta — only for beach focus</h2>
+
+<p><a href="/en/spain/barcelona/barceloneta">Barceloneta</a> works only if your trip is sand-and-paella. Otherwise the 18th-century grid is unphotogenic and the cruise-passenger overflow is real.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Las Ramblas:</strong> Tourist-trap hotels with mid-quality rooms at premium prices.</li>
+  <li><strong>Plaça Catalunya chains:</strong> Sterile, central but generic.</li>
+  <li><strong>Anything near Sants station:</strong> Cheap for a reason.</li>
+  <li><strong>Far up Passeig de Gràcia:</strong> Calle Provença area is fine but the upper end gets corporate-bland.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, sights-focused: Eixample. Food-focused: El Born. Longer stays or quieter: Gràcia. Beach trip: Barceloneta.</p>
+
+<p>Compare: <a href="/en/spain/barcelona/compare/eixample-vs-barri-gotic">Eixample vs Barri Gòtic</a>, <a href="/en/spain/barcelona/compare/eixample-vs-el-born">Eixample vs El Born</a>, <a href="/en/spain/barcelona/compare/el-born-vs-gracia">El Born vs Gràcia</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-when-to-go-month-by-month",
+    title: "Europe Month by Month: When to Go Where",
+    excerpt: "Honest month-by-month guide to where Europe shines and where it disappoints. Avoid the August-Mediterranean mistake.",
+    publishedAt: "2026-04-27",
+    reviewedAt: "2026-04-27",
+    metaTitle: "Europe Month by Month: When to Go Where",
+    metaDescription: "Honest month-by-month guide to where Europe shines and where it disappoints. Avoid the August-Mediterranean mistake.",
+    readingTimeMin: 12,
+    html: `
+<p>The single biggest European travel mistake is going to the wrong destination at the wrong month. Here's the honest calendar.</p>
+
+<h2>January</h2>
+<p>Best for: Northern Lights (Norway, Iceland). Christmas markets ending early Jan in Vienna, Prague, Strasbourg. Skiing in the Alps.</p>
+<p>Avoid: Mediterranean coastal towns (closed for season), Greek islands.</p>
+
+<h2>February</h2>
+<p>Best for: Carnival (Venice, Cádiz, Cologne, Nice). Cheap city breaks (London, Paris, Berlin). Skiing peaks.</p>
+<p>Avoid: Same as January — Mediterranean is shuttered.</p>
+
+<h2>March</h2>
+<p>Best for: Andalusia (warming up but pre-tourist), Lisbon and Porto, Amsterdam (tulip season starts mid-month).</p>
+<p>Avoid: Northern Europe still cold; Greek islands still off-season.</p>
+
+<h2>April</h2>
+<p>Best for: Italy pre-crowds (Rome, Florence, Venice), Tulip fields in Holland, Croatia coast warming up. Easter is busy everywhere — book ahead.</p>
+<p>Avoid: Mountain destinations (mud season). Northern Scandinavia still winter.</p>
+
+<h2>May</h2>
+<p>Best for: Almost everywhere. Italy and Spain peak, Portugal excellent, Croatia and Greece warming up, Northern Europe blooming. The single best month for Europe overall.</p>
+<p>Avoid: Almost nothing. Pricing is climbing toward summer rates.</p>
+
+<h2>June</h2>
+<p>Best for: Northern Europe (Scandinavia midsummer, Baltic), early Greek islands, French Riviera before crowds peak. <a href="/en/articles/european-beach-towns-worth-staying-in">Beach destinations</a> still bearable.</p>
+<p>Avoid: Italy starts to overheat. Spain inland (Madrid, Seville) over 35°C.</p>
+
+<h2>July</h2>
+<p>Best for: Norway, Sweden, Iceland. Croatia is peak quality. Alpine hiking. Festival season (Edinburgh Fringe in August, but most major festivals start late July).</p>
+<p>Avoid: Mediterranean cities (Rome, Athens, Madrid) — heat plus crowds. Paris in July is hot and half-empty.</p>
+
+<h2>August</h2>
+<p>Best for: Norway, Iceland, Scotland. Bayreuth and Salzburg festivals. Edinburgh Fringe.</p>
+<p>Avoid: Italy (Italians are on holiday — restaurants closed in cities, tourist crush at the coast). Paris (most locals away). Athens (heat). Greek islands at peak prices.</p>
+
+<h2>September</h2>
+<p>Best for: Almost everywhere. Italy returns to functionality, Greek islands still warm, Spain perfect, France harvest season. The single best month for Europe overall (tied with May).</p>
+
+<h2>October</h2>
+<p>Best for: Italy and Spain (crowds gone), Provence harvest, Munich Oktoberfest (late Sept-early Oct), Czech Republic and Slovakia for crystal autumn light.</p>
+<p>Avoid: Northern Scandinavia (cold returning).</p>
+
+<h2>November</h2>
+<p>Best for: <a href="/en/articles/europe-in-november-the-honest-off-season-guide">Off-season Europe</a> — Lisbon, Porto, Seville still mild. Christmas markets opening late November in German-speaking countries.</p>
+<p>Avoid: Most of Europe enters dark-and-rainy season except southern Iberia.</p>
+
+<h2>December</h2>
+<p>Best for: Christmas markets (Vienna, Salzburg, Strasbourg, Nuremberg, Budapest, Prague), winter city-breaks (Paris, Berlin), Lapland for Northern Lights and the cliché.</p>
+<p>Avoid: Mediterranean beach. Outdoor sightseeing in northern Europe (3pm sunsets).</p>
+
+<h2>The single most important rule</h2>
+
+<p>If you can shift dates to May or September, do it. Both months deliver the warm-Mediterranean trip without the August crowds and prices. Most regrets in European travel are people forced into August by school calendars.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-shoulder-season-where-to-go",
+    title: "Europe Shoulder Season: Where the Trip Still Works",
+    excerpt: "April, May, September, October — where to capture peak-Europe at half the crowds and 60% of the price.",
+    publishedAt: "2026-04-27",
+    reviewedAt: "2026-04-27",
+    metaTitle: "Europe Shoulder Season: Where the Trip Still Works",
+    metaDescription: "April, May, September, October — where to capture peak-Europe at half the crowds and 60% of the price.",
+    readingTimeMin: 8,
+    html: `
+<p>Shoulder season — the 4-6 weeks bracketing the summer peak — is where smart European travel happens. Here's where the trip still fully works.</p>
+
+<h2>Late April / early May</h2>
+
+<ul>
+  <li><strong>Italy:</strong> Rome, Florence, Venice, Naples — pleasant temperatures, smaller crowds than June.</li>
+  <li><strong>Spain:</strong> Andalusia perfect, Madrid and Barcelona warm but not hot.</li>
+  <li><strong>France:</strong> Paris and the Riviera both fine; Provence lavender starts late May.</li>
+  <li><strong>Greece (mainland):</strong> Athens and Peloponnese excellent; islands not yet fully open.</li>
+  <li><strong>Croatia:</strong> Split and Dubrovnik warming, Korčula and Hvar still calm.</li>
+</ul>
+
+<h2>Late September / early October</h2>
+
+<ul>
+  <li><strong>Italy:</strong> Back to functioning after August closures; Tuscany harvest; warm enough for coastal swimming through mid-September.</li>
+  <li><strong>Greece:</strong> Islands run through October — sea is still 22°C, prices drop 40% from August.</li>
+  <li><strong>Spain:</strong> Andalusia and the south stay warm into November.</li>
+  <li><strong>Portugal:</strong> Surf season starts. Lisbon and Porto perfect.</li>
+  <li><strong>Croatia:</strong> Cheaper than September but still warm for swimming.</li>
+</ul>
+
+<h2>Where shoulder season doesn't work</h2>
+
+<ul>
+  <li><strong>Northern Scandinavia:</strong> April still cold; October enters winter.</li>
+  <li><strong>Iceland:</strong> Variable weather closes Highland roads in October.</li>
+  <li><strong>Alpine destinations:</strong> Mud season in late April-early May; some hotels closed.</li>
+</ul>
+
+<h2>The price math</h2>
+
+<p>Shoulder pricing on hotels runs 30-50% under August peaks. Flights are 20-40% cheaper. The trip quality is often better — fewer crowds, locals not on vacation, real dinners.</p>
+
+<p>For wider month-by-month planning see <a href="/en/articles/europe-when-to-go-month-by-month">when to go where</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "european-cities-that-disappoint",
+    title: "European Cities That Disappoint Most Travelers",
+    excerpt: "Honest list of European cities that don't deliver what the marketing promises — and where to go instead.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    metaTitle: "European Cities That Disappoint Most Travelers",
+    metaDescription: "Honest list of European cities that don't deliver what the marketing promises — and where to go instead.",
+    readingTimeMin: 10,
+    html: `
+<p>Not every famous European city earns its reputation. Here's the honest list of cities most travelers find disappointing — and what to substitute.</p>
+
+<h2>Brussels — the EU bureaucratic capital</h2>
+
+<p>The Grand Place is genuinely magnificent for an hour. After that, Brussels is wide boulevards, EU office buildings, and dead-after-7pm streets. Best as a 1-day stop, not a 3-day stay. Substitute: <a href="/en/belgium/ghent">Ghent</a> or <a href="/en/belgium/antwerp">Antwerp</a>.</p>
+
+<h2>Frankfurt — the airport city</h2>
+
+<p>Frankfurt's centre is glass-and-steel, mostly because the historic centre was bombed. The half-rebuilt Römerberg is small. Best as a 1-day stop or layover. Substitute: <a href="/en/germany/heidelberg">Heidelberg</a> or <a href="/en/germany/dresden">Dresden</a>.</p>
+
+<h2>Belgrade — sprawling and unfocused</h2>
+
+<p>Belgrade's nightlife is real, but the city itself is large, unwalkable, and lacks the photogenic core most Balkan capitals have. Substitute: <a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a> or <a href="/en/croatia/zagreb">Zagreb</a>.</p>
+
+<h2>Las Vegas-style Mediterranean resorts</h2>
+
+<p>Anywhere marketed as "all-inclusive resort" on the Costa del Sol, Algarve, or eastern Crete is a different trip than European travel. Substitute: <a href="/en/spain/seville">Seville</a> + <a href="/en/spain/granada">Granada</a> for a real Andalusia trip.</p>
+
+<h2>Dublin — overpriced and watered down</h2>
+
+<p>Dublin's Temple Bar is a tourist-stag-night zone. The actual Dublin (Stoneybatter, the Liberties, South City Centre quieter parts) is good but expensive — $400+ hotels for mediocre product. Substitute: <a href="/en/ireland/galway">Galway</a> for a smaller, cheaper, equally-fun trip.</p>
+
+<h2>Mykonos in summer</h2>
+
+<p>The classic Mykonos trip is fine for 25-year-old club travelers and brutal for everyone else — €25 cocktails, prices doubled from June, party-boats. Substitute: <a href="/en/greece/santorini">Santorini</a> for the photo, Naxos or Paros for actual Greek-island life.</p>
+
+<h2>Capri (day-trippers)</h2>
+
+<p>A day-trip to Capri is one of the worst-value tourist experiences in Italy — boats, queues, €40 lunches, 6 hours of crowd. Capri stays (overnight) are different and worth it. Substitute: Procida (15 min from Naples by ferry) is what Capri was 50 years ago.</p>
+
+<h2>Geneva — Switzerland for diplomats</h2>
+
+<p>Geneva is fine but isn't the Switzerland trip most travelers want. It's lake-and-banks. Substitute: <a href="/en/switzerland/lucerne">Lucerne</a> for the iconic Switzerland.</p>
+
+<h2>Paris in August</h2>
+
+<p>Most of Paris is on holiday. Half the bistros close. Substitute: any other month in Paris.</p>
+
+<h2>Why this list exists</h2>
+
+<p>Marketing rewards confident claims. "Brussels: surprisingly amazing" and "Frankfurt: hidden gem" articles get clicks. The reality is that most European cities are pretty good and a small number genuinely don't earn 3 nights of your time. Pick deliberately.</p>
+
+<p>For underrated picks see <a href="/en/articles/underrated-european-cities-most-travelers-miss">underrated cities</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-coastal-towns-fall-winter",
+    title: "European Coastal Towns That Stay Beautiful in Fall and Winter",
+    excerpt: "Coastal Europe doesn't shut down at September. The towns that stay magic through winter — without summer crowds.",
+    publishedAt: "2026-04-28",
+    reviewedAt: "2026-04-28",
+    metaTitle: "European Coastal Towns That Stay Beautiful in Fall and Winter",
+    metaDescription: "Coastal Europe doesn't shut down at September. The towns that stay magic through winter — without summer crowds.",
+    readingTimeMin: 9,
+    html: `
+<p>The summer-or-nothing coastal Europe assumption misses some of the best off-season trips. Here's where the coast still works in October, November, and even January.</p>
+
+<h2>Algarve, Portugal — year-round</h2>
+
+<p>The Algarve runs through winter — Lagos, Tavira, Sagres see daily highs of 16-20°C through January. Surfers love it. The big resorts close but the village restaurants stay open. <a href="/en/portugal">More on Portugal</a>.</p>
+
+<h2>Cadaqués and Costa Brava — September-October</h2>
+
+<p>Catalonia's cliff coast is at its best after the August crush. Sea is warm, towns are themselves again. Daily flights to Girona from northern Europe.</p>
+
+<h2>Sicily — November-December</h2>
+
+<p>Eastern Sicily (Catania, Taormina, Siracusa) stays warm through November. December lows of 10°C are pleasant by northern-European standards. The almond blossom in January is famous.</p>
+
+<h2>Maltese islands — year-round</h2>
+
+<p>Malta and Gozo run a real winter season — December is 14°C, the limestone glows. <a href="/en/malta/valletta">Valletta</a> is exceptional in November.</p>
+
+<h2>Cinque Terre — late September</h2>
+
+<p>The big crowds are gone after September 15. The hiking trails, the colors, the wine — better without the cruise-day-trippers.</p>
+
+<h2>Corsica and Sardinia — September-October</h2>
+
+<p>Both islands are at their best in September after Italian-French school holidays end. Sardinia's beaches stay warm; Corsica's hiking is at peak quality.</p>
+
+<h2>Crete (western) — October-November</h2>
+
+<p>Chania and Rethymno on western Crete keep daytime temperatures of 22-25°C through October. Many tavernas stay open year-round.</p>
+
+<h2>What doesn't work in winter</h2>
+
+<ul>
+  <li>Greek Cyclades (Mykonos, Naxos, Paros) — most ferries and restaurants close November.</li>
+  <li>Croatian islands beyond Hvar/Korčula main season.</li>
+  <li>Atlantic France and Brittany — beautiful but you can't swim.</li>
+  <li>Iceland coast — exceptional but a different trip than warm-coast Europe.</li>
+</ul>
+
+<h2>The Atlantic-coast surprise</h2>
+
+<p>Lisbon, Porto, Cádiz, Tarifa, Biarritz, San Sebastián — all stay perfectly walkable through November and even December. The food is better when restaurants aren't slammed.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-budget-airline-hubs-where-to-fly-into",
+    title: "Europe Budget Airline Hubs: Where to Actually Fly Into",
+    excerpt: "Which airports actually save you money for European city trips — and which budget-airline hubs are bait-and-switch.",
+    publishedAt: "2026-04-29",
+    reviewedAt: "2026-04-29",
+    metaTitle: "Europe Budget Airline Hubs: Where to Actually Fly Into",
+    metaDescription: "Which airports actually save you money for European city trips — and which budget-airline hubs are bait-and-switch.",
+    readingTimeMin: 8,
+    html: `
+<p>Budget airlines change which European trips are worth it. Here's the honest map of which hubs work and which add hidden costs.</p>
+
+<h2>Genuinely cheaper hubs</h2>
+
+<ul>
+  <li><strong>Krakow (KRK):</strong> Direct flights from most of Europe; small airport, fast through, 30 min bus into the centre. Often the cheapest entry to Eastern Europe.</li>
+  <li><strong>Budapest (BUD):</strong> Wizz Air's hub. Cheap to almost everywhere in Europe. 30-min bus to centre.</li>
+  <li><strong>Riga (RIX):</strong> AirBaltic's hub. Cheap connections across the Baltic and into Russia-adjacent.</li>
+  <li><strong>Porto (OPO):</strong> Cheap from northern Europe; 30 min metro to centre.</li>
+  <li><strong>Pisa (PSA):</strong> Cheap from London/Berlin/Paris. 1h to Florence by train.</li>
+  <li><strong>Faro (FAO):</strong> Cheap from northern Europe; gateway to the Algarve.</li>
+</ul>
+
+<h2>Bait-and-switch budget hubs</h2>
+
+<ul>
+  <li><strong>Beauvais (BVA, "Paris"):</strong> 1h 15min bus into central Paris, €17 each way. Often the savings vanish.</li>
+  <li><strong>Hahn (HHN, "Frankfurt"):</strong> 2h bus to Frankfurt. Calling it Frankfurt is creative.</li>
+  <li><strong>Ciampino (CIA, "Rome"):</strong> Workable but always check vs FCO — sometimes the savings are small.</li>
+  <li><strong>Charleroi (CRL, "Brussels"):</strong> 1h bus to Brussels. Can be useful for Bruges, less for Brussels itself.</li>
+  <li><strong>Bergamo (BGY, "Milan"):</strong> 1h bus to Milan — but Bergamo itself is a worth visiting.</li>
+  <li><strong>Stansted (STN, "London"):</strong> 50 min train, £20. Doable but adds time.</li>
+</ul>
+
+<h2>Worth flying into for the city itself</h2>
+
+<ul>
+  <li><strong>Bologna (BLQ):</strong> Direct flights to many cities; Bologna is genuinely worth a 2-night stop on the way to Florence.</li>
+  <li><strong>Bilbao (BIO):</strong> Iberia and Vueling hub; Bilbao is the trip on its own.</li>
+  <li><strong>Marseille (MRS):</strong> Gateway to Provence; the city is worth itself plus enables Aix and Cassis.</li>
+</ul>
+
+<h2>How to actually save</h2>
+
+<p>The discount-airline math depends on bag fees, boarding-pass fees, transfers, and time. A €40 Ryanair flight to Beauvais with a €30 bag, €17 bus, and 1h 15min lost can equal a €120 BA flight to Heathrow.</p>
+
+<p>Always run the all-in math. The branded "low-cost" of nominal fares often disappears.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

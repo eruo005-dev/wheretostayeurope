@@ -4076,6 +4076,227 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 10 — remaining city-by-area + decision guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "where-to-stay-in-marseille",
+    title: "Where to Stay in Marseille: Le Panier, Vieux Port or Cours Julien?",
+    excerpt: "Marseille neighborhoods compared honestly. Real differences in safety, atmosphere, food, and which fits each trip.",
+    publishedAt: "2026-05-06",
+    reviewedAt: "2026-05-06",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Marseille — Honest Neighborhood Guide",
+    metaDescription: "Marseille neighborhoods compared honestly. Real differences in safety, atmosphere, food, and which fits each trip.",
+    html: `
+<p>Marseille is the European city where neighborhood pick has the highest stakes for safety perception. Get it right and the city is excellent. Get it wrong and you'll regret your stay.</p>
+
+<h2>Le Panier — for charm</h2>
+
+<p><a href="/en/france/marseille/le-panier">Le Panier</a> is the hill quarter north of the harbor — narrow streets, ateliers, the Vieille Charité. The prettiest Marseille. Best for: couples, romantic stays, anyone over 35 wanting cliché atmosphere.</p>
+
+<h2>Vieux Port (south side specifically) — for logistics</h2>
+
+<p><a href="/en/france/marseille/vieux-port">Vieux Port</a>'s south side (Quai de Rive Neuve) is the metro hub — M1 and M2 cross here. Ferries to Frioul leave from this side. Best for: 1-2 night first visits, day-trip-heavy itineraries, mobility-aware travelers.</p>
+
+<h2>Cours Julien — for evenings</h2>
+
+<p><a href="/en/france/marseille/cours-julien">Cours Julien</a> is east of Vieux Port — alternative quarter with street art, music venues, dense bar scene. Best for: under-35 trips, music-focused stays, anyone wanting alternative-Marseille.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>The far side of Vieux Port (toward Belsunce):</strong> Deteriorates fast after dark. Stay south of the harbor.</li>
+  <li><strong>Anywhere near Saint-Charles station marketed as "central":</strong> Sketchy after dark.</li>
+  <li><strong>Northern arrondissements (13/14/15):</strong> Working-class outskirts, you'll commute and feel uncomfortable at night.</li>
+  <li><strong>Resort hotels in the Calanques:</strong> Beautiful for day-trip but isolated for an in-Marseille trip.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time, charm focus: Le Panier. Logistics or single-night: Vieux Port (south side). Evenings or alternative: Cours Julien.</p>
+
+<p>Compare: <a href="/en/france/marseille/compare/le-panier-vs-vieux-port">Le Panier vs Vieux Port</a>, <a href="/en/france/marseille/compare/le-panier-vs-cours-julien">Le Panier vs Cours Julien</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-helsinki",
+    title: "Where to Stay in Helsinki: Kruununhaka, Kallio or Kluuvi?",
+    excerpt: "Helsinki neighborhoods compared honestly. Real differences in atmosphere, food, sights and price.",
+    publishedAt: "2026-05-06",
+    reviewedAt: "2026-05-06",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Helsinki — Honest Neighborhood Guide",
+    metaDescription: "Helsinki neighborhoods compared honestly. Real differences in atmosphere, food, sights and price.",
+    html: `
+<p>Helsinki is small enough that the wrong neighborhood costs only 15 min. The pick is mostly about atmosphere — quiet old-Helsinki vs lively young-Helsinki.</p>
+
+<h2>Kruununhaka — for first-timers</h2>
+
+<p><a href="/en/finland/helsinki/kruununhaka">Kruununhaka</a> is the original Helsinki — Senate Square, the cathedral, Russian-era stone facades, harbor adjacent. Best for: first-time visits, sights-focused trips, anyone over 40 wanting calm.</p>
+
+<h2>Kallio — for evenings</h2>
+
+<p><a href="/en/finland/helsinki/kallio">Kallio</a> is one tram stop north — formerly working-class, now the bar-and-design quarter where most under-30 Helsinki residents live. Best for: 3+ night stays, food-focused trips, anyone under 35.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "near the airport":</strong> 30 min by train from central; only worth it for very early flights.</li>
+  <li><strong>Anywhere outside Ring 1 marketed as "central":</strong> Suburban, you'll commute.</li>
+  <li><strong>Hotels with "lake view" outside the city:</strong> Verify on a map; often 30+ km out.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short, sights focus, anyone over 40: Kruununhaka. Food and bars, anyone under 35: Kallio.</p>
+
+<p>Compare: <a href="/en/finland/helsinki/compare/kruununhaka-vs-kallio">Kruununhaka vs Kallio</a>.</p>
+
+<p>For broader Scandinavian capital comparisons see <a href="/en/articles/scandinavia-which-capital-to-pick">Scandinavia which capital</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-belgium",
+    title: "Where to Stay in Belgium: Brussels, Bruges, Ghent or Antwerp?",
+    excerpt: "Honest take on which Belgian city to base in — including which to skip and how to combine them.",
+    publishedAt: "2026-05-06",
+    reviewedAt: "2026-05-06",
+    readingTimeMin: 9,
+    metaTitle: "Where to Stay in Belgium — Honest City Comparison",
+    metaDescription: "Honest take on which Belgian city to base in — including which to skip and how to combine them.",
+    html: `
+<p>Belgium is a 3-4 day country, not a single-base-and-day-trip country. Here's the honest map of which city to actually sleep in.</p>
+
+<h2>Bruges — for the postcard</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> is the canal-and-medieval-town cliché. Day-tripper crush 11am-4pm; magical after 6pm when day-trippers leave. Stay 2 nights to actually experience it. Stay in <a href="/en/belgium/bruges/binnenstad-bruges">Binnenstad</a>.</p>
+
+<h2>Ghent — the better Bruges</h2>
+
+<p><a href="/en/belgium/ghent">Ghent</a> is what Bruges was 50 years ago — same medieval atmosphere, fewer tourists, real student-and-resident life. Stay in <a href="/en/belgium/ghent/patershol">Patershol</a>. Best for: 2-3 night stays, anyone wanting Bruges-quality with less tourism.</p>
+
+<h2>Antwerp — the modern pick</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> is the design-and-fashion city. Stay in <a href="/en/belgium/antwerp/het-eilandje">Het Eilandje</a> for converted-port-quarter, <a href="/en/belgium/antwerp/oude-stad-antwerp">Oude Stad</a> for medieval. Best for: 2-3 night stays, design-focused trips.</p>
+
+<h2>Brussels — only for tactical reasons</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> is the Grand Place + EU Quarter + dead-after-7pm reality. Stay only if you're flying in/out via BRU or specifically need the EU Quarter. Use <a href="/en/belgium/brussels/sablon">Sablon</a> or <a href="/en/belgium/brussels/saint-gilles">Saint-Gilles</a>, not Îlot Sacré.</p>
+
+<h2>The honest 5-day Belgium</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/belgium/ghent">Ghent</a> + day-trip to Bruges</li>
+  <li>Day 3-4: <a href="/en/belgium/antwerp">Antwerp</a> + design quarter</li>
+  <li>Day 5: Brussels day-trip from Antwerp (45 min train) for Atomium and Magritte Museum, or skip entirely</li>
+</ul>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Spending 4 nights in Brussels:</strong> Brussels does not deserve 4 nights.</li>
+  <li><strong>Bruges as a 4+ night destination:</strong> Small enough to feel covered in 2.</li>
+  <li><strong>"Day-trip Bruges from Brussels":</strong> Bruges is too special for a day-trip.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick Ghent + Antwerp for 4-5 nights, day-trip Bruges. Flying into BRU works fine — train to anywhere is 30-90 min.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-iceland",
+    title: "Where to Stay in Iceland: Reykjavík + Ring Road Bases",
+    excerpt: "Honest guide for Iceland trips — Reykjavík districts plus where to base for the South Coast and Ring Road.",
+    publishedAt: "2026-05-06",
+    reviewedAt: "2026-05-06",
+    readingTimeMin: 10,
+    metaTitle: "Where to Stay in Iceland — Reykjavík + Ring Road Bases",
+    metaDescription: "Honest guide for Iceland trips — Reykjavík districts plus where to base for the South Coast and Ring Road.",
+    html: `
+<p>Iceland accommodation breaks into two questions: where in Reykjavík, and where to base outside it. Here's the honest map.</p>
+
+<h2>Reykjavík: 101 (the only sensible base)</h2>
+
+<p><a href="/en/iceland/reykjavik/101-reykjavik">101 Reykjavík</a> is the central downtown — Hallgrímskirkja, Harpa concert hall, dense restaurants and bars. Anything outside 101 means taxis to dinner. Best for: any Reykjavík stay.</p>
+
+<p>Don't be tempted by slightly cheaper hotels in 105/107 or in Hafnarfjörður. The Reykjavík trip is dinner-and-walk; you need 101.</p>
+
+<h2>Laugardalur — only for families with cars</h2>
+
+<p><a href="/en/iceland/reykjavik/laugardalur">Laugardalur</a> is the geothermal-pool valley east of central — cheaper, family-friendly with the family park and pool. Best for: family stays of 3+ nights with a rental car.</p>
+
+<h2>South Coast bases</h2>
+
+<ul>
+  <li><strong>Vík:</strong> The classic South Coast base — Reynisfjara black-sand beach 10 min away, Skógafoss 30 min west. Stay 1-2 nights for the South Coast loop.</li>
+  <li><strong>Hella / Hvolsvöllur:</strong> Slightly closer to Reykjavík, cheaper than Vík.</li>
+</ul>
+
+<h2>Golden Circle bases</h2>
+
+<p>Most travelers do the Golden Circle as a day-trip from Reykjavík. If staying overnight: <strong>Selfoss</strong> or <strong>Laugarvatn</strong> work — central to the loop, cheaper than Reykjavík.</p>
+
+<h2>East / North Iceland</h2>
+
+<p>Ring Road requires multiple bases — <strong>Höfn</strong> (east), <strong>Egilsstaðir</strong> (east-fjords), <strong>Akureyri</strong> (north). Plan 2 nights minimum at each major stop.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Hotels marketed as "Reykjavík" 30+ km from town:</strong> Verify the address — often Mosfellsbær.</li>
+  <li><strong>Anywhere advertised as "Northern Lights view from window":</strong> Tour operators chase clear skies; you can't predict from a single fixed location.</li>
+  <li><strong>Trying to do Ring Road in less than 7 nights:</strong> Brutal. 10-14 nights is the right Ring Road trip.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>4-5 nights = Reykjavík + South Coast + Golden Circle as day/overnight trips. 7+ nights = Ring Road becomes feasible. Less than 4 nights = stay in Reykjavík and day-trip.</p>
+    `.trim(),
+  },
+  {
+    slug: "where-to-stay-in-salzburg",
+    title: "Where to Stay in Salzburg: Altstadt or Neustadt?",
+    excerpt: "Salzburg neighborhoods compared honestly. Real differences in festival access, Sound of Music, food and price.",
+    publishedAt: "2026-05-06",
+    reviewedAt: "2026-05-06",
+    readingTimeMin: 7,
+    metaTitle: "Where to Stay in Salzburg — Honest Neighborhood Guide",
+    metaDescription: "Salzburg neighborhoods compared honestly. Real differences in festival access, Sound of Music, food and price.",
+    html: `
+<p>Salzburg is small enough that any central stay works. The choice is left-bank UNESCO Altstadt (Mozart-and-fortress) or right-bank Neustadt (Mirabell-and-station). Connected by 4 short bridges.</p>
+
+<h2>Altstadt — for first-timers and festival</h2>
+
+<p><a href="/en/austria/salzburg/altstadt-salzburg">Altstadt</a> is the left-bank UNESCO core — Mozart's birthplace, Cathedral, Hohensalzburg fortress base. Premium pricing (€170-€350, double during festival). Best for: 1-2 night first visits, festival stays, sights-focused trips.</p>
+
+<h2>Neustadt — for budget and Sound of Music</h2>
+
+<p><a href="/en/austria/salzburg/neustadt">Neustadt</a> is the right bank — Mirabell Palace and Gardens (Do-Re-Mi steps), the Mozarteum, the train station. Best for: longer stays, Sound of Music tours, train-heavy itineraries, budget-conscious travelers.</p>
+
+<h2>Festival timing (late July to August)</h2>
+
+<p>Festival nearly doubles prices on both sides. Festival venues (Festspielhaus, Felsenreitschule) are on the Altstadt side. If festival-going, Altstadt saves walking; otherwise Neustadt is fine — bridges are 5 min.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Anywhere outside Altstadt or Neustadt marketed as "central":</strong> You'll bus or drive.</li>
+  <li><strong>Hotels in Liefering or Maxglan:</strong> Suburban, far from anything.</li>
+  <li><strong>Anywhere advertised as "10-min walk to Mozart":</strong> Verify — sometimes 25-30 min.</li>
+</ul>
+
+<h2>Quick pick</h2>
+
+<p>First-time short, festival, sights focus: Altstadt. Longer stay, budget, Sound of Music tours: Neustadt.</p>
+
+<p>Compare: <a href="/en/austria/salzburg/compare/altstadt-vs-neustadt-salzburg">Altstadt vs Neustadt</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

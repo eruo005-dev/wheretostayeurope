@@ -9785,6 +9785,348 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 32 — origin-specific + transit guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-first-time-americans",
+    title: "Best European Cities for First-Time American Travelers",
+    excerpt: "Honest pick of European cities that match American expectations of European travel.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for First-Time Americans — Honest 2026",
+    metaDescription: "Honest pick of European cities that match American expectations of European travel.",
+    html: `
+<p>Americans visiting Europe for the first time have specific expectations and challenges. Here's the honest sort.</p>
+
+<h2>Tier 1 — easy first-time American picks</h2>
+
+<ul>
+  <li><strong>London:</strong> English speaking, manageable jet lag from East Coast (5h time difference), familiar legal system. The easiest European trip.</li>
+  <li><strong>Dublin:</strong> Same English-speaking benefit + Irish hospitality.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> English widely spoken, polished tourism infrastructure.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Strong English; mild Atlantic climate; affordable.</li>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Universal English; bike infrastructure; manageable.</li>
+</ul>
+
+<h2>Tier 2 — strong first-time picks</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Iconic; English in tourist areas; pace yourself for jet lag.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Iconic + walkable; Italians love Americans; English in tourism.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a> / <a href="/en/spain/barcelona">Barcelona</a>:</strong> Friendly + walkable; tapas culture suits American eating-late.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Bavarian welcome + beer-garden tradition; English good.</li>
+</ul>
+
+<h2>Tier 3 — workable but research-needed</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>, Venice:</strong> Tourist-cliché; can feel theme-park.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Cross-cultural challenge; rewards research.</li>
+  <li><strong>Athens:</strong> English in central; logistics need planning for islands.</li>
+</ul>
+
+<h2>Cities to skip on first trip</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Greater than first-time American expects. Save for trip 2.</li>
+  <li><strong>Eastern European capitals:</strong> Worth visiting but harder for first-timers — language gap, cultural distance.</li>
+  <li><strong>Greek islands without Athens:</strong> Too remote for jet-lagged travelers.</li>
+</ul>
+
+<h2>American-specific tips</h2>
+
+<ul>
+  <li><strong>Tipping:</strong> Service is usually included. American 20% is wrong in most countries. See <a href="/en/articles/europe-tipping-honest-guide">tipping guide</a>.</li>
+  <li><strong>Walking:</strong> Plan to walk 4-6 miles/day. Comfortable shoes essential.</li>
+  <li><strong>Late dinners:</strong> 8-10pm is standard. Pre-dinner aperitivo is the norm.</li>
+  <li><strong>Cell:</strong> Use eSIM (Airalo, Holafly) — €15-€30 for 7-14 days.</li>
+  <li><strong>Credit cards:</strong> Tap-and-go works almost everywhere; some places cash-only.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For first American trips, pick 1-2 cities with 5+ nights each. Don't try to "see everything." Build into the trip — slow first day for jet lag, peak days mid-trip, slow final day for transit.</p>
+
+<p>For specific itineraries see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-cities-stopover-asia-to-europe",
+    title: "Best European Cities for Asia-to-USA Stopover Layovers",
+    excerpt: "If you're flying Asia-Europe-USA, here are the European hubs worth a 24-72 hour stopover.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Asia-USA Stopover — Honest 2026",
+    metaDescription: "If you're flying Asia-Europe-USA, here are the European hubs worth a 24-72 hour stopover.",
+    html: `
+<p>Long-haul Asia-USA flights via Europe make stopovers practical. Here's the honest sort.</p>
+
+<h2>Best stopovers from major Asian hubs</h2>
+
+<ul>
+  <li><strong>Tokyo / Singapore → Reykjavík → USA:</strong> Icelandair is the master of stopovers. Free up to 7 days.</li>
+  <li><strong>Tokyo / Hong Kong / Bangkok → Helsinki → USA:</strong> Finnair short Helsinki stopover.</li>
+  <li><strong>Asia → London Heathrow → USA:</strong> Long but easy — pick 2-3 night layover.</li>
+  <li><strong>Asia → Frankfurt / Munich → USA:</strong> Lufthansa hub. Munich stopover is more interesting than Frankfurt.</li>
+  <li><strong>Asia → Amsterdam → USA:</strong> KLM hub. Amsterdam in 2-3 days perfect.</li>
+  <li><strong>Asia → Istanbul → USA:</strong> Turkish Airlines free hotel for long layovers.</li>
+</ul>
+
+<h2>Easy 1-3 night stopovers</h2>
+
+<ul>
+  <li><strong>Reykjavík:</strong> Icelandair has the structured stopover program.</li>
+  <li><strong>Doha (technically not Europe but stopover-relevant):</strong> Qatar Airways hub.</li>
+  <li><strong>Amsterdam:</strong> 1-2 nights covers it.</li>
+  <li><strong>London:</strong> 2-3 nights minimum (1 is too short).</li>
+  <li><strong>Helsinki:</strong> 1 night enough.</li>
+</ul>
+
+<h2>3-7 day stopovers</h2>
+
+<ul>
+  <li><strong>Iceland Ring Road:</strong> 5-7 days for the loop.</li>
+  <li><strong>London + Paris:</strong> 5-7 days for both via Eurostar.</li>
+  <li><strong>Amsterdam + Bruges + Brussels:</strong> 5-7 days for the Dutch-Belgian loop.</li>
+</ul>
+
+<h2>Practical considerations</h2>
+
+<ul>
+  <li><strong>Bag check:</strong> Most airlines route bags through to final destination on transit. Verify.</li>
+  <li><strong>Visa:</strong> Schengen entry required for stopovers in most EU. Check whether visa-free travel applies.</li>
+  <li><strong>Insurance:</strong> Verify coverage during stopover.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>If your Asia-USA flight already routes via Europe, ask the airline if a multi-day stopover is included. Many free up to 24 hours; some up to 7 days.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-most-romantic-train-rides",
+    title: "Most Romantic European Train Rides (Honest 2026)",
+    excerpt: "Train rides as the trip itself. Honest picks of European rail journeys worth taking for the journey.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 9,
+    metaTitle: "Most Romantic European Train Rides — Honest 2026",
+    metaDescription: "Train rides as the trip itself. Honest picks of European rail journeys worth taking for the journey.",
+    html: `
+<p>Some European train rides are destinations themselves. Here's the honest sort.</p>
+
+<h2>Tier 1 — train rides as trips</h2>
+
+<ul>
+  <li><strong>Glacier Express (Switzerland):</strong> 8h Zermatt to St. Moritz. Panoramic windows, dramatic alpine pass.</li>
+  <li><strong>Bernina Express (Switzerland to Italy):</strong> Tirano to St. Moritz. UNESCO route through the Alps.</li>
+  <li><strong>Bergen Line (Norway):</strong> Oslo-Bergen, the highest mainline train in Northern Europe.</li>
+  <li><strong>Flåm Railway (Norway):</strong> 20km branch from the Bergen Line. Steepest standard-gauge in Europe.</li>
+  <li><strong>Cinque Terre Express (Italy):</strong> Connects the five villages along the Italian Riviera.</li>
+</ul>
+
+<h2>Tier 2 — strong scenic rides</h2>
+
+<ul>
+  <li><strong>Caledonian Sleeper (London-Highlands):</strong> Overnight to Fort William. Wake at Loch Treig.</li>
+  <li><strong>West Highland Line (Glasgow-Mallaig):</strong> Glenfinnan Viaduct (Harry Potter).</li>
+  <li><strong>Belmond Royal Scotsman:</strong> Premium Scottish luxury.</li>
+  <li><strong>Centovalli (Italy-Switzerland):</strong> Locarno to Domodossola. Underrated.</li>
+  <li><strong>Albula (Switzerland):</strong> Less famous than Bernina; comparable scenery.</li>
+</ul>
+
+<h2>Tier 3 — good day-trip rail journeys</h2>
+
+<ul>
+  <li><strong>Edinburgh-Inverness:</strong> Highland scenery, cheap.</li>
+  <li><strong>Mostar-Sarajevo (Bosnia):</strong> Dramatic mountain route.</li>
+  <li><strong>Belgrade-Bar (Serbia-Montenegro):</strong> Among Europe's most-scenic affordable rides.</li>
+  <li><strong>Pelion Railway (Greece):</strong> Steam-train heritage line.</li>
+</ul>
+
+<h2>Night trains worth booking</h2>
+
+<ul>
+  <li><strong>Nightjet Vienna-Berlin / Vienna-Amsterdam / Vienna-Brussels:</strong> Modern sleepers, return of night trains.</li>
+  <li><strong>Snälltåget (Stockholm-Hamburg-Berlin):</strong> Nordic operator.</li>
+  <li><strong>Caledonian Sleeper (London-Highlands).</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Book scenic seats (window) 2-3 months ahead. Bernina/Glacier Express specifically require seat reservations. The classic luxury options (Orient Express, Belmond Royal Scotsman) need 6+ months and €5000+ budgets.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-marathon-running",
+    title: "Best European Cities for Marathon Running",
+    excerpt: "European marathons ranked by course quality, weather and overall trip experience.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Marathon Running — Honest 2026",
+    metaDescription: "European marathons ranked by course quality, weather and overall trip experience.",
+    html: `
+<p>European marathons combine sport with travel. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination marathons</h2>
+
+<ul>
+  <li><strong>Berlin Marathon (late September):</strong> Iconic flat fast course. Multiple world records here.</li>
+  <li><strong>London Marathon (April):</strong> The historic course. Lottery entry.</li>
+  <li><strong>Paris Marathon (April):</strong> Through landmarks; flat-ish.</li>
+  <li><strong>Amsterdam Marathon (October):</strong> Olympic Stadium start/finish.</li>
+  <li><strong>Athens Authentic Marathon (November):</strong> The original — Marathon to Athens.</li>
+</ul>
+
+<h2>Tier 2 — strong marathon trips</h2>
+
+<ul>
+  <li><strong>Rome Marathon (March-April):</strong> Past iconic sights.</li>
+  <li><strong>Stockholm Marathon (June):</strong> Long days, scenic.</li>
+  <li><strong>Vienna Marathon (April):</strong> Through Imperial city.</li>
+  <li><strong>Copenhagen Marathon (May):</strong> Flat, fast, scenic.</li>
+  <li><strong>Lisbon Marathon (October):</strong> Tagus-side scenic.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Florence Marathon (November):</strong> Through Renaissance Florence.</li>
+  <li><strong>Reykjavík Marathon (August):</strong> Mid-night-sun finish.</li>
+  <li><strong>Dublin Marathon (October):</strong> Strong community vibe.</li>
+  <li><strong>Lake Garda + Lake Como variants:</strong> Smaller, scenic.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Major marathons require lottery entry or qualifying times.</strong> Enter 6-12 months ahead.</li>
+  <li><strong>Hotels around marathon weekend triple in price.</strong> Book 8+ months ahead.</li>
+  <li><strong>Weather:</strong> Berlin (Sept) and London (April) are prime running weather. Athens (Nov) variable.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-christmas-eve",
+    title: "Best European Cities for Christmas Eve Celebrations",
+    excerpt: "Where European Christmas Eve traditions actually deliver — markets, midnight masses, and atmosphere.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Christmas Eve — Honest 2026",
+    metaDescription: "Where European Christmas Eve traditions actually deliver — markets, midnight masses, and atmosphere.",
+    html: `
+<p>Christmas Eve (Heilige Abend, Vigilia) is more important than Christmas Day in many European countries. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination Christmas Eves</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Imperial Christmas Mass at Stephansdom. Markets close 23 December but city stays magical.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> "Silent Night" originated here. Cathedral midnight Mass.</li>
+  <li><strong>Vatican City (Rome):</strong> Papal midnight Mass. Tickets free but limited.</li>
+  <li><strong><a href="/en/germany/dresden">Dresden</a>:</strong> Frauenkirche Christmas Eve service.</li>
+  <li><strong>Strasbourg:</strong> Christmas Eve in the half-timbered Petite France.</li>
+</ul>
+
+<h2>Tier 2 — strong Christmas Eve atmosphere</h2>
+
+<ul>
+  <li><strong>Rome (Vatican aside):</strong> Most Italian families home; restaurants close. Quiet, atmospheric.</li>
+  <li><strong>Paris:</strong> Notre-Dame Mass (when reopened). Champs-Élysées lights.</li>
+  <li><strong>London:</strong> Less family-focused; restaurants open. Trafalgar Square.</li>
+  <li><strong>Copenhagen, Stockholm:</strong> Family-focused; many businesses closed but city is calm and beautiful.</li>
+</ul>
+
+<h2>Tier 3 — surprising Christmas Eve picks</h2>
+
+<ul>
+  <li><strong>Krakow:</strong> Polish Wigilia tradition, late dinner with 12 dishes.</li>
+  <li><strong>Athens:</strong> Greek Orthodox Christmas (different date in some calendars).</li>
+  <li><strong>Reykjavík:</strong> Yule traditions, festive atmosphere.</li>
+</ul>
+
+<h2>What to expect December 24-25</h2>
+
+<ul>
+  <li><strong>Dec 24:</strong> Most shops close 4-6pm. Family-focused. Most restaurants closed for dinner.</li>
+  <li><strong>Dec 25:</strong> Many tourist sites closed. Restaurants partially open.</li>
+  <li><strong>Dec 26:</strong> Many open again; St. Stephen's Day in Catholic countries.</li>
+</ul>
+
+<h2>Booking strategy</h2>
+
+<ul>
+  <li><strong>Christmas Eve dinners book out 2-3 months ahead.</strong> Reserve early.</li>
+  <li><strong>Hotel Christmas-week prices double or triple.</strong></li>
+  <li><strong>Midnight Mass tickets:</strong> Vatican requires advance request. Vienna's Stephansdom first-come.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For real Christmas Eve atmosphere, pick a Catholic country with strong family-Christmas culture (Italy, Austria, Spain, Poland). Avoid pure tourist hubs where the season feels commercial.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-cities-by-region-most-underrated-countries",
+    title: "Most Underrated European Countries (2026 Honest List)",
+    excerpt: "European countries that punch above their tourism weight. Honest picks beyond the obvious.",
+    publishedAt: "2026-05-27",
+    reviewedAt: "2026-05-27",
+    readingTimeMin: 11,
+    metaTitle: "Most Underrated European Countries — Honest 2026 List",
+    metaDescription: "European countries that punch above their tourism weight. Honest picks beyond the obvious.",
+    html: `
+<p>Some European countries are dramatically under-touristed for their offer. Here's the honest sort.</p>
+
+<h2>Tier 1 — genuinely underrated</h2>
+
+<ul>
+  <li><strong>Albania:</strong> Beaches that match Croatia at a third the price. <a href="/en/albania/tirana">Tirana</a> changing fast. Berat + Gjirokastër are UNESCO Ottoman towns. Albanian Riviera is Greece-quality.</li>
+  <li><strong>Slovenia:</strong> Compact, dramatic — Alps + coast + capital in 7 days. <a href="/en/slovenia/ljubljana">Ljubljana</a> + <a href="/en/slovenia/bled">Bled</a> + <a href="/en/slovenia/piran">Piran</a>.</li>
+  <li><strong>Bulgaria:</strong> Sofia + Plovdiv (one of Europe's oldest cities) at very low prices.</li>
+  <li><strong>Romania:</strong> Transylvania (<a href="/en/romania/brasov">Brașov</a>, <a href="/en/romania/sibiu/">Sibiu</a>) + Bucharest. Castles + folk culture.</li>
+  <li><strong>North Macedonia:</strong> Lake Ohrid (UNESCO) + Skopje. Untouristed.</li>
+</ul>
+
+<h2>Tier 2 — strong but emerging</h2>
+
+<ul>
+  <li><strong>Lithuania, Latvia, Estonia:</strong> Baltic loop. <a href="/en/lithuania/vilnius">Vilnius</a> + <a href="/en/latvia/riga">Riga</a> + <a href="/en/estonia/tallinn">Tallinn</a>.</li>
+  <li><strong>Montenegro:</strong> <a href="/en/montenegro/kotor">Kotor</a> + Adriatic coast.</li>
+  <li><strong>Bosnia + Herzegovina:</strong> <a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a> + Mostar. War history + Ottoman heritage.</li>
+  <li><strong>Slovakia:</strong> Bratislava + High Tatras + Košice underrated.</li>
+</ul>
+
+<h2>Tier 3 — undertouristed within bigger countries</h2>
+
+<ul>
+  <li><strong>Sicily (within Italy):</strong> Underrated even though Italy isn't.</li>
+  <li><strong>Apulia (within Italy):</strong> <a href="/en/italy/lecce">Lecce</a>, Alberobello.</li>
+  <li><strong>Asturias + Galicia (within Spain):</strong> Northern coast — different climate, food, culture.</li>
+  <li><strong>Brittany (within France):</strong> Saint-Malo, Brest, Quimper.</li>
+  <li><strong>Wales (within UK):</strong> Snowdonia, Cardiff, Swansea.</li>
+</ul>
+
+<h2>What's overrated</h2>
+
+<ul>
+  <li><strong>"Hidden gems" articles for Tuscany, Provence, Greek islands:</strong> Already over-touristed.</li>
+  <li><strong>Iceland's Blue Lagoon:</strong> Genuinely overcrowded; smaller geothermal pools across Iceland are the trip.</li>
+  <li><strong>Hallstatt, Český Krumlov:</strong> Day-tripper crush ruins them.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Visit underrated countries before they catch on. Albania in 2026 looks like Croatia did in 2010 — brilliant before the crowds. The same is true of central-eastern European countries. Book ahead of trends, not behind.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

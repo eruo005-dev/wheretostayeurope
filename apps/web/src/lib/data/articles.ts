@@ -14546,6 +14546,255 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-cycling-infrastructure",
+    title: "Best European Cities for Cycling Infrastructure",
+    excerpt: "Utrecht, Copenhagen, and Amsterdam built genuine bike networks — separated lanes, traffic priority, multi-story parking. Most others paint white lines and hope.",
+    publishedAt: "2026-05-02",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Cycling Infrastructure (2026)",
+    metaDescription: "Cities where cycling actually works — Utrecht, Copenhagen, Amsterdam, Munich, Sevilla. Separated lanes, traffic priority, parking density.",
+    html: `
+<h2>What "cycling infrastructure" really means</h2>
+
+<p>Painted bike lanes next to traffic don't count. Real cycling cities have separated lanes (curb-protected or off-street), priority signal phases at intersections, and parking density that makes bike commuting practical. Below are the cities that genuinely deliver.</p>
+
+<h2>Utrecht</h2>
+
+<p><a href="/en/netherlands/utrecht">Utrecht</a> has the world's largest bike parking garage (12,500 spaces) at Centraal. Daily commute share over 60%. Cars are second-class citizens in the historic core — the city redesigned itself around bikes over decades. Visitors rent OV-fiets at the station for under €5/day.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> has 380+ km of separated lanes plus the famous Cykelslangen (bike snake) bridge. Morning rush sees more bikes than cars cross Knippelsbro. <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> and <a href="/en/denmark/copenhagen/vesterbro">Vesterbro</a> easy to cycle.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> the iconic name — but actually less infrastructure-heavy than Utrecht. Tourist cycling chaotic; locals fast and impatient. Stick to bike-rental routes if inexperienced.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Germany's strongest cycling city — Isar river bike path, Englischer Garten paths, generally separated lanes. Less than Dutch cities but better than Berlin.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> the southern surprise — built 80km separated network 2007–2010 and bike share went from near-zero to 7%. Sevici bike share inexpensive. Heat the constraint May–September.</p>
+
+<h2>Cities to skip if cycling matters</h2>
+
+<p>London (paint not infrastructure), Rome (suicide), Madrid (hilly + drivers), Athens (chaotic). These have grown bike share but infrastructure lags.</p>
+
+<h2>Strategy</h2>
+
+<p>Bike rental + city pass beats public transport for short stays in real cycling cities. Read our <a href="/en/articles/best-european-cities-for-cyclists">cyclist's guide</a> for road-cycling and <a href="/en/articles/best-european-cities-for-road-cycling">road cycling routes</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-natural-wine",
+    title: "Best European Cities for Natural Wine Bars",
+    excerpt: "Paris invented the modern natural wine scene; Copenhagen, Berlin, and Lisbon followed. Low-intervention winemakers cluster geographically.",
+    publishedAt: "2026-05-02",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Natural Wine Bars",
+    metaDescription: "Cities where natural wine culture is dense — Paris, Copenhagen, Berlin, Lisbon, London. Bars, importers, and producer regions.",
+    html: `
+<h2>What counts as natural wine</h2>
+
+<p>Low-intervention winemaking — minimal sulfur, native yeasts, organic or biodynamic farming. The category exploded out of France's Beaujolais and Loire in the 1980s and now defines the style of urban wine bars across Europe.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> is the global capital. Le Verre Volé, La Cave de Belleville, Aux Deux Amis, Septime La Cave. <a href="/en/france/paris/le-marais">Le Marais</a>, <a href="/en/france/paris/canal-saint-martin">Canal Saint-Martin</a>, and the 11th have the highest density. Producers from Loire and Beaujolais drink themselves at these bars.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Pompette, Den Vandrette, Manfreds — the natural-wine-and-small-plates format that defines modern Nordic dining. <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Wein und Vinos, Cordobar, Jaja Berlin. Younger scene than Paris; prices significantly lower. <a href="/en/germany/berlin/mitte">Mitte</a> and <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> base.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> emerging — Black Pages, Senhor Uva. Portuguese natural producers (Folias de Baco, Quinta da Pellada) on heavy rotation. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> base.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> P. Franco, Sager + Wilde, Top Cuvée, Forty-Five Vintners. Strong scene; £12+ pours. <a href="/en/uk/london/east-london-hackney">Hackney</a> dense.</p>
+
+<h2>Strategy</h2>
+
+<p>Bottle shops doubling as bars (Le Verre Volé style) are the format you want. Buy a bottle at retail, pay €8–10 corkage, drink at the counter. Read our <a href="/en/articles/best-european-cities-for-foodies">foodies guide</a> for the wider food scene.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-flea-markets",
+    title: "Best European Cities for Flea Markets",
+    excerpt: "Paris's Saint-Ouen is the world's largest; Berlin's Mauerpark is the social one; Brussels and Lisbon undercut both on price.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Flea Markets in Europe",
+    metaDescription: "Where the great flea markets are — Paris (Saint-Ouen), Berlin (Mauerpark), Brussels (Jeu de Balle), Lisbon (Feira da Ladra). Days, prices, what to buy.",
+    html: `
+<h2>The flea market hierarchy</h2>
+
+<p>Europe's flea markets divide into deep-inventory antique fairs (Saint-Ouen, Portobello), social Sunday rummages (Mauerpark, Feira da Ladra), and design-vintage hybrids (Brussels, Antwerp). The best base depends on what you collect.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Marché aux Puces de Saint-Ouen — 7 hectares, 2,000 dealers, Sat–Mon. Vintage Hermès scarves, Louis XV tables, mid-century lighting. Vernaison the most charming sub-market; Paul Bert Serpette for furniture. <a href="/en/france/paris/le-marais">Le Marais</a> is a 25-min metro ride.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Mauerpark Sundays — chaotic, social, more "youth garage sale" than antique fair. Better deals at Boxhagener Platz (Sunday) and Arkonaplatz. Modernist 1960s GDR-era furniture surfaces here regularly.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Marché aux Puces de la Place du Jeu de Balle — daily 6am–2pm, every single day. Belgian colonial furniture, Art Nouveau hardware, ceramic. Get there at 7am for the deals.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Feira da Ladra (Tue, Sat) at Campo de Santa Clara. Less curated than Paris; Portuguese azulejo tiles, religious art, vintage vinyl. <a href="/en/portugal/lisbon/alfama">Alfama</a> walking distance.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> El Rastro Sunday morning — more clothes-and-bric-a-brac than antiques, but the side streets (Calle de la Ribera de Curtidores) have serious dealers. <a href="/en/spain/madrid/la-latina">La Latina</a> base.</p>
+
+<h2>Strategy</h2>
+
+<p>Cash beats card universally. Bring small euros (€1, €2, €5, €10, €20). Bargaining expected — start at 60%, settle at 70–80%. Best deals before 9am and after 1pm (closing).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-michelin-stars",
+    title: "Best European Cities for Michelin-Starred Dining",
+    excerpt: "Paris and Tokyo aside, the densest Michelin maps in Europe are in Paris, London, San Sebastián, Modena, and Copenhagen — for very different cuisines.",
+    publishedAt: "2026-05-03",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Michelin-Starred Restaurants",
+    metaDescription: "Where Michelin clusters in Europe — Paris, London, Copenhagen, San Sebastián, Modena. Star density, booking lead times, prices.",
+    html: `
+<h2>Star concentration matters</h2>
+
+<p>One three-star restaurant means a flight; ten one-stars mean a vacation. Below are cities where Michelin-starred dining is dense enough to anchor a trip rather than be the only meal.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> 134 starred restaurants, 9 of them three-star. Alain Ducasse au Plaza Athénée, Pierre Gagnaire, Arpège, Guy Savoy. Lunch menus at three-star Paris restaurants run €200–350; dinner €400–700. Book 2–3 months ahead. <a href="/en/france/paris/saint-germain">Saint-Germain</a> and <a href="/en/france/paris/le-marais">Le Marais</a> central.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> 80+ starred restaurants. Core by Clare Smyth, Restaurant Gordon Ramsay, Sketch Lecture Room. Strong British modernist scene. <a href="/en/uk/london/mayfair">Mayfair</a> and <a href="/en/uk/london/soho-fitzrovia">Soho</a> dense.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Geranium (3 stars), Alchemist (3 stars), Jordnær, Kadeau. Nordic cuisine's birthplace — booking 4–8 months ahead for top names. Tasting menus 4,000–5,500 DKK without wine.</p>
+
+<h2>San Sebastián</h2>
+
+<p>The Basque Country has the highest stars-per-capita ratio in Europe. Arzak, Akelarre, Mugaritz (all 3-star) within 30km. Pintxos bars in San Sebastián's old town a parallel scene.</p>
+
+<h2>Modena and Emilia-Romagna</h2>
+
+<p>Massimo Bottura's Osteria Francescana (3 stars) in Modena. Casa Maria Luigia. The region around — Parma, Bologna, Reggio Emilia — dense with starred regional Italian.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Paul Bocuse legacy plus modern stars. Mère Brazier, La Mère Brazier, Takao Takano. France's gastronomic capital outside Paris.</p>
+
+<h2>Strategy</h2>
+
+<p>Lunch tasting menus often half the price of dinner with same kitchen. Off-season (Tue–Wed) easier booking. Tipping is "service compris" — leave 5–10% extra for excellent.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bookshops",
+    title: "Best European Cities for Independent Bookshops",
+    excerpt: "Paris's Shakespeare and Co is famous; Lisbon's Bertrand is the world's oldest. Independent bookshop density tracks rent and intellectual culture.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Independent Bookshops",
+    metaDescription: "Cities with deep independent bookshop scenes — Paris, Lisbon, London, Edinburgh, Hay-on-Wye area. Famous shops and neighborhoods.",
+    html: `
+<h2>The independent bookshop test</h2>
+
+<p>Chains exist everywhere; independent bookshop density is the real signal. Below are cities where you can browse a different shop daily for a week and find different inventory each time.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Shakespeare and Company is the famous one but also the worst-curated. Better: La Hune (rebuilt), Galignani, Librairie Vendôme, L'Écume des Pages. <a href="/en/france/paris/saint-germain">Saint-Germain</a> historic literary heart.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Bertrand Chiado founded 1732 — Guinness Book holder for oldest bookshop. Ler Devagar in LX Factory. Livraria Sá da Costa for antiquarian. Fewer English-language options than Paris but architecturally striking.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Daunt Books (multiple), Hatchards (1797), Foyles, Stanfords (travel), Persephone Books (women's). Charing Cross Road historically dense; <a href="/en/uk/london/notting-hill">Notting Hill</a> for boutique.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Topping & Company, Lighthouse, Armchair Books. UNESCO City of Literature designation. Compact city makes browsing efficient.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Dussmann (huge English section), Pro qm (architecture/theory), Buchhändlerkeller (used books). German + English bilingual scene strong.</p>
+
+<h2>Strategy</h2>
+
+<p>Combine with cafés — Lisbon especially built around café-bookshop hybrids. <a href="/en/articles/best-european-cities-for-literature-lovers">Literature lovers</a> guide is the broader companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-modernist-architecture",
+    title: "Best European Cities for Modernist Architecture",
+    excerpt: "Brussels for Art Nouveau (Horta), Barcelona for Catalan Modernisme (Gaudí), Vienna for Secession, Berlin and Rotterdam for postwar functionalism.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Modernist Architecture",
+    metaDescription: "Cities for Art Nouveau, Modernisme, Secession, Bauhaus — Brussels, Barcelona, Vienna, Berlin, Rotterdam, Glasgow.",
+    html: `
+<h2>Movements, not just buildings</h2>
+
+<p>"Modernist" is shorthand for several distinct movements 1890–1960: Art Nouveau (Horta, Guimard), Catalan Modernisme (Gaudí, Domènech), Vienna Secession (Otto Wagner, Olbrich), Bauhaus, postwar Brutalism. Each had a capital city.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Art Nouveau capital. Horta House, Solvay House, Hotel Tassel, Hotel van Eetvelde. Saint-Gilles and Ixelles districts dense with Horta and Hankar buildings. Less famous than Vienna but architecturally richer per square km.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Catalan Modernisme. Sagrada Família, Park Güell, Casa Batlló, Casa Milà — Gaudí dominates but Domènech i Montaner (Palau de la Música) and Puig i Cadafalch matter equally. <a href="/en/spain/barcelona/eixample">Eixample</a> the museum-density grid.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Secession. Otto Wagner buildings (Postsparkasse, Karlsplatz Stadtbahn), Joseph Olbrich's Secession Building, Adolf Loos's Looshaus and Café Museum. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Bauhaus + postwar modernism + GDR socialist classical. Bauhaus-Archiv, Hansaviertel housing estate, Le Corbusier's Unité d'Habitation, Mies van der Rohe's Neue Nationalgalerie.</p>
+
+<h2>Rotterdam</h2>
+
+<p><a href="/en/netherlands/rotterdam">Rotterdam</a> postwar Dutch modernism — Cube Houses, Markthal, Erasmus Bridge, Centraal Station. Bombed flat in 1940 then rebuilt entirely modern. Architecture-biennale energy permanent.</p>
+
+<h2>Glasgow</h2>
+
+<p><a href="/en/uk/glasgow">Glasgow</a> Mackintosh Glasgow Style — Glasgow School of Art (rebuilt), Hill House, Mackintosh House at Hunterian. Distinctive UK contribution to international Art Nouveau.</p>
+
+<h2>Strategy</h2>
+
+<p>Architecture passes (Brussels, Vienna, Barcelona) bundle interior access. Many privately-owned modernist houses open only on specific days — research before booking flights.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -19240,6 +19240,279 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-craft-cider",
+    title: "Best European Cities for Craft Cider Tasting",
+    excerpt: "Asturias's Oviedo and Gijón are Spain's cider heartland; Normandy's Caen and Rouen anchor French cidre; Somerset and Hereford represent English heritage; Frankfurt for Apfelwein.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Craft Cider — Asturias, Normandy, Somerset",
+    metaDescription: "Cider regions and base cities — Oviedo (Asturias), Caen (Normandy), Bristol (Somerset), Frankfurt (Apfelwein). Tasting strategies.",
+    html: `
+<h2>European cider geography</h2>
+
+<p>Cider is regional everywhere it's traditional. Spanish sidra (Asturian especially), French cidre (Normandy + Brittany), English cider (Somerset, Herefordshire), German Apfelwein (Frankfurt) — each with its own tradition, glassware, drinking ritual.</p>
+
+<h2>Oviedo and Gijón (Asturias, Spain)</h2>
+
+<p>Asturian sidra — natural, low-alcohol, served with theatrical pour from height (escanciar). Oviedo's Calle Gascona is the Sidra Boulevard — 30+ sidrerías. Gijón equally cider-dense. €1.50–2.50 per pour, designed for sharing. Day-trip from Bilbao or fly direct to Asturias airport.</p>
+
+<h2>Caen and Rouen (Normandy)</h2>
+
+<p>French cidre + Calvados (apple brandy distilled from cidre). Maison Dupont, Cidrerie de l'Hermitière. Cidre Brut (drier) and Doux (sweeter) traditional with crêpes/galettes. Day-trip from Paris (1h45 to Rouen). Calvados tastings often combined.</p>
+
+<h2>Bristol (Somerset cider gateway)</h2>
+
+<p>Somerset is England's cider heartland. Bristol the urban base, Wells/Glastonbury the cider villages. Cider with Rosie territory. Pubs like The Coronation Tap (Bristol) and Stable serve traditional Somerset cider. Pints £4–6.</p>
+
+<h2>Hereford</h2>
+
+<p>Herefordshire alternative cider region. Westons Cider, Henney's. Day-trip from Birmingham (1h train).</p>
+
+<h2>Frankfurt (Apfelwein)</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> Apfelwein (apple wine, fermented dry — quite different from English cider). Adolf Wagner, Zum Feuerrädchen, Atschel. Drunk in distinctive ribbed Bembel jugs. €3–5 per glass. Sachsenhausen district the Apfelwein quarter.</p>
+
+<h2>Brittany (Rennes base)</h2>
+
+<p>Cider de Bretagne — sometimes drier than Normandy's. Rennes the urban gateway. Combined with crêpe/galette restaurants for traditional pairing.</p>
+
+<h2>Strategy</h2>
+
+<p>Pour-from-height service in Asturian sidrerías important — drink immediately while bubbles fresh. French cidre keeps better. English cider + ploughman's lunch the standard pairing. <a href="/en/articles/best-european-cities-for-craft-distilleries">Craft distilleries</a> for the spirits-side companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tap-water-quality",
+    title: "Best European Cities for Drinking Tap Water",
+    excerpt: "Munich, Vienna, Zurich, Stockholm, and Helsinki have the best tap water in Europe; Italy's Naples and many Mediterranean cities require bottled. Practical map.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Drinking Tap Water",
+    metaDescription: "Where European tap water is best — Munich, Vienna, Zurich, Helsinki, Stockholm. Cities to avoid drinking tap. Filtration and bottle strategies.",
+    html: `
+<h2>Why tap water matters for travel</h2>
+
+<p>Bottled water is expensive and creates plastic waste. European tap-water quality varies enormously. Cities below have tap water as good or better than bottled — bring a refillable bottle and save €10–20/day.</p>
+
+<h2>Excellent tap-water cities</h2>
+
+<p><strong><a href="/en/germany/munich">Munich</a></strong> — Bavarian Alpine sourced, often called best in Europe.<br>
+<strong><a href="/en/austria/vienna">Vienna</a></strong> — Hochquellenwasserleitung sources from Alpine springs since 1873.<br>
+<strong><a href="/en/switzerland/zurich">Zurich</a></strong> — drinkable Lake Zurich water, exceptional clarity.<br>
+<strong><a href="/en/finland/helsinki">Helsinki</a></strong> — Päijänne tunnel water from glacial lake, 120km from city.<br>
+<strong><a href="/en/sweden/stockholm">Stockholm</a></strong> — Stockholm tap water consistently top European rankings.<br>
+<strong>Reykjavík</strong> — Iceland tap water from glacial sources, world-class quality.<br>
+<strong>Copenhagen, Berlin, Amsterdam</strong> — all very high quality.</p>
+
+<h2>Good tap water cities</h2>
+
+<p>London (chalky/hard but safe), Paris (good, classic Parisian carafe at restaurants), Edinburgh, Madrid, Lisbon, Barcelona (improved post-2010s investment), Brussels, Prague, Budapest, Ljubljana.</p>
+
+<h2>Tap water with caveats</h2>
+
+<p><strong>Rome, Florence, Naples, Sicily, Athens, Istanbul</strong> — technically safe but heavy mineralization changes taste. Romans drink fountain water (nasoni) directly, but heavy in dissolved minerals. Filtered or bottled common locally.</p>
+
+<p><strong>Smaller Italian and Greek towns</strong>, parts of <strong>Spain</strong>, <strong>Albania</strong>, <strong>parts of Romania and Bulgaria</strong> — safety varies; locals often filter.</p>
+
+<h2>Travel strategy</h2>
+
+<p>Refillable bottle (BPA-free) — Klean Kanteen, Soma Bottle. Filter bottles (LifeStraw Go) for uncertainty cities. Most European cities have public refill stations + bars/cafés will refill bottles for free if asked. Avoid water from old fountains or untreated sources.</p>
+
+<h2>Hard vs soft water health</h2>
+
+<p>Hard water (heavy minerals) is safe; some find taste unpleasant. Soft water (Stockholm, Munich) more pleasant taste but doesn't affect health. Travel diarrhea rarely caused by tap water in Western European cities; usually unwashed produce or food handling.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-folk-museums",
+    title: "Best European Cities for Folk & Open-Air Museums",
+    excerpt: "Stockholm's Skansen invented the open-air museum format; Bucharest's Village Museum, Bratislava's, Den Gamle By all preserve traditional rural buildings.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Folk & Open-Air Museums",
+    metaDescription: "Open-air folk museums — Stockholm (Skansen), Bucharest, Aarhus, Bratislava, Helsinki. Reconstructed villages and traditional architecture.",
+    html: `
+<h2>The open-air museum invention</h2>
+
+<p>Stockholm's Skansen (1891) invented the format — relocate threatened rural buildings to a single museum site, populate with costumed staff, preserve traditional crafts. Most European countries have at least one major version. Below are the best.</p>
+
+<h2>Stockholm — Skansen</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Skansen on Djurgården island. 150+ relocated farmhouses, churches, mills, manor houses from across Sweden. Plus Nordic Zoo. Year-round open. SEK 220 entry. UNESCO-related sites comparable.</p>
+
+<h2>Aarhus — Den Gamle By</h2>
+
+<p>Den Gamle By ("The Old Town") — Danish open-air museum recreating 1864, 1927, and 1974 city streetscapes (not rural). Aarhus, day-trip from Copenhagen (3h train). Highly immersive.</p>
+
+<h2>Bucharest — Village Museum</h2>
+
+<p>Dimitrie Gusti National Village Museum — 80+ Romanian rural houses relocated, dated 17th–20th century. Includes Maramureș wooden churches, Transylvanian villages. Extensive grounds.</p>
+
+<h2>Bratislava (Slovakia)</h2>
+
+<p>Slovak National Museum of Carpathian-Slavic Folk Culture — open-air collection in Martin (3h from Bratislava) more comprehensive. Plus Dudince and Vlkolínec UNESCO traditional villages.</p>
+
+<h2>Helsinki — Seurasaari</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Seurasaari Open-Air Museum — Finnish rural buildings on island reachable by bridge. Mid-summer night fire celebration traditional.</p>
+
+<h2>Lillehammer — Maihaugen</h2>
+
+<p>Norwegian open-air museum — 200+ buildings including 12th-century stave church. Day-trip from Oslo (2h train).</p>
+
+<h2>Beamish (UK)</h2>
+
+<p>UK open-air museum near Newcastle. Recreated Edwardian/Victorian mining town, 1820s pit village, 1940s home front. £25 entry. Hands-on living history.</p>
+
+<h2>Salzburg — Stille Nacht (Christmas)</h2>
+
+<p>Salzburg Open-Air Museum (Großgmain, 30 min from city) — Austrian rural buildings.</p>
+
+<h2>Strategy</h2>
+
+<p>Half-day minimum visit. Most museums seasonal — limited winter hours November–April. Costumed-staff demonstrations (weaving, bread-baking, blacksmithing) usually included with entry. Read our <a href="/en/articles/best-european-cities-for-medieval-old-towns">medieval old towns</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-saffron-shopping",
+    title: "Best European Cities for Saffron Shopping",
+    excerpt: "Spanish La Mancha produces Europe's most prized saffron; routes through Madrid and Toledo. Greek Krokos saffron from Kozani is the underrated alternative.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Saffron Shopping",
+    metaDescription: "Where to buy authentic saffron — Madrid, Toledo (La Mancha), Athens (Krokos Kozanis), Sevilla, Bologna. Prices and authentication.",
+    html: `
+<h2>European saffron geography</h2>
+
+<p>Spain's La Mancha (Castilla-La Mancha region — Toledo, Albacete, Cuenca) produces Europe's most prized saffron. Greece's Kozani region (north) produces Krokos Kozanis (red gold). Italy and France produce smaller premium quantities. Below: cities that base saffron-shopping trips.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> doesn't produce saffron but is the Spanish marketplace. Mercado de San Miguel, Mercado de la Cebada, plus specialty shops Lhardy. La Mancha saffron €3–8/gram retail. €15+/gram at Western European markets — Madrid the discount.</p>
+
+<h2>Toledo</h2>
+
+<p><a href="/en/spain/toledo">Toledo</a> the historic saffron-trade city. La Mancha saffron fields visible on day-drives. Local shops sell direct. Saffron Festival (Consuegra, October) the harvest celebration. Day-trip from Madrid (35 min AVE).</p>
+
+<h2>Athens (Greek saffron)</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Krokos Kozanis saffron available at central market and specialty shops. Greek production smaller but quality elite. €4–10/gram retail. Strong with Mediterranean cuisine.</p>
+
+<h2>Bologna and Florence (Italian saffron)</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> and <a href="/en/italy/florence">Florence</a> sell premium Italian saffron — Sardinian (Sardegna) and Tuscan production, smaller scale than Spain. €15–25/gram. Limited but exceptional.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Andalusian markets — Mercado Triana, plus specialty spice shops carrying La Mancha. Slightly higher prices than Madrid (transport from La Mancha).</p>
+
+<h2>Strategy</h2>
+
+<p>Real saffron threads (not powder — easier to fake). Authentic test: drop in cool water — gradually stains yellow over 10–15 minutes (fake stains immediately or stays clear). Authentic certified-DOP packaging carries hologram. Carry-on luggage recommended (vacuum-packed travels well). Customs limits — under €100 typically duty-free.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-fishing-villages-day-trips",
+    title: "Best European Cities for Fishing Village Day Trips",
+    excerpt: "Cinque Terre from La Spezia; Sintra coast Cabo da Roca from Lisbon; Skye and Mallaig from Glasgow; Hvar from Split — fishing villages within day-trip range of major cities.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Fishing Village Day Trips",
+    metaDescription: "Cities with fishing village day trips — La Spezia, Lisbon (Sintra coast), Split, Glasgow, Bergen. Routes, transport, and what to eat.",
+    html: `
+<h2>Fishing-village travel format</h2>
+
+<p>Stay in a city with restaurants and infrastructure; day-trip to fishing villages for atmosphere, harbor walks, fresh seafood lunch, photo opportunities. Below: city + fishing village pairings that work as day trips.</p>
+
+<h2>La Spezia (Cinque Terre)</h2>
+
+<p>Cinque Terre's five villages (Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso) are technically tourist towns now but with fishing-village look. €18 day pass for trains + paths.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Sintra coast plus Cascais (35 min train). Plus Setúbal (75 min) less touristed alternative — actual working fishing harbor. Choco frito (deep-fried cuttlefish) the local specialty.</p>
+
+<h2>Split (Croatia)</h2>
+
+<p><a href="/en/croatia/split">Split</a> Hvar town (1h ferry), Trogir (30 min bus), Brač's Bol village (50 min ferry). All Croatian Adriatic working/historic fishing villages with restaurants. Boat-rental day-trips to lesser islands.</p>
+
+<h2>Glasgow / Edinburgh (Scottish coast)</h2>
+
+<p><a href="/en/uk/glasgow">Glasgow</a> base for North Berwick fishing villages, Crail (East Neuk Fife). Mallaig and Plockton further north for true Highland fishing-port atmosphere. Fish-and-chips shop on every harbor.</p>
+
+<h2>Bergen (Norway)</h2>
+
+<p>Bergen surrounded by fishing villages — Sognefjord daytrips, Lofoten further north (multi-day). Bryggen UNESCO waterfront the historic fishing-port. Salmon and stockfish heritage.</p>
+
+<h2>San Sebastián / Bilbao</h2>
+
+<p>Basque coast — Getaria (anchovy capital, 35 km from San Sebastián), Bermeo, Lekeitio. Working ports + extraordinary seafood restaurants.</p>
+
+<h2>Marseille</h2>
+
+<p>Marseille calanques (limestone fjords) hide tiny fishing villages — Cassis (40 min by boat), Callelongue. Day-trip on coastal boats. Bouillabaisse origin.</p>
+
+<h2>Strategy</h2>
+
+<p>Lunch (1pm–3pm) optimal at harbor restaurants — fishermen unload morning catch. Catch-of-the-day handwritten boards beat menu. Avoid Sunday lunches in Catholic countries (closures common). Carry small bills for cash-only seaside cafés.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-couples-spa-retreats",
+    title: "Best European Cities for Couples Spa Retreats",
+    excerpt: "Iceland's Sky Lagoon and Blue Lagoon for geothermal couples nights; Vienna's Sacher and Park Hyatt for elegance; Budapest's Gellért for historic atmosphere.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Couples Spa Retreats",
+    metaDescription: "Couples spa weekends — Reykjavik, Vienna, Budapest, Baden-Baden, Geneva. Geothermal pools, hotel spas, and 2–3 night romantic packages.",
+    html: `
+<h2>Couples-spa typology</h2>
+
+<p>Three categories: geothermal-natural (Iceland, parts of Czechia), historic-thermal (Budapest, Baden-Baden), modern-luxury-hotel (Vienna, London, Geneva). Each suits different romantic-trip styles.</p>
+
+<h2>Reykjavik</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> Sky Lagoon (newer, more romantic with infinity sea-views, swim-in cocktail bar) + Blue Lagoon (45 min from city, the iconic geothermal lagoon). Couple's package €280–600 includes premium access. Combined with Northern Lights tours November–March.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Park Hyatt Vienna Spa, Hotel Sacher Spa, Therme Wien (suburban thermal complex, €30 day pass). Combined with opera + Mozart-Konzerthaus weekend. Classical-romantic vibes. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Gellért Spa Art Nouveau interior (1918) — couple's package thermal pools + massage €100–250. Plus Széchenyi (largest, neo-Baroque outdoor) and Rudas (Ottoman-era, romantic in evenings). Most affordable European spa city.</p>
+
+<h2>Baden-Baden</h2>
+
+<p>German thermal town. Friedrichsbad (1877 Roman-Irish bath) + Caracalla Therme. Combined with Brenners Park-Hotel for luxury layer. Day-trip from Frankfurt (1h30) or weekend stay.</p>
+
+<h2>Geneva</h2>
+
+<p>Hotel d'Angleterre and La Réserve Genève spa packages — Swiss-luxury tier. CHF 600–1,200 per couple's day at top hotels including treatments. Lake Geneva views compensate price.</p>
+
+<h2>Karlovy Vary (Czechia)</h2>
+
+<p>Historic Bohemian spa town. Grandhotel Pupp (the iconic), Hotel Imperial. Thermal-spring drinking + traditional bath treatments. Cheaper than Western European spa cities.</p>
+
+<h2>Bath (UK)</h2>
+
+<p>Roman thermal town. Thermae Bath Spa rooftop pool (Bath Stone city views). Combined with Bath as romantic-weekend old town.</p>
+
+<h2>Strategy</h2>
+
+<p>Couples massage rooms book 2–4 weeks ahead Saturdays. Hotel spa packages often include 2 nights + treatments + dinner — single-line booking simpler. Off-peak (weekday) significantly cheaper. Read our <a href="/en/articles/best-european-cities-for-day-spa-luxury">luxury day spas</a> and <a href="/en/articles/best-european-cities-for-thermal-wellness">thermal wellness</a> companions.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

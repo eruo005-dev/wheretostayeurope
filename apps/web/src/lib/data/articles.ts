@@ -17108,6 +17108,259 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-river-cruises",
+    title: "Best European Cities for River Cruises",
+    excerpt: "Vienna anchors the Danube; Cologne and Basel bookend the Rhine; Porto runs the Douro; Bordeaux runs the Garonne and Dordogne. River-cruise base city matters more than cruise line.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for River Cruise Embarkation",
+    metaDescription: "Where to start river cruises — Vienna (Danube), Cologne/Basel (Rhine), Porto (Douro), Bordeaux. Routes, ships, and base-city strategy.",
+    html: `
+<h2>Why base city matters</h2>
+
+<p>River cruises are typically 7–14 nights. The embarkation city you arrive at one or two days before, and disembark at after. That city should be worth the visit — not just airport-to-port logistics. The cities below are great in their own right plus river-cruise hubs.</p>
+
+<h2>Vienna — Danube</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> central Danube hub. Cruises run Vienna → Budapest, Vienna → Passau (Germany), Vienna → Bucharest (long Black Sea cruises). AmaWaterways, Viking, Avalon, Uniworld dominate. Vienna 2–3 days pre-cruise plus full Danube route makes for outstanding 10-day trip.</p>
+
+<h2>Cologne — Rhine</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> central Rhine hub. Cruises run Amsterdam → Basel (the canonical Rhine cruise) with Cologne, Koblenz, Heidelberg, Strasbourg, Basel stops. Wine-themed cruises emphasize Rüdesheim and Boppard segments.</p>
+
+<h2>Basel — Rhine and Rhône</h2>
+
+<p>Basel anchors Upper Rhine cruises and Rhône-Saône (down to Avignon and Lyon). Less famous than Vienna or Cologne but Switzerland's only cruise port with international service.</p>
+
+<h2>Porto — Douro</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> embarkation for Douro Valley cruises. 7-night format upstream and back. Port wine tastings + UNESCO terraced vineyards. Spring (April-May) and autumn (September-October) optimal weather. AmaWaterways, Uniworld, Viking all run Douro.</p>
+
+<h2>Bordeaux — Gironde / Garonne / Dordogne</h2>
+
+<p>Bordeaux river cruises explore Gironde estuary plus Dordogne tributary. Wine-tasting central — Médoc, Saint-Émilion, Sauternes. Less famous than Rhine/Danube but premium-wine focus differentiates.</p>
+
+<h2>Strasbourg — Rhine and Canals</h2>
+
+<p><a href="/en/france/strasbourg">Strasbourg</a> for shorter Rhine itineraries plus French canal cruises. Smaller boats than Rhine cruisers; more intimate experience.</p>
+
+<h2>Strategy</h2>
+
+<p>Book 8–14 months ahead for peak season. Off-season (April, October) significantly cheaper. Add 2–3 days pre/post-cruise to the embark/disembark city. <a href="/en/articles/best-european-cities-for-canal-cruises">Canal cruises</a> the in-city counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-port-and-sherry-tasting",
+    title: "Best European Cities for Port & Sherry Tasting",
+    excerpt: "Porto invented port; Jerez (Andalusia) invented sherry. Both fortified wines have specific tasting cultures — bodegas, lodge tours, and dedicated bars.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Port Wine & Sherry Tasting",
+    metaDescription: "Where to taste port and sherry — Porto, Jerez de la Frontera, Sevilla, Madrid. Lodge tours, bodegas, and the regional fortified-wine traditions.",
+    html: `
+<h2>Two distinct fortified-wine cultures</h2>
+
+<p>Port (Portugal, Douro Valley grapes, Vila Nova de Gaia lodges) and sherry (Spain, Andalusian albariza-soil grapes, Jerez bodegas) are completely separate traditions despite both being fortified. Each city below specializes in one.</p>
+
+<h2>Porto — Vila Nova de Gaia lodges</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> lodge tours at Sandeman, Taylor's, Graham's, Croft, Cockburn, Calem — across the Douro from central Porto. 60-minute tours €15–25 with 2–4 wine flight. Combined-tour passes (€40–60 for 3 lodges) save money. Tonel (Royal Society) wood-aged tawnies the highlight pours.</p>
+
+<h2>Douro Valley</h2>
+
+<p>Day-trips upstream to Régua, Pinhão, and producers in the Douro Valley itself — visiting where grapes grow. Quinta do Crasto, Quinta do Pôpa, Quinta dos Murças. Train along Douro photogenic; or drive (very winding).</p>
+
+<h2>Jerez de la Frontera — sherry</h2>
+
+<p>Jerez is the sherry city. González Byass (Tio Pepe), Domecq, Sandeman, Lustau bodegas. Sherry styles — fino, manzanilla, oloroso, Pedro Ximénez — each different. Bodega tours €15–35. Day-trip from <a href="/en/spain/sevilla">Sevilla</a> (1h train) or weekend stay.</p>
+
+<h2>Sanlúcar de Barrameda</h2>
+
+<p>Coastal Andalusian town producing manzanilla (driest, palest sherry, made only here). Barbadillo, La Cigarrera bodegas. Combined with Jerez for proper Sherry Triangle weekend.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> sherry-bar culture (Casa Morales, El Rinconcillo, Bodega Santa Cruz). Drink sherry by the glass €2–4 in classic tabernas. Less production tour, more drinking ritual. Day-trip Jerez easy.</p>
+
+<h2>Strategy</h2>
+
+<p>Book Porto lodge tours 1–2 days ahead summer. Sherry bodegas often closed Mondays. Sherry tasting flights at €20–40 fly through 4 styles fast — eat tapas alongside. Cruise port wine ages best 5–10 years; tawnies 10–40+ years.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-northern-lights-base",
+    title: "Best European Cities for Northern Lights (Aurora) Base",
+    excerpt: "Reykjavik, Tromsø, and Rovaniemi anchor aurora trips; weather and light pollution determine success more than latitude. Pick the base, not the city.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Northern Lights Aurora Trips",
+    metaDescription: "Best aurora bases — Tromsø, Reykjavik, Rovaniemi, Kirkenes. Visit November-March, escape light pollution, sky-condition strategy.",
+    html: `
+<h2>Aurora travel reality</h2>
+
+<p>Northern Lights are unpredictable. The right base puts you in the auroral oval (66°N+ latitude) with cloud-free options to drive to. November-March, 8pm–2am the typical viewing window. Below: bases that maximize your odds.</p>
+
+<h2>Tromsø</h2>
+
+<p>Tromsø, Norway — 69°N, the world's most reliable aurora base. Dark season October-March. Tour operators drive 60–90 minutes inland to find clear skies if cloud over Tromsø. €100–180 per tour. Whale-watching February–March overlap. Direct flights from London, Oslo, Helsinki.</p>
+
+<h2>Reykjavik</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> 64°N, edge of auroral oval. Less reliable than Tromsø but extra Icelandic landscape rewards (volcanoes, geysers, Golden Circle) compensate. €70–140 aurora tours include hot chocolate and photography help. Direct flights from most European hubs.</p>
+
+<h2>Rovaniemi</h2>
+
+<p>Rovaniemi, Finland (Lapland) — 66°N. Santa Claus Village extra draw for families. Glass-igloo accommodations in surrounding wilderness for in-bed aurora viewing. Reindeer and husky sledding. Direct flights from London, Helsinki, Frankfurt.</p>
+
+<h2>Kirkenes</h2>
+
+<p>Kirkenes, Norway — 70°N, on Russian border. Hurtigruten coastal-cruise endpoint. Snow Hotel, king crab safari combinations. Less developed tourism than Tromsø but more dramatic auroral viewing.</p>
+
+<h2>Abisko</h2>
+
+<p>Abisko, Sweden — 68°N. The Aurora Sky Station (chairlift to mountain at 900m) sits in a microclimate that creates clear skies more often than surrounding regions. Considered statistically the best single aurora-viewing site in Europe.</p>
+
+<h2>Cities to avoid</h2>
+
+<p>Bergen, Oslo, Stockholm, Copenhagen — too south and too light-polluted. Helsinki edge case (60°N, occasional auroras during strong solar storms).</p>
+
+<h2>Strategy</h2>
+
+<p>3-night minimum stay; 4-5 nights ideal (cloud cover often persistent 1-2 nights). Aurora alerts via apps (My Aurora Forecast, Aurora Pro). Don't book single-night packages; multiple tours improve odds. Photography: tripod + manual long-exposure required.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-art-supplies-shops",
+    title: "Best European Cities for Art Supplies Shops",
+    excerpt: "Paris's Sennelier and Florence's Zecchi are the heritage paint-makers; London's Cass and Berlin's Modulor cover the contemporary scene.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Art Supplies & Materials Shops",
+    metaDescription: "Where to buy art supplies in Europe — Paris (Sennelier), Florence (Zecchi), Berlin (Modulor), London (Cass), Amsterdam. Heritage paint and materials.",
+    html: `
+<h2>Heritage and contemporary</h2>
+
+<p>Two categories: heritage paint-makers (Sennelier, Zecchi — they actually formulate and produce pigments on premises) and large multi-floor art-supply emporiums (Modulor, Cass — broad inventory, contemporary brands). Cities below offer one or both.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Sennelier (since 1887, Quai Voltaire facing the Louvre — Cézanne, Picasso, Degas all bought here). Magasin Sennelier carries paints, papers, oils, pastels — premium prices but legend. Plus Adam Montparnasse, Le Géant des Beaux Arts. <a href="/en/france/paris/saint-germain">Saint-Germain</a> historic art-supply zone.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Zecchi (Via dello Studio, since 1912) — historic Florentine painters' supplier still grinding pigments. Renaissance art-restoration knowledge bound up in store. Combined with Florence's accademie di belle arti programs.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Modulor (Prinzenstraße, Kreuzberg) — three floors of art and design supplies. Berlin art-school student staple. Less heritage, more "everything you need for a project."</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Cass Art (multiple stores), L. Cornelissen & Son (Great Russell Street, since 1855 — historic, atmospheric), Atlantis Art (Brick Lane). UK strong on watercolor and printmaking traditions.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Vlieger Papier (since 1869, paper specialist), Van Beek Art Supplies. Strong on paper and bookbinding given Dutch printing heritage.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Boesner art supplies (multiple Austrian and German cities). Lukas Künstlerfarben heritage paint brand — buy directly at Vienna shop.</p>
+
+<h2>Strategy</h2>
+
+<p>Heritage paint-makers worth shopping for unique pigments unavailable elsewhere (Sennelier soft pastels, Zecchi natural-earth pigments). Carry-on bags safer than checked for fragile pastels and inks. <a href="/en/articles/best-european-cities-for-paper-stationery">Paper stationery</a> the writing-side companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-architecture-walks",
+    title: "Best European Cities for Architecture Walking Tours",
+    excerpt: "Vienna for Otto Wagner, Barcelona for Gaudí, Berlin for postwar modernism, Glasgow for Mackintosh. Themed architecture walks reveal cities differently than general sightseeing.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Architecture Walking Tours",
+    metaDescription: "Cities with great architecture walks — Vienna, Barcelona, Berlin, Glasgow, Brussels, Rotterdam. Self-guided routes and tour operators.",
+    html: `
+<h2>Self-guided vs operator-led</h2>
+
+<p>Self-guided architecture walks (with city's architecture-society maps) cost zero and let you set pace. Operator-led tours (€20–40 typically) include interior access to private buildings closed to general public. Both work; operator-led better for first visit.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Otto Wagner walking tour route — Postsparkasse, Karlsplatz Stadtbahn, Majolikahaus, Wagner-built apartment buildings (6th and 7th districts). Plus Adolf Loos's Looshaus and Café Museum. Vienna Tourism Board provides downloadable PDF route.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Modernisme route — Sagrada Família, Park Güell, Casa Batlló, Casa Milà, Hospital de Sant Pau, Palau de la Música. <a href="/en/spain/barcelona/eixample">Eixample</a> grid + the Passatges full Modernisme density. Architects: Gaudí, Domènech, Puig i Cadafalch.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> postwar architecture walks — Hansaviertel housing estate (Le Corbusier, Aalto, Niemeyer), Karl-Marx-Allee (East Berlin Stalinist boulevard), Bauhaus-Archiv. Plus contemporary architecture walks (Sony Center, Reichstag dome, Holocaust Memorial).</p>
+
+<h2>Glasgow</h2>
+
+<p><a href="/en/uk/glasgow">Glasgow</a> Charles Rennie Mackintosh trail — Glasgow School of Art (rebuilt), Hill House (Helensburgh, day-trip), Mackintosh House at Hunterian, Willow Tea Rooms. Mackintosh Society organizes tours.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Art Nouveau walks — Horta House, Solvay House, Hotel Tassel, Hotel van Eetvelde. Saint-Gilles and Ixelles districts. The Horta Foundation organizes guided interior visits.</p>
+
+<h2>Rotterdam</h2>
+
+<p><a href="/en/netherlands/rotterdam">Rotterdam</a> contemporary architecture walking tour — Cube Houses, Markthal, Erasmus Bridge, Centraal Station, De Rotterdam (OMA tower). Rotterdam Architectural Walks operator.</p>
+
+<h2>Strategy</h2>
+
+<p>Architecture walks 2.5–3.5 hours typical. Wear walking shoes. Bring binoculars for upper-floor details. <a href="/en/articles/best-european-cities-for-modernist-architecture">Modernist guide</a> + <a href="/en/articles/best-european-cities-for-art-deco-architecture">Art Deco guide</a> + <a href="/en/articles/best-european-cities-for-baroque-architecture">Baroque guide</a> for detailed style backgrounders.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-puppet-theater",
+    title: "Best European Cities for Puppet & Marionette Theater",
+    excerpt: "Prague's marionette tradition is UNESCO; Salzburg's Marionettentheater stages full Mozart operas; Sicily's Opera dei Pupi survives in Palermo and Catania.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Puppet & Marionette Theater",
+    metaDescription: "Cities with puppet theater — Prague, Salzburg, Palermo, Catania. UNESCO-listed marionette traditions and how to book performances.",
+    html: `
+<h2>Living traditions</h2>
+
+<p>Several European cities preserve specific puppet-theater traditions that are still performed nightly. Many UNESCO-listed. Below are the cities where you can see these in operation.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> National Marionette Theatre stages Don Giovanni nightly with marionettes (since 1991, this exact production). 90 minutes; Mozart's full opera shortened. Tickets €25–35. National Theatre and Spejbl & Hurvínek Theatre also active. Puppet tradition Czech UNESCO heritage.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Salzburger Marionettentheater (1913) — full operatic Mozart productions with marionettes. Magic Flute, Bastien und Bastienne, plus contemporary works. €25–40. The marionettes themselves are works of art — puppet-craft museum onsite.</p>
+
+<h2>Palermo and Catania (Sicily)</h2>
+
+<p><a href="/en/italy/palermo">Palermo</a> Opera dei Pupi (Sicilian puppet theater) — UNESCO Intangible Cultural Heritage. Antonio Pasqualino Museum, Cuticchio family theater. Stories of Charlemagne and the paladins. Catania has its own Opera dei Pupi tradition. Tickets €10–15; small intimate venues.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Théâtre Le Guignol — origin city of Guignol, the famous French hand puppet character (1808). Children-friendly traditional shows.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Théâtre Royal de Toone — five-generation marionette theater, in <a href="/en/belgium/brussels/centre-historique">Centre Historique</a>. Performances in French, English, sometimes Dutch.</p>
+
+<h2>Strategy</h2>
+
+<p>Family-friendly Salzburg and Prague (tourist-Mozart adaptations); more historical Palermo Opera dei Pupi. Book Prague Don Giovanni 1–2 days ahead summer. Salzburg Festival (July-August) raises ticket prices and competition.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

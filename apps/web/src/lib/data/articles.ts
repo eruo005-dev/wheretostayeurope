@@ -13354,6 +13354,332 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 43 — country-specific itineraries + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-7-day-switzerland-itinerary",
+    title: "7-Day Switzerland Itinerary: Zurich + Lucerne + Interlaken",
+    excerpt: "How to do Switzerland in 7 days — alpine + lakes + cities without breaking the bank.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 10,
+    metaTitle: "7-Day Switzerland Itinerary — Honest 2026",
+    metaDescription: "How to do Switzerland in 7 days — alpine + lakes + cities without breaking the bank.",
+    html: `
+<p>Switzerland in 7 days delivers alpine + city combinations. Here's the honest plan.</p>
+
+<h2>Best 7-day Switzerland</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/switzerland/zurich">Zurich</a> (Niederdorf + lake + Kunsthaus)</li>
+  <li>Day 3: Train to <a href="/en/switzerland/lucerne">Lucerne</a></li>
+  <li>Day 4: Day-trip to Mt. Pilatus or Rigi from Lucerne</li>
+  <li>Day 5: Train to Interlaken (gateway to Bernese Oberland)</li>
+  <li>Day 6: Jungfraujoch day-trip (or Schynige Platte)</li>
+  <li>Day 7: Train back via Bern → Zurich</li>
+</ul>
+
+<h2>Alternative — Lake Geneva + Matterhorn</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/switzerland/geneva">Geneva</a></li>
+  <li>Day 3: Train to Montreux + Lavaux vineyards</li>
+  <li>Day 4-5: Train to Zermatt (Matterhorn area)</li>
+  <li>Day 6-7: Glacier Express to St. Moritz</li>
+</ul>
+
+<h2>Alternative — Italian Switzerland + Alps</h2>
+
+<ul>
+  <li>Day 1-2: Lugano (Italian-speaking)</li>
+  <li>Day 3-4: <a href="/en/switzerland/lucerne">Lucerne</a></li>
+  <li>Day 5-7: Bernese Oberland (Interlaken or Grindelwald)</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€350-€500/day comfortable. Switzerland is among Europe's most expensive. Save with the Swiss Travel Pass + supermarket lunches + hostel-or-Airbnb stays.</p>
+
+<h2>What to skip in 7 days</h2>
+
+<ul>
+  <li><strong>Berlin/Munich extensions:</strong> Different countries; eats time.</li>
+  <li><strong>Italian Lakes detour:</strong> Different region.</li>
+  <li><strong>5+ Swiss cities:</strong> Half is travel.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Swiss Travel Pass: 8-day pass €418 covers most trains, most ferries, museum entry. Run the math vs point-to-point.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-austria-itinerary",
+    title: "7-Day Austria Itinerary: Vienna + Salzburg + Hallstatt",
+    excerpt: "How to do Austria in 7 days — imperial cities + alpine villages.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 9,
+    metaTitle: "7-Day Austria Itinerary — Honest 2026",
+    metaDescription: "How to do Austria in 7 days — imperial cities + alpine villages.",
+    html: `
+<p>Austria in 7 days combines imperial Vienna + Salzburg + alpine day-trips. Here's the honest plan.</p>
+
+<h2>Best 7-day Austria</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/austria/vienna">Vienna</a> (Innere Stadt + Schönbrunn + Belvedere)</li>
+  <li>Day 4: Train to <a href="/en/austria/salzburg">Salzburg</a></li>
+  <li>Day 5: Day-trip to Hallstatt from Salzburg</li>
+  <li>Day 6: Salzburg + Sound of Music tour</li>
+  <li>Day 7: Train to <a href="/en/austria/innsbruck">Innsbruck</a> + alpine views</li>
+</ul>
+
+<h2>Alternative — Vienna deep + day-trips</h2>
+
+<ul>
+  <li>Day 1-5: Vienna with day-trips to Wachau Valley, Bratislava, Burgenland wine country</li>
+  <li>Day 6-7: <a href="/en/austria/salzburg">Salzburg</a></li>
+</ul>
+
+<h2>Alternative — Tyrol focus</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/austria/innsbruck">Innsbruck</a></li>
+  <li>Day 4-5: Kitzbühel + Mayrhofen (alpine villages)</li>
+  <li>Day 6-7: <a href="/en/austria/salzburg">Salzburg</a></li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€180-€300/day comfortable. Austria is mid-range — pricier than Eastern Europe, cheaper than Switzerland.</p>
+
+<h2>Strategy</h2>
+
+<p>OBB train passes for cross-Austria travel. Vienna's Wiener Linien transit pass essential for stays. Salzburg + Innsbruck are walking-distance cities.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-non-eu-passport-holders",
+    title: "European Travel for Non-EU Passport Holders (Schengen Tips)",
+    excerpt: "Schengen 90/180 rule, visa requirements, and which European countries are easiest.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 9,
+    metaTitle: "European Travel for Non-EU Passport Holders — Schengen 2026",
+    metaDescription: "Schengen 90/180 rule, visa requirements, and which European countries are easiest.",
+    html: `
+<p>Schengen rules matter for non-EU travelers. Here's the honest take.</p>
+
+<h2>Schengen 90/180 rule</h2>
+
+<p>Non-EU passport holders (US, UK, Canada, Australia, etc.) can stay in the Schengen Zone for up to 90 days within any 180-day period. This is rolling — calculated daily.</p>
+
+<h2>Schengen countries (as of 2026)</h2>
+
+<p>The Schengen Zone includes: Austria, Belgium, Croatia, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Bulgaria. Cyprus and Ireland are EU but NOT Schengen.</p>
+
+<h2>Non-Schengen workarounds</h2>
+
+<ul>
+  <li><strong>UK + Ireland:</strong> Separate immigration; doesn't count toward Schengen days.</li>
+  <li><strong>Cyprus:</strong> Same.</li>
+  <li><strong>Albania, Bosnia, Montenegro, Serbia, North Macedonia, Turkey:</strong> Separate from Schengen — restart your 90-day clock here.</li>
+  <li><strong>Most have generous tourist visas:</strong> 90+ days for Americans/Canadians.</li>
+</ul>
+
+<h2>Strategy for long Europe trips</h2>
+
+<ul>
+  <li><strong>90 days Schengen → 90 days non-Schengen → re-enter Schengen.</strong></li>
+  <li><strong>Common pattern:</strong> Schengen Western Europe → Albania/Montenegro/Turkey → back to Schengen.</li>
+  <li><strong>Long-stay visas:</strong> Portugal D7, Spain DNV, Greece DNV, Italy DNV are 1-year residency options for non-EU.</li>
+</ul>
+
+<h2>Easiest first-time non-EU European trips</h2>
+
+<ul>
+  <li><strong>UK only:</strong> No Schengen days used.</li>
+  <li><strong>Western Europe + UK:</strong> Schengen counts; UK days don't.</li>
+  <li><strong>Eastern Europe (Schengen):</strong> Czechia, Poland, Hungary all Schengen.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Use Schengen calculator:</strong> Many free online apps track entry/exit dates.</li>
+  <li><strong>Save passport stamps:</strong> Some countries are sloppy — keep your own record.</li>
+  <li><strong>Don't overstay:</strong> €200-€2000 fines + future ban risk.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-late-night-dining",
+    title: "Best European Cities for Late-Night Dining (Past Midnight)",
+    excerpt: "Where European restaurants stay open late. Honest sort by city.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Late-Night Dining — Honest 2026",
+    metaDescription: "Where European restaurants stay open late. Honest sort by city.",
+    html: `
+<p>European late-night dining varies dramatically by city.</p>
+
+<h2>Tier 1 — late-night dining standard</h2>
+
+<ul>
+  <li><strong>Madrid:</strong> Spanish dinner is 9-11pm. Restaurants open until 2am common.</li>
+  <li><strong>Barcelona:</strong> Same. Late-night tapas standard.</li>
+  <li><strong>Lisbon:</strong> Bairro Alto + Bica until 3am.</li>
+  <li><strong>Athens:</strong> Late dinner culture.</li>
+  <li><strong>Istanbul:</strong> Many restaurants open until 1-2am.</li>
+</ul>
+
+<h2>Tier 2 — late dining workable</h2>
+
+<ul>
+  <li><strong>Rome, Naples:</strong> 10-11pm dinner standard.</li>
+  <li><strong>Paris (Marais, Bastille):</strong> Last seating 10:30-11pm typical.</li>
+  <li><strong>Berlin Kreuzberg, Friedrichshain:</strong> Late kitchens until 2am.</li>
+  <li><strong>Budapest VII:</strong> Ruin bars + dining until late.</li>
+</ul>
+
+<h2>Tier 3 — late dining difficult</h2>
+
+<ul>
+  <li><strong>London (most areas):</strong> Last orders 10:30-11pm at most pubs/restaurants.</li>
+  <li><strong>Most German cities:</strong> Kitchens close by 10pm.</li>
+  <li><strong>Most Scandinavian cities:</strong> Restaurants close 9-10pm.</li>
+  <li><strong>Most Dutch cities:</strong> Same.</li>
+</ul>
+
+<h2>What's open after midnight</h2>
+
+<ul>
+  <li><strong>Late-night kebab shops, döner shops:</strong> Universal across Europe.</li>
+  <li><strong>Late-night pizza by-the-slice:</strong> Italy, Spain.</li>
+  <li><strong>Bar food:</strong> Pubs serving past midnight in some cities.</li>
+  <li><strong>Hotel restaurants:</strong> Often 24-hour for guests.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For night-owl travelers, pick southern European cities (Madrid, Barcelona, Lisbon, Athens). Northern Europe forces dinner-by-9pm scheduling. Many late-dining cities also have aperitivo culture (5-8pm before main meal).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-breakfast",
+    title: "Best European Cities for Breakfast Culture",
+    excerpt: "Where European breakfasts deliver — Vienna, Spain, Italy, German bakeries.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Breakfast — Honest 2026",
+    metaDescription: "Where European breakfasts deliver — Vienna, Spain, Italy, German bakeries.",
+    html: `
+<p>European breakfasts vary by region. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination breakfast cities</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Coffee-house breakfast tradition. Café Sacher, Café Sperl. Eggs, ham, cheese, pastries.</li>
+  <li><strong>Madrid + Barcelona:</strong> Tortilla + pa amb tomàquet + churros con chocolate.</li>
+  <li><strong>Lisbon:</strong> Pastel de nata at A Brasileira or Pastéis de Belém.</li>
+  <li><strong>Naples:</strong> Sfogliatella + caffè standing at the bar.</li>
+  <li><strong>Istanbul:</strong> Turkish breakfast (kahvaltı) is iconic — eggs, cheeses, olives, jams, simit.</li>
+</ul>
+
+<h2>Tier 2 — strong breakfast culture</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Brunch tradition strong (Sunday).</li>
+  <li><strong>Munich:</strong> Weisswurst + pretzel + beer (real Bavarian tradition before 12pm).</li>
+  <li><strong>Stockholm:</strong> Cinnamon buns + open-faced sandwich.</li>
+  <li><strong>Copenhagen:</strong> Smørrebrød tradition.</li>
+  <li><strong>Paris:</strong> Croissant-and-coffee at any boulangerie.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>London:</strong> Full English Breakfast. Iconic at greasy spoons or hotel restaurants.</li>
+  <li><strong>Dublin:</strong> Irish breakfast (similar to English with extra black pudding).</li>
+  <li><strong>Glasgow / Edinburgh:</strong> Scottish breakfast.</li>
+</ul>
+
+<h2>What's overrated</h2>
+
+<ul>
+  <li><strong>Continental hotel breakfasts:</strong> Generic; skip and find a bakery.</li>
+  <li><strong>"American breakfast" in European hotels:</strong> Inflated price for ordinary food.</li>
+  <li><strong>Anything with "American" in name:</strong> Usually below American standard.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For breakfast culture, follow locals to neighborhood bakeries. Every European city has a bakery culture — Italian pasticceria, French boulangerie, Austrian Konditorei, Spanish panadería. The bar's standing-coffee + pastry is the local way.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-overall-safety",
+    title: "Best European Cities by Overall Travel Safety",
+    excerpt: "Honest ranking of European cities by traveler safety — 2026 honest take.",
+    publishedAt: "2026-06-07",
+    reviewedAt: "2026-06-07",
+    readingTimeMin: 9,
+    metaTitle: "Safest European Cities — Honest 2026 Ranking",
+    metaDescription: "Honest ranking of European cities by traveler safety — 2026 honest take.",
+    html: `
+<p>European cities are mostly safe but vary. Here's the honest sort.</p>
+
+<h2>Tier 1 — safest European cities</h2>
+
+<ul>
+  <li><strong>Reykjavík:</strong> Iceland is among the world's safest countries.</li>
+  <li><strong>Helsinki, Stockholm, Copenhagen, Oslo:</strong> Nordic capitals have low violent crime.</li>
+  <li><strong>Vienna, Munich:</strong> Excellent safety record.</li>
+  <li><strong>Zurich, Geneva, Lucerne:</strong> Switzerland is uniformly safe.</li>
+  <li><strong>Bath, Edinburgh, smaller UK cities.</strong></li>
+</ul>
+
+<h2>Tier 2 — generally very safe</h2>
+
+<ul>
+  <li><strong>Most German cities (Hamburg, Berlin, Cologne):</strong> Generally safe with normal precautions.</li>
+  <li><strong>Most Dutch cities:</strong> Safe with normal precautions.</li>
+  <li><strong>Most Italian cities (Rome, Florence, Milan, Venice):</strong> Pickpocket risk in tourist areas; otherwise safe.</li>
+  <li><strong>Madrid, Barcelona:</strong> Same — pickpocket risk; violent crime rare.</li>
+  <li><strong>Lisbon, Porto:</strong> Generally safe.</li>
+</ul>
+
+<h2>Tier 3 — careful in specific neighborhoods</h2>
+
+<ul>
+  <li><strong>Naples:</strong> Pickpocket + scooter-snatching concerns. Stay alert in Centro Storico.</li>
+  <li><strong>Marseille:</strong> Some neighborhoods avoid after dark (north of Vieux Port).</li>
+  <li><strong>Brussels Molenbeek + parts of Schaerbeek:</strong> Avoid late at night.</li>
+  <li><strong>Belgrade, Sofia:</strong> Generally safe but verify specific neighborhoods.</li>
+  <li><strong>Athens (Omonia + Exarcheia):</strong> Some street crime concerns.</li>
+</ul>
+
+<h2>What requires extra caution</h2>
+
+<ul>
+  <li><strong>Pickpocketing in tourist areas:</strong> Almost every European city has this. Front pocket, zipped bags.</li>
+  <li><strong>ATM scams:</strong> Use bank-affiliated ATMs in well-lit areas.</li>
+  <li><strong>Taxi scams:</strong> Use ride-share apps or pre-paid airport transfers.</li>
+  <li><strong>Late-night solo female travelers:</strong> Plan for taxi/Uber, not walking, after midnight.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>European safety is mostly about avoiding pickpockets, not violent crime. Travel insurance + smart precautions handle the rest. For specific city safety, see individual <a href="/en/articles/europe-pickpocket-aware-cities">pickpocket guide</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

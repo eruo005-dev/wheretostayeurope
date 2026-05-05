@@ -15791,6 +15791,271 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-craft-distilleries",
+    title: "Best European Cities for Craft Distilleries",
+    excerpt: "Edinburgh and Islay for whisky; London for gin; Cognac for cognac; Cologne for genever. Visiting distilleries is now baked into European craft-spirit tourism.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Craft Distillery Tours",
+    metaDescription: "Where to tour distilleries — Edinburgh (whisky), London (gin), Cognac, Amsterdam (genever), Berlin. Tour formats and prices.",
+    html: `
+<h2>The craft boom</h2>
+
+<p>European craft distilling exploded after 2010 — small-batch gin, whisky, vermouth, amaro. Most cities below host both heritage distilleries and modern micro-distilleries; visiting both reveals how the category split.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Holyrood Distillery (city center, single malt + gin), Pickering's, Port of Leith Distillery. Day-trip access to Glenkinchie (Lowland classic). Whisky tour buses from Edinburgh reach Speyside or Islay overnight.</p>
+
+<h2>Glasgow</h2>
+
+<p><a href="/en/uk/glasgow">Glasgow</a> Glasgow Distillery, Clydeside Distillery (river-side modern), the Drum Distillery. Industrial-Glasgow whisky revival on the Clyde. £20 distillery tours include tastings.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Sipsmith (the gin pioneer that legalized small-batch in 2009), Beefeater Distillery (Kennington), Hayman's, City of London Distillery. Gin tours £18–35 typical. <a href="/en/uk/london/clerkenwell-islington">Clerkenwell-Islington</a> dense.</p>
+
+<h2>Cognac</h2>
+
+<p>Cognac (the town in southwest France, day-trip from Bordeaux) hosts Hennessy, Martell, Rémy Martin, Camus visitor experiences. Cellar tours €15–80 with tasting. The town small enough to walk between major houses.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Bols House of Genever experience plus craft distilleries (Schiedam day-trip is the genever heartland). Genever predates gin and is unique to the Netherlands and Belgium.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Adler Berlin Dry Gin distillery, Mampe (historic), Berliner Brandstifter. Distillery tours often combined with cocktail bar visits.</p>
+
+<h2>Strategy</h2>
+
+<p>Book directly with distillery (cheaper than agency). Driver-friendly distilleries provide alternative tasting samples. <a href="/en/articles/best-european-cities-for-craft-beer">Craft beer</a> the obvious counterpart for hop-side trips.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tipping-culture",
+    title: "Best European Cities for Tipping Culture (and Where Not To)",
+    excerpt: "European tipping varies wildly. UK and France service-included; Germany 5–10% rounded; Italy almost zero; Iceland and Switzerland literally don't expect tips.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "European Tipping Culture by City — When to Tip and How Much",
+    metaDescription: "City-by-city tipping guide for Europe — UK, France, Italy, Germany, Switzerland, Iceland. Restaurants, hotels, taxis, cabs, tour guides.",
+    html: `
+<h2>The single biggest myth</h2>
+
+<p>"Tip 20% in Europe" is wrong. American 20%-tip norms are badly out of place in most of Europe. Service is often included by law or by social custom, and over-tipping marks you as a confused tourist. Here's the real map.</p>
+
+<h2>UK</h2>
+
+<p>Service charge typically auto-added (12.5%) at restaurants. If yes, tip nothing more. If not added, 10–15% acceptable. Pubs: never tip the bartender (instead "have one for yourself" — they pocket the cost of a half-pint). Taxis: round up.</p>
+
+<h2>France</h2>
+
+<p>Service compris (service included) on 100% of restaurant bills. Round up €1–5 for excellent service or leave nothing — locals leave nothing. Bars: zero. Hotels: €1–2/bag, €1–2/night for housekeeping if extended stay. Cab drivers don't expect.</p>
+
+<h2>Germany / Austria</h2>
+
+<p>Round up bill 5–10% rounded to the nearest euro. €43 → €45 standard for friendly service. Say the rounded total when paying ("Funfundvierzig" / "Forty-five"). Don't leave change on the table. Service is included but rounding up is universal.</p>
+
+<h2>Italy</h2>
+
+<p>Coperto (cover charge €1.50–4 per person) on most restaurant bills already. Servizio sometimes added. Beyond that — a few euros for excellent service is plenty. Bars: no tip; cafés round up to €1.</p>
+
+<h2>Switzerland / Iceland / Scandinavia</h2>
+
+<p>Do not tip. Service is built into prices and minimum wages high. Rounding up is acceptable; expecting tips is not standard.</p>
+
+<h2>Spain / Portugal</h2>
+
+<p>Round up €1–5 for restaurant tables. Tapas counters: zero. Hotels: €1/bag light tip.</p>
+
+<h2>Greece / Turkey / Balkans</h2>
+
+<p>10% standard at restaurants if no service charge. Higher informal tip culture especially Turkey. Hotels expect more than Western Europe.</p>
+
+<h2>Strategy</h2>
+
+<p>When in doubt, ask: "Is service included?" — direct question is normal. Don't tip in restaurants where bill includes 10–15% service. Always carry small bills/coins for tipping.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-leather-goods",
+    title: "Best European Cities for Leather Goods Shopping",
+    excerpt: "Florence's leather school is 800 years old; Spain's leather supply ranks first in Europe; Paris and Milan make the famous bags. Quality versus designer-name decisions.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Leather Goods — Bags, Belts, Jackets",
+    metaDescription: "Where to buy leather in Europe — Florence, Madrid, Paris, Milan, Spain. Tanneries, artisan bags, designer flagship shops, prices.",
+    html: `
+<h2>Quality first, design second</h2>
+
+<p>Designer-name leather (Louis Vuitton, Prada) sells brand. Italian and Spanish artisan leather sells material — vegetable-tanned, hand-stitched, full-grain. Both have their place; the cities below let you choose.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Scuola del Cuoio (the leather school inside Santa Croce friary, founded 1950) plus dozens of independent ateliers. Bags €200–800 quality far above any high-street brand. Vegetable-tanned local saddle leather. Machined production also strong (Cellerini, Il Bisonte, Madova for gloves).</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Loewe (the Spanish heritage house) flagship, plus Capas Seseña, Castellanos Atelier. Spain produces more leather than Italy at industrial scale — supply chain advantage shows in lower prices for equivalent quality. Dependent on house.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Hermès Faubourg Saint-Honoré (the global Holy Grail leather destination), Goyard, Moynat, Delvaux. Allocation lists for Birkin/Kelly mean access matters more than price. Smaller shops in <a href="/en/france/paris/le-marais">Le Marais</a> for Parisian artisan brands like Maison Père.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Prada flagship, Bottega Veneta (intrecciato leather), Tod's. Milan strong on industrial-luxury Italian leather. Smaller leather artisans cluster in <a href="/en/italy/milan/brera">Brera</a> and the Galleria district.</p>
+
+<h2>Cordoba</h2>
+
+<p><a href="/en/spain/cordoba">Cordoba</a> historic leather embossing (cordobán — the city gave its name to the leather technique). Smaller souvenir-scale today, but artisan workshops still operating. Day-trip from Sevilla.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Pellettieri di Napoli (a designation, not single shop) + scattered ateliers. Less famous than Florence but Naples' tailoring tradition extends to leather.</p>
+
+<h2>Strategy</h2>
+
+<p>Vegetable-tanned leather develops patina over years; chrome-tanned starts gorgeous but ages flat. Ask which type. €100–300 well-made bag from Florence outlasts €1,000 high-street. Customs limits — UK/USA tax-free under £390/€800.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bike-share-systems",
+    title: "Best European Cities for Bike Share Systems",
+    excerpt: "Paris's Vélib was the global pioneer; London's Santander, Barcelona's Bicing, Lyon's Vélo'v all reshaped cities. Some bike-share systems work brilliantly; some are theatre.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Bike Share Systems",
+    metaDescription: "Cities with great bike share — Paris (Velib), Lyon, London (Santander), Barcelona, Helsinki. How to use them and which work best.",
+    html: `
+<h2>Bike share vs renting</h2>
+
+<p>Public bike-share systems (€1–3/day pass, free first 30 min) are great for last-mile A-to-B; full-day rentals from bike shops better for tourist sightseeing routes. The cities below have public systems that genuinely work.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Vélib' was the first major system (2007). Now electric bikes added (Vélib' V3). Day pass €5; week pass €15; first 30 min free per ride. 1,400 stations. iOS/Android apps. Paris cycling lanes inconsistent — some great (Bois de Vincennes), some terrifying.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Vélo'v predated Paris's by two years. €1.80/day; first 30 min free. Compact city makes Vélo'v the obvious transport for short hops. 4,000 bikes.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Santander Cycles (a.k.a. Boris Bikes). £1.65/30 min. 800 stations. Practical for last-mile but London traffic intimidating for casual cyclists. Padded saddles let down by heavy frames.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Bicing — but residents-only registration (Spanish ID required). Tourists use Donkey Republic, Mobike, or rent from bike shops instead.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> HSL Citybikes — €5/day, 1,500 bikes May–October. Clean integrated with public transit app. Helsinki bike infrastructure legitimately good.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Nextbike + multiple operators. €1/30 min after €5 sign-up. Less integrated than Paris but extensive coverage. Berlin's flat geography and bike lanes good for casual riders.</p>
+
+<h2>Strategy</h2>
+
+<p>Pre-register through app the night before — registration friction kills first-day usage. Helmet not provided (not legally required adults in most cities, but recommended). Cities to skip bike-share: Rome (chaos), Athens (chaos + hills).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-mosque-architecture",
+    title: "Best European Cities for Mosque Architecture",
+    excerpt: "Istanbul's Süleymaniye and Blue Mosque are the global benchmark; Cordoba's Mezquita is the Andalusian masterpiece; Sarajevo and Granada complete the list.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Mosque Architecture",
+    metaDescription: "Cities for mosque visits — Istanbul, Cordoba, Granada, Sarajevo, Sofia. Ottoman, Andalusian, Balkan styles and visitor etiquette.",
+    html: `
+<h2>Three architectural traditions</h2>
+
+<p>Ottoman mosque (Istanbul, Sarajevo, Sofia) — domed, multiple half-domes, slim pencil minarets. Andalusian mosque (Cordoba, Granada) — horseshoe arches, courtyards, woven decoration. Both have living traditions in cities below.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> the global capital. Süleymaniye (Sinan's masterpiece, 1557), Sultan Ahmed (Blue Mosque), Hagia Sophia (originally cathedral, now mosque again), Yeni Cami (Eminönü), Rüstem Pasha (tile masterwork), Şehzade. Free to visit outside prayer times. <a href="/en/turkey/istanbul/sultanahmet">Sultanahmet</a> base.</p>
+
+<h2>Cordoba</h2>
+
+<p><a href="/en/spain/cordoba">Cordoba</a> the Mezquita — 8th–10th century mosque expanded into one of the largest in the medieval world, now a cathedral with the mosque architecture intact. Free entry weekday mornings 8:30–9:30; otherwise €13. UNESCO. Day-trip from Sevilla.</p>
+
+<h2>Granada</h2>
+
+<p><a href="/en/spain/granada">Granada</a> Alhambra is technically a palace complex but contains mosque architecture (Mexuar, Comares Hall arches). The actual Granada Grand Mosque (Mezquita Mayor de Granada, 2003) is modern but follows Andalusian forms.</p>
+
+<h2>Sarajevo</h2>
+
+<p>Sarajevo Gazi Husrev-beg Mosque (1531, Ottoman classical). Bosnia's Ottoman heritage produced dozens of mosques in Sarajevo and surrounding Bosnia — Travnik, Mostar. Free entry; modest dress required.</p>
+
+<h2>Sofia</h2>
+
+<p><a href="/en/bulgaria/sofia">Sofia</a> Banya Bashi Mosque (1576, Ottoman). One of the few surviving Ottoman mosques in Bulgaria — most demolished post-Independence. Modest scale but historically important.</p>
+
+<h2>Visitor etiquette</h2>
+
+<p>Remove shoes at entry. Cover legs (men and women) and head (women) — scarves often provided. Visit outside the five daily prayer times. Friday afternoons closed to visitors. Don't take photos of worshipping people.</p>
+
+<h2>Strategy</h2>
+
+<p>Combined Istanbul mosque-touring 2–3 hours per cluster. Cordoba Mezquita best 8:30–9:30 (free, empty) or 4:30pm onward. <a href="/en/articles/best-european-cities-for-pilgrimage-religious-travel">Pilgrimage guide</a> for the broader religious travel companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-overtourism-alternatives",
+    title: "Best European Cities for Avoiding Overtourism",
+    excerpt: "Skip Barcelona and Venice — go to Valencia and Trieste. Skip Amsterdam — try Utrecht. Skip Florence — try Bologna. Comparable experiences, half the crowds.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Avoiding Overtourism (Alternatives)",
+    metaDescription: "Alternatives to overtouristed cities — Valencia not Barcelona, Trieste not Venice, Utrecht not Amsterdam, Bologna not Florence. Why and how.",
+    html: `
+<h2>Why overtourism matters</h2>
+
+<p>Barcelona, Venice, Amsterdam, Florence, Dubrovnik, and Santorini have implemented or are implementing tourist taxes, day-tripper limits, or cruise restrictions. Visiting them in summer 2026 means crowds, hostility from locals, and inflated prices. Below are alternatives that deliver 80% of the experience without the friction.</p>
+
+<h2>Skip Barcelona — visit Valencia</h2>
+
+<p><a href="/en/spain/valencia">Valencia</a> has Mediterranean beach, paella's birthplace, City of Arts and Sciences (modernist), Old Town with cathedral and Lonja, far better-preserved than Barcelona's tourist zones. Hotels 40% cheaper. Direct flights from most European cities.</p>
+
+<h2>Skip Venice — visit Trieste or Bologna</h2>
+
+<p><a href="/en/italy/trieste">Trieste</a> Habsburg-Italian port city, canal-and-piazza-set Italianate architecture, much-loved by Italians, almost zero foreign tourists. <a href="/en/italy/bologna">Bologna</a> intact medieval old town, world-class food, university energy.</p>
+
+<h2>Skip Amsterdam — visit Utrecht</h2>
+
+<p><a href="/en/netherlands/utrecht">Utrecht</a> canals (with riverside terraces below street level — actually unique in the Netherlands), tower (Dom Toren, tallest in Netherlands), university energy, cycling capital. 30 minutes by train from Schiphol; locals friendlier than Amsterdam.</p>
+
+<h2>Skip Florence — visit Bologna or Lucca</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> medieval porticos walking, food capital of Italy, 1088 university, no Renaissance overload but extraordinary medieval. <a href="/en/italy/lucca">Lucca</a> walled Tuscan jewel — bike on the Renaissance walls — 30 min from Pisa airport.</p>
+
+<h2>Skip Dubrovnik — visit Split or Kotor</h2>
+
+<p><a href="/en/croatia/split">Split</a> Diocletian's Palace as living old town, beaches, less cruise-day chaos. <a href="/en/montenegro/kotor">Kotor</a> Venetian-walled fjord-town as dramatic as Dubrovnik but a quarter the visitor numbers.</p>
+
+<h2>Skip Santorini — visit Folegandros or Naxos</h2>
+
+<p>Folegandros (small Cyclades island) — same whitewashed cliff aesthetic, 5% the crowds. Naxos — bigger, beaches plus mountain villages, Greek life still functional in summer.</p>
+
+<h2>Strategy</h2>
+
+<p>Travel shoulder season (April-May, late September) helps any city. Stay 4–5 nights to hit alternatives less reachable from cruise/bus tourism. Read our <a href="/en/articles/best-european-cities-for-slow-travel">slow travel guide</a> for the complementary philosophy.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

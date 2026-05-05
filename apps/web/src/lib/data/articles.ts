@@ -16321,6 +16321,271 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-impressionist-art",
+    title: "Best European Cities for Impressionist Art",
+    excerpt: "Paris's Musée d'Orsay holds the world's biggest Impressionist collection; the Marmottan Monet has the artist's estate; London, Rouen, and Giverny hide the side scenes.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Impressionist Art Museums",
+    metaDescription: "Where Impressionists are best seen — Paris (d'Orsay, Marmottan, Orangerie), London, Giverny, Rouen, Copenhagen. Booking and itineraries.",
+    html: `
+<h2>Why Paris dominates</h2>
+
+<p>Impressionism was a Paris movement (1860s–1890s). The state purchased extensively, and private collectors bequeathed entire estates to French museums. Result: Paris alone holds maybe 40% of the world's Impressionist canon.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Musée d'Orsay (the central holding — Monet, Manet, Degas, Renoir, Cézanne, Pissarro), Musée de l'Orangerie (Monet's Water Lilies in two oval rooms — purpose-built for the canvases), Musée Marmottan Monet (Monet estate works, including Impression Sunrise — the painting that named the movement). All three need separate visits; combined ticket exists. <a href="/en/france/paris/saint-germain">Saint-Germain</a> base.</p>
+
+<h2>Giverny</h2>
+
+<p>Monet's house and gardens, 70km west of Paris. Day-trip by SNCF to Vernon then bus or bike. Open April–November only. The Japanese-bridge water lily pond is the painting site.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> National Gallery (Monet, Manet, Renoir, Degas, Cézanne — strong if smaller), Courtauld Gallery (Manet's Bar at the Folies-Bergère, Cézanne's Card Players). Tate Modern has post-Impressionist Cézanne forerunners.</p>
+
+<h2>Rouen</h2>
+
+<p>Musée des Beaux-Arts de Rouen — Monet's Rouen Cathedral series subjects; the cathedral itself stands across the city. Day-trip from Paris (1h15 SNCF).</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Ny Carlsberg Glyptotek — strong French Impressionist holding (Gauguin in particular), plus the only major Cézanne and Manet collections in Northern Europe. Brewery-built museum, atmospheric setting.</p>
+
+<h2>Other strong holdings</h2>
+
+<p>Madrid's Thyssen-Bornemisza, Munich's Neue Pinakothek, Geneva's Petit Palais (private museum specifically Impressionist). Each has a few important canvases but not collection depth.</p>
+
+<h2>Strategy</h2>
+
+<p>Book Orsay 8–10am for empty rooms. Marmottan often skipped by tourists — quietest of the Paris three. Combine Orsay + Orangerie one day; Marmottan + Giverny day-trip second day.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-ww2-history",
+    title: "Best European Cities for WWII History",
+    excerpt: "Berlin holds the Holocaust monument and Topography of Terror; Krakow gives access to Auschwitz-Birkenau; Caen has the D-Day museum; London the Churchill War Rooms.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for WWII History & Memorials",
+    metaDescription: "WWII heritage cities — Berlin, Krakow, Caen, London, Warsaw, Amsterdam. Concentration camps, museums, war rooms, occupation history.",
+    html: `
+<h2>Several distinct WWII narratives</h2>
+
+<p>Holocaust history (Berlin, Krakow, Amsterdam), Western Front liberation (Caen, London, Bayeux), Eastern Front and partisan resistance (Warsaw, Belgrade), occupation experiences (Paris, Oslo, Copenhagen). Cities below specialize in each.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Memorial to the Murdered Jews of Europe (2,711 concrete stelae, 2005), Topography of Terror (former Gestapo HQ site), Jewish Museum Berlin, German Resistance Memorial Center, Wannsee Conference House. Berlin is the most thorough city for confronting Nazi-era history. <a href="/en/germany/berlin/mitte">Mitte</a> base.</p>
+
+<h2>Krakow</h2>
+
+<p>Krakow itself has Schindler's Factory Museum (Oskar Schindler's actual factory, now museum) and Kazimierz Jewish Quarter. But the city is mainly the gateway to Auschwitz-Birkenau (60km west, day-trip 6–8 hours). Free entry to Auschwitz; reservations required; guided tour mandatory peak season.</p>
+
+<h2>Caen and Bayeux</h2>
+
+<p>Caen Mémorial Museum is the comprehensive WWII museum. Bayeux is the closest base for D-Day beaches (Omaha, Utah, Sword, Juno, Gold) — all 30 minutes by car. American Cemetery at Colleville-sur-Mer above Omaha Beach.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Churchill War Rooms (the actual underground bunker, preserved exactly), Imperial War Museum (multiple sites), HMS Belfast, RAF Museum (Hendon). Strong British Home Front and Battle of Britain narrative.</p>
+
+<h2>Warsaw</h2>
+
+<p>POLIN Museum of the History of Polish Jews, Warsaw Rising Museum (the 1944 uprising), Pawiak Prison Museum. Warsaw was destroyed and rebuilt — the entire city is essentially a WWII memorial.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Anne Frank House (the actual annex). Reservations 1–2 months ahead. Verzetsmuseum (Dutch Resistance Museum). Hollandsche Schouwburg (deportation site).</p>
+
+<h2>Strategy</h2>
+
+<p>Auschwitz-Birkenau day-trip 8 hours emotionally heavy — don't combine with sightseeing. Berlin needs 2 days for full WWII coverage. Caen + D-Day beaches need rental car for full coverage. Free walking tours often WWII-themed.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-photography-museums",
+    title: "Best European Cities for Photography Museums",
+    excerpt: "Paris's MEP and Maison Européenne de la Photographie set the standard; Amsterdam's Foam, Berlin's Helmut Newton, and London's Photographers' Gallery complete the European top tier.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Photography Museums",
+    metaDescription: "Top European photography museums — Paris (MEP), Amsterdam (Foam, Huis Marseille), Berlin (Helmut Newton), London, Vienna.",
+    html: `
+<h2>Photography as serious museum subject</h2>
+
+<p>Photography only became museum-collectable in the 1970s, but European institutions caught up rapidly. The cities below have either dedicated photography museums or major photography wings within their art museums.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Maison Européenne de la Photographie (MEP) in <a href="/en/france/paris/le-marais">Le Marais</a> — rotating major exhibitions plus permanent collection. Jeu de Paume (Tuileries) for contemporary photography. Centre Pompidou photo collection. Foundation Henri Cartier-Bresson (Marais) the master's archive.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Foam — top European contemporary photography museum, rotating shows in canal-house. Huis Marseille (canal-house photography museum, more historic-oriented). Rijksmuseum has photography wing.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Helmut Newton Foundation (the photographer's archive in his hometown). C/O Berlin (Amerika Haus location). Both rotating major exhibitions.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> The Photographers' Gallery (Soho), V&A photography wing, Tate Modern photography acquisitions. Strong contemporary scene plus depth in 19th-century photography.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> WestLicht Schauplatz für Fotografie + Museum für Fotografie. Strong on Mitteleuropean photographic traditions; less famous internationally but consistently excellent.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Mapfre Foundation regularly hosts world-class photo retrospectives. Less consistent than Paris but specific exhibitions worth flying for.</p>
+
+<h2>Arles</h2>
+
+<p>Not Paris, but France's photography pilgrimage town — Rencontres d'Arles (July–September) is the Cannes of photography. Year-round photo galleries in old town. Day-trip or overnight from Avignon or Marseille.</p>
+
+<h2>Strategy</h2>
+
+<p>Book MEP early-morning slot Sunday — quietest. Annual rolling subscriptions worth it for serious enthusiasts. Photography books at museum shops often unique editions. <a href="/en/articles/best-european-cities-for-modernist-architecture">Modernist guide</a> design counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-funicular-rides",
+    title: "Best European Cities for Funicular Rides",
+    excerpt: "Lisbon's three funiculars are heritage urban transit; Budapest's Buda Castle Funicular and Bergen's Fløibanen pre-date the lift era; Lyon's Sacré-Cœur-style rope-train still works.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Funicular Rides",
+    metaDescription: "Iconic European funiculars — Lisbon (Bica, Glória, Lavra), Budapest, Bergen, Lyon, Salzburg, Prague. Heritage rope-train rides.",
+    html: `
+<h2>What a funicular is</h2>
+
+<p>A counterweighted rope-and-rail vehicle for hills too steep for trams. Two cars connected by cable — one descends as the other ascends. Faster than walking up steep streets, slower than a metro, more atmospheric than either. Cities below have heritage funiculars worth a dedicated trip.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> three funiculars — Glória (Restauradores → Bairro Alto), Bica (Cais do Sodré → Largo do Calhariz), Lavra (Largo da Anunciada → Bairro do Lavra). All UNESCO Heritage. Single ride €4 (or covered by Viva Viagem day pass). Bica is the photogenic one.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Castle Hill Funicular (Sikló) — Adam Clark Square → Buda Castle. 1870s, restored. €5 single. Quick (90 seconds) but the building and views worthwhile. Combined Budapest sightseeing.</p>
+
+<h2>Bergen</h2>
+
+<p>Bergen Fløibanen — coast → Mount Fløyen (320m). 8 minutes. Norwegian classic, peak season July–August queue 30 min. €15 round-trip.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> two funiculars climb Fourvière hill: F1 to Fourvière (Basilica), F2 to Saint-Just. Standard metro ticket. Combined with Lyon's Vieux Lyon walking afternoon.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Festungsbahn — climbs to Hohensalzburg Castle. Built 1892. €15 round-trip including castle entry. The most efficient way to see the fortress without 30-minute walk.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Petřín Funicular — Újezd → Petřín Hill. Standard transit ticket. Petřín Tower (Eiffel-style) at top. Less famous than Lisbon's but classic.</p>
+
+<h2>Strategy</h2>
+
+<p>Most funiculars run 6:30am–11pm. Off-peak (10am, 3pm) shorter queues than morning rush or late afternoon. Combine with one specific destination at top — funicular-as-tour wears thin without an arrival point.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-food-halls",
+    title: "Best European Cities for Food Halls & Indoor Markets",
+    excerpt: "Lisbon's Time Out Market started the modern wave; London's Borough Market is heritage; Madrid's Mercado de San Miguel and Florence's Mercato Centrale fill out the canon.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Food Halls & Indoor Markets",
+    metaDescription: "Where to eat at food halls — Lisbon, London, Madrid, Florence, Copenhagen. Time Out Market, Borough Market, San Miguel, Mercato Centrale.",
+    html: `
+<h2>Food hall vs traditional market</h2>
+
+<p>Two distinct categories: traditional food markets (vegetable stalls, butchers, fishmongers — for shopping) and modern food halls (curated stall restaurants — for eating). The cities below have either or both at flagship level.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Time Out Market (Mercado da Ribeira) — opened 2014, became the model for the global format. Curated by Time Out food critics; 30+ stalls of Lisbon's best chefs at counter prices. Daily 10am–midnight. <a href="/en/portugal/lisbon/santos">Santos</a> walking distance. Lisbon also has good traditional Mercado de Campo de Ourique.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Borough Market (1014 — yes, that old) is the traditional heavy-weight; Bread Ahead, Neal's Yard Dairy, fishmongers, butchers, plus food stalls. Mercato Mayfair, Time Out Market Waterloo (2024 opened). <a href="/en/uk/london/borough-bermondsey">Borough</a> base.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Mercado de San Miguel (the iron-and-glass tourist food hall by Plaza Mayor — touristy but quality high), Mercado de San Antón (rooftop), Platea Madrid (former cinema, now food hall). Mercado de la Cebada more local.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Mercato Centrale — ground floor traditional food shopping, upper floor curated food hall. Less touristy than San Miguel; equally polished.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Torvehallerne — pure food hall, top Nordic-quality stalls (Hallernes Smørrebrød, Coffee Collective, Grød). Daily 10am–7pm. <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a>-adjacent.</p>
+
+<h2>Rotterdam</h2>
+
+<p><a href="/en/netherlands/rotterdam">Rotterdam</a> Markthal — MVRDV-designed inverted U with apartments overhead. Food hall ground floor, supermarket basement. Architectural icon plus food.</p>
+
+<h2>Strategy</h2>
+
+<p>Lunch (12–2pm) busiest; off-peak 3–5pm calmer. Most halls cash + card; some stall-by-stall. Eating across multiple stalls (one starter, one main, one dessert) common — works because tabs paid stall-by-stall.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-ferry-island-hopping",
+    title: "Best European Cities for Ferry-Based Island Hopping",
+    excerpt: "Athens for Cyclades; Naples for Capri-Ischia-Procida; Split for Croatian Adriatic islands; Stockholm for the archipelago. Ferry rides are part of the experience, not transit.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Ferry-Based Island Hopping",
+    metaDescription: "Where ferry travel works — Athens (Cyclades), Naples (Capri/Ischia), Split, Stockholm archipelago. Routes, pass strategy, and timing.",
+    html: `
+<h2>The ferry-as-experience principle</h2>
+
+<p>Some city-island ferry rides are 90-minute scenic cruises included with €15 transit; others are 7-hour overnight passages. The cities below offer the former — and the second-tier islands the ferries reach are often as interesting as the famous ones.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Piraeus port to Cyclades — Mykonos, Santorini, Naxos, Paros, Folegandros. Blue Star, SeaJets, Hellenic Seaways operate; €30–60 single. Mykonos and Santorini overcrowded summer; Naxos and Folegandros equivalents at lower prices and crowds. Day-trips to closer Saronic islands (Hydra, Aegina, Spetses) easier from Athens — €15–25.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> 30-minute ferries from Molo Beverello to Capri (€21), 75-min to Ischia (€18), 60-min to Procida (€15). Day-trip all three from Naples. Procida the underrated one.</p>
+
+<h2>Split</h2>
+
+<p><a href="/en/croatia/split">Split</a> ferries to Hvar (1h–2h), Brač (50 min), Vis (2h30), Korčula (2h45). Krilo Jet faster passenger ferry; Jadrolinija slower car ferry. Day-trip Hvar or Brač from Split easily.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> archipelago — 30,000 islands. Waxholmsbolaget ferries to Vaxholm (1h), Sandhamn (3h), Grinda (1h45), Utö. SL transit pass covers some inner archipelago routes. Summer passenger boats only; winter limited service.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> archipelago + Suomenlinna fortress (15-minute ferry, transit-pass covered). Tallinn passenger ferries (2h, €25–50) make day-or-overnight cross-Baltic trips practical.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> ferries to Cacilhas, Almada, Trafaria. Lower-key but charming city-water moves. The Tagus ferries are commuter transit covered by Viva Viagem.</p>
+
+<h2>Strategy</h2>
+
+<p>Greek summer ferries sell out 1–2 weeks ahead Mykonos-Santorini route. Croatia much less booking pressure. Carry seasickness pills for Aegean wind days. Read our <a href="/en/articles/best-european-cities-for-cruise-stops">cruise stops</a> guide for the cruise-ship companion angle.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -14795,6 +14795,247 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-craft-cocktail-bars",
+    title: "Best European Cities for Craft Cocktail Bars",
+    excerpt: "London leads on talent and prices; Athens punches above its weight; Berlin and Barcelona host bars on the World's 50 Best list. The international top tier clusters tighter than you'd expect.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Craft Cocktail Bars",
+    metaDescription: "Cities with the densest cocktail scenes — London, Athens, Berlin, Barcelona, Paris. Bars on World's 50 Best, hidden speakeasies, and prices.",
+    html: `
+<h2>The international tier</h2>
+
+<p>The World's 50 Best Bars list dramatizes the trend: Athens, London, Berlin, Barcelona, and Paris each have multiple entries. The same names recur partly because of bartender migration — flagship bars open siblings or train alumni who open their own places nearby.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Tayer + Elementary, Connaught Bar, Lyaness, Satan's Whiskers, Bar Termini. Density is unmatched — you can hit five world-class bars in one <a href="/en/uk/london/soho-fitzrovia">Soho</a> evening. Prices £14–18 standard. Reservations needed for the top names.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> The Clumsies, Baba Au Rum, A for Athens, Drupes. Athens repeatedly places multiple bars in the global top 50 despite being a smaller city. Prices €11–14, well below London.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Buck and Breck, Lebensstern, Velvet, Bar Zentral. The "speakeasy in a residential building" format dominates. <a href="/en/germany/berlin/mitte">Mitte</a> dense.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Paradiso (the world-famous one with the secret pastrami-shop entrance), Sips, Two Schmucks, Dr. Stravinsky. <a href="/en/spain/barcelona/el-born">El Born</a> and El Raval.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Bar Hemingway at Ritz, Little Red Door, Combat, Le Syndicat. Strong but more spread out than London. Reservations universal at top names.</p>
+
+<h2>Strategy</h2>
+
+<p>Reservations matter. Top bars accept walk-ins but prioritize bookings — a 9pm walk-in often means a 90-minute wait. <a href="/en/articles/best-european-cities-for-cocktail-bars">Cocktail bars guide</a> is the broader companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bib-gourmand",
+    title: "Best European Cities for Michelin Bib Gourmand Dining",
+    excerpt: "Bib Gourmand means quality cooking under €40 — and the densest map is in Lyon, Bologna, Lisbon, and Madrid, where Michelin recognizes the trattoria-and-bistro culture.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Michelin Bib Gourmand Restaurants",
+    metaDescription: "Where to eat brilliantly under €40 — Lyon, Bologna, Lisbon, Madrid, Porto. Bib Gourmand-approved bistros and trattorias.",
+    html: `
+<h2>Why Bib Gourmand matters</h2>
+
+<p>Bib Gourmand is Michelin's "good cooking, moderate price" tier — under €40 in most European cities. The list grew specifically to recognize the bistro-and-trattoria culture stars overlook. The densest cities aren't the obvious tourist capitals.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> highest Bib Gourmand density in France outside Paris. Bouchon Lyonnais (the working-class fixed-price institution) is exactly what Bib was made for. Lyon has 20+ Bib entries.</p>
+
+<h2>Bologna</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> trattoria capital. Bib Gourmand here means handmade tortellini in brodo for €18 instead of €40. Trattoria di Via Serra, Trattoria Anna Maria. Lunch menus the savings sweet spot.</p>
+
+<h2>Lisbon and Porto</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Tasca Kome, Solar dos Presuntos. <a href="/en/portugal/porto">Porto</a> O Gaveto, Caldeireiros. Portuguese tasca culture maps perfectly onto Bib Gourmand criteria.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Bib Gourmand-decorated tapas bars and tabernas — Bodega de los Secretos, Casa Hortensia. Stronger than Barcelona on this tier; Barcelona Bibs more contemporary.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Beisl culture (neighborhood inns) increasingly Bib-decorated. Plachutta, Steirereck im Stadtpark.</p>
+
+<h2>Strategy</h2>
+
+<p>Bib lunch menus often €15–25 in cities where dinner Bibs run €30–40. Reserve same-day or 1–2 days ahead. <a href="/en/articles/best-european-cities-for-michelin-stars">Star dining</a> is the splashy companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cheese-shops",
+    title: "Best European Cities for Artisan Cheese Shops",
+    excerpt: "Paris's fromageries are the standard; London, Lyon, and Amsterdam compete differently. Affineurs (cheese-aging specialists) cluster in cities with old food cultures.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Artisan Cheese Shops & Fromageries",
+    metaDescription: "Where to buy and learn about cheese — Paris, Lyon, London, Amsterdam, Madrid. Affineurs, mountain cheese specialists, and tastings.",
+    html: `
+<h2>Affineurs vs cheesemongers</h2>
+
+<p>French cheese culture distinguishes affineurs (who age and condition cheese to peak) from fromagers (who sell). The best Paris and Lyon shops do both — they receive young cheese from producers, age it themselves, and sell at peak. This is what separates an exceptional cheese shop from a good supermarket.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Fromagerie Beillevaire, Laurent Dubois, Marie-Anne Cantin, Quatrehomme — multiple affineurs of national reputation. <a href="/en/france/paris/saint-germain">Saint-Germain</a> historic fromage zone.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Mère Richard at Halles de Lyon, La Mère Léa. Saint-Marcellin and other Auvergne specialties at peak. Lyon's covered market the cheese pilgrimage.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Neal's Yard Dairy (Borough Market and Covent Garden), Paxton & Whitfield (1797), La Fromagerie. Strong British cheese revival — Stichelton, Tunworth, Cornish Yarg. <a href="/en/uk/london/borough-bermondsey">Borough Market</a> the obvious base.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> aged Gouda culture. De Kaaskamer, Kef Kaas. Aged Gouda 3+ years entirely different cheese from the supermarket version.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Quesería Cultivo, Poncelet. Spanish cheese underrated abroad — Idiazabal, Cabrales, Manchego at age 12+ months.</p>
+
+<h2>Strategy</h2>
+
+<p>Vacuum-pack for transport. Many shops offer this free. Hard cheeses travel well in checked luggage; soft cheeses need cool transport (insulated bag, 4–6 hours max).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-aperitivo-culture",
+    title: "Best European Cities for Aperitivo Culture",
+    excerpt: "Milan invented the buffet aperitivo; Turin pioneered Negroni and vermouth; Bologna and Florence have their own rituals. Aperitivo is regional, not pan-Italian.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Aperitivo Culture",
+    metaDescription: "Italian aperitivo done right — Milan, Turin, Bologna, Florence. Where to find buffet-style, Negroni-strong, and traditional vermouth bars.",
+    html: `
+<h2>What aperitivo actually is</h2>
+
+<p>The pre-dinner Italian ritual — drink + free or cheap food, between 6–9pm. The form differs by city: Milan invented the buffet (€10 cocktail, all-you-can-eat), Turin pioneered the cocktail itself (Negroni, Americano, vermouth), Florence keeps it cocktail-and-cicchetti. Visiting all three reveals how regional this is.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Bar Basso (the Negroni Sbagliato birthplace), Camparino in Galleria, Terrazza Aperol, Bulgari Bar. Buffet aperitivo in <a href="/en/italy/milan/navigli">Navigli</a> after sunset along the canals — €10–14 buys cocktail + food.</p>
+
+<h2>Turin</h2>
+
+<p><a href="/en/italy/turin">Turin</a> historic vermouth and bitters capital. Caffè Mulassano, Caffè Torino, Bar Fiorio. Cocktail-with-snacks tradition (Pinsa, salumi) instead of buffet. Negroni and Americano belong here.</p>
+
+<h2>Bologna</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> aperitivo with crescentine and salumi — neighborhood baracche serve seriously good charcuterie alongside €5 spritz. Less performative than Milan.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Negroni was invented here (Caffè Casoni, now Caffè Giacosa). Manifattura, Mad Souls and Spirits, Locale. Cocktail-and-cicchetti format like Turin.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> aperitivo less formalized but strong — Trastevere bars (Freni e Frizioni) and Testaccio (Sancho). Strong American cocktail influence.</p>
+
+<h2>Strategy</h2>
+
+<p>Aperitivo is dinner replacement when buffet is good. Milan Navigli or Brera 6:30pm Wednesday–Saturday optimal. Skip aperitivo at hotel bars (overpriced, less authentic).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-train-day-trips",
+    title: "Best European Cities for Train Day Trips",
+    excerpt: "Cities with one-hour radius reaching multiple distinct destinations. Vienna, Paris, Amsterdam, Madrid, and Edinburgh win — each a hub of frequent fast trains.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Easy Train Day Trips",
+    metaDescription: "Cities where day trips by train are easy — Vienna, Paris, Amsterdam, Madrid, Edinburgh. Hourly trains, one-hour radius, no driving needed.",
+    html: `
+<h2>Day-trip math</h2>
+
+<p>A great day-trip base needs: trains every 30–60 minutes, one-hour radius reaching 4+ distinct destinations, and same-day return logistics. Below are the hubs that deliver.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> ÖBB Railjet network: Bratislava (1h), Salzburg (2h30), Graz (2h30), Linz (1h20), Budapest (2h30). Every hour, predictable. Day trips from Vienna can hit two countries.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> SNCF radial: Versailles (30 min), Reims (45 min), Rouen (1h15), Lille (1h), Strasbourg (1h45), Lyon (2h). TGV and TER trains frequent. Day-trip Champagne tour very feasible.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> NS Intercity: Rotterdam (40 min), Utrecht (28 min), The Hague (50 min), Antwerp (75 min), Bruges (3h via Antwerp). Densest country in Europe; everything close.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> AVE high-speed: Toledo (35 min), Segovia (28 min), Cuenca (55 min), Cordoba (1h45), Sevilla (2h30). Spain's AVE network world-class.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Glasgow (50 min, 4x hourly), Stirling (1h), North Berwick (35 min), Dundee (1h15). Scottish trains regular but expensive.</p>
+
+<h2>Frankfurt</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> ICE radial: Mainz (35 min), Heidelberg (1h), Cologne (1h15), Würzburg (1h15), Stuttgart (1h20). Germany's most central rail position.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy day-return; book early-morning outbound (6:30–8am) for time. Off-peak rail discounts (40–50%) on most networks make day-trip ratio favorable. <a href="/en/articles/best-european-cities-for-stopover">Stopover guide</a> the related angle.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-football-derbies",
+    title: "Best European Cities for Football Derbies",
+    excerpt: "Glasgow's Old Firm is the most volatile; Madrid, Milan, and Athens stage true derby weeks. Buying tickets is a separate skill from picking the city.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Football Derby Matches",
+    metaDescription: "Football derby cities — Glasgow (Old Firm), Madrid (Real-Atletico), Milan (Inter-Milan), Athens (Olympiakos-Panathinaikos), Istanbul.",
+    html: `
+<h2>What makes a derby trip</h2>
+
+<p>Two top-flight clubs in the same city playing twice a season — that's the baseline. Real derbies have decades-old rivalries, distinct fan bases, and the city becomes obviously divided in the days before.</p>
+
+<h2>Glasgow</h2>
+
+<p><a href="/en/uk/glasgow">Glasgow</a> Celtic vs Rangers (Old Firm) is the world's most intense derby. Religious-class division historic; both teams played 4+ times a season due to small Scottish league. Tickets nearly impossible without local connection. Atmosphere unmatched.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Real Madrid vs Atlético Madrid. Bernabéu and Metropolitano stadiums different parts of the city. Real-Atléti tickets €80–300 from clubs; secondary market 2–3x. Tier-2 derby El Clásico (Real-Barcelona) one of two annual fixtures.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Inter vs AC Milan share San Siro stadium — same building, different home games. Derby della Madonnina. Tifo choreography spectacular. Tickets Curva Sud (Milan) and Curva Nord (Inter) hardcore; Tribuna Rossa (sides) safer for tourists.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Olympiakos vs Panathinaikos = Derby of the Eternal Enemies. Truly volatile, occasionally violent. Karaiskakis (Olympiakos) safer experience; Panathinaikos plays at OAKA. Foreign visitors only neutral seating.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> Galatasaray-Fenerbahçe-Beşiktaş three-way rivalry. Istanbul derbies the loudest atmosphere in Europe per multiple players' accounts. Ticket logistics complicated for foreigners — go through tour operator.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy through club official channels for tickets. Avoid scalpers. Know which end is home; never wear away colors. Trip duration 3–4 days minimum (match day + buffer). Read our <a href="/en/articles/best-european-cities-for-stag-bachelor-parties">stag party guide</a> for the wider sports-trip companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

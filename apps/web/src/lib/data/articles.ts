@@ -12053,6 +12053,341 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 39 — short itineraries + niche topics
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-5-day-italy-itinerary",
+    title: "5-Day Italy Itinerary: Rome OR Tuscany OR Lakes",
+    excerpt: "Why 5-day Italy needs a focused approach — Rome alone, Tuscany alone, or Lakes alone.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 9,
+    metaTitle: "5-Day Italy Itinerary — Honest 2026 Picks",
+    metaDescription: "Why 5-day Italy needs a focused approach — Rome alone, Tuscany alone, or Lakes alone.",
+    html: `
+<p>5 days in Italy is short. Trying to cover Rome + Florence + Venice means half the trip is travel. Here are the honest single-region options.</p>
+
+<h2>Option 1: Rome alone (best 5-day Italy)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/italy/rome/centro-storico">Centro Storico</a> (Pantheon, Piazza Navona, Trevi)</li>
+  <li>Day 3: Vatican Museums + St. Peter's</li>
+  <li>Day 4: Forum + Colosseum + Palatine</li>
+  <li>Day 5: <a href="/en/italy/rome/trastevere">Trastevere</a> + Testaccio food</li>
+</ul>
+
+<h2>Option 2: Florence + Tuscany</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/italy/florence">Florence</a> (Uffizi + Duomo + Accademia)</li>
+  <li>Day 3: Day-trip to Siena</li>
+  <li>Day 4: Day-trip to Chianti or San Gimignano</li>
+  <li>Day 5: <a href="/en/italy/florence/oltrarno">Oltrarno</a> + Boboli Gardens</li>
+</ul>
+
+<h2>Option 3: Lakes (Como + Milan)</h2>
+
+<ul>
+  <li>Day 1: <a href="/en/italy/milan">Milan</a> (Duomo + La Scala)</li>
+  <li>Day 2-4: Lake Como (Varenna base)</li>
+  <li>Day 5: Bellagio + ferry-day</li>
+</ul>
+
+<h2>Option 4: Naples + Amalfi</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/italy/naples">Naples</a> (Centro Storico + pizza)</li>
+  <li>Day 3: Pompeii day-trip</li>
+  <li>Day 4-5: Amalfi or Sorrento base</li>
+</ul>
+
+<h2>What to skip in 5 days</h2>
+
+<ul>
+  <li>Rome + Venice + Florence: Half is travel.</li>
+  <li>Sicily on a 5-day trip: needs its own 7+ days.</li>
+  <li>Cinque Terre + Florence: Cinque Terre needs 2 nights minimum.</li>
+</ul>
+
+<p>For longer Italy trips see <a href="/en/articles/europe-7-day-italy-itinerary">7-day Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-5-day-spain-itinerary",
+    title: "5-Day Spain Itinerary: Madrid OR Barcelona OR Andalusia",
+    excerpt: "5-day Spain needs focus. Three honest single-region options.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 9,
+    metaTitle: "5-Day Spain Itinerary — Honest 2026 Picks",
+    metaDescription: "5-day Spain needs focus. Three honest single-region options.",
+    html: `
+<p>5 days in Spain works for one region with depth.</p>
+
+<h2>Option 1: Madrid + day-trip</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/spain/madrid">Madrid</a> (Prado, Retiro, Malasaña)</li>
+  <li>Day 3: Day-trip to Toledo or Segovia</li>
+  <li>Day 4-5: Madrid neighborhoods + tapas crawl</li>
+</ul>
+
+<h2>Option 2: Barcelona + Catalonia</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/spain/barcelona">Barcelona</a> (Gaudí + beach + tapas)</li>
+  <li>Day 4: Day-trip to Montserrat or Girona</li>
+  <li>Day 5: Sitges day-trip or Barcelona depth</li>
+</ul>
+
+<h2>Option 3: Andalusia loop</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/spain/seville">Seville</a></li>
+  <li>Day 3: <a href="/en/spain/cordoba">Córdoba</a></li>
+  <li>Day 4-5: <a href="/en/spain/granada">Granada</a> + Alhambra</li>
+</ul>
+
+<h2>Option 4: Basque Country (San Sebastián focus)</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/spain/san-sebastian">San Sebastián</a></li>
+  <li>Day 3: <a href="/en/spain/bilbao">Bilbao</a> (Guggenheim)</li>
+  <li>Day 4-5: Wine country (Rioja) or coast (Mundaka)</li>
+</ul>
+
+<h2>What to skip in 5 days</h2>
+
+<ul>
+  <li>Madrid + Barcelona: Possible by AVE but rushed.</li>
+  <li>Mallorca extension: Different trip.</li>
+  <li>Madrid + Andalusia + Barcelona: Too much travel.</li>
+</ul>
+
+<p>For longer Spain trips see <a href="/en/articles/europe-7-day-spain-itinerary">7-day Spain</a>, <a href="/en/articles/europe-14-day-spain-itinerary">14-day Spain</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-5-day-france-itinerary",
+    title: "5-Day France Itinerary: Paris OR Provence OR Bordeaux",
+    excerpt: "5-day France options — Paris-only, Paris+Loire, or skip-Paris alternatives.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 9,
+    metaTitle: "5-Day France Itinerary — Honest 2026 Picks",
+    metaDescription: "5-day France options — Paris-only, Paris+Loire, or skip-Paris alternatives.",
+    html: `
+<p>5 days in France works for Paris or one region.</p>
+
+<h2>Option 1: Paris-only deep dive</h2>
+
+<ul>
+  <li>Day 1-2: Le Marais + Louvre + Musée d'Orsay</li>
+  <li>Day 3: Versailles day-trip</li>
+  <li>Day 4: Montmartre + Sacré-Cœur</li>
+  <li>Day 5: Saint-Germain + Latin Quarter</li>
+</ul>
+
+<h2>Option 2: Paris + Reims (Champagne)</h2>
+
+<ul>
+  <li>Day 1-3: Paris</li>
+  <li>Day 4-5: Reims + champagne houses</li>
+</ul>
+
+<h2>Option 3: Provence + Riviera</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/france/avignon">Avignon</a> + Pont du Gard</li>
+  <li>Day 3: Provence villages day-trip</li>
+  <li>Day 4-5: <a href="/en/france/nice">Nice</a> + Antibes / Monaco</li>
+</ul>
+
+<h2>Option 4: Bordeaux + wine</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/france/bordeaux">Bordeaux</a> (Saint-Pierre + Chartrons)</li>
+  <li>Day 3: Saint-Émilion wine day-trip</li>
+  <li>Day 4-5: Médoc châteaux + Cap Ferret coast</li>
+</ul>
+
+<h2>What to skip in 5 days</h2>
+
+<ul>
+  <li>Paris + Provence + Riviera: Eats the whole trip.</li>
+  <li>Mont Saint-Michel from Paris on a single day.</li>
+  <li>Loire + Provence: Different sides of France.</li>
+</ul>
+
+<p>For longer France trips see <a href="/en/articles/europe-7-day-france-itinerary">7-day France</a>, <a href="/en/articles/europe-14-day-france-itinerary">14-day France</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-ballet",
+    title: "Best European Cities for Ballet",
+    excerpt: "Where European ballet companies perform — historic and modern venues.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Ballet — Honest 2026",
+    metaDescription: "Where European ballet companies perform — historic and modern venues.",
+    html: `
+<p>European ballet has deep traditions. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination ballet cities</h2>
+
+<ul>
+  <li><strong>London (Royal Ballet):</strong> Royal Opera House. World-class season Sept-July.</li>
+  <li><strong>Paris (Opéra National de Paris Ballet):</strong> Palais Garnier (the iconic venue) + Opéra Bastille.</li>
+  <li><strong>Saint Petersburg (politics aside):</strong> Mariinsky + Bolshoi-Petersburg connections.</li>
+  <li><strong>Vienna (Wiener Staatsballett):</strong> Staatsoper + Volksoper.</li>
+  <li><strong>Milan La Scala Ballet:</strong> Premier Italian ballet.</li>
+</ul>
+
+<h2>Tier 2 — strong ballet cities</h2>
+
+<ul>
+  <li><strong>Berlin Staatsballett:</strong> Three opera houses, ballet between them.</li>
+  <li><strong>Amsterdam Het Nationale Ballet:</strong> Strong contemporary repertoire.</li>
+  <li><strong>Copenhagen Royal Danish Ballet:</strong> Bournonville heritage.</li>
+  <li><strong>Stockholm Royal Swedish Ballet:</strong> Royal Opera.</li>
+  <li><strong>Madrid Compañía Nacional de Danza.</strong></li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Hamburg Ballett (John Neumeier).</strong></li>
+  <li><strong>Stuttgart Ballet (heritage company).</strong></li>
+  <li><strong>Munich Bayerisches Staatsballett.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book 2-3 months ahead</strong> for major performances.</li>
+  <li><strong>Royal Ballet (London) / Opéra de Paris:</strong> Sells out further ahead.</li>
+  <li><strong>Standing-room tickets:</strong> Vienna and Munich offer cheap (€10-15) standing tickets.</li>
+  <li><strong>Mixed bills:</strong> Triple-bills are great for ballet introductions.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-road-cycling",
+    title: "Best European Cities to Base for Road Cycling",
+    excerpt: "Where European road cycling actually happens — Tour de France routes, alpine climbs, coast routes.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Road Cycling — Honest 2026",
+    metaDescription: "Where European road cycling actually happens — Tour de France routes, alpine climbs, coast routes.",
+    html: `
+<p>European road cycling has classic routes and hills. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination cycling cities</h2>
+
+<ul>
+  <li><strong>Nice (Côte d'Azur):</strong> Multiple climbs (Col de la Madone, La Turbie). Ideal training.</li>
+  <li><strong>Girona, Spain:</strong> Pro cyclist hub. Many ex-pros live here.</li>
+  <li><strong>Mallorca (Pollença, Sa Pobla):</strong> Annual training-camp destination.</li>
+  <li><strong>Bormio, Italy:</strong> Stelvio Pass base.</li>
+  <li><strong>Megève / Annecy, France:</strong> Alpine climbs.</li>
+</ul>
+
+<h2>Tier 2 — strong cycling bases</h2>
+
+<ul>
+  <li><strong>Innsbruck, Austria:</strong> Alpine routes.</li>
+  <li><strong>Ghent, Bruges (Belgium):</strong> Flat + classic Belgian routes (Tour of Flanders region).</li>
+  <li><strong>Marseille (Provence):</strong> Mont Ventoux base.</li>
+  <li><strong>Tenerife (Canary Islands):</strong> Volcano climbs, year-round.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Slovenia (Bled, Bovec):</strong> Underrated alpine cycling.</li>
+  <li><strong>Dolomites bases (Cortina, Bolzano):</strong> Multiple legendary climbs.</li>
+  <li><strong>Mosel Valley:</strong> Riverside cycle paths.</li>
+</ul>
+
+<h2>Famous European cycling routes</h2>
+
+<ul>
+  <li><strong>Stelvio Pass (Italy):</strong> 48 hairpins. Iconic.</li>
+  <li><strong>Mont Ventoux (Provence):</strong> "Giant of Provence."</li>
+  <li><strong>Col du Tourmalet (French Pyrenees):</strong> Tour de France classic.</li>
+  <li><strong>Mortirolo (Italy):</strong> Among the steepest climbs.</li>
+  <li><strong>Pico do Areeiro (Madeira):</strong> Steep volcano climbs.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Bike rental:</strong> €30-€80/day for road bikes; reservation recommended.</li>
+  <li><strong>Training camps:</strong> Mallorca + Tenerife organized camps with mechanics.</li>
+  <li><strong>Best season:</strong> April-June + September-October. Avoid August (heat).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-summer-cool-weather",
+    title: "Best European Cities for Cool-Weather Summer Trips",
+    excerpt: "Where European summer is mild instead of hot — Nordic, alpine, Atlantic coast picks.",
+    publishedAt: "2026-06-03",
+    reviewedAt: "2026-06-03",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Cool Summer — Honest 2026",
+    metaDescription: "Where European summer is mild instead of hot — Nordic, alpine, Atlantic coast picks.",
+    html: `
+<p>Some Europeans hate hot summers. Here's the honest sort of mild summer destinations.</p>
+
+<h2>Tier 1 — reliably mild summer (15-22°C)</h2>
+
+<ul>
+  <li><strong>Reykjavík + Iceland:</strong> 12-15°C. Light all night.</li>
+  <li><strong>Bergen + Norwegian fjords:</strong> 14-18°C.</li>
+  <li><strong>Faroe Islands:</strong> 10-13°C summer.</li>
+  <li><strong>Edinburgh, Glasgow:</strong> 14-19°C summer.</li>
+  <li><strong>Dublin, Galway:</strong> 16-20°C.</li>
+</ul>
+
+<h2>Tier 2 — pleasantly mild summer (18-24°C)</h2>
+
+<ul>
+  <li><strong>Stockholm, Helsinki, Copenhagen:</strong> 18-22°C.</li>
+  <li><strong>Bilbao, San Sebastián:</strong> 20-24°C.</li>
+  <li><strong>Brittany (France):</strong> 18-22°C.</li>
+  <li><strong>Hamburg, Bremen:</strong> 19-23°C.</li>
+  <li><strong>Innsbruck, Salzburg:</strong> 20-25°C.</li>
+</ul>
+
+<h2>Alpine summer (cool at altitude)</h2>
+
+<ul>
+  <li><strong>Cortina d'Ampezzo:</strong> Dolomites summer.</li>
+  <li><strong>Chamonix:</strong> Mont Blanc area.</li>
+  <li><strong>Berchtesgaden:</strong> Bavarian Alps.</li>
+  <li><strong>St. Moritz:</strong> Swiss Alpine.</li>
+</ul>
+
+<h2>What to avoid for cool summer</h2>
+
+<ul>
+  <li><strong>Mediterranean cities (Rome, Athens, Madrid, Seville):</strong> 35-40°C July-August.</li>
+  <li><strong>Croatia coast in August:</strong> 30+°C and packed.</li>
+  <li><strong>Most Italian cities:</strong> Closed for August holidays + hot.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For mild-summer Europe, head north or to altitude. Atlantic coast (Brittany, Galicia, Ireland) is reliably 5-8°C cooler than Mediterranean. Norwegian fjords + Iceland are coolest.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

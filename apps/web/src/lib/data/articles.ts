@@ -20372,6 +20372,303 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-castle-hotels",
+    title: "Best European Cities for Castle Hotels",
+    excerpt: "Scotland's Inverlochy and Glenapp; Loire Valley's Château de Pray and Château d'Artigny; German Burghotel network; Italian Borgo San Felice and Castello Banfi.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Castle Hotels & Manor Stays",
+    metaDescription: "Castle hotels — Scotland (Inverlochy, Glenapp), Loire Valley, Germany (Burghotel), Tuscany. Prices, romantic-getaway packages.",
+    html: `
+<h2>Why castle hotels</h2>
+
+<p>Two formats: full luxury castle hotels (€500–2,500/night, with chef restaurants, hot tubs, ghosts) and simpler converted-castle inns (€150–350/night, atmospheric but less polished). Both work — the difference is service level vs price tier.</p>
+
+<h2>Scotland</h2>
+
+<p>Inverlochy Castle (luxury, Fort William area), Glenapp Castle (luxury, Ayrshire), Drumlanrig Castle, Cromlix Hotel (Andy Murray's hotel near Stirling). £400–1,500/night. <a href="/en/uk/edinburgh">Edinburgh</a> base for visits + Glasgow access.</p>
+
+<h2>Loire Valley (France)</h2>
+
+<p>Château de Pray (near Amboise), Château d'Artigny, Château de Beaulieu (Loches). €200–800/night. Each chateau hotel walking-distance to other château visits. Day-trip Loire from Tours base; or castle-hotel hop multi-night.</p>
+
+<h2>Bavaria and German Burghotels</h2>
+
+<p>Schloss Hotel Burg Schlitz (Mecklenburg), Burghotel Auf Schönburg (Rhine Valley), Schloss Elmau (Bavarian alpine luxury). €300–1,200/night. Multiple-castle networks (Schloss Hotels Germany).</p>
+
+<h2>Tuscany / Umbria</h2>
+
+<p>Castello Banfi (Brunello vineyard), Borgo San Felice, Castello di Velona, Castello del Nero. €400–1,500/night. Florence, Siena base for Tuscany; <a href="/en/italy/perugia">Perugia</a> for Umbria.</p>
+
+<h2>Spain — Paradores</h2>
+
+<p>Paradores network — state-owned castle and convent hotels across Spain. Parador de Sigüenza (12th-century Moorish castle), Parador de León (16th-century convent). €120–350/night. Affordable castle-hotel access.</p>
+
+<h2>Portugal — Pousadas</h2>
+
+<p>Spanish-Portuguese parallel — convertedmonasteries and castles. Pousada de Évora (16th-century convent), Pousada de Estremoz (medieval castle). €150–400/night.</p>
+
+<h2>Ireland</h2>
+
+<p>Ashford Castle (Mayo), Dromoland Castle (Clare), Adare Manor (Limerick). €600–2,500/night. Ultra-luxury tier.</p>
+
+<h2>Strategy</h2>
+
+<p>Most castle hotels are rural — rental car required. Off-season (November-March) 30-50% rate drops + lower temperatures (medieval-castle heating limitations). Read our <a href="/en/articles/best-european-cities-for-castle-day-trips">castle day trips</a> companion for non-overnight visits.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bouldering-climbing-gyms",
+    title: "Best European Cities for Bouldering & Climbing Gyms",
+    excerpt: "Berlin's Boulderwelt and Magic Mountain anchor European bouldering; Sheffield's Climbing Works is the UK heart; Innsbruck and Chamonix combine indoor + outdoor access.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Bouldering & Climbing Gyms",
+    metaDescription: "Cities for indoor climbing — Berlin, Sheffield, Innsbruck, Chamonix, Munich, Oslo. Day passes, gym networks, and outdoor crag day-trips.",
+    html: `
+<h2>European indoor climbing scene</h2>
+
+<p>European indoor climbing exploded post-2010. Berlin alone has 12+ major gyms; UK Sheffield has the largest gym network. Most cities below have day passes (€12–25), shoes + chalk rental, English instruction.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Boulderwelt (multiple), Magic Mountain, Berta Block. 3,000+ active routes across the city. Boulder-only gyms common. €13–18 day pass + €4 shoes. <a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> dense.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Boulderwelt München, Heaven's Gate, DAV Kletter- und Boulderzentrum. Plus 1h drive to Bavarian Alps for outdoor climbing weekends. €18–25 day pass.</p>
+
+<h2>Innsbruck</h2>
+
+<p>Austrian Alps gateway. Kletterzentrum Innsbruck (Olympic-tier facility, used in international competitions). World Cup events. Plus immediate outdoor crag access — Martinswand 5 min from city.</p>
+
+<h2>Sheffield (UK)</h2>
+
+<p>UK climbing capital. Climbing Works, The Foundry, The Edge, The Climbing Hangar. £10–18 day pass. Plus Peak District outdoor crags 30 min away.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> The Castle Climbing Centre, The Arch Climbing, Mile End Climbing Wall, Westway. £15–22 day pass. Multiple gyms across city.</p>
+
+<h2>Chamonix</h2>
+
+<p>French Alps base. Multiple crags + indoor gym. Mont Blanc + surrounding multi-pitch routes. Less indoor-focused — outdoor primary.</p>
+
+<h2>Oslo</h2>
+
+<p><a href="/en/norway/oslo">Oslo</a> Klatreverket Storo, Oslo Klatreklubb. Norwegian climbing scene strong; outdoor access (Sognefjord, Kjerag) world-class within day-trip distance.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Block'Out, Climb Up. French climbing culture deep — Lyon a key training base. €12–18 day pass.</p>
+
+<h2>Strategy</h2>
+
+<p>Most gyms allow drop-in with valid liability waiver — no membership required. Shoes available rentals (€3–8). Bouldering-only gyms (no harness/rope) common — verify. Climbing pass during travel — Top Routes (worldwide chain) gives unlimited city-hopping. <a href="/en/articles/best-european-cities-for-hiking-base">Hiking base</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-padel-tennis",
+    title: "Best European Cities for Padel Tennis",
+    excerpt: "Spain invented modern padel; Madrid and Marbella have 1,000+ courts each; Stockholm and Lisbon emerged as Nordic and Iberian secondary markets after 2015.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Padel Tennis",
+    metaDescription: "Padel destinations — Madrid, Marbella, Stockholm, Lisbon, Paris. Court bookings, equipment rental, and the Spanish-origin sport explosion.",
+    html: `
+<h2>Padel's growth</h2>
+
+<p>Padel originated in Mexico (1969) and exploded in Spain in the 2000s — now Europe's fastest-growing racket sport. Played on enclosed glass-walled court with paddle racket. Below: cities with the densest court networks for travelers wanting to play.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> 1,000+ courts in metropolitan area. Padel Pro Madrid, Hotel Padel Pro, club networks. Court bookings €15–35/hour. World Padel Tour stops in Madrid annually. Spanish padel mecca.</p>
+
+<h2>Marbella / Costa del Sol</h2>
+
+<p>Spanish coastal padel capital. La Sala, La Resina, Hotel Don Carlos. International padel-tournament site. Many resort hotels include free court access.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> dense court network — Club de Polo, Hotel Casa Padel. Catalan padel rapidly catching up with Madrid scene.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Andalusian padel strong. Lower-cost than Madrid (€12–25/hour court bookings).</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> rapid Nordic adoption — Padel Padel, Padel Center. Sweden has highest padel-court-per-capita ratio in Europe outside Spain. €25–50/hour booking.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Padel Lisboa, AP10 Padel Club. Portuguese scene growing fast post-2018.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> several padel clubs in suburbs (Boulogne, Neuilly). Slower French adoption but accelerating. €30–60/hour.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Padel Pro Milano, Padel Sphere. Italian padel scene grew explosively 2020–2024.</p>
+
+<h2>Strategy</h2>
+
+<p>Court bookings via apps (Playtomic, MatchPoint) standard. Equipment rental at most clubs (€5–10 for paddle). Padel partner-finding via apps. Padel = doubles only — bring 3 friends or use partner-matching. Read our <a href="/en/articles/best-european-cities-for-cyclists">cyclists</a> for sportier travel companions.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-pies-and-traditional-pastries",
+    title: "Best European Cities for Pies & Traditional Pastries",
+    excerpt: "British pork pies and pasties; Portuguese pastéis de nata; French viennoiserie; Austrian Apfelstrudel; Greek bougatsa. Each tradition deserves its dedicated city.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Traditional Pies & Pastries",
+    metaDescription: "Pie and pastry cities — Lisbon (pasteis de nata), Vienna (Apfelstrudel), London (pork pies), Paris (viennoiserie), Athens (bougatsa).",
+    html: `
+<h2>Regional pastry geography</h2>
+
+<p>Six major European pastry traditions: French (croissants, pains au chocolat), Austrian (Apfelstrudel, Sachertorte), British (pork pies, pasties, Bakewell tart), Portuguese (pastel de nata, queijada), Spanish (churros, ensaimada), Greek (bougatsa, galaktoboureko). Below are the best cities for each.</p>
+
+<h2>Lisbon — pastel de nata</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Pastéis de Belém (the original 1837 recipe — only place using actual original recipe). Manteigaria (cult modern). Confeitaria Nacional. €1.50–4 each. Eaten warm, dusted with cinnamon. <a href="/en/portugal/lisbon/belem">Belém</a> destination.</p>
+
+<h2>Vienna — Apfelstrudel</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Demel, Café Sacher, Café Central. Apfelstrudel + Sachertorte the two icons. €5–9 per slice with whipped cream. Strudel-pulling demonstrations at Café Residenz.</p>
+
+<h2>London — pies and pasties</h2>
+
+<p><a href="/en/uk/london">London</a> Borough Market pork pies (Mrs King's Pies — Melton Mowbray made), Cornish pasties, Game pies. Plus Bakewell tart from Yorkshire. £4–8. Strong British heritage food.</p>
+
+<h2>Paris — viennoiserie</h2>
+
+<p><a href="/en/france/paris">Paris</a> Du Pain et des Idées (chausson aux pommes the legend), Pierre Hermé, Cyril Lignac. Multiple icons. €3–6 each. Croissant covered separately.</p>
+
+<h2>Madrid — churros</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Chocolatería San Ginés (since 1894 — open 24/7, churros con chocolate). Traditional after-night-out food. €4–7 per portion.</p>
+
+<h2>Athens — bougatsa</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Bougatsa shops in central markets. Phyllo + custard or cheese. Greek breakfast classic. €2–4 each.</p>
+
+<h2>Naples — sfogliatella</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Pintauro (since 1818), Sfogliatella Mary. Layered shell + ricotta. €2–4 each.</p>
+
+<h2>Brussels — chocolat</h2>
+
+<p>Less pastry-defined, more chocolate-shop tradition. Pierre Marcolini, Mary, Neuhaus. Belgian waffles iconic.</p>
+
+<h2>Strategy</h2>
+
+<p>Eat day-of-baking. Smaller boutique bakeries beat hotel restaurants. Heritage shops like Pastéis de Belém (1837) preserve unique recipes. Read our <a href="/en/articles/best-european-cities-for-coffee-and-pastries">coffee and pastries</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-photography-schools",
+    title: "Best European Cities for Photography Schools",
+    excerpt: "Berlin's Ostkreuz; Paris's Spéos; London's RCA and Central Saint Martins; Helsinki's Aalto. Where to study photography seriously in Europe.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Photography Schools & Programs",
+    metaDescription: "Photography schools — Berlin (Ostkreuz), Paris (Speos), London (RCA, Central Saint Martins), Arles, Helsinki. MA/MFA and short courses.",
+    html: `
+<h2>Two formats</h2>
+
+<p>Major photography programs (MA/MFA, 1–3 years, €15,000–60,000+) and short workshop programs (1–8 weeks, €500–4,000). Cities below host both. The big-name schools below offer broad photographic education + alumni networks.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Ostkreuzschule für Fotografie — 4-year photo academy founded by photographer cooperative. Plus Universität der Künste Berlin (UdK) photo MA. Affordable city, English-friendly. €5,000–15,000 annual.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Spéos (English-taught photo school), Gobelins, École Nationale Supérieure de la Photographie (Arles). Spéos has Paris + London branches; €18,000–28,000 1-year programs.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Royal College of Art, Central Saint Martins (UAL), London College of Communication. World-class. £25,000–60,000 MA programs. Plus shorter programs at Photoschool, Steve McCurry Workshops.</p>
+
+<h2>Arles (France)</h2>
+
+<p>École Nationale Supérieure de la Photographie d'Arles — French national photography school. Plus Rencontres d'Arles annual festival (July–September) draws international talent. Day-trip from Avignon or Marseille.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Aalto University photo MA (the famed Helsinki School pedigree — Pentti Sammallahti, Esko Männikkö). Strong landscape and conceptual photography tradition.</p>
+
+<h2>Lausanne (ECAL)</h2>
+
+<p>Swiss École cantonale d'art de Lausanne — design + photography. Highly competitive. Multilingual programming.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Konstfack, plus Nordic Light Festival photography sessions. Strong Nordic landscape photography.</p>
+
+<h2>Strategy</h2>
+
+<p>Apply 8–12 months ahead. Portfolio + intent statement standard. Tuition for non-EU students often higher than EU. Apartment rentals during programs (vs student dorms) — budget carefully. Read our <a href="/en/articles/best-european-cities-for-photography-museums">photography museums</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cookbook-shops",
+    title: "Best European Cities for Cookbook Shops",
+    excerpt: "Paris's Librairie Gourmande, London's Books for Cooks, Berlin's Modern Graphics — independent cookbook bookshops cluster in food-cultured cities.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Cookbook & Food Bookshops",
+    metaDescription: "Independent cookbook shops — Paris (Librairie Gourmande), London (Books for Cooks), Berlin, Amsterdam, Copenhagen.",
+    html: `
+<h2>Why specialized bookshops</h2>
+
+<p>General bookshops carry only mainstream cookbooks. Specialized cookbook shops carry obscure French regional cuisine, vintage Italian editions, signed author copies, foreign-language imports. Below: cities with serious cookbook-bookshop density.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Librairie Gourmande (since 1986, near Les Halles) — France's premier cookbook shop. 5,000+ titles. Plus Cook & Book in <a href="/en/france/paris/le-marais">Le Marais</a>. Book signings + chef events regularly. €15–80+ books.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Books for Cooks (Notting Hill, since 1983 — also functions as café where they cook from books for £8 lunch). Stanfords (travel + food books). Daunt Books cookbook section. Persephone Books (women writers, includes cookbooks). <a href="/en/uk/london/notting-hill">Notting Hill</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Cooks Books at Markthalle Neun, Modern Graphics. Smaller scene than Paris but growing. <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> ABC Bookshop English-language section, Vanity Fair Bookshop. Plus city's strong contemporary food media (NOMA, Maaemo) → curated stocked bookshops.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Tante T (small literary plus food shop), Politikens Boghal. Strong on Nordic-cuisine cookbooks given New Nordic movement origin.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Mercato Centrale book stalls, Libreria Salimbeni. Italian regional cookbooks especially strong.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> A Punto Centro Cultural del Gusto — bookshop + cooking classes + restaurant. Spanish + international titles. Plus general bookshops with serious cooking sections.</p>
+
+<h2>Strategy</h2>
+
+<p>Foreign-language bookshops good for hard-to-find imports. Vintage cookbook market on AbeBooks, used-book searches. Carry-on space limited — most cookbook lovers ship purchases home or buy ebook versions and pick up specific physical editions only.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

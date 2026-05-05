@@ -19513,6 +19513,311 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-art-residency-programs",
+    title: "Best European Cities for Artist Residency Programs",
+    excerpt: "Berlin's Künstlerhaus Bethanien and Cité Internationale Paris are the heritage; Helsinki's HIAP, Dutch Rijksakademie, and Madrid's Matadero round out the European map.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Artist Residencies",
+    metaDescription: "Cities for artist-in-residence programs — Berlin, Paris, Amsterdam, Helsinki, Madrid. Application tips, stipends, and program format.",
+    html: `
+<h2>Why residency cities matter</h2>
+
+<p>Artist-in-residence programs (typically 3–12 months, often stipended, includes studio + housing + sometimes exhibition) cluster in cities with strong infrastructure for visiting artists. Below: cities with multiple competitive residencies and supporting art ecosystems.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Künstlerhaus Bethanien (Berlin's most established), DAAD Artists-in-Berlin Program (German government scholarship), Berlin Senate visual-arts program, Schloss Solitude (regional). Berlin's affordability and density of galleries/critics makes it the world's biggest residency hub.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Cité Internationale des Arts (1965, the legendary residency — over 1,000 artists per year). Camargo Foundation (Cassis, day-trip from Marseille). Atelier Calder (rural Bourgogne) — French government residencies highly competitive.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Rijksakademie van Beeldende Kunsten (the post-graduate residency, 24 places yearly). De Ateliers, Jan van Eyck Academie (Maastricht). Dutch art-residency tradition deep.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> HIAP (Helsinki International Artist Programme) — historic Suomenlinna fortress + central studios. Finnish state cultural-export support funds artists. Strong Nordic art network.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Matadero Madrid (former slaughterhouse, contemporary residencies + exhibitions). Real Academia de España en Roma (Madrid funding for residencies in Rome). Spain government Spanish-language artist support.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Quartier21 / MuseumsQuartier residencies, KulturKontakt Austria. Austrian state cultural funding + regional residencies in Salzburg, Graz, Linz.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Hangar.org + La Capella + Faber. Catalan-language and bilingual programs. Mediterranean alternative to Berlin.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Atelier-Museu Júlio Pomar, Casa da Cerca residency programs. Increasingly attractive for residencies given affordable cost and emerging art scene.</p>
+
+<h2>Strategy</h2>
+
+<p>Apply 6–18 months ahead. Application portfolios + statement + project proposal standard. Stipends €500–3,000/month plus studio/housing. Major residencies like Rijksakademie 800+ applicants for 24 spots. Read our <a href="/en/articles/best-european-cities-for-design-stores">design stores</a> for material-sourcing companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-luxury-shopping-streets",
+    title: "Best European Cities for Luxury Shopping Streets",
+    excerpt: "Paris's Avenue Montaigne and Rue Saint-Honoré; Milan's Quadrilatero della Moda; London's Bond Street; Vienna's Kohlmarkt; Madrid's Calle Serrano. Each different.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Luxury Shopping Streets",
+    metaDescription: "Top luxury shopping streets — Paris (Montaigne, Saint-Honore), Milan (Quadrilatero), London (Bond Street), Vienna, Madrid. House flagships.",
+    html: `
+<h2>Luxury street density</h2>
+
+<p>Single-block clusters of haute couture flagships — Avenue Montaigne (Dior, Chanel, Valentino, Gucci), Quadrilatero della Moda (Gucci, Prada, Bottega Veneta, Armani). Window-shopping value high; actual purchases secondary. Below: the top European luxury streets.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Avenue Montaigne (Dior, Chanel, Louis Vuitton, Valentino, Givenchy, Loewe), Rue Saint-Honoré (Hermès, Saint Laurent, YSL, Goyard, Colette in past). Place Vendôme jewelry adjacent. <a href="/en/france/paris/champs-elysees-area">Champs-Élysées</a> base.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Quadrilatero della Moda — Via Montenapoleone (Versace, Tod's, Buccellati, Bulgari) + Via della Spiga (Dolce & Gabbana, Prada, Gucci) + Via Sant'Andrea + Via Manzoni. Quadrilatero compact 5-square-block grid. Plus Galleria Vittorio Emanuele II for historic luxury arcade.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Bond Street (Cartier, Bulgari, Tiffany, Louis Vuitton, Armani), Sloane Street, Mount Street (smaller boutiques). Plus Burlington Arcade (1819 covered shopping, jewelry). <a href="/en/uk/london/mayfair">Mayfair</a> base.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Kohlmarkt (Chanel, Cartier, Tiffany, Louis Vuitton in tightly clustered Habsburg-era street) + Graben (Cartier, Wempe). Plus Kärntner Strasse for slightly less-luxury Austrian heritage shops (Augarten, Lobmeyr).</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Calle Serrano (Cartier, Loewe, Carolina Herrera) and Calle José Ortega y Gasset. <a href="/en/spain/madrid/salamanca">Salamanca</a> the luxury district. Spain-specific brand Loewe headquartered.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Via dei Condotti (Bulgari headquartered, Hermès, Cartier, Gucci, Damiani) + Via del Babuino. <a href="/en/italy/rome/centro-storico">Centro Storico</a> walk-friendly compact street.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Via de' Tornabuoni — Cartier, Hermès, Salvatore Ferragamo (Florence-headquartered), Loro Piana, Gucci. Smaller scale than Milan or Paris but architecturally exceptional.</p>
+
+<h2>Strategy</h2>
+
+<p>Avoid lunch-hour shopping (sales associates pulled, longer waits). Tax-free shopping non-EU residents 12-15% refund — request VAT forms. Limited-edition releases (Birkin, Hermès Twilly) require allocation list — start in single boutique, build relationship over years.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-public-transit-quality",
+    title: "Best European Cities for Public Transit Quality",
+    excerpt: "Vienna runs Europe's best metro reliability; Helsinki, Zurich, Copenhagen tight integration; London Tube classic but flawed; Athens and Madrid metro vastly underrated.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Public Transit Quality (2026)",
+    metaDescription: "Best European metros — Vienna, Helsinki, Zurich, Copenhagen, Madrid, Athens. Reliability, frequency, fare integration, and night service.",
+    html: `
+<h2>What good transit means</h2>
+
+<p>Frequency (under 4 minutes peak), reliability (98%+ on time), integration (single ticket buses + metro + trams), 24-hour or extended service, intuitive wayfinding for visitors. Below: cities that excel.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wiener Linien — Europe's most reliable metro by independent rankings. Single-fare ticket €2.40 covers all modes. Annual pass €365 ("a euro a day"). 24/5 service Friday-Saturday nights. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> HSL — fully integrated tram/metro/bus/ferry with single fare. €3.50 single, €11/day pass. Real-time arrivals universally accurate. Plus Tampere/Turku also excellent at smaller scale.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Verkehrsbetriebe Zürich (VBZ) — Swiss-precision running. Tram + bus + Forchbahn integrated. Day pass CHF 9. Boats on Lake Zurich included.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Metro fully driverless 24/7 plus bus + S-train + Cityringen ring line. DKK 24 single, DKK 80 city day pass. Strong cycle infrastructure adjacent.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Metro Madrid — 13 lines, 302km (Europe's third-largest), modern stations, AC. €1.50–2 single. Strong frequency (under 5 min). Cleaner than Paris Metro by far.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Underground (Tube) — historical icon but cramped, hot in summer, occasional delays. Contactless tap-and-go highly modern. Night Tube weekends (Fri-Sat). £6.50/day cap.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> S-Bahn + U-Bahn + tram + bus integrated. €3.50 single, €9.50 day pass. 24/7 weekend service.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> metro modernized 2004 Olympics — clean, AC, archaeological displays at stations. €1.20 single. Underrated quality.</p>
+
+<h2>Worse than expected</h2>
+
+<p>Rome, Naples, Amsterdam (canal-walks faster than transit at center), Lisbon (charming but slow trams).</p>
+
+<h2>Strategy</h2>
+
+<p>Day passes vs single tickets — calculate your daily uses. Most cities: 3+ rides justifies day pass. Tap-to-pay contactless universal in major cities. Read our <a href="/en/articles/best-european-cities-for-walkability">walkability</a> companion for the no-transit-needed cities.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vineyard-day-trips",
+    title: "Best European Cities for Vineyard Day Trips",
+    excerpt: "Bordeaux for Médoc; Florence for Chianti and Brunello; Porto for Douro; Valencia for Utiel-Requena; Vienna for Wachau and Kamptal Austrian whites.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Vineyard Day Trips & Wine Tasting",
+    metaDescription: "Cities with day-trip wine regions — Bordeaux, Florence, Porto, Valencia, Vienna. Routes, transport, and tasting strategy.",
+    html: `
+<h2>City + vineyard combinations</h2>
+
+<p>Stay in a city with hotels and restaurants; day-trip to wine regions for tastings; return for dinner. Below are the cities where this format works best — vineyards within 1-2 hour drive, organized tour networks, public transport access.</p>
+
+<h2>Bordeaux (France)</h2>
+
+<p>Bordeaux is the global wine-trip capital. Médoc (Margaux, Saint-Estèphe, Pauillac) 1h drive north; Saint-Émilion 45 min east. Wine tour buses €60–180/day. La Cité du Vin (museum) excellent context. Saint-Émilion the village base if staying overnight.</p>
+
+<h2>Florence (Tuscany)</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Chianti hills 30 min south; Brunello di Montalcino 1h45; Bolgheri (Super Tuscan) 1h30. Tour operators (Tuscany Wine Tours, Wine Tour in Tuscany) €80–200. Direct train to Greve in Chianti.</p>
+
+<h2>Porto (Portugal)</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> Douro Valley 1h45 by train (Régua, Pinhão). Wine + scenic train + boat combinations. Quinta tours include lunch. €60–180.</p>
+
+<h2>Valencia (Spain)</h2>
+
+<p><a href="/en/spain/valencia">Valencia</a> Utiel-Requena 1h drive — bobal grape native, lower-priced than Rioja. Plus Alicante Mancha. Spanish wine value-quality strong.</p>
+
+<h2>Vienna (Austria)</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wachau Valley (Riesling, Grüner Veltliner) 1h15 west; Kamptal 1h. Wine + Danube cruise combinations. Plus Vienna's own urban Heuriger wine taverns.</p>
+
+<h2>Madrid (Spain)</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Ribera del Duero 2h drive; Rioja 4h (overnight). Tempranillo region heart. Rioja Alavesa with modern Frank Gehry-designed Marqués de Riscal cellars.</p>
+
+<h2>Florence and Bologna alternative</h2>
+
+<p>Both within day-trip range of Emilia-Romagna (Lambrusco) and northern Tuscany.</p>
+
+<h2>Athens (Greece)</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Nemea (Peloponnese) 90 min — Agiorgitiko grape. Plus Santorini for Assyrtiko (fly day-trip). Greek wine has resurgence with quality producers.</p>
+
+<h2>Strategy</h2>
+
+<p>Designated driver or organized tour — 4-5 wine tastings degrade ability to drive. Public-transport routes possible for Wachau, Douro. Customs for buying wine — under €430 typically duty-free returning to non-EU. Read our <a href="/en/articles/best-european-cities-for-natural-wine">natural wine</a> companion for the urban-wine-bar counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cigar-lounges",
+    title: "Best European Cities for Cigar Lounges & Tobacco Shops",
+    excerpt: "Madrid's tobacco-shop heritage; Vienna's traditional Tabak Trafiken; London's St James's gentleman-shop tradition; Geneva and Zurich for serious tasting lounges.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Cigar Lounges",
+    metaDescription: "Cities for cigar travel — Madrid, Vienna, London, Geneva. Where to buy Cuban cigars (legal/illegal), traditional cigar lounges and shops.",
+    html: `
+<h2>The European cigar map</h2>
+
+<p>European countries have generally easier import rules for Cuban cigars than the United States. Madrid is the European hub; Vienna preserves Habsburg-era tobacconist tradition; London has St James's gentleman-shop heritage. Below: where to buy and where to smoke.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> the European capital for Cuban cigars. La Casa del Habano (multiple flagships), Estanco Conde de Aranda. Habanos S.A. distribution centered in Spain. Singles €15–80; boxes €350–1,500. Lounges (cigar bars) at Hotel Wellington, Casino Gran Madrid.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Tabak Trafiken — Habsburg-era licensed tobacconists, often with cigar selections. Tabak Trafik Cigar Lounge at Tabakmuseum (combined cigar shop + smoking lounge). €15–60 per cigar at top tier.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> James J. Fox (Saint James's Street, since 1787 — the cigar merchant). Davidoff London. Plus historic gentleman's clubs and hotel bars (Lanesborough, Connaught) with cigar lounges. £25–150 per cigar.</p>
+
+<h2>Geneva</h2>
+
+<p>Davidoff originated in Geneva. Davidoff flagship + Hotel des Bergues lounge. Swiss-luxury context. CHF 30–200 per cigar at premium tier.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Sorel Hauptbahnhof, Zigarrenhaus Capi. Strong Swiss cigar-shop tradition.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Pieper, Tabakhaus Cohrs. Hamburg's historical cigar trade preserves merchant tradition.</p>
+
+<h2>Smoking-rule considerations</h2>
+
+<p>Indoor smoking bans variable: Spain still allows in dedicated cigar bars; UK strict no-indoor; Austria still relaxed. Verify before booking lounge experience.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy at licensed Habanos S.A. retailers — counterfeit Cubans common online. Customs returning to UK/USA tightly limited (UK: 200 cigarettes equivalent; USA: 100 cigars from Cuba post-2025 normalization rules vary). Storage requires humidor (60-70% humidity).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-opera-festivals",
+    title: "Best European Cities for Opera Festivals",
+    excerpt: "Salzburg's Festspiele tops the list; Verona's arena open-air spectacle; Glyndebourne's countryside picnic format; Munich's summer Festspielhaus; Aix-en-Provence's modern.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Opera Festivals",
+    metaDescription: "Top European opera festivals — Salzburg, Verona, Aix-en-Provence, Glyndebourne, Munich, Bregenz. Tickets and timings.",
+    html: `
+<h2>Festival opera vs season opera</h2>
+
+<p>Major opera houses run season programming September–June (Vienna Staatsoper, Royal Opera House Covent Garden, Bavarian State Opera, La Scala). Summer opera festivals add specific dramatic productions in distinctive venues. Below: the festivals most worth flying for.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Salzburg Festival (late July–end August). Festspielhaus + Felsenreitschule + Mozarteum. World-class orchestras, internationally famous singers. €30–600 per performance. Premiere productions of Mozart, Wagner, modern. Hotels 3–4x normal rates.</p>
+
+<h2>Verona</h2>
+
+<p>Arena di Verona Opera (June–August). Roman amphitheatre 14,000 seats. Aida (with elephants), Tosca, Carmen, Rigoletto traditional. €25–250. Touristy but spectacular outdoor experience.</p>
+
+<h2>Aix-en-Provence</h2>
+
+<p>Festival d'Aix-en-Provence (July). Less famous than Salzburg but operatic premieres. Théâtre de l'Archevêché outdoor in old archbishop's palace courtyard. €80–350.</p>
+
+<h2>Glyndebourne</h2>
+
+<p>UK Glyndebourne Festival Opera (East Sussex). Garden picnic + black-tie + opera tradition. £100–280. 80 min train from London + bus shuttle. Mozart and rare opera specialty.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Munich Opera Festival (mid-July to early August). Bavarian State Opera (Nationaltheater) extends regular season into summer. World's elite singers. €15–450.</p>
+
+<h2>Bregenz</h2>
+
+<p>Austrian Bregenzer Festspiele (July–August) — opera staged on floating stage in Lake Constance. €40–250. Stage built each season; visually spectacular.</p>
+
+<h2>Bayreuth</h2>
+
+<p>German Bayreuth Festival (late July–end August). Wagner-only at Festspielhaus designed by Wagner. Lottery booking 6–10 years ahead. €100–400.</p>
+
+<h2>Pesaro (Italy)</h2>
+
+<p>Rossini Opera Festival (August). Pesaro is Rossini's hometown. €40–200. Niche destination for Rossini enthusiasts.</p>
+
+<h2>Strategy</h2>
+
+<p>Reserve tickets 6–12 months ahead. Festival accommodation 12+ months Salzburg/Bayreuth. Off-season opera (October–May at major houses) much more accessible. <a href="/en/articles/best-european-cities-for-opera-classical">Opera classical guide</a> for year-round seasons.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

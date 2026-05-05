@@ -15281,6 +15281,259 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-art-deco-architecture",
+    title: "Best European Cities for Art Deco Architecture",
+    excerpt: "Paris birthed the style at the 1925 Expo; Brussels, Prague, and Naples each have distinct Art Deco districts that survived war and modernization.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Art Deco Architecture",
+    metaDescription: "Cities with strong Art Deco heritage — Paris, Brussels, Prague, Bucharest, Naples. Cinemas, hotels, residential blocks 1925-1939.",
+    html: `
+<h2>Art Deco's two phases</h2>
+
+<p>Geometric 1920s Art Deco (sun rays, zig-zags, chevrons) and streamlined 1930s Moderne (curves, marine motifs, glass blocks). Both are distinct from Bauhaus and from earlier Art Nouveau. The cities below have continuous neighborhoods, not single isolated buildings.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> hosted the 1925 Exposition Internationale des Arts Décoratifs that named the style. Le Grand Rex cinema (1932), La Samaritaine (recently restored), Folies Bergère, Avenue Montaigne residential blocks. <a href="/en/france/paris/montmartre">Montmartre</a> + <a href="/en/france/paris/le-marais">Le Marais</a> mixed periods.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Centre Monnaie, Villa Empain (Boghossian Foundation, 1934), Flagey building, Résidence Palace. Less famous than Brussels Art Nouveau but the deco grid in Schaerbeek and Etterbeek dense.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Lucerna Passage, Hotel Imperial, Adria Palace. Czech Art Deco fused with Cubism (a uniquely Czech architectural moment around 1910–1925) — the Czech Cubist style nowhere else in Europe.</p>
+
+<h2>Bucharest</h2>
+
+<p>Romanian Art Deco capital. Bucharest's "Little Paris" reputation came from a building boom 1925–1939. Calea Victoriei buildings, Telephone Palace (1933), Cantacuzino Palace, ARO Palace. Underrated and cheap.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Mostra d'Oltremare district (1939–1940 Fascist exhibition site, partial Art Deco). Galleria Umberto I a generation earlier but reads continuous. Mussolini-era Razionalismo (1930s Italian rationalism) overlaps the Deco moment.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> BBC Broadcasting House (1932), Senate House (1937), Battersea Power Station, Carlton Cinema. Less concentrated than Paris but the masterpieces are genuinely great.</p>
+
+<h2>Strategy</h2>
+
+<p>Walking tours organized by city architecture societies surface buildings tourists miss. <a href="/en/articles/best-european-cities-for-modernist-architecture">Modernist guide</a> covers the Bauhaus and Le Corbusier scene.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-perfume-shopping",
+    title: "Best European Cities for Niche Perfume Shopping",
+    excerpt: "Florence's Officina Profumo-Farmaceutica is the world's oldest pharmacy-perfumery; Paris niche houses cluster in Le Marais; Cologne is literally named after the genre.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Niche Perfume Shopping",
+    metaDescription: "Cities with serious niche perfume scenes — Paris, Florence, London, Cologne, Grasse. Houses, ateliers, and historic pharmacies.",
+    html: `
+<h2>Niche vs designer</h2>
+
+<p>Niche perfume = small houses focused on creative scents (Frédéric Malle, Diptyque, Le Labo, Serge Lutens) rather than mass-market fashion-house fragrances (Dior, Chanel, Tom Ford). Niche prices €100–400 per 50–100ml; the buying experience itself is part of the appeal.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> the niche capital. Frédéric Malle Avenue Victor Hugo, Diptyque Saint-Germain, Serge Lutens Palais Royal, Caron, Guerlain at Champs-Élysées. <a href="/en/france/paris/le-marais">Le Marais</a> and <a href="/en/france/paris/saint-germain">Saint-Germain</a> dense.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Officina Profumo-Farmaceutica di Santa Maria Novella — operating since 1612, in a 14th-century friary. Mercato Centrale neighborhood. Lorenzo Villoresi, Aquaflor, Profumum Roma at Italian niche houses also Florence-clustered.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Penhaligon's, Floris (1730), Jo Malone, Ormonde Jayne, Roja Parfums. Strong British perfume tradition focused on classic English garden scents. <a href="/en/uk/london/mayfair">Mayfair</a> and <a href="/en/uk/london/marylebone">Marylebone</a> dense.</p>
+
+<h2>Cologne</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> Eau de Cologne (4711) literally invented here in 1709. Farina 1709 still operating in original location near Domkloster. Historical perfumery for €18–60 — accessible niche entry point.</p>
+
+<h2>Grasse</h2>
+
+<p>Not a city per se, but France's perfume town near Cannes. Fragonard, Galimard, Molinard offer factory tours and personal-perfume workshops. Day-trip from Nice or Cannes.</p>
+
+<h2>Strategy</h2>
+
+<p>Test on skin, not paper. Your second-favorite scent on paper often becomes the winner on skin chemistry. Carry samples for 2–3 days before buying. Tax-free shopping for non-EU residents on €100+ purchases.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-watch-shopping",
+    title: "Best European Cities for Watch Shopping",
+    excerpt: "Geneva is the global capital — Patek and Rolex sales here are religious experiences. Vienna, London, and Milan each host specialty boutiques. Authenticity matters more than discount.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Luxury Watch Shopping",
+    metaDescription: "Watch capitals — Geneva, Lucerne, Vienna, London, Milan. Authorized dealers, vintage specialists, and the Swiss-store-vs-grey-market reality.",
+    html: `
+<h2>Geneva is not really cheaper</h2>
+
+<p>Common myth: buy a Rolex in Switzerland and save 20%. Reality: Swiss prices match international list prices precisely. The reason to shop in Switzerland is access (allocation lists for hot models more accessible) and authenticity.</p>
+
+<h2>Geneva</h2>
+
+<p>Patek Philippe boutique on Rue du Rhône, Vacheron Constantin, Rolex, Audemars Piguet. Watches & Wonders fair every April. Boutique appointments often required for purchases. Quartier des Bains for vintage.</p>
+
+<h2>Lucerne</h2>
+
+<p>Bucherer flagship — multi-brand authorized dealer (Patek, Rolex, AP). Bahnhofstrasse and Schwanenplatz zone. Smaller and more relaxed than Geneva for browsing.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wempe at Kohlmarkt. A. Lange & Söhne, Glashütte boutiques. Vienna's old-money clientele means strong vintage and pre-owned market. Less queuing than Switzerland.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Bond Street is the global second tier — Patek, Rolex, AP, Cartier all present. Bonhams and Sotheby's auction houses for rare vintage. Watches of Switzerland boutiques across the city. <a href="/en/uk/london/mayfair">Mayfair</a> base.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Pisa Orologeria (multi-brand), Rolex flagship at Galleria Vittorio Emanuele II. Italian collectors particularly into vintage Patek and Rolex; small boutiques in <a href="/en/italy/milan/brera">Brera</a> for trade-ins.</p>
+
+<h2>Vintage specialists</h2>
+
+<p>Berlin (Wempe, Vintage Watches), Munich (multiple), Paris (Antiquorum, vintage shops in Le Marais). Vintage market less authorized-dealer-driven and more about specialist trust.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy from authorized dealers only — grey market savings vanish if warranty issues arise. Allocation waitlists for hot Rolexes and Patek can be 2–6 years; build relationships with one dealer rather than churning.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-day-spa-luxury",
+    title: "Best European Cities for Luxury Day Spa Experiences",
+    excerpt: "Geneva, Vienna, and London hotel spas are flagship-grade; Budapest and Baden-Baden offer historic public-thermal-bath traditions. Different categories, different prices.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Luxury Day Spas",
+    metaDescription: "Day spa cities — Vienna, Geneva, London, Budapest, Baden-Baden. Hotel spas, public thermal baths, and treatment-menu strategy.",
+    html: `
+<h2>Two categories blend</h2>
+
+<p>Hotel-spa-with-treatment-menu (€200–800/day) and historic-thermal-bath-public (€20–80/day) are distinct experiences. The cities below are best in either category — sometimes both.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Hotel Sacher Spa, Park Hyatt Vienna Spa, The Ritz-Carlton Spa. Therme Wien suburban thermal complex. Strong contemporary spa scene complementing the traditional Kaffeehaus-Konditorei culture.</p>
+
+<h2>Geneva</h2>
+
+<p>Hotel d'Angleterre and Beau-Rivage Genève spas — Swiss-luxury-tier. La Réserve Genève spa with Cinq Mondes treatments. Lake-view hammams. €350–600 day passes.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> The Lanesborough Club & Spa, ESPA Life at Corinthia, The Spa at Mandarin Oriental Hyde Park, Aman Spa at Connaught. £150–500 day passes; treatments £250–600. <a href="/en/uk/london/mayfair">Mayfair</a> and <a href="/en/uk/london/knightsbridge-belgravia">Knightsbridge</a> dense.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Gellért Spa (Art Nouveau historic), Széchenyi Spa (largest, neo-Baroque), Rudas (Ottoman-era). €15–35 day passes — fundamentally different price tier from luxury-hotel spas. The thermal water is the star.</p>
+
+<h2>Baden-Baden</h2>
+
+<p>German thermal town — Friedrichsbad (1877, traditional Roman-Irish bath) and Caracalla Therme. €30–50 day passes. Combines with Brenners Park-Hotel Spa for luxury layer.</p>
+
+<h2>Reykjavik</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> Sky Lagoon and Blue Lagoon (45 min outside city). Volcanic landscape spa experience unique. €70–150.</p>
+
+<h2>Strategy</h2>
+
+<p>Hotel-spa day passes often half-price weekdays. Book treatments separately from access — many spas charge for treatments and pool access independently. <a href="/en/articles/best-european-cities-for-thermal-wellness">Thermal wellness</a> companion focuses on public-bath culture.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-design-stores",
+    title: "Best European Cities for Design Stores & Showrooms",
+    excerpt: "Milan during Salone is the world capital; Copenhagen and Stockholm are year-round Nordic-design hubs; Berlin and Paris each have distinct showroom scenes.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Design Stores & Furniture Shopping",
+    metaDescription: "Cities for furniture and design — Milan, Copenhagen, Stockholm, Berlin, Paris. Salone del Mobile, Nordic design, showrooms, vintage modernism.",
+    html: `
+<h2>Showroom shopping ≠ furniture buying</h2>
+
+<p>Most "design store" trips end up being education and vintage purchases, not new-furniture buying (shipping makes it impractical). The cities below are great for browsing, sourcing vintage, and timing visits to design weeks.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> the global capital. Salone del Mobile every April plus Fuorisalone events across the city. Year-round flagship showrooms — Cassina, B&B Italia, Flexform, Molteni&C, Boffi. <a href="/en/italy/milan/brera">Brera</a> and <a href="/en/italy/milan/porta-romana">Porta Romana</a> dense with showrooms.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Nordic Modern home base. Hay House (multiple stores), Illums Bolighus, &tradition showroom, Carl Hansen & Søn. Design Museum (Designmuseum Danmark) for context. <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> and <a href="/en/denmark/copenhagen/frederiksberg">Frederiksberg</a> vintage.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Svenskt Tenn (Josef Frank legacy), Designtorget. Stockholm Furniture Fair (early February) the Nordic equivalent of Salone. Vintage Bruno Mathsson, Carl Malmsten surfaces here.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> contemporary and vintage scene — Andreas Murkudis, Original in Berlin, mid-century specialists in Kreuzberg. Less commercial than Milan but stronger vintage values.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Maison&Objet trade fair every January and September. Saint-Germain-des-Prés vintage galleries (20th-century French moderne — Royère, Adnet, Perriand). Galerie kreo, Galerie Jousse Entreprise.</p>
+
+<h2>Strategy</h2>
+
+<p>Design weeks (Milan April, Stockholm February, Maison&Objet Paris January/September) raise hotel prices 2–3x but multiply showroom access. Vintage shopping cheaper Monday–Wednesday. Shipping logistics: separate forwarder rather than store-shipping for international delivery.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-natural-history-museums",
+    title: "Best European Cities for Natural History Museums",
+    excerpt: "London's NHM is the global benchmark; Vienna, Berlin, and Paris each host serious specimen collections. The dinosaur skeletons matter; the early-1900s display halls matter more.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Natural History Museums",
+    metaDescription: "Top European natural history museums — London, Vienna, Berlin, Paris. Specimen collections, dinosaur halls, and Victorian-era display architecture.",
+    html: `
+<h2>What makes a great natural history museum</h2>
+
+<p>Three things: deep specimen collection (millions of items), iconic dinosaur or large-mammal skeletons, and a 19th-century display hall preserved as architecture. London, Vienna, Berlin, Paris all deliver.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Natural History Museum on Cromwell Road — Alfred Waterhouse's Romanesque-Gothic 1881 building plus 80 million specimens. Hope (blue whale skeleton) replaced Dippy (the diplodocus) in main hall. Free entry. <a href="/en/uk/london/south-kensington-chelsea">South Kensington</a> base.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Naturhistorisches Museum on Maria-Theresien-Platz — Habsburg imperial collection, 30 million specimens. Venus of Willendorf the icon. Minerals collection world-class. Building paired with the Kunsthistorisches Museum across the square.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Museum für Naturkunde — Brachiosaurus (largest mounted dinosaur in the world), fossil archaeopteryx. Less visitor-friendly than London but specimen depth comparable. <a href="/en/germany/berlin/mitte">Mitte</a> base.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Muséum National d'Histoire Naturelle in Jardin des Plantes — Grande Galerie de l'Évolution, Galeries d'Anatomie Comparée et de Paléontologie. The Galerie d'Anatomie Comparée is the most architecturally striking display hall in Europe — 19th-century glass roof over articulated whale skeletons.</p>
+
+<h2>Frankfurt</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> Senckenberg Naturmuseum — surprisingly deep dinosaur collection (T-Rex, triceratops). Less famous internationally but worth a 2-hour visit during Frankfurt stays.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Museo Nacional de Ciencias Naturales — strong on mammals and South American specimens given Spanish colonial collecting history.</p>
+
+<h2>Strategy</h2>
+
+<p>2–3 hours minimum per museum. Many free entry (London) or under €10. Combine with same-city major art museum (London + Tate, Vienna + Kunsthistorisches, Paris + Louvre) for half-day rotation.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

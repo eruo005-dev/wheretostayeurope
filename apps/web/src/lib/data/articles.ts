@@ -11086,6 +11086,326 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 36 — long itineraries + transit + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-10-day-eastern-europe-itinerary",
+    title: "10-Day Eastern Europe Itinerary (Honest 2026)",
+    excerpt: "How to do Eastern Europe in 10 days — Prague, Vienna, Krakow, Budapest combinations.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 11,
+    metaTitle: "10-Day Eastern Europe Itinerary — Honest 2026",
+    metaDescription: "How to do Eastern Europe in 10 days — Prague, Vienna, Krakow, Budapest combinations.",
+    html: `
+<p>Eastern Europe in 10 days needs careful planning. Here's the honest plan.</p>
+
+<h2>Best 10-day Eastern Europe (4 cities)</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/czech-republic/prague">Prague</a> (3 nights — Stare Mesto, Mala Strana, Vinohrady)</li>
+  <li>Day 4-5: Train to <a href="/en/austria/vienna">Vienna</a> (2 nights — Innere Stadt + Schönbrunn)</li>
+  <li>Day 6-7: Train to <a href="/en/hungary/budapest">Budapest</a> (2 nights — Pest + thermal baths)</li>
+  <li>Day 8-10: Train to <a href="/en/poland/krakow">Kraków</a> (3 nights — Stare Miasto + Auschwitz day-trip)</li>
+</ul>
+
+<h2>Alternative — Capital Cities Plus</h2>
+
+<ul>
+  <li>Day 1-3: Vienna</li>
+  <li>Day 4-5: Bratislava day-trip from Vienna</li>
+  <li>Day 6-8: Budapest</li>
+  <li>Day 9-10: <a href="/en/romania/brasov">Brașov</a> via flight</li>
+</ul>
+
+<h2>Alternative — Balkans Focus</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/croatia/zagreb">Zagreb</a></li>
+  <li>Day 4-5: <a href="/en/slovenia/ljubljana">Ljubljana</a></li>
+  <li>Day 6-7: <a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a></li>
+  <li>Day 8-10: <a href="/en/croatia/dubrovnik">Dubrovnik</a> + <a href="/en/montenegro/kotor">Kotor</a></li>
+</ul>
+
+<h2>What to skip on 10 days</h2>
+
+<ul>
+  <li>5+ cities in 10 days. Half is travel.</li>
+  <li>Major Russian/Ukrainian destinations (politics).</li>
+  <li>Trying to add Greece on Eastern European trip.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€100-€180/day comfortable. Eastern Europe is among Europe's best values.</p>
+
+<h2>Travel logistics</h2>
+
+<ul>
+  <li>Prague-Vienna: 4h train.</li>
+  <li>Vienna-Budapest: 2h 30min train.</li>
+  <li>Budapest-Kraków: 8h train (or fly 1h).</li>
+  <li>Vienna-Kraków: 6h via Budapest or fly.</li>
+</ul>
+
+<p>For longer Eastern European trips see <a href="/en/articles/where-to-stay-in-eastern-europe-by-country">Eastern Europe by country</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-stopover-from-us-west-coast",
+    title: "Best European Stopovers From US West Coast",
+    excerpt: "West Coast to Europe is a long flight. Honest picks of where to break it.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 8,
+    metaTitle: "Best European Stopovers From US West Coast — Honest 2026",
+    metaDescription: "West Coast to Europe is a long flight. Honest picks of where to break it.",
+    html: `
+<p>LAX/SFO/SEA to Europe is 10-12 hours direct. Stopover routes can break it. Here's the honest sort.</p>
+
+<h2>Best US West Coast → Europe stopovers</h2>
+
+<ul>
+  <li><strong>Reykjavík (Icelandair):</strong> 7h LAX/SFO to KEF, then onward to Europe. Free up to 7-day stopover.</li>
+  <li><strong>Toronto / Montreal (via Air Canada):</strong> 4-5h, then onward to Europe.</li>
+  <li><strong>NYC / Boston (multiple US carriers):</strong> Cross-country first, then 7-8h to Europe.</li>
+  <li><strong>Tokyo (via JAL/ANA):</strong> 11h LAX-NRT, then onward — expensive but breaks both legs.</li>
+</ul>
+
+<h2>European stopovers to combine</h2>
+
+<ul>
+  <li><strong>Reykjavík:</strong> Most popular for West Coast travelers via Icelandair.</li>
+  <li><strong>London Heathrow:</strong> Major hub. Easy 1-2 day stopover before continuing.</li>
+  <li><strong>Frankfurt / Munich:</strong> Lufthansa hub. Munich more interesting than Frankfurt.</li>
+  <li><strong>Amsterdam:</strong> KLM hub. Easy stopover.</li>
+</ul>
+
+<h2>Direct flight reality</h2>
+
+<p>From LAX, direct flights exist to London, Paris, Frankfurt, Munich, Amsterdam, Rome, Madrid. From SFO + SEA, similar coverage. Direct beats stopover for most trips, but Reykjavík via Icelandair is the rare case where stopover saves money + adds an Iceland trip.</p>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book Icelandair stopover:</strong> When booking flight, select multi-day stopover at no extra cost.</li>
+  <li><strong>Premium economy:</strong> Worth considering for 10+ hour flights.</li>
+  <li><strong>Compression socks + sleep aids:</strong> Standard for long-hauls.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-craft-markets-antiquing",
+    title: "Best European Cities for Craft Markets and Antiquing",
+    excerpt: "Where European flea markets, antique shops, and craft markets actually deliver.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Antiques and Craft Markets — Honest 2026",
+    metaDescription: "Where European flea markets, antique shops, and craft markets actually deliver.",
+    html: `
+<p>European antique and craft markets vary by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination markets</h2>
+
+<ul>
+  <li><strong>Paris Saint-Ouen (Marché aux Puces):</strong> Europe's largest flea market.</li>
+  <li><strong>Brussels Sablon Sunday market:</strong> Sablon antique strip is dense.</li>
+  <li><strong>Vienna Naschmarkt Saturday flea:</strong> Adjacent to the food market.</li>
+  <li><strong>London Portobello Road (Saturday):</strong> Notting Hill antiques + market.</li>
+  <li><strong>London Brick Lane Sunday:</strong> Vintage and street food.</li>
+</ul>
+
+<h2>Tier 2 — strong craft / market cities</h2>
+
+<ul>
+  <li><strong>Madrid Rastro Sunday:</strong> Largest Spanish flea market, La Latina.</li>
+  <li><strong>Florence San Lorenzo + leather school:</strong> Italian leather direct.</li>
+  <li><strong>Amsterdam IJ-Hallen (twice monthly):</strong> Massive flea market.</li>
+  <li><strong>Lisbon Feira da Ladra (Tues + Sat):</strong> Hilltop flea market.</li>
+  <li><strong>Berlin Mauerpark Sunday:</strong> Vintage + crafts + karaoke.</li>
+</ul>
+
+<h2>Specialty markets</h2>
+
+<ul>
+  <li><strong>Krakow + Vilnius for amber.</strong></li>
+  <li><strong>Granada + Cordoba for Andalusian leather and ceramics.</strong></li>
+  <li><strong>Bath, England for Georgian-era antiques.</strong></li>
+  <li><strong>Dresden Striezelmarkt (December) for traditional crafts.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Sunday markets:</strong> Most in Europe are Sunday-only.</li>
+  <li><strong>Cash:</strong> Many vendors don't take cards. Withdraw before.</li>
+  <li><strong>Bargaining:</strong> Standard at most flea markets, less so at antique shops.</li>
+  <li><strong>Shipping:</strong> Many antique shops arrange international shipping.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-street-food",
+    title: "Best European Cities for Street Food (Honest 2026)",
+    excerpt: "Where European street-food culture is dense and worth a trip.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Street Food — Honest 2026",
+    metaDescription: "Where European street-food culture is dense and worth a trip.",
+    html: `
+<p>Street food in Europe varies by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination street-food cities</h2>
+
+<ul>
+  <li><strong>Istanbul:</strong> Simit, balık ekmek (fish sandwich), midye dolma, döner. Street food is the food.</li>
+  <li><strong>Naples:</strong> Pizza al taglio, sfogliatella, frittatina. Pasta-of-the-day on the street.</li>
+  <li><strong>Lisbon:</strong> Pastel de nata, bifana sandwiches, sardinhas (June festival).</li>
+  <li><strong>Madrid:</strong> Bocadillos de calamares, churros con chocolate, tortilla. La Latina pintxos.</li>
+  <li><strong>San Sebastián pintxos:</strong> Standing-bar dining is elevated street food.</li>
+</ul>
+
+<h2>Tier 2 — strong street-food scenes</h2>
+
+<ul>
+  <li><strong>London Borough Market + Brick Lane:</strong> International street food.</li>
+  <li><strong>Athens souvlaki + bougatsa shops.</strong></li>
+  <li><strong>Berlin currywurst + döner shops.</strong></li>
+  <li><strong>Amsterdam herring stalls + frites + stroopwafels.</strong></li>
+  <li><strong>Hamburg Fischbrötchen.</strong></li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Bologna piadina:</strong> Flat-bread sandwich.</li>
+  <li><strong>Naples cuoppo (fried fish-cone).</strong></li>
+  <li><strong>Krakow zapiekanka (open pizza-toast).</strong></li>
+  <li><strong>Budapest lángos (fried bread).</strong></li>
+  <li><strong>Reykjavík hot dogs.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Lunch as the main meal:</strong> Street food at noon = light dinner.</li>
+  <li><strong>Markets:</strong> Most cities' food markets have street-food zones.</li>
+  <li><strong>Walking food tours:</strong> Best for first-time access — local guides know which stalls are real.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-jazz-music",
+    title: "Best European Cities for Jazz Music (Honest 2026)",
+    excerpt: "Where European jazz scenes are real — historic + contemporary venues.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Jazz — Honest 2026",
+    metaDescription: "Where European jazz scenes are real — historic + contemporary venues.",
+    html: `
+<p>European jazz scenes are dense in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination jazz cities</h2>
+
+<ul>
+  <li><strong>Paris (Saint-Germain + Marais):</strong> Sunset, Caveau de la Huchette, Duc des Lombards. Strong scene since post-WWII.</li>
+  <li><strong>Copenhagen Jazzhus Montmartre:</strong> Scandinavia's premier jazz venue. Reopened in 2010.</li>
+  <li><strong>Stockholm:</strong> Fasching Jazz Club + jazz festivals.</li>
+  <li><strong>Berlin A-Trane + Quasimodo:</strong> Strong scene + Sister Fest.</li>
+  <li><strong>Vienna Porgy & Bess:</strong> Major venue.</li>
+</ul>
+
+<h2>Tier 2 — strong jazz scenes</h2>
+
+<ul>
+  <li><strong>Amsterdam Bimhuis:</strong> Premier Dutch jazz venue.</li>
+  <li><strong>London Ronnie Scott's:</strong> The historic venue.</li>
+  <li><strong>Munich Unterfahrt:</strong> Strong Bavarian scene.</li>
+  <li><strong>Rome Alexanderplatz Jazz Club.</strong></li>
+  <li><strong>Madrid Café Central + Bogui Jazz.</strong></li>
+</ul>
+
+<h2>Festivals</h2>
+
+<ul>
+  <li><strong>Montreux Jazz Festival (Switzerland, July):</strong> The most-famous European jazz festival.</li>
+  <li><strong>North Sea Jazz (Rotterdam, July):</strong> Massive lineup.</li>
+  <li><strong>Vienna Jazz Festival (June-July):</strong> Multi-venue.</li>
+  <li><strong>Umbria Jazz (Perugia, July):</strong> Outdoor festival.</li>
+  <li><strong>Copenhagen Jazz Festival (July):</strong> 1500+ concerts.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book ahead:</strong> Big-name shows at Ronnie Scott's, Porgy & Bess require advance reservations.</li>
+  <li><strong>Festival passes:</strong> Plan around festival weeks for headlining performances.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-couples-weekend",
+    title: "Best European Cities for a Romantic Couples Weekend",
+    excerpt: "Where European couples weekends actually deliver — honest picks by season and trip type.",
+    publishedAt: "2026-05-31",
+    reviewedAt: "2026-05-31",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Couples Weekend — Honest 2026",
+    metaDescription: "Where European couples weekends actually deliver — honest picks by season and trip type.",
+    html: `
+<p>Couples weekend trips are 3-4 night specific, different from honeymoons. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination couples weekends</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> Pastel facades + fado + day-trip palace.</li>
+  <li><strong>Bruges (off-season):</strong> Canals + chocolate + low-tourist.</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a> (off-festival):</strong> Mozart + fortress + day-trip Hallstatt.</li>
+  <li><strong>Annecy:</strong> Lake-front + canal old town.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a> Albaicín:</strong> Sunset Mirador.</li>
+</ul>
+
+<h2>Tier 2 — strong romantic weekends</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a> (off-season):</strong> Renaissance + Tuscan dinners.</li>
+  <li><strong>Paris (off-season):</strong> Long weekend if you've been before.</li>
+  <li><strong>Vienna:</strong> Imperial + classical music + Sachertorte.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a> + Douro:</strong> Wine + river.</li>
+  <li><strong>Brno or Český Krumlov:</strong> Smaller Bohemian gem.</li>
+</ul>
+
+<h2>Tier 3 — niche romantic weekends</h2>
+
+<ul>
+  <li><strong>Reykjavík + Northern Lights (Sept-March):</strong> Aurora + cabin nights.</li>
+  <li><strong><a href="/en/portugal/funchal">Funchal (Madeira)</a>:</strong> Year-round mild.</li>
+  <li><strong>Lake Como + Bellagio.</strong></li>
+  <li><strong>Amalfi Coast (off-season).</strong></li>
+</ul>
+
+<h2>What weekend cities don't work for couples</h2>
+
+<ul>
+  <li><strong>Stag-do destinations:</strong> Krakow, Budapest, Riga, Tallinn weekends are too loud.</li>
+  <li><strong>Tourist day-tripper towns:</strong> Hallstatt, Český Krumlov are crowded mid-day.</li>
+  <li><strong>Mass-tourism summer islands:</strong> Mykonos in August.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Off-season weekends are the secret. October-November in Mediterranean = warm, less crowded, half-price hotels. December for Christmas markets is romantic. Avoid school-holiday weekends.</p>
+
+<p>For honeymoon-specific picks see <a href="/en/articles/best-european-cities-for-honeymoon">honeymoon guide</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -9123,6 +9123,323 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 30 — region-specific itineraries + audience guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-7-day-portugal-itinerary",
+    title: "7-Day Portugal Itinerary: Lisbon + Porto + Sintra + Douro",
+    excerpt: "How to do Portugal in 7 days — covering Lisbon, Porto, day-trips, without rushing.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 9,
+    metaTitle: "7-Day Portugal Itinerary — Honest 2026 Picks",
+    metaDescription: "How to do Portugal in 7 days — covering Lisbon, Porto, day-trips, without rushing.",
+    html: `
+<p>7 days in Portugal works for the classic Lisbon + Porto + day-trips trip. Here's the honest plan.</p>
+
+<h2>Best 7-day Portugal</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/portugal/lisbon">Lisbon</a> (3 nights). <a href="/en/portugal/lisbon/baixa-chiado">Baixa-Chiado</a> for first-time, <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> for second-time.</li>
+  <li>Day 4: Day-trip to Sintra (Pena Palace, Quinta da Regaleira) — back to Lisbon for dinner.</li>
+  <li>Day 5: Train to <a href="/en/portugal/porto">Porto</a> (3h Alfa Pendular). Stay in <a href="/en/portugal/porto/baixa">Baixa</a> or <a href="/en/portugal/porto/cedofeita">Cedofeita</a>.</li>
+  <li>Day 6: Porto + Vila Nova de Gaia (port lodges).</li>
+  <li>Day 7: Day-trip to Douro Valley (or fly home from Porto OPO).</li>
+</ul>
+
+<h2>Alternative — South coast focus</h2>
+
+<ul>
+  <li>Day 1-3: Lisbon + Sintra</li>
+  <li>Day 4-7: Algarve (Lagos or Tavira base) — beaches, cliffs, Sagres</li>
+</ul>
+
+<h2>Alternative — Madeira escape</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/portugal/funchal">Funchal</a></li>
+  <li>Day 4-5: Northern Madeira (Pico Areeiro, Levada walks)</li>
+  <li>Day 6-7: Western Madeira (Porto Moniz)</li>
+</ul>
+
+<h2>What to skip on 7 days</h2>
+
+<ul>
+  <li><strong>Algarve + Porto + Lisbon:</strong> Half is travel.</li>
+  <li><strong>Coimbra deep-dive:</strong> Worth half-day stop only.</li>
+  <li><strong>Évora + Madeira combined:</strong> Different trips.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€120-€200/day comfortable. Portugal is among Europe's best values still. Don't expect Spain prices though — recently risen.</p>
+
+<p>For shorter trips see <a href="/en/articles/where-to-stay-in-lisbon">Lisbon guide</a>, <a href="/en/articles/where-to-stay-in-porto">Porto guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-craft-beer",
+    title: "Best European Cities for Craft Beer (Honest 2026)",
+    excerpt: "European craft beer scenes ranked. Where to drink Belgian, German, British, and modern craft.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Craft Beer — Honest 2026 Ranking",
+    metaDescription: "European craft beer scenes ranked. Where to drink Belgian, German, British, and modern craft.",
+    html: `
+<p>Beer culture varies meaningfully across Europe. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination beer cities</h2>
+
+<ul>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a> + <a href="/en/belgium/brussels">Brussels</a>:</strong> Belgian Trappist + abbey + lambic traditions. Cantillon brewery in Brussels, De Halve Maan in Bruges.</li>
+  <li><strong>Munich:</strong> Augustiner, Hofbräuhaus, Paulaner. The Bavarian beer-garden tradition.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a> + Pilsen:</strong> The pilsner heartland. Pilsner Urquell brewery tour.</li>
+  <li><strong>London:</strong> Modern UK craft scene. Bermondsey Beer Mile.</li>
+  <li><strong>Berlin:</strong> Strong craft scene + traditional kindl.</li>
+</ul>
+
+<h2>Tier 2 — strong beer cities</h2>
+
+<ul>
+  <li><strong>Cologne:</strong> Kölsch — local style, served in tiny glasses.</li>
+  <li><strong>Düsseldorf:</strong> Altbier — top-fermented amber.</li>
+  <li><strong>Bamberg, Germany:</strong> Smoked beer (rauchbier) — Schlenkerla brewery.</li>
+  <li><strong>Edinburgh, Glasgow:</strong> Strong Scottish craft + traditional ale.</li>
+  <li><strong>Antwerp, Ghent:</strong> Belgian lambic + saison + abbey.</li>
+</ul>
+
+<h2>Tier 3 — surprising</h2>
+
+<ul>
+  <li><strong>Reykjavík:</strong> Modern Icelandic craft + the famous beer ban (1989) story.</li>
+  <li><strong>Oslo, Stockholm:</strong> Expensive but world-class craft scene.</li>
+  <li><strong>Copenhagen:</strong> Mikkeller global influence.</li>
+  <li><strong>Amsterdam:</strong> Brouwerij 't IJ + dense craft scene.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick a city for one tradition. Bavarian beer + Czech pilsner is two-region; Belgian + UK craft is two-tradition. Each style is distinctive enough that 2-3 nights focused on one tradition beats sampling broadly.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-rooftop-views",
+    title: "Best European Cities for Rooftop Views and Bars",
+    excerpt: "Where European rooftop views actually deliver. Honest sort by view quality and rooftop-bar scene.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Rooftop Views — Honest 2026",
+    metaDescription: "Where European rooftop views actually deliver. Honest sort by view quality and rooftop-bar scene.",
+    html: `
+<p>European rooftop bars and views are uneven. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination rooftop scenes</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Rooftop bars are the trip. Park Bar, Topo Chiado, Memmo Alfama. Multiple miradouros free.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Hotel rooftops over the Forum. Hassler, Eitch Borromini.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Galata Tower area + Bosphorus rooftops.</li>
+  <li><strong>Athens:</strong> Acropolis-view rooftops (book the right side).</li>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Walls climbed early-morning give the rooftops below.</li>
+</ul>
+
+<h2>Tier 2 — strong rooftop options</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Hotel Casa Fuster, La Isabela.</li>
+  <li><strong>Madrid:</strong> Círculo de Bellas Artes terrace.</li>
+  <li><strong>Vienna:</strong> Bar 360 + Hotel Lamée Sky Bar.</li>
+  <li><strong>Florence:</strong> Hotel Continentale terrace + Westin Excelsior.</li>
+  <li><strong>Berlin:</strong> Hugos rooftop, Solar Berlin.</li>
+</ul>
+
+<h2>Tier 3 — niche or season-specific</h2>
+
+<ul>
+  <li><strong>Stockholm:</strong> Mosebacke summer terrace.</li>
+  <li><strong>Copenhagen:</strong> Climbing the new Skyspace + 7000 stairs.</li>
+  <li><strong>Bucharest:</strong> Increasingly strong rooftop scene.</li>
+  <li><strong>Belgrade:</strong> Riverside rooftops on splavovi.</li>
+</ul>
+
+<h2>What disappoints</h2>
+
+<ul>
+  <li><strong>Most Paris rooftops:</strong> Often hotel-only or tiny terraces.</li>
+  <li><strong>London rooftops in winter:</strong> Closed half the year.</li>
+  <li><strong>Mass-tourist "rooftop bars" without views:</strong> Verify before booking.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Rooftop bars work best at sunset. Book reservations 2-3 days ahead at popular spots. Many are hotel-restricted or have minimum spend.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-to-combine-with-london",
+    title: "Best European Cities to Combine With London (10-14 Day UK+)",
+    excerpt: "If London is the anchor and you have 10-14 days, here's the honest sort of which cities combine well.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities to Combine With London — Honest 2026",
+    metaDescription: "If London is the anchor and you have 10-14 days, here's the honest sort of which cities combine well.",
+    html: `
+<p>London + something is a common 2-week itinerary. Here's the honest sort.</p>
+
+<h2>Best London combinations</h2>
+
+<ul>
+  <li><strong>London + <a href="/en/france/paris">Paris</a>:</strong> Eurostar 2h 30min. The classic. 5+ nights each.</li>
+  <li><strong>London + <a href="/en/united-kingdom/edinburgh">Edinburgh</a>:</strong> 4h 20min train. 5 + 4 nights with Highland day-trips.</li>
+  <li><strong>London + Dublin:</strong> 1h 15min flight. 5 + 4 nights.</li>
+  <li><strong>London + <a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> 4h Eurostar to Amsterdam direct (recent). 5 + 4 nights.</li>
+  <li><strong>London + <a href="/en/germany/berlin">Berlin</a>:</strong> 1h 50min flight. Both major capitals.</li>
+</ul>
+
+<h2>Trickier London combinations</h2>
+
+<ul>
+  <li><strong>London + <a href="/en/italy/rome">Rome</a>:</strong> Fly 2h 35min. Both deep cities; need 6-7 nights each.</li>
+  <li><strong>London + <a href="/en/spain/barcelona">Barcelona</a>:</strong> Fly 2h 15min. Different vibes.</li>
+  <li><strong>London + Brussels + Bruges:</strong> Train via Eurostar; logistical small-trip.</li>
+  <li><strong>London + Iceland:</strong> 3h flight. Different climate but works for Northern Lights season.</li>
+</ul>
+
+<h2>What doesn't work in 10-14 days</h2>
+
+<ul>
+  <li><strong>London + 4 other cities:</strong> Half is travel.</li>
+  <li><strong>London + Greek islands:</strong> Logistics eat time.</li>
+  <li><strong>London + Russian capitals:</strong> Politics aside, distance.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For 10-day London-anchored trips, pick 1 partner city. For 14 days, 2 partner cities maximum. Eurostar makes Western European combinations easy; Northern Europe needs flights.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-backpackers",
+    title: "Best European Cities for Backpackers (Honest 2026)",
+    excerpt: "Where European backpacking actually delivers — by hostel quality, transit, and budget food.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Backpackers — Honest 2026",
+    metaDescription: "Where European backpacking actually delivers — by hostel quality, transit, and budget food.",
+    html: `
+<p>Backpacker Europe is real but varies meaningfully. Here's the honest sort.</p>
+
+<h2>Tier 1 — backpacker classics</h2>
+
+<ul>
+  <li><strong><a href="/en/netherlands/amsterdam">Amsterdam</a>:</strong> Founding backpacker city. Hostels everywhere. Walking + canals.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Cheap-ish, hostels strong, club scene.</li>
+  <li><strong><a href="/en/czech-republic/prague">Prague</a>:</strong> Affordable, walkable, hostels in Stare Mesto.</li>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Ruin bars + thermal baths + cheap.</li>
+  <li><strong><a href="/en/poland/krakow">Kraków</a>:</strong> Cheapest + atmospheric.</li>
+</ul>
+
+<h2>Tier 2 — strong backpacker scenes</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + <a href="/en/portugal/porto">Porto</a>:</strong> Affordable, hostels growing, strong food/scenes.</li>
+  <li><strong><a href="/en/croatia/split">Split</a> + <a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Coast + party.</li>
+  <li><strong>Sofia, Belgrade:</strong> Eastern European value.</li>
+  <li><strong><a href="/en/lithuania/vilnius">Vilnius</a> + <a href="/en/latvia/riga">Riga</a>:</strong> Baltic loop.</li>
+  <li><strong>Athens + Greek islands (off-Mykonos):</strong> Cheap with planning.</li>
+</ul>
+
+<h2>Tier 3 — workable but pricier</h2>
+
+<ul>
+  <li><strong>Barcelona, Madrid:</strong> Hostels exist; food is doable on tight budget.</li>
+  <li><strong>Naples, Rome:</strong> Hostels in Centro Storico work.</li>
+  <li><strong>Munich (off-Oktoberfest):</strong> Hostels in Glockenbach.</li>
+</ul>
+
+<h2>Skip for backpackers</h2>
+
+<ul>
+  <li>Switzerland — cost destroys the budget.</li>
+  <li>Iceland, Norway — same.</li>
+  <li>Mykonos, Santorini, Capri — luxury-only.</li>
+  <li>Most resort destinations.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Eurail Pass:</strong> Run the math. Often beats individual tickets for 4+ countries.</li>
+  <li><strong>Hostel chains:</strong> Wombat's, Generator, Meininger, A&O.</li>
+  <li><strong>Couchsurfing / Workaway:</strong> Free in exchange for help.</li>
+  <li><strong>Self-cater + dinner out:</strong> Saves €15-€25/day vs eating restaurants.</li>
+  <li><strong>Free walking tours:</strong> Standard everywhere; tip-based.</li>
+</ul>
+
+<p>For specific budget context see <a href="/en/articles/europe-on-a-budget-where-money-still-stretches">where money stretches</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-thermal-wellness",
+    title: "Best European Wellness and Spa City Trips",
+    excerpt: "Where to combine European city stays with thermal-and-wellness focus. Real picks for spa trips.",
+    publishedAt: "2026-05-25",
+    reviewedAt: "2026-05-25",
+    readingTimeMin: 8,
+    metaTitle: "Best European Wellness and Spa Cities — Honest 2026",
+    metaDescription: "Where to combine European city stays with thermal-and-wellness focus. Real picks for spa trips.",
+    html: `
+<p>Wellness travel is a substantial niche. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination wellness cities</h2>
+
+<ul>
+  <li><strong><a href="/en/hungary/budapest">Budapest</a>:</strong> Széchenyi, Gellért, Rudas thermal baths. The world's urban-bath capital.</li>
+  <li><strong>Karlovy Vary, Czechia:</strong> Centuries-old Czech spa town. Drink-the-springs + walk-the-colonnade.</li>
+  <li><strong>Baden-Baden, Germany:</strong> Caracalla Therme + Friedrichsbad. The classic German Kur-stadt.</li>
+  <li><strong>Vichy, France:</strong> Original French spa town.</li>
+  <li><strong>Bath, UK:</strong> Roman Baths + Thermae Bath Spa.</li>
+</ul>
+
+<h2>Tier 2 — strong wellness destinations</h2>
+
+<ul>
+  <li><strong><a href="/en/iceland/reykjavik">Reykjavík</a>:</strong> Geothermal pools at every neighborhood + Blue Lagoon.</li>
+  <li><strong>Helsinki:</strong> Sauna culture (Kotiharjun, Löyly).</li>
+  <li><strong>Bad Ragaz, Switzerland:</strong> Tamina Therme.</li>
+  <li><strong>Hévíz, Hungary:</strong> Thermal lake — Europe's largest.</li>
+  <li><strong>Salzburg + Hallstatt area spas.</strong></li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Ourense, Spain:</strong> Outdoor thermal pools, mostly free.</li>
+  <li><strong>Bansko, Bulgaria:</strong> Mineral pools + ski.</li>
+  <li><strong>Pamukkale, Turkey:</strong> White thermal terraces (UNESCO).</li>
+  <li><strong>Ischia, Italy:</strong> Thermal-island near Capri.</li>
+</ul>
+
+<h2>What's overpriced</h2>
+
+<ul>
+  <li><strong>Most Swiss "wellness retreats":</strong> €600+/day for what budget Hungarian baths deliver at €25.</li>
+  <li><strong>Major hotel-chain spa packages:</strong> Often generic and overpriced vs municipal baths.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick the spa tradition. German Kur, Hungarian thermal, Czech drinking-cure, Finnish sauna are all distinct. Multi-day stays beat day-trips — bath in morning, walk and eat afternoon, bath again before dinner.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -17610,6 +17610,275 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-mid-century-modern-shopping",
+    title: "Best European Cities for Mid-Century Modern Shopping",
+    excerpt: "Copenhagen and Stockholm anchor Scandinavian Modern; Paris's Drouot and Le Marais hold the French moderne archives; Milan and Berlin work the Italian and German postwar.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Mid-Century Modern Furniture",
+    metaDescription: "Cities for mid-century modern shopping — Copenhagen, Stockholm, Paris, Milan, Berlin. Wegner, Jacobsen, Royère, Perriand, Eames archives.",
+    html: `
+<h2>Mid-century modern by region</h2>
+
+<p>Scandinavian Modern (Wegner, Jacobsen, Aalto), French moderne (Royère, Adnet, Perriand, Mouille), Italian (Ponti, Albini, Sottsass, Magistretti), German Bauhaus and postwar (Eiermann, Hoffmann), American (Eames, Saarinen). The regional tradition determines which city shops best.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Klassik (vintage Danish design — Wegner, Mogensen, Wanscher), Dansk Møbelkunst, vintage shops in <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a>. Vintage Wegner Wishbone Chair €600–1,200; PP Møbler oak versions €1,500+. Strong on hand-finished teak.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Modernity Stockholm, Jacksons. Bruno Mathsson, Carl Malmsten, Josef Frank vintage. Stockholm Furniture Fair (February) brings dealers from Europe.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Drouot auction house (mid-century moderne in regular auction). Galerie kreo, Galerie Jousse Entreprise, Galerie Vauclair. Saint-Germain-des-Prés gallery scene. Royère banana-shaped sofas, Perriand cabinets, Mouille lamps. Investment-grade pricing.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Nilufar Gallery (Nina Yashar — international modernist gallery hub), Galleria Rossana Orlandi, Cose Belle. Milan Design Week (April) brings dealers internationally. Italian postwar (Ponti, Borsani) priced premium.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Original in Berlin, Andreas Murkudis. Strong on East-German GDR-era industrial designs (often overlooked, prices climbing). 1960s Erich Dieckmann, Bauhaus continuators.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Pamono, Vinterior (online), Andrew Martin antiques. UK strength: imported European modernist + British heritage (Robin Day, Ercol).</p>
+
+<h2>Strategy</h2>
+
+<p>Authentic provenance matters — fakes common at low end. Auction houses (Drouot, Bukowskis Stockholm) safer than sketchy markets. Shipping crating €200–500 for furniture; consolidate purchases. <a href="/en/articles/best-european-cities-for-design-stores">Design stores</a> for new furniture.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-truffle-hunting",
+    title: "Best European Cities for Truffle Hunting Experiences",
+    excerpt: "Alba (Piedmont) anchors white-truffle season October–December; Provence's Carpentras hosts black-truffle markets; Croatia's Istria and Spain's Soria have growing scenes.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Truffle Hunting & Tasting",
+    metaDescription: "Where to hunt and taste truffles — Alba (white), Périgord and Provence (black), Istria, Soria. Seasons, hunting tours, prices.",
+    html: `
+<h2>White vs black</h2>
+
+<p>White Alba truffle (Tuber magnatum) October–December, the most expensive food on earth (€2,000–6,000/kg wholesale). Black Périgord truffle (Tuber melanosporum) November–March, €600–1,500/kg. Both require hunting with trained dogs. Below are the cities for genuine truffle experiences.</p>
+
+<h2>Alba (Piedmont)</h2>
+
+<p>Alba is the white-truffle capital. International White Truffle Fair October–December weekends. Truffle hunts with dogs (€100–250 per person, 2–3 hours, includes tasting). Day-trip from Turin (1h), Milan (2h), or stay in Alba's small old town. Restaurants serve at staggering markup but proper portions.</p>
+
+<h2>Périgord (Sarlat-la-Canéda)</h2>
+
+<p>French black-truffle country. Sarlat hosts winter truffle markets (Saturday mornings December–February). Truffle hunts on local farms (€80–150). Combined with Dordogne castles and prehistoric caves (Lascaux II). Day-trip or weekend from Bordeaux.</p>
+
+<h2>Carpentras (Provence)</h2>
+
+<p>Provençal black-truffle market. Friday mornings November–March. Hunts on Mont Ventoux foothills. Combined with Avignon and Aix-en-Provence trips.</p>
+
+<h2>Istria (Croatia)</h2>
+
+<p>Both white and black truffles. Buzet, Motovun villages truffle-hunting central. €60–100 hunts (cheaper than Italy). Less famous = quieter experience. Day-trip from Zagreb or Pula.</p>
+
+<h2>Soria (Spain)</h2>
+
+<p>Spanish black truffle (Tuber melanosporum). Less famous internationally but growing. Soria, Teruel hunting tours. Cheaper than Italy and France.</p>
+
+<h2>Modena</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a>-area truffle scene grows year-round in Apennines. Tuber aestivum (summer black truffle) cheaper, mild flavor. Combined with Bolognese food trip.</p>
+
+<h2>Strategy</h2>
+
+<p>Book hunts 2–4 weeks ahead in season. Wear waterproof boots and warm layers. Buy truffles only from verified suppliers — fakes (Tuber indicum from China sold as melanosporum) common. Restaurant truffle dishes overpriced — bargain hunting at festivals best.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-paella",
+    title: "Best European Cities for Paella",
+    excerpt: "Valencia invented paella; Albufera (south of Valencia) is the classical preparation source; Madrid and Barcelona have great paella but Valencia is the benchmark.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Paella — Valencia and Beyond",
+    metaDescription: "Where to eat real paella — Valencia, Albufera, Madrid, Barcelona. Authentic vs tourist paella, seafood vs Valenciana, prices.",
+    html: `
+<h2>What "real paella" means</h2>
+
+<p>Paella Valenciana (the original): rabbit, chicken, snails, garrofó beans, judía verde beans, saffron, paprika, rice. Paella de mariscos (seafood paella) is a Catalan adaptation, also valid but distinct. Tourist-zone "mixed paella" with chorizo is genuinely insulting to Valencians — chorizo never appears in real paella.</p>
+
+<h2>Valencia</h2>
+
+<p><a href="/en/spain/valencia">Valencia</a> the birthplace. La Pepica (1898, since Hemingway and Sorolla days, beachfront), Casa Roberto, Restaurante Bon Aire (Albufera village El Palmar). Lunch only — paella is a midday dish (1pm–3pm). €25–45 per person typical for genuine paella with rabbit and chicken.</p>
+
+<h2>Albufera (south of Valencia)</h2>
+
+<p>El Palmar village in Albufera lake (40-min drive south of Valencia center) — paella made over orange-wood fire as historically done. Bon Aire, El Sequer del Cuiner. Day-trip with rented car or organized tour. Lake setting peaceful.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> not paella heartland but several excellent restaurants. La Barraca (since 1935, Valencian-Madrid). Tabernas in Madrid often add chorizo, which is wrong but popular. <a href="/en/spain/madrid/centro-madrid">Centro Madrid</a> base.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> paella de mariscos (seafood) and arròs negre (black rice with squid ink) the local versions. 7 Portes, Can Solé (Barceloneta). <a href="/en/spain/barcelona/barceloneta">Barceloneta</a> beachfront classic. €30–50 per person.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> good paella in select tabernas but Andalusian rice dishes (arroz a banda, arroz caldoso) sometimes better choices. Eslava, La Brunilda.</p>
+
+<h2>Strategy</h2>
+
+<p>Eat paella for lunch (1pm–3pm) — afternoon paella suspect. Single-portion paella in restaurants is awkward (paella is shared), so come 2+ people. Avoid frozen (look for "menu del día" cheap paella signs at lunch — those are usually frozen).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sparkling-wine-tasting",
+    title: "Best European Cities for Sparkling Wine Tasting",
+    excerpt: "Reims and Épernay anchor Champagne; Sant Sadurní d'Anoia (near Barcelona) hosts Cava cellars; Trento and the Prosecco hills run Italian sparkling.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Sparkling Wine Tours",
+    metaDescription: "Sparkling wine destinations — Reims (Champagne), Epernay, Barcelona (Cava), Trento, Prosecco hills, Stuttgart. Cellar tours and tastings.",
+    html: `
+<h2>Sparkling wine geography</h2>
+
+<p>Champagne (France, traditional method, Reims/Épernay), Cava (Spain, traditional method, Penedès), Prosecco (Italy, tank method, Veneto hills), Franciacorta (Italy, traditional method, Lombardy), Sekt (Germany, varies). Each has a base city for cellar tours.</p>
+
+<h2>Reims and Épernay (Champagne)</h2>
+
+<p>Reims the larger city; Épernay (45km southwest) more cellar-density. Maisons: Veuve Clicquot, Pol Roger, Mumm, Taittinger, Krug, Ruinart, Pommery. Tours €25–60 with 1–3 glass tastings; private appointments at top houses €100+. Day-trip from Paris (45 min by TGV to Reims).</p>
+
+<h2>Sant Sadurní d'Anoia (Cava)</h2>
+
+<p>30-min drive from Barcelona. Codorníu (1551), Freixenet, Juvé y Camps. Cava made by traditional method (same as Champagne) but at quarter the price. Tours €15–35. Day-trip from <a href="/en/spain/barcelona">Barcelona</a> standard.</p>
+
+<h2>Prosecco hills (Conegliano-Valdobbiadene)</h2>
+
+<p>UNESCO site, 50km north of Venice. Prosecco Superiore DOCG region. Cantina Garbara, Bisol, Carpenè Malvolti. Hills more scenic than ground-level Champagne; cycling tours possible. Day-trip from Venice (1h drive) or stay in Asolo.</p>
+
+<h2>Trento (Trentodoc)</h2>
+
+<p><a href="/en/italy/trento">Trento</a> alpine sparkling — Ferrari, Cesarini Sforza. Mountain water and high-altitude grapes. Combined with Dolomites trip.</p>
+
+<h2>Franciacorta (Brescia/Lombardy)</h2>
+
+<p>Italy's "Champagne" answer — traditional method, top-tier producers (Bellavista, Ca' del Bosco, Berlucchi). Day-trip from Milan (1h) or weekend from Lake Iseo.</p>
+
+<h2>Stuttgart and Mosel (Sekt)</h2>
+
+<p>German Sekt — Henkell, Söhnlein. Mosel Riesling Sekt distinctive. Less internationally famous but quality climbing.</p>
+
+<h2>Strategy</h2>
+
+<p>Cellar tours in Champagne 60–90 min; book ahead 2–4 weeks summer. Cava cheaper and more accessible day-trip. Designated driver / public transport — tasting flights 4–6 sips add up. <a href="/en/articles/best-european-cities-for-natural-wine">Natural wine</a> for the unfortified counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-outdoor-ice-skating",
+    title: "Best European Cities for Outdoor Ice Skating",
+    excerpt: "Vienna's City Hall rink and Helsinki's Allas are the iconic; Bruges and Stockholm freeze open canals; Hyde Park and Somerset House anchor London's commercial scene.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Outdoor Ice Skating",
+    metaDescription: "Outdoor ice rinks — Vienna, Helsinki, Stockholm, London, Bruges, Munich, Berlin. Christmas rinks vs frozen canals.",
+    html: `
+<h2>Two formats</h2>
+
+<p>Commercial winter rinks (London, Vienna — typically November–February, ticketed entry) and natural-frozen surfaces (Stockholm, Helsinki, Amsterdam — depends on cold-snap weather). Both worthwhile; the natural ones depend on luck.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wiener Eistraum at Rathausplatz — Vienna City Hall surrounded by skating paths and ice rink, late January–early March. €9 entry, skate rental €8. Plus Engelmann (covered rink, year-round). Christmas markets 5-min walk.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Allas Sea Pool ice rink (winter only — pool freezes), Brahenpuisto (free public outdoor rink Kallio), Töölönkatu. Cold-Baltic guarantees season December–March.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Kungsträdgården free public rink in central park. Skansen Christmas market includes rink. Cold-snap years allow skating on Mälaren or Brunnsviken lakes — Swedish national pastime in old days.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Somerset House (the iconic photo-rink), Hyde Park Winter Wonderland, Tower of London, Natural History Museum (extends summer 2024 onward). November–January, £15–25. Reservations 2–4 weeks ahead December weekends.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Karlsplatz Stachus ice rink (Christmas market season). Eisbach surfing nearby in summer; ice in winter shows the seasonal flip.</p>
+
+<h2>Bruges and Amsterdam (canal-skating)</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> rare cold-winter canal-skating possible (last major frost 2012). Amsterdam Elfstedentocht (Frisian 11-cities ice race) historically iconic but rare modern ice. Don't plan trips around natural ice — climate change reduces years.</p>
+
+<h2>Strategy</h2>
+
+<p>Christmas rinks book up 4–6 weeks ahead December. Skate rental usually included with ticket. Wear gloves and layers; falls happen. <a href="/en/articles/best-european-cities-for-snowy-winter-trips">Snowy winter</a> companion guide.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-mountain-views",
+    title: "Best European Cities for Cities With Mountain Views",
+    excerpt: "Innsbruck is wedged in the Alps; Zermatt sits at the foot of the Matterhorn; Bergen has Fløyen and the seven mountains; Sarajevo's Olympic peaks.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Mountain Views from the Center",
+    metaDescription: "Cities with mountain views — Innsbruck, Zermatt, Bergen, Sarajevo, Edinburgh, Lugano, Granada, Salzburg.",
+    html: `
+<h2>Cities-in-mountains vs cities-with-views</h2>
+
+<p>Two categories: small cities surrounded by mountains where Alps loom over rooftops (Innsbruck, Zermatt, Chamonix), and larger cities with mountain backdrops (Sarajevo, Granada, Edinburgh). Below: best in each.</p>
+
+<h2>Innsbruck</h2>
+
+<p>Austrian Alps' classic mountain city. Karwendel range visible from old town; cable car (Nordkette) climbs from city center to summit in 25 minutes. Olympics-twice host. Combined skiing + city culture. <a href="/en/austria/vienna">Vienna</a>-Innsbruck train 5h.</p>
+
+<h2>Zermatt</h2>
+
+<p>Swiss village (no cars in town). Matterhorn dominates every view. Gornergrat railway. Train-only access. Stay overnight to see sunset Matterhorn glow.</p>
+
+<h2>Chamonix</h2>
+
+<p>French chamonixe-Mont Blanc valley. Mont Blanc (4,810m) Western Europe's highest peak visible from town. Aiguille du Midi cable car. Year-round mountaineering, climbing, skiing.</p>
+
+<h2>Bergen</h2>
+
+<p>Norwegian Bergen sits surrounded by 7 mountains. Fløibanen funicular up Mount Fløyen. Bryggen UNESCO waterfront. Rainy 250 days/year — accept the wet.</p>
+
+<h2>Sarajevo</h2>
+
+<p>Bosnian capital wedged between mountains. Bjelašnica, Igman, Trebević 1984 Olympic peaks. Cable car to Trebević (since 2018). Cheaper than Western European mountain cities.</p>
+
+<h2>Granada</h2>
+
+<p><a href="/en/spain/granada">Granada</a> Sierra Nevada (3,479m) visible from Albaicín terraces. Skiing 30 min from old town. The visual contrast — Andalusian moorish architecture against snowcapped peaks — distinctive.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Arthur's Seat (250m) sits within the city center. Calton Hill panorama. Not Alps-scale but Scottish-dramatic.</p>
+
+<h2>Lugano</h2>
+
+<p>Swiss-Italian Ticino. Monte Brè and Monte San Salvatore funiculars from city. Lake Lugano below. Italian-Swiss combination.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> small Austrian city flanked by Untersberg (1,973m) and Salzburg Alps. Hohensalzburg fortress overlooks. Mozart's town with serious mountains.</p>
+
+<h2>Strategy</h2>
+
+<p>Stay overnight — day-trippers miss morning and evening light. Cable cars often close December–March (snow). Book mountain-view hotel rooms (often 30–50% upcharge but worth it).</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

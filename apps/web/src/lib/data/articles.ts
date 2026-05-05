@@ -13991,6 +13991,324 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 45 — niche outdoor + culture + practical
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-botanical-gardens",
+    title: "Best European Cities for Botanical Gardens and Plant Lovers",
+    excerpt: "Where European botanical traditions deliver — Kew, Madrid, Berlin, Lisbon.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Botanical Gardens — Honest 2026",
+    metaDescription: "Where European botanical traditions deliver — Kew, Madrid, Berlin, Lisbon.",
+    html: `
+<p>European botanical gardens are anchored by historic university and royal collections.</p>
+
+<h2>Tier 1 — destination botanical cities</h2>
+
+<ul>
+  <li><strong>London (Kew Gardens):</strong> 50,000 species. UNESCO World Heritage.</li>
+  <li><strong>Madrid (Real Jardín Botánico):</strong> Adjacent to Prado.</li>
+  <li><strong>Berlin (Botanischer Garten):</strong> 22,000 species + tropical greenhouse.</li>
+  <li><strong>Edinburgh (Royal Botanic Garden):</strong> Free entry; rock garden famous.</li>
+  <li><strong>Vienna (Schönbrunn Botanical Gardens):</strong> Imperial-era greenhouse.</li>
+</ul>
+
+<h2>Tier 2 — strong botanical gardens</h2>
+
+<ul>
+  <li><strong>Lisbon (Jardim Botânico de Lisboa):</strong> University collection.</li>
+  <li><strong>Geneva Botanical Gardens.</strong></li>
+  <li><strong>Brussels Meise Botanic Garden.</strong></li>
+  <li><strong>Padua Orto Botanico:</strong> Oldest academic botanical garden (1545, UNESCO).</li>
+  <li><strong>Coimbra Botanic Garden:</strong> University-attached.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Madeira Botanical Gardens.</strong></li>
+  <li><strong>Tenerife Botanical Garden:</strong> Tropical species.</li>
+  <li><strong>Trondheim, Norway:</strong> Northern collection.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Spring (April-June) is peak bloom; autumn (September-October) for foliage. Many gardens free or under €10.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-live-music",
+    title: "Best European Cities for Live Music Concerts",
+    excerpt: "Where European live-music scenes are real — concerts, festivals, dedicated venues.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Live Music — Honest 2026",
+    metaDescription: "Where European live-music scenes are real — concerts, festivals, dedicated venues.",
+    html: `
+<p>European live-music varies by genre + city. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination live-music cities</h2>
+
+<ul>
+  <li><strong>London:</strong> Royal Albert Hall, O2 Arena, Brixton Academy, dozens of small venues.</li>
+  <li><strong>Berlin:</strong> Berghain (techno), Tempodrom, Astra Kulturhaus.</li>
+  <li><strong>Hamburg Reeperbahn:</strong> Music venues + Beatles history.</li>
+  <li><strong>Manchester:</strong> Indie music heritage.</li>
+  <li><strong>Liverpool:</strong> Beatles + scene.</li>
+</ul>
+
+<h2>Tier 2 — strong live-music</h2>
+
+<ul>
+  <li><strong>Paris (Olympia, Bataclan):</strong> Strong scene.</li>
+  <li><strong>Amsterdam (Paradiso, Melkweg):</strong> Iconic clubs.</li>
+  <li><strong>Stockholm (Debaser):</strong> Indie scene.</li>
+  <li><strong>Madrid + Barcelona (Razzmatazz, Apolo).</strong></li>
+  <li><strong>Dublin:</strong> Pub-music tradition.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Vienna (classical-electro mix at Burgtheater).</strong></li>
+  <li><strong>Reykjavík:</strong> Strong indie scene + Iceland Airwaves festival.</li>
+  <li><strong>Tallinn (small clubs).</strong></li>
+</ul>
+
+<h2>Major music festivals</h2>
+
+<ul>
+  <li>Glastonbury (UK, late June).</li>
+  <li>Primavera Sound (Barcelona, late May).</li>
+  <li>Sziget (Budapest, August).</li>
+  <li>Roskilde (Denmark, late June).</li>
+  <li>Iceland Airwaves (Reykjavík, November).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Book concerts 3-6 months ahead. Festival tickets 6-12 months out. Smaller venues often have walk-up tickets.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-erasmus-students",
+    title: "Best European Cities for Erasmus and Study Abroad",
+    excerpt: "Where Erasmus students go — by university quality, cost, and city culture.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Erasmus Study Abroad — Honest 2026",
+    metaDescription: "Where Erasmus students go — by university quality, cost, and city culture.",
+    html: `
+<p>Erasmus exchange concentrates in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — top Erasmus destinations</h2>
+
+<ul>
+  <li><strong>Madrid:</strong> Largest Spanish Erasmus community. Cheap + lively.</li>
+  <li><strong>Barcelona:</strong> Same. Beach + tapas culture for students.</li>
+  <li><strong>Bologna:</strong> Italy's oldest university (1088). Strong Erasmus tradition.</li>
+  <li><strong>Berlin:</strong> Cheap + cool. Strong international student scene.</li>
+  <li><strong>Lisbon:</strong> Increasingly popular Erasmus destination.</li>
+</ul>
+
+<h2>Tier 2 — strong Erasmus cities</h2>
+
+<ul>
+  <li><strong>Krakow:</strong> Cheap + medieval atmosphere.</li>
+  <li><strong>Budapest:</strong> Same.</li>
+  <li><strong>Prague:</strong> Same.</li>
+  <li><strong>Coimbra:</strong> University town with strong tradition.</li>
+  <li><strong>Salamanca:</strong> Spanish university heritage.</li>
+</ul>
+
+<h2>Tier 3 — niche but excellent</h2>
+
+<ul>
+  <li><strong>Tallinn:</strong> Estonia's e-Residency country.</li>
+  <li><strong>Vilnius:</strong> Lithuanian university heritage.</li>
+  <li><strong>Sofia:</strong> Bulgarian Erasmus emerging.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Apply 8-12 months ahead</strong> through home university.</li>
+  <li><strong>Budget €600-€1200/month</strong> in tier-1; €400-€800 in tier-2.</li>
+  <li><strong>Erasmus Student Network:</strong> Local chapters organize trips, parties, support.</li>
+  <li><strong>Language learning:</strong> Most courses available in English at major Erasmus universities.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-asian-tourists",
+    title: "Best European Cities for First-Time Asian Tourists",
+    excerpt: "Cities that match Asian-traveler expectations of Europe — UNESCO + organized tours + safety.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Asian Tourists — Honest 2026",
+    metaDescription: "Cities that match Asian-traveler expectations of Europe — UNESCO + organized tours + safety.",
+    html: `
+<p>Asian travelers have specific expectations of European trips. Here's the honest sort.</p>
+
+<h2>Tier 1 — popular with Asian tourists</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Iconic. Often #1 European trip for Asian travelers.</li>
+  <li><strong>London:</strong> Iconic + English friendly.</li>
+  <li><strong>Rome:</strong> Vatican + ancient Rome.</li>
+  <li><strong>Switzerland alpine loop (Lucerne + Zermatt + Interlaken):</strong> Mountain scenery + train networks.</li>
+  <li><strong>Hallstatt:</strong> Iconic alpine village + extremely popular with Asian travelers.</li>
+</ul>
+
+<h2>Tier 2 — strong</h2>
+
+<ul>
+  <li><strong>Amsterdam:</strong> Canals + tulips (in season).</li>
+  <li><strong>Barcelona:</strong> Gaudí + beaches.</li>
+  <li><strong>Vienna:</strong> Imperial + classical music.</li>
+  <li><strong>Prague:</strong> Medieval atmosphere.</li>
+  <li><strong>Santorini:</strong> Iconic photography destination.</li>
+</ul>
+
+<h2>Tier 3 — emerging</h2>
+
+<ul>
+  <li><strong>Reykjavík + Iceland:</strong> Northern Lights season.</li>
+  <li><strong>Cinque Terre:</strong> Photogenic.</li>
+  <li><strong>Edinburgh:</strong> Castle + Highland day-trips.</li>
+</ul>
+
+<h2>Practical considerations</h2>
+
+<ul>
+  <li><strong>Tour packages:</strong> Many Asian travelers prefer organized tours; large group tours common.</li>
+  <li><strong>Photography focus:</strong> Bring tripod-friendly attractions to top of itinerary.</li>
+  <li><strong>Schengen visa:</strong> Most Asian passports require Schengen visa (10-year US-style not common).</li>
+  <li><strong>Asian food access:</strong> All major cities have Korean, Japanese, Chinese options.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick cities with iconic photography first; depth-cities (Berlin, Madrid) for repeat visits. Smaller European cities often more exciting on second/third trip than first.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-sunday-shopping",
+    title: "European Cities Where Sunday Shopping Works (and Doesn't)",
+    excerpt: "Many European cities close on Sundays. Honest sort by what's open.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 7,
+    metaTitle: "European Sunday Shopping — Honest 2026",
+    metaDescription: "Many European cities close on Sundays. Honest sort by what's open.",
+    html: `
+<p>European Sunday shopping varies dramatically. Here's the honest sort.</p>
+
+<h2>Cities where Sunday shopping is normal</h2>
+
+<ul>
+  <li><strong>London:</strong> Most stores open 12-6pm Sunday. Some 11-5.</li>
+  <li><strong>Most UK cities:</strong> Same pattern.</li>
+  <li><strong>Iceland:</strong> Reykjavík open Sundays.</li>
+  <li><strong>Most Scandinavian cities:</strong> Open Sundays.</li>
+</ul>
+
+<h2>Cities where Sunday is restricted</h2>
+
+<ul>
+  <li><strong>Most German cities:</strong> Almost everything closed Sunday. Just bakeries + small Spätis.</li>
+  <li><strong>Vienna, most Austrian:</strong> Closed Sunday.</li>
+  <li><strong>Most Swiss cities:</strong> Closed Sunday.</li>
+  <li><strong>Most Italian cities:</strong> Sunday-only-morning shops; afternoon closed.</li>
+  <li><strong>Most Spanish cities:</strong> Sunday afternoon closed.</li>
+</ul>
+
+<h2>What's always open Sundays</h2>
+
+<ul>
+  <li><strong>Restaurants and cafés (most).</strong></li>
+  <li><strong>Tourist sights and museums.</strong></li>
+  <li><strong>Pharmacies (rotating).</strong></li>
+  <li><strong>Train station shops + airport shops.</strong></li>
+  <li><strong>Bakeries (especially Sunday morning).</strong></li>
+</ul>
+
+<h2>Sunday markets</h2>
+
+<ul>
+  <li><strong>Madrid Rastro Sunday flea market.</strong></li>
+  <li><strong>Paris Saint-Ouen Sunday flea market.</strong></li>
+  <li><strong>London Brick Lane Sunday market.</strong></li>
+  <li><strong>Berlin Mauerpark Sunday flea + karaoke.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan Saturday-shopping or accept Sunday-museums-only. Many travelers do major shopping Saturday afternoon, sights Sunday, museum-closed Monday.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-folk-culture",
+    title: "Best European Cities for Folk Culture and Traditional Dance",
+    excerpt: "Where European folk traditions are alive — Iberia, Balkans, Eastern Europe.",
+    publishedAt: "2026-06-09",
+    reviewedAt: "2026-06-09",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Folk Culture — Honest 2026",
+    metaDescription: "Where European folk traditions are alive — Iberia, Balkans, Eastern Europe.",
+    html: `
+<p>Folk culture varies dramatically across Europe. Here's the honest sort.</p>
+
+<h2>Iberian folk traditions</h2>
+
+<ul>
+  <li><strong>Seville flamenco:</strong> The original. Tablao Flamenco shows nightly.</li>
+  <li><strong>Granada flamenco:</strong> Same with Albaicín cave-show tradition.</li>
+  <li><strong>Lisbon fado:</strong> Mournful Portuguese music. Alfama + Mouraria fado houses.</li>
+  <li><strong>Coimbra fado:</strong> University fado tradition (different from Lisbon).</li>
+  <li><strong>Galicia (Santiago de Compostela):</strong> Celtic + medieval traditions.</li>
+</ul>
+
+<h2>Balkan folk traditions</h2>
+
+<ul>
+  <li><strong>Sarajevo:</strong> Sevdah music tradition.</li>
+  <li><strong>Bucharest, Brașov:</strong> Romanian folk dancing.</li>
+  <li><strong>Sofia:</strong> Bulgarian polyphony (UNESCO).</li>
+  <li><strong>Tirana:</strong> Albanian folk traditions.</li>
+  <li><strong>Belgrade:</strong> Serbian folk music.</li>
+</ul>
+
+<h2>Central + Eastern European folk</h2>
+
+<ul>
+  <li><strong>Krakow + Małopolska region:</strong> Polish folk dance + music.</li>
+  <li><strong>Budapest:</strong> Hungarian folk + Roma traditions.</li>
+  <li><strong>Vienna Heuriger:</strong> Austrian wine-tavern folk music.</li>
+</ul>
+
+<h2>Northern + alpine folk</h2>
+
+<ul>
+  <li><strong>Munich + Bavarian Alps:</strong> Schuhplattler dance.</li>
+  <li><strong>Salzburg + Tyrol:</strong> Yodeling + Alphorn traditions.</li>
+  <li><strong>Iceland:</strong> Rímur tradition (medieval poetry chanting).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Authentic folk shows require research — many tourist-targeted "folk shows" are diluted. Look for shows in working-class neighborhoods, not central tourist zones. Festival weeks often best access.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

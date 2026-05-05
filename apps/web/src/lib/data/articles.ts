@@ -15036,6 +15036,251 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-tea-culture",
+    title: "Best European Cities for Tea Culture",
+    excerpt: "London for afternoon tea, Paris for Mariage Frères, Vienna for Demel-style café culture, Lisbon for Portuguese tea history (yes, really), Hamburg for the merchant tradition.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Tea Culture",
+    metaDescription: "Cities where tea matters — London, Paris, Vienna, Lisbon, Hamburg. Afternoon tea, French tea houses, café traditions, and merchant history.",
+    html: `
+<h2>Tea is more than just British</h2>
+
+<p>Britain dominates the cliché but France, Austria, Germany, and Portugal each have distinct tea traditions worth a trip. Below are the cities where the tradition is alive in shops, salons, or rituals.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> afternoon tea ritual — Fortnum & Mason, Claridge's, The Savoy, The Ritz. £55–95 per person at top hotels; £35–45 at department stores. Postcards Tea (Hampstead) and Yumchaa for casual tea-house culture. <a href="/en/uk/london/mayfair">Mayfair</a> the historic zone.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Mariage Frères (founded 1854) is the legend — three flagship salons in <a href="/en/france/paris/le-marais">Le Marais</a> and <a href="/en/france/paris/saint-germain">Saint-Germain</a>. Hédiard, Dammann Frères, Le Palais des Thés. French tea houses focus on flavored blends — earl grey variations, fruit and floral.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Kaffeehaus culture sometimes overlooked — Demel, Café Central, Café Sacher serve serious tea selections alongside coffee. Haas & Haas (in Stephansplatz) is the dedicated tea house.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Portuguese tea trade pre-dates British (Catherine of Braganza brought tea-drinking to England in 1662). Companhia Portugueza do Chá is the cult shop. Azores produces Europe's only commercially grown tea — sold here.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> merchant-tea heritage. Meßmer Momentum and traditional Ostfriesische tea ceremonies. East Frisia (East Friesland) has Europe's highest per-capita tea consumption — Hamburg the gateway.</p>
+
+<h2>Strategy</h2>
+
+<p>Reserve afternoon tea 2–4 weeks ahead in London. Tea shops in Paris ship internationally — buy small samples in person, order full bags after returning. <a href="/en/articles/best-european-cities-for-coffee-culture">Coffee culture guide</a> the obvious counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-roman-ruins",
+    title: "Best European Cities for Roman Ruins",
+    excerpt: "Rome and Athens dominate; Trier, Nîmes, and Mérida hide in plain sight. Some of the best-preserved Roman sites are far from Italy — and tickets-free.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Visiting Roman Ruins",
+    metaDescription: "Cities with serious Roman ruins — Rome, Athens, Trier, Nîmes, Mérida, Pula. Forums, amphitheatres, aqueducts, and how to skip the queues.",
+    html: `
+<h2>Beyond the obvious</h2>
+
+<p>Rome is the Roman ruin city, but the Empire stretched across Europe. Cities at the periphery — Trier (Gallia Belgica), Mérida (Hispania), Nîmes (Gallia Narbonensis), Pula (Histria) — sometimes have better-preserved monuments than Italy itself.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> the obvious capital. Colosseum, Roman Forum, Palatine Hill, Pantheon, Baths of Caracalla. Combined ticket €18 covers Forum + Colosseum but reservations now mandatory. <a href="/en/italy/rome/centro-storico">Centro Storico</a> walking-distance.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Greek but layered with Roman — Roman Agora, Hadrian's Library, Tower of the Winds, Temple of Olympian Zeus. Combined ticket €30 covers all classical sites including Acropolis.</p>
+
+<h2>Trier</h2>
+
+<p><a href="/en/germany/trier">Trier</a> Germany's oldest Roman city. Porta Nigra (best-preserved Roman gate north of Alps), Imperial Baths, Roman Bridge, Amphitheatre. Compact, walkable, free to walk past most. UNESCO World Heritage.</p>
+
+<h2>Nîmes</h2>
+
+<p>Maison Carrée (best-preserved Roman temple), Arena (still hosts bullfights), Pont du Gard aqueduct nearby. Small French city, day-trip from Avignon or Marseille.</p>
+
+<h2>Mérida</h2>
+
+<p>Spain's Roman capital. Theatre, Amphitheatre, Bridge over Guadiana, National Museum of Roman Art. €17 combined ticket. Day-trip from Sevilla (3h train).</p>
+
+<h2>Pula</h2>
+
+<p><a href="/en/croatia/pula">Pula</a> sixth-largest Roman amphitheatre in the world — better preserved than many in Italy. Temple of Augustus, Arch of the Sergii. Croatia coastal day-trip.</p>
+
+<h2>Strategy</h2>
+
+<p>Combined-ticket days save money everywhere. Book Colosseum 2+ months ahead. Smaller cities (Trier, Mérida, Pula) often free to walk past the major monuments.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-baroque-architecture",
+    title: "Best European Cities for Baroque Architecture",
+    excerpt: "Rome and Vienna are the obvious; Salzburg, Prague, Lecce, and Naples each have a distinct Baroque vocabulary. The style varies by Catholic-Habsburg-Bourbon political map.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Baroque Architecture",
+    metaDescription: "Where Baroque flourished — Rome, Vienna, Salzburg, Prague, Lecce, Naples. Bernini, Borromini, Fischer von Erlach, Lecce stone.",
+    html: `
+<h2>Baroque is Catholic political theatre</h2>
+
+<p>The Counter-Reformation needed buildings that overwhelmed visitors emotionally. Rome and the Habsburg empire produced the most. Style varied: Roman Baroque (Bernini, Borromini), Austrian Baroque (Fischer von Erlach), Bohemian (Dientzenhofer), Neapolitan, and Lecce Baroque each distinct.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Saint Peter's Basilica, Bernini's Saint Peter's Square, Piazza Navona, Trevi Fountain, Sant'Ivo alla Sapienza, San Carlo alle Quattro Fontane. <a href="/en/italy/rome/centro-storico">Centro Storico</a> the dense Baroque grid.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Karlskirche (Fischer von Erlach), Schönbrunn Palace, Belvedere Palace. Habsburg-imperial Baroque grand and white-and-gold. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> compact Baroque masterpiece — Cathedral, Mirabell Palace and Gardens, Residenz. Old town reads as one continuous Baroque set piece because the prince-archbishops rebuilt everything in a 60-year window.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Bohemian Baroque is wilder — Saint Nicholas Church (Malá Strana), Loreta, Wallenstein Palace. Dientzenhofer father-son work key. Prague Baroque has a slightly haunted, asymmetric feeling Roman doesn't.</p>
+
+<h2>Lecce</h2>
+
+<p>Italy's Baroque capital that nobody outside Italy mentions. "Lecce stone" — soft local sandstone — let craftsmen carve absurd levels of detail. Santa Croce, Piazza del Duomo. Day-trip or overnight from Bari, Italy's heel.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Baroque excess + theatricality — Cappella Sansevero (Veiled Christ), Gesù Nuovo, San Gregorio Armeno (the Christmas-shop street). Naples Baroque feels alive, not museum-piece.</p>
+
+<h2>Strategy</h2>
+
+<p>Visit early morning for empty churches. Many Baroque churches close midday (12–4pm). <a href="/en/articles/best-european-cities-for-modernist-architecture">Modernist guide</a> is the contemporary counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-symphony-orchestras",
+    title: "Best European Cities for Symphony Orchestras",
+    excerpt: "Berlin, Vienna, Amsterdam, and London host top-five world orchestras. Booking ahead and matinee strategy unlock affordable seats at flagship halls.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for World-Class Symphony Orchestras",
+    metaDescription: "Top European orchestra cities — Berlin (Berliner Philharmoniker), Vienna (Wiener Philharmoniker), Amsterdam (Concertgebouw), London (LSO).",
+    html: `
+<h2>The Top Five</h2>
+
+<p>Most orchestra rankings cluster Berlin, Vienna, Amsterdam, Bavarian (Munich), and London at the top. Each has a flagship hall worth visiting separately from the orchestra performances. Programming announces season-ahead; book early.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Berliner Philharmoniker at Philharmonie. Hans Scharoun's hall is architecturally famous (vineyard seating, all sides equally good). Tickets €25–250; lunchtime free concerts Tuesdays. <a href="/en/germany/berlin/mitte">Mitte</a> walking distance.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wiener Philharmoniker at Musikverein (Goldener Saal — the New Year's Concert hall). Tickets sold months ahead. Konzerthaus the second venue, slightly more accessible booking. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Royal Concertgebouw Orchestra at Concertgebouw — acoustically considered the world's best hall. Free Wednesday lunchtime concerts. Tickets €30–150.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Bayerisches Staatsorchester (Nationaltheater for opera) plus Munich Philharmonic at Gasteig (now under renovation, performing at Isarphilharmonie). Less internationally famous than Berlin but consistently top-five level.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> London Symphony Orchestra (Barbican), London Philharmonic (Royal Festival Hall), Philharmonia (also Royal Festival Hall). Multiple top-tier orchestras competing creates programming variety. £15–80.</p>
+
+<h2>Strategy</h2>
+
+<p>Subscriber tickets resell on official return-tickets boards day-of-show — affordable last-minute. Standing-room tickets in Vienna are a serious cultural-pilgrim ritual. <a href="/en/articles/best-european-cities-for-classical-music-venues">Classical venues</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bespoke-tailoring",
+    title: "Best European Cities for Bespoke Tailoring",
+    excerpt: "Savile Row in London is the global standard; Naples invented soft tailoring; Milan's standards are house-style. Bespoke means three fittings and 8–12 weeks.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Bespoke Suits & Tailoring",
+    metaDescription: "Tailoring centers — London (Savile Row), Naples, Milan, Florence. Bespoke vs made-to-measure; lead times; prices £3,500–10,000+.",
+    html: `
+<h2>Bespoke vs made-to-measure</h2>
+
+<p>Bespoke means a pattern cut from scratch to your body, 3+ fittings, 8–12 weeks turnaround. Made-to-measure modifies a base pattern. Bespoke prices £3,500+ in London, €2,500+ in Naples; made-to-measure £1,500–2,500 anywhere serious.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Savile Row is the global benchmark. Henry Poole (founded 1806), Anderson & Sheppard (Prince of Wales tailor), Huntsman, Gieves & Hawkes, Norton & Sons. Structured English shoulder, drape cut, formal-wear specialty. <a href="/en/uk/london/mayfair">Mayfair</a> base. Initial fitting requires single trip; subsequent fittings can be done at firm-organized "tailor trunk shows" in major cities worldwide.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Neapolitan soft shoulder revolutionized tailoring 100 years ago. Rubinacci (Giovanni Rubinacci's house), Cesare Attolini, Kiton (more industrial-luxury), Ciardi. Lighter construction, hand-finished details, less structured. €4,000–8,000 bespoke. Naples shoulder ("spalla camicia") iconic.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Caraceni (multiple distinct firms — A. Caraceni, Tommy & Giulio Caraceni, Ferdinando Caraceni). Italian aristocrats and politicians dressed here for a century. Cleaner-line cut than Naples; less structured than London. Schedule weeks ahead.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Liverano & Liverano (Antonio Liverano legend), Sartoria Vestrucci. Strong men's-tailoring scene plus annual Pitti Uomo trade fair brings the world's best craftsmen here.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Smalto, Camps de Luca, Cifonelli. French tailoring stylistically distinct — sharper, slightly theatrical. Cifonelli's "shoulder roll" iconic. Less famous than London or Italy but world-class.</p>
+
+<h2>Strategy</h2>
+
+<p>Three trips minimum (initial measurement, baste fitting, final fitting). Tailors may do trunk shows in your home city — ask. Don't rush — first bespoke suit takes 6 months reasonable.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-hammam-turkish-baths",
+    title: "Best European Cities for Hammam & Turkish Baths",
+    excerpt: "Istanbul's hammams are the original; Granada and Cordoba have Andalusian Moorish revivals; Budapest's Turkish-era baths Rudas and Kiraly are 16th-century working hammams.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Authentic Hammam & Turkish Baths",
+    metaDescription: "Hammam destinations — Istanbul (Cağaloğlu, Süleymaniye), Budapest (Rudas), Granada, Cordoba. Authentic vs spa-style; what to expect.",
+    html: `
+<h2>Authentic hammam vs spa hammam</h2>
+
+<p>Authentic hammams are public baths with a dome, marble göbektaşı (heated platform), and scrubbing-massage ritual. Spa hammams approximate the experience for tourists. The cities below have both — choose accordingly.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> the originals. Cağaloğlu Hamamı (1741), Süleymaniye Hamamı (1557, Mimar Sinan), Kılıç Ali Paşa Hamamı (1580). Classic ritual: warm room, scrub with kese (rough mitt), foam massage, cold rinse. €40–90 depending on hamam — Cağaloğlu pricier (tourist-restored) than locals' spots.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Ottoman-era baths still operating — Rudas (1550, octagonal dome), Király (1565), Veli Bej (16th century, recently restored). All thermal-water-based. Mixed bathing days vs single-sex traditional days vary — check schedule.</p>
+
+<h2>Granada</h2>
+
+<p><a href="/en/spain/granada">Granada</a> Hammam Al Ándalus is the most famous Moorish-revival hammam in Spain. Architecturally beautiful, ritual-faithful, but a modern construction (not Moorish original). €38–55 for 90-minute session including kessa scrub. Reserve online.</p>
+
+<h2>Cordoba and Sevilla</h2>
+
+<p><a href="/en/spain/cordoba">Cordoba</a> Hammam Al Ándalus (similar group as Granada). <a href="/en/spain/sevilla">Sevilla</a> Aire de Sevilla in a 16th-century palace. Atmospheric experiences but again not original Moorish baths.</p>
+
+<h2>Marrakesh adjacent</h2>
+
+<p>Marrakesh hammam culture is the African reference but outside our European geography. Casablanca and Fez easier flights from Spain.</p>
+
+<h2>Strategy</h2>
+
+<p>Bring flip-flops. Tip the masseur 10–15% of session price (€3–8). Skip jewelry. Drink lots of water afterward. Read our <a href="/en/articles/best-european-cities-for-thermal-wellness">thermal wellness</a> guide for Hungarian-Czech style baths and <a href="/en/articles/best-european-cities-for-day-spa-luxury">day spa</a> overview.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

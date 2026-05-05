@@ -13035,6 +13035,325 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 42 — niche specialty + city culture
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-cocktail-bars",
+    title: "Best European Cities for Cocktail Bars (Honest 2026)",
+    excerpt: "Where European cocktail scenes are real — London, Paris, Berlin, Athens.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Cocktail Bars — Honest 2026",
+    metaDescription: "Where European cocktail scenes are real — London, Paris, Berlin, Athens.",
+    html: `
+<p>European cocktail scenes vary by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination cocktail cities</h2>
+
+<ul>
+  <li><strong>London:</strong> Top of the world for cocktails. Connaught Bar, Lyaness, Bar Termini, Tayer + Elementary.</li>
+  <li><strong>Paris:</strong> Combat, Little Red Door, Le Syndicat, Mary Celeste.</li>
+  <li><strong>Berlin:</strong> Buck and Breck, Le Croco Bleu, Lebensstern.</li>
+  <li><strong>Athens (Psyrri):</strong> The Clumsies, Baba Au Rum, A for Athens.</li>
+  <li><strong>Madrid:</strong> Salmon Guru, La Fábrica de la Coctelería, 1862.</li>
+</ul>
+
+<h2>Tier 2 — strong cocktail scenes</h2>
+
+<ul>
+  <li><strong>Barcelona:</strong> Paradiso, Two Schmucks.</li>
+  <li><strong>Amsterdam:</strong> Tales &amp; Spirits, Hiding in Plain Sight.</li>
+  <li><strong>Vienna:</strong> Roberto Bar, Kruger's American Bar.</li>
+  <li><strong>Stockholm:</strong> Tjoget, Linje Tio.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Lisbon:</strong> Park Bar, Toca da Raposa.</li>
+  <li><strong>Belgrade:</strong> Underrated cocktail scene.</li>
+  <li><strong>Reykjavík:</strong> Slippbarinn, Hrímur.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Reservations:</strong> Top spots book 1-2 weeks ahead.</li>
+  <li><strong>Themed bars:</strong> Speakeasies, themed-rooms popular in London.</li>
+  <li><strong>World's 50 Best Bars rankings:</strong> Update annually; check current.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-startup-scenes",
+    title: "Best European Cities for Tech Startup Scenes",
+    excerpt: "Where European tech scenes are real — Berlin, Stockholm, Amsterdam, London.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Tech Startups — Honest 2026",
+    metaDescription: "Where European tech scenes are real — Berlin, Stockholm, Amsterdam, London.",
+    html: `
+<p>European tech scenes are concentrated. Here's the honest sort by ecosystem strength.</p>
+
+<h2>Tier 1 — destination tech cities</h2>
+
+<ul>
+  <li><strong>London:</strong> Largest European VC capital. Shoreditch + Kings Cross + Old Street triangle.</li>
+  <li><strong>Berlin:</strong> Strong startup scene. Mitte + Kreuzberg.</li>
+  <li><strong>Stockholm:</strong> Spotify, Klarna, others originated here.</li>
+  <li><strong>Amsterdam:</strong> Adyen, Booking.com hub.</li>
+  <li><strong>Paris (Station F):</strong> World's largest startup campus.</li>
+</ul>
+
+<h2>Tier 2 — strong tech ecosystems</h2>
+
+<ul>
+  <li><strong>Helsinki + Espoo:</strong> Slush conference + Nokia heritage.</li>
+  <li><strong>Tallinn:</strong> Estonia's e-Estonia + Skype origin.</li>
+  <li><strong>Dublin:</strong> US tech European HQs (Google, Facebook, etc.).</li>
+  <li><strong>Lisbon:</strong> Web Summit annually. Growing scene.</li>
+  <li><strong>Barcelona:</strong> Pier 01 + Mobile World Congress.</li>
+</ul>
+
+<h2>Tier 3 — emerging</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Strong fintech.</li>
+  <li><strong>Munich:</strong> Industrial-tech focus.</li>
+  <li><strong>Copenhagen:</strong> Cleantech leader.</li>
+  <li><strong>Sofia:</strong> Eastern European tech hub.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Conferences:</strong> Web Summit (Lisbon), Slush (Helsinki), Mobile World Congress (Barcelona) draw startup crowds.</li>
+  <li><strong>Coworking:</strong> WeWork + local chains in all major scenes.</li>
+  <li><strong>Networking:</strong> Use Meetup + LinkedIn for tech-meetup access.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vintage-clothing",
+    title: "Best European Cities for Vintage Clothing Shopping",
+    excerpt: "Where European vintage scenes deliver — Berlin, London, Amsterdam, Paris.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Vintage Clothing — Honest 2026",
+    metaDescription: "Where European vintage scenes deliver — Berlin, London, Amsterdam, Paris.",
+    html: `
+<p>European vintage scenes are dense in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination vintage cities</h2>
+
+<ul>
+  <li><strong>Berlin (Kreuzberg, Friedrichshain):</strong> Mauerpark Sunday market + dense vintage shops.</li>
+  <li><strong>London (Brick Lane, Camden, Notting Hill):</strong> Multiple dense vintage strips.</li>
+  <li><strong>Amsterdam (Jordaan, NDSM):</strong> Vintage strips + IJ-Hallen flea (twice monthly).</li>
+  <li><strong>Paris (Marais, Saint-Ouen):</strong> Free P Star, Marché aux Puces de Saint-Ouen.</li>
+</ul>
+
+<h2>Tier 2 — strong vintage</h2>
+
+<ul>
+  <li><strong>Copenhagen (Vesterbro, Nørrebro):</strong> Multiple shops.</li>
+  <li><strong>Stockholm (SoFo):</strong> Vintage + design.</li>
+  <li><strong>Madrid Malasaña:</strong> Magpie, Lotta Vintage.</li>
+  <li><strong>Lisbon (Príncipe Real, Bairro Alto):</strong> Growing scene.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Hamburg Sternschanze:</strong> Punk-vintage tradition.</li>
+  <li><strong>Glasgow:</strong> Underrated vintage scene.</li>
+  <li><strong>Krakow Kazimierz:</strong> Communist-era and Polish heritage clothes.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Sunday markets:</strong> Many flea markets are Sunday-only.</li>
+  <li><strong>Cash:</strong> Vendors often don't take cards.</li>
+  <li><strong>Bargaining:</strong> Standard at flea markets, less at boutique shops.</li>
+  <li><strong>Sizing:</strong> European vintage often runs small for American/UK sizes.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-supermarket-self-catering",
+    title: "Best European Cities for Self-Catering Supermarket Trips",
+    excerpt: "Save €15-25/day by self-catering. Honest sort of European cities by supermarket quality.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Self-Catering — Honest 2026",
+    metaDescription: "Save €15-25/day by self-catering. Honest sort of European cities by supermarket quality.",
+    html: `
+<p>European supermarkets are uneven. Self-catering saves real money in some cities; less in others.</p>
+
+<h2>Tier 1 — excellent supermarket experience</h2>
+
+<ul>
+  <li><strong>Italy (Esselunga, Coop):</strong> Fresh pasta, parma, mozzarella + great wine for €5-8.</li>
+  <li><strong>Spain (Mercadona, Carrefour):</strong> Fresh fish, jamón ibérico, olives at half restaurant prices.</li>
+  <li><strong>France (Carrefour, Monoprix):</strong> Bread + cheese + wine = world-class meal at supermarket prices.</li>
+  <li><strong>Germany (Aldi, Lidl, Rewe):</strong> Quality bread, sausages, cheese.</li>
+  <li><strong>Portugal (Pingo Doce, Continente):</strong> Fresh fish + Portuguese wine €4-7.</li>
+</ul>
+
+<h2>Tier 2 — strong supermarket experience</h2>
+
+<ul>
+  <li><strong>Netherlands (Albert Heijn):</strong> High-quality.</li>
+  <li><strong>Austria (Spar, Billa):</strong> Excellent.</li>
+  <li><strong>Greece (Sklavenitis, AB Vassilopoulos):</strong> Mediterranean quality.</li>
+  <li><strong>UK (Marks &amp; Spencer Food, Waitrose):</strong> Premium.</li>
+</ul>
+
+<h2>Tier 3 — workable but limited</h2>
+
+<ul>
+  <li><strong>Eastern Europe (Tesco, Lidl):</strong> Limited fresh selection but very cheap.</li>
+  <li><strong>Croatia, Montenegro coast:</strong> Tourist markup at coastal Konzum.</li>
+  <li><strong>Iceland (Bónus, Krónan):</strong> Limited produce; long-shelf-life dominates.</li>
+</ul>
+
+<h2>What works for self-catering</h2>
+
+<ul>
+  <li><strong>Rotisserie chicken or roast meat:</strong> Most supermarkets have prepared sections.</li>
+  <li><strong>Bread + cheese + olives + tomato + wine:</strong> Mediterranean basic dinner.</li>
+  <li><strong>Fresh pasta + jar sauce:</strong> Italian self-catering basic.</li>
+  <li><strong>Jamón + queso + bread:</strong> Spanish basic.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Self-catering 1-2 meals/day saves €15-25/day. Apartments with kitchens enable this. Pre-buy ingredients for breakfast (yogurt, fruit, bread) and lunch; eat dinner out for the cultural meal.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tap-and-go-payment",
+    title: "Best European Cities for Tap-and-Go Card Payment",
+    excerpt: "Where European tap-and-go works seamlessly. Honest sort by infrastructure.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Tap-and-Go Payment — Honest 2026",
+    metaDescription: "Where European tap-and-go works seamlessly. Honest sort by infrastructure.",
+    html: `
+<p>European tap-and-go (Apple Pay, Google Pay, contactless cards) varies by city.</p>
+
+<h2>Tier 1 — universal tap-and-go</h2>
+
+<ul>
+  <li><strong>London:</strong> Tube, buses, taxis, restaurants — universal.</li>
+  <li><strong>Stockholm:</strong> Sweden is largely cashless.</li>
+  <li><strong>Copenhagen:</strong> Same.</li>
+  <li><strong>Helsinki:</strong> Same.</li>
+  <li><strong>Amsterdam:</strong> Strong card culture; transit + restaurants accept tap.</li>
+</ul>
+
+<h2>Tier 2 — strong tap infrastructure</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Most restaurants and transit accept.</li>
+  <li><strong>Berlin:</strong> Improving fast; older establishments still cash-preferred.</li>
+  <li><strong>Madrid, Barcelona:</strong> Good but some smaller shops cash-only.</li>
+  <li><strong>Vienna:</strong> Mostly excellent.</li>
+  <li><strong>Lisbon:</strong> Growing rapidly.</li>
+</ul>
+
+<h2>Tier 3 — workable but cash often needed</h2>
+
+<ul>
+  <li><strong>Smaller German towns:</strong> Cash-preferred.</li>
+  <li><strong>Italian smaller cities + restaurants:</strong> Some cash-only.</li>
+  <li><strong>Greek islands:</strong> Limited tap.</li>
+  <li><strong>Eastern European countryside:</strong> Often cash.</li>
+</ul>
+
+<h2>What about contactless transit?</h2>
+
+<ul>
+  <li><strong>London Tube:</strong> Tap with credit/debit card or phone — no separate ticket.</li>
+  <li><strong>Stockholm public transit:</strong> Tap with smartphone or card.</li>
+  <li><strong>Most modern systems support this.</strong></li>
+  <li><strong>Older systems require buying paper or rechargeable cards.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Carry €100-€200 cash:</strong> For tap-and-go failures.</li>
+  <li><strong>Use foreign-fee-free credit cards:</strong> Most banks now offer.</li>
+  <li><strong>Verify ATM fees:</strong> Withdraw larger amounts to reduce per-fee impact.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-medical-tourism",
+    title: "Best European Cities for Medical Tourism",
+    excerpt: "European cities for elective procedures, dental work, and wellness retreats.",
+    publishedAt: "2026-06-06",
+    reviewedAt: "2026-06-06",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Medical Tourism — Honest 2026",
+    metaDescription: "European cities for elective procedures, dental work, and wellness retreats.",
+    html: `
+<p>Medical tourism in Europe is a growing niche. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination medical tourism</h2>
+
+<ul>
+  <li><strong>Budapest:</strong> Dental tourism capital. 60-70% of UK + American costs.</li>
+  <li><strong>Krakow + Warsaw:</strong> Same Polish dental + cosmetic scene.</li>
+  <li><strong>Istanbul:</strong> Hair transplant + cosmetic surgery hub.</li>
+  <li><strong>Belgrade:</strong> Dental + IVF + cosmetic.</li>
+  <li><strong>Riga:</strong> Dental + IVF.</li>
+</ul>
+
+<h2>Tier 2 — strong medical tourism</h2>
+
+<ul>
+  <li><strong>Prague:</strong> Dental + cosmetic.</li>
+  <li><strong>Sofia:</strong> Same.</li>
+  <li><strong>Lisbon, Porto:</strong> Growing reputation.</li>
+  <li><strong>Madrid, Barcelona:</strong> High-end private clinics.</li>
+</ul>
+
+<h2>Wellness retreats (different category)</h2>
+
+<ul>
+  <li><strong>Karlovy Vary:</strong> Czech spa town tradition.</li>
+  <li><strong>Baden-Baden:</strong> German Kur.</li>
+  <li><strong>Iceland Blue Lagoon medical wing.</strong></li>
+  <li><strong>Hévíz, Hungary:</strong> Thermal lake medical.</li>
+</ul>
+
+<h2>Critical considerations</h2>
+
+<ul>
+  <li><strong>Insurance:</strong> Most US health insurance doesn't cover overseas elective procedures.</li>
+  <li><strong>Recovery time:</strong> Plan for 3-7 days minimum after procedures.</li>
+  <li><strong>Verify accreditation:</strong> JCI International or local equivalent.</li>
+  <li><strong>Liability:</strong> European law differs from US/UK.</li>
+  <li><strong>Follow-up care:</strong> Plan return trip or local provider for follow-up.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>This is a serious topic. Use established medical-tourism agencies that vet clinics. Get multiple consultations before committing. Some procedures (cosmetic dental, hair transplant) save 60-70%. Others (complex surgery) may not justify the risk.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

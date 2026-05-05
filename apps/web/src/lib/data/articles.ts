@@ -20095,6 +20095,283 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-flamenco-shows",
+    title: "Best European Cities for Flamenco Shows",
+    excerpt: "Sevilla and Jerez are the heartland; Madrid stages the famous tablaos; Granada's Sacromonte caves preserve the gypsy roots; Barcelona's flamenco is genuine but transplanted.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Flamenco Shows",
+    metaDescription: "Authentic flamenco — Sevilla, Jerez, Granada, Madrid, Cordoba. Tablao vs tourist show, prices, and how to find genuine performances.",
+    html: `
+<h2>Tourist tablao vs authentic peña</h2>
+
+<p>Tablao = tourist-paid flamenco show (€30–80, with dinner often, polished but commercial). Peña = local flamenco club, members + serious aficionados, €5–15 cover, often open only late evenings, more authentic. The cities below have both.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> the global flamenco capital. Tablao Casa de la Memoria, Tablao El Arenal (touristy but authentic talent). For peña: Centro Cultural Flamenco la Cantera. Plus the Bienal de Flamenco festival every two years (next 2026). <a href="/en/spain/sevilla/santa-cruz">Santa Cruz</a> base.</p>
+
+<h2>Jerez de la Frontera</h2>
+
+<p>Andalusian city — bullfighting and flamenco capital alongside Sevilla. Centro Andaluz de Flamenco (museum + library). Festival de Jerez (February-March, 17 days). Day-trip from <a href="/en/spain/sevilla">Sevilla</a> (1h train).</p>
+
+<h2>Granada</h2>
+
+<p><a href="/en/spain/granada">Granada</a> Sacromonte gypsy caves — Cuevas Los Tarantos, Venta El Gallo. Cave-floor flamenco (zambra) the traditional Sacromonte form. €25–35 typical. Different style from Sevilla — more dance-and-music ensemble than singer-led.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Corral de la Morería (the famous high-end), Casa Patas, Café de Chinitas. €40–80 with dinner. Strong commercial scene plus authentic peñas in <a href="/en/spain/madrid/lavapies">Lavapiés</a>.</p>
+
+<h2>Cordoba</h2>
+
+<p><a href="/en/spain/cordoba">Cordoba</a> Tablao El Cardenal, Tablao Flamenco Cardenal in <a href="/en/spain/cordoba/juderia">Judería</a> Old Town. Smaller scale, more intimate. €25–35.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Tablao Cordobés, Tablao Flamenco Nervión. Catalan-region flamenco performances less authentically Andalusian but technically excellent.</p>
+
+<h2>Strategy</h2>
+
+<p>Late-evening shows (10pm–midnight) more atmospheric than tourist 7pm slots. Reservations 2–4 weeks ahead summer. Peñas often unannounced — ask local flamenco aficionados or check Facebook events. Read our <a href="/en/articles/best-european-cities-for-folk-culture">folk culture</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-fado-shows",
+    title: "Best European Cities for Fado Shows",
+    excerpt: "Lisbon's Alfama and Bairro Alto fado houses are the canonical; Coimbra's male-student fado is its own tradition; Porto less famous but authentic.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Fado Shows",
+    metaDescription: "Authentic fado experiences — Lisbon (Alfama, Bairro Alto), Coimbra, Porto. Casa de fado vs amateur fado vadio.",
+    html: `
+<h2>Lisbon fado vs Coimbra fado</h2>
+
+<p>Two fado traditions exist. Lisbon fado is the famous one — emotional, female-led, melancholic ballads about saudade (longing). Coimbra fado is exclusively male, student-tradition, performed in academic robes, less heart-wrenching, more elegant. Both worth experiencing.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> casa de fado (house of fado) tradition. Clube de Fado, A Severa, A Baiuca, Tasca do Chico. Most run dinner-and-show format €40–80. Plus fado vadio (amateur fado, no cover charge but tip generously, no dinner) at smaller bars. <a href="/en/portugal/lisbon/alfama">Alfama</a> and <a href="/en/portugal/lisbon/bairro-alto">Bairro Alto</a> dense.</p>
+
+<h2>Alfama specifically</h2>
+
+<p>The original fado neighborhood. Mesa de Frades (former chapel, intimate setting), Casa de Linhares, Páteo de Alfama. Atmospheric medieval streets + fado the iconic Lisbon evening.</p>
+
+<h2>Coimbra</h2>
+
+<p>University city's fado de Coimbra — male-only tradition, students + alumni in black academic capes (capas). Different style: classical-guitar-led, less rending emotion, more Romantic-poetry. Performed at Casa de Fado of Coimbra and Fado ao Centro. Day-trip from Porto or Lisbon (2h train).</p>
+
+<h2>Porto</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> fado scene smaller and less famous than Lisbon. O Fado at Casa do Fado (Ribeira). Authentic but not the headline attraction.</p>
+
+<h2>Strategy</h2>
+
+<p>Reservations recommended at top Lisbon casas de fado 1–2 weeks ahead summer. Dinner-show format usual; food often modest, fado the point. Photo flash forbidden during performances. Tipping fado vadio singers €1–2 per song expected.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cathedral-architecture",
+    title: "Best European Cities for Cathedral Architecture",
+    excerpt: "Cologne and Strasbourg for Gothic; Florence and Sevilla for Renaissance dome; Sagrada Família for living Modernisme; Saint Peter's for Roman dominance.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Cathedral Architecture",
+    metaDescription: "Top cathedral cities — Cologne, Strasbourg, Florence, Sevilla, Rome, Barcelona, Milan. Gothic, Renaissance, Modernisme.",
+    html: `
+<h2>Style by century</h2>
+
+<p>Romanesque (1000–1200), Gothic (1200–1500), Renaissance (1400–1600), Baroque (1600–1750), Modernisme (1880–1930). Each has flagship cathedrals — visiting all together demands cross-Europe travel.</p>
+
+<h2>Cologne — Gothic</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> Cathedral (Kölner Dom) — 632 years to build, twin spires 157m tall (briefly tallest building in world 1880-1884). Free entry to nave; €8 climb tower. UNESCO. <a href="/en/germany/cologne/altstadt-deutz">Altstadt</a> walking distance.</p>
+
+<h2>Strasbourg — Gothic</h2>
+
+<p><a href="/en/france/strasbourg">Strasbourg</a> Cathédrale Notre-Dame — pink sandstone, single spire 142m (tallest building in world 1647-1874). Astronomical clock daily 12:30pm. Free.</p>
+
+<h2>Florence — Renaissance</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Duomo (Cattedrale di Santa Maria del Fiore) — Brunelleschi's dome (1436) the engineering miracle. Climb 463 steps for cupola view. Reservations mandatory; €25–60.</p>
+
+<h2>Sevilla — Gothic + Renaissance hybrid</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Cathedral — largest Gothic cathedral in the world by volume. Built on former mosque foundations. Giralda bell tower originally a minaret. €13.</p>
+
+<h2>Saint Peter's Rome — Renaissance/Baroque</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Saint Peter's Basilica (1626) — Bramante, Michelangelo, Bernini collaborated across decades. Dome 136m. Free entry but security queue 30–60 min. Plus Pieta sculpture.</p>
+
+<h2>Barcelona — Modernisme</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Sagrada Família — Gaudí's still-unfinished masterpiece (begun 1882, completion 2026 target). Reservations mandatory; €33–48. UNESCO. Combined with Park Güell + Casa Batlló for full Gaudí day.</p>
+
+<h2>Milan — Gothic spires</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Duomo (1386–1965 — completed in 6 centuries). 135 spires, 3,400+ statues. Rooftop walk among spires €20. Italy's largest church.</p>
+
+<h2>Chartres — Gothic stained glass</h2>
+
+<p>Chartres Cathedral (covered in our stained-glass guide). Day-trip from Paris.</p>
+
+<h2>Salamanca — old + new cathedral combo</h2>
+
+<p>Salamanca has Old Cathedral (Romanesque-Gothic) and New Cathedral (Gothic-Baroque) connected — view 800 years of architecture in one walk.</p>
+
+<h2>Strategy</h2>
+
+<p>Visit early morning (8–9am) for empty interiors. Most cathedrals close midday for services. Photography permitted (no flash) most cathedrals. Combined city + cathedral itineraries. <a href="/en/articles/best-european-cities-for-stained-glass-windows">Stained glass</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-camping-base",
+    title: "Best European Cities for Camping & Outdoor Bases",
+    excerpt: "Innsbruck, Bergen, Tromsø, Aviemore, and Chamonix anchor wilderness camping; Mediterranean coasts have specific car-camping cultures (France, Italy, Croatia).",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Camping Bases & Outdoor Adventures",
+    metaDescription: "Cities as bases for camping — Innsbruck, Bergen, Tromso, Chamonix, Aviemore, Split. Wilderness vs car-camping vs glamping.",
+    html: `
+<h2>Camping types</h2>
+
+<p>Three formats: wild/wilderness camping (Norway, Scotland — sometimes legal in unmarked land), campsite-network camping (France, Italy, Croatia — paid pitches with facilities), and city-day-trip camping (using city as supply base, drive-out). Below are bases for each.</p>
+
+<h2>Bergen and Tromsø (Norway)</h2>
+
+<p>Norwegian "allemannsretten" (right-of-roam) allows wild camping on uncultivated land. Bergen base for fjord camping; Tromsø for Arctic camping (incl. winter aurora-camping). Stays anchored in city for last-minute supplies and rest days.</p>
+
+<h2>Innsbruck (Austria)</h2>
+
+<p>Alpine base. Multiple campgrounds within 30 min — Camping Karwendel, Camping Nordkette. Plus mountain hut network for multi-day hikes (€25–40/night with breakfast). Bus + cable-car access reduces driving need.</p>
+
+<h2>Chamonix (France)</h2>
+
+<p>Mont Blanc base. Camping de Bossons, Les Marmottes. Multi-day Tour du Mont Blanc circuit (10-11 days through France, Italy, Switzerland) the iconic European trek.</p>
+
+<h2>Aviemore / Edinburgh (Scotland)</h2>
+
+<p>Aviemore is the Cairngorms gateway — closer than Edinburgh. Wild-camping legal in Scotland under "right to roam" law. Plus organized campsites. <a href="/en/uk/edinburgh">Edinburgh</a> base for east-coast Highlands.</p>
+
+<h2>Mediterranean coast (Nice, Marseille, Split)</h2>
+
+<p><a href="/en/croatia/split">Split</a> for Adriatic island camping. Marseille for Calanques. Nice for Riviera car-camping. Italian and French coast campsites very organized — beach + restaurant + facilities. €25–60/night.</p>
+
+<h2>Lapland (Rovaniemi)</h2>
+
+<p>Finnish Lapland car-camping summer June–August (mosquitoes intense July). Winter aurora-tent overnight stays guided.</p>
+
+<h2>Strategy</h2>
+
+<p>Wild-camping legal in Norway/Scotland; restricted/illegal most other countries. Campsite reservations 2–4 months ahead summer (especially Croatia, France south coast). Tent vs RV — different campsite categories. Equipment rental in cities (REI-style chains) saves luggage.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-craft-jewelry-makers",
+    title: "Best European Cities for Independent Craft Jewelry Makers",
+    excerpt: "Florence's Ponte Vecchio goldsmiths' tradition; Antwerp's diamond-cutting heritage; Berlin's contemporary jewelry scene; Athens's filigree heritage.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Craft & Independent Jewelry",
+    metaDescription: "Cities for handmade jewelry — Florence (Ponte Vecchio), Athens, Antwerp, Berlin, Lisbon. Independent goldsmiths and small ateliers.",
+    html: `
+<h2>Independent vs designer-flagship</h2>
+
+<p>This guide covers small ateliers and independent goldsmiths — €100–800 typical price ranges. Different from luxury-flagship jewelry shopping (covered in the Place Vendôme/luxury-shopping-streets guide). Independent makers offer custom design, distinctive aesthetics, lower premium-brand markup.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Ponte Vecchio jewelry shops since 1593 — over 40 small goldsmiths on the bridge. Cassetti, Vannini, Tomaso Lanza. Plus newer independent ateliers in <a href="/en/italy/florence/oltrarno-san-frediano">Oltrarno-San Frediano</a> — Officine Nicolai, Alessandro Dari (gothic-themed). Custom commissions from €200–2,000+.</p>
+
+<h2>Antwerp</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> diamond-cutting heritage means access to fine stones at lower margins. Independent jewelers in Diamond District — Antwerp Old Town also has small ateliers (Nadia & Saskia, Robert Lefevre). Custom diamond rings €1,500–10,000+.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> contemporary scene — sansk, Thomas Sabo (mass-design but Berlin-headquartered), independent ateliers in <a href="/en/germany/berlin/mitte">Mitte</a>. Berlin Jewellery Week (March). Berlin's contemporary/minimalist aesthetic distinctive.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Greek filigree (gold-thread weaving) heritage. Plaka neighborhood independent jewelers. Lalaounis Jewelry Museum + boutique combination. Greek archaic-revival pieces €300–2,000.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> emerging scene — Maria João Bahia, Ana Mota, Sancti. Filigree (Viana do Castelo region tradition) preserved at Atelier Filigrana. Affordable relative to Florence.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Stockholm Goldsmith Co-op, Asplund Jewelry. Scandinavian minimalist aesthetic. Plus regional Smyckesväxtus brand combining nature + traditional craft.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Hamilton & Inches (Royal Goldsmiths since 1866), Joseph Bonnar (vintage). Plus contemporary makers across Scotland.</p>
+
+<h2>Strategy</h2>
+
+<p>Custom commission lead time 4–8 weeks for hand-engraved pieces. Sketching and metals choice often free; design fee for full custom €100–500. International shipping insured for fine jewelry essential.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-monastery-stays",
+    title: "Best European Cities for Monastery Stays & Retreats",
+    excerpt: "Mount Athos's monasteries (men only) the most strict; Tuscan and Umbrian monastery hostels for travelers; Camaldoli, Subiaco, La Verna preserve Benedictine tradition.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Monastery Stays",
+    metaDescription: "Monastery accommodation — Tuscany (Camaldoli), Umbria, Spain, Greek Orthodox (Mount Athos for men), Slovak. Silent retreats and pilgrimage stays.",
+    html: `
+<h2>Monastery stay categories</h2>
+
+<p>Three formats: silent retreats (e.g. Italian Camaldolese, Trappist) where you participate in prayer rhythm and silence; pilgrim hostels (Camino Santiago route, Catholic monasteries) basic accommodation for €15–40/night; luxury monastery hotels (former monastic complexes converted, full hotels). Each different intent.</p>
+
+<h2>Camaldoli (Tuscany base — Florence)</h2>
+
+<p>Camaldoli Hermitage in Casentino forest, 90 min from Florence. Camaldolese Benedictines (silent except for prayer hours). 3-day minimum stay; multi-day silent retreat. €40–80/night with full meals. Confirm religious-rules-tolerance before booking.</p>
+
+<h2>La Verna (Tuscany base)</h2>
+
+<p>Franciscan monastery on Mount Penna where Saint Francis received the stigmata. Pilgrim hostel format. 90 min from Florence; 1h45 from Arezzo. €30–60/night.</p>
+
+<h2>Subiaco (near Rome)</h2>
+
+<p>Saint Benedict's first monastery. 1h drive from <a href="/en/italy/rome">Rome</a>. Pilgrim accommodations Sacro Speco. Less polished than Tuscan options but historically central.</p>
+
+<h2>Montserrat (near Barcelona)</h2>
+
+<p>Catalan Benedictine monastery in dramatic mountain setting. Day-trip from <a href="/en/spain/barcelona">Barcelona</a> standard; overnight stays at Hotel Abat Cisneros monastery-managed. €120–250.</p>
+
+<h2>Saint Maurice (Switzerland)</h2>
+
+<p>Swiss Augustinian monastery — accommodations for retreatants. Combined with Lake Geneva region trips.</p>
+
+<h2>Camino de Santiago route</h2>
+
+<p>Multiple monastic hostels along French and Portuguese Camino routes — not specific to one city, but pilgrim-route accommodation in monastic facilities widespread. €15–40/night.</p>
+
+<h2>Mount Athos (Greece — men only)</h2>
+
+<p>20 Eastern Orthodox monasteries on autonomous peninsula in Greece. Men only (no women allowed, including animals). Multi-week permits required + religious-application process. Day-cruise from Ouranoupoli for women views from sea.</p>
+
+<h2>Strzelno or Zalipie (Poland)</h2>
+
+<p>Cistercian monasteries in Poland with limited guest accommodation. Less famous, more authentic.</p>
+
+<h2>Strategy</h2>
+
+<p>Most monasteries require advance written application (email or letter), 4–8 weeks ahead. Silent retreats commit visitors to specific schedule (4-5am rising for office) — not for casual travelers. Vegetarian or simple meals expected. Donations + small fees beyond room cost. Read our <a href="/en/articles/best-european-cities-for-pilgrimage-religious-travel">religious travel</a> companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

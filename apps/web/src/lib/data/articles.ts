@@ -16056,6 +16056,271 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-pizza",
+    title: "Best European Cities for Pizza",
+    excerpt: "Naples invented Neapolitan pizza; Rome perfected al taglio (by-the-slice); Florence and Bologna do regional variants. Outside Italy, London and Berlin lead the wave.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Pizza — Italian Cities and Beyond",
+    metaDescription: "Where to eat pizza in Europe — Naples (Neapolitan), Rome (al taglio), Florence, Bologna, London, Berlin. Famous pizzerias and prices.",
+    html: `
+<h2>Pizza is regional within Italy</h2>
+
+<p>Calling all Italian pizza "pizza" is like calling all British food "British food." Naples (soft, charred, 60-second wood-oven), Rome (al taglio cracker-crisp), Sicilian (spongy, square sfincione), and Northern Italian (thin-and-bready) are different dishes. Below are the cities where each is excellent.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> the global pizza capital. Da Michele (the Eat Pray Love one), Sorbillo, Di Matteo, Concettina ai Tre Santi, La Notizia. €5–9 margherita is normal — it's the expensive Naples pizza that's often worse. Queues at Da Michele 60–90 minutes; Sorbillo similar.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> al taglio (by-the-slice, square pieces, oven trays) — Pizzarium (Bonci), Forno Campo de' Fiori, Antico Forno Roscioli. Round Roman-style thin-crust at Pizzeria La Montecarlo, Da Remo (Testaccio).</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Tuscan pizza (often with chickpea-flour cecìna option) — Gusta Pizza, Berberè (also Bologna). Simo Osteria for upscale. €9–14.</p>
+
+<h2>Bologna and Modena</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> Berberè the cult name (sourdough-crust, designed for sharing). Excellent quality at €15–22 — pricey for pizza but worth it.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Franco Manca (high-quality chain), Pizza Pilgrims, Yard Sale, Pizza Pilgrims. Strong Neapolitan-style scene. <a href="/en/uk/london/soho-fitzrovia">Soho</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Standard Serious Pizza, W der Imbiss, Zola. Berlin pizza follows Brooklyn-style trends. €11–16.</p>
+
+<h2>Strategy</h2>
+
+<p>Pizza queues at famous spots are real — Da Michele 60+ min Saturday lunch. Lunch always less crowded. Skip restaurants with photo-menus and tourist-zone signs.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tram-rides",
+    title: "Best European Cities for Scenic Tram Rides",
+    excerpt: "Lisbon's 28 is the iconic; Vienna's Ringstrasse, Prague's 22, and Milan's vintage 1928 fleet all let you sightsee from a window seat for €1.50.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Scenic Tram Rides",
+    metaDescription: "Iconic European tram rides — Lisbon 28, Vienna Ringstrasse, Prague 22, Milan ATMosfera, Berlin M1, Helsinki 6.",
+    html: `
+<h2>The cheapest sightseeing tour</h2>
+
+<p>A €1.50 tram ride on the right line gives you 45–60 minutes of city views from a wood-and-brass historic carriage. Better than open-top buses (cheaper, slower, more local). The cities below all have specific lines worth a dedicated trip.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Tram 28 — Graça → Estrela through Alfama, climbing the steepest streets. €3 single (or covered by Viva Viagem). Pickpockets work this route — stay alert. Tram 12 (Alfama loop) and 18 (Belém) less famous but equally pretty.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Ringstrasse rings 1 + 2 around the historic center past Parliament, City Hall, Opera, Hofburg, Kunsthistorisches. Standard ticket €2.40 covers full ring. Vintage 1929 trams (Bim) sometimes deployed weekends.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Tram 22 — Národní → Pohořelec via Malá Strana, Prague Castle, Strahov. Classic Tatra-built T3 trams (1960s design icons) still in service. CZK 30 ticket.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> 1928-built ATM Carrelli trams in service on lines 1 and 9 — wood interiors, brass fittings. The ATMosfera dinner-tram is a private 1928-tram restaurant ride (€60–80).</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> M1 line through Mitte and Prenzlauer Berg — best East Berlin overview. M10 Friedrichshain link. Single ticket €3.50. East Berlin trams returned post-1990 reunification; West Berlin trams replaced by buses 1960s.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Tram 6 connects city center to Hietalahti and Eira — vintage rolling stock + modern. Tram pass included with Helsinki Card.</p>
+
+<h2>Strategy</h2>
+
+<p>Window seat. Sit on the right side going outbound (typically faces city). Avoid weekends 11am–3pm peak tourism. Late-evening rides (8–10pm) often empty + city-lights pretty.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cold-war-history",
+    title: "Best European Cities for Cold War History",
+    excerpt: "Berlin is the obvious; Prague, Budapest, and Bucharest each have their own Cold War narrative; Vienna stayed officially neutral but hosted the spy economy.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Cold War History & Sites",
+    metaDescription: "Cold War era museums and sites — Berlin (Wall, Stasi), Prague, Budapest, Bucharest, Vienna. Memorials, espionage history, communist-era buildings.",
+    html: `
+<h2>Cold War history travel</h2>
+
+<p>The Cold War (1945–1991) shaped Eastern and Central Europe more than any other 20th-century event. The cities below have substantial museum and site networks for understanding the period.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> the obvious capital. Berlin Wall Memorial (Bernauer Strasse, the most preserved section), Checkpoint Charlie, DDR Museum, Stasi Museum (Lichtenberg, the Stasi's actual HQ). East Side Gallery painted Wall section. Tempelhof Airport (1948–49 Berlin Airlift).</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> 1968 Soviet invasion + 1989 Velvet Revolution. Museum of Communism (Prague), KGB Museum (Malá Strana, controversial private), Wenceslas Square (Velvet Revolution rallies). Communist-era brutalism in Karlín and Žižkov.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> 1956 Hungarian Revolution + post-revolution decades. House of Terror (the AVH state security building, Andrássy Avenue), Memento Park (relocated communist statues), Hospital in the Rock (Cold War nuclear bunker). Strong narrative-museum scene.</p>
+
+<h2>Bucharest</h2>
+
+<p>Romanian National History Museum, Palace of the Parliament (Ceaușescu's monstrosity, second-largest building in the world), Communist Romania exhibition at Cotroceni Palace. Less polished than Berlin but rawer. Cheap.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> stayed officially neutral but functioned as the European Cold War spy hub — UN Office, Austria-Hungary border. Third Man Walks (Orson Welles film, 1949) trace divided Vienna locations. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> base.</p>
+
+<h2>Warsaw</h2>
+
+<p>Palace of Culture (Stalinist gift, 1955), Warsaw Rising Museum (extends into Cold War aftermath), Museum of the History of Polish Jews (POLIN). Polish narrative powerful and political.</p>
+
+<h2>Belgrade</h2>
+
+<p>Yugoslav non-aligned movement — Tito's Mausoleum, Museum of Yugoslavia, Brutalist New Belgrade. Different Cold War experience from Soviet bloc proper.</p>
+
+<h2>Strategy</h2>
+
+<p>Berlin Cold War sites need 2 full days. Combine House of Terror (Budapest) + Hospital in the Rock for half-day. Free walking tours often Cold War-themed in these cities.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-renaissance-art",
+    title: "Best European Cities for Renaissance Art",
+    excerpt: "Florence is the global birthplace; Rome holds the High Renaissance frescoes; Venice has the Bellini-Titian school; Madrid's Prado has the export collections.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Renaissance Art & Museums",
+    metaDescription: "Where Renaissance art lives — Florence, Rome, Venice, Madrid. Uffizi, Vatican, Accademia, Prado. Booking, prices, what to prioritize.",
+    html: `
+<h2>Renaissance art map</h2>
+
+<p>Florence (1400–1500) birthed it; Rome (1500–1520) elevated it; Venice (1450–1580) softened the colors; Madrid's Prado holds royal Spanish acquisitions. Below are the cities where the masterpieces actually live.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Uffizi Gallery (Botticelli's Birth of Venus, Primavera; Leonardo's Annunciation; Raphael's Madonna). Galleria dell'Accademia (David). Bargello Museum (sculpture). Brancacci Chapel frescoes (Masaccio). Reservations mandatory; book Uffizi 4–8 weeks ahead.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Vatican Museums (Raphael Rooms, Sistine Chapel) + Saint Peter's Pietà. Galleria Borghese (Bernini's Apollo and Daphne, Caravaggio works). Reservations required at all three. Saint Peter's free but security queue 30–60 min.</p>
+
+<h2>Venice</h2>
+
+<p><a href="/en/italy/venice">Venice</a> Gallerie dell'Accademia (Bellini, Titian, Tintoretto). Scuola Grande di San Rocco (Tintoretto cycle, often called "Sistine of the North"). Frari Basilica (Titian's Assumption). Doge's Palace.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Prado Museum — Velázquez (Las Meninas), El Greco, Titian, Bosch (Garden of Earthly Delights), Raphael, Tintoretto. Spanish royal collection focus. The Prado is Madrid's main art reason. Free 6–8pm Mon–Sat.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Louvre — Mona Lisa, Wedding at Cana, Veronese, Giorgione, da Vinci. Italian Renaissance section world-class because of Napoleonic acquisitions. Reservations recommended. <a href="/en/france/paris/le-marais">Le Marais</a> walking distance.</p>
+
+<h2>Strategy</h2>
+
+<p>Florence + Rome + Venice = 7-day Renaissance pilgrimage minimum. Don't try to see all major museums in one city in one day; 2 hours per museum max before fatigue. Book early-morning entries (8:30am Uffizi) for empty galleries.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-techno-clubs",
+    title: "Best European Cities for Techno Clubs & Electronic Music",
+    excerpt: "Berlin is the global capital; Bucharest's Sunwaves and Amsterdam's De School built world-class scenes; Tbilisi (outside our European focus) is the wild card.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Techno Clubs & Underground Electronic",
+    metaDescription: "Techno destinations — Berlin (Berghain, Tresor), Amsterdam (De School), Barcelona (Razzmatazz), Bucharest, Cluj-Napoca. Door policies and night strategy.",
+    html: `
+<h2>The capital is Berlin</h2>
+
+<p>No other European city competes with Berlin's depth, programming, or cultural status for techno. The cities below are the secondary scenes — strong, growing, but distinct from Berlin's institutional weight.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Berghain/Panorama Bar (the temple), Tresor (the originator), KitKat, About Blank, Sisyphos. Friday-Sunday club marathons standard. Door policies famously selective at Berghain — wear black, go alone or in pairs, sober. <a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> and <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> De School (closed early 2024 — major loss), Shelter, RADION, Garage Noord. Amsterdam Dance Event (October) the trade-fair week. Dutch scene polished, programming-rich.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Razzmatazz (multi-room mega-club), Apolo, Pacha. Sónar Festival (June) draws international DJs for 4-day takeover. Less hardcore-techno than Berlin; more variety.</p>
+
+<h2>Bucharest</h2>
+
+<p>Bucharest's underground scene — Control, Mercato, Energiea — and the Sunwaves Festival (twice yearly at Mamaia coast) are the Romanian techno phenomenon. Romanian house sound (Petre Inspirescu, Rhadoo, Raresh) globally exported.</p>
+
+<h2>Cluj-Napoca</h2>
+
+<p>Cluj's Untold Festival (August) plus year-round small-club scene. Romania's secondary techno hub. Affordable.</p>
+
+<h2>Other strong scenes</h2>
+
+<p>Lisbon (Lux Frágil), Paris (Concrete-shaped scene), Brussels (Fuse). All have rotating world-class bookings.</p>
+
+<h2>Strategy</h2>
+
+<p>Sleep schedule shifts — clubs open midnight, fill 2am, peak 4–6am. Keep phones away — many clubs sticker-cover cameras. Wristband policy at Berghain (no re-entry, then re-entry possible). Check booking 1–2 days ahead via Resident Advisor.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-public-art-sculpture",
+    title: "Best European Cities for Public Art & Outdoor Sculpture",
+    excerpt: "Oslo's Vigeland Park has 200+ Gustav Vigeland figures; Bilbao's outdoor Guggenheim sculptures, Münster's annual sculpture project, Florence's Boboli — open-air art is its own category.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Public Art & Outdoor Sculpture",
+    metaDescription: "Cities with great outdoor sculpture — Oslo (Vigeland Park), Bilbao, Münster, Florence (Boboli), Paris (Tuileries), Edinburgh.",
+    html: `
+<h2>Why outdoor sculpture matters</h2>
+
+<p>Museum sculpture you visit; public sculpture lives in your everyday walk. Cities below have either dedicated sculpture parks or public-art programs that turn city walks into gallery experiences.</p>
+
+<h2>Oslo</h2>
+
+<p><a href="/en/norway/oslo">Oslo</a> Vigeland Sculpture Park (Frognerparken) — 200+ Gustav Vigeland bronze and granite figures arranged across hectares. Free, open year-round. Ekebergparken (modern sculpture park on hill above city). Astrup Fearnley Museum harborside outdoor works.</p>
+
+<h2>Bilbao</h2>
+
+<p>Guggenheim Bilbao — Jeff Koons's Puppy (the floral 12m-tall West Highland Terrier), Louise Bourgeois's Maman spider, Anish Kapoor's Tall Tree and the Eye. Outdoor sculptures free to visit. Plus Eduardo Chillida's Wind Combs (15 min from city) on the Atlantic.</p>
+
+<h2>Münster</h2>
+
+<p>Skulptur Projekte Münster (every 10 years; next 2027) — 35-piece city-wide outdoor exhibition. Permanent works by Donald Judd, Claes Oldenburg, others remain between editions. Day-trip from Düsseldorf or Cologne.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Boboli Gardens — Renaissance and later sculpture in formal Italian gardens. Loggia dei Lanzi (Piazza della Signoria) houses Cellini's Perseus, Giambologna's Rape of the Sabines, free outdoor 24/7.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Tuileries Garden — Maillol bronzes, modern works. Jardin du Luxembourg with bronze and marble figures. Père Lachaise Cemetery (sculpture-as-monument). Place Vendôme rotating contemporary commissions.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Royal Botanic Garden has rotating outdoor sculpture. Jupiter Artland (sculpture park, day-trip 30 min outside city) — Charles Jencks landforms, Anish Kapoor.</p>
+
+<h2>Antwerp</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> Middelheim Sculpture Park — 30-hectare park with Henry Moore, Rodin, Permeke. Free, outdoor 24/7.</p>
+
+<h2>Strategy</h2>
+
+<p>Most outdoor sculpture is free — anchor at one major sculpture park per city. Combine with picnic. Photography-friendly hours dawn and golden-hour late afternoon.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

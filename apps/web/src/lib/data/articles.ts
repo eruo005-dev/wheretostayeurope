@@ -16843,6 +16843,271 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-byzantine-history",
+    title: "Best European Cities for Byzantine History",
+    excerpt: "Istanbul (Constantinople) is the obvious; Thessaloniki and Ravenna preserve early Byzantine frescoes; Mount Athos via Thessaloniki is the surviving Byzantine monastic universe.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Byzantine History & Mosaics",
+    metaDescription: "Cities for Byzantine heritage — Istanbul, Thessaloniki, Ravenna, Athens, Sofia. Hagia Sophia, mosaics, monasteries, and the Eastern Roman legacy.",
+    html: `
+<h2>What Byzantine means</h2>
+
+<p>The Eastern Roman Empire (330–1453) — Constantinople-centered, Greek-speaking, Orthodox Christian. Western Europe inherited Roman ruins; the Byzantine Empire was continuous from late antiquity. The cities below preserve its surviving architecture, mosaics, and monastic culture.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> the capital. Hagia Sophia (537, the world-defining Byzantine church, now mosque again), Chora Church (mosaics), Cistern (Yerebatan Sarayı, underground), Hippodrome remnants. Topkapı holds Byzantine-era artifacts. <a href="/en/turkey/istanbul/sultanahmet">Sultanahmet</a> the Byzantine-Ottoman quarter.</p>
+
+<h2>Thessaloniki</h2>
+
+<p><a href="/en/greece/thessaloniki">Thessaloniki</a> 15 UNESCO Byzantine churches — Hagios Demetrios (the patron saint), Hagia Sophia (Thessaloniki's, smaller than Istanbul's), Rotunda. The walls of Thessaloniki Byzantine. Stronger Byzantine concentration than Athens.</p>
+
+<h2>Ravenna</h2>
+
+<p>Italy's Byzantine outpost. Mosaics at Basilica di San Vitale, Mausoleum of Galla Placidia, Sant'Apollinare Nuovo, Sant'Apollinare in Classe — eight UNESCO sites. The Justinian-era mosaics at San Vitale are the world's finest preserved Byzantine mosaics. Day-trip from Bologna (1h train).</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Byzantine and Christian Museum, plus Daphni Monastery (UNESCO, 1080-era mosaics, just outside Athens). Smaller Byzantine concentration than Thessaloniki.</p>
+
+<h2>Sofia</h2>
+
+<p><a href="/en/bulgaria/sofia">Sofia</a> Boyana Church (UNESCO, 13th-century frescoes that pre-figure Renaissance naturalism), Saint Sofia Church (5th-6th century basilica). Bulgaria's medieval Byzantine connections deep.</p>
+
+<h2>Venice</h2>
+
+<p><a href="/en/italy/venice">Venice</a> San Marco's golden Byzantine mosaics — Venice was Byzantine in origin and looted Constantinople in 1204. Torcello Cathedral (Venetian lagoon) older Byzantine basilica.</p>
+
+<h2>Mount Athos (via Thessaloniki)</h2>
+
+<p>Surviving Byzantine monastic republic — 20 monasteries on a peninsula, men-only entry by permit. Day-cruises from Ouranoupoli view monasteries from sea (allowed for women). Multi-day permits for men require advance application.</p>
+
+<h2>Strategy</h2>
+
+<p>Hagia Sophia best 9am or 4pm — midday tour groups intense. Ravenna mosaics need bright daylight (10am–3pm). Read our <a href="/en/articles/best-european-cities-for-pilgrimage-religious-travel">religious travel</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-flower-markets",
+    title: "Best European Cities for Flower Markets",
+    excerpt: "Amsterdam's Bloemenmarkt is the canal-floating one; London's Columbia Road is the Sunday social ritual; Nice's Cours Saleya is the Provençal classic.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Flower Markets",
+    metaDescription: "Iconic European flower markets — Amsterdam, London Columbia Road, Nice, Paris (Île de la Cité), Aalsmeer. Days, prices, and seasonal blooms.",
+    html: `
+<h2>Flower-market typology</h2>
+
+<p>Tourist daily markets (Amsterdam Bloemenmarkt — bulbs and souvenirs), social Sunday street markets (Columbia Road), Provençal regional markets (Nice), wholesale auction halls (Aalsmeer for trade buyers). Each different experience.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Bloemenmarkt — floating market on Singel canal, daily 9am–5:30pm. Tulip bulbs (vacuum-packed for international travel) the souvenir, but also fresh cut flowers. Touristy now; for serious tulip-blooming-fields, day-trip to Keukenhof (March–May only).</p>
+
+<h2>London — Columbia Road</h2>
+
+<p><a href="/en/uk/london">London</a> Columbia Road Flower Market — Sundays only, 8am–3pm. <a href="/en/uk/london/east-london-hackney">East London (Hackney)</a> ish. Closing-time bargains 2:30pm onward. Cockney market-call atmosphere ("£10 a bunch! Three for £20!"). Surrounding boutique shops open Sunday.</p>
+
+<h2>Nice — Cours Saleya</h2>
+
+<p>Daily Tuesday–Saturday 6am–5:30pm, Sunday 6am–1:30pm. Provençal flowers + produce + spices in narrow Old Nice street. Smaller than Amsterdam but the Mediterranean color and light unmatched. Mondays the market space hosts antiques instead of flowers.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Marché aux Fleurs at Île de la Cité (closed Mondays for the bird market). Smaller than the past — Paris flower-market scene declined post-COVID — but iconic. Carries forced lily-of-the-valley in May (muguet, French May 1 tradition).</p>
+
+<h2>Aalsmeer (Netherlands wholesale)</h2>
+
+<p>Royal FloraHolland Aalsmeer — world's largest flower auction. Trade buyers only for purchases, but visitor gallery 7am–11am Mon-Fri (€7) shows flowers cycling through Dutch-clock auction system. 30 minutes from Amsterdam.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Piazza della Repubblica weekend flower stalls; Mercato Centrale flower vendors. Small-scale but charming.</p>
+
+<h2>Strategy</h2>
+
+<p>Flowers fresh local — buy day-of-travel only. Bulbs and dried arrangements the international souvenirs. Tulip bulb season October–November (planting); Keukenhof tulip-field viewing March–May only.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-public-libraries",
+    title: "Best European Cities for Architecturally Notable Public Libraries",
+    excerpt: "Helsinki's Oodi is the modern poster child; Stuttgart's stark white cube; Birmingham's golden tiered pavilion; Vienna and Prague preserve the historic ones.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Public Library Architecture",
+    metaDescription: "Architecturally great public libraries — Helsinki Oodi, Stuttgart, Birmingham, Vienna, Prague. Why visit, opening hours, photography rules.",
+    html: `
+<h2>Libraries as architecture</h2>
+
+<p>Several European cities have built or rebuilt landmark libraries since 2010. The cities below offer interior architecture rivaling many art museums — and entry is universally free.</p>
+
+<h2>Helsinki — Oodi</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Oodi (2018) — wood-and-glass three-floor library opposite Parliament. Top floor pure architectural drama (curving wood ceiling, panoramic windows). Free, 8am–10pm weekdays. Features include 3D printers, sewing machines, recording studios. Architectural pilgrimage worth a dedicated 2-hour visit.</p>
+
+<h2>Stuttgart</h2>
+
+<p>Stadtbibliothek Stuttgart (2011) — pure white cube, multi-level central atrium with cantilevered balconies. South Korean architect Yi Eun-young. Mon–Sat 9am–9pm. The interior whiteness becomes overwhelming-in-a-good-way for 15 minutes minimum. Photogenic.</p>
+
+<h2>Birmingham</h2>
+
+<p>Library of Birmingham (2013, Mecanoo) — golden filigree exterior, tiered atriums inside. UK's largest public library. Free entry; rooftop garden; Shakespeare Memorial Room (paneled 1882 chamber relocated to top floor).</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Austrian National Library (Hofburg complex) — Prunksaal (State Hall, 1726), 200,000 books in Baroque setting. Not free (€8 entry), but magnificent. The library Wes Anderson dreamed of.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Strahov Monastery Library — Baroque Theological Hall and Philosophical Hall, both with frescoed ceilings and curated old-book collections. €5 entry; can only enter halls (not approach books); photography supplement applies.</p>
+
+<h2>Coimbra</h2>
+
+<p>Joanine Library at Coimbra University (Portugal) — Baroque library housing colonies of bats that protect manuscripts from insects (yes, really). UNESCO. Day-trip from <a href="/en/portugal/lisbon">Lisbon</a> (2h train) or Porto.</p>
+
+<h2>Strategy</h2>
+
+<p>Free entry to most contemporary libraries; restricted in historic ones (Strahov, Vienna). Photography varies — quiet/no-flash universally; fee-supplemented at Strahov. Combined library-tours possible (Helsinki Oodi + Tallinn Library 2.5h ferry).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-chocolate-museums",
+    title: "Best European Cities for Chocolate Museums",
+    excerpt: "Cologne's Imhoff Museum is the working-factory tour; Bruges's Choco-Story is the Belgian classic; Zurich's Lindt Home of Chocolate is the largest in the world.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Chocolate Museums",
+    metaDescription: "Where to visit chocolate museums — Cologne, Bruges, Zurich, Brussels, Barcelona. Working factories, history exhibits, and tasting rooms.",
+    html: `
+<h2>Two formats</h2>
+
+<p>Working-factory museums (you watch chocolate being made) vs history-and-tasting museums (curated displays + sample bars). Both formats below; pick by interest.</p>
+
+<h2>Cologne</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> Imhoff-Schokoladenmuseum (Imhoff Chocolate Museum) — built into a working chocolate factory on Rhine peninsula. Watch tempering and molding live; integrated tasting fountain. €15 entry, daily. <a href="/en/germany/cologne/altstadt-deutz">Altstadt</a> walking distance.</p>
+
+<h2>Bruges</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> Choco-Story Brugge — strong on Belgian chocolate history, demonstrations, tasting. €10 entry. Less working-factory than Cologne; more story-museum.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Lindt Home of Chocolate (2020, opened on Lindt's actual factory grounds, 30 min from Zurich center). World's largest chocolate fountain (9 meters), tasting bar with unlimited Lindor truffle samples. €15. Suburban location requires train + walk.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Choco-Story Brussels (similar group as Bruges). Plus Galler, Neuhaus, Pierre Marcolini, Mary Chocolatier flagship shops in <a href="/en/belgium/brussels/centre-historique">Centre Historique</a> — practically a chocolate tour without museum entry.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Museu de la Xocolata (Sant Pere) — Spanish chocolate-history focus. €6. Less impressive than Northern European; combined with admission to <a href="/en/spain/barcelona/el-born">El Born</a> walking tour.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Choco-Story Paris (similar chain). Plus chocolate boutique tours (Patrick Roger, Pierre Hermé, Jean-Paul Hévin) deliver more in 90 minutes than most museums.</p>
+
+<h2>Strategy</h2>
+
+<p>Combine museum + boutique-shopping for half-day "chocolate tour." Best for kids in Cologne (factory floor) or Zurich (fountain). Avoid summer weekends — long queues at popular museums.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-paper-stationery",
+    title: "Best European Cities for Paper Stationery & Pen Shops",
+    excerpt: "Florence's Pineider has been making paper since 1774; Paris's Sennelier and Stockholm's Ordning & Reda each represent distinct national traditions.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Paper Stationery & Fountain Pen Shops",
+    metaDescription: "Cities for stationery — Florence, Paris, London, Vienna, Stockholm. Paper marbling, fountain pens, hand-bound notebooks, and traditional shops.",
+    html: `
+<h2>Stationery as souvenir</h2>
+
+<p>Light, packable, distinctive — stationery is the underrated travel souvenir. The cities below have either heritage manufacturers or dedicated boutiques carrying serious paper, ink, and pen brands.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Pineider (1774, leather-bound journals + marbled paper), Il Papiro (Florentine marbled paper, multiple shops), Giulio Giannini e Figlio (since 1856). Florentine marbled paper is the regional craft — €10–80 per sheet. Plus Cartoleria Gobbi for wax seals and traditional stationery.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Sennelier (since 1887, art supplies + premium paper), G. Lalo writing paper, Mont Blanc flagship, Stylus pen specialist shops in <a href="/en/france/paris/saint-germain">Saint-Germain</a>. Plus Marie Papier (Marie de Beaumarchais's stationery, refined Parisian aesthetic).</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Smythson (1887, Bond Street), Choosing Keeping (Soho, Japanese-imported plus European), Liberty stationery section. Smythson's diaries and notebooks are the British heritage. Pricey (£60–250 for journal).</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Stein Schreibwaren (writing-supply), Tobiwabohn (wood pens). Vienna's Habsburg-era stationery culture preserved in surviving heritage shops.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Ordning & Reda (Swedish minimalist stationery brand, multiple stores). Akademibokhandeln in Stockholm. Less fountain-pen tradition; strong on contemporary design.</p>
+
+<h2>Strategy</h2>
+
+<p>Florentine marbled paper packs flat in checked bags; pens carry-on. Heritage shops in Florence often family-run, closed Sundays. Combined paper-buying tour 2 hours minimum. <a href="/en/articles/best-european-cities-for-bookshops">Bookshops</a> the obvious companion guide.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-walkability",
+    title: "Best European Cities for Walkability",
+    excerpt: "Compact old centers + good public transit + safe pavements. Florence, Edinburgh, Lisbon, Amsterdam, and Vienna deliver — Madrid and Rome have the chaos overhead.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Walkability",
+    metaDescription: "Most walkable European cities — Florence, Edinburgh, Lisbon, Amsterdam, Vienna, Copenhagen, Munich. Why they work and which to avoid.",
+    html: `
+<h2>What walkability actually means</h2>
+
+<p>Compact city center (under 4km diameter), pedestrianized core streets, dense sights/shops/restaurants per kilometer, separated pavements, low car traffic in tourist zones. Hills can disqualify; bad pavements (Naples) make walking hostile. Below are the cities that genuinely deliver.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> the textbook case. Centro Storico is 1.5km × 1km — every major sight (Duomo, Uffizi, Ponte Vecchio, Pitti Palace, Santa Croce) within 20-min walk of any other. Mostly flat. Pedestrianized ZTL zones in old town. <a href="/en/italy/florence/santa-maria-novella-stazione">Santa Maria Novella station</a> within walk of all hotels.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> compact Old Town + New Town walkable in single day. Royal Mile is a 1.6km spine connecting Castle and Holyrood. Pavements wide, traffic moderate. Hills in places (Calton Hill, Arthur's Seat) but core flat-ish.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> walkable but hilly. Compensating: trams (28, 12) supplement walking; funiculars handle steepest streets. Cobblestones tough on knees over multi-hour walks. Rewards good shoes and pacing.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> flat, dense, canal-grid easy to navigate, trams supplement walking. Bicycle traffic the main hazard — distinguish bike lane from pavement.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Innere Stadt + Ring walkable in half-day. Pristine pavements. Some tram help across the Ring. Larger than Florence so 2 days minimum to explore at walking pace.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> compact center + bike-and-walk culture. Strøget pedestrian street is one of Europe's longest. Flat. Cold winters limit October–March walkability.</p>
+
+<h2>Cities to skip if walking matters</h2>
+
+<p>Naples (suicidal pavements), Athens (chaotic), Rome (overwhelming, hot summer), Madrid (vast). All are still doable; just less walking-pleasant.</p>
+
+<h2>Strategy</h2>
+
+<p>Plan loops, not radial walks. Café-rest every 90 minutes prevents overdoing. <a href="/en/articles/best-european-cities-for-cycling-infrastructure">Cycling guide</a> for the bike-share companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

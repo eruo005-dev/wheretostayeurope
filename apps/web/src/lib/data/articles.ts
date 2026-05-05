@@ -10761,6 +10761,331 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 35 — culture / arts / niche audiences
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-jewish-heritage",
+    title: "Best European Cities for Jewish Heritage Travel",
+    excerpt: "Where European Jewish history and culture is preserved and accessible. Honest sort by depth.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Jewish Heritage — Honest 2026",
+    metaDescription: "Where European Jewish history and culture is preserved and accessible. Honest sort by depth.",
+    html: `
+<p>European Jewish heritage spans 2000+ years, from Sephardic Spain to Ashkenazi Eastern Europe. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination Jewish-heritage cities</h2>
+
+<ul>
+  <li><strong>Krakow Kazimierz:</strong> Restored Jewish quarter. 7 synagogues, museums, kosher restaurants. Auschwitz day-trip essential.</li>
+  <li><strong>Prague Josefov:</strong> Old Jewish Quarter — Old-New Synagogue (1270s), Old Jewish Cemetery, six museums.</li>
+  <li><strong>Berlin:</strong> Jewish Museum (Libeskind), Holocaust Memorial, Topography of Terror, Memorial to Murdered Sinti and Roma.</li>
+  <li><strong>Vienna Leopoldstadt:</strong> Pre-WWII center; renewed Jewish life today.</li>
+  <li><strong>Toledo, Spain:</strong> Pre-1492 Sephardic heritage. Synagogues converted to churches but visitable.</li>
+</ul>
+
+<h2>Tier 2 — strong heritage cities</h2>
+
+<ul>
+  <li><strong>Budapest VII district:</strong> Largest active Jewish community in Central Europe. Great Synagogue, Dohány Street.</li>
+  <li><strong>Antwerp:</strong> Hasidic community + diamond quarter heritage.</li>
+  <li><strong>Venice:</strong> The original "Ghetto" (the word originates here, 1516).</li>
+  <li><strong>Tudela, Girona, Cordoba (Spain):</strong> Sephardic heritage tour.</li>
+  <li><strong>Thessaloniki:</strong> Pre-WWII largest Jewish community in Balkans.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Amsterdam Jewish Cultural Quarter:</strong> Anne Frank House + Jewish Historical Museum.</li>
+  <li><strong>Trani, Italy:</strong> Rare medieval Italian Jewish quarter still active.</li>
+  <li><strong>Ferrara, Italy:</strong> Renaissance Jewish quarter.</li>
+  <li><strong>Avignon, France:</strong> Jewish history pre-1492.</li>
+</ul>
+
+<h2>Practical considerations</h2>
+
+<ul>
+  <li><strong>Sabbath:</strong> Jewish quarter restaurants/synagogues observe varying Sabbath rules. Check before visiting Friday-Saturday.</li>
+  <li><strong>Holocaust memorials:</strong> Plan emotional pacing. Don't try Auschwitz + Holocaust Memorial in same trip.</li>
+  <li><strong>Synagogue tours:</strong> Some require pre-registration or modest dress.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For comprehensive Jewish-heritage trips, combine 2-3 cities. Krakow + Prague + Berlin works well as a 10-day trip. Toledo + Granada + Cordoba for Sephardic Spain. Pace heavy memorial visits.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-classical-music-venues",
+    title: "Best European Cities for Classical Music Venues",
+    excerpt: "Where to hear European classical music at iconic venues. Honest sort by program quality.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Classical Music Venues — Honest 2026",
+    metaDescription: "Where to hear European classical music at iconic venues. Honest sort by program quality.",
+    html: `
+<p>Classical music venues are an underrated reason to pick European cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination venues</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Musikverein (Vienna Philharmonic) + Konzerthaus + Staatsoper. Three world-class venues.</li>
+  <li><strong>Berlin:</strong> Philharmonie (Berlin Philharmonic). Hans Scharoun building.</li>
+  <li><strong>Amsterdam:</strong> Concertgebouw — among the world's best acoustics.</li>
+  <li><strong>Dresden:</strong> Semperoper for opera + Frauenkirche for sacred music.</li>
+  <li><strong>Salzburg:</strong> Festspielhaus during festival.</li>
+</ul>
+
+<h2>Tier 2 — strong venue cities</h2>
+
+<ul>
+  <li><strong>London:</strong> Royal Albert Hall, Wigmore Hall, Royal Festival Hall, Cadogan Hall.</li>
+  <li><strong>Paris:</strong> Salle Pleyel, Philharmonie, Théâtre des Champs-Élysées.</li>
+  <li><strong>Hamburg:</strong> Elbphilharmonie (recent, dramatic).</li>
+  <li><strong>Munich:</strong> Gasteig + Bayerische Staatsoper.</li>
+  <li><strong>Florence:</strong> Maggio Musicale Fiorentino festival.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Bayreuth:</strong> Wagner only, July-August. Tickets impossible without years of waiting.</li>
+  <li><strong>Helsinki:</strong> Sibelius's home. Strong contemporary scene.</li>
+  <li><strong>Stockholm:</strong> Royal Opera + Berwaldhallen.</li>
+  <li><strong>Verona Arena:</strong> Outdoor opera, June-September.</li>
+</ul>
+
+<h2>Sacred music venues</h2>
+
+<ul>
+  <li><strong>Notre-Dame Paris (post-restoration):</strong> Concert series.</li>
+  <li><strong>King's College Chapel, Cambridge:</strong> Christmas Eve broadcast originates here.</li>
+  <li><strong>St. Thomas Church, Leipzig:</strong> Bach's church.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book 2-3 months ahead</strong> for major venues. Vienna Musikverein subscribers fill many dates.</li>
+  <li><strong>Standing-room tickets:</strong> Vienna and Munich offer cheap (€10-15) standing tickets — queue 1-2h.</li>
+  <li><strong>Festival timing:</strong> Plan trips around specific festival weeks for headlining performances.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-fashion-week",
+    title: "Best European Cities for Fashion Week and Style Trips",
+    excerpt: "Paris, Milan, London, Madrid — honest sort of European fashion-trip destinations.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Fashion — Honest 2026",
+    metaDescription: "Paris, Milan, London, Madrid — honest sort of European fashion-trip destinations.",
+    html: `
+<p>Fashion-trip cities differ by season and scene. Here's the honest sort.</p>
+
+<h2>Tier 1 — fashion capitals</h2>
+
+<ul>
+  <li><strong>Milan:</strong> Italian fashion capital. The Quadrilatero della Moda (Via Monte Napoleone) for flagships. Fashion Weeks Feb + Sept.</li>
+  <li><strong>Paris:</strong> Avenue Montaigne, Saint-Honoré, Rue du Faubourg Saint-Honoré. Couture Weeks Jan + July; Fashion Weeks March + Sept.</li>
+  <li><strong>London:</strong> Bond Street, Sloane Street, Burlington Arcade. Fashion Week Feb + Sept.</li>
+  <li><strong>Madrid:</strong> Calle Serrano in Salamanca. Madrid Fashion Week Feb + Sept.</li>
+</ul>
+
+<h2>Tier 2 — strong fashion cities</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Independent design scene. Fashion Week emerging.</li>
+  <li><strong>Copenhagen:</strong> Scandinavian-design capital. Fashion Week Aug + Jan.</li>
+  <li><strong>Stockholm:</strong> Strong street-style + Acne, Filippa K flagships.</li>
+  <li><strong>Antwerp:</strong> Belgian designers (Dries Van Noten, Ann Demeulemeester) heritage.</li>
+</ul>
+
+<h2>Tier 3 — vintage and design-shopping cities</h2>
+
+<ul>
+  <li><strong>Berlin Mitte:</strong> Independent designer boutiques + flea markets.</li>
+  <li><strong>Amsterdam Jordaan:</strong> Vintage strips.</li>
+  <li><strong>Lisbon Príncipe Real:</strong> Concept-store quarter.</li>
+  <li><strong>London Shoreditch:</strong> Vintage + emerging designers.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Fashion Week access:</strong> Most shows are industry-only. Public events grow each year — Vogue's openings.</li>
+  <li><strong>Sample sales:</strong> Multiple-brand sample sales held during off-Fashion-Week weeks.</li>
+  <li><strong>Outlet shopping:</strong> McArthurGlen outlets across Europe (Roermond, Serravalle, etc.) for discounted designer.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-digital-detox",
+    title: "Best European Cities and Towns for Digital Detox",
+    excerpt: "Where to actually unplug in Europe. Honest sort of slower-paced cities and rural retreats.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Digital Detox — Honest 2026",
+    metaDescription: "Where to actually unplug in Europe. Honest sort of slower-paced cities and rural retreats.",
+    html: `
+<p>Digital-detox in Europe is a real travel niche. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination digital-detox places</h2>
+
+<ul>
+  <li><strong>Hebridean Islands, Scotland:</strong> Limited cell signal in many areas. Walking + stone houses.</li>
+  <li><strong>Faroe Islands:</strong> Remote + dramatic.</li>
+  <li><strong>Lofoten Islands, Norway:</strong> Northern fishing villages.</li>
+  <li><strong>Açores, Portugal:</strong> Dramatic islands.</li>
+  <li><strong>Western Crete (Sfakia):</strong> Mountain villages with limited connectivity.</li>
+</ul>
+
+<h2>Tier 2 — slower European cities</h2>
+
+<ul>
+  <li><strong>Bath, UK:</strong> Spa culture + Georgian buildings.</li>
+  <li><strong>Annecy, France:</strong> Lake-front, calm.</li>
+  <li><strong>Salzburg (off-festival):</strong> Compact, slow-paced.</li>
+  <li><strong>Sintra, Portugal:</strong> Forested palace town.</li>
+  <li><strong>Český Krumlov, Czechia:</strong> Off-day-tripper season.</li>
+</ul>
+
+<h2>Tier 3 — wellness-retreat cities</h2>
+
+<ul>
+  <li><strong>Karlovy Vary, Czechia:</strong> Spa town tradition.</li>
+  <li><strong>Baden-Baden, Germany:</strong> Same.</li>
+  <li><strong>Vichy, France:</strong> French spa.</li>
+  <li><strong>Bath, UK:</strong> Roman + Thermae Bath Spa.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Plan an actual offline plan:</strong> Books, maps on paper, journaling.</li>
+  <li><strong>Inform contacts:</strong> Tell family/work you're out of touch for X days.</li>
+  <li><strong>Half-detox:</strong> Some travelers prefer scheduled connectivity (1h/day in evening).</li>
+  <li><strong>Avoid checking-in destinations:</strong> If you'll feel pressure to post, pick truly remote.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sober-travel",
+    title: "Best European Cities for Sober Travel (Alcohol-Free)",
+    excerpt: "European travel without alcohol — cities and trip styles that work without drinking.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Sober Travel — Honest 2026",
+    metaDescription: "European travel without alcohol — cities and trip styles that work without drinking.",
+    html: `
+<p>European travel often centers on alcohol. Sober travelers can navigate around it. Here's the honest sort.</p>
+
+<h2>Cities with strong sober-friendly culture</h2>
+
+<ul>
+  <li><strong>Reykjavík:</strong> Strong AA presence. Iceland was famously dry until 1989; tradition continues.</li>
+  <li><strong>Helsinki:</strong> Sauna culture is the social hub, not bars.</li>
+  <li><strong>Stockholm:</strong> Coffee culture (kanelbullar + fika) is the pillar.</li>
+  <li><strong>Vienna:</strong> Coffee-house tradition fills the social role.</li>
+  <li><strong>Lisbon, Porto:</strong> Café-pastry tradition is strong.</li>
+</ul>
+
+<h2>Cities with naturally less alcohol-centric culture</h2>
+
+<ul>
+  <li><strong>Istanbul:</strong> Muslim-majority; tea/coffee culture extensive.</li>
+  <li><strong>Athens:</strong> Mediterranean-coffee tradition; ouzo-meal-time-only.</li>
+  <li><strong>Iceland (outside Reykjavík):</strong> Outdoor culture.</li>
+</ul>
+
+<h2>Cities where it's easy</h2>
+
+<ul>
+  <li><strong>Most modern cities have non-alcoholic cocktail bars:</strong> Lyaness in London, Caffe Florian in Venice, etc.</li>
+  <li><strong>Most restaurants offer non-alcoholic wine pairings:</strong> Now standard at higher-end venues.</li>
+  <li><strong>Coffee tradition:</strong> All European cities, not just Italian.</li>
+</ul>
+
+<h2>Cities where sober travel is harder</h2>
+
+<ul>
+  <li><strong>Belgian beer cities (Bruges, Brussels):</strong> Beer-tasting is the trip.</li>
+  <li><strong>Tuscany agriturismo:</strong> Wine pairings are central.</li>
+  <li><strong>Munich during Oktoberfest:</strong> Avoid this specific window.</li>
+  <li><strong>Spanish cities during major fiestas:</strong> Same.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Coffee-house tour as alternative to wine-tasting:</strong> Vienna, Lisbon, Naples, Paris.</li>
+  <li><strong>Sauna + thermal bath culture:</strong> Helsinki, Budapest, Reykjavík replace bar culture.</li>
+  <li><strong>Mocktail bars:</strong> Major cities increasingly have dedicated alcohol-free bars.</li>
+  <li><strong>Activity-focused trips:</strong> Hiking, museums, photography reduce social-pressure context.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-solo-dining",
+    title: "Best European Cities for Solo Dining (Honest 2026)",
+    excerpt: "Where European food culture welcomes solo diners — and which cities make it awkward.",
+    publishedAt: "2026-05-30",
+    reviewedAt: "2026-05-30",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Solo Dining — Honest 2026",
+    metaDescription: "Where European food culture welcomes solo diners — and which cities make it awkward.",
+    html: `
+<p>Solo dining is a normal part of European travel. Some cities make it easier than others.</p>
+
+<h2>Tier 1 — actively solo-dining-friendly</h2>
+
+<ul>
+  <li><strong>Tokyo (technically Asia):</strong> The model — many restaurants designed for solo diners.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a> + Spanish tapas cities:</strong> Bar-counter dining is standard. Pintxos in San Sebastián is solo-friendly.</li>
+  <li><strong><a href="/en/italy/naples">Naples</a> pizzerias:</strong> Bar-counter pizza is fast and solo-fine.</li>
+  <li><strong>Vienna coffee-houses:</strong> Solo reading + coffee tradition is centuries old.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Porto:</strong> Tasca counter dining + pastel de nata bakeries.</li>
+</ul>
+
+<h2>Tier 2 — workable solo dining</h2>
+
+<ul>
+  <li><strong>London gastropubs:</strong> Bar-side dining standard.</li>
+  <li><strong>Paris brasseries:</strong> Counter (zinc) dining traditional.</li>
+  <li><strong>Berlin imbisses:</strong> Quick-service standing/sitting fast food.</li>
+  <li><strong>Copenhagen smørrebrød lunch counters.</strong></li>
+  <li><strong>Helsinki cafeterias.</strong></li>
+</ul>
+
+<h2>Tier 3 — possible but takes effort</h2>
+
+<ul>
+  <li><strong>Italian trattorias outside lunch:</strong> Family-meal context can feel awkward solo.</li>
+  <li><strong>French Michelin restaurants:</strong> Doable but you'll feel watched.</li>
+  <li><strong>Greek tavernas in evening:</strong> Family-meal context.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Lunch as main meal:</strong> Less social-pressure context.</li>
+  <li><strong>Bar-side over table:</strong> Standing or counter dining is faster and less awkward.</li>
+  <li><strong>Bring a book or notebook:</strong> Standard solo-traveler signal.</li>
+  <li><strong>Tasting menus:</strong> Some cities (Tokyo, Lisbon, Madrid) excel for solo.</li>
+  <li><strong>Avoid romantic-couples restaurants:</strong> Verify before booking.</li>
+</ul>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

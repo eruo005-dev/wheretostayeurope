@@ -18413,6 +18413,279 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-jazz-festivals",
+    title: "Best European Cities for Jazz Festivals",
+    excerpt: "Montreux's lakeside Swiss spectacle; North Sea Jazz in Rotterdam; Copenhagen Jazz Festival's two-week city takeover; Umbria Jazz at Perugia and Marciac in southwest France.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Jazz Festivals (2026)",
+    metaDescription: "Top European jazz festivals — Montreux, Copenhagen, Rotterdam, Umbria/Perugia, Marciac. Lineups, dates, ticket strategies.",
+    html: `
+<h2>Festival hierarchy</h2>
+
+<p>Montreux and Copenhagen lead European jazz festivals on lineup depth and reputation; specialty festivals (Marciac, Umbria, Vienne) draw purists; commercial venues (North Sea Jazz, JazzOpen Stuttgart) span big audience. Below: where each runs.</p>
+
+<h2>Montreux</h2>
+
+<p>Montreux Jazz Festival (Switzerland) — early July, two weeks. Lakeside venue Stravinski Hall (3,500 seats) plus free Lake Stage. Tickets €100–250 for major acts; free outdoor stages all festival. Books 6–8 months ahead.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Copenhagen Jazz Festival (early July, 10 days) — 1,200+ concerts spread across the city. Wide range from free outdoor to €60–120 ticketed. Smaller venues (Jazzhus Montmartre, Vinyl Smag) intimate. Stay through festival to fully experience.</p>
+
+<h2>Rotterdam</h2>
+
+<p><a href="/en/netherlands/rotterdam">Rotterdam</a> North Sea Jazz Festival (mid-July). Three days, 1,000+ artists across Ahoy venue. Tickets €110–180/day. Day-trippers from Amsterdam common.</p>
+
+<h2>Perugia (Umbria Jazz)</h2>
+
+<p>Umbria Jazz Festival (early-mid July). Italian jazz festival — Perugia hilltop city + Assisi side venues. €40–120 day tickets. Lineups mix international stars and Italian talent.</p>
+
+<h2>Marciac</h2>
+
+<p>Jazz in Marciac (southwest France, late July to mid-August). Small village (1,200 residents) hosts 200,000+ festival visitors. Wynton Marsalis a regular. Camping and small hotels book 6+ months ahead. Day-trip impossible — must stay multiple nights.</p>
+
+<h2>Vienne (Lyon-area)</h2>
+
+<p>Jazz à Vienne (early-mid July) — Roman amphitheatre setting south of <a href="/en/france/lyon">Lyon</a>. Lineups jazz-rock-fusion broad. Day-trip from Lyon (30 min train).</p>
+
+<h2>Other strong</h2>
+
+<p>JazzOpen Stuttgart (mid-July), Vienne, Stockholm Jazz Festival (October), London Jazz Festival (November), Barcelona Voll-Damm Jazz (late October).</p>
+
+<h2>Strategy</h2>
+
+<p>Hotels around festival cities go up 200–400% during dates. Book 6 months ahead. Multi-day passes save vs single-day. Free stages add up to full days for budget travelers.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-jewelry-shopping",
+    title: "Best European Cities for Jewelry Shopping",
+    excerpt: "Paris Place Vendôme is the global luxury crown; Rome's Via Condotti and Milan's Quadrilatero compete differently; Antwerp dominates the diamond trade.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Jewelry Shopping",
+    metaDescription: "Top European jewelry destinations — Paris (Place Vendome), Rome (Via Condotti), Milan, Antwerp (diamond), Geneva, Florence.",
+    html: `
+<h2>City specializations</h2>
+
+<p>Paris dominates the haute joaillerie segment (Cartier, Van Cleef, Boucheron — flagship boutiques cluster on Place Vendôme); Antwerp processes 84% of global diamonds; Florence preserves goldsmith tradition; Milan and Rome offer Italian fine jewelry. Different segments, different cities.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Place Vendôme is the global haute joaillerie square — Cartier (No. 13), Van Cleef & Arpels (No. 22), Boucheron (No. 26), Chaumet (No. 12), Mauboussin, Buccellati, JAR. Flagships only here; smaller boutiques throughout 1st arr. Plus contemporary designers in <a href="/en/france/paris/le-marais">Le Marais</a>.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Via Condotti the Roman luxury jewelry street. Bulgari (founded Rome 1884), Damiani, Pomellato, Buccellati, Cartier. Italian flair in jewelry distinct — bolder color, design-led. Plus historic shops near Pantheon and Piazza di Spagna.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Quadrilatero della Moda (Via Montenapoleone, Via della Spiga) plus Galleria Vittorio Emanuele II. Bulgari, Pomellato (Milan-headquartered), Damiani, Mattioli. Plus contemporary designers in Brera. <a href="/en/italy/milan/quadrilatero-della-moda">Quadrilatero</a> luxury cluster.</p>
+
+<h2>Antwerp</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> the global diamond capital. The Diamond District around Pelikaanstraat — 1,500+ businesses, 84% of rough diamonds processed worldwide pass through. Buy direct from polishers at 30–50% below high-street prices (with proper grading certificates). Less luxury-flagship, more wholesale-bargaining.</p>
+
+<h2>Geneva</h2>
+
+<p>Swiss watch capital extends to fine jewelry. Patek Philippe Salons, Cartier, Piaget, Chopard. Less famous than Place Vendôme but strong allocation lists.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Ponte Vecchio jewellers since 1593 — small Goldsmith shops with 400+ year tradition. Cassetti, Vannini. Contemporary Florentine designers (Aurum Atelier, Angela Caputi) in surrounding old town. Plus historic Officine Nicolai goldsmith school.</p>
+
+<h2>Strategy</h2>
+
+<p>Place Vendôme appointment-required at top houses for serious purchases (€20,000+). Antwerp diamond purchases require GIA or HRD certification; transactions cash + bank transfer common. Tax-free shopping for non-EU residents on €100+ — request VAT refund forms at purchase.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-glamping",
+    title: "Best European Cities for Glamping (Luxury Camping)",
+    excerpt: "Provence's wine-country yurts; Tuscan vineyard safari tents; Scottish bothies upgraded; Iceland's geothermal-heated igloos. Glamping bases vary by climate.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Glamping",
+    metaDescription: "Glamping bases — Provence, Tuscany, Scotland, Iceland, Slovenia. Where to find safari tents, yurts, treehouses with proper bedding and bathrooms.",
+    html: `
+<h2>Glamping defined</h2>
+
+<p>Glamping = camping with hotel-grade beds, bathrooms (in-tent or shared luxury), restaurant or breakfast service. €120–600/night typical; €1,000+ for ultra-luxury. Below are the regions with the densest glamping infrastructure, anchored by gateway cities.</p>
+
+<h2>Provence (Aix-en-Provence base)</h2>
+
+<p>Loire Valley + Provence host France's densest glamping scene — Domaine de Manville, La Domaine de Caïs, Lou Castelet. Yurts and luxury safari tents in lavender fields. €200–500/night. Day-trip to Avignon, Saint-Rémy, Aix.</p>
+
+<h2>Tuscany (Florence or Siena base)</h2>
+
+<p>Tuscan vineyard glamping — Glamping in Tuscany at La Selva, Country House Bocciola. Safari-style tents in vineyards. €150–400/night. Combine with wine tastings and hilltop villages.</p>
+
+<h2>Scottish Highlands (Inverness or Edinburgh base)</h2>
+
+<p>Glampings near Loch Ness, Cairngorms — The Pelican, Eagle Brae luxury cabins, Killiecrankie House. Wood-fired hot tubs. €180–600/night. Wildlife (red deer, eagles) typical sightings.</p>
+
+<h2>Iceland (Reykjavik base)</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> nearby — Hotel Rangá's geothermally-heated bubbles, ION Adventure, Black Beach Suites. Aurora-viewing windows in winter; midnight-sun summers. €350–900/night. Wilderness setting outside city.</p>
+
+<h2>Slovenia (Ljubljana base)</h2>
+
+<p>Lake Bled and Soča Valley luxury treehouse glamping. Garden Village Bled, Chateau Ramšak. Affordable Europe glamping (€120–280/night).</p>
+
+<h2>Croatia (Split or Zagreb base)</h2>
+
+<p>Mostar, Plitvice, Istria glamping — Plitvice Holiday Resort, Mauricijus Glamping, Marina Croatia. Mediterranean coast with mountain options. €150–350/night.</p>
+
+<h2>Strategy</h2>
+
+<p>Book 4–6 months ahead summer. Off-season (April-May, September-October) significantly cheaper. Most glamping requires car rental — public transport rarely reaches sites. Dietary restrictions and bed configurations confirm at booking.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tech-startup-conferences",
+    title: "Best European Cities for Tech & Startup Conferences",
+    excerpt: "Lisbon's Web Summit dominates; Amsterdam (Money 20/20), Helsinki (Slush), London (multiple), Barcelona (4YFN). Choosing where to attend overlaps which scene to research.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Tech Conferences (2026)",
+    metaDescription: "Top European tech and startup conferences — Lisbon Web Summit, Helsinki Slush, Amsterdam Money 20/20, Barcelona 4YFN, London. Dates and value.",
+    html: `
+<h2>The European tech-conference circuit</h2>
+
+<p>Different conferences attract different audiences: Web Summit (Lisbon, scale), Slush (Helsinki, founder-focused), Money 20/20 (Amsterdam, fintech), Mobile World Congress (Barcelona, mobile/telco). Below: choose by your sector.</p>
+
+<h2>Lisbon — Web Summit</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Web Summit (early November) — 70,000+ attendees, largest European tech conference. Tickets €1,000–4,500 (Open €99 for evening events only). Booking: 8+ months ahead for accommodations. The "Davos of tech" reputation.</p>
+
+<h2>Helsinki — Slush</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Slush (late November-early December) — 12,000+ attendees, founder + investor focus. Tickets €700–2,200. Smaller and more genuinely networking-driven than Web Summit. Cold setting helps focus indoors.</p>
+
+<h2>Amsterdam — Money 20/20 Europe</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Money 20/20 Europe (early June) — fintech-specific. €2,500–4,500. Strong banking, payments, crypto attendance. RAI venue.</p>
+
+<h2>Barcelona — Mobile World Congress + 4YFN</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Mobile World Congress (late February-early March) — telco/mobile-industry, 100,000+ attendees. Plus 4YFN startup track. Hotels 3–5x normal rates during conference week.</p>
+
+<h2>London — multiple</h2>
+
+<p><a href="/en/uk/london">London</a> hosts year-round — TNW Conference, London Tech Week (June), Connect (sales/marketing). High base rates; networking beyond conferences strong.</p>
+
+<h2>Berlin — multiple</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> NOAH Berlin, Tech Open Air (TOA), bits&pretzels (Munich). German startup scene mature post-2015. €500–2,000 typical.</p>
+
+<h2>Paris — Vivatech</h2>
+
+<p><a href="/en/france/paris">Paris</a> Vivatech (June) — French tech ecosystem celebration. €700–1,500.</p>
+
+<h2>Strategy</h2>
+
+<p>Conference passes pay back if you have specific networking targets; otherwise free side events sometimes more valuable. Book accommodations 6+ months ahead Web Summit/MWC. Consider Airbnb Plus over hotels (often better availability).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-classical-organ-concerts",
+    title: "Best European Cities for Classical Organ Concerts",
+    excerpt: "Saint-Sulpice (Paris) and Notre-Dame have the storied historic organs; Vienna's Stephansdom, Cologne's Cathedral, Berlin's Konzerthaus host weekly concerts.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Pipe Organ Concerts",
+    metaDescription: "Cities for organ music — Paris (Saint-Sulpice), Vienna (Stephansdom), Cologne, Berlin, London (St Paul's), Leipzig. Concert series and free recitals.",
+    html: `
+<h2>Organ-music geography</h2>
+
+<p>Major cathedrals across Europe maintain serious organ programs — many hosting weekly free recitals. Specific instruments (Cavaillé-Coll in Paris, Schnitger in Hamburg, Bach's preferred organs in Leipzig) draw pilgrims. Below are the cities where regular concerts are easy to attend.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Saint-Sulpice (the Cavaillé-Coll organ, Sunday 11:30am Mass + 12:00pm recital free). Notre-Dame post-restoration (2024 reopening). Saint-Eustache, Saint-Étienne-du-Mont, La Madeleine — all major French organ tradition. Free Sunday recitals widely available.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Stephansdom (St. Stephen's Cathedral) — Tuesday-Saturday lunchtime recitals (free). Plus Konzerthaus and Musikverein for ticketed concerts. Augustinerkirche organ also notable.</p>
+
+<h2>Cologne</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> Cathedral (Kölner Dom) — Saturday 8pm "Orgelfeierstunde" tradition, free. Plus regular Saturday-evening organ vespers. Cologne Cathedral organ one of largest in Germany.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Berliner Dom (cathedral) — daily 12:00pm-12:30pm midday organ. Konzerthaus and Philharmonie host major organ recital nights. Plus Marienkirche, Gedächtniskirche.</p>
+
+<h2>Leipzig</h2>
+
+<p>Bach's church city — Thomaskirche (where Bach was Kapellmeister), Nikolaikirche. Annual Bach Festival (June). Year-round Friday Motet at Thomaskirche includes organ.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Saint Jacobi (Schnitger 1693 organ — Bach competed for the organist post here in 1720). Saint Catherine's. Strong North German organ-school tradition.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> St Paul's Cathedral organ recitals (Sundays 4:45pm). Westminster Abbey, Westminster Cathedral. Royal Albert Hall organ (largest in UK at 9,997 pipes). Tickets vs free vary.</p>
+
+<h2>Strategy</h2>
+
+<p>Daily lunchtime recitals (Vienna Stephansdom 30 min) sit-and-listen format. Sunday late-afternoon recitals (Notre-Dame, Saint-Sulpice, St Paul's) traditionally world-class. Weekday evening series tickets €15–30. Bring earplugs — organ at full pitch can damage unprotected ears.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-printmaking-workshops",
+    title: "Best European Cities for Printmaking Workshops",
+    excerpt: "Paris's Imprimerie Nationale traditions; London's East London Printmakers; Berlin's open-access Druckkollektive; Florence's intaglio courses.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Printmaking Workshops",
+    metaDescription: "Where to learn printmaking — Paris, London, Berlin, Florence, Krakow. Etching, lithography, screenprinting, woodcut access.",
+    html: `
+<h2>Printmaking forms</h2>
+
+<p>Etching/intaglio (acid-bitten copper plate), lithography (greasy drawing on stone), screenprinting (stencil through fine mesh), woodcut/wood engraving (carved relief), monotype. The cities below have access to multiple presses and instructors, often through workshop centers (atelier) you can join short-term.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Atelier Romain Granai, Atelier Lacourière-Frélaut (legendary intaglio atelier, ouvre Renoir-Picasso prints). Cité Internationale des Arts residency program. Imprimerie Nationale historic engraving. Weekend etching workshops €100–250.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> East London Printmakers (Hackney — open-access studio with all techniques), Print Club London (also Hackney), London Print Studio. Day workshops £80–150; membership £100–200/month for full access. <a href="/en/uk/london/east-london-hackney">East London (Hackney)</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Druckwerkstatt im Kulturwerk des bbk berlin (artist association open-access, multiple techniques), DRESDNER Künstlerschmiede. Cheaper than London. <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Il Bisonte — printmaking school + atelier. Etching, lithography, woodblock courses 1–4 weeks for foreign students. €600–2,000 program fees. Italian Renaissance printmaking heritage.</p>
+
+<h2>Krakow</h2>
+
+<p>Krakow Academy of Fine Arts — strong Polish printmaking tradition. Triennale Internationale de la Gravure. Less English-language workshop access but masterclass intensives August often available.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh Printmakers (1967, Scotland's first open-access print studio) at Castle Mills. Workshops, courses, residencies.</p>
+
+<h2>Strategy</h2>
+
+<p>Single-day intro workshops €80–150; weekend intensive €200–500; week-long courses €600–1,500. Studio membership for ongoing access €80–200/month. Shipping prints back home — cardboard tubes mandatory; check airline carry-on rules.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

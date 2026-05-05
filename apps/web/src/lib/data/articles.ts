@@ -18686,6 +18686,279 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-croissants",
+    title: "Best European Cities for Croissants",
+    excerpt: "Paris dominates the global ranking; Du Pain et des Idées, Cédric Grolet, Stéphane Sécco set the standard. Outside France, only Tokyo and Vienna serious competition.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Croissants — Where to Eat the Best",
+    metaDescription: "Where to find world-class croissants — Paris (Du Pain et des Idees, Cedric Grolet), Vienna, Lyon, Brussels. The post-2015 viennoiserie revival.",
+    html: `
+<h2>What makes a great croissant</h2>
+
+<p>Visible lamination layers (32+ visible folds when cross-sectioned), honeycomb interior crumb, distinct butter aroma, light/airy mouthfeel, golden caramelized exterior. €1.50–4 typical price; under €1.50 typically industrial.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Du Pain et des Idées (Christophe Vasseur — won City of Paris best baguette and croissant), Cédric Grolet (haute pâtisserie), Stéphane Sécco, Mamiche, Pâtisserie Yann Couvreur. Plus historic Stohrer (since 1730). €2.50–4. Sold out by 11am at top spots — go early.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> the croissant's predecessor — kipferl was Viennese before becoming Parisian. Julius Meinl, Demel, Café Sacher serve traditional Viennese-style. Less butter than French; more like a sweet bread roll.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Pignol, Maison Pignol, Patisserie Jocteur. France's second city has serious bakeries; less Paris-pricing but quality elite.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Charli Boulangerie, Pain Pain. Belgian butter (DOP-protected) creates distinctive croissant flavor. Excellent quality at €2–3.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Le Fournil de Sébastien, Patisserie Holtkamp, Pluk. Younger scene than Paris but rapidly catching up.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Pophams (croissant + viennoiserie hybrid), Toklas, Le Petit Croissant. Brick Lane Beigel Bake the alternative-pastry. £3–5 typical.</p>
+
+<h2>Strategy</h2>
+
+<p>Eat day-of-baking; croissants firm/stale within 6 hours. Best 8am–10am. Pâtisserie crusts vs boulangerie crusts — pâtisserie often softer-buttery, boulangerie crisper. Try both. Read our <a href="/en/articles/best-european-cities-for-coffee-and-pastries">coffee + pastries</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-skiing-base",
+    title: "Best European Cities for Ski Resort Bases",
+    excerpt: "Innsbruck and Geneva offer same-day access to multiple resorts; Munich and Zurich serve as airports + hotel base. Choosing a city beats picking a resort first.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities as Skiing Bases (2026)",
+    metaDescription: "Cities that work as ski bases — Innsbruck, Geneva, Munich, Zurich, Salzburg, Turin. Airport access, day-trip resorts, transport.",
+    html: `
+<h2>City vs resort</h2>
+
+<p>Many travelers fly into a major city + bus/train to ski village daily, rather than booking expensive resort hotels. Cities below have multiple ski resorts within 1-2h public transport, plus city culture for non-skiing days.</p>
+
+<h2>Innsbruck</h2>
+
+<p>Austrian Alps anchor. Nine ski areas within 60 min — Stubai (year-round glacier), Kühtai, Axamer Lizum, Patscherkofel, Nordkette (cable car from city). Single Snow Card pass covers all 13 resorts in surrounding region. Direct flights from London, Amsterdam.</p>
+
+<h2>Geneva</h2>
+
+<p>Swiss-French Alps gateway. Chamonix (1h), Verbier (1h45), Megève (1h15), Avoriaz (1h30), Crans-Montana (2h). Geneva airport then rental car or bus. Mont Blanc visible from city.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Bavarian + Tyrolean access. Garmisch-Partenkirchen (1h), Zugspitze (1h15), Kitzbühel (2h), St. Anton (3h). Day-trip skiing possible via train. Munich the German ski-base obvious choice.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Swiss Alps gateway. Engelberg (1h45), Davos/Klosters (2h30), St. Moritz (3h+ but accessible), Laax (2h). Swiss Travel Pass covers most train+lift connections.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Austrian Alps. Schladming-Dachstein (1h), Ski Amadé (largest ski region), Werfenweng. Mozart-city culture for non-ski days.</p>
+
+<h2>Turin</h2>
+
+<p><a href="/en/italy/turin">Turin</a> Italian Alps. Sestriere, Bardonecchia, Val di Susa (40 min–1h30). Italy's ski prices generally below France/Switzerland. Olympics-2006 facilities.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> French Alps via train + bus. Les 3 Vallées, Tignes/Val d'Isère, La Plagne, Les Arcs. Larger logistics overhead than Geneva but closer to lower-price French resorts.</p>
+
+<h2>Strategy</h2>
+
+<p>City + ski-day-trips works on shoulder season (early December, late March). Peak season (Christmas, February) book ski resort hotels closer to lifts. Equipment rental 30–50% cheaper in cities than resort villages.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-dental-tourism",
+    title: "Best European Cities for Dental Tourism",
+    excerpt: "Budapest is Europe's dental capital; Krakow and Warsaw undercut Western prices on similar quality; Istanbul aggressive on cosmetic dentistry but logistics demand vetting.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Dental Tourism — Implants & Crowns",
+    metaDescription: "Cities for dental work — Budapest, Krakow, Warsaw, Istanbul. Implants, crowns, veneers. Saving 50-70% vs UK/US prices.",
+    html: `
+<h2>Why Hungary leads</h2>
+
+<p>Hungary is Europe's dental tourism leader by volume. Combination of EU-trained dentists, strong infrastructure, low overhead, and 60–70% cost discount vs UK/Germany pricing makes Budapest particularly attractive for major work (implants, full-mouth restorations).</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> dental clinics cluster around Üllői út, Andrássy út. Major clinics: Helvetic Clinics, Kreativ Dental, MyDentist. Single implant + crown €1,200–2,000 (vs €3,500–5,000 UK). Veneers €350–600 each (vs £800–1,500 UK). 7–10 day visit for implant + initial crown; second visit 4–6 months later for permanent restoration.</p>
+
+<h2>Krakow</h2>
+
+<p>Poland alternative. Lower prices than Budapest; quality reputable. KCM Clinic, Cosmedica. Add 10% travel cost since direct flights from Western Europe more limited than Budapest's busy airport.</p>
+
+<h2>Warsaw</h2>
+
+<p>Polish capital. Same price level as Krakow; broader specialty options (orthognathic surgery, complex bone grafts). Major clinics: Indexmedica, Smile Clinic Warsaw.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> aggressive marketing for cosmetic dentistry — full sets of veneers (€2,500–6,000 vs €15,000+ UK). Quality varies enormously; vet clinic carefully. Avoid cheap "package deal" clinics that skip diagnostic CBCT scans.</p>
+
+<h2>Sofia (Bulgaria)</h2>
+
+<p><a href="/en/bulgaria/sofia">Sofia</a> emerging dental tourism. Even cheaper than Budapest. Smaller specialist pool but increasing tourism investment.</p>
+
+<h2>Lisbon and Porto (Portugal)</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> mid-tier prices (between Western European and Eastern European), excellent quality, English fluency. Increasingly common destination for British and German dental tourists.</p>
+
+<h2>Strategy</h2>
+
+<p>Get diagnosis from home dentist before traveling — rule out emergencies. Bring all dental records, X-rays. Vet clinic credentials (EU dental license verifiable). Check insurance: most travel insurance covers complications but not initial cosmetic procedures. Quality crowns/implants last 15+ years; choose for quality, not lowest price.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-wifi-coverage",
+    title: "Best European Cities for Wifi Coverage & Connectivity",
+    excerpt: "Tallinn invented free city-wide wifi in 2002; Helsinki, Stockholm, Vienna lead European urban connectivity; rural Mediterranean still spotty.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Wifi Coverage",
+    metaDescription: "Where city wifi works best — Tallinn, Helsinki, Stockholm, Vienna, Berlin. Free public networks, hotel reliability, eSIM strategy.",
+    html: `
+<h2>What good city wifi looks like</h2>
+
+<p>Reliable hotel wifi (50+ Mbps), free transit-station wifi, public-park hotspots, and 4G/5G mobile data alongside. The cities below excel; some Mediterranean cities have weaker coverage than expected.</p>
+
+<h2>Tallinn</h2>
+
+<p><a href="/en/estonia/tallinn">Tallinn</a> claimed first city-wide free public wifi in 2002. Estonian government pioneered digital infrastructure. Free wifi at Tallinn airport, Tallinn Bus Station, central Old Town squares. e-Residency program signal confidence.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> excellent municipal wifi (Helsinki Wireless), reliable hotel wifi standard. 5G coverage strong. Finland generally Europe's most digital society.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Stockholm WiFi Hotspot network. Hotels reliable. Subway and tram coverage strong.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> WLAN Vienna municipal program. Coffee houses universally have wifi (Kaffeehaus tradition + modern Wi-Fi).</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Free Wi-Fi Berlin (since 2016) at major squares, transit. Coffee shops universal. Mobile signal strong throughout.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> excellent everywhere — government, hotels, cafes, public transit. Netherlands consistently top digital-infrastructure rankings.</p>
+
+<h2>Cities with weaker coverage</h2>
+
+<p>Mediterranean small cities (Sicilian villages, Greek islands), parts of rural Spain and Portugal still spotty. Hotel wifi often only-in-lobby in older properties. Mobile data more reliable than hotel wifi in such cases.</p>
+
+<h2>Strategy</h2>
+
+<p>eSIM (Airalo, Holafly) cheaper than hotel wifi for data-heavy travel. €10–25 covers 7-day European multi-country plan. Free city wifi often password-required at hotel/cafe; ask explicitly for password. Workspace cafes usually have fastest in-city wifi (60–100 Mbps). <a href="/en/articles/best-european-cities-for-digital-nomads">Digital nomads</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-fashion-archives",
+    title: "Best European Cities for Fashion Archives & Museums",
+    excerpt: "Antwerp's MoMu and Florence's Pitti Palace are the heritage; Paris's Palais Galliera, London's V&A, and Madrid's Museo del Traje complete the European fashion-archive map.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Fashion Museums & Archives",
+    metaDescription: "European fashion archives — Antwerp (MoMu), Paris (Galliera), London (V&A), Florence, Madrid. Designer collections, exhibitions, retrospectives.",
+    html: `
+<h2>Two collection types</h2>
+
+<p>National costume archives (Madrid Museo del Traje, V&A) trace fashion history broadly; design-house focused archives (Antwerp Royal Academy/MoMu, Paris Palais Galliera) document specific designers and movements. Each has its strengths.</p>
+
+<h2>Antwerp</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> MoMu (Mode Museum). The Antwerp Six (Demeulemeester, Dries Van Noten, Van Beirendonck, Bikkembergs, Bos Van Saene, Yee) graduates of Royal Academy. MoMu rotating exhibitions plus Royal Academy archives. The fashion-design-school city.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Palais Galliera (Musée de la Mode de la Ville de Paris) — French haute couture archives, 200,000+ pieces. Plus Musée des Arts Décoratifs fashion wing. Yves Saint Laurent Museum (Avenue Marceau). <a href="/en/france/paris/le-marais">Le Marais</a> base.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> V&A Museum fashion collection — 20th-century English fashion, McQueen, Westwood archives. V&A Dundee (Scotland branch). Fashion and Textile Museum (Bermondsey). Strong British heritage focus.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Costume Gallery (Pitti Palace) — Italian fashion history including Florence's 1950s-1960s heritage. Plus Salvatore Ferragamo Museum (the family museum, Palazzo Spini Feroni). Florence's textile and shoe-making history.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Museo del Traje (Museum of Costume) — Spanish costume history broad. Cristóbal Balenciaga Museum (Getaria, Basque Country) the design-specific Spanish destination.</p>
+
+<h2>Hasselt (Belgium)</h2>
+
+<p>Modemuseum Hasselt — secondary Belgian fashion museum, less famous than Antwerp's MoMu. Specialty exhibitions.</p>
+
+<h2>Strategy</h2>
+
+<p>Major fashion exhibitions sell timed entry — book 2–4 weeks ahead. Combined fashion-trip Antwerp + Paris + London weekend covers world-class archives. <a href="/en/articles/best-european-cities-for-fashion-week">Fashion week</a> for the runway-side counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-circus-shows",
+    title: "Best European Cities for Modern Circus & Cirque-Style Shows",
+    excerpt: "Cirque du Soleil tours major European cities; Berlin's Tipi am Kanzleramt and Paris's Cirque d'Hiver host year-round residencies; Edinburgh Fringe stages experimental.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Modern Circus Shows",
+    metaDescription: "Cities for contemporary circus — Berlin, Paris, Vienna, Edinburgh, Brussels. Cirque du Soleil tours, residencies, festival circus.",
+    html: `
+<h2>Modern circus categories</h2>
+
+<p>Three formats: Cirque du Soleil-style touring spectacles (technical-acrobatic), traditional residency circus (Cirque d'Hiver, Roncalli — animals + acrobatics), contemporary experimental circus (festival showcases). Cities below excel at each.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Cirque d'Hiver (1852, the iconic Paris circus venue), Cirque Phénix at Pelouse de Reuilly, Cirque Romanès. Plus contemporary circus venues like La Villette. Permanent winter season; tickets €30–120.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Tipi am Kanzleramt (cabaret + circus hybrid spiegelzelt), Friedrichstadt-Palast (mega-revue with circus elements), Wintergarten Variety Theatre. €30–80 typical.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Espace Catastrophe, École Supérieure des Arts du Cirque (ESAC) — top European circus school. Student showcases worth attending.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Wiener Roncalli (touring traditional circus), Calle Libre. Vienna circus tradition strong via cabaret crossover.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh Festival Fringe (August) hosts dozens of experimental circus shows. Underbelly Circus Hub specifically circus-focused. Year-round less density.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Cirque du Soleil typically tours UK at Royal Albert Hall (winter season). LIMF London International Mime Festival circus crossover. Soho's Roundhouse hosts contemporary circus.</p>
+
+<h2>Châlons-en-Champagne (France)</h2>
+
+<p>CNAC (Centre National des Arts du Cirque, France's national circus school). Public showcases multiple times yearly. Niche destination but hugely respected.</p>
+
+<h2>Strategy</h2>
+
+<p>Cirque du Soleil tour dates released 6+ months ahead — book early. Edinburgh Fringe shows often £8–15 (cheap), but book accommodation 4–6 months ahead August. <a href="/en/articles/best-european-cities-for-cabaret-and-burlesque">Cabaret guide</a> sister category.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

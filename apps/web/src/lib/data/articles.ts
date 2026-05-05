@@ -19818,6 +19818,283 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-design-hotels",
+    title: "Best European Cities for Design Hotels",
+    excerpt: "Lisbon, Berlin, Copenhagen, and Barcelona host the densest design-hotel scenes; Paris and London top the heritage-luxury tier. Choosing the right city matters more than picking the right hotel.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Design Hotels",
+    metaDescription: "Cities with great design hotels — Lisbon, Berlin, Copenhagen, Barcelona, Paris, London. Boutique, architecturally significant, and contemporary properties.",
+    html: `
+<h2>Design hotels typology</h2>
+
+<p>Three categories: contemporary boutique (Standard, Hoxton, citizenM — €150–350), architectural icons (Aman properties, Bulgari, Mandarin Oriental — €600–2,500+), heritage-rebooted (Mama Shelter, Generator — €100–250). Below are the cities for each tier.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> emerged 2015+ as a design-hotel hub. Memmo Alfama, Memmo Príncipe Real, Verride Palácio Santa Catarina, The Lumiares, Hotel das Letras. Below Paris/London prices but design-quality elite. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> design-hotel district.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Soho House Berlin, Michelberger, Casa Camper, Sir Savigny, The Mandala. Berlin's design-hotel scene draws on industrial-warehouse-conversion energy. <a href="/en/germany/berlin/mitte">Mitte</a> dense.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Hotel SP34, Hotel Sanders, NH Collection Copenhagen. Strong Nordic-modern design throughout. Hotel Sanders particularly polished — designer-curated rooms.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Hotel SB, Casa Camper Barcelona, W Barcelona (the iconic sail). Mandarin Oriental Barcelona for luxury tier. Catalan-design influence visible throughout.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Le Pigalle, Hotel Grand Powers, Hôtel Bachaumont, Hôtel National des Arts et Métiers. Paris's heritage-rebooted hotel scene (Mama Shelter, Hoxton Paris) plus traditional luxury (Bulgari, Cheval Blanc). <a href="/en/france/paris/le-marais">Le Marais</a> design-hotel cluster.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> The Standard, Soho House, Mondrian Shoreditch, The Hoxton (multiple), citizenM. UK contemporary scene strong. <a href="/en/uk/london/shoreditch">Shoreditch</a> dense.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Sir Adam, Conservatorium, citizenM. Dutch-design influence — clean, function-led, tactile.</p>
+
+<h2>Strategy</h2>
+
+<p>Member-only design-hotel sets (Soho House, Standard) require membership for some perks. Off-peak (November-March) 30-50% rate drops. Combined design-hotel city tour (Lisbon + Barcelona + Berlin) week-long architecture-and-comfort itinerary.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-grappa-tasting",
+    title: "Best European Cities for Grappa Tasting",
+    excerpt: "Bassano del Grappa anchors Veneto's grappa heritage; Trentino's distillerie are alpine-precision; Piedmont produces Barolo-grape grappa. Italy's grape-pomace brandy is regional.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Grappa Tasting & Distillery Visits",
+    metaDescription: "Where to taste grappa — Bassano del Grappa, Verona, Trento, Turin. Distillery tours, regional styles, and what to know.",
+    html: `
+<h2>What grappa is</h2>
+
+<p>Italian brandy distilled from grape pomace (skins, seeds, stems left after winemaking). Made all over Italy but Veneto's Bassano del Grappa is the historical capital. Modern grappa varies enormously — from rough industrial (€8/bottle) to refined Riserva aged in oak (€80–250/bottle).</p>
+
+<h2>Bassano del Grappa</h2>
+
+<p>The historical capital — town named after the spirit. Poli (since 1898), Nardini (since 1779). Distillery visits with tastings €15–35. Day-trip from Venice (1h drive) or Padua. Plus the Ponte degli Alpini wooden bridge designed by Palladio.</p>
+
+<h2>Verona</h2>
+
+<p>Veneto wine + grappa pairing. Distilleria Bonaventura Maschio, Distilleria Berta. Wine bars in Verona stock 30+ grappa varieties. Combined with Veneto wine-tour weekends.</p>
+
+<h2>Trento (Trentino)</h2>
+
+<p><a href="/en/italy/trento">Trento</a> Trentino grappa from Müller-Thurgau, Pinot Grigio, Chardonnay grape pomace. Distilleria Marzadro, Distillerie Lunelli (Ferrari spumante owners). Alpine-precision distillation traditions.</p>
+
+<h2>Turin (Piedmont)</h2>
+
+<p><a href="/en/italy/turin">Turin</a> Piedmontese grappa from Barolo, Barbera, Nebbiolo grapes. Distilleria Marolo, Distilleria Berta. Premium tier — the Barolo-grappa is the most prestigious.</p>
+
+<h2>Friuli (Udine, Trieste)</h2>
+
+<p><a href="/en/italy/trieste">Trieste</a>, Udine — Friulian grappa from Friuli's white grape pomace. Lighter style than Veneto. Less famous internationally.</p>
+
+<h2>Tasting strategy</h2>
+
+<p>Single-grape grappa (monovitigno) — Müller-Thurgau, Picolit, Sagrantino each different. Riserva (oak-aged) softer than unaged white grappa. Drink at room temperature in tulip-shaped glass. Aperitivo or digestivo position depending on style.</p>
+
+<h2>Strategy</h2>
+
+<p>Distillery tours often combined with grape harvest (September-October) — see whole production cycle. Grappa export limits — under €430 typically duty-free returning home. Read our <a href="/en/articles/best-european-cities-for-craft-distilleries">craft distilleries</a> companion for non-Italian distillates.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-rock-music-festivals",
+    title: "Best European Cities for Rock Music Festivals",
+    excerpt: "Glastonbury holds the global crown; Roskilde, Sziget, Primavera Sound, Lollapalooza Berlin, Hurricane all cluster across Europe.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Rock & Indie Music Festivals",
+    metaDescription: "Top European rock festivals — Glastonbury, Roskilde, Sziget, Primavera, Lollapalooza Berlin, Hurricane. Lineups and accommodation.",
+    html: `
+<h2>European rock-festival map</h2>
+
+<p>Mainline rock-pop festivals spread May–August across Europe. Booking far ahead is critical — Glastonbury 8 months, Roskilde lottery, Sziget weeks. Each festival has its own character — Glastonbury countercultural, Sziget destination-island, Primavera curated-indie.</p>
+
+<h2>Glastonbury (UK)</h2>
+
+<p>Late June, near Pilton. 200,000+ attendees. Tickets sell out in 30 minutes; advance booking opens 6+ months ahead. £350+ for 5-day pass. Camping mandatory. The world's most famous rock festival; also has theatre, comedy, dance stages.</p>
+
+<h2>Roskilde (Denmark)</h2>
+
+<p>Late June–early July, 35km from <a href="/en/denmark/copenhagen">Copenhagen</a>. 130,000+ attendees. €280 for 8-day pass (warm-up + main). Non-profit, community-run. Lineup spans rock, pop, electronic. Camping mandatory. Day-trip from Copenhagen impossible (camping-only).</p>
+
+<h2>Sziget (Hungary)</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Sziget Festival (mid-August) — destination festival on Óbudai island in the Danube. Day pass €70–120. 7-day pass €280–420. Hostels and Airbnb in Budapest 2x normal rates festival week.</p>
+
+<h2>Primavera Sound (Spain)</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Primavera Sound (late May–early June). 200,000+ over 3+ days. Curated indie/alt-rock lineup. Day pass €100–180. Plus Porto sister festival same week.</p>
+
+<h2>Lollapalooza Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Lollapalooza (early September). 2-day, 80,000+. €130–180 day pass. Same brand as US festival, similar lineups.</p>
+
+<h2>Hurricane (Germany)</h2>
+
+<p>Scheeßel, Lower Saxony (last weekend June). 70,000+ attendees. €270 for 3-day camping pass. Hard rock + alternative.</p>
+
+<h2>Pukkelpop (Belgium)</h2>
+
+<p>Hasselt (mid-August). 200,000+ attendees over 4 days. €260+ pass. Rock, hip-hop, electronic mix.</p>
+
+<h2>Reading + Leeds (UK)</h2>
+
+<p>Late August UK weekender. 90,000+ attendees Reading. £270+ pass. Younger UK rock/pop audience.</p>
+
+<h2>Strategy</h2>
+
+<p>Glastonbury, Sziget book 6+ months ahead. Camping pass + transport often package. Bring earplugs and rain protection (UK festivals especially). Read our <a href="/en/articles/best-european-cities-for-music-festivals">music festivals overview</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-coliving-spaces",
+    title: "Best European Cities for Coliving Spaces (Long-Stay)",
+    excerpt: "Lisbon and Barcelona host Outsite/Selina coliving networks; Berlin and Tbilisi independent operations; Bansko's nomad-coliving hub. Coliving = furnished + community + month+.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Coliving Spaces",
+    metaDescription: "Cities for coliving — Lisbon, Barcelona, Berlin, Tbilisi, Bansko. Furnished apartments + community spaces for digital nomads, 1+ month stays.",
+    html: `
+<h2>Coliving vs Airbnb</h2>
+
+<p>Coliving = furnished private rooms + shared kitchen/coworking space + community programming. Typical stays 1–3 months. €800–2,500/month all-inclusive. Different from Airbnb (no community, full-flat) and hostels (short-stay, dorms).</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Selina Lisboa (multiple), Outsite Lisbon Alfama, Cohaus, Marquês Coliving. €900–1,800/month. Heart of the digital-nomad world post-2020. <a href="/en/portugal/lisbon/santos">Santos</a> and <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> base.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Outsite Barcelona, Sun and Co. Coliving (Jávea, near Valencia), Selina. €1,000–2,200/month. Strong Mediterranean network.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Bezahlmal Coliving, Casa Pricked, plus shared-flat options. Less franchise-coliving than Lisbon, more independent. €700–1,400/month.</p>
+
+<h2>Tbilisi (Georgia)</h2>
+
+<p>Outside core Europe but de facto European nomad hub — Tbilisi Lab, Lokal Coliving. Cheaper than EU cities. Visa-free for many nationalities (US, UK 1-year visa-free).</p>
+
+<h2>Bansko (Bulgaria)</h2>
+
+<p>Mountain ski town turned coliving capital. Coworking Bansko, Altitude Coliving. €500–900/month. Fastest internet in Bulgaria + skiing on doorstep.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Selina, Sun and Co. Less famous than Barcelona but cheaper. €900–1,800/month.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> emerging coliving scene since 2022 — visa programs (Greek Golden Visa) attract tech workers. Selina Athens, NomadStay.</p>
+
+<h2>Tarifa, Las Palmas, Madeira</h2>
+
+<p>Spanish-Portuguese island/coastal alternatives. Outsite Madeira, Las Palmas operators. Surf + work combinations.</p>
+
+<h2>Strategy</h2>
+
+<p>Book 1–2 months ahead summer; off-season (October-March) often discount. Verify wifi speed (50+ Mbps minimum) before booking. Community programming (workshops, dinners) varies — check Slack/community vibe ahead. Read our <a href="/en/articles/best-european-cities-for-digital-nomads">digital nomads</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bagel-shops",
+    title: "Best European Cities for Bagel Shops",
+    excerpt: "London's Brick Lane is the heritage East-End Jewish bagel shops; Paris's Marais and Berlin's old Jewish quarter host modern interpretations; Krakow and Budapest preserve the original.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Bagel Shops",
+    metaDescription: "Cities for bagels in Europe — London (Brick Lane), Berlin, Paris, Krakow. Bialys, hand-rolled, Jewish-deli traditions and modern American-style.",
+    html: `
+<h2>Bagel traditions in Europe</h2>
+
+<p>Two distinct genealogies. Old World: Polish-Jewish (Krakow, Vilnius, Budapest) where bagels (bajgły) originated. New World re-import: American-style bagels (boiled then baked, often multi-grain) brought back to European cities post-1990s.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Beigel Bake (Brick Lane, 24/7, since 1855) and Beigel Shop next door (1880, "the oldest" rivalry). East End Jewish heritage. £3–4 for salt beef beigel — the local masterpiece. <a href="/en/uk/london/east-london-hackney">East London (Hackney)</a> dense.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Sacha Finkelsztajn (Le Marais, Yiddish-Polish heritage). Plus contemporary American-style at Bagel House Paris. <a href="/en/france/paris/le-marais">Le Marais</a> historic Jewish quarter.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Beba Berlin Bagel, Mein Lieblingsbagel. Pre-Holocaust Jewish-Berlin had hundreds of bagel makers. Modern revival selective but earnest. <a href="/en/germany/berlin/mitte">Mitte</a> historic Jewish quarter.</p>
+
+<h2>Krakow</h2>
+
+<p>Polish bajgły heritage — originated 17th century. Krakow's Kazimierz neighborhood (historic Jewish quarter) preserves bakeries. Polish-style smaller, denser than American-style.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Hungarian-Jewish heritage. Macesz Huszár, Pesti Disznó. Plus bialys (no-hole bagel cousin) at central Pest bakeries.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> historic Jewish quarter (the Joodse Buurt) less restaurant-dense post-WWII. Bagels Amsterdam modern revival.</p>
+
+<h2>Strategy</h2>
+
+<p>Beigel Bake London 24/7 even at 4am — drunk-night classic. Lox-and-cream-cheese definitionally Jewish-deli, not New York invention (originated in same 19th-century Polish-Jewish neighborhoods). Read our <a href="/en/articles/best-european-cities-for-jewish-heritage">Jewish heritage</a> companion for the broader cultural map.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-portuguese-language-immersion",
+    title: "Best European Cities for Portuguese Language Immersion",
+    excerpt: "Lisbon and Coimbra anchor European Portuguese (significantly different from Brazilian); Porto's accent is distinctive; Brazilian Portuguese learners better off in Brazil.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Portuguese Language Immersion",
+    metaDescription: "Where to learn European Portuguese — Lisbon, Coimbra, Porto. Schools, accent vs Brazilian, and immersion strategies.",
+    html: `
+<h2>European vs Brazilian Portuguese</h2>
+
+<p>European Portuguese (Lisbon-Coimbra-Porto) and Brazilian Portuguese are mutually intelligible but genuinely different — different pronunciation, vocabulary, even verb conjugations. If your destination is Portugal, Mozambique, Angola — learn European. For Brazil — go to Brazil.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> CIAL Centro de Línguas, Portuguese Connection, Português com Sucesso, Inlingua Lisbon. 1-week intensive €280–400; 4-week €1,000–1,800. Lisbon accent — modern standard, what television uses. Plus dense after-class life. <a href="/en/portugal/lisbon/baixa-chiado">Baixa-Chiado</a> base.</p>
+
+<h2>Coimbra</h2>
+
+<p>University of Coimbra (1290) — historic Portuguese-language teaching. Centro Internacional de Línguas. Coimbra accent considered "purest" Portuguese. Students vibe; lower cost than Lisbon. Day-trip from Porto or Lisbon.</p>
+
+<h2>Porto</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> Berlitz Porto, Wall Street Institute. Porto accent (Norte) distinctive — clipped, fast, slightly nasal. Less language-school choice than Lisbon. Cheaper accommodation.</p>
+
+<h2>Évora and Faro</h2>
+
+<p>Smaller Alentejo and Algarve cities — lower-priced immersion alternatives. Évora medieval old town very atmospheric.</p>
+
+<h2>Mozambique and Angola</h2>
+
+<p>Outside our European geography but African Portuguese dialects offer immersion alternatives.</p>
+
+<h2>Strategy</h2>
+
+<p>4-week minimum for results. Lisbon's English-speaking-tendency (post-COVID expat density) requires aggressive immersion strategy. Coimbra forces more practice. CIPLE certification (analogous to Spain's DELE) for institutional purposes. Read our <a href="/en/articles/best-european-cities-for-erasmus-students">Erasmus students</a> companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

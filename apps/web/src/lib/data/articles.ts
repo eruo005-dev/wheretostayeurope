@@ -12388,6 +12388,321 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 40 — combined country itineraries + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-7-day-belgium-netherlands-itinerary",
+    title: "7-Day Belgium + Netherlands Itinerary",
+    excerpt: "Combined low-countries trip — Amsterdam, Bruges, Ghent, Antwerp in 7 days.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 9,
+    metaTitle: "7-Day Belgium + Netherlands Itinerary — Honest 2026",
+    metaDescription: "Combined low-countries trip — Amsterdam, Bruges, Ghent, Antwerp in 7 days.",
+    html: `
+<p>Belgium and Netherlands combine well in 7 days. Here's the honest plan.</p>
+
+<h2>Best 7-day Belgium + Netherlands</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/netherlands/amsterdam">Amsterdam</a> (Rijksmuseum, canals, day-trip to Keukenhof in season)</li>
+  <li>Day 4: Train to <a href="/en/belgium/ghent">Ghent</a> (overnight)</li>
+  <li>Day 5: Day-trip to <a href="/en/belgium/bruges">Bruges</a> from Ghent</li>
+  <li>Day 6-7: Train to <a href="/en/belgium/antwerp">Antwerp</a> for design + diamonds</li>
+</ul>
+
+<h2>Alternative — Amsterdam-base with day-trips</h2>
+
+<ul>
+  <li>Day 1-4: Amsterdam (4 nights — neighborhood-deep)</li>
+  <li>Day 5-7: <a href="/en/netherlands/utrecht">Utrecht</a> + <a href="/en/netherlands/the-hague">The Hague</a> + <a href="/en/netherlands/rotterdam">Rotterdam</a></li>
+</ul>
+
+<h2>Alternative — Belgium focus</h2>
+
+<ul>
+  <li>Day 1-2: Brussels</li>
+  <li>Day 3-4: Bruges</li>
+  <li>Day 5-6: Ghent</li>
+  <li>Day 7: Antwerp</li>
+</ul>
+
+<h2>What to skip on 7 days</h2>
+
+<ul>
+  <li>Adding Luxembourg or Maastricht: Eats time.</li>
+  <li>Dutch coast (Hoek van Holland): Not the trip's strength.</li>
+  <li>Trying to see all 5 of Brussels/Bruges/Ghent/Antwerp/Amsterdam: Half is travel.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€180-€280/day comfortable. Belgium is 10-20% cheaper than Netherlands.</p>
+
+<p>For Belgium-only trips see <a href="/en/articles/where-to-stay-in-belgium">Belgium guide</a>. For Netherlands see Amsterdam guides.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-7-day-scandinavia-itinerary",
+    title: "7-Day Scandinavia Itinerary: Stockholm + Copenhagen + Oslo?",
+    excerpt: "Honest Scandinavian itinerary — which cities combine in 7 days, which don't.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 9,
+    metaTitle: "7-Day Scandinavia Itinerary — Honest 2026",
+    metaDescription: "Honest Scandinavian itinerary — which cities combine in 7 days, which don't.",
+    html: `
+<p>Scandinavia combines two cities in 7 days, not three. Here's the honest plan.</p>
+
+<h2>Best 7-day Scandinavia (Stockholm + Copenhagen)</h2>
+
+<ul>
+  <li>Day 1-4: <a href="/en/sweden/stockholm">Stockholm</a> (4 nights)</li>
+  <li>Day 5-7: Train or fly to <a href="/en/denmark/copenhagen">Copenhagen</a> (3 nights)</li>
+</ul>
+
+<h2>Alternative — Norway focus</h2>
+
+<ul>
+  <li>Day 1-2: <a href="/en/norway/oslo">Oslo</a></li>
+  <li>Day 3-4: Norway in a Nutshell (Oslo to Bergen via Flåm fjord route)</li>
+  <li>Day 5-7: <a href="/en/norway/bergen">Bergen</a> + day-trip to Hardangerfjord</li>
+</ul>
+
+<h2>Alternative — Helsinki + Tallinn</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/finland/helsinki">Helsinki</a></li>
+  <li>Day 4: Day-trip to <a href="/en/estonia/tallinn">Tallinn</a> by ferry</li>
+  <li>Day 5-7: Continue to Stockholm by overnight ferry, then 2 nights Stockholm</li>
+</ul>
+
+<h2>What doesn't work in 7 days</h2>
+
+<ul>
+  <li>Stockholm + Copenhagen + Oslo: Half is travel.</li>
+  <li>Tromsø + capital cities: Different climate, different trip.</li>
+  <li>Iceland + mainland Scandinavia: Different country, different trip.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€250-€400/day comfortable. Scandinavia is among Europe's most expensive. Save with hostels, self-catered apartments, supermarket lunches.</p>
+
+<p>For specific city guides see <a href="/en/articles/where-to-stay-in-stockholm">Stockholm</a>, <a href="/en/articles/where-to-stay-in-copenhagen">Copenhagen</a>, <a href="/en/articles/scandinavia-which-capital-to-pick">Scandinavia which capital</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-10-day-mediterranean-itinerary",
+    title: "10-Day Mediterranean Coast Itinerary",
+    excerpt: "How to do 10 days along Europe's Mediterranean — Barcelona, Riviera, Tuscany, Cinque Terre.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 10,
+    metaTitle: "10-Day Mediterranean Itinerary — Honest 2026",
+    metaDescription: "How to do 10 days along Europe's Mediterranean — Barcelona, Riviera, Tuscany, Cinque Terre.",
+    html: `
+<p>Mediterranean Europe in 10 days needs careful selection. Here's the honest plan.</p>
+
+<h2>Best 10-day Mediterranean (East-to-West)</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/spain/barcelona">Barcelona</a></li>
+  <li>Day 4-5: TGV to <a href="/en/france/avignon">Avignon</a> + Provence villages</li>
+  <li>Day 6: <a href="/en/france/nice">Nice</a> + Cap Ferrat</li>
+  <li>Day 7-8: Cinque Terre (Vernazza base)</li>
+  <li>Day 9-10: <a href="/en/italy/florence">Florence</a> or Pisa</li>
+</ul>
+
+<h2>Alternative — Adriatic Mediterranean</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/italy/venice">Venice</a></li>
+  <li>Day 4-5: Ferry to <a href="/en/croatia/split">Split</a> + Hvar day-trip</li>
+  <li>Day 6-7: <a href="/en/croatia/dubrovnik">Dubrovnik</a></li>
+  <li>Day 8-10: <a href="/en/montenegro/kotor">Kotor</a> + Adriatic coast</li>
+</ul>
+
+<h2>Alternative — Greek Mediterranean</h2>
+
+<ul>
+  <li>Day 1-3: Athens + Cape Sounion</li>
+  <li>Day 4-7: <a href="/en/greece/santorini">Santorini</a> (4 nights with caldera-hiking + sunsets)</li>
+  <li>Day 8-10: <a href="/en/greece/naxos">Naxos</a></li>
+</ul>
+
+<h2>Alternative — Sicilian Mediterranean</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/italy/catania">Catania</a> + Etna</li>
+  <li>Day 4-5: Taormina</li>
+  <li>Day 6-7: Syracuse</li>
+  <li>Day 8-10: Palermo + Cefalù</li>
+</ul>
+
+<h2>What to skip in 10 days</h2>
+
+<ul>
+  <li>5+ Mediterranean countries: Half is travel.</li>
+  <li>Trying to add Northern Europe: Different climate.</li>
+  <li>Greek islands beyond 2: Logistics eat time.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-film-festivals",
+    title: "Best European Cities for Film Festivals (Cannes, Venice, Berlin)",
+    excerpt: "Where European film festivals happen — Cannes, Venice, Berlin, Locarno, Karlovy Vary.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Film Festivals — Honest 2026",
+    metaDescription: "Where European film festivals happen — Cannes, Venice, Berlin, Locarno, Karlovy Vary.",
+    html: `
+<p>European film festivals concentrate in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination film festivals</h2>
+
+<ul>
+  <li><strong>Cannes (France, May):</strong> The most-prestigious film festival. Industry-only mostly.</li>
+  <li><strong>Venice (early September):</strong> Premier Italian festival. Lido screenings.</li>
+  <li><strong>Berlin Berlinale (February):</strong> Open to public — many tickets available.</li>
+</ul>
+
+<h2>Tier 2 — strong film festivals</h2>
+
+<ul>
+  <li><strong>Locarno, Switzerland (August):</strong> Outdoor screenings + auteur cinema.</li>
+  <li><strong>Karlovy Vary (Czech Republic, July):</strong> Eastern European cinema focus.</li>
+  <li><strong>San Sebastián (Spain, September):</strong> Spanish-language cinema.</li>
+  <li><strong>Edinburgh (June):</strong> UK cinema festival.</li>
+</ul>
+
+<h2>Tier 3 — niche festivals</h2>
+
+<ul>
+  <li><strong>Tallinn Black Nights (November):</strong> Baltic cinema.</li>
+  <li><strong>Sarajevo Film Festival (August):</strong> Balkan cinema.</li>
+  <li><strong>Thessaloniki (November):</strong> Greek + international.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Cannes is industry-mostly:</strong> Don't expect public access.</li>
+  <li><strong>Berlinale is public:</strong> Tickets bookable online; budget €10-€15 per screening.</li>
+  <li><strong>Smaller festivals are accessible:</strong> Locarno, Karlovy Vary easier.</li>
+  <li><strong>Hotels around festivals double or triple in price.</strong></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-chocolate",
+    title: "Best European Cities for Chocolate Lovers",
+    excerpt: "Where European chocolate tradition runs deepest — Brussels, Bruges, Turin, Zurich.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Chocolate — Honest 2026",
+    metaDescription: "Where European chocolate tradition runs deepest — Brussels, Bruges, Turin, Zurich.",
+    html: `
+<p>European chocolate concentrates in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination chocolate cities</h2>
+
+<ul>
+  <li><strong>Brussels:</strong> Belgian chocolate — Mary, Pierre Marcolini, Wittamer, Neuhaus, Galler. The chocolate capital.</li>
+  <li><strong>Bruges:</strong> Belgian chocolate at concentration. The Choco-Story Museum.</li>
+  <li><strong>Turin, Italy:</strong> Gianduja (hazelnut chocolate) origin. Caffarel + Guido Gobino.</li>
+  <li><strong>Zurich + Geneva:</strong> Swiss chocolate flagships — Sprüngli, Lindt, Maison Cailler.</li>
+  <li><strong>Vienna:</strong> Demel + Sacher chocolate tradition.</li>
+</ul>
+
+<h2>Tier 2 — strong chocolate cities</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Patrick Roger, Pierre Hermé, Jean-Paul Hévin.</li>
+  <li><strong>Salzburg:</strong> Mozartkugel — the chocolate-marzipan-pistachio ball.</li>
+  <li><strong>Barcelona:</strong> Pastry tradition includes strong chocolate.</li>
+  <li><strong>Florence:</strong> Italian chocolate + Tuscan pastries.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Chocolate workshops:</strong> Most major chocolate cities offer 2-3 hour workshops.</li>
+  <li><strong>Don't buy at airport:</strong> Markup is 30-50%.</li>
+  <li><strong>Best season:</strong> Year-round; avoid summer carry-on (melts in airport heat).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-trip-duration",
+    title: "Best European Cities by Trip Duration (3 vs 5 vs 7 vs 10 Days)",
+    excerpt: "Which European cities work for which trip lengths. Honest sort.",
+    publishedAt: "2026-06-04",
+    reviewedAt: "2026-06-04",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities by Trip Duration — Honest 2026",
+    metaDescription: "Which European cities work for which trip lengths. Honest sort.",
+    html: `
+<p>Pick European cities by how many days you have. Here's the honest mapping.</p>
+
+<h2>3-day trips (long weekend)</h2>
+
+<ul>
+  <li><strong>Best:</strong> Lisbon, Porto, Krakow, Budapest, Copenhagen, Edinburgh.</li>
+  <li><strong>Workable:</strong> Florence, Vienna, Prague.</li>
+  <li><strong>Skip:</strong> Rome, London, Berlin, Paris, Istanbul. They need more.</li>
+</ul>
+
+<h2>5-day trips</h2>
+
+<ul>
+  <li><strong>Best:</strong> Madrid, Barcelona, Vienna, Prague, Florence + Tuscany.</li>
+  <li><strong>Workable:</strong> Rome (just barely), London (just barely).</li>
+  <li><strong>Try:</strong> Multi-city only if cities are 1-2h apart by train.</li>
+</ul>
+
+<h2>7-day trips</h2>
+
+<ul>
+  <li><strong>Best:</strong> Italy classic (Rome+Florence+Venice), Iberia loop (Madrid+Andalusia), Greek mainland + 1 island.</li>
+  <li><strong>Workable:</strong> France Paris+region, Germany Berlin+Munich.</li>
+</ul>
+
+<h2>10-day trips</h2>
+
+<ul>
+  <li><strong>Best:</strong> Eastern European loop (Prague+Vienna+Budapest+Krakow), Croatia+Slovenia, Sicily focus, Mediterranean coast.</li>
+  <li><strong>Workable:</strong> Italy classic + Tuscany day-trips, Spain Madrid+Andalusia+Barcelona.</li>
+</ul>
+
+<h2>14+ days</h2>
+
+<ul>
+  <li><strong>Best:</strong> Country-specific deep dives — Italy 14-day, Spain 14-day, France 14-day.</li>
+  <li><strong>Or:</strong> Two-country combinations — Italy+Greece, Spain+Portugal, France+Italy.</li>
+</ul>
+
+<h2>21+ days</h2>
+
+<ul>
+  <li><strong>Best:</strong> Multi-region itineraries with depth.</li>
+  <li><strong>Slow travel:</strong> 7+ nights per city.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>The biggest first-time mistake is over-cramming. 7-day European trips usually try 4 cities; 5 cities is often the right answer. Pick cities by trip duration, not by what's "famous."</p>
+
+<p>For specific itineraries see <a href="/en/articles/europe-first-trip-itinerary-suggestions">first-time itineraries</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

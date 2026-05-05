@@ -15534,6 +15534,263 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-japanese-restaurants",
+    title: "Best European Cities for Japanese Restaurants",
+    excerpt: "Düsseldorf has a Little Tokyo (8,000 Japanese residents); Paris and London host the only European 3-star sushi; Berlin's ramen scene snowballed in the 2010s.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Japanese Restaurants & Sushi",
+    metaDescription: "Where Japanese food is best in Europe — Düsseldorf, Paris, London, Berlin, Frankfurt. Sushi, ramen, izakaya, and the cities with real diaspora kitchens.",
+    html: `
+<h2>The diaspora factor</h2>
+
+<p>Düsseldorf, London, and Paris have the largest Japanese expat communities in Europe — 8,000+ Japanese residents in Düsseldorf alone (centered around Immermannstraße). Restaurants serving expats by definition serve more rigorously authentic food than tourist-targeted sushi.</p>
+
+<h2>Düsseldorf</h2>
+
+<p><a href="/en/germany/dusseldorf">Düsseldorf</a> "Little Tokyo" along Immermannstraße — Naniwa (ramen), Takumi, Maruyasu (sushi). Family-run lunch counters serving udon and tonkotsu at €10–14. Dinner izakayas €30–50.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Sushi B (3 Michelin stars), Jin (1 star), Ze Kitchen Galerie. Rue Sainte-Anne is the historic Japanese quarter — over 30 ramen and udon shops. Many tired tourist sushi bars exist; serious ones cluster near Opéra/Pyramides.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Endō at the Rotunda (Michelin), Roketsu, Sushi Tetsu, Koya (handmade udon), Ippudo. Dense Japanese-restaurant map; quality varies enormously. <a href="/en/uk/london/soho-fitzrovia">Soho</a> and <a href="/en/uk/london/mayfair">Mayfair</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> ramen-and-izakaya scene matured rapidly — Cocolo Ramen, Cocoro, Saigaiya. Lower prices than London or Paris (€11–15 ramen). <a href="/en/germany/berlin/mitte">Mitte</a> base.</p>
+
+<h2>Frankfurt</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> business-Japan diaspora — sushi at Iwase, ramen at Tako (small). Smaller than Düsseldorf but day-trip distance.</p>
+
+<h2>Strategy</h2>
+
+<p>Lunch-set strategy at high-end sushi (€30–80) far cheaper than dinner counter (€150–400). Reserve omakase counters 2–4 weeks ahead. <a href="/en/articles/best-european-cities-for-michelin-stars">Michelin guide</a> for the splashy companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sauna-culture",
+    title: "Best European Cities for Sauna Culture",
+    excerpt: "Helsinki and Tallinn have the deepest tradition; Stockholm public saunas the social scene; Vienna and Berlin hotel saunas the European luxury format.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Sauna Culture",
+    metaDescription: "Where sauna culture is real — Helsinki, Tallinn, Stockholm, Berlin, Vienna. Public saunas, smoke saunas, hotel-spa saunas, and prices.",
+    html: `
+<h2>Sauna styles vary</h2>
+
+<p>Finnish sauna (löyly — water on heated stones, 80–90°C, no perfumes) is the original. Estonian smoke sauna (cooler, longer sessions, savusauna) intangible UNESCO heritage. Swedish bastu more public-and-social. German Saunalandschaft (sauna landscape, often nude, mixed) the bigger spa format. Each city below specializes.</p>
+
+<h2>Helsinki</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> the global capital. Löyly (modern wood-clad public sauna on the sea, swim from 80°C into Baltic), Kotiharju (1928 traditional), Allas Sea Pool. Public saunas €18–22; private hour-rentals €100+. <a href="/en/finland/helsinki/kallio">Kallio</a> and Eira dense.</p>
+
+<h2>Tallinn</h2>
+
+<p><a href="/en/estonia/tallinn">Tallinn</a> traditional Estonian smoke sauna culture. Iglu Pop-up, Kalma Saun (1928 bathhouse), Vabaduse Saun. Very affordable (€12–18). Mooska smoke sauna day-trip rural.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Centralbadet (1904 Art Nouveau bathhouse), Hellasgården (forest-and-lake sauna 30 min from city). Stockholm scene less Finnish-traditional, more spa-mixed.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Vabali Spa (Bali-themed massive complex), Liquidrom, Stadtbad Mitte. Saunalandschaft format (clothing-free, mixed-gender, multiple sauna types). €25–60 day pass.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Therme Wien, hotel saunas at Sacher and Park Hyatt. More spa-luxury than communal-traditional.</p>
+
+<h2>Strategy</h2>
+
+<p>Bring towel + flip-flops. Read local norms: Finland and Germany strict no-swimsuit; Sweden mixed; UK and Italy swimsuit. Don't drink alcohol before sauna; do drink water after.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-canal-cruises",
+    title: "Best European Cities for Canal Cruises & Boat Tours",
+    excerpt: "Amsterdam and Bruges built their cities around canals; Strasbourg, Birmingham, and Hamburg are the lesser-known canal cities. Boat tours are different from canal-living.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Canal Cruises",
+    metaDescription: "Top canal cities — Amsterdam, Bruges, Strasbourg, Hamburg, Stockholm. Cruise types, prices, and the cities where waterways still run the show.",
+    html: `
+<h2>Canal city categories</h2>
+
+<p>Cities defined by their canals (Amsterdam, Bruges, Venice) where boats are infrastructure, vs cities with significant canal sections (Strasbourg's Petite France, Hamburg's Speicherstadt) where canals are heritage. Different visitor experiences.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> 165 canals + 1,500+ bridges. Year-round cruise operators (Stromma, Lovers, Blue Boat) €18–28 for 60–90 min. Better: rent a private boat for €100–150/hour for 6–8 people. <a href="/en/netherlands/amsterdam/jordaan">Jordaan</a> the canal-walking heart.</p>
+
+<h2>Bruges</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> 30-minute cruises €13. Five companies launch from same dock area; rotate boats continuously 10am–5:30pm March–November. Old town entirely walkable from canal piers.</p>
+
+<h2>Venice</h2>
+
+<p><a href="/en/italy/venice">Venice</a> the canal city. Vaporetto (water bus, €9.50 single, €25/day) cheaper than gondolas (€90 fixed for 30 min). Day-pass beats single-ride after 2–3 trips.</p>
+
+<h2>Strasbourg</h2>
+
+<p><a href="/en/france/strasbourg">Strasbourg</a> Petite France canal quarter UNESCO. Batorama boat tours €15. Less famous than Amsterdam but architecturally stunning Alsatian half-timbered.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Speicherstadt warehouse district + Außenalster lake. Hadag harbor ferries (subway day-pass €8 covers them). Maritime feeling rather than urban-canal.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> built on 14 islands. Stromma Royal Canal Tour, "Under the Bridges" 2-hour cruise. Strong city-by-water experience.</p>
+
+<h2>Strategy</h2>
+
+<p>Sunset cruises pricier (+30%) but worth premium for first-time visit. Book online for direct discount; avoid "skip-the-line" upsells (no real lines). Weather check critical — covered/uncovered boats differ on rainy days.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-castle-day-trips",
+    title: "Best European Cities for Castle Day Trips",
+    excerpt: "Munich's Neuschwanstein, Edinburgh's Stirling, Vienna's Schönbrunn-or-Hofburg — the question is which cities give you 3+ castles within an hour.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Castle Day Trips",
+    metaDescription: "Cities for castle visits — Munich, Edinburgh, Vienna, Prague, Lisbon. Day-trip-distance fortresses, palaces, and how to skip the lines.",
+    html: `
+<h2>Day-trip castle math</h2>
+
+<p>Best castle bases: cities where you can choose between 3+ castle visits without overnight stays. The Bavarian Alps, Scotland, Czechia, Loire Valley each have multiple castles within an hour of an anchor city.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> the Bavaria castle hub. Neuschwanstein + Hohenschwangau (2h drive south, day-trip with tour bus), Linderhof, Herrenchiemsee, Nymphenburg in city. Dachau also day-trip distance for darker history. <a href="/en/germany/munich/altstadt-lehel">Altstadt</a> base.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh Castle in city. Stirling Castle (1h), Linlithgow Palace (45 min), Doune Castle (1h, Outlander/Monty Python), Falkland Palace. All connected by ScotRail or 1-day tour buses.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Schönbrunn and Hofburg in city; Belvedere Palace; Liechtenstein Garden Palace. Day-trip: Bratislava Castle (1h by train), Burg Forchtenstein, Heiligenkreuz Abbey.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Prague Castle in city (largest ancient castle in the world by area). Day-trips: Karlštejn (40 min), Konopiště, Český Šternberk. Czech "castle Sunday" tradition for locals — visit several in a day.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Castelo de São Jorge in city. Sintra cluster day-trip — Pena Palace (the iconic colorful one), Quinta da Regaleira, Castle of the Moors, all in one Sintra day. Belém Tower also Lisbon-perimeter.</p>
+
+<h2>Tours / Loire Valley</h2>
+
+<p>Tours is the obvious Loire base — Chambord, Chenonceau, Amboise, Villandry, Blois all within 60–90 min by car. France's deepest castle cluster.</p>
+
+<h2>Strategy</h2>
+
+<p>Pre-book Neuschwanstein 2+ months ahead for summer. Loire requires car or organized tour (public transit thin between châteaux). Combination tickets save 25–40%.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-medieval-old-towns",
+    title: "Best European Cities for Medieval Old Towns",
+    excerpt: "Tallinn, Bruges, Toledo, Carcassonne, and Český Krumlov are the surviving medieval cores. Bombing, fire, and modernization erased most others — these survived intact.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Medieval Old Towns",
+    metaDescription: "Cities with intact medieval cores — Tallinn, Bruges, Carcassonne, Toledo, Cesky Krumlov, Rothenburg. Walls, gates, cobbled streets.",
+    html: `
+<h2>What "intact medieval" means</h2>
+
+<p>Most European old towns are 17th–19th century reconstructions or pastiche. Truly medieval (12th–15th century buildings, original street pattern, surviving walls and gates) is rare. The cities below are the legitimate UNESCO-listed survivors.</p>
+
+<h2>Tallinn</h2>
+
+<p><a href="/en/estonia/tallinn">Tallinn</a> Old Town — the most intact Hanseatic medieval old town in northern Europe. Town Hall (1404), Toompea Castle, complete wall with 20+ towers. UNESCO. Compact (1.5 km wide). November–March cold but mostly tourist-empty.</p>
+
+<h2>Bruges</h2>
+
+<p><a href="/en/belgium/bruges">Bruges</a> Belfry, Markt, Burg square, canals all medieval intact. Tourism heavy but old town genuinely 13th–15th century. UNESCO. Day-trip from Brussels or stay overnight after 5pm crowd disperses.</p>
+
+<h2>Carcassonne</h2>
+
+<p>Walled medieval city in southern France. Cité de Carcassonne is double-walled — Roman + medieval. Heavily restored by Viollet-le-Duc (controversial), but the structure authentic. UNESCO. Day-trip or overnight from Toulouse.</p>
+
+<h2>Toledo</h2>
+
+<p><a href="/en/spain/toledo">Toledo</a> "City of Three Cultures" — Christian, Jewish, Muslim medieval coexistence visible in architecture. Synagogues, mosques (now churches), cathedral, Alcázar. UNESCO. 30-minute AVE high-speed from Madrid.</p>
+
+<h2>Český Krumlov</h2>
+
+<p>Czechia's Krumlov — castle, river bend old town, intact medieval streets. UNESCO. Crowded summer day-trippers from Prague (3h drive); overnight reveals quieter early mornings.</p>
+
+<h2>Rothenburg ob der Tauber</h2>
+
+<p>Bavaria's medieval icon. Tower walls intact and walkable; old town reads as 14th-century film set. Romantic Road tourism heavy June–September; April or November better.</p>
+
+<h2>San Gimignano</h2>
+
+<p>Tuscany's "medieval Manhattan" — 14 surviving stone towers (originally 72). UNESCO. Day-trip or overnight from Siena or Florence.</p>
+
+<h2>Strategy</h2>
+
+<p>Stay overnight in the old town, not surrounding modern city. Day-trippers flood 11am–4pm; early morning and evening have the towns to yourself. Skip July–August in popular ones (Bruges, Rothenburg).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stained-glass-windows",
+    title: "Best European Cities for Stained Glass Windows",
+    excerpt: "Chartres is the global benchmark; Paris's Sainte-Chapelle is the most concentrated; York Minster has the largest single medieval window in Europe.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Medieval Stained Glass Windows",
+    metaDescription: "Stained glass capitals — Chartres, Paris, York, Cologne, Bourges. 12th-13th century windows that survived wars, weather, and modernization.",
+    html: `
+<h2>Why most medieval glass is gone</h2>
+
+<p>Wars, iconoclasm, and centuries of weather destroyed 80%+ of medieval stained glass. The cathedrals below kept theirs through luck or removal-and-storage during conflicts. Going specifically to see them rewards the trip; passing through is enough to miss it.</p>
+
+<h2>Chartres</h2>
+
+<p>Chartres Cathedral 80km southwest of Paris — 152 windows, mostly 12th-13th century. The "Chartres blue" is unrepeatable today (lost glass-coloring technique). Day-trip by SNCF (1h from Paris). 5pm afternoon light optimal for the rose windows.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Sainte-Chapelle (Île de la Cité) — 1248 royal chapel, 15 enormous lancet windows + rose. Reservations required; queue can be 90 minutes. Notre-Dame's restored windows post-fire reopened 2024–25. <a href="/en/france/paris/le-marais">Le Marais</a> walking distance.</p>
+
+<h2>York</h2>
+
+<p><a href="/en/uk/york">York</a> Minster — Great East Window (largest medieval stained-glass window in Europe), Five Sisters Window, multiple 12th-15th century works. England's deepest medieval-glass collection.</p>
+
+<h2>Cologne</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> Cathedral — Bavarian Windows, Three Kings Window. Survived Allied bombing because of the cathedral's symbolic protection. Modern replacement windows by Gerhard Richter (south transept) controversial but striking.</p>
+
+<h2>Bourges</h2>
+
+<p>French cathedral town between Paris and Lyon. Bourges Cathedral 13th-century glass — less famous than Chartres but crowd-free.</p>
+
+<h2>Canterbury</h2>
+
+<p><a href="/en/uk/canterbury">Canterbury</a> Cathedral — 12th-century miracle windows, Becket pilgrimage scenes. England's oldest large stained glass. Day-trip from London.</p>
+
+<h2>Strategy</h2>
+
+<p>Bring binoculars — most windows 20+ meters above floor. Late afternoon (3–5pm) east-facing windows weakest, west-facing strongest. Cathedral lighting often dim — visit 11am–3pm sun. Avoid Sundays during services if visiting for photography.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

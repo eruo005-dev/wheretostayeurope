@@ -11406,6 +11406,322 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 37 — culture + practical + season-specific
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-theatre",
+    title: "Best European Cities for Theatre Lovers (Honest 2026)",
+    excerpt: "Where European theatre actually happens — West End to off-West-End, opera, modern.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Theatre — Honest 2026",
+    metaDescription: "Where European theatre actually happens — West End to off-West-End, opera, modern.",
+    html: `
+<p>European theatre is a substantial draw. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination theatre cities</h2>
+
+<ul>
+  <li><strong>London West End:</strong> 40+ theatres in 1 km. Long-running shows, premieres, transfers from Broadway.</li>
+  <li><strong>London Off-West-End:</strong> Donmar, Almeida, Bridge — strong contemporary.</li>
+  <li><strong>Edinburgh Fringe (August):</strong> Largest performing arts festival. 3000+ shows.</li>
+  <li><strong>Avignon Festival (July):</strong> French theatre festival inside the medieval city.</li>
+  <li><strong>Berlin Schaubühne + Volksbühne:</strong> German theatrical heart.</li>
+</ul>
+
+<h2>Tier 2 — strong theatre cities</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Comédie-Française historic; off-Broadway equivalent strong.</li>
+  <li><strong>Vienna Burgtheater:</strong> German-speaking world's premier stage.</li>
+  <li><strong>Stratford-upon-Avon:</strong> Royal Shakespeare Company.</li>
+  <li><strong>Stockholm Royal Dramatic Theatre.</strong></li>
+  <li><strong>Madrid Teatro Real + Teatro de la Zarzuela.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>London West End:</strong> Same-day half-price tickets at TKTS Leicester Square.</li>
+  <li><strong>Edinburgh Fringe:</strong> Ticketless free shows + paid headlines. Plan multi-show days.</li>
+  <li><strong>Avignon Festival:</strong> Book accommodation 6+ months ahead.</li>
+  <li><strong>Foreign-language theatre:</strong> Many Berlin/Vienna theatres offer English subtitles. Verify.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-pilgrimage-religious-travel",
+    title: "Best European Cities for Religious Pilgrimage Travel",
+    excerpt: "Catholic, Orthodox, and Protestant pilgrimage routes in Europe. Honest sort.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Religious Pilgrimage — Honest 2026",
+    metaDescription: "Catholic, Orthodox, and Protestant pilgrimage routes in Europe. Honest sort.",
+    html: `
+<p>European pilgrimage routes are still walked by hundreds of thousands annually. Here's the honest sort.</p>
+
+<h2>Catholic pilgrimage cities</h2>
+
+<ul>
+  <li><strong>Vatican City (Rome):</strong> Saint Peter's Basilica, Vatican Museums, papal audience (Wednesdays).</li>
+  <li><strong>Santiago de Compostela:</strong> Camino terminus. The Pilgrim's Mass.</li>
+  <li><strong>Lourdes, France:</strong> Marian apparition site (1858). 3 million pilgrims/year.</li>
+  <li><strong>Fátima, Portugal:</strong> Marian apparition site (1917).</li>
+  <li><strong>Assisi, Italy:</strong> Saint Francis basilica + Saint Clare basilica.</li>
+</ul>
+
+<h2>Orthodox pilgrimage cities</h2>
+
+<ul>
+  <li><strong>Meteora, Greece:</strong> Cliff-top monasteries.</li>
+  <li><strong>Mount Athos (men only):</strong> Greek monastic peninsula.</li>
+  <li><strong>Patmos, Greece:</strong> Where John wrote Revelation.</li>
+  <li><strong>Sergiev Posad (politics aside):</strong> Russian Orthodox heart.</li>
+</ul>
+
+<h2>Protestant heritage cities</h2>
+
+<ul>
+  <li><strong>Wittenberg, Germany:</strong> Luther's 95 Theses church door.</li>
+  <li><strong>Geneva (Reformation Wall):</strong> Calvin's heritage.</li>
+  <li><strong>Eisenach (Wartburg Castle):</strong> Where Luther translated the Bible.</li>
+</ul>
+
+<h2>Camino de Santiago routes</h2>
+
+<ul>
+  <li><strong>French Way (Camino Francés):</strong> 800km Saint-Jean-Pied-de-Port to Santiago. The classic.</li>
+  <li><strong>Portuguese Way:</strong> 240km Porto to Santiago.</li>
+  <li><strong>Northern Way:</strong> Atlantic-coast 825km.</li>
+  <li><strong>Plan 5-6 weeks for full French Way.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Camino:</strong> Get pilgrim passport (Credencial). Stamp at each albergue.</li>
+  <li><strong>Vatican audiences:</strong> Free tickets through US Bishops' Office months ahead.</li>
+  <li><strong>Lourdes/Fátima:</strong> Mass schedules vary; check before going.</li>
+  <li><strong>Holy Week timing:</strong> Most pilgrimage cities are crowded but powerful during Easter.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-winter-sun",
+    title: "Best European Cities for Winter Sun",
+    excerpt: "Where to find warmth + sun in European winter — Andalusia, Madeira, Cyprus, Malta.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Winter Sun — Honest 2026",
+    metaDescription: "Where to find warmth + sun in European winter — Andalusia, Madeira, Cyprus, Malta.",
+    html: `
+<p>Some Europeans escape the dark winter to specific sun destinations. Here's the honest sort.</p>
+
+<h2>Tier 1 — reliable winter sun</h2>
+
+<ul>
+  <li><strong>Tenerife, Canary Islands:</strong> 22-26°C December. Year-round sun.</li>
+  <li><strong>Gran Canaria:</strong> Same.</li>
+  <li><strong>Lanzarote, Fuerteventura:</strong> Same.</li>
+  <li><strong>Madeira (Funchal):</strong> 18-22°C December. Atlantic mild.</li>
+  <li><strong>Cyprus (Limassol, Paphos):</strong> 16-20°C December.</li>
+</ul>
+
+<h2>Tier 2 — mild + sometimes-sun winter</h2>
+
+<ul>
+  <li><strong>Malta (Valletta, Sliema):</strong> 14-18°C December.</li>
+  <li><strong>Andalusia (Seville, Granada, Málaga):</strong> 16-22°C daytime December.</li>
+  <li><strong>Algarve (Portugal):</strong> 16-20°C, surfable.</li>
+  <li><strong>Sicily (Catania, Palermo):</strong> 14-18°C December.</li>
+  <li><strong>Crete (off-season):</strong> Most ferries off but cities stay warm.</li>
+</ul>
+
+<h2>Tier 3 — surprising winter-sun</h2>
+
+<ul>
+  <li><strong>Madeira (year-round mild).</strong></li>
+  <li><strong>Lisbon, Porto:</strong> Mild but rainy days December-February.</li>
+  <li><strong>Mallorca off-season:</strong> Quiet + still-mild.</li>
+  <li><strong>Tarifa, Spain:</strong> Wind-but-warm Atlantic.</li>
+</ul>
+
+<h2>What doesn't work for winter sun</h2>
+
+<ul>
+  <li><strong>Greek islands beyond Athens:</strong> Most ferries stop, restaurants close.</li>
+  <li><strong>Turkish coast beaches:</strong> Cool + rainy.</li>
+  <li><strong>Croatian coast:</strong> Some warmth but most resorts closed.</li>
+  <li><strong>Eastern European Black Sea coast:</strong> Cold.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For pure sun-and-beach winter: Canary Islands. For city-and-warmth: Madeira, Cyprus, Malta. Andalusia adds culture/food. Avoid August (rainy in Canaries; sweltering elsewhere).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-university-cities",
+    title: "Best European University Cities for Tours and Visits",
+    excerpt: "Where European universities anchor city visits — Oxford, Cambridge, Bologna, Coimbra and more.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 8,
+    metaTitle: "Best European University Cities — Honest 2026",
+    metaDescription: "Where European universities anchor city visits — Oxford, Cambridge, Bologna, Coimbra and more.",
+    html: `
+<p>Some European cities exist for the university. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination university cities</h2>
+
+<ul>
+  <li><strong>Oxford, England:</strong> 38 colleges, 800+ years. Day-trip from London or stay.</li>
+  <li><strong>Cambridge, England:</strong> Same era, equally beautiful.</li>
+  <li><strong>Bologna, Italy:</strong> University of Bologna (1088) — oldest in Europe.</li>
+  <li><strong>Coimbra, Portugal:</strong> University of Coimbra (1290) UNESCO library.</li>
+  <li><strong>Salamanca, Spain:</strong> Spanish university heritage.</li>
+</ul>
+
+<h2>Tier 2 — strong university cities</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/heidelberg">Heidelberg</a>:</strong> Heidelberg University (1386) — Germany's oldest.</li>
+  <li><strong><a href="/en/scotland">Edinburgh</a>:</strong> Edinburgh University (1583).</li>
+  <li><strong>Tübingen, Germany:</strong> University town atmosphere.</li>
+  <li><strong>Leuven, Belgium:</strong> Catholic University (1425).</li>
+  <li><strong>Padua, Italy:</strong> University of Padua (1222).</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Lund, Sweden:</strong> Lund University (1666).</li>
+  <li><strong>Tartu, Estonia:</strong> University town.</li>
+  <li><strong>Cluj-Napoca, Romania:</strong> Babeș-Bolyai University.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Term-time visits:</strong> Universities feel alive. Most colleges have visitor hours.</li>
+  <li><strong>Holiday closures:</strong> Christmas + Easter break = many colleges closed to public.</li>
+  <li><strong>College tours:</strong> Often led by current students; insider perspective.</li>
+  <li><strong>Library access:</strong> Some require advance permission (Oxford Bodleian, Coimbra).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-destination-weddings",
+    title: "Best European Cities for Destination Weddings",
+    excerpt: "Where European weddings actually deliver — venue + atmosphere + practical logistics.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Destination Weddings — Honest 2026",
+    metaDescription: "Where European weddings actually deliver — venue + atmosphere + practical logistics.",
+    html: `
+<p>Destination weddings in Europe are popular. Here's the honest sort by venue quality, logistics, and legal complexity.</p>
+
+<h2>Tier 1 — destination wedding cities</h2>
+
+<ul>
+  <li><strong>Tuscany (countryside agriturismo):</strong> Most-iconic Italian wedding setting. Lower legal complexity if symbolic-only ceremony.</li>
+  <li><strong>Lake Como (Varenna, Bellagio):</strong> Premium villa weddings.</li>
+  <li><strong>Santorini:</strong> Caldera-edge ceremonies. Limited summer slots.</li>
+  <li><strong>Provence:</strong> Lavender-season weddings (June-July).</li>
+  <li><strong>Mallorca:</strong> Beach + villa.</li>
+</ul>
+
+<h2>Tier 2 — strong destination wedding cities</h2>
+
+<ul>
+  <li><strong>Florence:</strong> Renaissance villa weddings.</li>
+  <li><strong>Dubrovnik:</strong> Old Town + walls views.</li>
+  <li><strong>Bath, UK:</strong> Georgian elegance.</li>
+  <li><strong>Edinburgh:</strong> Castle weddings.</li>
+  <li><strong>Lisbon + Sintra:</strong> Palace weddings.</li>
+</ul>
+
+<h2>Tier 3 — niche destination weddings</h2>
+
+<ul>
+  <li><strong>Lapland Christmas weddings.</strong></li>
+  <li><strong>Iceland glacier ceremonies.</strong></li>
+  <li><strong>Greek island private chapels.</strong></li>
+</ul>
+
+<h2>Legal considerations</h2>
+
+<ul>
+  <li><strong>Italy:</strong> Legal civil ceremony requires advance paperwork (4-6 months).</li>
+  <li><strong>Spain:</strong> Legally complex for non-residents.</li>
+  <li><strong>Many couples do legal ceremony at home + symbolic ceremony abroad.</strong></li>
+  <li><strong>Cyprus, Gibraltar, Denmark:</strong> Easier legal ceremonies for non-residents.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Hire a local wedding planner. Book venues 12-18 months ahead. Verify legal requirements early. Most couples opt for symbolic ceremony abroad + civil at home (cheaper, simpler).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sunset-views",
+    title: "Best European Cities for Sunset Views (Honest 2026)",
+    excerpt: "Where European sunsets actually deliver — coast, terrace, and city-overlook picks.",
+    publishedAt: "2026-06-01",
+    reviewedAt: "2026-06-01",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Sunset Views — Honest 2026",
+    metaDescription: "Where European sunsets actually deliver — coast, terrace, and city-overlook picks.",
+    html: `
+<p>European sunsets vary dramatically by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination sunset views</h2>
+
+<ul>
+  <li><strong>Santorini Oia + Imerovigli:</strong> Caldera sunset. Crowded; arrive 90 min ahead.</li>
+  <li><strong>Lisbon miradouros:</strong> Multiple sunset viewpoints. São Pedro de Alcântara, Santa Catarina, Senhora do Monte.</li>
+  <li><strong>Sintra Quinta da Regaleira:</strong> Forest + palace sunset.</li>
+  <li><strong>Granada Mirador de San Nicolás:</strong> Alhambra + Sierra Nevada at sunset.</li>
+  <li><strong>Dubrovnik walls walk:</strong> Sunset over the Adriatic.</li>
+</ul>
+
+<h2>Tier 2 — strong sunset views</h2>
+
+<ul>
+  <li><strong>Florence Piazzale Michelangelo:</strong> Renaissance city at golden hour.</li>
+  <li><strong>Rome Aventino + Knights of Malta keyhole.</strong></li>
+  <li><strong>Athens Lycabettus Hill:</strong> Acropolis at sunset.</li>
+  <li><strong>Edinburgh Calton Hill:</strong> City + sea sunset.</li>
+  <li><strong>Hvar Town fortress:</strong> Adriatic sunset.</li>
+</ul>
+
+<h2>Tier 3 — niche sunset spots</h2>
+
+<ul>
+  <li><strong>Cinque Terre Vernazza:</strong> Coastal village sunset.</li>
+  <li><strong>Cliffs of Moher, Ireland:</strong> Atlantic sunset.</li>
+  <li><strong>Cape Sounion (Athens day-trip):</strong> Temple of Poseidon.</li>
+  <li><strong>Cabo da Roca (Sintra-area):</strong> Westernmost European sunset.</li>
+  <li><strong>Madeira Cabo Girão:</strong> Cliff-top.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Arrive 60-90 min before sunset:</strong> Best spots fill up.</li>
+  <li><strong>Northern latitudes:</strong> Summer sunsets are 9-11pm; winter 3-5pm. Plan accordingly.</li>
+  <li><strong>Coastal vs hilltop:</strong> Pick your sunset type. Coastal = wide horizon. Hilltop = city + horizon combination.</li>
+</ul>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

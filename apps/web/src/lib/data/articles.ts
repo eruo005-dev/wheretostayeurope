@@ -9440,6 +9440,351 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 31 — dietary + niche audience + city-combo
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-halal-food",
+    title: "Best European Cities for Halal Food (Honest 2026)",
+    excerpt: "Where Muslim travelers find dense halal food options. Honest sort by depth and convenience.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Halal Food — Honest 2026",
+    metaDescription: "Where Muslim travelers find dense halal food options. Honest sort by depth and convenience.",
+    html: `
+<p>Halal food density varies meaningfully by European city. Here's the honest sort.</p>
+
+<h2>Tier 1 — extensive halal food scenes</h2>
+
+<ul>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Almost universally halal. Major mosque proximity throughout.</li>
+  <li><strong>London:</strong> Stratford, Edgware Road, Whitechapel are halal-dense. Thousands of restaurants.</li>
+  <li><strong>Paris:</strong> Belleville, Barbès, central neighborhoods. Strong halal scene.</li>
+  <li><strong>Berlin:</strong> Kreuzberg + Neukölln Turkish neighborhoods. Excellent halal density.</li>
+  <li><strong>Brussels:</strong> Molenbeek + central — significant halal scene.</li>
+</ul>
+
+<h2>Tier 2 — strong halal availability</h2>
+
+<ul>
+  <li><strong>Amsterdam:</strong> Strong Indonesian + Turkish halal options.</li>
+  <li><strong>Rotterdam:</strong> Same scene.</li>
+  <li><strong>Hamburg:</strong> Turkish-heavy population; halal common.</li>
+  <li><strong>Lyon, Marseille:</strong> North African community — halal central.</li>
+  <li><strong>Vienna:</strong> Brunnenmarkt area for halal.</li>
+</ul>
+
+<h2>Tier 3 — workable with planning</h2>
+
+<ul>
+  <li><strong>Madrid, Barcelona:</strong> Halal restaurants exist; not central. Lavapiés in Madrid.</li>
+  <li><strong>Rome, Florence:</strong> Halal restaurants exist near train stations and in Esquilino.</li>
+  <li><strong>Athens:</strong> Some halal options; not central.</li>
+</ul>
+
+<h2>Tier 4 — limited halal availability</h2>
+
+<ul>
+  <li>Small Italian / Spanish / French cities outside major hubs.</li>
+  <li>Greek islands beyond Athens.</li>
+  <li>Most Eastern European cities (Sofia, Bucharest, Belgrade limited halal).</li>
+  <li>Iceland (very limited).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>HalalTrip / Zabihah apps:</strong> Maps for restaurant-finding.</li>
+  <li><strong>Mosques during Ramadan:</strong> Iftar dinners often free.</li>
+  <li><strong>Self-cater in tier-3+ cities:</strong> Halal grocery stores exist where halal restaurants don't.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-kosher-food",
+    title: "Best European Cities for Kosher Food (Honest 2026)",
+    excerpt: "Where Jewish travelers find kosher food infrastructure. Honest sort by depth and synagogue communities.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Kosher Food — Honest 2026",
+    metaDescription: "Where Jewish travelers find kosher food infrastructure. Honest sort by depth and synagogue communities.",
+    html: `
+<p>Kosher food in Europe varies by city. Here's the honest sort.</p>
+
+<h2>Tier 1 — significant kosher infrastructure</h2>
+
+<ul>
+  <li><strong>Paris:</strong> The Marais. Multiple kosher restaurants, bakeries, butcher shops.</li>
+  <li><strong>London:</strong> Golders Green, Stamford Hill, Hendon. Strong infrastructure.</li>
+  <li><strong>Antwerp:</strong> Hasidic community + dense kosher scene around the diamond district.</li>
+  <li><strong>Brussels:</strong> Several kosher restaurants and the Great Synagogue area.</li>
+  <li><strong>Amsterdam:</strong> Jewish Cultural Quarter, kosher restaurants in Buitenveldert.</li>
+</ul>
+
+<h2>Tier 2 — meaningful kosher availability</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Leopoldstadt has kosher infrastructure.</li>
+  <li><strong>Berlin:</strong> Recent revival — multiple kosher restaurants in Mitte.</li>
+  <li><strong>Madrid, Barcelona:</strong> Kosher restaurants exist; smaller scene than Paris/London.</li>
+  <li><strong>Rome:</strong> The Jewish Ghetto has restaurants serving Roman-Jewish cuisine (some kosher, some kosher-style).</li>
+  <li><strong>Budapest:</strong> Jewish quarter restoration. Kosher delis.</li>
+</ul>
+
+<h2>Tier 3 — limited kosher availability</h2>
+
+<ul>
+  <li>Most smaller European cities.</li>
+  <li>Mediterranean coast/islands.</li>
+  <li>Eastern European cities outside Budapest, Krakow.</li>
+</ul>
+
+<h2>Jewish-heritage cities (separate from kosher food)</h2>
+
+<ul>
+  <li><strong>Krakow Kazimierz:</strong> Restored Jewish quarter; some kosher restaurants.</li>
+  <li><strong>Prague:</strong> Old Jewish Quarter (Josefov) — synagogue tour standard.</li>
+  <li><strong>Venice:</strong> The original "Ghetto."</li>
+  <li><strong>Tudela, Toledo, Girona:</strong> Sephardic heritage.</li>
+  <li><strong>Berlin:</strong> Jewish Museum, Holocaust Memorial.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Chabad apps and websites:</strong> Comprehensive kosher-restaurant maps.</li>
+  <li><strong>Friday/Saturday meals:</strong> Many cities offer Shabbat hospitality through Chabad or local synagogues.</li>
+  <li><strong>Self-cater in tier-3 cities:</strong> Most Jewish travelers do this.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-retirement-living",
+    title: "Best European Cities for Retirement Living (Long-Term)",
+    excerpt: "Where Americans, Brits, and others actually retire in Europe. Honest sort by visa, healthcare, and quality of life.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Retirement — Honest 2026",
+    metaDescription: "Where Americans, Brits, and others actually retire in Europe. Honest sort by visa, healthcare, and quality of life.",
+    html: `
+<p>Retirement-in-Europe is a real trend. Here's the honest sort by visa accessibility, healthcare, and quality of life.</p>
+
+<h2>Visa-friendly retirement countries</h2>
+
+<ul>
+  <li><strong>Portugal:</strong> D7 visa for non-EU. Sufficient income (~€800/month) qualifies. Lisbon expensive; Porto, Algarve, Madeira affordable.</li>
+  <li><strong>Spain:</strong> Non-Lucrative Visa. Income requirement higher (~€2400/month). Andalusia, Valencia popular.</li>
+  <li><strong>Italy:</strong> Elective Residence Visa. Tax-friendly for some retirees in southern Italy.</li>
+  <li><strong>Greece:</strong> FIP (Financially Independent Person) visa. Affordable Athens or islands.</li>
+  <li><strong>France:</strong> VLS-T visiteur visa for retirees. More bureaucratic.</li>
+</ul>
+
+<h2>Top retirement cities by quality-of-life</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + <a href="/en/portugal/porto">Porto</a>:</strong> English widely spoken (newer-generation), strong expat community, mild climate.</li>
+  <li><strong><a href="/en/spain/valencia">Valencia</a>:</strong> Cheaper than Madrid/Barcelona, beach access, healthcare strong.</li>
+  <li><strong><a href="/en/spain/seville">Seville</a>, Granada, Málaga:</strong> Andalusia retirees popular. Accept brutal summers.</li>
+  <li><strong><a href="/en/portugal/funchal">Funchal (Madeira)</a>:</strong> Year-round mild, growing expat community.</li>
+  <li><strong>Cyprus (<a href="/en/cyprus/limassol">Limassol</a>, <a href="/en/cyprus/paphos">Paphos</a>):</strong> English official, year-round Mediterranean climate.</li>
+</ul>
+
+<h2>Cheaper retirement (with caveats)</h2>
+
+<ul>
+  <li><strong>Albania (<a href="/en/albania/tirana">Tirana</a>):</strong> Visa-free for Americans 1 year. Very cheap. Limited English.</li>
+  <li><strong>Bulgaria (Sofia):</strong> EU but cheap. Limited English in older generations.</li>
+  <li><strong>Romania (Bucharest, <a href="/en/romania/cluj-napoca">Cluj</a>):</strong> Affordable, English in younger gen.</li>
+</ul>
+
+<h2>Healthcare reality</h2>
+
+<p>EU residents (legal residents) get access to public healthcare. Quality varies — Spain, France, Italy, Portugal generally excellent. Private health insurance for non-EU retirees runs €100-€400/month.</p>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>Expensive Switzerland, Norway, Iceland:</strong> Beautiful but burns through savings.</li>
+  <li><strong>Cheap places without healthcare:</strong> Verify before committing.</li>
+  <li><strong>"Tax-haven" pitches in tiny Mediterranean countries:</strong> Often more complex than advertised.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Visit twice (different seasons) before committing. Rent for 6-12 months before buying. Connect with local expat communities — Facebook groups for each city are dense with practical info.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sailing-trips",
+    title: "Best European Cities for Sailing Charter Trips",
+    excerpt: "Where to start a European sailing trip — Croatia, Greece, Italy, Spain. Honest charter base picks.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Sailing Trips — Honest 2026",
+    metaDescription: "Where to start a European sailing trip — Croatia, Greece, Italy, Spain. Honest charter base picks.",
+    html: `
+<p>European sailing reaches Mediterranean and Adriatic at the easiest. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination sailing bases</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Croatia's #1 charter base. ACI marina, dozens of yacht companies.</li>
+  <li><strong>Trogir, Croatia:</strong> Just north of Split. Quieter charter base.</li>
+  <li><strong>Athens (Lavrio + Alimos):</strong> Greece's main charter bases.</li>
+  <li><strong>Corfu / Lefkas (Greece):</strong> Ionian sailing — calmer than Cycladic.</li>
+  <li><strong>Palma de Mallorca:</strong> Balearic charter base.</li>
+</ul>
+
+<h2>Tier 2 — strong sailing bases</h2>
+
+<ul>
+  <li><strong>Pula, Croatia:</strong> Istrian peninsula sailing.</li>
+  <li><strong>Cagliari, Sardinia:</strong> Italian Tyrrhenian sailing.</li>
+  <li><strong>Naples + Capri:</strong> Bay of Naples charter.</li>
+  <li><strong>Saint Tropez, Cannes:</strong> French Riviera (expensive).</li>
+  <li><strong>Marmaris, Bodrum (Turkey):</strong> Aegean sailing.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Stockholm + archipelago:</strong> Baltic sailing.</li>
+  <li><strong>Hamburg + Baltic:</strong> Different climate.</li>
+  <li><strong>Plymouth, England:</strong> Atlantic sailing — for serious sailors.</li>
+  <li><strong>Reykjavík + Iceland coast:</strong> Adventure sailing.</li>
+</ul>
+
+<h2>Best regions to sail</h2>
+
+<ul>
+  <li><strong>Croatian coast:</strong> Crystal water, dense islands, restaurants in every harbor.</li>
+  <li><strong>Cyclades:</strong> Iconic but more weather-volatile.</li>
+  <li><strong>Ionian (Lefkas, Ithaki, Cephalonia):</strong> Calmer winds, perfect for first-time skippers.</li>
+  <li><strong>Sardinia + Corsica:</strong> Premium destinations, dramatic coastline.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Bareboat vs crewed:</strong> Sailing license required for bareboat in most countries.</li>
+  <li><strong>Best season:</strong> May-June, September-early October. July-August windy + crowded.</li>
+  <li><strong>Costs:</strong> €2500-€7000/week for a 40ft yacht; varies by season.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-second-european-trip",
+    title: "Best European Cities for Stopovers When Visiting Multiple Times",
+    excerpt: "If you've been to Europe before, here's how to layer cities into multiple trips for depth.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 9,
+    metaTitle: "European Cities for Multi-Trip Travelers — Honest 2026",
+    metaDescription: "If you've been to Europe before, here's how to layer cities into multiple trips for depth.",
+    html: `
+<p>Most European travelers come back. Here's the honest sort of which cities reward multi-trip layering.</p>
+
+<h2>Cities that reward 4-6 visits</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> 20 arrondissements; never feels exhausted. Each arrondissement is its own trip.</li>
+  <li><strong>London:</strong> Same depth. East End vs Soho vs South Ken vs Notting Hill = different cities.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Ancient Rome + Renaissance Rome + Baroque Rome + modern Rome.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Each neighborhood functionally separate.</li>
+  <li><strong><a href="/en/turkey/istanbul">Istanbul</a>:</strong> Historical + Galata + Asian + neighborhood Istanbul = 4-5 trips.</li>
+</ul>
+
+<h2>Cities that reward 2-3 visits</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> First trip = Uffizi-and-Duomo. Second = Tuscany base. Third = Renaissance deep.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> First = Prado. Second = neighborhoods. Third = day-trips.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> First = central. Second = Mouraria + Belém. Third = Sintra-deep + Alentejo.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> First = District 1. Second = District 7 + 2. Third = music + cuisine deep.</li>
+</ul>
+
+<h2>Cities you don't need to revisit</h2>
+
+<ul>
+  <li><strong>Bruges, Hallstatt, Český Krumlov:</strong> One thorough visit covers them.</li>
+  <li><strong>Pisa:</strong> Tower + lunch is a half-day, not a return trip.</li>
+  <li><strong>Monaco:</strong> Different than Nice anyway.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For multi-trip travelers, the right approach is: 5-6 nights per city. Don't try to "see everything" — pick a theme (food, museums, architecture, neighborhoods) and stay in one neighborhood for the trip. Build up the city across visits.</p>
+
+<p>For specific second-trip alternatives see <a href="/en/articles/best-european-cities-second-trip">cities for second trip</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-easter-week",
+    title: "Best European Cities for Easter Week Travel (Honest 2026)",
+    excerpt: "Easter brings specific traditions across Europe. Honest picks for Easter-week trips.",
+    publishedAt: "2026-05-26",
+    reviewedAt: "2026-05-26",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Easter Week — Honest 2026",
+    metaDescription: "Easter brings specific traditions across Europe. Honest picks for Easter-week trips.",
+    html: `
+<p>Easter brings dramatic processions, traditions, and local life across Europe. Here's the honest sort.</p>
+
+<h2>Catholic Easter — Holy Week (Semana Santa)</h2>
+
+<ul>
+  <li><strong><a href="/en/spain/seville">Seville</a>:</strong> The world's most-famous Holy Week. Brotherhoods carrying floats nightly. Crowded but unforgettable.</li>
+  <li><strong>Trapani / Syracuse, Sicily:</strong> Equally intense, less touristed.</li>
+  <li><strong>Granada, Málaga, Zamora (Spain):</strong> Dramatic processions across Spain.</li>
+  <li><strong>Antigua-style Sicilian processions:</strong> Erice, Enna.</li>
+</ul>
+
+<h2>Greek Orthodox Easter (different date)</h2>
+
+<ul>
+  <li><strong><a href="/en/greece/athens">Athens</a>:</strong> Midnight Easter Saturday with candles in every neighborhood.</li>
+  <li><strong>Corfu:</strong> Pot-throwing tradition (Saturday morning).</li>
+  <li><strong>Patmos:</strong> Religious significance + Holy Week ceremonies.</li>
+</ul>
+
+<h2>Polish + Czech traditions</h2>
+
+<ul>
+  <li><strong>Krakow:</strong> Easter food blessings, traditional breakfasts, Wawel Cathedral processions.</li>
+  <li><strong>Czech painted-egg traditions:</strong> Mostly rural, accessible day-trip from Prague.</li>
+</ul>
+
+<h2>Quiet Northern Europe</h2>
+
+<ul>
+  <li><strong>Nordic capitals:</strong> Easter Monday is a public holiday. Many shops closed but cities are quiet, beautiful, and uncrowded.</li>
+</ul>
+
+<h2>Where Easter is just a long weekend</h2>
+
+<ul>
+  <li><strong>UK:</strong> Long weekend; everywhere busy.</li>
+  <li><strong>French/Italian/German cities:</strong> Mostly closed on Easter Monday for businesses.</li>
+</ul>
+
+<h2>Booking strategy</h2>
+
+<p>Easter weekend is peak. Book 4-6 months ahead for popular destinations. Seville Semana Santa requires 6-12 months. Greek islands at Easter triple from off-season prices.</p>
+
+<h2>Best timing</h2>
+
+<p>The week before Easter (Holy Week) is most-active. The week after (post-Easter) is dramatically quieter and Mediterranean weather is opening up.</p>
+
+<p>For broader month-by-month planning see <a href="/en/articles/europe-when-to-go-month-by-month">when to go where</a>.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

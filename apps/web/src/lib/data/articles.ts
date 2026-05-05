@@ -18144,6 +18144,275 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-italian-leather-shoes",
+    title: "Best European Cities for Italian Leather Shoes",
+    excerpt: "Italy's shoe trinity: Naples for bespoke (Mannina), Florence for handcrafted (Stefano Bemer, Roberto Ugolini), Milan for industrial-luxury (Tod's, Santoni).",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Italian Leather Shoes",
+    metaDescription: "Cities for Italian leather shoes — Naples, Florence, Milan. Bespoke vs handmade vs industrial-luxury, prices, lead times.",
+    html: `
+<h2>Three Italian shoe traditions</h2>
+
+<p>Naples bespoke (su misura — pattern made to your foot, fully hand-stitched, 8–14 weeks turnaround), Florence handcrafted (limited series, hand-finished, in-shop measurement), Milan industrial-luxury (high-quality factory production, large showrooms). Each has its base.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> is the global bespoke-shoes capital. Mannina (since 1962, classic Neapolitan style), Riccardo Bestetti, Pasquale Caropreso, Antonio Meccariello. €4,000–8,000 for first pair bespoke (lasts and patterns reusable; subsequent pairs €2,500–4,000). 3+ trips required: measurement, baste fitting, final fitting + delivery.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> Stefano Bemer (taken over by Scuola del Cuoio family — bespoke + ready-to-wear), Roberto Ugolini, Saskia Wittmer (only female bespoke shoemaker in Florence). €3,500–6,000 bespoke. Plus historic Calzoleria Mannina at Ponte Vecchio (different from Naples Mannina). Florence's Scuola del Cuoio teaches the craft.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Tod's flagship (Marina San Babila), Santoni Milano, Magnanni Italia, Bontoni. Industrial-luxury — high quality at €600–2,500 per pair off-the-shelf. <a href="/en/italy/milan/quadrilatero-della-moda">Quadrilatero della Moda</a> base.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Bottega Senatoria (since 1991), De Bonis (since 1922). Less famous than Naples/Florence but capital-city customers. Some heritage holdouts.</p>
+
+<h2>London (English alternative)</h2>
+
+<p><a href="/en/uk/london">London</a> Northampton-made shoes (Crockett & Jones, Edward Green, John Lobb) — different tradition (English-stiff vs Italian-soft). Bond Street and St James's flagship stores. Englishbench-made shoes £600–2,000 ready, £4,000+ bespoke.</p>
+
+<h2>Strategy</h2>
+
+<p>Bespoke initial trip 2–3 days for measurement/walk-test. Patterns retained for life. Resoling extends life 15–20+ years. Read our <a href="/en/articles/best-european-cities-for-bespoke-tailoring">bespoke tailoring</a> companion for the suit-side trip.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-spice-shops",
+    title: "Best European Cities for Spice Shops",
+    excerpt: "Istanbul's Grand Bazaar Spice Market is the original; Sevilla and Valencia for saffron; Hamburg's Speicherstadt for the merchant trade; Paris for niche curated houses.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Spice Shops & Markets",
+    metaDescription: "Cities for spice shopping — Istanbul, Sevilla, Hamburg, Paris, London. Saffron, sumac, ras el hanout, and merchant-trade heritage.",
+    html: `
+<h2>Spice supply geographies</h2>
+
+<p>Istanbul's spice scene reflects Ottoman trade routes; Spanish saffron production (La Mancha) routes through Madrid and Sevilla; Hamburg has the German merchant tradition. Each has distinct strengths — what to buy where matters more than which is "best."</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> Spice Bazaar (Mısır Çarşısı, 1660) at Eminönü — saffron, sumac, ras el hanout, dried fruits, Turkish delight, lokum, hashish-ice-cream-style maraş ice cream. Smaller stalls outside the market often better quality. Negotiate prices 30–40% below opening. <a href="/en/turkey/istanbul/sultanahmet">Sultanahmet</a> walking distance.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Mercado de Triana for saffron and Spanish paprika (pimentón dulce + pimentón picante). Specialty shops in Santa Cruz neighborhood. Saffron production from La Mancha, often €3–8/gram retail in Spain vs €20+ exported.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Speicherstadt (warehouse district, UNESCO) was the historic spice and tea trading center. Surviving merchants — Reichard Kaffee, Speicherstadt Kaffeerösterei. Less retail-tourist than commercial-trade. Day-trip historical interest.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Goumanyat (Maison Thiercelin, since 1809 — the legendary Paris saffron house), Izraël Spice (Marais), G. Detou. Curated rather than wholesale. €40–80/gram saffron at top quality.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Spice Mountain at Borough Market, Steenbergs (online), TFC and Persepolis on Peckham Lane (Persian/Middle Eastern specialists). Strong on Indian sub-continent imports given UK heritage.</p>
+
+<h2>Marrakesh-adjacent</h2>
+
+<p>Outside our European geography but Marrakesh and Fez markets are the spice-shopping global benchmark — flights from Spain or Portugal common.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy small (50g) quantities — spices lose potency 6–12 months. Vacuum-sealed only travels well checked-luggage. Authentication: real saffron threads stain water yellow within minutes; fake stays clear. Customs limits — €100–500 typically duty-free returning home.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-electric-bike-rental",
+    title: "Best European Cities for Electric Bike Rental",
+    excerpt: "Lisbon and Athens use e-bikes to defeat hills; Barcelona, Berlin, and Amsterdam have integrated e-bike layers in public bike-share. Rental day-tour vs share-pass.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Electric Bike Rental",
+    metaDescription: "Cities for e-bike rentals — Lisbon, Athens, Berlin, Amsterdam, Barcelona. Daily rental shops vs public bike-share e-bike options.",
+    html: `
+<h2>Two formats</h2>
+
+<p>Public bike-share e-bikes (€1–4/30 min, station-to-station, app-paid) and private rental shops (€20–50/full day, more powerful e-motor, GPS tour included). Below: cities best for each.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> hilly so e-bikes critical for casual cyclists. GIRA (city e-bike share, €2/day pass, 1,000+ bikes). Plus rental shops Bike Iberia, Lisbon Bike Tours. €25–35 daily private rental.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> heat + hills makes e-bikes practical. Brera Athens e-bike rental (€25–35/day, GPS tour). Public bike-share thin in Athens; private rentals dominate.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Nextbike + multiple operators include e-bikes. €1.50/30 min for e-bike. Berlin's flat geography means e-bikes optional for fitness; for tourism, e-bike triples the daily distance.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> e-bike rental shops (Yellow Bike, MacBike). €25–35/day. Public bike-share thin (locals own bikes); private rental dominates tourism.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Donkey Republic, Mobike, MyTwic e-bike. Hills around Park Güell + Tibidabo justify e-motor. €25–40/day. Coastal Barceloneta + Eixample rolling fine without e-power.</p>
+
+<h2>Salzburg, Innsbruck (Alpine)</h2>
+
+<p>Alpine cities benefit hugely from e-bikes for valley + uphill. Innsbruck-area Stubai Valley e-bike tours; Salzburg-Hallstatt routes.</p>
+
+<h2>Bordeaux, Lyon (riverside)</h2>
+
+<p>French cities with river greenways — Garonne (Bordeaux), Rhône (Lyon) — e-bike covers 30–60km/day comfortably.</p>
+
+<h2>Strategy</h2>
+
+<p>Bike-share e-bikes dispersed — verify station charge level (not all bikes have full battery). Private rental day-tours include helmet, lock, GPS. Test seat height before paying. Read our <a href="/en/articles/best-european-cities-for-bike-share-systems">bike share guide</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-rooftop-pools",
+    title: "Best European Cities for Hotel Rooftop Pools",
+    excerpt: "Athens's hotel rooftops have Acropolis-view pools; Barcelona's W Hotel and Mandarin Oriental flagship the city; Madrid's Hotel Riu and Lisbon's Memmo Alfama hide in plain sight.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Hotel Rooftop Pools",
+    metaDescription: "Where to find rooftop hotel pools with views — Athens, Barcelona, Madrid, Lisbon, Paris. Best hotels and day-pass options.",
+    html: `
+<h2>Mediterranean climate maps</h2>
+
+<p>Rooftop hotel pools work where summer heat (April–October usable) plus city skylines combine. Northern European cities have rooftop pools but limited season; Southern European cities make rooftop pools a year-round amenity. Below are the best.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> A for Athens, AthensWas, Coco-Mat Hotels, Hotel Grande Bretagne, NYX Esperia Palace, Royal Olympic — Acropolis-view rooftop pools defining feature. Day-pass €25–60 at non-stayers when available. Sunset cocktail moment with Acropolis-illuminated views.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Hotel W Barcelona (the iconic sail-shaped hotel, infinity-edge pool over Mediterranean), Mandarin Oriental Barcelona, Hotel SB Plaza Europa. Some hotels offer day-passes (€60–120). <a href="/en/spain/barcelona/eixample">Eixample</a> hotels best.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Hotel Riu Plaza España (huge rooftop terrace and pool with Plaza España view), Hotel Sanchinarro, Pestana CR7 Gran Vía, Four Seasons Madrid. Less heat-relief role since Madrid has dry heat — pools social rather than essential.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Memmo Alfama (small but Tagus-river infinity pool), The Vintage Hotel, EPIC SANA Marquês, Tivoli Avenida. <a href="/en/portugal/lisbon/alfama">Alfama</a> Memmo the iconic shot.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Le Crayon (rooftop terrace), Maison Astor (heated infinity pool), La Plage Parisienne. Limited rooftop-pool tradition in Paris (climate + classical architecture).</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> The First Roma Arte (with Spanish Steps view rooftop). Limited but spectacular when found.</p>
+
+<h2>Istanbul</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> Pera Palace, Sumahan on the Water, The Marmara Pera. Bosphorus views from rooftop pools the unique selling point.</p>
+
+<h2>Strategy</h2>
+
+<p>Day-passes available at many hotels even for non-guests (€20–80 weekday, €40–150 weekend). Reserve in advance summer. Cabana rentals (€100–500) for day-long privacy. Best 3pm–7pm — pre-sunset.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-comedy-clubs",
+    title: "Best European Cities for English-Language Comedy Clubs",
+    excerpt: "London is the world capital of stand-up; Edinburgh for festival August; Berlin and Amsterdam host expat-driven scenes; Paris emerging.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for English Stand-Up Comedy",
+    metaDescription: "Cities for English-language stand-up — London, Edinburgh (Fringe), Berlin, Amsterdam, Paris. Open mics, club residencies, festival comedy.",
+    html: `
+<h2>English-comedy geography</h2>
+
+<p>Native English-language comedy concentrates in UK and Ireland; expat-and-international English-language comedy has built scenes in major continental cities since the 2010s. Below are the best for each.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Comedy Store (Soho — the original), 99 Club, Top Secret Comedy, Angel Comedy at the Bill Murray Pub. Three nightly tickets £15–35; festival headliners £30–80. Most stand-up tours work-shop in London first. <a href="/en/uk/london/soho-fitzrovia">Soho</a> dense with venues.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh Festival Fringe (August) is the world's largest comedy festival — 3,000+ shows, hundreds of comedians, free to ticketed (£5–25). Year-round The Stand Comedy Club, Monkey Barrel.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Cosmic Comedy, Comedy Café Berlin, Comedy Club Kookaburra. English-language scene built since 2015 around expat audience. €5–15 typical. <a href="/en/germany/berlin/mitte">Mitte</a> and <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Boom Chicago (improv, since 1993), Comedy Café Amsterdam, Mezrab. International comedians English-language regulars given high English fluency in Netherlands.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> The Sketchpad (English-language), Le Paname Art Café, Madame Sarfati comedy at Comédie Tour. Smaller than Berlin or Amsterdam but growing 2020s. €10–20.</p>
+
+<h2>Dublin</h2>
+
+<p><a href="/en/ireland/dublin">Dublin</a> Laughter Lounge, Capital Comedy Club, Workman's Cellar. English (Irish-English) native scene parallel to London's. €15–25.</p>
+
+<h2>Strategy</h2>
+
+<p>Edinburgh Fringe costs add up — book accommodation 3+ months ahead August. Most clubs run 2–3 sets per night; arrive 30 min early for seating. Heckling discouraged (especially in non-native-English audiences). Open-mic nights free or €5.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-sourdough-bakeries",
+    title: "Best European Cities for Sourdough Bakeries",
+    excerpt: "Copenhagen's Hart Bageri set the global modern standard; Berlin's Sironi and Domberger; London's St. JOHN and Pophams; Lisbon and Madrid emerging.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Sourdough & Artisan Bread",
+    metaDescription: "Where to find serious sourdough — Copenhagen, Berlin, London, Paris, Lisbon. Naturally-leavened breads, viennoiserie, and the post-2015 bakery revival.",
+    html: `
+<h2>The sourdough revolution</h2>
+
+<p>Naturally-leavened bread (no commercial yeast, fermented 12–48 hours) returned to European cities through Tartine and Chad Robertson's influence around 2010–2015. The cities below have built dense scenes of independent sourdough bakeries.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Hart Bageri (René Redzepi-backed Richard Hart bakery) is the global benchmark. Lille Bakery, Andersen & Maillard. Danish rye bread tradition (rugbrød) parallel to wheat sourdough. <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> dense.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Sironi (Italian sourdough specialist), Domberger Brot-Werk, Backstube Hannes Weber. German bread tradition deep — rye, spelt, mixed-grain — sourdough builds on existing knowledge. <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> St. JOHN Bakery (Fergus Henderson legacy), Pophams (Hackney + Islington — focaccia and viennoiserie hybrid), E5 Bakehouse. London prices high (£5–8 loaf) but quality elite. <a href="/en/uk/london/east-london-hackney">East London</a> dense.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Du Pain et des Idées (Christophe Vasseur), Poilâne (since 1932 — pre-sourdough-revival, the legend), Mamiche, Tout Autour du Pain. French baguette tradition still dominant; sourdough gaining ground.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Gleba (the cult sourdough bakery), Padaria da Esquina. Portuguese pão alentejano tradition parallel. Younger scene than Copenhagen or Berlin.</p>
+
+<h2>Madrid and Barcelona</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Panic, Levaduramadre. <a href="/en/spain/barcelona">Barcelona</a> Baluard, Tartineria. Spain's sourdough scene 2018+ rapidly maturing.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Fabrique, Stora Bageriet. Swedish-rye sourdough tradition strong; classic-style bakeries broad.</p>
+
+<h2>Strategy</h2>
+
+<p>Buy day-of-baking; sourdough best 24–48 hours from oven. Small loaves (250–400g) better travel companions. Most artisan bakeries open 7am–4pm, sold out by lunch. Read our <a href="/en/articles/best-european-cities-for-coffee-and-pastries">coffee and pastries</a> companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

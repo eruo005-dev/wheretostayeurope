@@ -8769,6 +8769,360 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 29 — 14-day itineraries + niche
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "europe-14-day-italy-itinerary",
+    title: "14-Day Italy Itinerary: Rome + Florence + Venice + Tuscany",
+    excerpt: "How to do Italy properly in 14 days — without the half-the-trip-is-travel mistake.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 11,
+    metaTitle: "14-Day Italy Itinerary — Honest Picks 2026",
+    metaDescription: "How to do Italy properly in 14 days — without the half-the-trip-is-travel mistake.",
+    html: `
+<p>14 days in Italy is the right length to do the classic trip without rushing. Here's the honest plan.</p>
+
+<h2>Best 14-day classic Italy</h2>
+
+<ul>
+  <li>Day 1-5: <a href="/en/italy/rome">Rome</a> (5 nights). Centro Storico + Vatican + Trastevere day-by-day.</li>
+  <li>Day 6-7: Train to <a href="/en/italy/florence">Florence</a> (2 nights — Uffizi + Duomo + Oltrarno).</li>
+  <li>Day 8-9: Tuscany day-trips from Florence (Siena + Tuscany wine).</li>
+  <li>Day 10-11: Train to <a href="/en/italy/bologna">Bologna</a> (2 nights — food capital).</li>
+  <li>Day 12-13: Train to <a href="/en/italy/venice">Venice</a> (2 nights — <a href="/en/italy/venice/cannaregio">Cannaregio</a> base).</li>
+  <li>Day 14: Fly home from Venice.</li>
+</ul>
+
+<h2>Alternative — South-leaning</h2>
+
+<ul>
+  <li>Day 1-4: Rome</li>
+  <li>Day 5-7: <a href="/en/italy/naples">Naples</a> + Pompeii + day-trip to Capri (overnight)</li>
+  <li>Day 8-10: Amalfi Coast (Positano or Sorrento base)</li>
+  <li>Day 11-12: Florence</li>
+  <li>Day 13-14: Venice</li>
+</ul>
+
+<h2>Alternative — Northern + Lakes</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/italy/milan">Milan</a></li>
+  <li>Day 4-5: Lake Como (Varenna)</li>
+  <li>Day 6-7: <a href="/en/italy/verona">Verona</a></li>
+  <li>Day 8-9: Venice</li>
+  <li>Day 10-11: Bologna</li>
+  <li>Day 12-14: Florence</li>
+</ul>
+
+<h2>What to skip on 14 days</h2>
+
+<ul>
+  <li>Sicily on a Rome-anchored trip — adds another 4-5 nights minimum.</li>
+  <li>Cinque Terre as a 1-night stop — needs 2 nights.</li>
+  <li>Trying to add Lake Garda or Dolomites — different region.</li>
+</ul>
+
+<h2>Travel logistics</h2>
+
+<p>High-speed train (Frecciarossa, Italo) connects Rome-Florence-Venice in 4h total. Book 2-3 months ahead for €30-€60 fares; walk-up €70-€110.</p>
+
+<h2>Cost reality</h2>
+
+<p>€200-€350/day comfortable. Can be reduced 30% with apartments + lunch-as-main-meal.</p>
+
+<p>For shorter Italy trips see <a href="/en/articles/europe-7-day-italy-itinerary">7-day Italy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-14-day-spain-itinerary",
+    title: "14-Day Spain Itinerary: Madrid + Andalusia + Barcelona",
+    excerpt: "How to do Spain properly in 14 days — covering Madrid, Andalusia, and Catalonia without rushing.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 10,
+    metaTitle: "14-Day Spain Itinerary — Honest Picks 2026",
+    metaDescription: "How to do Spain properly in 14 days — covering Madrid, Andalusia, and Catalonia without rushing.",
+    html: `
+<p>14 days in Spain covers the three main pillars: Madrid (centre), Andalusia (south), Catalonia (east). Here's the honest plan.</p>
+
+<h2>Best 14-day Spain (Madrid + Andalusia + Barcelona)</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/spain/madrid">Madrid</a> (with Toledo or Segovia day-trip)</li>
+  <li>Day 4-5: AVE to <a href="/en/spain/seville">Seville</a></li>
+  <li>Day 6-7: <a href="/en/spain/cordoba">Córdoba</a> (or day-trip from Seville)</li>
+  <li>Day 8-9: <a href="/en/spain/granada">Granada</a> (Alhambra + Albaicín)</li>
+  <li>Day 10: Travel to <a href="/en/spain/barcelona">Barcelona</a> (fly or AVE via Madrid)</li>
+  <li>Day 11-13: Barcelona (Gaudí + beach + tapas)</li>
+  <li>Day 14: Fly home from Barcelona</li>
+</ul>
+
+<h2>Alternative — Iberian (Spain + Portugal)</h2>
+
+<ul>
+  <li>Day 1-3: Madrid</li>
+  <li>Day 4-5: Seville</li>
+  <li>Day 6-7: Granada</li>
+  <li>Day 8-10: <a href="/en/portugal/lisbon">Lisbon</a> (fly Granada-Lisbon)</li>
+  <li>Day 11-12: <a href="/en/portugal/porto">Porto</a></li>
+  <li>Day 13-14: Buffer + fly home</li>
+</ul>
+
+<h2>Alternative — Catalonia + Basque</h2>
+
+<ul>
+  <li>Day 1-4: Barcelona</li>
+  <li>Day 5: <a href="/en/spain/valencia">Valencia</a> (AVE 3h)</li>
+  <li>Day 6-8: <a href="/en/spain/madrid">Madrid</a></li>
+  <li>Day 9-11: <a href="/en/spain/bilbao">Bilbao</a> + <a href="/en/spain/san-sebastian">San Sebastián</a></li>
+  <li>Day 12-14: <a href="/en/spain/seville">Seville</a> (fly)</li>
+</ul>
+
+<h2>What to skip on 14 days</h2>
+
+<ul>
+  <li>Mallorca/beach extensions — different trip.</li>
+  <li>Trying to drive Andalusia without a clear loop.</li>
+  <li>Salamanca/Segovia overnight — day-trip from Madrid is better.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€150-€250/day comfortable. Spain is dramatically cheaper than Italy or France for equivalent product.</p>
+
+<p>For shorter Spain trips see <a href="/en/articles/europe-7-day-spain-itinerary">7-day Spain</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-14-day-france-itinerary",
+    title: "14-Day France Itinerary: Paris + Loire + Provence + Riviera",
+    excerpt: "How to do France in 14 days — beyond a Paris-only deep dive.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 10,
+    metaTitle: "14-Day France Itinerary — Honest Picks 2026",
+    metaDescription: "How to do France in 14 days — beyond a Paris-only deep dive.",
+    html: `
+<p>14 days in France works for the classic Paris + provincial-loop trip. Here's the honest plan.</p>
+
+<h2>Best 14-day France (Paris + Loire + Provence + Riviera)</h2>
+
+<ul>
+  <li>Day 1-5: <a href="/en/france/paris">Paris</a> (with Versailles + Reims day-trips)</li>
+  <li>Day 6-7: TGV to Loire Valley (Tours/Amboise base, châteaux)</li>
+  <li>Day 8-10: TGV to <a href="/en/france/avignon">Avignon</a> + Provence villages</li>
+  <li>Day 11-13: Riviera — <a href="/en/france/nice">Nice</a> + Antibes + Monaco</li>
+  <li>Day 14: Fly home from Nice</li>
+</ul>
+
+<h2>Alternative — Paris + Wine + Brittany</h2>
+
+<ul>
+  <li>Day 1-4: Paris</li>
+  <li>Day 5-7: <a href="/en/france/bordeaux">Bordeaux</a> + Saint-Émilion</li>
+  <li>Day 8-10: Saint-Malo + Mont Saint-Michel</li>
+  <li>Day 11-13: Normandy (Bayeux + D-Day beaches)</li>
+  <li>Day 14: Back to Paris</li>
+</ul>
+
+<h2>Alternative — Paris + Alps + Provence</h2>
+
+<ul>
+  <li>Day 1-4: Paris</li>
+  <li>Day 5-7: <a href="/en/france/lyon">Lyon</a> + <a href="/en/france/annecy">Annecy</a></li>
+  <li>Day 8-10: Provence (Avignon base)</li>
+  <li>Day 11-14: Riviera</li>
+</ul>
+
+<h2>What to skip on 14 days</h2>
+
+<ul>
+  <li>Corsica — needs 5+ nights minimum.</li>
+  <li>French Alps deep — ski-or-summer specific trip.</li>
+  <li>Multiple wine regions — pick Bordeaux OR Burgundy OR Champagne.</li>
+</ul>
+
+<h2>Cost reality</h2>
+
+<p>€250-€400/day comfortable. France runs more expensive than Spain or Italy. TGV is the equalizer — fast, comfortable, often cheaper than driving.</p>
+
+<p>For shorter France trips see <a href="/en/articles/europe-7-day-france-itinerary">7-day France</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-14-day-greece-itinerary",
+    title: "14-Day Greece Itinerary: Athens + Peloponnese + Islands",
+    excerpt: "How to do Greece in 14 days covering Athens, ancient sites, and 2-3 islands.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 11,
+    metaTitle: "14-Day Greece Itinerary — Honest Picks 2026",
+    metaDescription: "How to do Greece in 14 days covering Athens, ancient sites, and 2-3 islands.",
+    html: `
+<p>Greece in 14 days needs careful planning. Here's the honest plan.</p>
+
+<h2>Best 14-day Greece (mainland + 2 islands)</h2>
+
+<ul>
+  <li>Day 1-3: <a href="/en/greece/athens">Athens</a> (Acropolis, Plaka, museums)</li>
+  <li>Day 4-5: Day-trips: Delphi + Meteora (rental car)</li>
+  <li>Day 6: Ferry to <a href="/en/greece/santorini">Santorini</a></li>
+  <li>Day 7-9: Santorini (3 nights)</li>
+  <li>Day 10: Ferry to <a href="/en/greece/naxos">Naxos</a></li>
+  <li>Day 11-13: Naxos + Paros (3 nights split)</li>
+  <li>Day 14: Ferry to Athens, fly home</li>
+</ul>
+
+<h2>Alternative — All-mainland</h2>
+
+<ul>
+  <li>Day 1-4: Athens + Delphi day-trip</li>
+  <li>Day 5-7: Peloponnese loop — Nafplio + Mycenae + Olympia + Mystras</li>
+  <li>Day 8-10: Meteora</li>
+  <li>Day 11-13: <a href="/en/greece/thessaloniki">Thessaloniki</a></li>
+  <li>Day 14: Fly home</li>
+</ul>
+
+<h2>Alternative — Crete deep dive</h2>
+
+<ul>
+  <li>Day 1-2: Athens</li>
+  <li>Day 3-7: <a href="/en/greece/chania">Chania</a> (5 nights — west Crete)</li>
+  <li>Day 8-10: Rethymno</li>
+  <li>Day 11-13: <a href="/en/greece/heraklion">Heraklion</a> + Knossos</li>
+  <li>Day 14: Fly home</li>
+</ul>
+
+<h2>What to skip on 14 days</h2>
+
+<ul>
+  <li>Mykonos unless party-focused — different trip.</li>
+  <li>4+ islands in one trip — half is travel.</li>
+  <li>Northern Greece (Thessaloniki, Halkidiki) on a Cycladic-focus trip.</li>
+</ul>
+
+<h2>Best season</h2>
+
+<p>April-May (mild + minimal crowds), September-October (warm + thinning crowds). Avoid August (cruise crush, peak prices).</p>
+
+<h2>Cost reality</h2>
+
+<p>€150-€300/day comfortable. Cycladic islands at peak (July-August) double the cost.</p>
+
+<p>For Greek islands specifics see <a href="/en/articles/greek-islands-which-to-pick">Greek islands which to pick</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-music-festivals",
+    title: "Best European Cities for Music Festivals (2026 Picks)",
+    excerpt: "Where European music festivals actually happen — Glastonbury, Primavera, Sziget, Roskilde and more.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Music Festivals — Honest 2026",
+    metaDescription: "Where European music festivals actually happen — Glastonbury, Primavera, Sziget, Roskilde and more.",
+    html: `
+<p>European summer is festival season. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination festivals</h2>
+
+<ul>
+  <li><strong>Glastonbury (England, late June):</strong> The world's most-famous festival. Tickets sell out in minutes.</li>
+  <li><strong>Primavera Sound (Barcelona, late May - early June):</strong> Beach + indie music. Excellent setup.</li>
+  <li><strong>Sziget (Budapest, mid-August):</strong> Week-long. Camping in Budapest island.</li>
+  <li><strong>Roskilde (Denmark, late June):</strong> Strong indie/alternative lineup.</li>
+  <li><strong>Tomorrowland (Belgium, mid-July):</strong> Electronic. Tickets impossible without months ahead.</li>
+</ul>
+
+<h2>Tier 2 — strong festival cities</h2>
+
+<ul>
+  <li><strong>Salzburg Festival (late July - August):</strong> Classical music + opera.</li>
+  <li><strong>Bayreuth Festival (Germany, July-August):</strong> Wagner. Multi-year wait list.</li>
+  <li><strong>Edinburgh Fringe (August):</strong> Comedy + theatre primarily.</li>
+  <li><strong>Eurovision (varies by host city, May):</strong> Whichever country won previous year.</li>
+  <li><strong>Aix-en-Provence Festival (July):</strong> Major modern opera.</li>
+</ul>
+
+<h2>Tier 3 — niche but growing</h2>
+
+<ul>
+  <li><strong>NOS Alive (Lisbon, July):</strong> Riverside indie/rock festival.</li>
+  <li><strong>Pohoda (Slovakia, July):</strong> Central European indie.</li>
+  <li><strong>Reading + Leeds (UK, August):</strong> Rock-focused.</li>
+  <li><strong>Open'er (Poland, July):</strong> Strong indie lineup at low prices.</li>
+</ul>
+
+<h2>Practical strategy</h2>
+
+<ul>
+  <li><strong>Tickets:</strong> Buy 6-12 months ahead for major festivals.</li>
+  <li><strong>Accommodation:</strong> 3-5x normal rates. Book 8+ months out.</li>
+  <li><strong>Transport:</strong> Plan for festival-day surge pricing on Uber/taxi.</li>
+  <li><strong>Daypacks:</strong> Most festivals have strict bag-size limits.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-hiking-base",
+    title: "Best European Cities to Base for Hiking Trips",
+    excerpt: "Cities where you can stay in comfort and hike from. Honest sort by trail access and city quality.",
+    publishedAt: "2026-05-24",
+    reviewedAt: "2026-05-24",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Hiking Bases — Honest 2026",
+    metaDescription: "Cities where you can stay in comfort and hike from. Honest sort by trail access and city quality.",
+    html: `
+<p>Mixing city stays with hiking days is among Europe's best travel models. Here's the honest sort.</p>
+
+<h2>Alpine hiking-base cities</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/innsbruck">Innsbruck</a>:</strong> Cable cars from city; trails 5-30 min from centre.</li>
+  <li><strong><a href="/en/switzerland/lucerne">Lucerne</a>:</strong> Pilatus + Rigi trails.</li>
+  <li><strong>Garmisch-Partenkirchen, Germany:</strong> Zugspitze base.</li>
+  <li><strong>Berchtesgaden:</strong> Watzmann area.</li>
+  <li><strong>Chamonix, France:</strong> Mont Blanc trails.</li>
+  <li><strong>Cortina d'Ampezzo, Italy:</strong> Dolomites.</li>
+</ul>
+
+<h2>Mediterranean hiking bases</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Marjan hill + Krka day-trips.</li>
+  <li><strong>Cinque Terre (Vernazza):</strong> Coastal trail.</li>
+  <li><strong><a href="/en/spain/granada">Granada</a>:</strong> Sierra Nevada.</li>
+  <li><strong>Madeira (<a href="/en/portugal/funchal">Funchal</a>):</strong> Levada walks.</li>
+</ul>
+
+<h2>Northern hiking bases</h2>
+
+<ul>
+  <li><strong><a href="/en/norway/bergen">Bergen</a>:</strong> Fløibanen + Mt Ulriken trails.</li>
+  <li><strong>Voss, Norway:</strong> Western fjord trail-base.</li>
+  <li><strong>Reykjavík + south coast bases:</strong> Various Iceland trails.</li>
+  <li><strong>Edinburgh (Holyrood Park):</strong> Arthur's Seat.</li>
+</ul>
+
+<h2>Underrated hiking-bases</h2>
+
+<ul>
+  <li><strong><a href="/en/bosnia-and-herzegovina/sarajevo">Sarajevo</a>:</strong> Trebević mountain by cable car.</li>
+  <li><strong><a href="/en/montenegro/kotor">Kotor</a>:</strong> Walls climb + Mount Lovćen.</li>
+  <li><strong>Trabzon, Turkey:</strong> Sumela + Kaçkar Mountains.</li>
+  <li><strong>Plovdiv:</strong> Rhodope mountain trails 30 min south.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick cities with same-day return trails (hike + back to city for dinner). Multi-day backcountry needs different planning. Cable cars and gondolas are the secret — they save 1-2h hiking time at the start.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

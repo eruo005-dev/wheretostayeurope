@@ -10127,6 +10127,325 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 33 — outdoor / specific-occasion + travel-style guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-road-trips",
+    title: "Best European Cities to Start a Road Trip From",
+    excerpt: "Where to rent a car and start a European road trip. Honest picks by region and route.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Road Trips — Honest 2026",
+    metaDescription: "Where to rent a car and start a European road trip. Honest picks by region and route.",
+    html: `
+<p>Road trips work for some European trips and not others. Here's the honest sort of starting points.</p>
+
+<h2>Tier 1 — destination road-trip starts</h2>
+
+<ul>
+  <li><strong>Reykjavík (Ring Road):</strong> Iceland's Ring Road is the canonical European road trip. 7-10 days minimum.</li>
+  <li><strong>Edinburgh (Highland loop):</strong> Skye + Cairngorms + Loch Ness in 5-7 days.</li>
+  <li><strong>Florence (Tuscany loop):</strong> Siena + San Gimignano + Val d'Orcia.</li>
+  <li><strong>Aix-en-Provence (Provence loop):</strong> Lavender + villages + Pont du Gard.</li>
+  <li><strong>Split or Dubrovnik (Dalmatian coast):</strong> Coast drive + national parks.</li>
+</ul>
+
+<h2>Tier 2 — strong road-trip bases</h2>
+
+<ul>
+  <li><strong>Munich (Bavarian Alps + Salzburg):</strong> Romantic Road, Neuschwanstein.</li>
+  <li><strong>Barcelona (Catalonia + Costa Brava):</strong> Coastal drives north.</li>
+  <li><strong>Lisbon (Algarve + Alentejo):</strong> Atlantic coast.</li>
+  <li><strong>Catania (Sicily):</strong> Etna + Taormina + Syracuse loop.</li>
+  <li><strong>Tirana or <a href="/en/montenegro/kotor">Kotor</a> (Albanian Riviera + Adriatic):</strong> Underrated road-trip route.</li>
+</ul>
+
+<h2>Tier 3 — niche road trips</h2>
+
+<ul>
+  <li><strong>Bergen (Norwegian fjords):</strong> Atlantic Road + western fjords.</li>
+  <li><strong>Cluj or Brașov (Transylvania):</strong> Castles + Saxon villages.</li>
+  <li><strong>Galway (Wild Atlantic Way, Ireland):</strong> West-coast loop.</li>
+</ul>
+
+<h2>Where you don't want a car</h2>
+
+<ul>
+  <li><strong>Most central European cities:</strong> Parking expensive, transit excellent.</li>
+  <li><strong>Italian cities (especially old towns):</strong> ZTL zones cause fines.</li>
+  <li><strong>Most Greek islands:</strong> Smaller islands aren't worth driving.</li>
+  <li><strong>Cinque Terre:</strong> Specifically don't bring a car.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Pick up at airport, drop in city centre:</strong> Often cheaper than reverse.</li>
+  <li><strong>Manual vs automatic:</strong> Manual is far more available; automatic doubles the price.</li>
+  <li><strong>International driving permit:</strong> Some countries require US AAA permit.</li>
+  <li><strong>Insurance:</strong> Verify before you travel — credit-card coverage often patchy in Europe.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cruise-stops",
+    title: "Best European Cities for Cruise Itinerary Stops",
+    excerpt: "Honest sort of European cruise ports — which deliver real city experiences and which are tourist-trap stops.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Cruise Stops — Honest 2026",
+    metaDescription: "Honest sort of European cruise ports — which deliver real city experiences and which are tourist-trap stops.",
+    html: `
+<p>European cruises stop at ports for 6-10 hours. Some are genuine city experiences; others are tourist-trap stops. Here's the honest sort.</p>
+
+<h2>Tier 1 — cruise ports that actually work</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Old Town walking tour + walls in 6 hours. Avoid 11am-3pm crowds.</li>
+  <li><strong><a href="/en/spain/barcelona">Barcelona</a>:</strong> Sagrada Família + Las Ramblas + lunch. Tight but real.</li>
+  <li><strong>Naples + Pompeii:</strong> Half-day each works.</li>
+  <li><strong>Lisbon:</strong> Walking from cruise terminal to <a href="/en/portugal/lisbon/baixa-chiado">Baixa</a>.</li>
+  <li><strong>Bergen:</strong> Bryggen + funicular + lunch.</li>
+</ul>
+
+<h2>Tier 2 — strong cruise stops</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/venice">Venice</a> (when port allows):</strong> Recent restrictions; verify current operations.</li>
+  <li><strong>Stockholm:</strong> Ferry to Gamla Stan from cruise terminal.</li>
+  <li><strong>Copenhagen:</strong> Quick metro ride to centre.</li>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Diocletian's Palace 5 min walk from cruise dock.</li>
+  <li><strong><a href="/en/spain/palma-de-mallorca">Palma de Mallorca</a>:</strong> Cathedral + old town walking.</li>
+</ul>
+
+<h2>Tier 3 — workable but limited</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a> via Civitavecchia:</strong> 90 min from port to centre. Tight day.</li>
+  <li><strong>Athens via Piraeus:</strong> 30 min from port. Workable but rushed for Acropolis.</li>
+  <li><strong>Marseille:</strong> Vieux Port walkable; bigger trips need transfer.</li>
+</ul>
+
+<h2>Cruise stops that disappoint</h2>
+
+<ul>
+  <li><strong>Mykonos:</strong> Cruise day = chaos. Stay overnight if visiting.</li>
+  <li><strong>Capri:</strong> Famous worst-value day-trip. Stay overnight.</li>
+  <li><strong>Cinque Terre via cruise:</strong> Day-trip rushes a region that needs 2 nights.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan one focused activity per cruise stop — not a full city tour. Walking tours from independent guides beat shore excursions. Watch boarding times — cruise lines wait but only briefly.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-near-beaches",
+    title: "Best European Cities With Beaches You Can Walk To",
+    excerpt: "European city stays where the beach is at the door. Honest sort of urban beach cities.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities Near Beaches — Honest 2026",
+    metaDescription: "European city stays where the beach is at the door. Honest sort of urban beach cities.",
+    html: `
+<p>City + walkable beach is rarer than expected in Europe. Here's the honest sort.</p>
+
+<h2>Tier 1 — beach at the door</h2>
+
+<ul>
+  <li><strong>Barcelona Barceloneta:</strong> Beach 5 min walk from old town.</li>
+  <li><strong>Nice Promenade des Anglais:</strong> Pebble beach along the city centre.</li>
+  <li><strong><a href="/en/spain/san-sebastian">San Sebastián</a>:</strong> La Concha is the city beach.</li>
+  <li><strong>Tel Aviv (technically not Europe):</strong> The model.</li>
+  <li><strong>Reykjavík (in summer):</strong> Nauthólsvík geothermal beach.</li>
+</ul>
+
+<h2>Tier 2 — beach in 10-15 min by tram/metro</h2>
+
+<ul>
+  <li><strong>Lisbon (with tram to Cascais 30 min):</strong> Estoril/Cascais beaches.</li>
+  <li><strong><a href="/en/spain/valencia">Valencia</a>:</strong> Malvarrosa beach 15 min by metro.</li>
+  <li><strong>The Hague Scheveningen:</strong> 15 min by tram.</li>
+  <li><strong>Athens Glyfada / Vouliagmeni:</strong> 30 min by tram.</li>
+  <li><strong>Stockholm Smedsuddsbadet:</strong> 15 min by tram or walking.</li>
+</ul>
+
+<h2>Tier 3 — short ferry/train</h2>
+
+<ul>
+  <li><strong>Copenhagen Amager Strand:</strong> 15 min by metro.</li>
+  <li><strong>Helsinki + Suomenlinna:</strong> Ferry to swim spots.</li>
+  <li><strong>Nordic capitals:</strong> Bath suits to lake/sea cold-swim spots.</li>
+</ul>
+
+<h2>What disappoints</h2>
+
+<ul>
+  <li><strong>Most "beach near Marseille":</strong> Often 30+ min outside city.</li>
+  <li><strong>Lisbon's main beaches:</strong> 30+ min by train; not in-city.</li>
+  <li><strong>Naples Mappatella:</strong> Urban-bay swimming, not the beach trip.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For beach-city combo, pick coast cities where the beach is integral (Barcelona, Nice, San Sebastián). For inland cities + beach, plan for 2-3 days at the beach as a separate part of the trip.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-surfing",
+    title: "Best European Cities for Surfers (Honest 2026)",
+    excerpt: "Where European surfing actually happens — and which cities anchor surf trips.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Surfers — Honest 2026",
+    metaDescription: "Where European surfing actually happens — and which cities anchor surf trips.",
+    html: `
+<p>European surfing is real but concentrated in specific regions. Here's the honest sort.</p>
+
+<h2>Tier 1 — surf-trip destinations</h2>
+
+<ul>
+  <li><strong>Lisbon area (Ericeira, Cascais):</strong> Year-round Atlantic. Ericeira is World Surf Reserve.</li>
+  <li><strong>Algarve (Sagres, Lagos):</strong> Cluster of breaks. Beginner to expert.</li>
+  <li><strong>Biarritz, France:</strong> Birthplace of European surfing.</li>
+  <li><strong>Hossegor, France:</strong> Powerful beach breaks. Pro circuit.</li>
+  <li><strong>San Sebastián (Zurriola beach):</strong> Urban surfing.</li>
+</ul>
+
+<h2>Tier 2 — strong surf cities</h2>
+
+<ul>
+  <li><strong>Porto (Matosinhos):</strong> Beach breaks within Porto metro area.</li>
+  <li><strong>Cadiz, Tarifa (Spain):</strong> Atlantic + wind. Strong kitesurfing.</li>
+  <li><strong>Mundaka (Basque Country):</strong> Famous left-hand wave.</li>
+  <li><strong>Ireland (Bundoran):</strong> Cold-water expert breaks.</li>
+  <li><strong>Newquay, Cornwall (UK):</strong> Cluster of beach breaks.</li>
+</ul>
+
+<h2>Tier 3 — niche surf-cities</h2>
+
+<ul>
+  <li><strong>Iceland (Sandvik):</strong> Cold-water Iceland surf scene.</li>
+  <li><strong>Madeira (Funchal):</strong> Big-wave Jardim do Mar.</li>
+  <li><strong>Canary Islands (Lanzarote, Fuerteventura):</strong> Year-round.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Wetsuit:</strong> 4/3mm minimum March-October. Full 5mm winter.</li>
+  <li><strong>Surf schools:</strong> Most beach towns have lessons (€30-€60 for 2h).</li>
+  <li><strong>Best season:</strong> Atlantic peaks September-November + March-May.</li>
+  <li><strong>Avoid August in popular spots:</strong> Crowded, no parking.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-golf",
+    title: "Best European Cities for Golf Trips (Honest 2026)",
+    excerpt: "European golf-trip destinations ranked. Honest picks by course quality and city base quality.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Golf Trips — Honest 2026",
+    metaDescription: "European golf-trip destinations ranked. Honest picks by course quality and city base quality.",
+    html: `
+<p>European golf concentrates in specific regions. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination golf cities</h2>
+
+<ul>
+  <li><strong>St. Andrews, Scotland:</strong> Home of golf. Old Course requires advance lottery (12+ months).</li>
+  <li><strong>Edinburgh + East Lothian:</strong> Muirfield, North Berwick, Gullane.</li>
+  <li><strong>Killarney, Ireland:</strong> Killarney Golf and Fishing Club.</li>
+  <li><strong>Lahinch, Ireland:</strong> Lahinch Golf Club + adjacent links.</li>
+  <li><strong><a href="/en/portugal/funchal">Funchal (Madeira)</a>:</strong> Year-round.</li>
+</ul>
+
+<h2>Tier 2 — strong golf-trip cities</h2>
+
+<ul>
+  <li><strong>Algarve (Vilamoura, Lagos):</strong> 30+ courses. Year-round.</li>
+  <li><strong>Costa del Sol (Marbella, Málaga):</strong> Golf strip.</li>
+  <li><strong>Lisbon area (Cascais, Sintra courses):</strong> Top-tier.</li>
+  <li><strong>Mallorca:</strong> Multiple high-quality courses.</li>
+</ul>
+
+<h2>Tier 3 — strong but niche</h2>
+
+<ul>
+  <li><strong>French Riviera (Cannes, Monaco):</strong> Premium courses + Monte Carlo Golf Club.</li>
+  <li><strong>Tuscany golf:</strong> Castiglione del Bosco + Royal Park.</li>
+  <li><strong>Stockholm (Bro Hof Slott):</strong> Top Scandinavian course.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Tee times book 6+ months ahead</strong> for famous courses. St. Andrews requires the ballot lottery.</li>
+  <li><strong>Off-season golf:</strong> Algarve in October-November is ideal.</li>
+  <li><strong>Travel insurance:</strong> Many policies don't cover golf clubs as luggage. Verify.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-anniversary-celebrations",
+    title: "Best European Cities for Anniversary Celebrations",
+    excerpt: "Where to celebrate a European anniversary. Honest picks by trip type and budget.",
+    publishedAt: "2026-05-28",
+    reviewedAt: "2026-05-28",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Anniversary — Honest 2026",
+    metaDescription: "Where to celebrate a European anniversary. Honest picks by trip type and budget.",
+    html: `
+<p>Anniversary trips are a different optimization than first-trip travel. Here's the honest sort.</p>
+
+<h2>Tier 1 — luxury anniversary destinations</h2>
+
+<ul>
+  <li><strong>Paris (off-season):</strong> Luxury hotel-stay + dinner-and-show.</li>
+  <li><strong>Venice (October-March):</strong> Off-season is the romantic version.</li>
+  <li><strong>Lake Como (Varenna):</strong> Smaller, less-touristed than Bellagio.</li>
+  <li><strong>Santorini (<a href="/en/greece/santorini/imerovigli">Imerovigli</a>):</strong> Cliff-side luxury suite.</li>
+  <li><strong>Cappadocia (<a href="/en/turkey/cappadocia/uchisar">Uçhisar</a>):</strong> Cave-hotel + balloon dawn.</li>
+</ul>
+
+<h2>Tier 2 — mid-range anniversary trips</h2>
+
+<ul>
+  <li><strong>Florence + Tuscany (autumn):</strong> Olive harvest + truffle season.</li>
+  <li><strong>Salzburg (off-festival):</strong> Mozart's city + nearby Hallstatt.</li>
+  <li><strong>Bruges (October-November):</strong> Calmer, candlelit, romantic.</li>
+  <li><strong>Lisbon + Sintra:</strong> Atlantic mild + Pena Palace.</li>
+  <li><strong>Granada Albaicín:</strong> Sunset + Alhambra dinner.</li>
+</ul>
+
+<h2>Tier 3 — adventurous anniversary picks</h2>
+
+<ul>
+  <li><strong>Iceland Northern Lights:</strong> Late September to March; aurora-included.</li>
+  <li><strong>Lapland Christmas:</strong> Reindeer-sleds + saunas + cabin retreats.</li>
+  <li><strong>Norwegian fjords cruise:</strong> Bergen-base.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book 8-12 months ahead</strong> for top hotels.</li>
+  <li><strong>Off-season works for luxury:</strong> 30-50% lower hotel rates and same atmosphere.</li>
+  <li><strong>Restaurant reservations:</strong> Book 2-3 months ahead for marquee dinners.</li>
+  <li><strong>Photographers:</strong> Hire a local for 1-2 hours during the trip.</li>
+</ul>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

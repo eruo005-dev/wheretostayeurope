@@ -12703,6 +12703,338 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 41 — food + sustainable + practical
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-gelato-ice-cream",
+    title: "Best European Cities for Gelato and Ice Cream",
+    excerpt: "Where European gelato and ice cream tradition runs deepest — Italy, Sicily, Spain.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Gelato — Honest 2026",
+    metaDescription: "Where European gelato and ice cream tradition runs deepest — Italy, Sicily, Spain.",
+    html: `
+<p>European gelato + ice cream concentrates in Italy and the Mediterranean. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination gelato cities</h2>
+
+<ul>
+  <li><strong>Bologna:</strong> Italy's food capital + dense gelato. Cremeria Funivia, Galliera 49.</li>
+  <li><strong>Florence:</strong> Vivoli (oldest in Florence) + Gelateria della Passera.</li>
+  <li><strong>Rome:</strong> Giolitti, Fatamorgana, Gelateria del Teatro.</li>
+  <li><strong>Naples:</strong> Sicilian-influenced. Gelateria della Scimmia.</li>
+  <li><strong>Sicily (Catania, Palermo):</strong> Granita-and-brioche tradition; iconic.</li>
+</ul>
+
+<h2>Tier 2 — strong gelato cities</h2>
+
+<ul>
+  <li><strong>Venice:</strong> Suso, Gelato Fantasy.</li>
+  <li><strong>Verona:</strong> La Boutique del Gelato.</li>
+  <li><strong>Milan:</strong> Cioccolatitaliani, Gelato Giusto.</li>
+  <li><strong>Madrid:</strong> Mistura, Cremoteca.</li>
+  <li><strong>Barcelona:</strong> DelaCrem, Gocce.</li>
+</ul>
+
+<h2>Tier 3 — surprising</h2>
+
+<ul>
+  <li><strong>Lisbon:</strong> Santini (since 1949) is the iconic Portuguese gelato.</li>
+  <li><strong>Vienna:</strong> Eis Greissler, Tichy.</li>
+  <li><strong>Berlin:</strong> Vanille &amp; Marille, Hokey Pokey.</li>
+</ul>
+
+<h2>What to avoid</h2>
+
+<ul>
+  <li><strong>"Gelato" with bright artificial colors stacked high:</strong> Industrial-mix; locals don't eat it.</li>
+  <li><strong>Tourist-area gelato near major sights:</strong> Often inferior.</li>
+  <li><strong>Anything advertised as "world's best":</strong> Marketing.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Real gelato is naturally-colored, stored in covered metal tubs (not piled high), and made fresh daily. Walk 1-2 streets off the main tourist area for better quality.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-sustainable-travel",
+    title: "Best European Cities for Sustainable / Eco Travel",
+    excerpt: "Where European sustainability practices actually deliver — bike infrastructure, renewable energy, low-impact.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Sustainable Travel — Honest 2026",
+    metaDescription: "Where European sustainability practices actually deliver — bike infrastructure, renewable energy, low-impact.",
+    html: `
+<p>European cities lead the world in sustainable urban design. Here's the honest sort.</p>
+
+<h2>Tier 1 — sustainability leaders</h2>
+
+<ul>
+  <li><strong>Copenhagen:</strong> Carbon-neutral by 2025 target. 50% bike commuting.</li>
+  <li><strong>Stockholm:</strong> 80% renewable energy + Hammarby Sjöstad eco-district.</li>
+  <li><strong>Reykjavík:</strong> Geothermal + hydroelectric. Nearly 100% renewable.</li>
+  <li><strong>Amsterdam, Utrecht:</strong> Bike infrastructure unmatched.</li>
+  <li><strong>Oslo:</strong> Electric ferries + electric vehicle leadership.</li>
+</ul>
+
+<h2>Tier 2 — strong sustainability</h2>
+
+<ul>
+  <li><strong>Helsinki:</strong> Public transit excellence + sauna culture.</li>
+  <li><strong>Berlin:</strong> Energy transition (Energiewende) leadership.</li>
+  <li><strong>Vienna:</strong> Public transit + green spaces.</li>
+  <li><strong>Munich:</strong> S-Bahn + Englischer Garten.</li>
+  <li><strong>Zurich:</strong> Public transit + lake-walks.</li>
+</ul>
+
+<h2>Tier 3 — emerging sustainability</h2>
+
+<ul>
+  <li><strong>Lisbon:</strong> Tram heritage + electric buses.</li>
+  <li><strong>Madrid:</strong> Largest pedestrian zone in Europe.</li>
+  <li><strong>Barcelona:</strong> Superblocks (Superilles) program.</li>
+</ul>
+
+<h2>Sustainable travel practices</h2>
+
+<ul>
+  <li><strong>Train over plane:</strong> 90% lower carbon footprint.</li>
+  <li><strong>Eurail Pass:</strong> Encourages train-trip Europe.</li>
+  <li><strong>Slow travel (7+ nights per city):</strong> Reduces transit-day carbon.</li>
+  <li><strong>Local food:</strong> Support neighborhood economies.</li>
+  <li><strong>Avoid mass-tourism overcrowding:</strong> Off-season + non-tourist neighborhoods.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For genuine sustainable travel, fly less, train more, stay longer. Pick cities with strong public transit so you don't rent cars. Hostels and apartments often have lower per-night carbon than chain hotels.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-by-population",
+    title: "Most Populous European Cities (Ranked by Travel Quality)",
+    excerpt: "Largest European cities ranked not by population but by traveler quality.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 8,
+    metaTitle: "Most Populous European Cities — Travel-Quality Ranking",
+    metaDescription: "Largest European cities ranked not by population but by traveler quality.",
+    html: `
+<p>Population doesn't equal travel quality. Here's the honest sort of major European cities by traveler experience.</p>
+
+<h2>Top travel-quality large cities</h2>
+
+<ul>
+  <li><strong>London (~9M):</strong> World-class but tube-time eats days.</li>
+  <li><strong>Berlin (~3.7M):</strong> Mass-walkable; neighborhoods feel like separate cities.</li>
+  <li><strong>Madrid (~3.3M):</strong> Walkable centre; world-class museums.</li>
+  <li><strong>Rome (~2.9M):</strong> Best historical-density per square km.</li>
+  <li><strong>Paris (~2.1M city; 11M metro):</strong> Compact and dense.</li>
+</ul>
+
+<h2>Strong but smaller</h2>
+
+<ul>
+  <li><strong>Vienna (~2M):</strong> Imperial scale + walkable.</li>
+  <li><strong>Hamburg (~1.9M):</strong> Strong but underrated.</li>
+  <li><strong>Budapest (~1.7M):</strong> Affordable + dense.</li>
+  <li><strong>Warsaw (~1.8M):</strong> Modern + accessible.</li>
+  <li><strong>Barcelona (~1.6M):</strong> Walkable + Gaudí.</li>
+</ul>
+
+<h2>Underrated for size</h2>
+
+<ul>
+  <li><strong>Munich (~1.5M):</strong> Compact + Bavarian culture.</li>
+  <li><strong>Milan (~1.4M):</strong> Underrated tourism vs other Italian cities.</li>
+  <li><strong>Prague (~1.3M):</strong> UNESCO + cheap.</li>
+  <li><strong>Sofia (~1.25M):</strong> Cheapest EU capital.</li>
+  <li><strong>Athens (~664K city; 3M metro):</strong> Ancient + modern.</li>
+</ul>
+
+<h2>Cities under 1M with major travel value</h2>
+
+<ul>
+  <li><strong>Stockholm (~980K), Copenhagen (~660K), Helsinki (~660K):</strong> Nordic capitals.</li>
+  <li><strong>Amsterdam (~920K):</strong> Compact powerhouse.</li>
+  <li><strong>Florence (~380K), Lisbon (~545K):</strong> Smaller but dense.</li>
+  <li><strong>Edinburgh (~520K), Krakow (~779K):</strong> Highly visitable.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Smaller European cities often deliver better travel experiences than mega-capitals. The best European city travel happens in 200K-2M-population cities — large enough for variety, small enough to walk.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-instagram-photos",
+    title: "Most Instagrammable European Cities (Honest 2026)",
+    excerpt: "Where European photo opportunities are real — and which famous spots disappoint.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 8,
+    metaTitle: "Most Instagrammable European Cities — Honest 2026",
+    metaDescription: "Where European photo opportunities are real — and which famous spots disappoint.",
+    html: `
+<p>Some "Instagrammable" cities live up to the marketing; others don't. Here's the honest sort.</p>
+
+<h2>Tier 1 — genuinely photogenic</h2>
+
+<ul>
+  <li><strong>Santorini (Imerovigli):</strong> Caldera + blue domes. Real.</li>
+  <li><strong>Cinque Terre (Vernazza, off-season):</strong> Cliff villages.</li>
+  <li><strong>Cappadocia (Uçhisar dawn):</strong> Balloons + cave hotels.</li>
+  <li><strong>Hallstatt (off-day-tripper season):</strong> Mountain-lake-village.</li>
+  <li><strong>Bruges (off-season):</strong> Canals.</li>
+</ul>
+
+<h2>Tier 2 — photogenic city stays</h2>
+
+<ul>
+  <li><strong>Lisbon:</strong> Pastel facades, miradouros.</li>
+  <li><strong>Lisbon's Belém:</strong> Maritime monuments.</li>
+  <li><strong>Sintra:</strong> Pena Palace.</li>
+  <li><strong>Florence:</strong> Renaissance density.</li>
+  <li><strong>Edinburgh:</strong> Royal Mile + castle.</li>
+</ul>
+
+<h2>Tier 3 — niche photographer-favorites</h2>
+
+<ul>
+  <li><strong>Wrocław:</strong> Painted dwarves and market square.</li>
+  <li><strong>Plovdiv Old Town:</strong> Bulgarian Revival houses.</li>
+  <li><strong>Mostar Bridge:</strong> Ottoman bridge.</li>
+  <li><strong>Salamanca + Coimbra:</strong> University towns.</li>
+</ul>
+
+<h2>Where Instagram lies</h2>
+
+<ul>
+  <li><strong>Trevi Fountain:</strong> Always packed; expectation vs reality issue.</li>
+  <li><strong>Eiffel Tower up close:</strong> The "love-lock" bridge is fenced now.</li>
+  <li><strong>Colosseum street:</strong> Always crowded with vendors.</li>
+  <li><strong>Big Ben + bus shot:</strong> Typically hundreds of others doing same.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Off-season + dawn:</strong> Best photos are 7-9am before crowds.</li>
+  <li><strong>Side-streets:</strong> Often more photogenic than main attractions.</li>
+  <li><strong>Local photographer:</strong> Hire 1-2 hour session for keeper photos.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "european-cities-that-cost-too-much",
+    title: "Most-Expensive European Cities (Honest Take)",
+    excerpt: "Where European travel costs the most — and how to do them anyway.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 8,
+    metaTitle: "Most-Expensive European Cities — Honest 2026",
+    metaDescription: "Where European travel costs the most — and how to do them anyway.",
+    html: `
+<p>Some European cities are dramatically expensive. Here's the honest take.</p>
+
+<h2>Tier 1 — most expensive</h2>
+
+<ul>
+  <li><strong>Zurich:</strong> Switzerland's most expensive. €350+/day baseline.</li>
+  <li><strong>Geneva:</strong> Same level.</li>
+  <li><strong>Reykjavík:</strong> €300-€450/day. Iceland uniformly expensive.</li>
+  <li><strong>Oslo, Bergen:</strong> Norway expensive.</li>
+  <li><strong>Stockholm, Copenhagen:</strong> Pricey but more reasonable than Switzerland/Norway.</li>
+</ul>
+
+<h2>Tier 2 — expensive</h2>
+
+<ul>
+  <li><strong>London:</strong> £200-£300/day comfortable.</li>
+  <li><strong>Paris:</strong> €220-€350/day.</li>
+  <li><strong>Amsterdam:</strong> €230-€350/day.</li>
+  <li><strong>Venice peak:</strong> €350+/day.</li>
+  <li><strong>Santorini peak:</strong> €350-€600/day caldera-side.</li>
+</ul>
+
+<h2>How to do expensive cities anyway</h2>
+
+<ul>
+  <li><strong>Hostels and apartments:</strong> Save 50-70% vs hotels.</li>
+  <li><strong>Self-catering:</strong> Supermarket lunches + dinner out.</li>
+  <li><strong>Walking + transit:</strong> Skip taxis.</li>
+  <li><strong>Free attractions:</strong> Museums in London, parks everywhere.</li>
+  <li><strong>Off-season:</strong> 30-50% price cuts.</li>
+</ul>
+
+<h2>How to keep costs sane</h2>
+
+<ul>
+  <li><strong>Lunch as main meal:</strong> Set lunches 30-50% cheaper than dinner.</li>
+  <li><strong>Pre-buy transit cards.</strong></li>
+  <li><strong>Avoid airport-area hotels for non-flight nights.</strong></li>
+  <li><strong>Cook one meal/day.</strong></li>
+</ul>
+
+<h2>Skip if budget-conscious</h2>
+
+<p>Switzerland, Norway, Iceland — wait for higher-budget trips. Wonderful but burns through savings fast.</p>
+
+<p>For specific budget context see <a href="/en/articles/best-european-cities-by-trip-budget">cities by budget</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-tea-culture",
+    title: "Best European Cities for Tea Culture",
+    excerpt: "Where European tea tradition is real — UK, Russia (politics aside), Turkey.",
+    publishedAt: "2026-06-05",
+    reviewedAt: "2026-06-05",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Tea Culture — Honest 2026",
+    metaDescription: "Where European tea tradition is real — UK, Russia (politics aside), Turkey.",
+    html: `
+<p>European tea cultures are deeper than the coffee-dominated narrative suggests. Here's the honest sort.</p>
+
+<h2>British tea tradition</h2>
+
+<ul>
+  <li><strong>London:</strong> Afternoon tea at Claridge's, The Ritz, Fortnum &amp; Mason. Iconic.</li>
+  <li><strong>Bath:</strong> Sally Lunn's tea + buns since 1690s.</li>
+  <li><strong>Edinburgh:</strong> Strong Scottish tea tradition.</li>
+</ul>
+
+<h2>Russian tea tradition (politics aside)</h2>
+
+<p>Samovar tea + zakuski tradition. Saint Petersburg + Moscow have iconic tea houses.</p>
+
+<h2>Turkish tea tradition</h2>
+
+<ul>
+  <li><strong>Istanbul:</strong> Turkish tea (çay) is the social glue. Served everywhere.</li>
+  <li><strong>Tiny waist-glass tea + cube sugar standard.</strong></li>
+</ul>
+
+<h2>Other strong tea cities</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Mariage Frères flagships. French-tea tradition.</li>
+  <li><strong>Berlin:</strong> Strong specialty-tea scene.</li>
+  <li><strong>Lisbon:</strong> Portuguese tea tradition (Camélia, founded 1922).</li>
+  <li><strong>Vienna:</strong> Tea-rooms within coffee-house culture.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For British afternoon tea, book 2-3 weeks ahead at top hotels. For Turkish çay culture, every meal includes it. Specialty-tea tours (Mariage Frères, Fortnum &amp; Mason) can be arranged.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

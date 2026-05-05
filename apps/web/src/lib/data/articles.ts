@@ -13680,6 +13680,317 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 44 — niche food / sport / occasion guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-outdoor-markets",
+    title: "Best European Cities for Outdoor Markets Year-Round",
+    excerpt: "Where European outdoor markets run year-round vs seasonally — honest sort.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Outdoor Markets — Honest 2026",
+    metaDescription: "Where European outdoor markets run year-round vs seasonally — honest sort.",
+    html: `
+<p>European outdoor markets are central to local culture. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination food markets</h2>
+
+<ul>
+  <li><strong>Barcelona La Boqueria:</strong> The famous Las Ramblas market.</li>
+  <li><strong>Madrid Mercado de San Miguel:</strong> Wrought-iron market.</li>
+  <li><strong>Lisbon Time Out Market:</strong> Modern food-court style.</li>
+  <li><strong>Florence Mercato Centrale:</strong> Two floors of food.</li>
+  <li><strong>Naples Mercato di Porta Nolana:</strong> Traditional fish market.</li>
+</ul>
+
+<h2>Tier 2 — strong markets</h2>
+
+<ul>
+  <li><strong>Vienna Naschmarkt:</strong> Saturday flea market section.</li>
+  <li><strong>Munich Viktualienmarkt:</strong> Year-round.</li>
+  <li><strong>Athens Central Market:</strong> Meat and fish.</li>
+  <li><strong>Paris Marché des Enfants Rouges (Marais):</strong> Oldest covered market.</li>
+  <li><strong>Bologna Quadrilatero:</strong> Italy's food capital.</li>
+</ul>
+
+<h2>Sunday-only markets (popular)</h2>
+
+<ul>
+  <li><strong>Madrid Rastro:</strong> Sunday morning flea market.</li>
+  <li><strong>Paris Saint-Ouen:</strong> Largest flea market.</li>
+  <li><strong>London Portobello Saturday + Brick Lane Sunday.</strong></li>
+  <li><strong>Berlin Mauerpark Sunday:</strong> Vintage + karaoke.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Visit markets early (before 11am) for freshest produce + smallest crowds. Many cities have neighborhood-specific Saturday markets that locals prefer over tourist-famous ones. Ask locally for "your Saturday market."</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-free-walking-tours",
+    title: "Best European Cities for Free Walking Tours",
+    excerpt: "Tip-based walking tours — where they're worthwhile vs touristy. Honest sort.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Free Walking Tours — Honest 2026",
+    metaDescription: "Tip-based walking tours — where they're worthwhile vs touristy. Honest sort.",
+    html: `
+<p>Free walking tours (tip-based) are standard across European cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — strong free walking tours</h2>
+
+<ul>
+  <li><strong>Madrid:</strong> Multiple high-quality companies. 2-3 hours through Habsburg + Bourbon Madrid.</li>
+  <li><strong>Lisbon:</strong> Strong free-tour scene. Free Lisbon Tours dense.</li>
+  <li><strong>Krakow Old Town tour:</strong> 2-3h through Stare Miasto + Wawel.</li>
+  <li><strong>Berlin Free Walking Tour:</strong> 3h through historical heart.</li>
+  <li><strong>Prague:</strong> Same.</li>
+</ul>
+
+<h2>Tier 2 — strong tour scenes</h2>
+
+<ul>
+  <li><strong>Budapest:</strong> Communist tour + Jewish quarter tour separate.</li>
+  <li><strong>Vienna:</strong> Strong free tours.</li>
+  <li><strong>Edinburgh:</strong> Free Royal Mile + ghost tours.</li>
+  <li><strong>Athens:</strong> Free Acropolis-area tours.</li>
+  <li><strong>Istanbul Sultanahmet.</strong></li>
+</ul>
+
+<h2>Specialty free tours</h2>
+
+<ul>
+  <li><strong>Berlin Cold War tour.</strong></li>
+  <li><strong>Krakow Jewish Quarter tour.</strong></li>
+  <li><strong>Budapest ruin-bar tour.</strong></li>
+  <li><strong>Paris Marais tour.</strong></li>
+  <li><strong>Madrid Hidden Spain tour.</strong></li>
+</ul>
+
+<h2>Tipping etiquette</h2>
+
+<ul>
+  <li><strong>€10-€15 per person:</strong> Standard for 2-3h tour.</li>
+  <li><strong>€20+ for excellent guide.</strong></li>
+  <li><strong>Cash:</strong> Most guides expect cash; some accept Venmo/PayPal.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Book online 1-2 days ahead — popular tours fill up. Two free walking tours your first day in a new city = excellent orientation.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-trail-running",
+    title: "Best European Cities for Trail Running and Mountain Running",
+    excerpt: "European cities where trail running is at the door — alpine + Mediterranean picks.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Trail Running — Honest 2026",
+    metaDescription: "European cities where trail running is at the door — alpine + Mediterranean picks.",
+    html: `
+<p>Trail running concentrates in alpine and coastal cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination trail-running cities</h2>
+
+<ul>
+  <li><strong>Chamonix:</strong> UTMB capital. Mont Blanc trails everywhere.</li>
+  <li><strong>Innsbruck:</strong> Alpine trails 5 min from city.</li>
+  <li><strong>Cortina d'Ampezzo:</strong> Dolomites at the door.</li>
+  <li><strong>Madeira (Funchal):</strong> Levada-walk + mountain trails.</li>
+  <li><strong>Reykjavík + south Iceland:</strong> Coastal + volcanic trails.</li>
+</ul>
+
+<h2>Tier 2 — strong trail-running</h2>
+
+<ul>
+  <li><strong>Edinburgh (Holyrood Park):</strong> Arthur's Seat + Pentlands.</li>
+  <li><strong>Bergen:</strong> Mt Ulriken + Fløibanen + 7 Mountain Hike.</li>
+  <li><strong>Granada (Sierra Nevada):</strong> High-altitude + mountain trails.</li>
+  <li><strong>Athens (Mt Hymettus):</strong> Surprisingly good trails 30 min from centre.</li>
+</ul>
+
+<h2>Tier 3 — niche trail-running</h2>
+
+<ul>
+  <li><strong>Sarajevo (Trebević + Bjelašnica):</strong> Olympic mountains.</li>
+  <li><strong>Plovdiv (Rhodope mountains):</strong> 30 min south.</li>
+  <li><strong>Cluj-Napoca (Apuseni):</strong> Limestone trails.</li>
+</ul>
+
+<h2>Famous trail-running events</h2>
+
+<ul>
+  <li><strong>UTMB (Chamonix, August):</strong> The world's most famous ultra-trail.</li>
+  <li><strong>Lavaredo Ultra Trail (Cortina, June):</strong> Dolomites.</li>
+  <li><strong>Madeira Island Ultra Trail (April):</strong> Volcanic terrain.</li>
+  <li><strong>Reykjavík Marathon Mountain Run (August).</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan around mountain conditions (snow + rockfall). Most alpine trails open mid-June through September. Mediterranean trails accessible year-round.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vintage-vinyl-records",
+    title: "Best European Cities for Vinyl Records and Music Shops",
+    excerpt: "Where European vinyl scenes deliver — London, Berlin, Paris, Amsterdam.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Vinyl Records — Honest 2026",
+    metaDescription: "Where European vinyl scenes deliver — London, Berlin, Paris, Amsterdam.",
+    html: `
+<p>Vinyl shopping in Europe concentrates in specific cities.</p>
+
+<h2>Tier 1 — destination vinyl cities</h2>
+
+<ul>
+  <li><strong>London (Soho, East End):</strong> Sister Ray, Phonica, Rough Trade East.</li>
+  <li><strong>Berlin (Friedrichshain, Kreuzberg):</strong> Hardwax, OYE, Power Park.</li>
+  <li><strong>Amsterdam:</strong> Concerto, Distortion Records.</li>
+  <li><strong>Paris (Marais, Saint-Germain):</strong> Crocodisc, Born Bad Records.</li>
+</ul>
+
+<h2>Tier 2 — strong vinyl scenes</h2>
+
+<ul>
+  <li><strong>Stockholm (SoFo):</strong> Pet Sounds, Bengans.</li>
+  <li><strong>Copenhagen:</strong> Sex Beat Records, Beat Bop.</li>
+  <li><strong>Madrid Malasaña:</strong> Discos La Metralleta.</li>
+  <li><strong>Barcelona:</strong> Discos Paradiso.</li>
+  <li><strong>Athens Exarcheia:</strong> Politically-themed records.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Lisbon (Príncipe Real):</strong> Flur record store.</li>
+  <li><strong>Glasgow:</strong> Strong record shop scene.</li>
+  <li><strong>Manchester (Northern Quarter):</strong> Vinyl Exchange.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Many record shops have specialty focuses (electronic, jazz, indie). Researching before visit prevents disappointment.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-luxury-honeymoon-photography",
+    title: "Best European Cities for Luxury Honeymoon + Couples Photography",
+    excerpt: "Where to stay + photograph for luxury honeymoon trips — premium hotels + scenic backdrops.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Luxury Honeymoon Photography — Honest 2026",
+    metaDescription: "Where to stay + photograph for luxury honeymoon trips — premium hotels + scenic backdrops.",
+    html: `
+<p>Luxury honeymoons combine premium hotels + scenic photography. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination luxury honeymoons</h2>
+
+<ul>
+  <li><strong>Santorini (Imerovigli):</strong> Cliff-edge cave-suites with private terraces and pools. €600-€2000/night.</li>
+  <li><strong>Cappadocia (Uçhisar):</strong> Argos in Cappadocia, Museum Hotel cave-suites.</li>
+  <li><strong>Lake Como (Bellagio + Varenna):</strong> Grand Hotel Tremezzo, Villa d'Este.</li>
+  <li><strong>Tuscany (San Casciano dei Bagni):</strong> Castello di Reschio, Borgo Santo Pietro.</li>
+  <li><strong>Provence (Aix area):</strong> Villa Gallici, Château de la Gaude.</li>
+</ul>
+
+<h2>Tier 2 — strong luxury honeymoon cities</h2>
+
+<ul>
+  <li><strong>Florence:</strong> Belmond Villa San Michele, Helvetia &amp; Bristol.</li>
+  <li><strong>Paris:</strong> Hotel Plaza Athénée, Le Bristol, Crillon, Ritz Paris.</li>
+  <li><strong>Venice:</strong> Aman Venice, Cipriani, Gritti Palace.</li>
+  <li><strong>Amalfi Coast (Positano):</strong> Le Sirenuse, Il San Pietro.</li>
+  <li><strong>St. Andrews, Scotland:</strong> Old Course Hotel.</li>
+</ul>
+
+<h2>Tier 3 — niche luxury</h2>
+
+<ul>
+  <li><strong>Iceland Northern Lights season:</strong> Deplar Farm, Buðir Hotel.</li>
+  <li><strong>Lapland Christmas:</strong> Igloo hotels, Arctic Snow Hotel.</li>
+  <li><strong>Norwegian fjords:</strong> Storfjord Hotel.</li>
+  <li><strong>Madeira:</strong> Reid's Palace, Belmond.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Book 8-12 months ahead:</strong> Luxury honeymoon hotels fill 6-12 months out.</li>
+  <li><strong>Hire local photographer:</strong> 1-2 hour sessions €500-€1500.</li>
+  <li><strong>Off-season luxury:</strong> Saves 30-50% with most of the experience.</li>
+  <li><strong>Wedding planners:</strong> Many honeymoons book through wedding-tour services for celebration extensions.</li>
+</ul>
+
+<p>For honeymoon photography specifics see <a href="/en/articles/europe-best-cities-for-photography-honeymoon">honeymoon photography guide</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-budget-honeymoon",
+    title: "Best European Cities for Budget Honeymoon Trips",
+    excerpt: "Romantic European honeymoons that don't require luxury budgets. Honest picks.",
+    publishedAt: "2026-06-08",
+    reviewedAt: "2026-06-08",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Budget Honeymoon — Honest 2026",
+    metaDescription: "Romantic European honeymoons that don't require luxury budgets. Honest picks.",
+    html: `
+<p>Budget honeymoons in Europe are real. Here's the honest sort.</p>
+
+<h2>Tier 1 — affordable romantic honeymoons</h2>
+
+<ul>
+  <li><strong>Krakow + Tatra Mountains:</strong> Romantic medieval old town + alpine day-trips. €100-€180/day.</li>
+  <li><strong>Budapest + thermal baths:</strong> Romantic + relaxing. €120-€200/day.</li>
+  <li><strong>Lisbon + Sintra:</strong> Pastel + palaces. €150-€250/day.</li>
+  <li><strong>Porto + Douro Valley:</strong> Wine + atmospheric. €130-€220/day.</li>
+  <li><strong>Granada + Albaicín:</strong> Sunset Mirador + Andalusian food. €120-€200/day.</li>
+</ul>
+
+<h2>Tier 2 — strong budget honeymoon cities</h2>
+
+<ul>
+  <li><strong>Prague + Český Krumlov:</strong> Medieval atmosphere. €130-€220/day.</li>
+  <li><strong>Croatia coast off-season:</strong> Split + Korčula in October. €150-€250/day.</li>
+  <li><strong>Albanian Riviera:</strong> Beach + cliff villages. €100-€160/day.</li>
+  <li><strong>Mostar + Sarajevo:</strong> Atmospheric + cheap. €100-€160/day.</li>
+  <li><strong>Sicily off-season:</strong> Catania + Taormina. €150-€250/day.</li>
+</ul>
+
+<h2>Tier 3 — niche budget options</h2>
+
+<ul>
+  <li><strong>Turkish Aegean (Bodrum off-season).</strong></li>
+  <li><strong>Slovenian alpine (Bled off-peak).</strong></li>
+  <li><strong>Romanian Saxon villages (Brașov + Sibiu).</strong></li>
+</ul>
+
+<h2>Honeymoon-specific budget hacks</h2>
+
+<ul>
+  <li><strong>Off-season:</strong> 30-50% lower hotel rates with most of the romance.</li>
+  <li><strong>Apartment with view:</strong> Often cheaper than equivalent hotel and more privacy.</li>
+  <li><strong>One splurge dinner:</strong> Pick one Michelin-or-equivalent meal; eat lunch-as-main otherwise.</li>
+  <li><strong>Skip Santorini, Mykonos, Capri at peak:</strong> Save 60-70% by going elsewhere.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick romantic atmosphere over luxury hotels. Off-season Bruges, Sintra, Granada, or Krakow can deliver more romance than peak-season Santorini at half the cost.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

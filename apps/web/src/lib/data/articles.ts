@@ -11722,6 +11722,337 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 38 — niche audience + practical
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-fast-airport-transit",
+    title: "Best European Cities With Fast Airport-to-Centre Transit",
+    excerpt: "European airports ranked by how quickly you reach the city centre — Schiphol vs CDG vs Heathrow.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 8,
+    metaTitle: "European Cities With Fastest Airport Transit — Honest 2026",
+    metaDescription: "European airports ranked by how quickly you reach the city centre — Schiphol vs CDG vs Heathrow.",
+    html: `
+<p>Some European airports are 15 min from the centre. Others are 60+ min. Here's the honest sort.</p>
+
+<h2>Tier 1 — under 20 minutes</h2>
+
+<ul>
+  <li><strong>Copenhagen (CPH):</strong> 13 min metro. Best in Europe.</li>
+  <li><strong>Zurich (ZRH):</strong> 10 min train.</li>
+  <li><strong>Helsinki (HEL):</strong> 30 min train (close enough).</li>
+  <li><strong>Amsterdam (AMS):</strong> 15 min train.</li>
+  <li><strong>Vienna (VIE):</strong> 16 min CAT train.</li>
+</ul>
+
+<h2>Tier 2 — 20-35 minutes</h2>
+
+<ul>
+  <li><strong>Lisbon (LIS):</strong> 25 min metro.</li>
+  <li><strong>Madrid (MAD):</strong> 30 min metro.</li>
+  <li><strong>Barcelona (BCN):</strong> 30 min train.</li>
+  <li><strong>Munich (MUC):</strong> 40 min S-Bahn.</li>
+  <li><strong>Paris CDG:</strong> 35 min RER B.</li>
+  <li><strong>Rome FCO:</strong> 32 min Leonardo Express.</li>
+</ul>
+
+<h2>Tier 3 — 40-60 minutes</h2>
+
+<ul>
+  <li><strong>London Heathrow:</strong> 15 min Heathrow Express to Paddington (then central tube).</li>
+  <li><strong>London Gatwick:</strong> 30 min Gatwick Express.</li>
+  <li><strong>Berlin BER:</strong> 30 min train.</li>
+  <li><strong>Frankfurt (FRA):</strong> 12 min train (centre uninspiring).</li>
+  <li><strong>Stockholm (ARN):</strong> 20 min Arlanda Express + tram.</li>
+</ul>
+
+<h2>Tier 4 — 60+ minutes (avoid for short stopovers)</h2>
+
+<ul>
+  <li><strong>Paris Beauvais:</strong> 1h 15min bus.</li>
+  <li><strong>Frankfurt Hahn:</strong> 2h bus.</li>
+  <li><strong>Bergamo (Milan secondary):</strong> 1h bus.</li>
+  <li><strong>Stansted, Luton (London):</strong> 50-90 min.</li>
+  <li><strong>Charleroi (Brussels):</strong> 1h bus.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For short stopover layovers, prefer airports with sub-30-min transit. For arrivals, weigh transit time + flight cost — sometimes Beauvais flight + bus = same total time as CDG with cheaper fare.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stand-up-comedy",
+    title: "Best European Cities for Stand-Up Comedy in English",
+    excerpt: "Where you can see English-language stand-up across Europe — and which scenes are real.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 7,
+    metaTitle: "Best European Cities for Stand-Up Comedy — Honest 2026",
+    metaDescription: "Where you can see English-language stand-up across Europe — and which scenes are real.",
+    html: `
+<p>English-language stand-up in Europe concentrates in specific cities. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination stand-up cities</h2>
+
+<ul>
+  <li><strong>London:</strong> The European stand-up capital. Comedy Store, Top Secret, Soho Theatre.</li>
+  <li><strong>Edinburgh Fringe (August):</strong> Hundreds of comedy shows. Tickets cheap.</li>
+  <li><strong>Berlin:</strong> Strong English-language expat scene. Quatsch Comedy Club, multiple open mics.</li>
+  <li><strong>Amsterdam:</strong> Comedy Cafe + Boom Chicago.</li>
+</ul>
+
+<h2>Tier 2 — strong English-language stand-up</h2>
+
+<ul>
+  <li><strong>Dublin:</strong> Strong native scene + tourist circuits.</li>
+  <li><strong>Glasgow:</strong> Underrated.</li>
+  <li><strong>Stockholm:</strong> Growing English-stand-up.</li>
+  <li><strong>Copenhagen:</strong> Same.</li>
+</ul>
+
+<h2>Tier 3 — niche</h2>
+
+<ul>
+  <li><strong>Prague Comedy Club:</strong> English Open Mic.</li>
+  <li><strong>Paris (English-language clubs):</strong> The New York Comedy Night, Le Paname Art Café.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Edinburgh Fringe:</strong> Plan around early August. 3000+ shows; tickets cheap.</li>
+  <li><strong>London tourist passes:</strong> Comedy Store / Soho Theatre + dinner = standard evening.</li>
+  <li><strong>Open mics:</strong> Free entry; expect mixed quality.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-grandparents-trip",
+    title: "Best European Cities for Multi-Generational Trips With Grandparents",
+    excerpt: "Where to take grandparents and grandchildren on a European trip. Honest picks.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities With Grandparents — Honest 2026",
+    metaDescription: "Where to take grandparents and grandchildren on a European trip. Honest picks.",
+    html: `
+<p>Multi-generational European trips need careful city selection. Here's the honest sort.</p>
+
+<h2>Tier 1 — ideal for grandparents + kids</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Imperial sights for grandparents + Schönbrunn Zoo + Prater amusement park for kids. Excellent transit.</li>
+  <li><strong><a href="/en/germany/munich">Munich</a>:</strong> Englischer Garten + Deutsches Museum for kids; old town for grandparents.</li>
+  <li><strong><a href="/en/denmark/copenhagen">Copenhagen</a>:</strong> Tivoli Gardens + Lakes + family-aware everything.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Retiro Park + Prado + walkable streets.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> + Sintra:</strong> Castles for kids, manageable hills.</li>
+</ul>
+
+<h2>Tier 2 — workable with planning</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> If you stay central, mobility is workable. Skip Trastevere stair-streets.</li>
+  <li><strong>Paris:</strong> Pick central arrondissement; metro is partially-accessible.</li>
+  <li><strong>London:</strong> Excellent for kids; museums free.</li>
+  <li><strong>Florence:</strong> Compact, but many sights have stairs.</li>
+</ul>
+
+<h2>Cities to skip with grandparents</h2>
+
+<ul>
+  <li><strong>Lisbon Alfama:</strong> Stair-streets brutal for grandparents.</li>
+  <li><strong>Granada Albaicín:</strong> Same.</li>
+  <li><strong>Cinque Terre:</strong> Steep paths between villages.</li>
+  <li><strong>Most Italian hill towns.</strong></li>
+  <li><strong>Greek islands beyond Rhodes Old Town.</strong></li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Pick fewer cities, longer stays:</strong> 5-7 nights in one base reduces stress.</li>
+  <li><strong>Self-paced days:</strong> One sight per morning; afternoons free.</li>
+  <li><strong>Apartment with separate rooms:</strong> Save 30-50% vs multiple hotel rooms.</li>
+  <li><strong>Day-trips by guided coach:</strong> Easier for grandparents than driving.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-language-learning",
+    title: "Best European Cities for Language-Learning Stays",
+    excerpt: "Where to stay for European language immersion — French, Spanish, Italian, German.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Language Learning — Honest 2026",
+    metaDescription: "Where to stay for European language immersion — French, Spanish, Italian, German.",
+    html: `
+<p>Language-immersion trips work best in specific cities. Here's the honest sort.</p>
+
+<h2>French immersion</h2>
+
+<ul>
+  <li><strong>Paris:</strong> Many language schools. The classic but expensive.</li>
+  <li><strong>Lyon:</strong> Cheaper than Paris, less English-speaking-tourists. Better immersion.</li>
+  <li><strong>Aix-en-Provence:</strong> Excellent language schools + village atmosphere.</li>
+  <li><strong>Quebec (technically not Europe):</strong> Different French.</li>
+</ul>
+
+<h2>Spanish immersion</h2>
+
+<ul>
+  <li><strong>Madrid:</strong> Castilian Spanish standard. Many schools.</li>
+  <li><strong>Salamanca:</strong> University town with strong language schools. Among the best for immersion.</li>
+  <li><strong>Granada, Seville:</strong> Andalusian Spanish accent (regional).</li>
+  <li><strong>Barcelona:</strong> Spanish + Catalan. Less optimal for pure Spanish.</li>
+</ul>
+
+<h2>Italian immersion</h2>
+
+<ul>
+  <li><strong>Florence, Siena:</strong> Tuscan Italian — the standard. Many language schools.</li>
+  <li><strong>Bologna:</strong> Strong university language schools.</li>
+  <li><strong>Rome:</strong> Roman dialect + standard. Many schools.</li>
+  <li><strong>Naples:</strong> Heavy Neapolitan dialect — not for first-time learners.</li>
+</ul>
+
+<h2>German immersion</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Many language schools. International atmosphere.</li>
+  <li><strong>Vienna:</strong> Austrian German (slightly different but mutually intelligible).</li>
+  <li><strong>Munich:</strong> Bavarian region but Hochdeutsch in city.</li>
+  <li><strong>Heidelberg:</strong> University town with strong programs.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Schools to consider:</strong> AIL Madrid, Alliance Française (Paris), Goethe-Institut (Berlin), Scuola Leonardo (Florence).</li>
+  <li><strong>2-4 week intensive courses:</strong> Standard for meaningful progress.</li>
+  <li><strong>Homestay vs apartment:</strong> Homestay accelerates immersion 2-3x.</li>
+  <li><strong>Tandem partnerships:</strong> Find a local who wants to practice English.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-adopting-families",
+    title: "Best European Cities for Families With Adopted Kids From Europe",
+    excerpt: "Where families with European-adopted children can return for heritage trips. Honest sort.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 8,
+    metaTitle: "European Heritage Trips for Adoptive Families — Honest 2026",
+    metaDescription: "Where families with European-adopted children can return for heritage trips. Honest sort.",
+    html: `
+<p>Many families with adopted children from Europe do heritage trips when kids are old enough. Here's the honest sort by major adoption-source country.</p>
+
+<h2>Russia + Ukraine adoptions (politics aside)</h2>
+
+<p>Many international adoptions in 1990s-2010s. Heritage trips currently complicated by geopolitics.</p>
+
+<h2>Romania adoptions</h2>
+
+<ul>
+  <li><strong>Bucharest:</strong> Heritage starting point.</li>
+  <li><strong>Brașov + Sibiu:</strong> Saxon Transylvania for cultural depth.</li>
+  <li><strong>Cluj-Napoca:</strong> University-town energy.</li>
+  <li><strong>Practical:</strong> Romanian-language guides easy to arrange.</li>
+</ul>
+
+<h2>Bulgaria adoptions</h2>
+
+<ul>
+  <li><strong><a href="/en/bulgaria/sofia">Sofia</a> + <a href="/en/bulgaria/plovdiv">Plovdiv</a>:</strong> Combined heritage trip.</li>
+  <li><strong>Veliko Tarnovo:</strong> Medieval Bulgarian capital.</li>
+</ul>
+
+<h2>Poland adoptions</h2>
+
+<ul>
+  <li><strong>Warsaw + Krakow:</strong> Both essential.</li>
+  <li><strong>Gdansk:</strong> Northern coast.</li>
+  <li><strong>Wroclaw:</strong> Western city.</li>
+</ul>
+
+<h2>Ukraine adoptions (when possible)</h2>
+
+<p>Currently restricted; check current State Department guidance.</p>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Adoption agencies often have heritage-trip resources:</strong> Many will connect you with local guides.</li>
+  <li><strong>Older children:</strong> Wait until age 8-12 for meaningful experience.</li>
+  <li><strong>Language preparation:</strong> Even basic phrases are meaningful.</li>
+  <li><strong>Original locations:</strong> Visit hospital/orphanage/region of origin if possible.</li>
+</ul>
+
+<p>This is a sensitive topic. Plan with adoption professionals before the trip.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-fastest-eurostar-budget-flights-from-uk",
+    title: "Fastest Trips to European Cities From the UK",
+    excerpt: "From London, Eurostar makes some European cities faster than UK domestic destinations.",
+    publishedAt: "2026-06-02",
+    reviewedAt: "2026-06-02",
+    readingTimeMin: 8,
+    metaTitle: "Fastest UK to Europe Trips — Honest 2026",
+    metaDescription: "From London, Eurostar makes some European cities faster than UK domestic destinations.",
+    html: `
+<p>From London, the fastest European trips often beat UK domestic destinations.</p>
+
+<h2>Eurostar from London (city centre to city centre)</h2>
+
+<ul>
+  <li><strong>London → Paris:</strong> 2h 30min (faster than London → Edinburgh).</li>
+  <li><strong>London → Brussels:</strong> 2h.</li>
+  <li><strong>London → Lille:</strong> 1h 22min (faster than London → Manchester).</li>
+  <li><strong>London → Amsterdam:</strong> 4h direct.</li>
+</ul>
+
+<h2>Best UK-Europe day trips by Eurostar</h2>
+
+<ul>
+  <li><strong>Lille:</strong> 1h 22min — easy day-trip with 6 hours in the city.</li>
+  <li><strong>Brussels:</strong> 2h — workable day-trip but better as overnight.</li>
+  <li><strong>Bruges via Brussels:</strong> 3h — ambitious day-trip; better overnight.</li>
+</ul>
+
+<h2>Best 1-2 hour flights from London</h2>
+
+<ul>
+  <li><strong>Dublin:</strong> 1h 15min.</li>
+  <li><strong>Edinburgh:</strong> 1h 15min.</li>
+  <li><strong>Cologne, Düsseldorf:</strong> 1h 30min.</li>
+  <li><strong>Amsterdam:</strong> 1h 15min.</li>
+  <li><strong>Hamburg:</strong> 1h 30min.</li>
+  <li><strong>Frankfurt:</strong> 1h 35min.</li>
+</ul>
+
+<h2>2-3 hour flights for 3-night trips</h2>
+
+<ul>
+  <li><strong>Madrid, Barcelona, Lisbon, Berlin, Munich:</strong> 2-2h 30min flights.</li>
+  <li><strong>Vienna, Prague, Rome, Athens:</strong> 2h 30min - 3h.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Eurostar:</strong> 6+ months ahead for €50-€70 fares; last-minute €200-€300.</li>
+  <li><strong>Budget airlines:</strong> Run all-in cost — bag fees, seat fees, transfer can equal full-service.</li>
+  <li><strong>Time zones:</strong> Most European cities are 1h ahead of UK; doesn't affect short trips.</li>
+</ul>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

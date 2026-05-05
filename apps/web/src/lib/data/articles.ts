@@ -8468,6 +8468,307 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 28 — interest-based + practical guides
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-literature-lovers",
+    title: "Best European Cities for Literature Lovers (Honest 2026)",
+    excerpt: "Cities where literary history is part of the trip — writers' homes, bookshops, café-where-they-wrote.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Literature Lovers — Honest 2026",
+    metaDescription: "Cities where literary history is part of the trip — writers' homes, bookshops, café-where-they-wrote.",
+    html: `
+<p>For literary trips, here's the honest sort by depth.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/france/paris">Paris</a>:</strong> Hemingway, Joyce, Beauvoir, Camus, Proust. Shakespeare and Company bookshop. Saint-Germain café trail.</li>
+  <li><strong>London:</strong> Dickens, Woolf, Conan Doyle, Orwell. Bloomsbury group walks. British Library.</li>
+  <li><strong>Dublin:</strong> Joyce (Bloomsday June 16), Yeats, Beckett, Wilde. Dublin Writers Museum.</li>
+  <li><strong>Prague:</strong> Kafka. The Old Jewish Cemetery, Kafka Museum, Café Louvre.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Pessoa. Casa Fernando Pessoa, A Brasileira café.</li>
+</ul>
+
+<h2>Tier 2 — strong literary cities</h2>
+
+<ul>
+  <li><strong>Edinburgh:</strong> Walter Scott, Robert Louis Stevenson, J.K. Rowling.</li>
+  <li><strong>St. Petersburg (politics aside):</strong> Dostoevsky, Pushkin, Akhmatova.</li>
+  <li><strong>Trieste, Italy:</strong> Joyce wrote much of Ulysses here. Saba, Svevo.</li>
+  <li><strong>Hamburg, Berlin:</strong> Mann, Brecht, Döblin.</li>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> Schnitzler, Zweig, Roth. Café Central was Trotsky's office.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Heidelberg:</strong> German Romantic poets.</li>
+  <li><strong>Salzburg:</strong> Mozart but also Stefan Zweig.</li>
+  <li><strong>Florence:</strong> Dante, Boccaccio.</li>
+  <li><strong>Stratford-upon-Avon:</strong> Shakespeare obviously.</li>
+  <li><strong>Stockholm:</strong> Strindberg, Lagerlöf.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Plan around specific writer's home/museum hours. Many small literary museums are closed Mondays. Combine with their café-of-residence and a long lunch with the relevant book.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-film-locations",
+    title: "Best European Cities for Movie Filming Location Tours",
+    excerpt: "European cities where famous films were shot — and which actually deliver as travel destinations.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Film Location Tours — Honest 2026",
+    metaDescription: "European cities where famous films were shot — and which actually deliver as travel destinations.",
+    html: `
+<p>Filming-location tourism is increasingly popular. Here's the honest sort.</p>
+
+<h2>Tier 1 — extensive film tourism</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a> (Game of Thrones):</strong> King's Landing. Multiple themed tours.</li>
+  <li><strong><a href="/en/italy/rome">Rome</a>:</strong> Roman Holiday, La Dolce Vita, The Talented Mr. Ripley, Eat Pray Love. Walking tours abound.</li>
+  <li><strong>London:</strong> Notting Hill, Bridget Jones, Harry Potter (King's Cross, Leadenhall Market). Themed tours dense.</li>
+  <li><strong><a href="/en/scotland">Glasgow / Highland Scotland</a>:</strong> Outlander, Skyfall, Harry Potter (Glenfinnan Viaduct).</li>
+  <li><strong><a href="/en/austria/salzburg">Salzburg</a>:</strong> Sound of Music. The themed-bus is the canonical tour.</li>
+</ul>
+
+<h2>Tier 2 — strong film history</h2>
+
+<ul>
+  <li><strong><a href="/en/austria/vienna">Vienna</a>:</strong> The Third Man, Before Sunrise. Walking tours retrace Linz-Vienna train.</li>
+  <li><strong><a href="/en/italy/venice">Venice</a>:</strong> The Tourist, Casino Royale, Don't Look Now.</li>
+  <li><strong><a href="/en/italy/florence">Florence</a>:</strong> A Room with a View, Hannibal.</li>
+  <li><strong>Paris:</strong> Amélie (Montmartre), Midnight in Paris, Before Sunset.</li>
+  <li><strong>Iceland (countryside):</strong> Game of Thrones beyond the Wall, Star Wars: The Force Awakens.</li>
+</ul>
+
+<h2>Tier 3 — surprising film-trip cities</h2>
+
+<ul>
+  <li><strong>Berlin:</strong> Wings of Desire, Bourne Supremacy, Cabaret.</li>
+  <li><strong>Naples:</strong> Gomorrah, My Brilliant Friend (HBO).</li>
+  <li><strong>Lisbon:</strong> Lisbon Story (Wim Wenders), Night Train to Lisbon.</li>
+  <li><strong>Prague:</strong> Mission Impossible, Casino Royale, Amadeus.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pre-watch the film/series before traveling. Most location tours are 3-4 hours; choose one major and do other sights yourself.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-cities-best-for-24-hours",
+    title: "Best European Cities to See in 24 Hours",
+    excerpt: "Compact European cities that deliver real depth in a single day. Honest picks for cruise stops or layover days.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities in 24 Hours — Honest 2026",
+    metaDescription: "Compact European cities that deliver real depth in a single day. Honest picks for cruise stops or layover days.",
+    html: `
+<p>Some European cities work in 24 hours; others are insulted by it. Here's the honest sort.</p>
+
+<h2>Cities that genuinely work in 24 hours</h2>
+
+<ul>
+  <li><strong><a href="/en/croatia/dubrovnik">Dubrovnik</a>:</strong> Old Town walls + Stradun + lunch + sunset. 24h covers it.</li>
+  <li><strong><a href="/en/belgium/bruges">Bruges</a>:</strong> Canals + belfry + chocolate + lunch. Easy 24h.</li>
+  <li><strong><a href="/en/germany/heidelberg">Heidelberg</a>:</strong> Castle + Hauptstraße + Neckar walk.</li>
+  <li><strong><a href="/en/slovenia/ljubljana">Ljubljana</a>:</strong> Compact centre. Castle + river + market.</li>
+  <li><strong><a href="/en/germany/nuremberg">Nuremberg</a>:</strong> Walled Altstadt + castle + cathedral + lunch.</li>
+  <li><strong><a href="/en/united-kingdom/bath">Bath</a>:</strong> Roman Baths + Royal Crescent + Pulteney Bridge.</li>
+  <li><strong><a href="/en/croatia/split">Split</a>:</strong> Diocletian's Palace + Riva + lunch.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a> (overnight):</strong> Tight, but Ribeira + port lodges + Livraria Lello fits.</li>
+</ul>
+
+<h2>Cities that need 2-3 days minimum</h2>
+
+<ul>
+  <li><strong>Rome, Paris, London:</strong> 24 hours feels like watching a trailer.</li>
+  <li><strong>Berlin, Madrid:</strong> Same.</li>
+  <li><strong>Istanbul:</strong> 5+ days minimum.</li>
+  <li><strong>Athens + sights outside the Acropolis:</strong> 3 days minimum.</li>
+</ul>
+
+<h2>Cities that work as half-day stops only</h2>
+
+<ul>
+  <li><strong>Pisa:</strong> Tower + lunch is 4 hours.</li>
+  <li><strong>Brussels:</strong> Grand Place + chocolate + lunch.</li>
+  <li><strong>Verona:</strong> Arena + Juliet's house + lunch.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For a single-day European city, pick one with a compact UNESCO core under 2 km wide. Plan: arrive 9-10am, central walking tour, lunch, slow afternoon, sunset, dinner. Don't try to "cover" — pick depth on one neighborhood.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-snowy-winter-trips",
+    title: "Best European Cities for Snowy Winter Trips",
+    excerpt: "Where to actually find snow + atmosphere + winter activities in European cities. Honest picks.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Snowy Winter Trips — Honest 2026",
+    metaDescription: "Where to actually find snow + atmosphere + winter activities in European cities. Honest picks.",
+    html: `
+<p>Most European cities don't actually have reliable snow. Here's the honest sort.</p>
+
+<h2>Reliable snow + city atmosphere</h2>
+
+<ul>
+  <li><strong>Reykjavík + Iceland:</strong> Always snow somewhere. Northern Lights season Nov-Mar.</li>
+  <li><strong>Tromsø, Norway:</strong> Arctic Circle. Aurora + reindeer sleds.</li>
+  <li><strong>Tallinn, Riga:</strong> Reliable snow Dec-Mar. Christmas markets in snow.</li>
+  <li><strong>Saint Petersburg (politics aside):</strong> Iconic snowy old-town.</li>
+  <li><strong><a href="/en/austria/innsbruck">Innsbruck</a>:</strong> Alps directly above; ski lifts at city edge.</li>
+  <li><strong>Garmisch-Partenkirchen:</strong> Reliable snow + city + Zugspitze.</li>
+</ul>
+
+<h2>Sometimes-snow cities</h2>
+
+<ul>
+  <li><strong>Vienna, Munich, Salzburg:</strong> Some years yes; some years bare. Christmas markets work either way.</li>
+  <li><strong>Berlin, Prague, Budapest:</strong> Often snow in January-February but not reliable.</li>
+  <li><strong>Edinburgh, Krakow:</strong> Same.</li>
+  <li><strong>Stockholm, Helsinki:</strong> Reliably snowy + frozen-sea sometimes.</li>
+</ul>
+
+<h2>Cities you don't go to for snow</h2>
+
+<ul>
+  <li><strong>Paris, Rome, Madrid:</strong> Mild winters. Visit for off-season but expect rain not snow.</li>
+  <li><strong>Lisbon, Athens, Barcelona:</strong> Almost never snow.</li>
+  <li><strong>London:</strong> Rare and disruptive when it snows.</li>
+</ul>
+
+<h2>Snowy day-trips from cities</h2>
+
+<ul>
+  <li>Munich → Zugspitze (90 min).</li>
+  <li>Vienna → Semmering (1h 30min).</li>
+  <li>Salzburg → Werfen ice caves (1h).</li>
+  <li>Bergen → Voss/Flåm rail (2h).</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>For "European Christmas magic with snow," pick Vienna + Salzburg + Innsbruck (Bavarian alpine loop) or the Baltic capitals. Avoid southern Europe expecting snow.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-with-parks-green-space",
+    title: "Best European Cities With Great Parks and Green Spaces",
+    excerpt: "Cities where the parks are actually a reason to base. Honest sort by quality and density.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities With Parks and Green Spaces — Honest 2026",
+    metaDescription: "Cities where the parks are actually a reason to base. Honest sort by quality and density.",
+    html: `
+<p>Some European cities have parks that anchor stays. Others advertise green spaces that don't deliver. Here's the honest sort.</p>
+
+<h2>Tier 1 — exceptional urban parks</h2>
+
+<ul>
+  <li><strong>London:</strong> Hyde Park + Kensington Gardens, Regent's Park, Hampstead Heath. World class.</li>
+  <li><strong>Munich:</strong> Englischer Garten — bigger than Central Park.</li>
+  <li><strong><a href="/en/spain/madrid">Madrid</a>:</strong> Retiro Park (UNESCO).</li>
+  <li><strong>Paris:</strong> Bois de Vincennes + Jardin du Luxembourg + Tuileries.</li>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> Tiergarten + Tempelhofer Feld (former airport).</li>
+  <li><strong>Vienna:</strong> Prater + Stadtpark.</li>
+</ul>
+
+<h2>Tier 2 — strong park culture</h2>
+
+<ul>
+  <li><strong>Copenhagen:</strong> Frederiksberg Have + Tivoli Gardens (in season).</li>
+  <li><strong>Stockholm:</strong> Djurgården island.</li>
+  <li><strong>Helsinki:</strong> Esplanade + Töölö Bay.</li>
+  <li><strong>Amsterdam:</strong> Vondelpark.</li>
+  <li><strong>Edinburgh:</strong> Holyrood Park (with Arthur's Seat hike).</li>
+</ul>
+
+<h2>Tier 3 — surprisingly green</h2>
+
+<ul>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a> Belém:</strong> The riverside park.</li>
+  <li><strong>Salzburg Mirabell Gardens:</strong> Compact but iconic.</li>
+  <li><strong>Athens National Garden + Pedion tou Areos:</strong> Better than expected.</li>
+  <li><strong>Florence Boboli Gardens:</strong> Renaissance terraced gardens.</li>
+</ul>
+
+<h2>What's overrated</h2>
+
+<ul>
+  <li><strong>Cinque Terre "trails":</strong> Most are crowded, narrow, fenced.</li>
+  <li><strong>Hampstead Heath in winter:</strong> Excellent but dark by 4pm.</li>
+  <li><strong>Tivoli Gardens off-season:</strong> Closed half the year.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Park-anchored stays work best in spring (May) and autumn (September-October). Avoid August (parks emptier — locals on holiday, restaurants closed) and winter (dark, often closed).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-streetart",
+    title: "Best European Cities for Street Art (Honest 2026)",
+    excerpt: "Where to find European street art that actually delivers — beyond Instagram-worthy photos.",
+    publishedAt: "2026-05-23",
+    reviewedAt: "2026-05-23",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Street Art — Honest 2026",
+    metaDescription: "Where to find European street art that actually delivers — beyond Instagram-worthy photos.",
+    html: `
+<p>Street art varies meaningfully across Europe. Here's the honest sort.</p>
+
+<h2>Tier 1 — destinations on their own</h2>
+
+<ul>
+  <li><strong><a href="/en/germany/berlin">Berlin</a>:</strong> The European street-art capital. East Side Gallery, Kreuzberg, Neukölln, Friedrichshain.</li>
+  <li><strong><a href="/en/portugal/lisbon">Lisbon</a>:</strong> Bairro Alto, Mouraria, LX Factory. Vhils tiles distinctive.</li>
+  <li><strong><a href="/en/portugal/porto">Porto</a>:</strong> Galeria de Paris area, Rua de Miguel Bombarda.</li>
+  <li><strong>Athens:</strong> Exarcheia, Psyrri, Metaxourgeio. Among Europe's densest political street art.</li>
+  <li><strong>Bristol, UK:</strong> Banksy's hometown.</li>
+</ul>
+
+<h2>Tier 2 — strong street art scenes</h2>
+
+<ul>
+  <li><strong>Hamburg Sternschanze:</strong> Punk-leftist murals.</li>
+  <li><strong>Amsterdam Jordaan + NDSM:</strong> Industrial-area murals.</li>
+  <li><strong><a href="/en/spain/valencia">Valencia</a> El Carmen:</strong> Dense street-art lanes.</li>
+  <li><strong>Bologna university quarter:</strong> Strong scene.</li>
+  <li><strong>Tirana, Albania:</strong> Recent murals project.</li>
+</ul>
+
+<h2>Tier 3 — niche but interesting</h2>
+
+<ul>
+  <li><strong><a href="/en/italy/naples">Naples</a> Quartieri Spagnoli:</strong> Maradona murals + political.</li>
+  <li><strong>Sofia, Belgrade:</strong> Eastern European street art tradition.</li>
+  <li><strong>Wrocław, Poland:</strong> The famous dwarves are everywhere.</li>
+  <li><strong>Brussels:</strong> Comic-strip murals (Tintin) + contemporary.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Street-art quality decays in tourist-targeted areas (Barcelona's El Born is now generic). The real scenes are in non-tourist neighborhoods with universities or alternative culture. Walking tours led by local artists are the best access.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

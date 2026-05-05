@@ -51,6 +51,14 @@ export default async function LocaleLayout({ children, params }: Props) {
         {process.env.GSC_VERIFICATION_TOKEN && (
           <meta name="google-site-verification" content={process.env.GSC_VERIFICATION_TOKEN} />
         )}
+        {/* Non-English locales are not yet professionally translated — content
+            currently mirrors the English version. Until per-locale translations
+            land, mark non-EN pages noindex so search engines don't see thousands
+            of duplicate-content variants (an AdSense thin-content trigger).
+            The pages remain accessible to users via the locale switcher. */}
+        {locale !== "en" && (
+          <meta name="robots" content="noindex,follow" />
+        )}
         <GoogleAdSense />
         {/* Favicons / apple-touch-icon are auto-injected by Next.js from
             apps/web/src/app/icon.tsx and apple-icon.tsx — don't add raw <link> tags. */}

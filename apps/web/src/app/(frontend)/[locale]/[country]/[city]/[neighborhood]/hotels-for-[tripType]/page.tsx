@@ -143,7 +143,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       locale,
     },
-    robots: { index: true, follow: true },
+    // Tier-3 trip-type pages are templated property listings — short on unique
+    // editorial prose by design. Noindex them so they don't get flagged as
+    // thin content by Google / AdSense; users still reach them via internal
+    // links from the parent neighborhood guide. Re-enable once we add 300+
+    // words of trip-type-specific narrative per page.
+    robots: { index: false, follow: true },
   };
 }
 

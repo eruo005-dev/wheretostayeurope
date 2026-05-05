@@ -16586,6 +16586,263 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-glass-blowing-workshops",
+    title: "Best European Cities for Glass Blowing Workshops & Studios",
+    excerpt: "Murano (Venice) is the global capital — 1,200+ years of glassmaking; Bohemian glass from Czechia and Berlin's contemporary studios round out the European glass map.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Glass Blowing & Murano-Style Glass",
+    metaDescription: "Where to see glass blowing — Murano (Venice), Czechia (Bohemian crystal), Berlin, Stockholm. Workshops, demonstrations, and authentic shops.",
+    html: `
+<h2>Murano vs everywhere else</h2>
+
+<p>Glass blowing has 2,000-year European history but Murano (Venice) consolidated the craft from 1291 when the Venetian Senate forced glassmakers to relocate to the island. Bohemian (Czech) glass developed independently for crystal cutting. Berlin and Scandinavia host modern studios. Each tradition different.</p>
+
+<h2>Venice / Murano</h2>
+
+<p><a href="/en/italy/venice">Venice</a> Murano island (10-min vaporetto from San Marco). Mazzega, Effetre, Salviati workshops give live demonstrations daily. Buy from established showrooms (Berengo Studio, Pino Signoretto) not waterfront tourist traps. Glass Museum (Museo del Vetro) for context. Authentic Murano carries the trademark "Vetro Artistico Murano" sticker.</p>
+
+<h2>Prague and Karlovy Vary</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Moser glass museum and showroom (Moser is the Czech crystal benchmark — Karlovy Vary headquartered). Erpet Glass at Wenceslas Square. Czech crystal cuts deep facets — different from Murano color/blow techniques.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Glasstress contemporary scene, plus dozens of small Berlin studios. Berghain-area Friedrichshain has artisan studios. Less heritage, more contemporary art.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Kingdom of Crystal (Kosta Boda, Orrefors — these are the Swedish glass houses, technically located 4h south of Stockholm in Småland). Stockholm has flagship showrooms and Nordiska Kompaniet department store glass section. Serious Swedish design tradition.</p>
+
+<h2>Murano workshop participation</h2>
+
+<p>Several Murano furnaces offer participatory workshops — make-your-own paperweight or vase (€80–250). Book 2–4 weeks ahead. Half-day commitment. Family-friendly with safety supervision.</p>
+
+<h2>Strategy</h2>
+
+<p>Murano same-day vaporetto from Venice; €10–15 round trip. Don't buy from "Murano" sellers in Venice itself — go to the island. Customs limits — under €430 / £390 typically tax-free. Pack glassware in checked bags wrapped well.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-ceramics-workshops",
+    title: "Best European Cities for Ceramics Workshops & Pottery",
+    excerpt: "Delft for blue tiles, Coimbra for Portuguese azulejos, Sevilla for Andalusian, Stoke-on-Trent for English bone china. Workshops vary from afternoon classes to multi-day intensives.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Ceramics Workshops",
+    metaDescription: "Where to learn pottery — Delft, Coimbra, Sevilla, Stoke-on-Trent, Caltagirone. Heritage techniques and weekend workshops.",
+    html: `
+<h2>Regional ceramics traditions</h2>
+
+<p>Each European ceramic tradition has distinctive technique: Delft blue (tin-glazed underglaze blue), Portuguese azulejo (large painted tile panels), Andalusian (Moorish-influenced color and geometry), Italian maiolica (lustrous tin-glaze), English bone china (translucent white). Workshops below give hands-on access to each.</p>
+
+<h2>Delft</h2>
+
+<p>Royal Delft factory (Koninklijke Porceleyne Fles) workshops + tours. Tile painting and pottery wheel sessions €60–180. The town itself charming Dutch — day-trip from Amsterdam (1h train). The original Delftware is enormously expensive at retail; making your own piece more meaningful.</p>
+
+<h2>Coimbra and Aveiro</h2>
+
+<p>Portuguese azulejo capital. Workshops at Coimbra and surrounding villages — paint a tile panel for €40–80. Combines with the National Tile Museum (Lisbon) for context. <a href="/en/portugal/lisbon">Lisbon</a> day-trip Coimbra (2h train) doable.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Triana neighborhood is Andalusian ceramics central. Workshops at Cerámica Santa Ana, Cerámica Triana. €50–120 for tile painting. The neighborhood itself architecturally tile-clad — sites like Plaza de España demonstrate finished work scale.</p>
+
+<h2>Stoke-on-Trent</h2>
+
+<p>English ceramics heartland — Wedgwood, Royal Doulton, Spode all factory-towns nearby. World of Wedgwood museum + workshop. Day-trip from Manchester or Birmingham. Industrial-craft history rather than artisan-tile.</p>
+
+<h2>Caltagirone</h2>
+
+<p>Sicilian ceramic city. Year-round workshops; Scala di Santa Maria del Monte (the staircase entirely tile-covered) is the site reference. Day-trip from Catania. Sicilian pottery less famous internationally but vivid.</p>
+
+<h2>Faenza</h2>
+
+<p>Italian maiolica capital — the word "faience" derives from Faenza. International Museum of Ceramics. Workshops year-round but most visitors combine with Bologna or Ravenna trips.</p>
+
+<h2>Strategy</h2>
+
+<p>Half-day workshops most accessible (€40–80, 3–4 hours). Multi-day intensives (3–5 days, €400–1,200) at master-artisan studios reach serious skill levels. Ceramics ship internationally but expensive — many studios will pack and ship for €30–80.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-pasta",
+    title: "Best European Cities for Pasta",
+    excerpt: "Bologna for ragù and tagliatelle; Rome for cacio e pepe and amatriciana; Naples for spaghetti alla puttanesca; Sicily for sauces with anchovies and currants.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Pasta — Italian Regional Pasta Map",
+    metaDescription: "Where to eat pasta in Italy — Bologna, Rome, Naples, Sicily, Florence. Ragù, cacio e pepe, alla Norma, and how each city does it differently.",
+    html: `
+<h2>Pasta is regional</h2>
+
+<p>"Italian pasta" is shorthand for hundreds of regional preparations. Below are the cities where specific pasta dishes were invented or perfected — eat the local one rather than chasing famous foreign-renowned dishes.</p>
+
+<h2>Bologna</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> tagliatelle al ragù (the dish foreign menus call "Bolognese"), tortellini in brodo, lasagne verdi. Trattoria di Via Serra, Trattoria Anna Maria, Sfoglia Rina (handmade). Bologna's pasta is hand-rolled fresh, served with dense meat sauces. Egg-based dough.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> cacio e pepe (cheese + pepper), carbonara, amatriciana, gricia. Roscioli, Felice a Testaccio, Da Cesare al Casaletto. Roman pasta uses guanciale (cured pork jowl) and pecorino. Dry semolina pasta (spaghetti, rigatoni, tonnarelli). <a href="/en/italy/rome/trastevere">Trastevere</a> dense.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> spaghetti alla puttanesca (anchovies, capers, olives, tomato), spaghetti alle vongole, ziti alla Genovese (onion ragù). Trattoria da Nennella, Tandem (ragù specialist), Mimì alla Ferrovia. Naples pasta poorer-South-Italian style — fewer ingredients, more punch.</p>
+
+<h2>Sicily / Palermo</h2>
+
+<p><a href="/en/italy/palermo">Palermo</a> pasta con le sarde (sardines, fennel, currants, pine nuts), spaghetti alla Norma (eggplant, ricotta salata, basil), pasta alla Trapanese (almond pesto). Sicily pasta is North African–influenced (currants, almonds). Trattoria al Vecchio Castello.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> pici (hand-rolled thick spaghetti, Tuscan classic), pappa al pomodoro, pasta with wild boar ragù. Trattoria Mario, Cibreo Trattoria. <a href="/en/italy/florence/santa-croce">Santa Croce</a> dense with trattorias.</p>
+
+<h2>Strategy</h2>
+
+<p>Trattoria over restaurant for authenticity — €15–25 plates, family-run, regional. Skip restaurants with photo-menus. Lunch (1pm–2:30pm) and dinner (8pm–10pm) — eating outside these times signals tourist place.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-luxury-train-experiences",
+    title: "Best European Cities for Luxury & Scenic Train Experiences",
+    excerpt: "Switzerland's Glacier Express and Bernina Express; Norway's Bergensbanen and Flåmsbana; Venice Simplon-Orient-Express; Belmond Royal Scotsman. Trains as the destination.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Luxury & Scenic Train Rides",
+    metaDescription: "Iconic European train experiences — Glacier Express, Bernina, Bergensbanen, Orient Express, Royal Scotsman. Routes, prices, booking.",
+    html: `
+<h2>Two distinct categories</h2>
+
+<p>Scenic public trains (Glacier Express, Bernina, Bergensbanen) cost €100–250 and are bookable direct with national rail. Luxury trains (Orient-Express, Royal Scotsman, Belmond Andean) cost €3,000–10,000+ for multi-day all-inclusive experiences. Different audiences.</p>
+
+<h2>Switzerland — Glacier Express</h2>
+
+<p>St. Moritz → Zermatt, 7h30, 291 bridges + 91 tunnels. Year-round (different scenery each season). €152 base + €33 mandatory reservation; first class €260. Excellence Class €495 (private compartment, lunch). Tickets via SBB or Swiss Travel Pass.</p>
+
+<h2>Switzerland — Bernina Express</h2>
+
+<p>Chur → Tirano (Italy), 4h. UNESCO heritage railway. €66 single + €26 reservation. Optional bus extension to Lugano. Less famous but arguably more dramatic than Glacier Express.</p>
+
+<h2>Norway — Bergensbanen</h2>
+
+<p>Oslo → Bergen, 7h. Crosses high mountain plateau, glaciers, fjord descent. Standard Vy fare €80–120. Combines with Flåmsbana branch (Myrdal → Flåm, 1h, steepest standard-gauge in Northern Europe).</p>
+
+<h2>Italy — Cinque Terre Express</h2>
+
+<p>La Spezia → Levanto, runs through Cinque Terre. Standard Trenitalia €5–10 single. Cinque Terre Card includes unlimited rides. Connects all five villages.</p>
+
+<h2>Venice Simplon-Orient-Express</h2>
+
+<p>Belmond's Paris–Venice route + Istanbul extensions. €3,500–10,000+ depending on cabin. Wisteria Suite tops out at €25,000+ for Paris-Venice. Era-Cabin sleeper, formal dinner, 1920s vintage rolling stock.</p>
+
+<h2>Royal Scotsman</h2>
+
+<p>Belmond Scotland — Edinburgh-based 2-7 night trips through Highlands. €3,500–8,000+ all-inclusive. Glamping-on-rails experience.</p>
+
+<h2>Other strong scenic public</h2>
+
+<p>Centovalli (Domodossola → Locarno), Albula Line (Chur → St. Moritz, UNESCO), Settle to Carlisle (UK Pennines).</p>
+
+<h2>Strategy</h2>
+
+<p>Scenic trains: book 1–2 months ahead June–September; off-season much easier. Luxury trains: 6–12 months ahead. Many Swiss and Italian scenic routes covered by Eurail or rail-specific passes — significant savings.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-modern-art-foundations",
+    title: "Best European Cities for Modern Art Foundations & Private Museums",
+    excerpt: "Fondation Louis Vuitton in Paris, Fondation Beyeler in Basel, Fondazione Prada in Milan, Pinault Collection across Paris and Venice — private foundations stage the most ambitious shows.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Modern Art Foundations",
+    metaDescription: "Private art foundations — Fondation Louis Vuitton, Beyeler, Prada, Pinault. Where contemporary art programming is most ambitious.",
+    html: `
+<h2>Private foundations vs public museums</h2>
+
+<p>Public museums acquire over decades; private foundations buy aggressively. Result: foundations often stage the most ambitious contemporary shows, with deeper budgets for traveling exhibitions and recent acquisitions.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Fondation Louis Vuitton (Frank Gehry building, Bois de Boulogne) + Bourse de Commerce Pinault Collection (Tadao Ando-renovated 18th-century building, central Paris). Fondation Cartier (Jean Nouvel building, 14th arr.). Three world-class private foundations within one city — global concentration.</p>
+
+<h2>Basel</h2>
+
+<p>Fondation Beyeler — Renzo Piano building, suburban Riehen. Permanent Beyeler collection (Picasso, Giacometti, Rothko) plus rotating contemporary. Combines with Vitra Design Museum (5km away in Weil am Rhein). Day-trip from <a href="/en/switzerland/zurich">Zurich</a>.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Fondazione Prada (OMA-designed Prada-historic-distillery complex) — Wes Anderson-designed Bar Luce inside. Fondazione Carriero, Fondazione Furla. Milan also Pirelli HangarBicocca (industrial space, Anselm Kiefer permanent installation The Seven Heavenly Palaces).</p>
+
+<h2>Venice</h2>
+
+<p><a href="/en/italy/venice">Venice</a> Pinault's Punta della Dogana + Palazzo Grassi (rotating Pinault Collection contemporary). Peggy Guggenheim Collection (private historical foundation, modernist works). Biennale years (odd-numbered) double the contemporary scene.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Fundación Banco Santander, Fundación Mapfre. Both stage major retrospectives in central Madrid. Less famous than Paris but consistently world-class shows.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Stavros Niarchos Foundation Cultural Center (Renzo Piano building) — opera and library, plus growing visual-art programming. EMST (state contemporary museum) less private but parallel.</p>
+
+<h2>Strategy</h2>
+
+<p>Foundation entries €15–30 typically — more than public museums (often €10–15) but less than headline shows. Most close Mondays or Tuesdays. Combination tickets (Pinault Paris + Venice) sometimes offered.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-dining-with-a-view",
+    title: "Best European Cities for Dining with a View",
+    excerpt: "Lisbon's hilltop miradouros restaurants, Santorini's caldera tables, Paris's Eiffel Tower views, Barcelona's Tibidabo, Athens's Acropolis terraces — what to book for the view.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Dining with a View",
+    metaDescription: "Where to eat with a view — Lisbon, Santorini, Paris, Barcelona, Athens, Florence. Restaurants with skylines, hills, and waterfront tables.",
+    html: `
+<h2>Two categories of view-dining</h2>
+
+<p>Set-piece view restaurants (you book primarily for the view, food average) vs serious-food-with-good-view (food is the point, view enhances). Below mostly the second — places where view + food both deliver.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Topo Chiado (rooftop, Baixa view), Sky Bar at Tivoli, Rio Maravilha at LX Factory, Hotel Mundial rooftop. Hilltop miradouros (Senhora do Monte, São Pedro de Alcântara) have casual food kiosks with sunset views. <a href="/en/portugal/lisbon/chiado">Chiado</a> base.</p>
+
+<h2>Santorini</h2>
+
+<p>Caldera-edge restaurants: Selene (Pyrgos, fine dining + view), Lauda (Andronis, sunset spectacular). Reservations 2–3 months ahead summer. Sunset hour bookings carry premium.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Le Jules Verne (inside Eiffel Tower, 125m up — Frédéric Anton menu €130–250 lunch, €350+ dinner). Maison Blanche (Avenue Montaigne rooftop). Le Train Bleu at Gare de Lyon (no view but extraordinary Belle Époque interior).</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Restaurant Martínez (Montjuïc, panoramic city view), El Mirador del Llobregat. Tibidabo Funicular has rooftop restaurants at top with city panorama. Hotel Casa Camper rooftop. <a href="/en/spain/barcelona/eixample">Eixample</a> rooftops.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> Acropolis-view rooftops are the genre. Dionysos Zonars (literally faces Acropolis), GB Roof Garden (Hotel Grande Bretagne, Syntagma), Symposio Plaka. Sunset Acropolis-illuminated views €60–90 per person.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> La Loggia at Piazzale Michelangelo (panoramic Florence skyline), B-Roof at Hotel Baglioni. Skip mid-day; go for sunset.</p>
+
+<h2>Strategy</h2>
+
+<p>Reserve sunset slot 4–8 weeks ahead. Confirm view-table specifically (some "rooftop" restaurants have indoor-only tables with same menu). Wind/cold seasons indoor-with-window often better than terrace.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

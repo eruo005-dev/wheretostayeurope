@@ -17361,6 +17361,255 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-french-language-immersion",
+    title: "Best European Cities for French Language Immersion",
+    excerpt: "Paris is the obvious; Lyon and Bordeaux give regional accents and lower prices; Nice for Provençal warmth; Brussels for the bilingual edge case.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for French Language Immersion",
+    metaDescription: "Where to learn French — Paris, Lyon, Bordeaux, Nice, Brussels. Schools, accent, prices, and city-as-classroom comparison.",
+    html: `
+<h2>Why city choice matters</h2>
+
+<p>French varies regionally — Parisian (the standard), Lyonnais and Bordelais (clear, accessible), Provençal (singsong, southern), Belgian (some unique vocabulary). Choosing where to immerse shapes both your accent and your daily-life learning environment.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Alliance Française flagship, Sorbonne courses, Eurocentres, Lutèce. Standard French, world-class teachers, but Parisians switch to English when they detect struggle — forces aggressive immersion strategy. €350–650/week intensive courses. <a href="/en/france/paris/saint-germain">Saint-Germain</a> base preserves classical Parisian environment.</p>
+
+<h2>Lyon</h2>
+
+<p><a href="/en/france/lyon">Lyon</a> Lyon Bleu International, Inflexyon. France's second city, easier conversational entry — locals less hurried, more patient. Strong food culture as practice incentive. 30% cheaper than Paris.</p>
+
+<h2>Bordeaux</h2>
+
+<p>Bordeaux Language School, France Langue Bordeaux. Wine-region context plus Atlantic coast access. Bordelais accent the most "neutral standard" outside Paris.</p>
+
+<h2>Nice</h2>
+
+<p>France Langue Nice, Alpha-B, Azurlingua. Riviera setting, Provençal accent (musical, singsong). 12+ months a year sun. Beach + language combo.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> bilingual French-Dutch context — French immersion without "switch to English" temptation since locals often switch to Dutch instead. Slightly different vocabulary (septante for 70 instead of soixante-dix). Cheaper than Paris.</p>
+
+<h2>Montpellier</h2>
+
+<p>LSF Montpellier, ILA. University town energy, southern French accent, lower prices. Strong with younger students.</p>
+
+<h2>Strategy</h2>
+
+<p>Group classes (10–15 students) cheaper than 1-on-1; immersion better via group. Homestay accommodation forces speaking out of class. <a href="/en/articles/best-european-cities-for-students">Students guide</a> the broader companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-spanish-language-immersion",
+    title: "Best European Cities for Spanish Language Immersion",
+    excerpt: "Salamanca and Madrid for neutral Castilian; Barcelona for bilingual energy; Sevilla for Andalusian challenge; Valencia for value plus beach.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Spanish Language Immersion",
+    metaDescription: "Where to learn Spanish in Spain — Salamanca, Madrid, Barcelona, Sevilla, Valencia. Accents, schools, prices, and immersion strategy.",
+    html: `
+<h2>Castilian vs everywhere else</h2>
+
+<p>Spain's Spanish (Castilian) differs significantly from Latin American Spanish — vosotros conjugation, theta lisp on c/z, vocabulary differences. If your goal is European Spanish for travel or work, the city choice within Spain matters less; if Latin American Spanish, do not learn in Spain.</p>
+
+<h2>Salamanca</h2>
+
+<p>Salamanca is Spain's #1 language-learning city. Universidad de Salamanca (1218) issues DELE certifications. Don Quijote, AIP Salamanca, Mester schools. Compact medieval old town serves as classroom. Classical Castilian accent — clean, slow, learner-friendly.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Instituto Cervantes, Don Quijote Madrid, Hispania, AIP Madrid. Standard Madrid Spanish — fast but clear. Big city advantage for cultural saturation. Less cheap than Salamanca but more variety. <a href="/en/spain/madrid/malasana">Malasaña</a> youthful base.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Don Quijote Barcelona, OnSpain, Camino Barcelona. Catalan-Spanish bilingual context: signs and locals' default Catalan. Less language-immersion-pure than Madrid. Coastal life compensates.</p>
+
+<h2>Sevilla</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> CLIC Sevilla, Don Quijote Sevilla. Andalusian accent — fast, dropping consonants, drawing out vowels. Harder for beginners but more conversational practice with patient locals. Hot summers (avoid June–August intensive courses).</p>
+
+<h2>Valencia</h2>
+
+<p><a href="/en/spain/valencia">Valencia</a> Spanish Studio Valencia, Hispania Valencia. Beach-and-paella city; cheaper than Madrid; bilingual Valencian-Spanish situation. Mild year-round.</p>
+
+<h2>Strategy</h2>
+
+<p>Salamanca for serious immersion (4+ weeks); Madrid for shorter trips wanting big-city energy; Sevilla once you have intermediate base. DELE certification opens up TEFL Spain teaching jobs.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-italian-language-immersion",
+    title: "Best European Cities for Italian Language Immersion",
+    excerpt: "Florence is the language-school capital; Rome for living-city immersion; Bologna for university energy; Siena for the cleanest Italian accent.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Italian Language Immersion",
+    metaDescription: "Where to learn Italian in Italy — Florence, Rome, Bologna, Siena, Milan. Accents, schools, and immersion strategy.",
+    html: `
+<h2>The "pure Italian" myth</h2>
+
+<p>Tuscan Italian (Florence, Siena) is conventionally called the "standard" because Dante wrote in Florentine. Modern standard Italian comes from this lineage. But all Italian regions have audible accents — there's no truly accent-free city.</p>
+
+<h2>Florence</h2>
+
+<p><a href="/en/italy/florence">Florence</a> highest concentration of language schools — Scuola Leonardo da Vinci, Istituto Europeo, Linguaviva, ABC. €280–500/week. Florentine accent close to standard but with distinctive aspirated c (the "Hard C" softened to h-sound). <a href="/en/italy/florence/santa-croce">Santa Croce</a> base.</p>
+
+<h2>Rome</h2>
+
+<p><a href="/en/italy/rome">Rome</a> Scuola Romit, Torre di Babele, Dante Alighieri. Roman accent has its own character (truncated final vowels). Bigger city, faster pace, more difficult immersion at beginner. <a href="/en/italy/rome/trastevere">Trastevere</a> learning-friendly.</p>
+
+<h2>Bologna</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> Bologna Italian Cultural Center, Cultura Italiana. University city (1088) with intellectual atmosphere. Locals speak good standard Italian; less tourist English.</p>
+
+<h2>Siena</h2>
+
+<p>Università per Stranieri di Siena (the foreigners' university for learning Italian) — DITALS certifications. Sienese Italian historically considered the "purest." Smaller, quieter than Florence; more focused study environment.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Scuola Tessa Italian School, Linguadue. Northern Italian context, business-Italian useful. Milan accent slightly more clipped. Higher cost of living than rest of Italy.</p>
+
+<h2>Perugia</h2>
+
+<p>Università per Stranieri di Perugia (the foreigners' university — sister to Siena's). Umbrian university town, hilltop medieval old town, lower prices. Strong with serious study.</p>
+
+<h2>Strategy</h2>
+
+<p>4-week minimum for results. Homestay > apartment for immersion. Combine course + cooking class for cultural saturation. <a href="/en/articles/best-european-cities-for-cooking-classes">Cooking classes</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-german-language-immersion",
+    title: "Best European Cities for German Language Immersion",
+    excerpt: "Berlin and Munich are the obvious; Vienna gives Austrian German variation; Hamburg for the cleaner Hochdeutsch standard; Zurich for Swiss-German exposure.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for German Language Immersion",
+    metaDescription: "Where to learn German — Berlin, Munich, Vienna, Hamburg, Zurich. Hochdeutsch vs Austrian vs Swiss German, schools, immersion strategy.",
+    html: `
+<h2>German is regional</h2>
+
+<p>Hochdeutsch (Standard German) is what schools teach; Austrian German and Swiss German vary substantially. Standard German understood everywhere; specific city dialects (Bavarian, Schwäbisch, Plattdeutsch) emerge in informal speech.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Goethe-Institut Berlin, Sprachschule did, Berlin Sprachschule. Berlin German — direct, sometimes blunt, occasional Berlinerisch slang. Strong international student community. <a href="/en/germany/berlin/mitte">Mitte</a> or <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> base.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Goethe-Institut Munich, ASKI, Sprachenatelier. Bavarian accent intrusive informally — Standard German taught in school but locals speak Bayerisch socially. Higher cost of living than Berlin.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> ActiLingua, Hardly know German. Austrian German has distinct vocabulary (Erdäpfel for potato, Jause for snack), softer pronunciation. Useful if you'll be working in Austrian/German-speaking Switzerland later. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> classical setting.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Goethe-Institut Hamburg, Berlitz. North-German Hochdeutsch is closest to dictionary-standard. Local Plattdeutsch dialect rare but distinctive. Less language-school choice than Berlin.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Goethe-Institut Zurich, Inlingua Zurich. Swiss German is essentially a separate spoken language; Zurich uses Standard German formally. Expensive (€600+/week courses). Useful only if planning Swiss living.</p>
+
+<h2>Strategy</h2>
+
+<p>Berlin for affordability + variety; Vienna for Austrian work; Hamburg for cleanest Hochdeutsch. Goethe-Institut certificates standardized across cities. CEFR levels matter more than school for institutional purposes.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-organic-farmers-markets",
+    title: "Best European Cities for Organic Farmers Markets",
+    excerpt: "Munich's Viktualienmarkt is daily; Paris's Marché Raspail is the Sunday organic ritual; Copenhagen and Vienna lead northern Europe's organic scene.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Organic & Farmers Markets",
+    metaDescription: "Cities with strong organic markets — Munich, Paris, Copenhagen, Vienna, Berlin. Markets days, what to buy, and the local-organic regulation reality.",
+    html: `
+<h2>What "organic" means in Europe</h2>
+
+<p>EU Organic certification (the green leaf logo) is rigorously enforced — far stronger than US "organic" labeling. Each country also has national stricter labels (Bio in Germany, AB in France, ICEA in Italy). Markets below sell genuine certified produce, not just "natural-sounding."</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Viktualienmarkt — daily 7am–8pm except Sundays. Organic stalls clearly labeled (Bio). Strong cheese, sausage, vegetable selections. Beer garden on premises. <a href="/en/germany/munich/altstadt-lehel">Altstadt</a> base.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Marché Raspail (Sundays organic-only, since 1989), Marché Bastille (Thursdays + Sundays, mixed but strong organic), Marché des Enfants Rouges (Marais, daily oldest covered market in Paris). French organic-AB labels strict.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Torvehallerne — curated indoor food hall (covered earlier). Plus Frederiksberg Have Sunday farmers market. Denmark's organic market share among Europe's highest (12% of total food sales).</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Naschmarkt (daily, mixed scale), Karmelitermarkt (Saturday morning organic-leaning). Bauernmarkt at Freyung Wednesdays + Saturdays — direct from Austrian farmers, organic-heavy.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Markthalle Neun (Thursdays "Street Food" but Saturday/Friday organic produce), Wochenmarkt am Boxhagener Platz (Saturday organic). Berlin's biotrend strong, prices mid-range.</p>
+
+<h2>Strategy</h2>
+
+<p>Most farmers markets weekly Saturday mornings. Get there 8–10am for selection; bargains at 1pm closing. Bring cash + cloth bag. <a href="/en/articles/best-european-cities-for-food-halls">Food halls</a> for the all-day-eating companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-volcano-tourism",
+    title: "Best European Cities for Volcano & Geothermal Tourism",
+    excerpt: "Reykjavik for Icelandic active volcanoes; Naples and Catania for Vesuvius and Etna; Lanzarote for the moonscape; Santorini for caldera dining.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Volcano & Geothermal Travel",
+    metaDescription: "Volcano tourism — Iceland (Reykjavik, Akureyri), Naples (Vesuvius), Catania (Etna), Lanzarote, Santorini. Active eruptions, hikes, and safety.",
+    html: `
+<h2>Active vs dormant</h2>
+
+<p>Active volcanoes (Etna, Stromboli, Iceland's regular eruptions) offer the genuine spectacle — but with weather and access uncertainty. Dormant or extinct (Vesuvius technically active but not erupting) offer reliable hiking. Cities below specialize in each.</p>
+
+<h2>Reykjavik</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> the volcano-tourism capital. Reykjanes Peninsula eruptions (regular since 2021) often visible from city. Day-trips to Fagradalsfjall, Geldingadalir lava fields. Blue Lagoon and Sky Lagoon geothermal spas. Helicopter tours over active eruptions when safe (€450+).</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> Vesuvius hike — bus from Naples or Pompeii to crater rim, 30-min walk to summit (1,281m). Pompeii and Herculaneum ruins demonstrate eruption consequences. Combined Vesuvius-Pompeii day-trip standard. Solfatara crater (Pozzuoli, day-trip) actively bubbling sulfur.</p>
+
+<h2>Catania (Etna)</h2>
+
+<p><a href="/en/italy/catania">Catania</a> Mount Etna — Europe's most active volcano, 3,329m. Cable car + 4x4 + guided walk to upper craters (€80–150). Eruptions frequent; access height varies. North-side approach (Linguaglossa) less touristed.</p>
+
+<h2>Stromboli (via Naples or Sicily)</h2>
+
+<p>Stromboli island (Aeolian Islands) — continuously erupting for 2,000+ years. Boats from Naples, Catania, or Milazzo. Evening hikes to summit watch lava. Day-trip from <a href="/en/italy/palermo">Palermo</a> doable.</p>
+
+<h2>Lanzarote</h2>
+
+<p>Canary Islands' volcanic island — Timanfaya National Park (Mountains of Fire), El Golfo green lagoon, Cueva de los Verdes. Lanzarote's whole landscape is 18th-century volcanic eruption deposits. Direct flights from European hubs.</p>
+
+<h2>Santorini</h2>
+
+<p>Greek Cyclades — caldera (collapsed volcano crater) the iconic view. Boat trips to Nea Kameni active volcano in the caldera; hot-spring swimming. Volcanic-soil winemaking distinctive.</p>
+
+<h2>Strategy</h2>
+
+<p>Active-volcano viewing weather-dependent — buffer 2 days. Hiking-boots required Etna and Vesuvius. Iceland eruptions rarely scheduled — check Visit Iceland. Read our <a href="/en/articles/best-european-cities-for-thermal-wellness">thermal wellness</a> for the geothermal spa side.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

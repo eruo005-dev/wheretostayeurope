@@ -10446,6 +10446,321 @@ ARTICLES.push(
   },
 );
 
+// =============================================================================
+// EXPANSION BATCH 34 — practical guides + niche occasions
+// =============================================================================
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-pet-friendly-travel",
+    title: "Best European Cities for Pet-Friendly Travel",
+    excerpt: "Where European cities welcome dogs and cats — restaurants, parks, and accommodation.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Pet-Friendly Travel — Honest 2026",
+    metaDescription: "Where European cities welcome dogs and cats — restaurants, parks, and accommodation.",
+    html: `
+<p>Europe is generally pet-friendly but varies meaningfully. Here's the honest sort.</p>
+
+<h2>Tier 1 — exceptionally dog-friendly</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Dogs allowed in most restaurants and metro. Tradition stretches back centuries.</li>
+  <li><strong>Berlin:</strong> Dogs everywhere — restaurants, cafés, public transport.</li>
+  <li><strong>Munich:</strong> Bavarian beer-garden tradition includes dogs.</li>
+  <li><strong>Copenhagen:</strong> Dog-friendly restaurants common; cafés have water bowls outside.</li>
+  <li><strong>Amsterdam:</strong> Dogs allowed on trams. Most parks dog-friendly.</li>
+</ul>
+
+<h2>Tier 2 — strong pet-friendly</h2>
+
+<ul>
+  <li><strong>Paris (specifically the Marais):</strong> Dogs in restaurants common. Hôtel Le Bristol famously pet-friendly.</li>
+  <li><strong>Lisbon, Porto:</strong> Atlantic-coast cities with growing pet culture.</li>
+  <li><strong>Madrid, Barcelona:</strong> Increasingly pet-friendly; outdoor cafés welcome.</li>
+  <li><strong>Stockholm, Helsinki:</strong> Nordic acceptance.</li>
+</ul>
+
+<h2>Tier 3 — workable with planning</h2>
+
+<ul>
+  <li><strong>London:</strong> Dogs welcome at many pubs. Tube has restrictions; verify.</li>
+  <li><strong>Italy (Rome, Florence):</strong> Dogs allowed in some restaurants; check before going.</li>
+  <li><strong>Most Eastern European cities:</strong> Acceptance growing but inconsistent.</li>
+</ul>
+
+<h2>Cities where pet travel is harder</h2>
+
+<ul>
+  <li><strong>Greek islands beyond Athens:</strong> Difficult for pet travel.</li>
+  <li><strong>Smaller Mediterranean coast resort towns:</strong> Often beach restrictions.</li>
+  <li><strong>Most cruise ports:</strong> Pet travel by cruise is complicated.</li>
+</ul>
+
+<h2>EU pet travel basics</h2>
+
+<ul>
+  <li>EU pet passport required for travel between EU countries.</li>
+  <li>Microchip + rabies vaccination essential.</li>
+  <li>Some countries (UK, Ireland, Malta) require additional checks.</li>
+  <li>Verify each airline's pet policies — some allow in-cabin, some only checked.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Book pet-friendly accommodation 2-3 months ahead. Some hotels charge €15-€50 pet fees. Restaurants often welcome dogs but verify before going.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-stopover-from-australia-new-zealand",
+    title: "Best European Stopover Cities From Australia / New Zealand",
+    excerpt: "Australia/NZ to Europe is a long flight. Honest picks of where to break it up.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 8,
+    metaTitle: "Best European Stopover From Australia — Honest 2026",
+    metaDescription: "Australia/NZ to Europe is a long flight. Honest picks of where to break it up.",
+    html: `
+<p>Australia/NZ-Europe is 22-30 hours of total flight time. Stopovers make it bearable. Here's the honest sort.</p>
+
+<h2>Best stopovers from Australia/NZ via Asia</h2>
+
+<ul>
+  <li><strong>Singapore (4-5 days, then onward to Europe):</strong> Strong stopover destination.</li>
+  <li><strong>Tokyo (Japan Airlines/ANA route):</strong> 3-5 day stopover before Europe.</li>
+  <li><strong>Bangkok (Thai Airways):</strong> 3-4 days before Europe.</li>
+  <li><strong>Hong Kong (Cathay):</strong> 2-3 days, then long-haul to Europe.</li>
+</ul>
+
+<h2>European stopovers after Asia</h2>
+
+<ul>
+  <li><strong>Helsinki (via Finnair):</strong> Northernmost European hub. Compact, easy 24h-3d.</li>
+  <li><strong>Doha (Qatar Airways) → Frankfurt or Munich:</strong> Two-stop trips work.</li>
+  <li><strong>Dubai (Emirates) → Amsterdam or London:</strong> Same.</li>
+  <li><strong>Singapore → Frankfurt or Heathrow:</strong> The classic Singapore Airlines route.</li>
+</ul>
+
+<h2>Stopovers that actually save time</h2>
+
+<ul>
+  <li>Reykjavík via Icelandair from US East Coast (Australian travelers connecting via US).</li>
+  <li>Helsinki via Finnair from Asia.</li>
+  <li>Istanbul via Turkish Airlines from US/Asia.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li>Pick airlines offering free-stopover programs (Icelandair, Finnair, Turkish Airlines, Singapore Airlines).</li>
+  <li>Build in 1-2 day rest stops on each leg of an Australia-Europe trip.</li>
+  <li>Compression socks + sleep aids essential for long sectors.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stag-bachelor-parties",
+    title: "Best European Cities for Stag/Bachelor Parties (and Where to Avoid)",
+    excerpt: "Where European stag/bachelor parties actually work — and which cities to skip out of respect for locals.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Stag Parties — Honest 2026",
+    metaDescription: "Where European stag/bachelor parties actually work — and which cities to skip out of respect for locals.",
+    html: `
+<p>Stag/bachelor parties are common European trips. Some cities are equipped for them; others are damaged by them.</p>
+
+<h2>Cities equipped for stag parties</h2>
+
+<ul>
+  <li><strong>Krakow:</strong> Cheap, lively, dedicated stag-tour infrastructure.</li>
+  <li><strong>Budapest:</strong> Ruin bars + thermal baths + cheap drinks.</li>
+  <li><strong>Berlin:</strong> Club scene + hostels.</li>
+  <li><strong>Riga:</strong> Cheap + bar scene.</li>
+  <li><strong>Tallinn:</strong> Same Baltic vibe.</li>
+</ul>
+
+<h2>Cities damaged by stag parties</h2>
+
+<ul>
+  <li><strong>Prague Old Town:</strong> Locals push back hard. Stag groups make Old Town residents miserable.</li>
+  <li><strong>Amsterdam Red Light District:</strong> Local council actively discouraging stag tourism.</li>
+  <li><strong>Dublin Temple Bar:</strong> Locals tired of it.</li>
+  <li><strong>Bruges weekend:</strong> Pretty city, brutally hit by Friday-Saturday stag tourism.</li>
+</ul>
+
+<h2>Why this matters</h2>
+
+<p>Stag tourism creates noise, vomit, and tension between visitors and residents. Cities with dedicated infrastructure (Krakow's stag-tour companies) channel the activity; cities without it (Amsterdam, Prague) have residents pushing back. Be respectful even where it's accepted.</p>
+
+<h2>Strategy for stag organizers</h2>
+
+<ul>
+  <li><strong>Book a city with infrastructure</strong> — companies handle bachelor parties' specific needs.</li>
+  <li><strong>Stay outside Old Towns:</strong> Spread out the noise.</li>
+  <li><strong>Daytime activities:</strong> Football matches, paintball, escape rooms reduce nighttime damage.</li>
+  <li><strong>Don't book Bruges, Amsterdam Centrum, or Prague Old Town:</strong> You'll be that group.</li>
+</ul>
+
+<h2>What about hen/bachelorette parties?</h2>
+
+<p>Same pattern. Krakow, Budapest, Lisbon, Madrid all work. Avoid the same overdone cities.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-stargazing",
+    title: "Best European Cities Near Dark-Sky Zones for Stargazing",
+    excerpt: "European cities you can stay in with night-trip access to genuine dark skies.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Stargazing — Honest 2026",
+    metaDescription: "European cities you can stay in with night-trip access to genuine dark skies.",
+    html: `
+<p>Most European cities are too light-polluted for stargazing. Specific cities offer rural access. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination dark-sky regions</h2>
+
+<ul>
+  <li><strong>Reykjavík + Iceland Highlands:</strong> Aurora season Sept-March. Dark skies almost everywhere outside Reykjavík.</li>
+  <li><strong>Tromsø, Norway:</strong> Arctic Circle. Aurora + reindeer.</li>
+  <li><strong>Picos de Europa (Spain Pyrenees):</strong> Dark Sky Reserve.</li>
+  <li><strong>La Palma, Canary Islands (Spain):</strong> World-class astronomical observatory.</li>
+  <li><strong>Brecon Beacons, Wales:</strong> International Dark Sky Reserve.</li>
+</ul>
+
+<h2>Tier 2 — strong stargazing day-trips</h2>
+
+<ul>
+  <li><strong>Cévennes National Park (France):</strong> Day-trip from Montpellier or Nîmes.</li>
+  <li><strong>Hortobágy National Park (Hungary):</strong> Day-trip from Budapest.</li>
+  <li><strong>Tramuntana mountains (Mallorca):</strong> Easy from Palma.</li>
+  <li><strong>Ile-de-Ré or Brittany rural (France):</strong> 1-2h from Bordeaux or Nantes.</li>
+</ul>
+
+<h2>Tier 3 — surprising</h2>
+
+<ul>
+  <li><strong>Dolomites (Italy):</strong> Some valleys have dark-sky designations.</li>
+  <li><strong>Greek islands beyond major coast:</strong> Tinos, Naxos hill villages.</li>
+  <li><strong>Eastern European countryside:</strong> Generally darker than Western European.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<ul>
+  <li><strong>Aurora season:</strong> Late September to March in Iceland and Norway.</li>
+  <li><strong>Moon phase:</strong> Plan around new moon for best darkness.</li>
+  <li><strong>Tour vs DIY:</strong> Aurora hunting tours have lookouts; DIY stargazing needs car + apps.</li>
+  <li><strong>Apps:</strong> Aurora Forecast (Iceland), Star Walk (general).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-coffee-and-pastries",
+    title: "Best European Cities for Pastries and Café Culture",
+    excerpt: "Where European pastry tradition runs deepest — Vienna, Lisbon, Paris, Naples and more.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 8,
+    metaTitle: "Best European Cities for Pastries — Honest 2026",
+    metaDescription: "Where European pastry tradition runs deepest — Vienna, Lisbon, Paris, Naples and more.",
+    html: `
+<p>European pastry traditions vary by region. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination pastry cities</h2>
+
+<ul>
+  <li><strong>Vienna:</strong> Sachertorte, apple strudel, Esterházy. Demel + Café Sacher historic.</li>
+  <li><strong>Paris:</strong> Macarons, croissants, mille-feuille. Pierre Hermé, Dominique Ansel, Du Pain et des Idées.</li>
+  <li><strong>Lisbon:</strong> Pastel de nata. Pastéis de Belém is the original (since 1837).</li>
+  <li><strong>Naples:</strong> Sfogliatella, baba al rum. Naples-specific.</li>
+  <li><strong>Brussels:</strong> Speculoos, waffles, chocolate.</li>
+</ul>
+
+<h2>Tier 2 — strong pastry traditions</h2>
+
+<ul>
+  <li><strong>Florence:</strong> Cantucci + vin santo, Florentine cookies.</li>
+  <li><strong>Sicily (Catania, Palermo):</strong> Cannoli + cassata.</li>
+  <li><strong>Copenhagen:</strong> Wienerbrød (Danish pastry).</li>
+  <li><strong>Stockholm:</strong> Kanelbullar (cinnamon buns).</li>
+  <li><strong>Helsinki:</strong> Korvapuusti, pulla.</li>
+</ul>
+
+<h2>Tier 3 — niche but rewarding</h2>
+
+<ul>
+  <li><strong>Buenos Aires-quality pastries:</strong> Lisbon's Belém pastéis + Paris combined.</li>
+  <li><strong>Salzburg:</strong> Mozartkugel + Sachertorte.</li>
+  <li><strong>Krakow:</strong> Pierogi (technically savory, but obwarzanek is the bread-pastry).</li>
+  <li><strong>Athens:</strong> Loukoumades + bougatsa.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pastry trips are best as breakfast-and-mid-morning ritual, not destination meal. Many famous shops have queues; go at opening (8am) for fresh pastries with no wait.</p>
+
+<p>For coffee context see <a href="/en/articles/best-european-cities-for-coffee-culture">coffee culture</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "europe-best-cities-for-photography-honeymoon",
+    title: "Best European Cities for Honeymoon Photography",
+    excerpt: "Where European honeymoon photos actually deliver — beyond the obvious clichés.",
+    publishedAt: "2026-05-29",
+    reviewedAt: "2026-05-29",
+    readingTimeMin: 9,
+    metaTitle: "Best European Cities for Honeymoon Photography — Honest 2026",
+    metaDescription: "Where European honeymoon photos actually deliver — beyond the obvious clichés.",
+    html: `
+<p>Honeymoon photography needs both setting and access. Here's the honest sort.</p>
+
+<h2>Tier 1 — destination honeymoon-photography</h2>
+
+<ul>
+  <li><strong>Santorini (Imerovigli over Oia):</strong> Caldera shot without 1500-stranger sunset.</li>
+  <li><strong>Cappadocia (Uçhisar):</strong> Cave hotel + balloon dawn. Unmatched.</li>
+  <li><strong>Cinque Terre (Vernazza, off-season):</strong> Coastal village photography.</li>
+  <li><strong>Hallstatt:</strong> Mountain-lake-village clichéd-but-delivers (off-season only).</li>
+  <li><strong>Lake Como (Varenna):</strong> Smaller, less-crowded than Bellagio.</li>
+</ul>
+
+<h2>Tier 2 — strong honeymoon backdrops</h2>
+
+<ul>
+  <li><strong>Florence + Tuscany:</strong> Renaissance cityscape + countryside.</li>
+  <li><strong>Bruges (October-November):</strong> Canals, candlelight, low-tourist.</li>
+  <li><strong>Paris (off-season):</strong> Bridges + cafés + golden-hour.</li>
+  <li><strong>Salzburg (off-festival):</strong> Fortress + Mirabell Gardens.</li>
+  <li><strong>Granada Albaicín:</strong> Sunset Mirador with Alhambra.</li>
+</ul>
+
+<h2>Tier 3 — niche romantic photography</h2>
+
+<ul>
+  <li><strong>Reykjavík + south Iceland:</strong> Northern Lights season.</li>
+  <li><strong>Lapland Christmas:</strong> Snow + reindeer + cabins.</li>
+  <li><strong>Madeira (Funchal):</strong> Year-round mild + dramatic landscape.</li>
+  <li><strong>Norwegian fjords:</strong> Bergen-base for fjord photography.</li>
+</ul>
+
+<h2>Practical photography tips</h2>
+
+<ul>
+  <li><strong>Hire a local photographer:</strong> 1-2 hour sessions €150-€400 typical.</li>
+  <li><strong>Book during golden hour:</strong> 1h before sunset, 1h after sunrise.</li>
+  <li><strong>Off-season is the secret:</strong> Less people in shots, better light, lower prices.</li>
+  <li><strong>Drone restrictions:</strong> Most European old towns are drone-prohibited. Don't.</li>
+</ul>
+
+<h2>Strategy</h2>
+
+<p>Pick one destination for honeymoon photography depth, not many. 5-7 nights in one location yields more keeper photos than 14 nights across 5 cities.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -14309,6 +14309,243 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-overnight-trains",
+    title: "Best European Cities for Overnight Trains",
+    excerpt: "Sleeper trains have returned. ÖBB Nightjet leads from Vienna and Zurich; cities with multiple sleeper routes save hotel + flight in one motion.",
+    publishedAt: "2026-04-29",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Overnight Trains (2026 Routes)",
+    metaDescription: "Cities with the most sleeper-train connections — Vienna, Zurich, Berlin, Paris, Hamburg. Save a hotel and a flight in one move.",
+    html: `
+<h2>The renaissance is real</h2>
+
+<p>Five years ago, the European sleeper train was nearly extinct. Today ÖBB Nightjet, European Sleeper, Snälltåget, and SJ EuroNight collectively run dozens of routes nightly. The right base city gets you to multiple cities without flights.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> is the operational hub. ÖBB runs Nightjets to Hamburg, Brussels, Amsterdam, Paris, Rome, La Spezia, Munich, Berlin, Warsaw, Krakow, Zurich, Bregenz, and more — most with morning arrivals. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> is fifteen minutes from Wien Hauptbahnhof.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> hub for Nightjet to Hamburg, Berlin, Amsterdam, Vienna, Prague, Zagreb, Rijeka. Swiss precision means trains genuinely run on time. <a href="/en/switzerland/zurich/kreis-1">Kreis 1</a> hotels closest to Hauptbahnhof.</p>
+
+<h2>Berlin and Hamburg</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> connects to Vienna, Zurich, Paris (European Sleeper), Brussels, Amsterdam, Stockholm. <a href="/en/germany/hamburg">Hamburg</a> connects to Vienna, Zurich, Innsbruck, Salzburg.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Gare de l'Est: Nightjet to Vienna, Berlin; SNCF Intercités de Nuit south to Toulouse, Nice, Briançon. Less network depth than Vienna but iconic experience.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Snälltåget runs sleepers to Hamburg and Berlin via Malmö in summer. Niche but romantic.</p>
+
+<h2>Strategy</h2>
+
+<p>Cabin types matter — couchette (4-6 person shared) cheapest; sleeper (1-3 person private) +50%; deluxe with shower 2x. Book three months ahead for sleepers; couchettes available later. Read our <a href="/en/articles/best-european-cities-by-flight-time-from-uk">flight-time guide</a> for the alternative comparison.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-yoga-retreats",
+    title: "Best European Cities for Yoga & Wellness Retreats",
+    excerpt: "Lisbon for digital-nomad classes, Crete for proper retreats, Andalusia for sun-and-stretch — Europe's wellness map skews south and Mediterranean.",
+    publishedAt: "2026-04-29",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Yoga & Wellness Retreats",
+    metaDescription: "Cities and bases for yoga retreats — Lisbon, Crete (Heraklion), Sevilla, Berlin, London. Climate, prop networks, and class density.",
+    html: `
+<h2>Climate matters</h2>
+
+<p>Yoga in heated indoor studios works anywhere; outdoor sunrise practice doesn't survive a Berlin January. Mediterranean and Iberian cities dominate the retreat scene because shoulder-season weather permits beach and rooftop classes nine months yearly.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> has become Europe's drop-in yoga capital. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> and <a href="/en/portugal/lisbon/santos">Santos</a> studios run vinyasa, ashtanga, yin classes daily — pay-per-class works for travelers. The expat-and-nomad scene means English instruction is universal. Mild winters (15°C) keep practice rhythm year-round.</p>
+
+<h2>Heraklion / Crete</h2>
+
+<p><a href="/en/greece/heraklion">Heraklion</a> is the gateway to Cretan retreat centers. Most retreats happen at coastal or mountain villages outside the city, but Heraklion airport is the entry point. May–October season; September the sweet spot.</p>
+
+<h2>Sevilla and Granada</h2>
+
+<p><a href="/en/spain/sevilla">Sevilla</a> Andalusian heat retreats — but only October–April for outdoor practice. Avoid July–August; even shaded studios feel oppressive. <a href="/en/spain/granada">Granada</a> better year-round because of Sierra Nevada altitude moderation.</p>
+
+<h2>Berlin and London</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> studios skew "sweaty hot yoga in a bunker"; <a href="/en/uk/london">London</a> studios world-class but expensive (£25 drop-ins). Both work for serious practitioners traveling for specific teachers.</p>
+
+<h2>Strategy</h2>
+
+<p>True multi-day retreats happen outside major cities — book separately. Use cities as flight-arrival hubs, then transit to retreat villages. <a href="/en/articles/best-european-cities-for-thermal-wellness">Thermal wellness</a> is the hot-springs counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-third-wave-coffee",
+    title: "Best European Cities for Third-Wave Specialty Coffee",
+    excerpt: "Oslo and Copenhagen led; London, Berlin, and Lisbon followed. Specialty coffee in Europe means single-origin pour-overs, not just espresso done well.",
+    publishedAt: "2026-04-30",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Third-Wave Specialty Coffee",
+    metaDescription: "Cities where specialty coffee is dense — Oslo (Tim Wendelboe), Copenhagen, Berlin, London, Lisbon. Single-origin pour-overs and roasters.",
+    html: `
+<h2>What "third wave" means</h2>
+
+<p>First wave was Folgers; second was Starbucks; third is single-origin transparency, light roasts, manual brew methods, and farm-direct sourcing. The Nordics invented modern third-wave culture; it spread south.</p>
+
+<h2>Oslo</h2>
+
+<p><a href="/en/norway/oslo">Oslo</a> is the holy land. Tim Wendelboe (Grünerløkka) is to specialty coffee what René Redzepi is to Nordic cuisine. Supreme Roastworks, Fuglen, Java — all within walking distance. <a href="/en/norway/oslo/grunerlokka">Grünerløkka</a> is the espresso pilgrim's neighborhood.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> rivals Oslo. Coffee Collective (multiple locations), Prolog, La Cabra. The barista scene is intense — competitive Brewers Cup mentors here. Mid-Vesterbro and <a href="/en/denmark/copenhagen/norrebro">Nørrebro</a> dense with cafés.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> has Square Mile, Workshop, Monmouth, Origin, Caravan — the breadth is unmatched but the city is so big you walk past mediocre coffee constantly. <a href="/en/uk/london/shoreditch">Shoreditch</a> dense; <a href="/en/uk/london/soho-fitzrovia">Soho</a> hit-and-miss.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Bonanza, Father Carpenter, The Barn, Five Elephant. <a href="/en/germany/berlin/mitte">Mitte</a> and <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> dense. Berlin coffee is more affordable than London or Nordics — €4 flat white vs €5+.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Comoba, Hello Kristof, Fábrica. Younger scene than the Nordics but growing fast. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> the heart.</p>
+
+<h2>Strategy</h2>
+
+<p>Identify roasters first, cafés second. Many cafés brew the same handful of roasters' beans. Read our <a href="/en/articles/best-european-cities-for-coffee-culture">coffee culture guide</a> for the broader Italian-style espresso comparison.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-second-hand-luxury",
+    title: "Best European Cities for Second-Hand Luxury Shopping",
+    excerpt: "Paris and Milan have the deepest pre-loved Hermès, Chanel, and Vintage Dior inventories — supply pumps from estate sales the rest of Europe lacks.",
+    publishedAt: "2026-04-30",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Second-Hand Luxury Shopping",
+    metaDescription: "Cities with the deepest pre-loved luxury inventories — Paris, Milan, London. Hermès, Chanel, vintage Dior, Margiela archives.",
+    html: `
+<h2>Why supply concentrates</h2>
+
+<p>Pre-loved luxury supply comes from estates, divorces, and downsizing. Cities with multi-generational old wealth (Paris, Milan, London) have far deeper inventories than recent-money cities. Vintage Hermès Birkins surface in Paris consignment monthly; you'll wait years in Berlin.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> is the global capital. Le Marais (rue de Turenne, rue Charlot) has dozens of dépôt-vente shops. Didier Ludot (Palais Royal) for haute couture vintage. Rue de la Pompe for "bourgeois" pre-loved. <a href="/en/france/paris/le-marais">Le Marais</a> is the obvious base.</p>
+
+<h2>Milan</h2>
+
+<p><a href="/en/italy/milan">Milan</a> rivals Paris for Italian designers — vintage Versace, Gianfranco Ferré, early Prada surface here. Cavalli e Nastri (Brera, Porta Genova) is the institution. <a href="/en/italy/milan/brera">Brera</a> dense with consignment.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Cudoni, William Vintage, Sign of the Times. Strong on British heritage (Burberry, Margaret Howell, Mulberry) and Japanese designer vintage (Comme des Garçons, Yohji). <a href="/en/uk/london/notting-hill">Notting Hill</a> and <a href="/en/uk/london/shoreditch">Shoreditch</a> for boutiques.</p>
+
+<h2>Antwerp</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> is the dark horse. Belgian-school vintage (Margiela, Demeulemeester, Van Noten) surfaces here in volumes Paris can't match. Labels Inc. and Renaissance.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> has serious old-money supply — vintage furs, Hermès, Vienna Chanel boutique relics. Quieter scene, less competition. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> consignment.</p>
+
+<h2>Strategy</h2>
+
+<p>Authenticate before buying — even reputable shops occasionally carry fakes. Vestiaire Collective and similar online platforms ship from these inventories anyway, but in-person browsing surfaces unique pieces. Read our <a href="/en/articles/best-european-cities-for-vintage-clothing">vintage clothing</a> companion for non-luxury pre-loved.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-airport-train-connections",
+    title: "Best European Cities for Airport-to-Center Train Connections",
+    excerpt: "Zurich, Frankfurt, Amsterdam, Vienna, Oslo: airport stations integrated with national rail. Land, walk to platform, ride directly into the country.",
+    publishedAt: "2026-05-01",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Airport-to-Center Train Connections",
+    metaDescription: "Cities with seamless airport-rail integration — Zurich, Frankfurt, Amsterdam, Vienna, Oslo. Skip taxis and shuttle buses.",
+    html: `
+<h2>Why this matters</h2>
+
+<p>European cities vary wildly. Heathrow has the slow Piccadilly line and expensive Express. Roma Fiumicino is far. But Zurich Flughafen literally has Hauptbahnhof trains running every 10 minutes underneath the terminal. The difference is 15 minutes vs 90.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> ZRH airport station has direct trains to Hauptbahnhof (10 minutes, every 5–10 mins) plus direct InterCity to Bern, Basel, Lugano. You can land and be in Lucerne 60 minutes later without changing.</p>
+
+<h2>Frankfurt</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> Flughafen Fernbahnhof is a long-distance ICE station — direct trains to Cologne, Berlin, Munich without going to Hauptbahnhof. Local S-Bahn 10 minutes to Frankfurt Hbf.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Schiphol has direct Intercity trains to Centraal (15 min) and onward Rotterdam, Antwerp, Brussels, Paris. International TGV/Eurostar boards directly at Schiphol.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> VIE has CAT (Wien Mitte, 16 min) and S7 commuter (24 min, much cheaper). ÖBB Railjet onward to Salzburg, Graz, Linz directly from VIE.</p>
+
+<h2>Oslo</h2>
+
+<p><a href="/en/norway/oslo">Oslo</a> Gardermoen is the best in Europe for short-stay travelers — Flytoget Express 19 minutes to Oslo S, plus regional trains throughout Norway.</p>
+
+<h2>Cities to avoid</h2>
+
+<p>Bergamo (BGY) for Milan — bus only. Beauvais for Paris — far. Stansted, Luton for London — slower than Heathrow. <a href="/en/articles/best-european-cities-by-flight-time-from-uk">Flight choices</a> often overlook this last-mile cost.</p>
+
+<h2>Strategy</h2>
+
+<p>For 2–3 day city trips, well-connected airport saves 1.5 hours roundtrip. Worth €30+ in flight-fare premium to fly into Vienna VIE rather than Bratislava BTS, even though both serve Vienna.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-tattoo-art",
+    title: "Best European Cities for Tattoo Art & Studios",
+    excerpt: "Berlin's Kreuzberg dominates contemporary; Copenhagen and Amsterdam for traditional; Lisbon's emerging scene undercuts London prices.",
+    publishedAt: "2026-05-01",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Tattoo Art & Studios",
+    metaDescription: "Cities for tattoo travel — Berlin, Copenhagen, Amsterdam, Lisbon, London. Where international artists guest, prices, and styles.",
+    html: `
+<h2>Tattoo travel is a thing</h2>
+
+<p>Booking with a specific artist who guests internationally means flying to wherever they're based — or where they happen to guest that month. The cities below are either home bases for famous artists or have studios that host strong guest rotations.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> dominates contemporary, blackwork, fine line, and avant-garde styles. <a href="/en/germany/berlin/kreuzberg">Kreuzberg</a> and <a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> dense with studios. Prices €150–250/hour but guest artists from Asia, Americas, all over Europe rotate through.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> traditional and Nordic-folk styles strong. Conspiracy Inc., Tatu Cph, Royal Tattoo (smaller cities). Prices Nordic-high (€200–300/hour) but cleanliness standards excellent.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> traditional Western styles strong; the Dutch-American old-school lineage runs deep here. Schiffmacher Tattoo Museum closed but legacy artists still working.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> emerging scene, undercutting Berlin and Copenhagen by 30–40%. Warning Tattoo Studio, Queen of Hearts. <a href="/en/portugal/lisbon/principe-real">Príncipe Real</a> base.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> The Family Business, Sang Bleu, Cock A Snook. Highest concentration of shops; most expensive (£200–400/hour); strongest celebrity-artist scene. <a href="/en/uk/london/shoreditch">Shoreditch</a> and <a href="/en/uk/london/east-london-hackney">Hackney</a> dense.</p>
+
+<h2>Strategy</h2>
+
+<p>Book artists 3–6 months ahead — top names have year-long waits. Use studio Instagram to track guest spots. Don't walk-in for major work — quality varies hugely. Cash discount common (20%).</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

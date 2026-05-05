@@ -20966,6 +20966,295 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-architecture-schools",
+    title: "Best European Cities for Architecture Schools",
+    excerpt: "ETH Zurich, TU Delft, Bartlett (London), Politecnico di Milano, AA London — Europe's top architecture programs cluster in cities with strong building cultures.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Architecture Schools",
+    metaDescription: "Top European architecture schools — ETH Zurich, TU Delft, Bartlett, Politecnico Milano, AA London. Programs, applications, alumni networks.",
+    html: `
+<h2>Top architecture programs</h2>
+
+<p>Several European architecture schools consistently rank top globally — ETH Zurich, TU Delft, Bartlett UCL, AA, Politecnico di Milano, EPFL Lausanne. Each has distinct teaching philosophies and city contexts. Below: picking by program style + city.</p>
+
+<h2>Zurich — ETH</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> ETH (Eidgenössische Technische Hochschule) — Switzerland's federal institute, consistently world-top-3 architecture school. Tuition €1,500/semester. Application requires portfolio. German + English programs. Plus EPFL in Lausanne (1h away).</p>
+
+<h2>Delft — TU Delft</h2>
+
+<p>TU Delft, Netherlands. Strong technical/computational program. €17,000/year non-EU. English-language master's. Day-trip from <a href="/en/netherlands/amsterdam">Amsterdam</a> + Rotterdam.</p>
+
+<h2>London — Bartlett UCL + AA</h2>
+
+<p><a href="/en/uk/london">London</a> The Bartlett School of Architecture (UCL) — academic + experimental tradition. Architectural Association (AA) — independent school with star architect alumni (Zaha Hadid, Rem Koolhaas, Norman Foster). £30,000–55,000 international tuition. <a href="/en/uk/london/bloomsbury">Bloomsbury</a> base for both.</p>
+
+<h2>Milan — Politecnico</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Politecnico di Milano — Italian premier architecture school. Strong industrial-design + architecture combination. €4,000/year EU students. English programs available.</p>
+
+<h2>Copenhagen — KADK</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Det Kongelige Akademi (Royal Academy of Fine Arts School of Architecture). Strong in Nordic urbanism, sustainability. Free for EU; €15,000+ international.</p>
+
+<h2>Berlin — TU Berlin + UdK</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> TU Berlin Architektur (technical), UdK Architecture (artistic). German tradition + Berlin's living-architecture-laboratory urban context. Very cheap (free for EU + €300/semester).</p>
+
+<h2>Vienna — TU Wien + Akademie</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> TU Wien (technical), Akademie der bildenden Künste Wien (artistic). Strong Austrian + Mitteleuropean architectural tradition.</p>
+
+<h2>Strategy</h2>
+
+<p>Apply 9–12 months ahead. Portfolio + intent letter + sometimes interviews. EU students often pay near-zero tuition; non-EU students €5,000–60,000+. Career outcomes vary by school — AA London + ETH Zurich + Bartlett produce most international starchitects.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-design-schools",
+    title: "Best European Cities for Industrial & Graphic Design Schools",
+    excerpt: "Eindhoven Design Academy; Lausanne ECAL; Royal College of Art London; Politecnico Milano; Berlin's UdK — top European design schools cluster in design-cultured cities.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Design Schools",
+    metaDescription: "Top European industrial and graphic design schools — Eindhoven, Lausanne ECAL, RCA London, Milan, Berlin, Helsinki Aalto. Programs and tuition.",
+    html: `
+<h2>Industrial vs graphic vs fashion design</h2>
+
+<p>Specialized vs broad design schools differ enormously. Industrial-design top: Eindhoven, ECAL, RCA, Politecnico. Graphic design: Glasgow School of Art, Lahti (Finland), Royal Academy The Hague. Fashion: Antwerp Royal Academy, Saint Martins.</p>
+
+<h2>Eindhoven (Netherlands)</h2>
+
+<p>Design Academy Eindhoven — Dutch Design Academy of Eindhoven (DAE). World's leading conceptual product-design school. Annual graduation show (Dutch Design Week, October) draws international press. €17,000/year international.</p>
+
+<h2>Lausanne — ECAL</h2>
+
+<p>École cantonale d'art de Lausanne (Swiss). Design + photography + film. Highly competitive. Multilingual programs. CHF 6,500–9,000/year.</p>
+
+<h2>London — RCA</h2>
+
+<p><a href="/en/uk/london">London</a> Royal College of Art — global #1 design ranking. Master's-only post-graduate (no undergraduate). £30,000+ international.</p>
+
+<h2>Milan — Politecnico</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Politecnico di Milano Design School. Italy's design heritage (Memphis Group, Castiglioni, Sottsass) institutional foundation. €4,000/year EU.</p>
+
+<h2>Berlin — UdK</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Universität der Künste (UdK) — design + visual communication. Plus Bauhaus heritage. Free for EU students.</p>
+
+<h2>Antwerp — Royal Academy</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> Royal Academy of Fine Arts — fashion + textile + product design. Antwerp Six fashion graduates put school on map.</p>
+
+<h2>Helsinki — Aalto</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Aalto University School of Arts, Design and Architecture. Strong industrial + service design. Aalto family tradition (Alvar Aalto + Aino Aalto).</p>
+
+<h2>Geneva — HEAD</h2>
+
+<p>Haute École d'Art et de Design (Geneva). Strong in jewelry-watchmaking-design. Swiss luxury industry adjacency.</p>
+
+<h2>Strategy</h2>
+
+<p>Portfolio + statement applications standard. Interview process at top schools. International ranking (QS, FT) sometimes lags actual school reputation in industry. Internships during programs — Italian Salone del Mobile timing critical for Milan students. Read our <a href="/en/articles/best-european-cities-for-design-stores">design stores</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cosmetic-procedures",
+    title: "Best European Cities for Cosmetic Procedures",
+    excerpt: "Istanbul leads on hair transplants and cosmetic surgery; Budapest and Krakow on dental + facial cosmetic; Madrid and Marbella for high-end Spanish-Catalan clinics.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 12,
+    metaTitle: "Best European Cities for Cosmetic Procedures & Surgery",
+    metaDescription: "Cities for cosmetic surgery, hair transplants, aesthetic procedures — Istanbul, Budapest, Marbella, Madrid, Krakow. Vetting clinics and pricing.",
+    html: `
+<h2>European medical-tourism cosmetic landscape</h2>
+
+<p>Eastern European clinics (Istanbul, Budapest, Krakow) typically half Western European prices for equivalent quality at top clinics. Western European clinics (Madrid, Marbella, London) charge premium prices but with higher regulatory oversight. This guide focuses on safety + value tradeoffs.</p>
+
+<h2>Istanbul — hair transplants</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> world's top hair-transplant destination. FUE (Follicular Unit Extraction) procedures €1,500–3,500 (vs €4,000–10,000 Western Europe). Major clinics: Asmed, Cinik, Dr. Resul Yaman. Vet credentials carefully — Turkish hair-transplant industry has wide quality range.</p>
+
+<h2>Budapest — dental + cosmetic facial</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Helvetic Clinics, Kreativ Dental. Plus aesthetic medicine procedures. Botox, fillers, mid-tier facelift surgery 50–60% Western European prices.</p>
+
+<h2>Krakow + Warsaw — broad cosmetic</h2>
+
+<p>Polish clinics: KCM Clinic, Alergan-Beauty Clinics. Strong on rhinoplasty, breast augmentation, eyelid surgery. €2,000–8,000 typical procedures vs €5,000–20,000 Western European.</p>
+
+<h2>Madrid + Marbella</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> + Marbella high-end Spanish clinics. Premium prices but EU regulatory oversight + Spanish surgical tradition. Combined with vacation context (especially Marbella).</p>
+
+<h2>London + Zurich</h2>
+
+<p>Premium tier — most expensive but established surgical heritage. Harley Street (London) the historic British medical district. Switzerland strict regulation.</p>
+
+<h2>Lisbon + Porto</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> mid-tier Portuguese clinics. EU-regulated, English-friendly, growing 2020+.</p>
+
+<h2>Strategy</h2>
+
+<p>Verify surgeon's certifications (board certifications + EU/local medical license). Get diagnosis from home doctor first. Get 2–3 quotes minimum. Vet via real-patient reviews (RealSelf, Trustpilot). Always plan recovery time + return visits for follow-up. Travel insurance often does not cover cosmetic procedures or complications. Read our <a href="/en/articles/best-european-cities-for-medical-tourism">medical tourism</a> + <a href="/en/articles/best-european-cities-for-dental-tourism">dental tourism</a> companions.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-gin-trail",
+    title: "Best European Cities for Gin Distillery Trail",
+    excerpt: "London for Beefeater + Sipsmith + Hayman's; Edinburgh for Scottish gin; Plymouth for Plymouth Gin; Hamburg and Berlin for German craft; Bilbao for Basque small-batch.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Gin Distillery Tours",
+    metaDescription: "Gin distillery cities — London, Edinburgh, Plymouth, Hamburg, Berlin, Bilbao. Craft distilleries, tasting tours, and gin trails.",
+    html: `
+<h2>Gin's European geography</h2>
+
+<p>UK heartland (London, Plymouth, Edinburgh, regional England), German craft scene (Hamburg, Berlin, Munich), Spanish-Basque artisan, Scandinavian botanical-forward. Each region has distinct botanicals + style.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Sipsmith (Chiswick — gin pioneer that legalized small-batch UK distilling 2009), Beefeater Distillery (Kennington), Hayman's, City of London Distillery. £18–35 distillery tours include tastings. <a href="/en/uk/london/clerkenwell-islington">Clerkenwell-Islington</a> dense.</p>
+
+<h2>Plymouth</h2>
+
+<p>Plymouth, England — Plymouth Gin Distillery (since 1793, the oldest working gin distillery in England). Day-trip from London (3h train) or weekend stay.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Holyrood Distillery, Pickering's, Edinburgh Gin Distillery. Plus Scottish-bee-pollinated and heather-botanical local gins. Day-trip access to Glenkinchie.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Sankt St. Pauli, Gin Sul, Hamburger Sonntag. Hamburg's harbor heritage produces nautical-themed gin distilleries. €15–35 tours.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Adler Berlin Dry Gin, Mampe (historic), Berliner Brandstifter. Berlin gin distilleries small-batch + experimental.</p>
+
+<h2>Bilbao + San Sebastián</h2>
+
+<p>Basque Country. Gin Mare (the famous Mediterranean gin from Catalonia, but Basque-distilled), small artisan distilleries. Spanish gin scene strong.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Hernö Gin (Härnösand based, Stockholm tasting room), Strömsholm. Nordic botanical-forward.</p>
+
+<h2>Reykjavik</h2>
+
+<p><a href="/en/iceland/reykjavik">Reykjavík</a> Brennivín distillery, plus Icelandic gin (using Icelandic moss, juniper, angelica). Combined with Reykjavik visits.</p>
+
+<h2>Strategy</h2>
+
+<p>Distillery tours often include gin-tonic-pairing class. London Gin Festival (June) and Berlin Gin Days. Bottle-shipping options for international purchases.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-marathon-training-bases",
+    title: "Best European Cities as Marathon Training Bases",
+    excerpt: "Berlin, London, Boston Marathon training paths; Stockholm, Copenhagen, Amsterdam — flat European capitals work for runners. Altitude training bases at Mont Blanc and Pyrenees.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Marathon Training Bases",
+    metaDescription: "Cities to train marathon — Berlin, Stockholm, Copenhagen, Amsterdam. Plus altitude training bases (Saint-Moritz, Font-Romeu).",
+    html: `
+<h2>What makes a good training base</h2>
+
+<p>Flat (or hilly if hill-training), pleasant running paths, low traffic, mild climate, easy public transit between training routes. Cities below tick most boxes — better than urban density typically suggests.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> world's fastest marathon course. Tiergarten (3.5km circuit), Tempelhof airfield (vast empty space), Müggelsee (lake circuit, longer routes). Plus Berlin Marathon (last Sunday September) — qualify time benchmark. Flat city.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Djurgården island (5–10km loops), Söder Mälarstrand. Plus Stockholm Marathon (June). Mild summer 18–22°C ideal training temperature.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> harbor circuit, Fælledparken. Plus Copenhagen Marathon (May). Flat city + Denmark's fitness-friendly culture (cycle paths often runnable).</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Vondelpark, Amstelpark, Amsterdamse Bos (large forest). Plus Amsterdam Marathon (October). Pancake-flat.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Hyde Park, Regents Park, Greenwich-Thames Path. London Marathon (April) — second-oldest major. Hilly compared to Berlin/Amsterdam — better hill training.</p>
+
+<h2>Madrid (altitude moderate)</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Casa de Campo + Retiro Park. Madrid sits at 650m altitude — mild altitude advantage. Hot summers (avoid June-August intensive training).</p>
+
+<h2>Saint-Moritz / Sierra Nevada (altitude training)</h2>
+
+<p>Swiss alpine + Spanish Sierra Nevada serve as professional altitude-training bases (1,800–2,400m). Used by Olympic + elite marathon programs. Day-trip from <a href="/en/switzerland/zurich">Zurich</a> or <a href="/en/spain/granada">Granada</a>.</p>
+
+<h2>Strategy</h2>
+
+<p>Choose summer-temperate cities for July-August intensive training. Hotel rooms with desk + mini-fridge for fuel storage. Most cities have Park Run free 5km Saturdays (international Park Run network). Marathon entries via lottery or qualifying times. Read our <a href="/en/articles/best-european-cities-for-marathon-running">marathon running</a> + <a href="/en/articles/best-european-cities-for-trail-running">trail running</a> companions.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-art-print-buying",
+    title: "Best European Cities for Buying Original Art Prints",
+    excerpt: "Paris's quais bouquinistes; London's Saatchi and OOA Gallery; Berlin's Galerie Eigen + Art editions; Lisbon's emerging independent print scene; Amsterdam.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Buying Art Prints",
+    metaDescription: "Where to buy original art prints — Paris, London, Berlin, Amsterdam, Lisbon. Galleries, fairs, and the affordable-art price tier.",
+    html: `
+<h2>Print buying tiers</h2>
+
+<p>Three categories: poster-tier reproductions (€15–60, museum shops), original signed limited-edition prints (€100–800, gallery editions), and serious original works (€800–5,000+). This guide focuses on the middle tier — original prints affordable for casual collectors.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Galerie Lelong (limited editions), Galerie Maeght (since 1936 — published Picasso, Miró), Galerie Pegro. Plus quais bouquinistes (riverside book + print stalls). Prints €100–800 typical. Plus Drouot auction house regular print sales.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Print Club London (Hackney — affordable contemporary), Saatchi Yates editions, Eames Fine Art. Plus annual London Original Print Fair (May). £80–600 typical.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Galerie Eigen + Art editions (Olafur Eliasson editions specifically), Edition Block, Edition Schellmann. Berlin's contemporary art scene strong + accessibly priced.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Galerie Borzo, Stedelijk Museum shop, Riverdam editions. Combined Dutch contemporary + heritage prints (Rembrandt etchings reproductions in select shops).</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> emerging scene — UNDERDOGS Gallery (street-art-tier prints), Galeria Belo-Galsterer. Affordable prices €80–400.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Galería Joan Prats, Galería Helga de Alvear. Spanish contemporary print culture growing.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh Printmakers Studio (covered earlier). Edinburgh Art Festival (August) for direct artist contact.</p>
+
+<h2>Strategy</h2>
+
+<p>Verify edition number and signature — original prints have hand-pencilled edition + signature in margin. Open-edition prints (no number) cheaper but less collectible. Storage + transportation — cardboard tube + roll, never fold. Customs limits — under €430 typically duty-free returning home.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

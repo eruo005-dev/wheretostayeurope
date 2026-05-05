@@ -20669,6 +20669,303 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-airbnb-affordability",
+    title: "Best European Cities for Affordable Airbnb Stays",
+    excerpt: "Krakow, Sofia, Athens, Lisbon, and Porto offer Western European-quality apartments at half the price; legal regulation is reshaping availability rapidly.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Affordable Airbnb",
+    metaDescription: "Where Airbnb still offers value — Krakow, Sofia, Athens, Lisbon, Porto, Naples. Plus warning about cities cracking down on short-term rentals.",
+    html: `
+<h2>Airbnb's reshaping market</h2>
+
+<p>Several European cities banned or severely restricted Airbnb 2023–2026 — Barcelona phasing out by 2028, Florence restricting rentals, Amsterdam capping at 30 nights/year/property. Cities below either remain affordable or have weaker regulation. Verify legal status before booking long stays.</p>
+
+<h2>Krakow</h2>
+
+<p>Polish second city, abundant well-located 1-bedroom Airbnbs at €40–80/night. Old Town and Kazimierz neighborhoods central and walkable. Plus dental tourism + low cost of living combination.</p>
+
+<h2>Sofia</h2>
+
+<p><a href="/en/bulgaria/sofia">Sofia</a> Bulgarian capital — €35–70/night for central apartments. Cheaper than Krakow even. Limited regulation; supply abundant.</p>
+
+<h2>Athens</h2>
+
+<p><a href="/en/greece/athens">Athens</a> €45–95/night for Plaka or Kolonaki neighborhoods. Greek law has begun limiting STR but supply still abundant.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> €60–130/night central. Lisbon's golden visa program created glut of properties. Some restrictions discussed but not yet implemented broadly.</p>
+
+<h2>Porto</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> Lisbon alternative — €50–100/night. Compact city, walkable, Douro views.</p>
+
+<h2>Naples</h2>
+
+<p><a href="/en/italy/naples">Naples</a> €50–110/night central. Italian Airbnb market less restricted than France or Spain. Old town gritty but characterful.</p>
+
+<h2>Bratislava</h2>
+
+<p>Slovak capital — €45–85/night. Compact old town, less touristy than Prague.</p>
+
+<h2>Budapest</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> €55–110/night. Cheaper than Vienna immediately across border. New 2025 STR regulations gradually tightening.</p>
+
+<h2>Cities with high prices/restrictions</h2>
+
+<p>Barcelona, Amsterdam, Vienna, Paris (deeply regulated), Florence (heavily restricted central). Hotels often better value vs scarce-Airbnb pricing.</p>
+
+<h2>Strategy</h2>
+
+<p>Verify host registration number — required in many EU cities now. Hotel direct-booking matching Airbnb prices in cities with restrictive STR laws. Long-term Airbnb (28+ nights) often discount 20–40%. Read our <a href="/en/articles/best-european-cities-for-overtourism-alternatives">overtourism alternatives</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-bike-touring-multi-day",
+    title: "Best European Cities as Bases for Multi-Day Bike Tours",
+    excerpt: "Munich anchors the Romantic Road; Vienna for Danube Path; Bordeaux for Vélo Voie Verte; Amsterdam for the Dutch network. Multi-day cycling needs bag-transfer logistics.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Multi-Day Bike Touring",
+    metaDescription: "Cities for multi-day bike tours — Munich (Romantic Road), Vienna (Danube), Bordeaux (Atlantic), Amsterdam (Dutch network).",
+    html: `
+<h2>Multi-day bike touring format</h2>
+
+<p>Self-guided multi-day bike tours: bike rented in city, route given, hotels along route booked separately, luggage transferred between hotels by van. Days 30–60km. Cost €100–250/day all-inclusive (bike + hotels + breakfasts + transfer). Cities below have established operators and infrastructure.</p>
+
+<h2>Munich — Romantic Road</h2>
+
+<p><a href="/en/germany/munich">Munich</a> south to Füssen via Würzburg, Rothenburg ob der Tauber, Augsburg. 350km, 7 days. Bavarian villages + castles + Alps. Operators: Eurobike, Pomeroy. €700–1,100 7-day package.</p>
+
+<h2>Vienna — Danube Path</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Vienna to Passau (Bavaria) along Donauradweg — 320km, 7 days. Riverside flat, easy. Vineyards (Wachau Valley) + monasteries + medieval villages. €600–950.</p>
+
+<h2>Bordeaux — Atlantic Coast</h2>
+
+<p>Bordeaux south to Spanish border via Vélodyssée Atlantic Coast Route. 400km, 7-10 days. Beach + Médoc vineyards + Basque coast. €700–1,200.</p>
+
+<h2>Amsterdam — Dutch network</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> dense national network. Self-guided routes via NL Cycling Network. Amsterdam to Bruges via The Hague, Antwerp typical 5-day. €600–900.</p>
+
+<h2>Berlin — Berlin to Copenhagen</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> to Copenhagen via Rostock + Gedser ferry. EuroVelo 7. 620km, 8-10 days. Mostly flat, well-marked.</p>
+
+<h2>Bologna — Po Delta and Tuscany</h2>
+
+<p><a href="/en/italy/bologna">Bologna</a> base for Po Delta cycling and Apennine routes. Less famous than France/Germany routes but rapidly developing.</p>
+
+<h2>Krakow — Polish-Slovak Carpathian</h2>
+
+<p>Polish East-European cycling. Cheaper, less developed, more adventurous. Nowy Sącz, Banská Bystrica routes.</p>
+
+<h2>Strategy</h2>
+
+<p>E-bike option €150–250/week extra — easier hills. Train + bike combinations possible at all cities. Multi-day bookings 4–8 weeks ahead summer. Read our <a href="/en/articles/best-european-cities-for-cyclists">cyclists guide</a> + <a href="/en/articles/best-european-cities-for-cycling-infrastructure">cycling infrastructure</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-best-airports",
+    title: "Best European Cities by Airport Quality",
+    excerpt: "Helsinki, Munich, Zurich rank top for design and efficiency; Amsterdam Schiphol for connectivity; Istanbul New Airport for sheer scale. Airport quality affects trip choice.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities by Airport Quality",
+    metaDescription: "Top European airports — Helsinki, Munich, Zurich, Amsterdam, Istanbul, Vienna. Connectivity, transit links, and what makes them rank.",
+    html: `
+<h2>Airport quality factors</h2>
+
+<p>Connectivity (number of routes), transit-time-to-city, design and amenity, lounge access, security efficiency. Below: cities with airports that consistently rank high. The "Skytrax" rankings change yearly but consistent leaders emerge.</p>
+
+<h2>Helsinki — Helsinki-Vantaa</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> consistently top European airport rankings. Train to city center 30 min (€5). Strong Asia-Europe connection hub (Finnair). Designed-for-comfort rest spaces, sauna pre-flight option.</p>
+
+<h2>Munich — Franz Josef Strauss</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Skytrax #1 European airport multiple years. S-Bahn to city 40 min (€11.20). Beer garden and Christmas market in airport. Lufthansa hub.</p>
+
+<h2>Zurich — Kloten</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Swiss-precision running. Train to city 10 min (CHF 6.80). Clean, efficient. Swiss + Star Alliance hub.</p>
+
+<h2>Amsterdam — Schiphol</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> European connectivity king — KLM SkyTeam hub. Train to Centraal 15 min (€5.50). Major delays and capacity issues 2023–2024 since reduced. Direct international train to Brussels, Paris, London via Eurostar.</p>
+
+<h2>Istanbul — New Airport</h2>
+
+<p><a href="/en/turkey/istanbul">Istanbul</a> New Airport (2019, replaces Atatürk). World's largest single-terminal airport. Strong Turkish Airlines hub for Asia-Europe-Africa. Metro to city 1h.</p>
+
+<h2>Vienna — Schwechat</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> compact, efficient. CAT to Wien Mitte 16 min (€16). Good for Austrian Star Alliance + Eastern European feeders.</p>
+
+<h2>Frankfurt</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> Rhein-Main — busiest European cargo airport, large passenger. Lufthansa main hub. Train to city 10 min. Less aesthetically pleasing than Munich.</p>
+
+<h2>Copenhagen — Kastrup</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Kastrup. Train to city 13 min. Scandinavian Airlines hub. Architecturally distinctive Nordic design.</p>
+
+<h2>Cities with worst airports</h2>
+
+<p>Charles de Gaulle (Paris), Heathrow (London) — large but criticized for inefficiency. Naples (Capodichino) congested. Athens improved post-2004 but still hour from city.</p>
+
+<h2>Strategy</h2>
+
+<p>Consider airport in trip planning — Helsinki + Stockholm makes Nordic itinerary easy; Frankfurt for German connections; Schiphol for European feeder. Read our <a href="/en/articles/best-european-cities-for-airport-train-connections">airport train</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-craft-beer-festivals",
+    title: "Best European Cities for Craft Beer Festivals",
+    excerpt: "Munich's Oktoberfest is the giant; Berlin Beer Week and Brussels Mort Subite stage modern craft; Copenhagen's Mikkeller Beer Celebration the world's most exclusive.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Craft Beer Festivals",
+    metaDescription: "Top European beer festivals — Oktoberfest Munich, Mikkeller Copenhagen, Brussels Beer Weekend, Borefts (NL), Berlin Beer Week.",
+    html: `
+<h2>Festival categories</h2>
+
+<p>Two formats: traditional Oktoberfest-tradition (Munich, Stuttgart — German Reinheitsgebot lager, Maß glasses, oompah bands), and contemporary craft-beer festivals (Copenhagen, Brussels, Amsterdam — international rare brews, beer-geek paradise).</p>
+
+<h2>Munich — Oktoberfest</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Oktoberfest (mid-September to first Sunday October, 16 days). 6 million visitors. Tickets free entry; tent reservations 6+ months ahead for prime tents (Hofbräuhaus, Augustiner). Maß beer €15.30 (2025 price). Dirndl/Lederhosen common.</p>
+
+<h2>Stuttgart — Cannstatter Volksfest</h2>
+
+<p>Stuttgart "second Oktoberfest" — Wasen — runs simultaneously. Less internationally famous but equally large attendance among Germans.</p>
+
+<h2>Copenhagen — Mikkeller Beer Celebration</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Mikkeller Beer Celebration Copenhagen (MBCC, May). World's most exclusive craft beer festival — Mikkeller, Cantillon, 3 Floyds breweries collaborate. Tickets sell out in minutes at €240–400. Limited release of rare beers.</p>
+
+<h2>Brussels — Brussels Beer Weekend</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> first weekend September. Belgian breweries showcase trappist + lambic + saison. Free entry; pay-as-you-drink with token system. Plus Cantillon Belgian Lambic Festival (March, the "Quintessence" tasting).</p>
+
+<h2>Amsterdam — Borefts (nearby)</h2>
+
+<p>De Molen brewery Borefts Festival in Bodegraven (1h from Amsterdam). Curated beer-geek-tier — De Molen, Mikkeller, Stone Brewing, Buxton. Limited tickets €40–80.</p>
+
+<h2>Berlin — Berlin Beer Week</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> annual beer week (August). Multiple breweries + bars participate. Less single-festival format, more city-wide week.</p>
+
+<h2>Reykjavik — Reykjavik Bjórhátíð</h2>
+
+<p>Iceland Bjórhátíð beer festival (March 1, anniversary of Iceland legalizing beer in 1989). Modern Icelandic craft scene celebration.</p>
+
+<h2>Strategy</h2>
+
+<p>Munich Oktoberfest hotel reservations 8–12 months ahead. Mikkeller Copenhagen tickets via lottery + early-bird quick-claim. Beer-festival-tour combinations possible (Brussels + Antwerp Belgian beer weekend). Read our <a href="/en/articles/best-european-cities-for-craft-beer">craft beer</a> + <a href="/en/articles/best-european-cities-for-beer-gardens">beer gardens</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vegan-michelin-starred-dining",
+    title: "Best European Cities for Vegan Michelin-Starred Dining",
+    excerpt: "London's Bubala and Plates; Berlin's Frea (zero-waste vegan); Copenhagen's Geranium tasting menus offer vegan tracks; Krakow's edited Veganic.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Vegan Michelin-Starred Restaurants",
+    metaDescription: "Cities for vegan fine dining — London (Bubala, Plates), Berlin (Frea), Copenhagen, Madrid. Where Michelin recognizes vegan cuisine.",
+    html: `
+<h2>Michelin meets vegan</h2>
+
+<p>Michelin recognized first all-vegan starred restaurant in Europe in 2018 (King's Joy, Beijing, then ONA in France). European vegan fine-dining scene matured 2020+. Below: cities with Michelin-starred or significant Bib Gourmand vegan options.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Plates (Hackney, Michelin Green Star — sustainability), Bubala (Soho — Mediterranean vegan), Mildred's. Plus Tristan Welch's vegetable-forward menus at Parker's Tavern. £45–120 vegetable tasting menus.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Frea (Mitte) — first all-vegan Michelin-rated restaurant in Berlin (zero-waste). Lucky Leek (vegan Mexican). Cookies Cream (longest-running Berlin vegan fine dining). €70–150 tasting menus.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> ONA (Arès, hour from Paris — first all-vegan Michelin star in France). 42 Degrees Raw (raw vegan), Wild & The Moon. Less consistent vegan-Michelin presence than London.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Geranium offers parallel vegan tasting (originally meat-and-vegan-versions; transitioned 2020 to vegetarian-heavy). Also Höst, Pony, Manfreds offer plant-based options at high level.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> El Atelier de Eduardo Pradera (vegetable-focused), DiverXO Pablo Plus dishes. Spanish vegan fine dining behind UK + Germany pace but emerging.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Hyltberg (vegetable-focused fine dining), Adam/Albin. Nordic vegan-fine-dining still rare but growing.</p>
+
+<h2>Strategy</h2>
+
+<p>Reservations 4–8 weeks ahead for top-tier. Confirm vegan track when booking — some restaurants require advance request. Lunch-tasting menus often half evening price. Read our <a href="/en/articles/best-european-cities-for-michelin-stars">Michelin stars</a> for omnivore companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-improv-comedy",
+    title: "Best European Cities for Improv Comedy Theaters",
+    excerpt: "Amsterdam's Boom Chicago founded the European scene; Berlin's IO Berlin and London's Hoopla work English-language; Paris's Improvidence emerges Francophone.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Improv Comedy Shows",
+    metaDescription: "European improv theaters — Amsterdam (Boom Chicago), Berlin (IO Berlin), London (Hoopla), Paris. English shows, classes, and short-form vs long-form.",
+    html: `
+<h2>Improv comedy in Europe</h2>
+
+<p>Improv theaters anchored in English-language largely follow Chicago/UCB tradition (long-form scenes, Harold format) or short-form (whose-line, comedic games). Europe's English-language scene grew from American expat communities.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Boom Chicago (since 1993, longest-running English improv in Europe). Located in Rozentheater, 200-seat venue. Saturday Night Live alumni Jordan Peele, Seth Meyers among early performers. Tickets €15–35.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> IO Berlin (since 2012 — Improv Olympic chapter), The Improv Society of Berlin. English-language scene strong post-2015. €5–15 typical. Plus German-language scene.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Hoopla Impro (UK's longest-running improv theater), The Free Association, Comedy Store Players. £8–25. UK improv scene strong but more sketch-show than American long-form pure.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> The Improvidence (French + English shows), L'Improvidence. Francophone improv scene growing. €10–20.</p>
+
+<h2>Stockholm</h2>
+
+<p><a href="/en/sweden/stockholm">Stockholm</a> Stockholms Improvisationsteater. Long-running Nordic scene.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Improvidos, Capítulo 7. Spanish-language scene primarily.</p>
+
+<h2>Dublin</h2>
+
+<p><a href="/en/ireland/dublin">Dublin</a> Workman's Cellar improv nights. Irish-English scene small but consistent.</p>
+
+<h2>Strategy</h2>
+
+<p>Long-form (Harold, montage, Armando) more theatrical; short-form (games) audience-friendly first-time. Boom Chicago Amsterdam most accessible for tourists (English, 90 min, regular schedule). Improv classes as travelers — short-format weekend workshops €100–250. Read our <a href="/en/articles/best-european-cities-for-comedy-clubs">comedy clubs</a> companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

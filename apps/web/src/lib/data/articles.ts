@@ -17879,6 +17879,271 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-board-game-cafes",
+    title: "Best European Cities for Board Game Cafes",
+    excerpt: "Berlin's Spielwiese leads the German scene; Paris and London host curated game-cafe networks; Copenhagen and Madrid grew faster after 2020 boom.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Board Game Cafes",
+    metaDescription: "Where to play board games in Europe — Berlin, Paris, London, Copenhagen, Madrid. Cafes with libraries of 500+ games, hourly rates, and tournament nights.",
+    html: `
+<h2>Why board game cafes matter</h2>
+
+<p>The dedicated board game cafe (€3–8/hour to play, hundreds of games on shelf, food and drinks) became standardized post-2015 across Europe. Below are the cities where game-cafe density supports drop-in evenings or weekend afternoons.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Spielwiese (Friedrichshain), GameTower, Brettspielladen Spiele Comet. Germany invented the modern hobby-board-game category (Catan, Carcassonne) — Berlin scene mature. €3–6/hour. <a href="/en/germany/berlin/friedrichshain">Friedrichshain</a> base.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Le Dernier Bar avant la Fin du Monde (sci-fi/fantasy theme), L'Antre du Jeu, Café des Jeux. €4–8/hour. Plus dedicated FLGS (Friendly Local Game Shops): Comme un Bonheur, Variantes.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Draughts (Hackney + Waterloo branches), Loading Bar, Thirsty Meeples, Chance and Counters. £4–6/hour. <a href="/en/uk/london/east-london-hackney">Hackney</a> dense.</p>
+
+<h2>Copenhagen</h2>
+
+<p><a href="/en/denmark/copenhagen">Copenhagen</a> Bastard Café (donation-based — pay what you can), Faraos Cigarer game-shop-with-cafe. Strong Nordic gaming culture; English-friendly.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Generación X, Bartertown. Newer scene than Berlin or Paris but growing. <a href="/en/spain/madrid/malasana">Malasaña</a> base.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> The Maze, Bookstore Pegasus (combined book and game cafe). Smaller than Berlin but high-quality curation.</p>
+
+<h2>Strategy</h2>
+
+<p>Book tables Friday-Saturday evenings 1–2 days ahead. Bring own group of 2–4 minimum (most games need 3+). Many cafes host weeknight tournament events (Magic, Catan, Werewolf). Read our <a href="/en/articles/best-european-cities-for-digital-detox">digital detox</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-cabaret-and-burlesque",
+    title: "Best European Cities for Cabaret & Burlesque Shows",
+    excerpt: "Berlin reinvented modern cabaret in the 1920s and runs the contemporary scene; Paris's Crazy Horse, Lido, and Moulin Rouge remain global icons; London's revival ran modern.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Cabaret & Burlesque",
+    metaDescription: "Cities with cabaret traditions — Berlin, Paris, London, Hamburg, Vienna. Tourist cabarets vs. authentic underground scenes.",
+    html: `
+<h2>Cabaret today</h2>
+
+<p>Three categories: tourist mega-cabarets (Moulin Rouge, Lido — €100+ ticket, traditional revue format), modern burlesque (smaller venues, performer-driven, €25–60), and political cabaret (German Kabarett tradition, satire-and-monologue, €15–35). Each city emphasizes different.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Friedrichstadt-Palast (Europe's largest theater stage, big-revue format), Bar Jeder Vernunft (intimate spiegelzelt), Tipi am Kanzleramt, Volksbühne theater for political-Kabarett. Plus contemporary burlesque at Apollo Bar, Burlesque Days. €30–80 typical. <a href="/en/germany/berlin/mitte">Mitte</a> dense.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Crazy Horse (the iconic), Lido reopens as Lido 2 Paris (renovated 2024), Moulin Rouge, Paradis Latin. Tourist-priced (€100–200 with dinner). For underground burlesque: Madame Arthur, Mona Bismarck Cultural Center.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Soho Theatre, Café de Paris (closed permanently), House of Burlesque pop-ups. Brick Lane Music Hall. Modern English burlesque revival strong. £25–60.</p>
+
+<h2>Hamburg</h2>
+
+<p><a href="/en/germany/hamburg">Hamburg</a> Reeperbahn cabarets (St. Pauli district) + classic theatres. Schmidt Theater, Tivoli. Traditional German cabaret + tourist revues mixed.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Kabarett Niedermair, Stadtsaal — strong on satirical-political German-language cabaret. Less burlesque, more spoken-word satire. €18–35.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> El Sueño de la Razón, Café Berlin. Smaller scene; classic Madrid teatro nightlife combines.</p>
+
+<h2>Strategy</h2>
+
+<p>Tourist cabarets (Paris Big Three) book months ahead summer. Underground burlesque shows often weekly events — check Resident Advisor or local listings. Reservations recommended. Combined with dinner often built into tourist-cabaret pricing.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-comic-conventions",
+    title: "Best European Cities for Comic Conventions & Pop Culture Events",
+    excerpt: "Lucca Comics is the largest in Europe; Angoulême is the comic-art world's Cannes; London MCM and German Cologne Games anchor the gaming-comic scene.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Comic Conventions",
+    metaDescription: "European comic and pop-culture conventions — Lucca, Angouleme, London, Cologne, Madrid. Dates, attendance, what differentiates each.",
+    html: `
+<h2>Comic vs. pop culture conventions</h2>
+
+<p>Two distinct events: comic art festivals (Angoulême, Lucca — focused on comics, graphic novels, illustrators) and pop-culture conventions (MCM, Comic Con — comics + film + games + cosplay). Below are the most notable European examples of each.</p>
+
+<h2>Lucca (Italy)</h2>
+
+<p>Lucca Comics & Games — Europe's largest convention, 320,000+ attendees over 5 days, late October–early November. Walled medieval old town becomes living set with cosplayers. Tickets €30–80 day pass. Stay 4 nights minimum to see properly. Day-trip from Pisa airport.</p>
+
+<h2>Angoulême (France)</h2>
+
+<p>Festival International de la Bande Dessinée d'Angoulême (late January). The "Cannes of comics" — industry awards, retrospectives, original-art exhibitions. Day-trip from Bordeaux (1h TGV) or weekend stay. €25–40 multi-day pass.</p>
+
+<h2>London (MCM Comic Con)</h2>
+
+<p><a href="/en/uk/london">London</a> MCM Comic Con (ExCeL exhibition center, May + October). Larger than Lucca by attendance but less curatorial focus — film/TV celebrities, gaming, anime. £30–60 day pass.</p>
+
+<h2>Cologne (gamescom)</h2>
+
+<p><a href="/en/germany/cologne">Cologne</a> gamescom (August) — Europe's largest gaming convention. 320,000+ attendees. Pure video games rather than comics. €18–80 ticket. Hotels book solid 3 months ahead.</p>
+
+<h2>Madrid (Heroes Comic Con)</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Heroes Comic Con (autumn). Spanish-language comic scene focus.</p>
+
+<h2>Brussels (Belgian comics)</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Belgian Comic Strip Festival (September). Brussels is comics-cultured year-round — Brussels Comic Strip Center museum + dozens of dedicated street murals. Tintin/Hergé territory.</p>
+
+<h2>Strategy</h2>
+
+<p>Hotels in convention cities sell out 4–6 months ahead. Cosplay popular but optional; check rules (some events require costumes pre-registered). Comics original art at Angoulême often affordable (€100–500 for original strip pages from working artists).</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-beer-gardens",
+    title: "Best European Cities for Traditional Beer Gardens",
+    excerpt: "Munich invented the modern Biergarten; Vienna, Prague, and Brussels each have their own beer-garden traditions; outdoor drinking culture varies wildly.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Beer Gardens",
+    metaDescription: "Cities with great beer gardens — Munich, Vienna, Prague, Berlin, Brussels. Outdoor drinking traditions, food rules, and seating culture.",
+    html: `
+<h2>Beer garden as institution</h2>
+
+<p>The Bavarian beer garden (Biergarten) — long communal benches, self-service food brought from outside, beer in 1L Maß glasses, chestnut-tree shade — is a specific institution with legal protection in Munich. Other cities have evolved different outdoor drinking formats. Below: where each works.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> the global benchmark. Augustiner-Keller (largest, Bayerstrasse), Hirschgarten (the world's largest, 8,000 seats), Chinesischer Turm in Englischer Garten, Augustiner-Bräustuben. Bring your own picnic — legal in Bavarian beer gardens. 1L Maß Helles €9–11. April–October the season; covered indoor extensions winter.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Heuriger wine taverns serve outdoor; Schweizerhaus in the Prater (1L beer + Stelze pork knuckle classic). Different style from Bavarian — more wine-and-snacks than beer-and-self-serve-picnic.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Letna Beer Garden (panoramic city view), Riegrovy sady (outdoor, summer-only), Zahradka. Czech beer prices undercut Munich (CZK 60–80 vs €5+). Outdoor seating standard April–October.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Prater Garten (Berlin's oldest, since 1837 in Prenzlauer Berg), Café am Neuen See in Tiergarten, Schleusenkrug. Berlin beer-garden scene weaker than Munich's but functional.</p>
+
+<h2>Brussels</h2>
+
+<p><a href="/en/belgium/brussels">Brussels</a> Mort Subite, A La Mort Subite (kriek and gueuze tradition). Belgian beer culture — sour lambic, Trappist — different from German. Less garden, more terrace-with-beer-list.</p>
+
+<h2>Stuttgart</h2>
+
+<p>Schwabenpark area Biergartens. Cannstatter Volksfest (autumn) the biggest German beer festival outside Munich Oktoberfest.</p>
+
+<h2>Strategy</h2>
+
+<p>Bavarian beer-garden self-service: get your own beer at the counter (cash usually), buy or bring food. Self-service Maß deposits €2 returned with empty glass. Ordering at table = "Restauration" section, more expensive.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-music-conservatories",
+    title: "Best European Cities for Music Conservatories",
+    excerpt: "Vienna's Hochschule, Paris's Conservatoire National, London's RAM and RCM, Berlin's Hochschule für Musik — Europe's classical-music training hubs concentrate.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Music Conservatories & Training",
+    metaDescription: "Top European music conservatories — Vienna, Paris, London (RAM/RCM), Berlin, Salzburg, Zurich. Programs, auditions, and city-as-music-school.",
+    html: `
+<h2>Conservatory cities matter</h2>
+
+<p>The major conservatories cluster — and around them, ecosystems of teachers, orchestras, masterclasses, and student-priced concerts. Whether attending student recitals, auditioning, or taking summer courses, the cities below offer dense classical-music environments.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Universität für Musik und darstellende Kunst (mdw — University of Music and Performing Arts). Hochschule für Musik. World's most famous conservatory by association. Wiener Philharmoniker integration. <a href="/en/austria/vienna/innere-stadt">Innere Stadt</a> walking distance to Musikverein, Konzerthaus, Staatsoper.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Conservatoire National Supérieur de Musique (Cité de la Musique, La Villette). École Normale de Musique. Strong contemporary-classical scene plus traditional. Dense student-priced concert calendars.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Royal Academy of Music (Marylebone), Royal College of Music (Knightsbridge), Guildhall School of Music and Drama. Three major separate conservatories. Free or £5–10 student recitals weekly. Higher cost of living than Vienna or Berlin.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Hochschule für Musik Hanns Eisler, Universität der Künste (UdK). Berlin Philharmonic + Berlin Konzerthaus + Staatsoper Unter den Linden — three major orchestras and three opera houses. Student concerts plentiful and cheap.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Universität Mozarteum — Mozart-named for a reason. Plus Salzburg Festival (July–August) hosts world's elite. Smaller city = closer student-faculty connections.</p>
+
+<h2>Zurich</h2>
+
+<p><a href="/en/switzerland/zurich">Zurich</a> Zürcher Hochschule der Künste (ZHdK). Tonhalle Orchester Zürich integration. Most expensive European music city but elite teaching.</p>
+
+<h2>Other strong</h2>
+
+<p>Hannover (excellent strings), Cologne (Hochschule für Musik), Florence (Conservatorio Cherubini), Madrid (Real Conservatorio Superior).</p>
+
+<h2>Strategy</h2>
+
+<p>Student recitals nearly always free or under €10 — listed on conservatory websites. Summer masterclasses (June–August) at most institutions accept paid attendance. <a href="/en/articles/best-european-cities-for-classical-music-venues">Classical venues</a> companion guide.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-vintage-camera-shops",
+    title: "Best European Cities for Vintage Camera Shops",
+    excerpt: "London's MW Classic, Tokyo's old Leica reservoir overlap with Paris's photo-equipment shops; Vienna and Prague are eastern-European hidden gems.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 10,
+    metaTitle: "Best European Cities for Vintage Cameras & Film Equipment",
+    metaDescription: "Where to buy vintage cameras — London, Paris, Berlin, Vienna, Prague, Munich. Leica, Hasselblad, Rolleiflex, and film-camera specialists.",
+    html: `
+<h2>Why specific cities</h2>
+
+<p>Film-camera supply concentrates where photo culture stayed strong through the digital transition (London, Paris, Tokyo) plus former-Soviet bloc cities where photographers held onto Leicas and Hasselblads when prices crashed. Vintage camera shops require both supply and informed buyers — both cluster in cities below.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> MW Classic Cameras (Leica specialist), Aperture Photographic (Rathbone Place — multi-format), West End Cameras, Camera City. Leica M3-M6 €1,500–4,000 typical. Reliable authentication and CLA service. <a href="/en/uk/london/soho-fitzrovia">Soho/Fitzrovia</a> dense.</p>
+
+<h2>Paris</h2>
+
+<p><a href="/en/france/paris">Paris</a> Mongiardino (Place de la Madeleine, longtime Leica), Photo Mongiardino, plus shops in <a href="/en/france/paris/le-marais">Le Marais</a>. Wider European-brand stock than London — Voigtländer, Contax, Lino. Drouot auctions occasionally feature serious vintage lots.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Foto Impex (Berlin shop + global mail-order). East German manufacturers (Praktica, Pentacon, Welta) underpriced. Mittelformat (medium-format) Hasselblad and Rolleiflex steady supply.</p>
+
+<h2>Vienna</h2>
+
+<p><a href="/en/austria/vienna">Vienna</a> Leica Galerie. Schauplatz für Fotografie WestLicht hosts world-record-setting auctions of rare Leicas (the most expensive cameras ever sold passed through here). Even non-collectors should browse.</p>
+
+<h2>Prague</h2>
+
+<p><a href="/en/czechia/prague">Prague</a> Foto Škoda, Bazar Foto. Czech-made Flexaret medium-format cameras (Meopta) and older Soviet cameras (Zenit, FED, Kiev) at bargain prices.</p>
+
+<h2>Munich</h2>
+
+<p><a href="/en/germany/munich">Munich</a> Photo Sauter, Foto Klippel. Strong on collectible Voigtländer and Zeiss Ikon cameras. Bavarian heritage of optics.</p>
+
+<h2>Strategy</h2>
+
+<p>Film camera prices climbing 2020–2026 — supply finite. Buy from established shops with return policy, not flea markets. CLA (clean-lubricate-adjust) service often €100–300 for proper restoration. Eight-day testing period standard at reputable shops. Read our <a href="/en/articles/best-european-cities-for-photography">photography guide</a> for shooting locations.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }

@@ -18959,6 +18959,287 @@ ARTICLES.push(
   },
 );
 
+ARTICLES.push(
+  {
+    slug: "best-european-cities-for-craft-vermouth",
+    title: "Best European Cities for Craft Vermouth Tasting",
+    excerpt: "Turin invented vermouth (Carpano, 1786); Madrid runs the Spanish hora del vermut tradition; Reggio Emilia and Chambéry preserve regional French and Italian vermouth heritage.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Craft Vermouth — Turin, Madrid, Chambery",
+    metaDescription: "Vermouth destinations — Turin, Madrid, Reggio Emilia, Chambery. Italian rosso vs Spanish vermut, dry French, and the craft revival.",
+    html: `
+<h2>Vermouth's regional split</h2>
+
+<p>Italian vermouth (Turin-style — sweet rosso or bianco, herbaceous), Spanish vermut (Madrid/Catalonia — sweet, often house-made on tap), French vermouth (Chambéry-dry — drier, used in cocktails). Each city below specializes in one tradition.</p>
+
+<h2>Turin</h2>
+
+<p><a href="/en/italy/turin">Turin</a> the global vermouth birthplace. Carpano (founded 1786, the original vermouth), Cinzano, Martini & Rossi all Turin-region. Bar Cavour (since 1855), Caffè Mulassano serve aperitivo with serious vermouth selection. Negroni and Americano cocktails were both invented in Turin's bars.</p>
+
+<h2>Madrid</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> hora del vermut (vermouth hour, 12pm–2pm Sunday) deeply traditional. Bodegas with vermouth on tap (vermut de grifo) — Casa Mira, Bodegas Alfaro, La Buena Vida. €2.50–4 per glass with olives. <a href="/en/spain/madrid/la-latina">La Latina</a> classic vermut zone.</p>
+
+<h2>Reggio Emilia</h2>
+
+<p>Italy's lesser-known vermouth town. Quaglia (artisan producer), Storico Vermouth Reggiano. Day-trip from <a href="/en/italy/bologna">Bologna</a> (45 min train).</p>
+
+<h2>Chambéry</h2>
+
+<p>French Alps town. Dolin Chambéry (the only AOP-protected French vermouth), Routin. Light, herbal, dry — different style from Italian. Day-trip from <a href="/en/france/lyon">Lyon</a> or Geneva.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Catalan vermut culture stronger than Madrid's in some neighborhoods. Bodegues Maestro, Bar Velódromo. Spanish vermouth on tap an institution.</p>
+
+<h2>Modena</h2>
+
+<p>Vermouth Marolo (artisan producer in Piedmont border region). Close to Bologna's food scene.</p>
+
+<h2>Strategy</h2>
+
+<p>Italian vermouth pairs with bitter aperitifs; Spanish vermut sips solo with olives/anchovies; French dry uses cocktail. €3–8 per glass at proper bars. Tap vermut better than bottled at Spanish bars. Read our <a href="/en/articles/best-european-cities-for-aperitivo-culture">aperitivo</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-yoga-teacher-training",
+    title: "Best European Cities for Yoga Teacher Training (200hr+ YTT)",
+    excerpt: "Lisbon and the Andalusian coast host most affordable European YTT programs; Mallorca and Crete offer beach intensives; Berlin and London the urban academic options.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for 200hr Yoga Teacher Training",
+    metaDescription: "Cities and regions for YTT — Lisbon, Mallorca, Crete, Bali alternative in Europe, Berlin, Rishikesh-style intensives in Andalusia.",
+    html: `
+<h2>YTT formats</h2>
+
+<p>200-hour Yoga Alliance certification is the entry standard. Three formats: residential intensives (3–4 weeks isolated retreat, €2,500–4,500), part-time city programs (3–6 months evenings/weekends, €2,000–3,500), and weekend modular (6+ months over weekends, €2,200–3,800). Cities below excel for each.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> growing YTT hub — Jaya Yoga, Yoga School Portugal. Affordable accommodation during 200hr (€800–1,200/month rent), warm climate year-round, English-language instruction. €2,200–3,500 program fees.</p>
+
+<h2>Andalusia (Sevilla, Granada base)</h2>
+
+<p>Rural Andalusian YTT retreats — Cortijo Romero, Suryalila Retreat (specifically yoga-school). 3-week residential, €2,500–4,000 all-inclusive (lodging + food + tuition). Off-grid setting Indian-ashram-style.</p>
+
+<h2>Mallorca</h2>
+
+<p>Balearic island YTT intensives — Mallorca Yoga Retreat, Cap Rocat (luxury hybrid). Beach + Mediterranean climate. €3,500–6,000 (luxury tier).</p>
+
+<h2>Crete</h2>
+
+<p>Greek island intensives — Yoga Plus, Anatolikos. April–October seasons. €2,800–4,500.</p>
+
+<h2>Berlin</h2>
+
+<p><a href="/en/germany/berlin">Berlin</a> Yoga University Berlin, Anantyoga Studio. Part-time formats for working professionals. Lower retreat-style intensives but more academic depth. €2,000–3,500.</p>
+
+<h2>London</h2>
+
+<p><a href="/en/uk/london">London</a> Triyoga, Camyoga, The Yoga Loft. Premium pricing (£3,500–6,500) but world-class teachers. Weekend formats available.</p>
+
+<h2>Strategy</h2>
+
+<p>Yoga Alliance accreditation matters for international credentials. Off-grid retreats faster transformation; city formats fit working life. Compare teacher experience (registered Yoga Alliance ERYT-500 minimum for lead teachers). Read our <a href="/en/articles/best-european-cities-for-yoga-retreats">yoga retreats</a> companion for non-teacher-training trips.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-classical-music-festivals",
+    title: "Best European Cities for Classical Music Festivals",
+    excerpt: "Salzburg and Bayreuth hold the most prestigious; Edinburgh International Festival, Lucerne, Aix-en-Provence each have global reputation; Verona's opera in the arena.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Classical Music Festivals",
+    metaDescription: "Top European classical music festivals — Salzburg, Bayreuth, Edinburgh, Lucerne, Aix-en-Provence, Verona. Dates, ticket strategies.",
+    html: `
+<h2>Festival prestige hierarchy</h2>
+
+<p>Salzburg and Bayreuth top-tier (€100–600+ per major performance, 2-year-ahead booking); Edinburgh, Lucerne, Aix-en-Provence elite-with-easier-access (€60–250); Verona summer opera democratized (€20–120). Each festival has personality — Wagner-only at Bayreuth, festival opera at Salzburg, broad classical at Edinburgh.</p>
+
+<h2>Salzburg</h2>
+
+<p><a href="/en/austria/salzburg">Salzburg</a> Salzburg Festival (late July–end August). Mozart birthplace, world's most prestigious classical festival. Multiple venues (Festspielhaus, Mozarteum, Felsenreitschule). Tickets €20–600. Hotels 3–4x normal rates.</p>
+
+<h2>Bayreuth</h2>
+
+<p>Wagner Festival (late July–end August). Wagner-only, performed at Festspielhaus designed by Wagner himself (1876). Booking 6–10 years ahead through lottery + direct sales. €100–400.</p>
+
+<h2>Edinburgh</h2>
+
+<p><a href="/en/uk/edinburgh">Edinburgh</a> Edinburgh International Festival (August) — overlaps with Edinburgh Fringe (different organization). Major orchestras and operas. Tickets £25–250. Less Wagner-focus, broader programming.</p>
+
+<h2>Lucerne</h2>
+
+<p>Lucerne Festival (August–early September). KKL Concert Hall (Jean Nouvel-designed). World's elite orchestras pass through — Berliner, Vienna Philharmonic, LSO. CHF 50–400.</p>
+
+<h2>Aix-en-Provence</h2>
+
+<p>Festival d'Aix-en-Provence (July). Operatic premieres, international stars. Outdoor venues plus Théâtre de l'Archevêché. €80–350.</p>
+
+<h2>Verona</h2>
+
+<p>Arena di Verona Opera (June–August). Roman amphitheatre staged operas — Aida, Tosca, Carmen tradition. Tickets €25–250. Touristy but spectacular.</p>
+
+<h2>Glyndebourne</h2>
+
+<p>UK Glyndebourne Festival Opera (East Sussex). Garden picnic + opera tradition. £100–280. Day-trip from London challenging due to dress-formal expectations and timing.</p>
+
+<h2>Strategy</h2>
+
+<p>Tickets release 6–12 months ahead at major festivals. Hotel reservations 12+ months for Salzburg/Bayreuth peak weeks. Off-festival classical (October–April) much cheaper. Read our <a href="/en/articles/best-european-cities-for-symphony-orchestras">symphony orchestras</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-coastal-walks",
+    title: "Best European Cities for Coastal Walks",
+    excerpt: "Cinque Terre's Sentiero Azzurro, Cornwall's South West Coast Path, Costa Brava's Camí de Ronda, Dubrovnik's Adriatic — coastal walks within day-trip distance of cities.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Coastal Walking Routes",
+    metaDescription: "City bases for coastal walks — La Spezia (Cinque Terre), Padstow (Cornwall), Dubrovnik, Porto, Nice, Lisbon. Trails, distances, prices.",
+    html: `
+<h2>City + coastal trail combos</h2>
+
+<p>Each route below has a city base — sleep in hotel, day-walk the coast, return for dinner. Multi-day point-to-point trails too (with luggage transfer) but city-base format more accessible for short trips.</p>
+
+<h2>La Spezia (Cinque Terre)</h2>
+
+<p>La Spezia base for Cinque Terre Sentiero Azzurro (Blue Path, 5km path linking 5 villages). €7.50 trail pass (or Cinque Terre Card). 4–6 hours full-route. Train between villages takes 5–10 min — walk one way, train back. Crowds heavy June–August.</p>
+
+<h2>Padstow / Falmouth (Cornwall)</h2>
+
+<p>Cornwall South West Coast Path — 1,014km total, day-segments accessible from Padstow, Falmouth, St. Ives. Free, well-marked. Highlights Bedruthan Steps, Pentire Point, Lizard Peninsula. Multi-day with B&B network.</p>
+
+<h2>Girona (Costa Brava)</h2>
+
+<p>Camí de Ronda — coastal path from French border to Blanes. Day-segments from Cadaqués, Tossa de Mar. <a href="/en/spain/barcelona">Barcelona</a> 1h drive. Less famous than Cinque Terre, less crowded. Mediterranean Catalan coast.</p>
+
+<h2>Dubrovnik</h2>
+
+<p><a href="/en/croatia/dubrovnik">Dubrovnik</a> wall walk (city walls, 2km, €35) + coastal walks toward Cavtat and Lokrum. Croatian Adriatic clear water. Spring (April-May) optimal.</p>
+
+<h2>Porto</h2>
+
+<p><a href="/en/portugal/porto">Porto</a> Senhora da Hora coastal walk + Foz do Douro promenade. Plus day-trip Caminho Português coastal route (Camino Santiago variant) starting Porto north. Atlantic spray and surf.</p>
+
+<h2>Nice</h2>
+
+<p>French Riviera Promenade des Anglais (city) + Cap Ferrat coastal path (day-trip Saint-Jean-Cap-Ferrat). Mediterranean limestone cliffs.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Cabo da Roca and Sintra coast day-trips — westernmost point of mainland Europe. Atlantic-cliff dramatic. Reach by train + bus to Sintra then coastal walk back.</p>
+
+<h2>Strategy</h2>
+
+<p>Bring water, sun protection, proper hiking shoes (cobblestone-via-coast routes hostile to sneakers). Maritime weather changes fast — bring rain layer. Off-season (April-May, September-October) optimal. Read our <a href="/en/articles/best-european-cities-for-hiking-base">hiking base</a> companion.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-historic-train-stations",
+    title: "Best European Cities for Historic Train Station Architecture",
+    excerpt: "Antwerp Centraal is the world's most beautiful; Madrid Atocha's tropical garden; Milano Centrale's fascist-era marble; Saint Pancras's Victorian-Gothic London icon.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Historic Train Stations",
+    metaDescription: "Architecturally great European train stations — Antwerp, Madrid Atocha, Milano Centrale, London St Pancras, Lisbon Rossio, Helsinki.",
+    html: `
+<h2>Train stations as architecture</h2>
+
+<p>European train stations are some of the grandest civic buildings of the 19th–20th centuries. The cities below have stations worth visiting in their own right — most accessible without ticket.</p>
+
+<h2>Antwerp Centraal</h2>
+
+<p><a href="/en/belgium/antwerp">Antwerp</a> Centraal Station (1905) — multiple architecture awards including "world's most beautiful station" rankings. Three-tier structure, dome, monumental staircases. UNESCO. Free to walk through. Connects to Diamond District.</p>
+
+<h2>Madrid Atocha</h2>
+
+<p><a href="/en/spain/madrid">Madrid</a> Atocha — original 1851 station preserved as tropical garden inside (4,000+ plants). Modern AVE platforms beside. The greenhouse atrium uniquely converts old station into living space.</p>
+
+<h2>Milano Centrale</h2>
+
+<p><a href="/en/italy/milan">Milan</a> Milano Centrale (1931) — fascist-era monumental marble, sculpted reliefs, vast hall. Largest station in Europe by volume. Mussolini-era architecture statement.</p>
+
+<h2>London Saint Pancras</h2>
+
+<p><a href="/en/uk/london">London</a> St Pancras International (1868, restored 2007). Victorian-Gothic facade + 100m-span single train shed. Eurostar terminus to Paris/Brussels/Amsterdam. Champagne bar in shed. <a href="/en/uk/london/kings-cross">King's Cross</a> walking distance.</p>
+
+<h2>Lisbon Rossio</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> Rossio Station (1890) — Manueline Revival horseshoe-arched façade. Smaller scale; stunning entrance. Sintra-line trains depart here.</p>
+
+<h2>Helsinki Central</h2>
+
+<p><a href="/en/finland/helsinki">Helsinki</a> Central Station (1909, Eliel Saarinen). National Romantic style, granite facade, four large statues. Saarinen also designed Yale University, GM Tech Center.</p>
+
+<h2>Budapest Keleti</h2>
+
+<p><a href="/en/hungary/budapest">Budapest</a> Keleti (Eastern Station, 1884) — neo-Renaissance, double-track terminus. Architecturally heavy with Habsburg-Hungarian historic association.</p>
+
+<h2>Frankfurt Hauptbahnhof</h2>
+
+<p><a href="/en/germany/frankfurt">Frankfurt</a> Hauptbahnhof (1888) — five great glass-and-iron train sheds. One of Germany's busiest. Less beautiful than Antwerp but architecturally important.</p>
+
+<h2>Strategy</h2>
+
+<p>Visit stations 8–10am or 2–4pm to avoid commuter rush. Photography permitted in most stations (no flash, no professional rigs without permit). Combine sightseeing with departures from same station. <a href="/en/articles/best-european-cities-for-airport-train-connections">Airport-train</a> for the modern functional counterpart.</p>
+    `.trim(),
+  },
+  {
+    slug: "best-european-cities-for-electronic-music-festivals",
+    title: "Best European Cities for Electronic Music Festivals",
+    excerpt: "Sónar (Barcelona), Awakenings (Amsterdam), Tomorrowland (Belgium), Time Warp (Mannheim), Movement (Turin) — Europe's electronic festival map clusters geographically.",
+    publishedAt: "2026-05-04",
+    reviewedAt: "2026-05-04",
+    readingTimeMin: 11,
+    metaTitle: "Best European Cities for Electronic Music Festivals",
+    metaDescription: "Top European electronic festivals — Sonar Barcelona, Tomorrowland, Time Warp, Awakenings, Movement Turin, ADE. Dates and ticket strategies.",
+    html: `
+<h2>Festival types</h2>
+
+<p>Multi-day commercial mega-festivals (Tomorrowland, Untold), serious-techno underground (Time Warp, Movement), city-takeover hybrids (Sónar, ADE), summer outdoor specials (Awakenings, Sunwaves). Each city below specializes.</p>
+
+<h2>Barcelona</h2>
+
+<p><a href="/en/spain/barcelona">Barcelona</a> Sónar (mid-June, 3 days) — Sónar de Día (afternoon) + Sónar de Noche (night). 100,000+ attendees. Tickets €100–200/day pass. Plus 4YFN tech-side. Mediterranean-summer ambient.</p>
+
+<h2>Boom (Belgium)</h2>
+
+<p>Tomorrowland (Boom, late July, 2 weekends). Largest electronic festival in the world by attendance. Tickets sell out in minutes via lottery. Day-trip from Brussels (1h). €290–400+ multi-day pass.</p>
+
+<h2>Mannheim</h2>
+
+<p>Time Warp (April, 14h overnight) — global techno purist's gathering. €120–180 pass. Day-trip from Frankfurt, Cologne, or Heidelberg. Very serious techno-only programming.</p>
+
+<h2>Amsterdam</h2>
+
+<p><a href="/en/netherlands/amsterdam">Amsterdam</a> Awakenings (June, summer multiple weekends) — major techno festival. Plus Amsterdam Dance Event (October) the world's largest electronic conference + 2,500 events across the city. €60–120/day for major Awakenings sets.</p>
+
+<h2>Turin</h2>
+
+<p><a href="/en/italy/turin">Turin</a> Movement (Detroit-import festival, late October) — serious techno + house programming. €70–150/weekend pass. Smaller than Sónar but technically deeper.</p>
+
+<h2>Lisbon</h2>
+
+<p><a href="/en/portugal/lisbon">Lisbon</a> NOS Alive (multi-genre, July), Bons Sons. Brunch festival format. Lower-key than Barcelona's but growing.</p>
+
+<h2>Sunwaves (Romania)</h2>
+
+<p>Mamaia coast (Black Sea, twice yearly May + August). Romanian house + techno purist. Multi-day camping format. Overnight festivals.</p>
+
+<h2>Strategy</h2>
+
+<p>Tomorrowland tickets via lottery; everything else first-come. Hotels around festivals 3–6x normal rates. Camping options reduce cost significantly at outdoor festivals. Read our <a href="/en/articles/best-european-cities-for-techno-clubs">techno clubs</a> companion.</p>
+    `.trim(),
+  },
+);
+
 export function findArticle(slug: string): Article | undefined {
   return ARTICLES.find((a) => a.slug === slug);
 }
